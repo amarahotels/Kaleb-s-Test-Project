@@ -1,0 +1,35 @@
+name: Update Places Daily
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # Every day at midnight UTC
+  workflow_dispatch:       # allow manual runs from the Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate places.json
+        run: python get_places.py
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+
+      - name: Commit & Push changes (if any)
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add public/data/places.json
+          git diff --quiet && echo "No changes to commit" || git commit -m "Auto-update places.json"
+          git push

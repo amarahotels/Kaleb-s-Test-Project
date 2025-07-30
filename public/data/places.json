@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "name": "Lau Pa Sat",
+    "rating": 4.4,
+    "address": "18 Raffles Quay, Singapore 048582",
+    "place_id": "ChIJ5Y6l4Q0Z2jERYL0KDIjT6v0",
+    "maps_url": "https://maps.google.com/?cid=18296669017417104736&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Maxwell Food Centre",
+    "rating": 4.4,
+    "address": "1 Kadayanallur St, Singapore 069184",
+    "place_id": "ChIJseQsTQ0Z2jERqpBTWF0Zf84",
+    "maps_url": "https://maps.google.com/?cid=14879639582559932586&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Chinatown Complex",
+    "rating": 4.2,
+    "address": "335 Smith St, Singapore 050335",
+    "place_id": "ChIJAenlH3MZ2jERqjoWXlxEH6w",
+    "maps_url": "https://maps.google.com/?cid=12402707062307830442&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Tian Tian Hainanese Chicken Rice",
+    "rating": 4,
+    "address": "1 Kadayanallur St, #01-10/11 Maxwell Food Centre, Singapore 069184",
+    "place_id": "ChIJ2ZDgUg0Z2jERXUJpEsR0Oto",
+    "maps_url": "https://maps.google.com/?cid=15725009434388808285&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Amoy Street Food Centre",
+    "rating": 4.3,
+    "address": "7 Maxwell Rd, Singapore 069111",
+    "place_id": "ChIJ1ZbzmxIZ2jERLxbskKJNx8Q",
+    "maps_url": "https://maps.google.com/?cid=14179387312410727983&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Amara Singapore",
+    "rating": 4.1,
+    "address": "165 Tg Pagar Rd, Singapore 088539",
+    "place_id": "ChIJrXZUXmsZ2jERdZPWv7o3QHA",
+    "maps_url": "https://maps.google.com/?cid=8088526205979366261&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Carlton City Hotel Singapore",
+    "rating": 4.4,
+    "address": "1 Gopeng St, 1, Singapore 078862",
+    "place_id": "ChIJW-HHrWwZ2jERC16smRC_0NQ",
+    "maps_url": "https://maps.google.com/?cid=15334966809215131147&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Chinatown Hawker Center",
+    "rating": 4.3,
+    "address": "21 Banda St, Singapore 050005",
+    "place_id": "ChIJgftoQGYZ2jERYN5VifWB6Ms",
+    "maps_url": "https://maps.google.com/?cid=14693136675867319904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Liao Fan Hawker Chan (Chinatown)",
+    "rating": 3.8,
+    "address": "78 Smith St, Singapore 058972",
+    "place_id": "ChIJ2eV4E3MZ2jERSJO0koIx8GY",
+    "maps_url": "https://maps.google.com/?cid=7417483023156024136&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "September Coffee",
+    "rating": 4.2,
+    "address": "258 South Bridge Rd, #01-01, Singapore 058807",
+    "place_id": "ChIJJ5S86-EZ2jERVT1MfL5F3IA",
+    "maps_url": "https://maps.google.com/?cid=9285373216162594133&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Fortuna - Italian Pizza & Pasta Restaurant",
+    "rating": 4.8,
+    "address": "7 Craig Rd, Singapore 089667",
+    "place_id": "ChIJMdlUdEcZ2jERWCdZrF5aCnY",
+    "maps_url": "https://maps.google.com/?cid=8505710208907552600&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Kok Sen Restaurant || Michelin Bib Gourmand (Chinatown Area)",
+    "rating": 4.1,
+    "address": "Keong Saik Rd., 4, Singapore 089110",
+    "place_id": "ChIJ1UPefHIZ2jERNw75Jntk0oM",
+    "maps_url": "https://maps.google.com/?cid=9498765044175408695&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "L'antica Pizzeria Da Michele, Singapore",
+    "rating": 4.5,
+    "address": "8 Club St, Unit 01-08, Singapore 069472",
+    "place_id": "ChIJp-p9TQAZ2jERsKCEh6lgKcQ",
+    "maps_url": "https://maps.google.com/?cid=14134935186718367920&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "MERCI MARCEL CLUB STREET",
+    "rating": 4.7,
+    "address": "7-9 Club St, Singapore 069403",
+    "place_id": "ChIJoQvLtqkZ2jERKOVZn48aivQ",
+    "maps_url": "https://maps.google.com/?cid=17620925696196601128&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Um Yong Baek",
+    "rating": 4.4,
+    "address": "27 Boon Tat St, #01, Singapore 069623",
+    "place_id": "ChIJO5O7_NMZ2jERQgxIxLAonDI",
+    "maps_url": "https://maps.google.com/?cid=3646834537935670338&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Great Nanyang Heritage Cafe 大南洋",
+    "rating": 4.1,
+    "address": "5 Craig Rd, Singapore 089665",
+    "place_id": "ChIJL1s64ccZ2jERWJa6Ep5wrdw",
+    "maps_url": "https://maps.google.com/?cid=15901489683536451160&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "My Awesome Cafe",
+    "rating": 4.7,
+    "address": "202 Telok Ayer St, Singapore 068639",
+    "place_id": "ChIJ83SVew0Z2jERsfl0iOB4Pco",
+    "maps_url": "https://maps.google.com/?cid=14572936874998167985&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Mandala Club",
+    "rating": 4.3,
+    "address": "31 Bukit Pasoh Rd, Singapore 089845",
+    "place_id": "ChIJAemBQSsZ2jEROll-LrhYD9U",
+    "maps_url": "https://maps.google.com/?cid=15352587202806569274&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "The Populus",
+    "rating": 4.3,
+    "address": "146 Neil Rd, Singapore 088875",
+    "place_id": "ChIJ40h2uW0Z2jERA_TAOvT0Uzs",
+    "maps_url": "https://maps.google.com/?cid=4275029801099654147&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  },
+  {
+    "name": "Common Man Coffee Roasters - Stanley Street",
+    "rating": 4.4,
+    "address": "11, 12 Stanley St, Singapore 068730",
+    "place_id": "ChIJzeQ8gw0Z2jERhGLaINksUXI",
+    "maps_url": "https://maps.google.com/?cid=8237414504508056196&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA"
+  }
+]
