@@ -1,0 +1,155 @@
+/* ===== Amara‑inspired palette & typography ===== */
+:root{
+  --bg: #f6f3ee;          /* soft linen */
+  --panel: #ffffff;       /* white cards */
+  --border: #e7e2da;      /* light beige border */
+  --text: #2b2b2b;        /* charcoal text */
+  --muted: #6b7280;       /* muted grey */
+  --brand: #b78a56;       /* gold/brass accent */
+  --brand-deep: #8e6b3f;  /* deeper gold */
+  --chip: #f3eadc;        /* pale gold */
+  --radius: 16px;
+  --shadow-sm: 0 2px 10px rgba(38,28,18,.06);
+  --shadow-md: 0 12px 30px rgba(38,28,18,.12);
+}
+
+*{box-sizing:border-box}
+html,body{
+  margin:0;padding:0;background:var(--bg);color:var(--text);
+  font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+}
+
+/* widen content slightly to reduce side emptiness */
+.wrap{width:min(1200px,94%);margin-inline:auto}
+
+/* ---------------- Background design (no gradients) ---------------- */
+/* Subtle dot pattern (inline SVG) */
+body::before{
+  content:"";
+  position:fixed; inset:0; pointer-events:none; z-index:-2;
+  opacity:.45;
+  background-image:
+    url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'>\
+  <circle cx='3' cy='3' r='1' fill='%23e9e3db'/>\
+  <circle cx='17' cy='17' r='1' fill='%23efe9e1'/>\
+</svg>");
+  background-size:28px 28px;
+  background-repeat:repeat;
+}
+
+/* Corner ornaments (thin gold arcs) */
+body::after{
+  content:"";
+  position:fixed; top:24px; right:24px; width:220px; height:220px;
+  pointer-events:none; z-index:-1; opacity:.35;
+  background:
+    url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200' fill='none' stroke='%23b78a56' stroke-width='1.5'>\
+  <path d='M10,190 A180,180 0 0 1 190,10'/>\
+  <path d='M30,190 A160,160 0 0 1 190,30'/>\
+  <path d='M55,190 A135,135 0 0 1 190,55'/>\
+</svg>") center/contain no-repeat;
+}
+
+/* mirror ornament bottom-left */
+.footer::after{
+  content:"";
+  position:fixed; left:24px; bottom:24px; width:220px; height:220px;
+  pointer-events:none; z-index:-1; opacity:.32;
+  background:
+    url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200' fill='none' stroke='%23b78a56' stroke-width='1.5'>\
+  <path d='M10,190 A180,180 0 0 0 190,10'/>\
+  <path d='M30,170 A160,160 0 0 0 170,30'/>\
+  <path d='M55,150 A135,135 0 0 0 150,55'/>\
+</svg>") center/contain no-repeat;
+}
+
+/* ---------------- Header ---------------- */
+.hero{
+  /* remove gradient here to honor the "no gradient" request */
+  background: transparent;
+  border-bottom:1px solid var(--border);
+  padding:48px 0 30px;
+  text-align:center;
+}
+.brand-title{font-size:clamp(28px,3.2vw,42px);margin:0 0 8px}
+.brand{color:var(--brand)}
+.subtitle{color:var(--muted);margin:0}
+
+/* ---------------- Section ---------------- */
+.section{padding:30px 0}
+.section h2{
+  margin:0 0 14px;font-size:22px;font-weight:700;letter-spacing:.2px;
+  position:relative;display:inline-block;padding-right:10px;
+}
+.section h2::after{
+  content:"";position:absolute;left:0;right:0;bottom:-8px;height:2px;
+  background:linear-gradient(90deg, rgba(183,138,86,.6), transparent 70%);
+}
+
+.section-head{
+  display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap
+}
+
+/* ---------------- Controls ---------------- */
+.controls{
+  background:var(--panel);border:1px solid var(--border);border-radius:999px;
+  padding:8px 10px;box-shadow:var(--shadow-sm)
+}
+.controls label{color:var(--muted);margin:0 6px;font-size:14px}
+select{
+  appearance:none;background:var(--panel);color:var(--text);
+  border:1px solid var(--border);border-radius:10px;padding:8px 12px;
+}
+select:focus{outline:2px solid rgba(183,138,86,.35)}
+
+/* ---------------- Grid & Cards ---------------- */
+.grid{
+  display:grid;gap:20px;
+  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+}
+
+.card{
+  background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+  padding:12px;box-shadow:var(--shadow-sm);transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);border-color:#e0d9cf}
+
+.thumb-wrap{
+  position:relative;border-radius:12px;overflow:hidden;
+  border:1px solid var(--border);background:#f2eee8;margin-bottom:10px
+}
+.thumb{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;transition:transform .35s ease}
+.card:hover .thumb{transform:scale(1.03)}
+.thumb-wrap::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg, transparent 65%, rgba(0,0,0,.05));
+  pointer-events:none;
+}
+
+.rating-pill{
+  position:absolute;top:10px;right:10px;
+  background:var(--chip);border:1px solid rgba(183,138,86,.55);color:var(--brand-deep);
+  padding:4px 9px;border-radius:999px;font-size:12px;font-weight:700;
+  box-shadow:var(--shadow-sm);backdrop-filter:saturate(120%) blur(2px);
+}
+
+.title{font-weight:700;margin:0 0 6px;font-size:15px}
+.addr{color:var(--muted);font-size:13.5px;margin:6px 0 10px}
+.actions .btn-link{
+  display:inline-block;text-decoration:none;
+  color:var(--brand-deep);font-weight:700;font-size:14px;
+  border-bottom:1px solid rgba(183,138,86,.4);padding-bottom:2px
+}
+.actions .btn-link:hover{color:var(--brand);border-color:rgba(183,138,86,.75)}
+
+.notice{
+  background:#fff4ea;border:1px solid #f0dcc1;color:#8a5a2b;
+  padding:12px;border-radius:12px;box-shadow:var(--shadow-sm)
+}
+.hidden{display:none}
+
+/* ---------------- Footer ---------------- */
+.footer{border-top:1px solid var(--border);padding:22px 0;margin-top:26px;color:var(--muted);text-align:center}

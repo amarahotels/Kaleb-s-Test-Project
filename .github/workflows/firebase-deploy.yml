@@ -1,0 +1,22 @@
+name: Deploy to Firebase Hosting
+
+on:
+  push:
+    branches: [ "main" ]   # deploy whenever main updates
+  workflow_dispatch:        # allow manual runs
+
+jobs:
+  deploy:
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install Firebase CLI
+        run: npm install -g firebase-tools
+
+      - name: Deploy to Firebase
+        # Replace PROJECT_ID with your real Firebase project ID
+        run: firebase deploy --project amara-concierge-88c12 --only hosting --token ${{ secrets.FIREBASE_TOKEN }}

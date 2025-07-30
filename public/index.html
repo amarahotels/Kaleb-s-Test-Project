@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Explore Around Amara – Tanjong Pagar</title>
+  <meta name="description" content="Quick guide for Amara Hotel staff & guests: best food and places near Tanjong Pagar." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="hero">
+    <div class="wrap">
+      <h1 class="brand-title">Explore Around <span class="brand">Amara</span></h1>
+      <p class="subtitle">Handpicked nearby places for staff & guests near Tanjong Pagar.</p>
+    </div>
+  </header>
+
+  <!-- Places only -->
+  <main class="wrap">
+    <section id="places" class="section">
+      <div class="section-head">
+        <h2>Top nearby places</h2>
+        <div class="controls">
+          <label>
+            Sort:
+            <select id="sortSelect" aria-label="Sort places">
+              <option value="ratingDesc">Rating (high → low)</option>
+              <option value="nameAsc">Name (A → Z)</option>
+            </select>
+          </label>
+          <label>
+            Minimum rating:
+            <select id="minRating" aria-label="Minimum rating">
+              <option value="0">All</option>
+              <option value="3.5">3.5+</option>
+              <option value="4.0" selected>4.0+</option>
+              <option value="4.5">4.5+</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div id="placeList" class="grid"></div>
+
+      <div id="placesError" class="notice hidden">
+        Couldn’t load nearby places right now. Please try again later.
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> Amara – Concierge Guide (MVP)</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
