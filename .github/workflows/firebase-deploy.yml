@@ -2,8 +2,11 @@ name: Deploy to Firebase Hosting
 
 on:
   push:
-    branches: [ "main" ]   # deploy whenever main updates
-  workflow_dispatch:        # allow manual runs
+    branches:
+      - main     # run when you push to main
+  schedule:
+    - cron: "30 2 * * *"  # Runs daily at 10:30 AM SGT
+  workflow_dispatch:       # allow manual trigger via GitHub UI
 
 jobs:
   deploy:
