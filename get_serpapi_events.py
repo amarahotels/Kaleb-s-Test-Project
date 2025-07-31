@@ -25,7 +25,7 @@ for e in data.get("events_results", []):
         "venue": e.get("address"),
         "address": e.get("address"),
         "url": e.get("link"),
-        "image": e.get("thumbnail"),
+        "image": e.get("image") or e.get("thumbnail"),
         "category": e.get("event_location", {}).get("name", ""),
         "source": "google_events"
     })
