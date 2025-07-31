@@ -1,46 +1,44 @@
-# .github/workflows/update-events.yml
 name: Update Events from SerpAPI
 
 on:
-  push:
-    paths:
-      - get_serpapi_events.py
-      - process_event_images.py
-      - .github/workflows/update-events.yml
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 8 * * *'  # Runs every day at 8 AM UTC
+  workflow_dispatch:     # Allows manual trigger
 
 jobs:
   scrape-events:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ⬇️ Checkout repository
+      - name: 🧾 Checkout repository
         uses: actions/checkout@v3
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
       - name: 📦 Install dependencies
-        run: |
-          pip install requests beautifulsoup4
+        run: pip install requests beautifulsoup4 pillow
 
-      - name: 🔎 Fetch events from SerpAPI
+      - name: 📡 Fetch events from SerpAPI
         run: python get_serpapi_events.py
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
 
-      - name: 🖼️ Scrape high-res images from event links
+      - name: 🎨 Process event images
         run: python process_event_images.py
 
-      - name: 💾 Commit and push events.json and images
+      - name: 💾 Commit and push events.json and images if they changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add public/data/events.json public/data/event_images/
-          if git diff --cached --quiet; then
-            echo "✅ No changes to commit."
-          else
-            git commit -m "chore: update events.json + high-res images"
+
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git commit -m "chore: update events.json and images from SerpAPI"
             git push
+          else
+            echo "✅ No changes to commit."
           fi
