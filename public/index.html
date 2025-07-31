@@ -13,25 +13,30 @@
     <div class="wrap">
       <h1 class="brand-title">Explore Around <span class="brand">Amara</span></h1>
       <p class="subtitle">Handpicked nearby places for staff & guests near Tanjong Pagar.</p>
+      <nav class="nav">
+        <button class="nav-btn active" data-tab="places">🍜 Places</button>
+        <button class="nav-btn" data-tab="events">🎉 Events</button>
+      </nav>
     </div>
   </header>
 
-  <!-- Places only -->
+  <!-- Main Content -->
   <main class="wrap">
+    <!-- Places -->
     <section id="places" class="section">
       <div class="section-head">
         <h2>Top nearby places</h2>
         <div class="controls">
           <label>
             Sort:
-            <select id="sortSelect" aria-label="Sort places">
+            <select id="sortSelect">
               <option value="ratingDesc">Rating (high → low)</option>
               <option value="nameAsc">Name (A → Z)</option>
             </select>
           </label>
           <label>
             Minimum rating:
-            <select id="minRating" aria-label="Minimum rating">
+            <select id="minRating">
               <option value="0">All</option>
               <option value="3.5">3.5+</option>
               <option value="4.0" selected>4.0+</option>
@@ -40,12 +45,17 @@
           </label>
         </div>
       </div>
-
       <div id="placeList" class="grid"></div>
+      <div id="placesError" class="notice hidden">Couldn’t load nearby places right now.</div>
+    </section>
 
-      <div id="placesError" class="notice hidden">
-        Couldn’t load nearby places right now. Please try again later.
+    <!-- Events -->
+    <section id="events" class="section hidden">
+      <div class="section-head">
+        <h2>Upcoming Events</h2>
       </div>
+      <div id="eventList" class="grid"></div>
+      <div id="eventsError" class="notice hidden">Couldn’t load events right now.</div>
     </section>
   </main>
 
@@ -57,4 +67,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>

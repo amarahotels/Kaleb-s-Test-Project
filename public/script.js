@@ -85,5 +85,51 @@ function esc(s=''){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'
 sortSel?.addEventListener('change', render);
 minRatingSel?.addEventListener('change', render);
 
+// NAV TOGGLE
+document.querySelectorAll('.nav-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    const tab = btn.dataset.tab;
+    document.getElementById('places').classList.toggle('hidden', tab !== 'places');
+    document.getElementById('events').classList.toggle('hidden', tab !== 'events');
+  });
+});
+
+// LOAD EVENTS
+async function loadEvents() {
+  try {
+    const res = await fetch(`data/events.json?ts=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    const events = data?.events || [];
+    renderEvents(events);
+  } catch (e) {
+    console.error('Failed to fetch events.json', e);
+    document.getElementById('eventsError')?.classList.remove('hidden');
+  }
+}
+
+function renderEvents(events) {
+  const list = document.getElementById('eventList');
+  if (!list) return;
+
+  list.innerHTML = events.slice(0, 24).map(e => `
+    <article class="card">
+      ${e.image ? `<div class="thumb-wrap"><img class="thumb" src="${e.image}" alt="${esc(e.title)}" loading="lazy"></div>` : ''}
+      <div class="title">${esc(e.title)}</div>
+      <div class="addr">${esc(e.venue?.join(', ') || '')}</div>
+      <div class="addr"><b>${esc(e.start || '')}</b></div>
+      <div class="actions">
+        ${e.url ? `<a class="btn-link" href="${e.url}" target="_blank">Event Link</a>` : ''}
+      </div>
+    </article>
+  `).join('') || `<div class="notice">No events found.</div>`;
+}
+
+loadEvents();
+
+
 // start
 loadPlaces();
