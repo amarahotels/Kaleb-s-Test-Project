@@ -1,58 +1,44 @@
 import os
 import json
 import requests
-from bs4 import BeautifulSoup
+from PIL import Image
+from io import BytesIO
 
-# Input JSON
-EVENTS_PATH = "public/data/events.json"
-# Output images
-IMAGES_DIR = "public/data/event_images"
-# Save original low-quality fallback image too (optional)
-SAVE_LOW_RES = True
+IMAGE_DIR = 'public/data/event_images'
 
-os.makedirs(IMAGES_DIR, exist_ok=True)
+# Make sure directory exists
+os.makedirs(IMAGE_DIR, exist_ok=True)
 
-with open(EVENTS_PATH, "r", encoding="utf-8") as f:
+# Add .gitkeep file if it's a new folder
+gitkeep_path = os.path.join(IMAGE_DIR, '.gitkeep')
+if not os.path.exists(gitkeep_path):
+    with open(gitkeep_path, 'w') as f:
+        f.write('')
+
+# Load the events
+with open('public/data/events.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-events = data.get("events", [])
+# Process images
+for idx, event in enumerate(data.get('events', [])):
+    img_url = event.get('image')
+    if not img_url:
+        continue
 
-for idx, event in enumerate(events):
-    event_url = event.get("url")
-    fallback_img = event.get("image")  # Optional
+    try:
+        response = requests.get(img_url, timeout=10)
+        response.raise_for_status()
+        img = Image.open(BytesIO(response.content)).convert("RGB")
 
-    img_url = None
+        filename = f"event_{idx+1}.jpg"
+        save_path = os.path.join(IMAGE_DIR, filename)
+        img.save(save_path, format="JPEG", quality=90)
 
-    if event_url:
-        try:
-            resp = requests.get(event_url, timeout=10)
-            soup = BeautifulSoup(resp.text, "html.parser")
-            meta_img = soup.find("meta", property="og:image")
-            if meta_img and meta_img.get("content"):
-                img_url = meta_img["content"]
-        except Exception as e:
-            print(f"[{idx}] Failed to fetch og:image from {event_url}: {e}")
+        # Update JSON to point to local image
+        event['image'] = f"data/event_images/{filename}"
+    except Exception as e:
+        print(f"❌ Error downloading image {img_url}: {e}")
 
-    if not img_url and fallback_img and SAVE_LOW_RES:
-        img_url = fallback_img
-
-    if img_url:
-        try:
-            img_ext = os.path.splitext(img_url.split("?")[0])[-1]
-            img_ext = img_ext if img_ext in [".jpg", ".jpeg", ".png"] else ".jpg"
-            img_path = f"{IMAGES_DIR}/event_{idx+1}{img_ext}"
-
-            img_data = requests.get(img_url, timeout=10).content
-            with open(img_path, "wb") as f:
-                f.write(img_data)
-
-            # Update the event with local path
-            event["image"] = f"data/event_images/event_{idx+1}{img_ext}"
-        except Exception as e:
-            print(f"[{idx}] Failed to save image from {img_url}: {e}")
-    else:
-        print(f"[{idx}] No image available for {event.get('title')}")
-
-# Save updated JSON
-with open(EVENTS_PATH, "w", encoding="utf-8") as f:
+# Save updated events
+with open('public/data/events.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
