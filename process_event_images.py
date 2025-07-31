@@ -23,9 +23,11 @@ with open('public/data/events.json', 'r', encoding='utf-8') as f:
 for idx, event in enumerate(data.get('events', [])):
     img_url = event.get('image')
     if not img_url:
+        print(f"🔸 Event {idx+1} has no image URL.")
         continue
 
     try:
+        print(f"🔄 Downloading image: {img_url}")
         response = requests.get(img_url, timeout=10)
         response.raise_for_status()
         img = Image.open(BytesIO(response.content)).convert("RGB")
@@ -34,10 +36,11 @@ for idx, event in enumerate(data.get('events', [])):
         save_path = os.path.join(IMAGE_DIR, filename)
         img.save(save_path, format="JPEG", quality=90)
 
-        # Update JSON to point to local image
+        print(f"✅ Saved: {save_path}")
         event['image'] = f"data/event_images/{filename}"
     except Exception as e:
-        print(f"❌ Error downloading image {img_url}: {e}")
+        print(f"❌ Failed to download {img_url}: {e}")
+
 
 # Save updated events
 with open('public/data/events.json', 'w', encoding='utf-8') as f:

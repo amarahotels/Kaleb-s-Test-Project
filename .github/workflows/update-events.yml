@@ -1,9 +1,12 @@
 name: Update Events from SerpAPI
 
 on:
+  push:
+    branches:
+      - main     # run when you push to main
   schedule:
-    - cron: '0 8 * * *'  # Runs every day at 8 AM UTC
-  workflow_dispatch:     # Allows manual trigger
+    - cron: "30 2 * * *"  # Runs daily at 10:30 AM SGT
+  workflow_dispatch:       # allow manual trigger via GitHub UI
 
 jobs:
   scrape-events:
