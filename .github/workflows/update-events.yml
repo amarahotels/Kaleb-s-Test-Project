@@ -2,7 +2,7 @@ name: Update Events Daily
 
 on:
   schedule:
-    - cron: '0 0 * * *'    # daily at 00:00 UTC (08:00 SGT)
+    - cron: '0 0 * * *'   # 00:00 UTC (08:00 SGT)
   workflow_dispatch:
 
 jobs:
@@ -12,6 +12,12 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
+
+      # (Optional) quick probe: verify token works
+      - name: Probe Eventbrite API (users/me)
+        run: |
+          curl -sfS "https://www.eventbriteapi.com/v3/users/me/?token=${{ secrets.EVENTBRITE_TOKEN }}" \
+            -H "Accept: application/json" | head -c 200
 
       - uses: actions/setup-python@v4
         with:
