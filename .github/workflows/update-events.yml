@@ -6,43 +6,41 @@ on:
     paths:
       - get_serpapi_events.py
       - process_event_images.py
+      - .github/workflows/update-events.yml
   schedule:
-    - cron: "0 5 * * *" # runs daily at 1 PM Singapore time
-  workflow_dispatch:
+    - cron: "0 0 * * *"
 
 jobs:
   scrape-events:
     runs-on: ubuntu-latest
+
     steps:
-      - name: 📦 Checkout repository
+      - name: ⬇️ Checkout repository
         uses: actions/checkout@v3
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: "3.11"
 
       - name: 📦 Install dependencies
         run: |
-          pip install requests Pillow
+          pip install requests beautifulsoup4
 
-      - name: 🧠 Fetch events from SerpAPI
-        env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+      - name: 🔎 Fetch events from SerpAPI
         run: python get_serpapi_events.py
 
-      - name: 🖼️ Process and save event images
+      - name: 🖼️ Scrape high-res images from event links
         run: python process_event_images.py
 
-      - name: 💾 Commit and push events.json and images if they changed
+      - name: 💾 Commit and push events.json and images
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
           git add public/data/events.json public/data/event_images/
           if git diff --cached --quiet; then
             echo "✅ No changes to commit."
           else
-            git commit -m "chore: update events.json and event images"
+            git commit -m "chore: update events.json + high-res images"
             git push
           fi
