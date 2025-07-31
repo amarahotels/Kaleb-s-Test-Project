@@ -1,35 +1,37 @@
-name: Update Places Daily
+name: Update Events from SerpAPI
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # Every day at midnight UTC
-  workflow_dispatch:       # allow manual runs from the Actions tab
+    - cron: "30 2 * * *"  # Every day at 10:30am SGT
+  workflow_dispatch:
 
 jobs:
-  update:
+  scrape-events:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: 3.11
 
       - name: Install dependencies
         run: pip install requests
 
-      - name: Generate places.json
-        run: python get_places.py
+      - name: Run SerpAPI event fetcher
         env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python get_serpapi_events.py
 
-      - name: Commit & Push changes (if any)
+      - name: Commit and push if changed
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add public/data/places.json
-          git diff --quiet && echo "No changes to commit" || git commit -m "Auto-update places.json"
-          git push
+          if [[ -n "$(git status --porcelain events.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add events.json
+            git commit -m "chore: update events.json from SerpAPI"
+            git push
+          else
+            echo "No changes to commit."

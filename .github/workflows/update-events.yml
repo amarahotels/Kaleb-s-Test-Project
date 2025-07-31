@@ -1,0 +1,27 @@
+name: Update Events from SerpAPI
+
+on:
+  schedule:
+    - cron: "30 2 * * *"  # Daily at 10:30am SGT
+  workflow_dispatch:
+
+jobs:
+  scrape-events:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch events from SerpAPI
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: |
+          python3 -c "
