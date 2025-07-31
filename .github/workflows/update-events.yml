@@ -22,7 +22,7 @@ jobs:
           python-version: 3.11
 
       - name: 📦 Install dependencies
-        run: pip install requests
+        run: pip install requests pillow
 
       - name: 🔍 Fetch events from SerpAPI
         env:
