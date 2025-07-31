@@ -1,45 +1,48 @@
+# .github/workflows/update-events.yml
 name: Update Events from SerpAPI
 
 on:
   push:
-    branches:
-      - main     # run when you push to main
+    paths:
+      - get_serpapi_events.py
+      - process_event_images.py
   schedule:
-    - cron: "30 2 * * *"  # Runs daily at 10:30 AM SGT
-  workflow_dispatch:       # allow manual trigger via GitHub UI
+    - cron: "0 5 * * *" # runs daily at 1 PM Singapore time
+  workflow_dispatch:
 
 jobs:
   scrape-events:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 📥 Checkout repository
-        uses: actions/checkout@v4
+      - name: 📦 Checkout repository
+        uses: actions/checkout@v3
 
       - name: 🐍 Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.11
+          python-version: "3.10"
 
       - name: 📦 Install dependencies
-        run: pip install requests pillow
+        run: |
+          pip install requests Pillow
 
-      - name: 🔍 Fetch events from SerpAPI
+      - name: 🧠 Fetch events from SerpAPI
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python get_serpapi_events.py
 
-      - name: 🖼️ Download and save event images
+      - name: 🖼️ Process and save event images
         run: python process_event_images.py
 
-      - name: 💾 Commit and push updated files
+      - name: 💾 Commit and push events.json and images if they changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          
           git add public/data/events.json public/data/event_images/
           if git diff --cached --quiet; then
             echo "✅ No changes to commit."
           else
-            git commit -m "chore: update events.json and images"
+            git commit -m "chore: update events.json and event images"
             git push
           fi

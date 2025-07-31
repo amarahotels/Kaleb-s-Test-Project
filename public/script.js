@@ -117,7 +117,11 @@ function renderEvents(events) {
 
   list.innerHTML = events.slice(0, 24).map(e => `
     <article class="card">
-      ${e.image ? `<div class="thumb-wrap"><img class="thumb" src="${e.image}" alt="${esc(e.title)}" loading="lazy"></div>` : ''}
+      <div class="thumb-wrap">
+        <img class="thumb" src="data/event_images/resized/event_${events.indexOf(e) + 1}.jpg"
+             onerror="this.onerror=null; this.src='data/event_images/original/event_${events.indexOf(e) + 1}.jpg';"
+             alt="${esc(e.title)}" loading="lazy">
+      </div>
       <div class="title">${esc(e.title)}</div>
       <div class="addr">${esc(e.venue?.join(', ') || '')}</div>
       <div class="addr"><b>${esc(e.start || '')}</b></div>
@@ -127,6 +131,7 @@ function renderEvents(events) {
     </article>
   `).join('') || `<div class="notice">No events found.</div>`;
 }
+
 
 loadEvents();
 
