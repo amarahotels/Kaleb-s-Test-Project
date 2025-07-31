@@ -1,82 +1,65 @@
 import os
-import json
 import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse
+import json
 from datetime import datetime
 
-# Load SERPAPI key from env
+# Setup
 API_KEY = os.environ.get("SERPAPI_KEY")
 QUERY = "events in Singapore this weekend"
+IMAGE_DIR = "public/data/event_images"
+EVENTS_JSON_PATH = "public/data/events.json"
 
-# Create image directory if it doesn't exist
-os.makedirs("public/data/event_images", exist_ok=True)
+# Ensure directory exists
+os.makedirs(IMAGE_DIR, exist_ok=True)
 
-# SerpAPI search parameters
+# Query SerpAPI
 params = {
     "engine": "google_events",
     "q": QUERY,
     "api_key": API_KEY
 }
-
-# Step 1: Call SerpAPI
 res = requests.get("https://serpapi.com/search", params=params)
 data = res.json()
 
-def get_high_res_image(event_url):
-    """Scrape high-res image from event page using og:image"""
-    try:
-        resp = requests.get(event_url, timeout=10)
-        soup = BeautifulSoup(resp.text, "html.parser")
-        tag = soup.find("meta", property="og:image")
-        if tag and tag.get("content"):
-            return tag["content"]
-    except:
-        pass
-    return None
-
-def download_image(image_url, index):
-    """Download image to local directory and return local path"""
-    try:
-        resp = requests.get(image_url, stream=True, timeout=10)
-        ext = os.path.splitext(urlparse(image_url).path)[1] or ".jpg"
-        filename = f"event_{index}{ext}"
-        filepath = f"public/data/event_images/{filename}"
-        with open(filepath, "wb") as f:
-            for chunk in resp.iter_content(1024):
-                f.write(chunk)
-        return f"/data/event_images/{filename}"
-    except:
-        return ""
-
-# Step 2: Extract & download events
+# Extract events and download images
 events = []
-for idx, e in enumerate(data.get("events_results", [])):
-    url = e.get("link")
-    fallback_thumb = e.get("thumbnail", "")
-    og_image = get_high_res_image(url) or fallback_thumb
-    local_image_path = download_image(og_image, idx)
+for i, e in enumerate(data.get("events_results", [])):
+    title = e.get("title")
+    image_url = e.get("thumbnail")
+    image_path = ""
+
+    if image_url:
+        try:
+            img_data = requests.get(image_url, timeout=10).content
+            image_filename = f"event_{i+1}.jpg"
+            image_path = f"{IMAGE_DIR}/{image_filename}"
+            with open(image_path, "wb") as img_file:
+                img_file.write(img_data)
+            # For frontend JSON, use relative public path
+            image_path = f"/data/event_images/{image_filename}"
+        except Exception as err:
+            print(f"❌ Failed to download image {image_url}: {err}")
+            image_path = ""  # fallback to empty string
 
     events.append({
-        "title": e.get("title"),
+        "title": title,
         "start": e.get("date", {}).get("start_date", ""),
         "end": e.get("date", {}).get("end_date", ""),
         "venue": e.get("address"),
         "address": e.get("address"),
-        "url": url,
-        "image": local_image_path,  # 🔁 Now points to local Firebase-hosted file
+        "url": e.get("link"),
+        "image": image_path,
         "category": e.get("event_location", {}).get("name", ""),
         "source": "google_events"
     })
 
-# Step 3: Save final JSON to public/data/
+# Save JSON
 output = {
     "source": "google_events",
     "generated_at": datetime.utcnow().isoformat() + "Z",
     "events": events
 }
-
-with open("public/data/events.json", "w", encoding="utf-8") as f:
+with open(EVENTS_JSON_PATH, "w", encoding="utf-8") as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 
-print(f"✅ Saved {len(events)} events and downloaded images to public/data")
+print(f"✅ Saved {len(events)} events to {EVENTS_JSON_PATH}")
