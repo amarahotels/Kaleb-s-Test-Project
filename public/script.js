@@ -29,29 +29,25 @@ function render() {
   if (!listEl) return;
   if (errorEl) errorEl.classList.add('hidden');
 
-  // filter by rating
   const minR = parseFloat(minRatingSel?.value || '0');
   let items = allPlaces.filter(p => {
     const r = num(p.rating);
     return Number.isFinite(r) ? r >= minR : true;
   });
 
-  // sort
   const sort = sortSel?.value || 'ratingDesc';
   if (sort === 'ratingDesc') {
-    items.sort((a,b) => num(b.rating) - num(a.rating));
+    items.sort((a, b) => num(b.rating) - num(a.rating));
   } else {
-    items.sort((a,b) => (a.name || '').localeCompare(b.name || ''));
+    items.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
   }
 
-  // brochure size
   items = items.slice(0, 24);
 
   listEl.innerHTML = items.map(cardHtml).join('') ||
     `<div class="notice">No places found.</div>`;
 }
 
-// build one card
 function cardHtml(p) {
   const name = esc(p.name || 'Unknown');
   const addr = esc(p.address || '');
@@ -77,11 +73,11 @@ function cardHtml(p) {
   `;
 }
 
-// helpers
 const num = v => Number.isFinite(v) ? v : parseFloat(v);
-function esc(s=''){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function esc(s = '') {
+  return s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
 
-// events
 sortSel?.addEventListener('change', render);
 minRatingSel?.addEventListener('change', render);
 
@@ -117,11 +113,7 @@ function renderEvents(events) {
 
   list.innerHTML = events.slice(0, 24).map(e => `
     <article class="card">
-      <div class="thumb-wrap">
-        <img class="thumb" src="data/event_images/resized/event_${events.indexOf(e) + 1}.jpg"
-             onerror="this.onerror=null; this.src='data/event_images/original/event_${events.indexOf(e) + 1}.jpg';"
-             alt="${esc(e.title)}" loading="lazy">
-      </div>
+      ${e.image ? `<div class="thumb-wrap"><img class="thumb" src="${e.image}" alt="${esc(e.title)}" loading="lazy"></div>` : ''}
       <div class="title">${esc(e.title)}</div>
       <div class="addr">${esc(e.venue?.join(', ') || '')}</div>
       <div class="addr"><b>${esc(e.start || '')}</b></div>
@@ -132,9 +124,5 @@ function renderEvents(events) {
   `).join('') || `<div class="notice">No events found.</div>`;
 }
 
-
 loadEvents();
-
-
-// start
 loadPlaces();

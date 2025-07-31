@@ -1,5 +1,4 @@
-name: Update Events from SerpAPI
-
+name: 🗓 Update Events
 on:
   push:
     branches:
@@ -7,41 +6,38 @@ on:
   schedule:
     - cron: "30 2 * * *"  # Runs daily at 10:30 AM SGT
   workflow_dispatch:       # allow manual trigger via GitHub UI
-
 jobs:
-  scrape-events:
+  update-events:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🧾 Checkout repository
+      - name: ⬇️ Checkout repository
         uses: actions/checkout@v3
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: "3.10"
 
       - name: 📦 Install dependencies
-        run: pip install requests beautifulsoup4 pillow
+        run: pip install requests
 
-      - name: 📡 Fetch events from SerpAPI
-        run: python get_serpapi_events.py
+      - name: 🧠 Fetch events from SerpAPI
+        run: |
+          python get_serpapi_events.py
+          mkdir -p public/data
+          mv events.json public/data/events.json
         env:
-          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
 
-      - name: 🎨 Process event images
-        run: python process_event_images.py
-
-      - name: 💾 Commit and push events.json and images if changed
+      - name: 💾 Commit and push events.json if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/events.json
-          git add public/data/event_images
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git commit -m "chore: update events.json and images from SerpAPI"
+
+          if [[ -n "$(git status --porcelain public/data/events.json)" ]]; then
+            git add public/data/events.json
+            git commit -m "chore: update events.json from SerpAPI"
             git push
           else
             echo "✅ No changes to commit."
-          fi
-

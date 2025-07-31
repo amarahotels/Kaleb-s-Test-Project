@@ -25,7 +25,7 @@ for e in data.get("events_results", []):
         "venue": e.get("address"),
         "address": e.get("address"),
         "url": e.get("link"),
-        "image": e.get("thumbnail"),
+        "image": e.get("image") or e.get("thumbnail"),
         "category": e.get("event_location", {}).get("name", ""),
         "source": "google_events"
     })
@@ -36,9 +36,7 @@ output = {
     "events": events
 }
 
-# Save to public/data/events.json
-os.makedirs("public/data", exist_ok=True)
-with open("public/data/events.json", "w", encoding="utf-8") as f:
+with open("events.json", "w", encoding="utf-8") as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 
-print(f"✅ Saved {len(events)} events to public/data/events.json")
+print(f"✅ Saved {len(events)} events to events.json")
