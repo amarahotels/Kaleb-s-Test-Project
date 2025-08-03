@@ -1,21 +1,38 @@
 {
   "source": "google_events",
-  "generated_at": "2025-08-02T03:43:42.775586Z",
+  "generated_at": "2025-08-03T04:00:03.437152Z",
   "events": [
     {
-      "title": "AFA CREATOR SUPER FEST 2025, SINGAPORE",
-      "start": "Aug 2",
+      "title": "Yellow Ribbon Community Arts Festival 2025",
+      "start": "Aug 3",
       "end": "",
       "venue": [
-        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+        "7 Holland Vlg Wy, One Holland Village",
         "Singapore"
       ],
       "address": [
-        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+        "7 Holland Vlg Wy, One Holland Village",
         "Singapore"
       ],
-      "url": "https://www.eventbrite.sg/e/afa-creator-super-fest-2025-singapore-tickets-1432777980509",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jn8-r3ppivKypVbHJFTA5vIJ7fWeiytZEFMGPRofeg&s=10",
+      "url": "https://artsrepublic.sg/events/2025/08/yellow-ribbon-community-arts-festival-2025",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3sOaK24VCZJ4OetZbumPHLE8D0zCdC8PfI7Y8KXH1IRNpNeaC-DWlFNHQyg&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Sentosa Festive Market - Made In Singapore",
+      "start": "Aug 3",
+      "end": "",
+      "venue": [
+        "Siloso Bch Walk, Palawan Green",
+        "Singapore"
+      ],
+      "address": [
+        "Siloso Bch Walk, Palawan Green",
+        "Singapore"
+      ],
+      "url": "https://allevents.in/singapore/sentosa-festive-market-made-in-singapore/200028540227500",
+      "image": "https://www.google.com/maps/vt/data=O46ClTZvfCDFcAuOtDCQqicoyoH6Bd7l3RLRZAoEeE9U96EnDvkUkgAUdJmjJIRWXFUBenXsWsSskSBdRAJSYLQBh14k-5bEPZ0MTtq1a2aFUvGWAwk",
       "category": "",
       "source": "google_events"
     },
@@ -31,31 +48,14 @@
         "10 Bayfront Ave, B1-69/70 Sands Theatre, The Shoppes, Marina bay sands",
         "Singapore"
       ],
-      "url": "https://www.stubhub.com/kumar-singapore-tickets-8-3-2025/event/157076466/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH6BF9AgZBAj4O0FE2vfzLL46iaXXwZ-R8lHMEHSUeCg&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Still Got Jokes",
-      "start": "Aug 2",
-      "end": "",
-      "venue": [
-        "Esplanade Dr, Esplanade Concert Hall",
-        "Singapore"
-      ],
-      "address": [
-        "Esplanade Dr, Esplanade Concert Hall",
-        "Singapore"
-      ],
-      "url": "https://www.premiertickets.co/event/still-got-jokes-2025/",
+      "url": "https://www.stubhub.com/kumar-singapore-tickets-8-3-2025/event/157076279/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH6BF9AgZBAj4O0FE2vfzLL46iaXXwZ-R8lHMEHSUeCg&s=10",
       "category": "",
       "source": "google_events"
     },
     {
       "title": "SAFRA Bayfront National Day Celebration 2025",
-      "start": "Aug 2",
+      "start": "Aug 3",
       "end": "",
       "venue": [
         "12A Bayfront Ave, Bayfront Event Space",
@@ -71,104 +71,104 @@
       "source": "google_events"
     },
     {
-      "title": "Wine Discovery - Wine & Chips, A Gourmet Affair",
-      "start": "Aug 2",
+      "title": "Super festival des créateurs de l'AFA",
+      "start": "Aug 3",
       "end": "",
       "venue": [
-        "301 Boon Keng Rd, Extra Space Boon Keng",
+        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
         "Singapore"
       ],
       "address": [
-        "301 Boon Keng Rd, Extra Space Boon Keng",
+        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
         "Singapore"
       ],
-      "url": "https://www.eventbrite.sg/e/wine-discovery-wine-chips-a-gourmet-affair-tickets-1507786974429",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmXSA_xxa5FptzlOvvzurLjBVKG3JLkL823vJoA6rSIQ&s",
+      "url": "https://www.eventbrite.sg/e/afa-creator-super-fest-2025-singapore-tickets-1432777980509",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jn8-r3ppivKypVbHJFTA5vIJ7fWeiytZEFMGPRofeg&s=10",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "Yellow Ribbon Community Arts Festival",
-      "start": "Aug 2",
+      "title": "Andrew Rayel",
+      "start": "Aug 3",
       "end": "",
       "venue": [
-        "7 Holland Vlg Wy, One Holland Village",
+        "10 Bayfront Ave, B1-67 MARQUEE Singapore, The Shoppes, Marina Bay Sands",
         "Singapore"
       ],
       "address": [
-        "7 Holland Vlg Wy, One Holland Village",
+        "10 Bayfront Ave, B1-67 MARQUEE Singapore, The Shoppes, Marina Bay Sands",
         "Singapore"
       ],
-      "url": "https://allevents.in/singapore/yellow-ribbon-community-arts-festival/80001643992527",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrrc4rVvKw-OcCAGLYbKk2Keo9hcyPSK_kNPAt7Sn3lzS_-mWj5X-7_2iZzA&s=10",
+      "url": "https://taogroup.com/event/2-8-25-andrew-rayel-marquee-singapore-2/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS99laIlAo2LQU-9QSMNVb8hLL1caljZzqYJ-p8Hpm8ME6AZ4nbZzmeu_Bv7w&s=10",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "Small.Batch.Makes @ Sentosa",
-      "start": "Aug 2",
+      "title": "Kairalee Onam 2025",
+      "start": "Aug 3",
       "end": "",
       "venue": [
-        "Siloso Bch Walk, Palawan Green",
+        "50 Serangoon Ave 2, Braddell Heights Community Club",
         "Singapore"
       ],
       "address": [
-        "Siloso Bch Walk, Palawan Green",
+        "50 Serangoon Ave 2, Braddell Heights Community Club",
         "Singapore"
       ],
-      "url": "https://allevents.in/singapore/sentosa-festive-market-made-in-singapore/200028540227500",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQylMoEMU9iUbPVhlrf0rgT5xITDxcRSlUYL9gNbSboNUp2R5YQf3rlmA4jAw&s=10",
+      "url": "https://www.meetup.com/singaporeindianfriendshipcircle/",
+      "image": "https://www.google.com/maps/vt/data=FI9qUU6iFTR35c29b_o9sS3p154KdrYwmv3zVv2TltF6mxp3R8AH6A0DS8Ft6geBLYuSXl9a4EuTx5ZY-fdYIBPkbkPr8-2oILxaYoFVZhGHWsuNnqs",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "TEMPO 07 ft Nez Senja & Ramesh",
-      "start": "Aug 2",
+      "title": "Avenue Saturdays",
+      "start": "Aug 3",
       "end": "",
       "venue": [
-        "34 N Canal Rd, #01-01 Offtrack",
+        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
         "Singapore"
       ],
       "address": [
-        "34 N Canal Rd, #01-01 Offtrack",
+        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
         "Singapore"
       ],
-      "url": "https://www.offtrack.sg/events/tempo-07-ramesh-nez-senja",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRKD8WSFjclzOymI7ugZRc6Ji_MoS9LByF2KHLZSbNZ7TUTWoL2Zk71UNKTA&s=10",
+      "url": "https://taogroup.com/event/2-08-25-avenue-saturdays-avenue-singapore/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1eMyoCh1ARpVGaiDRd6gZqaClZ-gozfW4rF2MQ3JVQ_feq6tkTN0hOfIyZg&s=10",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "Chinatown Food Tour in Singapore",
-      "start": "Aug 2",
+      "title": "PHI25 - Artist Booth",
+      "start": "Aug 3",
       "end": "",
       "venue": [
-        "150 N Bridge Rd",
+        "31 Bukit Pasoh Rd, Mandala Club",
         "Singapore"
       ],
       "address": [
-        "150 N Bridge Rd",
+        "31 Bukit Pasoh Rd, Mandala Club",
         "Singapore"
       ],
-      "url": "https://wanderwomenproject.com/event/chinatown-food-tour-in-singapore/2025-08-02/",
-      "image": "https://www.google.com/maps/vt/data=K8NW9EB_CAseINrgJ551RgcXbTM9t0D5P1p0_zMNYTcxmLThaez-1t3wmGThuEFCioywVKyidogPpRBf-M5qgOZedE_76p04jtwL3auPw0k4xKDkpJk",
+      "url": "https://www.pharaohshorsesinvitational.com/event-details/phi25-artist-booth",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQEbZ5hX0zYbevdJgjgLa0xxbeZf6GA7sxNIM_EhE0KLozgkalMjCH7ZPGoQ&s",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "Tampines Changkat National Day Event",
-      "start": "Aug 2",
+      "title": "Jazz & Wine at The Intercontinental Singapore",
+      "start": "Aug 3",
       "end": "",
       "venue": [
-        "13 Tampines St. 11, #01-01 Tampines Changkat Community Club",
+        "80 Middle Rd, InterContinental Singapore",
         "Singapore"
       ],
       "address": [
-        "13 Tampines St. 11, #01-01 Tampines Changkat Community Club",
+        "80 Middle Rd, InterContinental Singapore",
         "Singapore"
       ],
-      "url": "https://familiesforlife.sg/pages/Volunteer/Tampines-Changkat-National-Day-Event",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw-AJAIaooD8_TFB6WL_suhpsg94SBCIY6vBrPDldtwYiDrcrSkgvpTCS8hw&s=10",
+      "url": "https://feverup.com/m/139856",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCDvkP8fY6ycy-r1GDSgM1KbQfXGYWeULjmQY5Wh-XWw&s",
       "category": "",
       "source": "google_events"
     }
