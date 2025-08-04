@@ -107,11 +107,28 @@ async function loadEvents() {
   }
 }
 
+// RENDER EVENTS
 function renderEvents(events) {
   const list = document.getElementById('eventList');
   if (!list) return;
 
-  list.innerHTML = events.slice(0, 24).map(e => `
+  const currentYear = new Date().getFullYear();
+  const today = new Date();
+
+  const parsedDate = (e) => {
+    try {
+      return new Date(`${e.start} ${currentYear}`);
+    } catch {
+      return new Date(8640000000000000); // fallback far future date
+    }
+  };
+
+  const upcomingEvents = events
+    .map(e => ({ ...e, parsed: parsedDate(e) }))
+    .filter(e => e.parsed >= today)
+    .sort((a, b) => a.parsed - b.parsed);
+
+  list.innerHTML = upcomingEvents.map(e => `
     <article class="card">
       ${e.image ? `<div class="thumb-wrap"><img class="thumb" src="${e.image}" alt="${esc(e.title)}" loading="lazy"></div>` : ''}
       <div class="title">${esc(e.title)}</div>
