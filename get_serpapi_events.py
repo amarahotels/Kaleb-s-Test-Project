@@ -9,7 +9,7 @@ API_KEY = os.environ.get("SERPAPI_KEY")
 QUERIES = [
     "events in Singapore this week",
 #    "exhibitions or concerts in Singapore",
-    "upcoming tourist attractions in Singapore"
+#    "upcoming tourist attractions in Singapore"
 ]
 
 def fetch_events(query):
