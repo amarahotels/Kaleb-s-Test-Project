@@ -111,3 +111,5 @@ with open("public/data/places.json", "w", encoding="utf-8") as f:
     json.dump(places, f, ensure_ascii=False, indent=2)
 
 print(f"Wrote {len(places)} places to public/data/places.json")
+
+# testing the cost of the API call
