@@ -1,24 +1,7 @@
 {
   "source": "google_events",
-  "generated_at": "2025-08-04T04:06:22.263551Z",
+  "generated_at": "2025-08-04T05:30:20.518823Z",
   "events": [
-    {
-      "title": "AFA CREATOR SUPER FEST 2025, SINGAPORE",
-      "start": "Aug 4",
-      "end": "",
-      "venue": [
-        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
-        "Singapore"
-      ],
-      "address": [
-        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.sg/e/afa-creator-super-fest-2025-singapore-tickets-1432777980509",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jn8-r3ppivKypVbHJFTA5vIJ7fWeiytZEFMGPRofeg&s=10",
-      "category": "",
-      "source": "google_events"
-    },
     {
       "title": "Yellow Ribbon Community Arts Festival 2025",
       "start": "Aug 4",
@@ -37,19 +20,70 @@
       "source": "google_events"
     },
     {
-      "title": "SAFRA Bayfront National Day Celebration 2025",
-      "start": "Aug 4",
+      "title": "Kids Melba Munchers Unicorns and Dragons Festival - Cafe Melba Mediapolis",
+      "start": "Aug 9",
       "end": "",
       "venue": [
-        "12A Bayfront Ave, Bayfront Event Space",
+        "1 Stars Ave, #03-01 Cafe Melba at Mediapolis",
         "Singapore"
       ],
       "address": [
-        "12A Bayfront Ave, Bayfront Event Space",
+        "1 Stars Ave, #03-01 Cafe Melba at Mediapolis",
         "Singapore"
       ],
-      "url": "https://ahboy.com/event/safra-bayfront-national-day-celebration-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_7C7K1JyYKD64yyBoSmxRz-tnhNsIVSjSW6eUkVnYGA&s=10",
+      "url": "https://www.eventbrite.sg/e/kids-melba-munchers-unicorns-and-dragons-festival-cafe-melba-mediapolis-tickets-1475445620569",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeB7zTKdvVg_8Ebu6zmFFUOu-kSey6ZQVSnuU2TGO0Bg&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Balaram Purnima 2025",
+      "start": "Aug 9",
+      "end": "",
+      "venue": [
+        "13 Cuff Rd",
+        "Singapore"
+      ],
+      "address": [
+        "13 Cuff Rd",
+        "Singapore"
+      ],
+      "url": "https://www.grs.com.sg/event-details/balaram-purnima-2025",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLSjJC0xevjdL5cuBDlvYZgrFP9YjttQO0uUCWkPLYLB8UJzcW9CB4CDM3lQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Bishan National Day Celebration 2025",
+      "start": "Aug 10",
+      "end": "",
+      "venue": [
+        "118 Bishan St. 13, Grassland",
+        "Singapore"
+      ],
+      "address": [
+        "118 Bishan St. 13, Grassland",
+        "Singapore"
+      ],
+      "url": "https://ahboy.com/event/bishan-national-day-celebration-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJzYPrCMGVHGJXw4a25G3ucwicf3Ec8fMYSvupB1pEvQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Chinatown Food Tour in Singapore",
+      "start": "Aug 9",
+      "end": "",
+      "venue": [
+        "150 N Bridge Rd",
+        "Singapore"
+      ],
+      "address": [
+        "150 N Bridge Rd",
+        "Singapore"
+      ],
+      "url": "https://wanderwomenproject.com/event/chinatown-food-tour-in-singapore/2025-08-09/",
+      "image": "https://www.google.com/maps/vt/data=K8NW9EB_CAseINrgJ551RgcXbTM9t0D5P1p0_zMNYTcxmLThaez-1t3wmGThuEFCioywVKyidogPpRBf-M5qgOZedE_76p04jtwL3auPw0k4xKDkpJk",
       "category": "",
       "source": "google_events"
     },
@@ -71,104 +105,70 @@
       "source": "google_events"
     },
     {
-      "title": "Decathlon Sports Fest",
-      "start": "Aug 4",
+      "title": "LA Comedy Live Presents HE HUANG Live in Singapore",
+      "start": "Aug 8",
       "end": "",
       "venue": [
-        "230 Stadium Blvd, Decathlon Singapore Lab (Kallang)",
+        "5 Straits View, #01-20/21 Ola-Ola, The Heart, Marina One East Tower",
         "Singapore"
       ],
       "address": [
-        "230 Stadium Blvd, Decathlon Singapore Lab (Kallang)",
+        "5 Straits View, #01-20/21 Ola-Ola, The Heart, Marina One East Tower",
         "Singapore"
       ],
-      "url": "https://expatliving.sg/event/decathlon-sports-fest/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZEauFeUzWFpq8vSeMl1OBV0aVmLF59iW-EzelZd7LAv-GyC_Md0McbKxjQ&s=10",
+      "url": "https://www.eventbrite.sg/e/la-comedy-live-presents-he-huang-live-in-singapore-tickets-1366868734179",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9UKS-Uu8QrIne_po2DCWss-pvfw4yDkeEBctFnxhuUJegFUL7mzEyJ21OPA&s",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "Kairalee Onam 2025",
-      "start": "Aug 4",
-      "end": "",
-      "venue": [
-        "50 Serangoon Ave 2, Braddell Heights Community Club",
-        "Singapore"
-      ],
-      "address": [
-        "50 Serangoon Ave 2, Braddell Heights Community Club",
-        "Singapore"
-      ],
-      "url": "https://www.meetup.com/singaporeindianfriendshipcircle/",
-      "image": "https://www.google.com/maps/vt/data=FI9qUU6iFTR35c29b_o9sS3p154KdrYwmv3zVv2TltF6mxp3R8AH6A0DS8Ft6geBLYuSXl9a4EuTx5ZY-fdYIBPkbkPr8-2oILxaYoFVZhGHWsuNnqs",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "PHI25 - Artist Booth",
-      "start": "Aug 4",
-      "end": "",
-      "venue": [
-        "31 Bukit Pasoh Rd, Mandala Club",
-        "Singapore"
-      ],
-      "address": [
-        "31 Bukit Pasoh Rd, Mandala Club",
-        "Singapore"
-      ],
-      "url": "https://www.pharaohshorsesinvitational.com/event-details/phi25-artist-booth",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQEbZ5hX0zYbevdJgjgLa0xxbeZf6GA7sxNIM_EhE0KLozgkalMjCH7ZPGoQ&s",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Avenue Saturdays",
+      "title": "Celebrating Singapore's Spirit: National Day Pub Crawl 2025",
       "start": "Aug 9",
       "end": "",
       "venue": [
-        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
+        "3 Canton St, #01-01 Mogambo Bar & Restaurant",
         "Singapore"
       ],
       "address": [
-        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
+        "3 Canton St, #01-01 Mogambo Bar & Restaurant",
         "Singapore"
       ],
-      "url": "https://taogroup.com/event/9-08-25-avenue-saturdays-avenue-singapore/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1eMyoCh1ARpVGaiDRd6gZqaClZ-gozfW4rF2MQ3JVQ_feq6tkTN0hOfIyZg&s=10",
+      "url": "https://allevents.in/singapore/celebrating-singapores-spirit-national-day-pub-crawl-2025-tickets/80003478440026",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRUH80W7wkQ3EfP0J36AmqTsVsMY3LHkGTi_fGS6_PCg&s=10",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "Jazz & Wine at The Intercontinental Singapore",
+      "title": "SAFRA Bayfront National Day Celebration 2025",
       "start": "Aug 4",
       "end": "",
       "venue": [
-        "80 Middle Rd, InterContinental Singapore",
+        "12A Bayfront Ave, Bayfront Event Space",
         "Singapore"
       ],
       "address": [
-        "80 Middle Rd, InterContinental Singapore",
+        "12A Bayfront Ave, Bayfront Event Space",
         "Singapore"
       ],
-      "url": "https://feverup.com/m/139856",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCDvkP8fY6ycy-r1GDSgM1KbQfXGYWeULjmQY5Wh-XWw&s",
+      "url": "https://ahboy.com/event/safra-bayfront-national-day-celebration-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_7C7K1JyYKD64yyBoSmxRz-tnhNsIVSjSW6eUkVnYGA&s=10",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "National Day Concert 2025 (Singapore)",
-      "start": "Aug 4",
+      "title": "Yishun National Day Celebration 2025",
+      "start": "Aug 10",
       "end": "",
       "venue": [
-        "11 Bayfront Ave, #B1-02 Bayfront MRT Station (CE1/DT16)",
+        "32 Yishun Central 1, FutsalArena @ Yishun Ltd",
         "Singapore"
       ],
       "address": [
-        "11 Bayfront Ave, #B1-02 Bayfront MRT Station (CE1/DT16)",
+        "32 Yishun Central 1, FutsalArena @ Yishun Ltd",
         "Singapore"
       ],
-      "url": "https://ahboy.com/event/national-day-concert-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROujmObeu97Z7HEeohe2R4W8PeEVjGWksLBipnUvWjQWqK_SKoOT-D-rXd6g&s",
+      "url": "https://ahboy.com/event/nee-soon-national-day-celebration-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk8nw9l4OS5UHy0SKeg_kOw1MD0HgQ-HR2rvW6Fhd2hQ&s=10",
       "category": "",
       "source": "google_events"
     }
