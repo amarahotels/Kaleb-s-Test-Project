@@ -2,6 +2,7 @@ import os
 import requests
 import json
 from datetime import datetime
+from dateutil import parser
 
 API_KEY = os.environ.get("SERPAPI_KEY")
 
@@ -24,17 +25,27 @@ def fetch_events(query):
     data = res.json()
     return data.get("events_results", [])
 
+def parse_date_safe(date_str):
+    if not date_str:
+        return None
+    try:
+        return parser.parse(date_str)
+    except:
+        return None
+
 def normalize_event(e):
+    raw_start = e.get("date", {}).get("start_date", "")
     return {
         "title": e.get("title"),
-        "start": e.get("date", {}).get("start_date", ""),
+        "start": raw_start,
         "end": e.get("date", {}).get("end_date", ""),
         "venue": e.get("address"),
         "address": e.get("address"),
         "url": e.get("link"),
         "image": e.get("image") or e.get("thumbnail"),
         "category": e.get("event_location", {}).get("name", ""),
-        "source": "google_events"
+        "source": "google_events",
+        "parsed_start": parse_date_safe(raw_start)
     }
 
 def deduplicate(events):
@@ -48,12 +59,7 @@ def deduplicate(events):
     return unique
 
 def sort_by_start(events):
-    def parse_date(e):
-        try:
-            return datetime.fromisoformat(e["start"])
-        except:
-            return datetime.max
-    return sorted(events, key=parse_date)
+    return sorted(events, key=lambda e: e.get("parsed_start") or datetime.max)
 
 # --- MAIN ---
 all_events = []
@@ -63,7 +69,11 @@ for q in QUERIES:
     all_events.extend(map(normalize_event, raw))
 
 all_events = deduplicate(all_events)
-all_events = sort_by_start(all_events)[:50]  # limit to 50
+all_events = sort_by_start(all_events)[:50]
+
+# Remove parsed_start before saving
+for e in all_events:
+    e.pop("parsed_start", None)
 
 output = {
     "source": "google_events",
