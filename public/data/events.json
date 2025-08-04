@@ -1,5 +1,176 @@
 {
   "source": "google_events",
-  "generated_at": "2025-07-31T09:46:12.533653Z",
-  "events": []
+  "generated_at": "2025-08-04T04:06:22.263551Z",
+  "events": [
+    {
+      "title": "AFA CREATOR SUPER FEST 2025, SINGAPORE",
+      "start": "Aug 4",
+      "end": "",
+      "venue": [
+        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+        "Singapore"
+      ],
+      "address": [
+        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.sg/e/afa-creator-super-fest-2025-singapore-tickets-1432777980509",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jn8-r3ppivKypVbHJFTA5vIJ7fWeiytZEFMGPRofeg&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Yellow Ribbon Community Arts Festival 2025",
+      "start": "Aug 4",
+      "end": "",
+      "venue": [
+        "7 Holland Vlg Wy, One Holland Village",
+        "Singapore"
+      ],
+      "address": [
+        "7 Holland Vlg Wy, One Holland Village",
+        "Singapore"
+      ],
+      "url": "https://artsrepublic.sg/events/2025/08/yellow-ribbon-community-arts-festival-2025",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3sOaK24VCZJ4OetZbumPHLE8D0zCdC8PfI7Y8KXH1IRNpNeaC-DWlFNHQyg&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "SAFRA Bayfront National Day Celebration 2025",
+      "start": "Aug 4",
+      "end": "",
+      "venue": [
+        "12A Bayfront Ave, Bayfront Event Space",
+        "Singapore"
+      ],
+      "address": [
+        "12A Bayfront Ave, Bayfront Event Space",
+        "Singapore"
+      ],
+      "url": "https://ahboy.com/event/safra-bayfront-national-day-celebration-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_7C7K1JyYKD64yyBoSmxRz-tnhNsIVSjSW6eUkVnYGA&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Give Me The Sunlight! Tour",
+      "start": "Aug 10",
+      "end": "",
+      "venue": [
+        "1 Stars Ave, The Theatre at Mediacorp",
+        "Singapore"
+      ],
+      "address": [
+        "1 Stars Ave, The Theatre at Mediacorp",
+        "Singapore"
+      ],
+      "url": "https://open.spotify.com/concert/5A83QAmqGb5JD9K7fIz2Yi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS35-QdW5ichCRwq6n1S8cXxyBwRYGhLjXXs6487-p8R-0pmO3uMKJa0ffEbw&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Decathlon Sports Fest",
+      "start": "Aug 4",
+      "end": "",
+      "venue": [
+        "230 Stadium Blvd, Decathlon Singapore Lab (Kallang)",
+        "Singapore"
+      ],
+      "address": [
+        "230 Stadium Blvd, Decathlon Singapore Lab (Kallang)",
+        "Singapore"
+      ],
+      "url": "https://expatliving.sg/event/decathlon-sports-fest/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZEauFeUzWFpq8vSeMl1OBV0aVmLF59iW-EzelZd7LAv-GyC_Md0McbKxjQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Kairalee Onam 2025",
+      "start": "Aug 4",
+      "end": "",
+      "venue": [
+        "50 Serangoon Ave 2, Braddell Heights Community Club",
+        "Singapore"
+      ],
+      "address": [
+        "50 Serangoon Ave 2, Braddell Heights Community Club",
+        "Singapore"
+      ],
+      "url": "https://www.meetup.com/singaporeindianfriendshipcircle/",
+      "image": "https://www.google.com/maps/vt/data=FI9qUU6iFTR35c29b_o9sS3p154KdrYwmv3zVv2TltF6mxp3R8AH6A0DS8Ft6geBLYuSXl9a4EuTx5ZY-fdYIBPkbkPr8-2oILxaYoFVZhGHWsuNnqs",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "PHI25 - Artist Booth",
+      "start": "Aug 4",
+      "end": "",
+      "venue": [
+        "31 Bukit Pasoh Rd, Mandala Club",
+        "Singapore"
+      ],
+      "address": [
+        "31 Bukit Pasoh Rd, Mandala Club",
+        "Singapore"
+      ],
+      "url": "https://www.pharaohshorsesinvitational.com/event-details/phi25-artist-booth",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQEbZ5hX0zYbevdJgjgLa0xxbeZf6GA7sxNIM_EhE0KLozgkalMjCH7ZPGoQ&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Avenue Saturdays",
+      "start": "Aug 9",
+      "end": "",
+      "venue": [
+        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
+        "Singapore"
+      ],
+      "address": [
+        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
+        "Singapore"
+      ],
+      "url": "https://taogroup.com/event/9-08-25-avenue-saturdays-avenue-singapore/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1eMyoCh1ARpVGaiDRd6gZqaClZ-gozfW4rF2MQ3JVQ_feq6tkTN0hOfIyZg&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Jazz & Wine at The Intercontinental Singapore",
+      "start": "Aug 4",
+      "end": "",
+      "venue": [
+        "80 Middle Rd, InterContinental Singapore",
+        "Singapore"
+      ],
+      "address": [
+        "80 Middle Rd, InterContinental Singapore",
+        "Singapore"
+      ],
+      "url": "https://feverup.com/m/139856",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCDvkP8fY6ycy-r1GDSgM1KbQfXGYWeULjmQY5Wh-XWw&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "National Day Concert 2025 (Singapore)",
+      "start": "Aug 4",
+      "end": "",
+      "venue": [
+        "11 Bayfront Ave, #B1-02 Bayfront MRT Station (CE1/DT16)",
+        "Singapore"
+      ],
+      "address": [
+        "11 Bayfront Ave, #B1-02 Bayfront MRT Station (CE1/DT16)",
+        "Singapore"
+      ],
+      "url": "https://ahboy.com/event/national-day-concert-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROujmObeu97Z7HEeohe2R4W8PeEVjGWksLBipnUvWjQWqK_SKoOT-D-rXd6g&s",
+      "category": "",
+      "source": "google_events"
+    }
+  ]
 }
