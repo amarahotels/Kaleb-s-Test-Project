@@ -38,7 +38,9 @@ jobs:
           if [[ -n "$(git status --porcelain public/data/events.json)" ]]; then
             git add public/data/events.json
             git commit -m "chore: update events.json from SerpAPI"
-            git push
+            git pull --rebase origin main
+            git push origin main
           else
             echo "✅ No changes to commit."
           fi
+
