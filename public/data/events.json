@@ -1,78 +1,10 @@
 {
   "source": "google_events",
-  "generated_at": "2025-08-04T05:30:20.518823Z",
+  "generated_at": "2025-08-04T05:46:06.008059Z",
   "events": [
     {
-      "title": "Yellow Ribbon Community Arts Festival 2025",
-      "start": "Aug 4",
-      "end": "",
-      "venue": [
-        "7 Holland Vlg Wy, One Holland Village",
-        "Singapore"
-      ],
-      "address": [
-        "7 Holland Vlg Wy, One Holland Village",
-        "Singapore"
-      ],
-      "url": "https://artsrepublic.sg/events/2025/08/yellow-ribbon-community-arts-festival-2025",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3sOaK24VCZJ4OetZbumPHLE8D0zCdC8PfI7Y8KXH1IRNpNeaC-DWlFNHQyg&s",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Kids Melba Munchers Unicorns and Dragons Festival - Cafe Melba Mediapolis",
-      "start": "Aug 9",
-      "end": "",
-      "venue": [
-        "1 Stars Ave, #03-01 Cafe Melba at Mediapolis",
-        "Singapore"
-      ],
-      "address": [
-        "1 Stars Ave, #03-01 Cafe Melba at Mediapolis",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.sg/e/kids-melba-munchers-unicorns-and-dragons-festival-cafe-melba-mediapolis-tickets-1475445620569",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeB7zTKdvVg_8Ebu6zmFFUOu-kSey6ZQVSnuU2TGO0Bg&s",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Balaram Purnima 2025",
-      "start": "Aug 9",
-      "end": "",
-      "venue": [
-        "13 Cuff Rd",
-        "Singapore"
-      ],
-      "address": [
-        "13 Cuff Rd",
-        "Singapore"
-      ],
-      "url": "https://www.grs.com.sg/event-details/balaram-purnima-2025",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLSjJC0xevjdL5cuBDlvYZgrFP9YjttQO0uUCWkPLYLB8UJzcW9CB4CDM3lQ&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Bishan National Day Celebration 2025",
-      "start": "Aug 10",
-      "end": "",
-      "venue": [
-        "118 Bishan St. 13, Grassland",
-        "Singapore"
-      ],
-      "address": [
-        "118 Bishan St. 13, Grassland",
-        "Singapore"
-      ],
-      "url": "https://ahboy.com/event/bishan-national-day-celebration-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJzYPrCMGVHGJXw4a25G3ucwicf3Ec8fMYSvupB1pEvQ&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Chinatown Food Tour in Singapore",
-      "start": "Aug 9",
+      "title": "Singapore Street Food Tour",
+      "start": "Aug 7",
       "end": "",
       "venue": [
         "150 N Bridge Rd",
@@ -82,93 +14,331 @@
         "150 N Bridge Rd",
         "Singapore"
       ],
-      "url": "https://wanderwomenproject.com/event/chinatown-food-tour-in-singapore/2025-08-09/",
+      "url": "https://wanderwomenproject.com/event/singapore-street-food-tour/2025-08-07/",
       "image": "https://www.google.com/maps/vt/data=K8NW9EB_CAseINrgJ551RgcXbTM9t0D5P1p0_zMNYTcxmLThaez-1t3wmGThuEFCioywVKyidogPpRBf-M5qgOZedE_76p04jtwL3auPw0k4xKDkpJk",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "Give Me The Sunlight! Tour",
-      "start": "Aug 10",
-      "end": "",
-      "venue": [
-        "1 Stars Ave, The Theatre at Mediacorp",
-        "Singapore"
-      ],
-      "address": [
-        "1 Stars Ave, The Theatre at Mediacorp",
-        "Singapore"
-      ],
-      "url": "https://open.spotify.com/concert/5A83QAmqGb5JD9K7fIz2Yi",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS35-QdW5ichCRwq6n1S8cXxyBwRYGhLjXXs6487-p8R-0pmO3uMKJa0ffEbw&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "LA Comedy Live Presents HE HUANG Live in Singapore",
-      "start": "Aug 8",
-      "end": "",
-      "venue": [
-        "5 Straits View, #01-20/21 Ola-Ola, The Heart, Marina One East Tower",
-        "Singapore"
-      ],
-      "address": [
-        "5 Straits View, #01-20/21 Ola-Ola, The Heart, Marina One East Tower",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.sg/e/la-comedy-live-presents-he-huang-live-in-singapore-tickets-1366868734179",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9UKS-Uu8QrIne_po2DCWss-pvfw4yDkeEBctFnxhuUJegFUL7mzEyJ21OPA&s",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Celebrating Singapore's Spirit: National Day Pub Crawl 2025",
+      "title": "Tastes of Togetherness: A National Day Feast [9 Aug]",
       "start": "Aug 9",
       "end": "",
       "venue": [
-        "3 Canton St, #01-01 Mogambo Bar & Restaurant",
+        "70 Bendemeer Rd, #05-01 Luzerne - A Heritage Tableware Brand in Singapore and Beyond",
         "Singapore"
       ],
       "address": [
-        "3 Canton St, #01-01 Mogambo Bar & Restaurant",
+        "70 Bendemeer Rd, #05-01 Luzerne - A Heritage Tableware Brand in Singapore and Beyond",
         "Singapore"
       ],
-      "url": "https://allevents.in/singapore/celebrating-singapores-spirit-national-day-pub-crawl-2025-tickets/80003478440026",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRUH80W7wkQ3EfP0J36AmqTsVsMY3LHkGTi_fGS6_PCg&s=10",
+      "url": "https://www.eventbrite.sg/e/tastes-of-togetherness-a-national-day-feast-8-aug-tickets-1224314039249",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRecB7c68Z3bOwq9EjWlkDokkh32AMdMoX3hM4uVdeXhmoi9Uag9DFzcVD0nQ&s=10",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "SAFRA Bayfront National Day Celebration 2025",
-      "start": "Aug 4",
+      "title": "8/8/2025 Lion's Gate Portal",
+      "start": "Aug 8",
       "end": "",
       "venue": [
-        "12A Bayfront Ave, Bayfront Event Space",
+        "10, 28-14 Anson Rd, A Space Between, International Plaza",
         "Singapore"
       ],
       "address": [
-        "12A Bayfront Ave, Bayfront Event Space",
+        "10, 28-14 Anson Rd, A Space Between, International Plaza",
         "Singapore"
       ],
-      "url": "https://ahboy.com/event/safra-bayfront-national-day-celebration-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_7C7K1JyYKD64yyBoSmxRz-tnhNsIVSjSW6eUkVnYGA&s=10",
+      "url": "https://www.eventbrite.sg/e/882025-lions-gate-portal-tickets-1521043003569",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV-YIAGZtEQlFv8oQkaro9f6kTeKsqjDq-LsMzhpvZwg&s",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "Yishun National Day Celebration 2025",
-      "start": "Aug 10",
+      "title": "WEEKLY NIGHTLIFE PARTY",
+      "start": "Aug 8",
       "end": "",
       "venue": [
-        "32 Yishun Central 1, FutsalArena @ Yishun Ltd",
+        "44A Prinsep St, SMÖÖbar @ Prinsep",
         "Singapore"
       ],
       "address": [
-        "32 Yishun Central 1, FutsalArena @ Yishun Ltd",
+        "44A Prinsep St, SMÖÖbar @ Prinsep",
         "Singapore"
       ],
-      "url": "https://ahboy.com/event/nee-soon-national-day-celebration-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk8nw9l4OS5UHy0SKeg_kOw1MD0HgQ-HR2rvW6Fhd2hQ&s=10",
+      "url": "https://www.partysingapore.club/ta/event-details/weekly-nightlife-party-73",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQGSAxfhqpzM5vZDadvODcvC6YsDTcWt-EoH2abAXgcw&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "SSO Pops: Disney Fantasia In Concert",
+      "start": "Aug 7",
+      "end": "",
+      "venue": [
+        "Esplanade Dr, Esplanade Concert Hall",
+        "Singapore"
+      ],
+      "address": [
+        "Esplanade Dr, Esplanade Concert Hall",
+        "Singapore"
+      ],
+      "url": "https://bachtrack.com/concert-event/disney-fantasia-in-concert-live-to-film-singapore-symphony-orchestra-esplanade-concert-hall-7-august-2025/421637",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRok3pSJ-Yg641iKCswp_ItMonrF-ak4BB_eKgTiXvt-Q&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Avenue Fridays",
+      "start": "Aug 8",
+      "end": "",
+      "venue": [
+        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
+        "Singapore"
+      ],
+      "address": [
+        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
+        "Singapore"
+      ],
+      "url": "https://taogroup.com/event/8-08-25-avenue-fridays-avenue-singapore/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3n-O1-EFsGdICImcL2gBrUoWYlLdv_TqCaGNbXQ6zjD8--AWFmgxFRA1jNA&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Winesday Unwind @ Grand Cru (6 Aug)",
+      "start": "Aug 6",
+      "end": "",
+      "venue": [
+        "252 N Bridge Rd, #01-44B Grand Cru Wine Concierge, Raffles City Shopping Centre",
+        "Singapore"
+      ],
+      "address": [
+        "252 N Bridge Rd, #01-44B Grand Cru Wine Concierge, Raffles City Shopping Centre",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.sg/e/winesday-unwind-grand-cru-6-aug-tickets-1539329047619",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgeOW_tFxA55cA2IDAO4tiF56MdujLjJwF6vtjP1IytQ&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "SCIC Safety Case Practitioner Workshop 2025 (Web Based Learning)",
+      "start": "Aug 6",
+      "end": "",
+      "venue": [
+        "8 Jurong Town Hall Rd",
+        "Singapore"
+      ],
+      "address": [
+        "8 Jurong Town Hall Rd",
+        "Singapore"
+      ],
+      "url": "https://scic.sg/index.php/en/events/events-calendar/day/08-10-2025",
+      "image": "https://www.google.com/maps/vt/data=uJihdT-Jb1-hAc2HRvybze-nijCIAjlgq1iObEbvUbYPkctAWvJTMDl6csg850BOKsgYX5oI_0GeCowR0XQMiO-sPlNHR9ozdJ1t0spn1RM2nALWwtw",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Comedian Roast Battle | August 6th, 2025",
+      "start": "Aug 6",
+      "end": "",
+      "venue": [
+        "12 Queen St, #01-02 The Lemon Stand Comedy Club",
+        "Singapore"
+      ],
+      "address": [
+        "12 Queen St, #01-02 The Lemon Stand Comedy Club",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.sg/e/comedy-roast-battle-august-6th-2025-the-lemon-stand-tickets-1490001999089",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKv1kysQYEVlzxqA_4wztdQg-ai8ZTqL6SmeKAxCxOSA&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "ACI CERTIFICATION SCHEME FOR CONCRETE CONSTRUCTION SPECIAL INSPECTOR (INTERNATIONAL CERTIFICATION BY ACI-USA)",
+      "start": "Aug 6",
+      "end": "",
+      "venue": [
+        "2019 Bukit Batok Street 23, #03-268 R.A.K. Materials Consultants Pte Ltd",
+        "Singapore"
+      ],
+      "address": [
+        "2019 Bukit Batok Street 23, #03-268 R.A.K. Materials Consultants Pte Ltd",
+        "Singapore"
+      ],
+      "url": "https://www.concrete.org.sg/events/list/?tribe-bar-date=2025-07-12",
+      "image": "https://www.google.com/maps/vt/data=MnfkMDFLf6jKxAxlYZe_lXEwJEPXcxG8CPwiS_DmQ4ztEmAi0jh0OuTd45-car-lSh9ln0sVuLyPPmZgv88l9wBLlyS0Js0SAT6p6abD7SB_3c_Pjt8",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Kumar Sanu Bollywood Concert — Suntec Singapore",
+      "start": "Aug 17",
+      "end": "",
+      "venue": [
+        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+        "Singapore"
+      ],
+      "address": [
+        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+        "Singapore"
+      ],
+      "url": "https://www.premiertickets.co/event/kumar-sanu-live-in-singapore-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwL9XIN-6PG6Ijtc18qtfemuf77CbkMIDfbVizX8r9Ug&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "SB19",
+      "start": "Aug 24",
+      "end": "",
+      "venue": [
+        "9 Somapah Rd, Arena @ EXPO",
+        "Singapore"
+      ],
+      "address": [
+        "9 Somapah Rd, Arena @ EXPO",
+        "Singapore"
+      ],
+      "url": "https://open.spotify.com/concert/5h6lNu2dw3CiQoWHDDkdlO",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT41sGIoPdXq0yWFYN7tBXj4-oGAwooEWZ26Zh0QbMVthfCj-EYvJRvGtQPQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Sting",
+      "start": "Sep 23",
+      "end": "",
+      "venue": [
+        "9 Somapah Rd, Arena @ EXPO",
+        "Singapore"
+      ],
+      "address": [
+        "9 Somapah Rd, Arena @ EXPO",
+        "Singapore"
+      ],
+      "url": "https://www.songkick.com/metro-areas/32258-singapore-singapore/september-2025/genre/pop",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDEVkl1RQujkCiudLAnMAuhmLW8R0defFo0mob1TqN4apJaFN0v5SvmbVEeQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Singapore - Japan Friendship Handbell Concert 2025",
+      "start": "Aug 31",
+      "end": "",
+      "venue": [
+        "1 Old Parliament Ln, The Arts House at The Old Parliament, Former Parliament House and Annex Building",
+        "Singapore"
+      ],
+      "address": [
+        "1 Old Parliament Ln, The Arts House at The Old Parliament, Former Parliament House and Annex Building",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.com/e/singapore-japan-friendship-handbell-concert-2025-tickets-1370622030389",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgUiXKzhV4iF_15smYJGTvwsKIPPtHSYIcjuTHtQIa_Q&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "P1Harmony Concert 2025 (Singapore)",
+      "start": "Aug 30",
+      "end": "",
+      "venue": [
+        "1 Expo Dr, Singapore EXPO",
+        "Singapore"
+      ],
+      "address": [
+        "1 Expo Dr, Singapore EXPO",
+        "Singapore"
+      ],
+      "url": "https://ahboy.com/event/p1harmony-concert-2025/",
+      "image": "https://www.google.com/maps/vt/data=kEzbys_V0A6OxoLjP8lB2aU1XpPomRcw3IEFAX4dy5RScFwEB1-YRPiLLPSpMffVKx6CQPwKhHT_N4Fijxr2E8masy-gq1Bf5JVyclSaC5lCdPbfdnE",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Sekai no Owari Concert 2025 (Singapore)",
+      "start": "Oct 4",
+      "end": "",
+      "venue": [
+        "1 Expo Dr, Singapore EXPO",
+        "Singapore"
+      ],
+      "address": [
+        "1 Expo Dr, Singapore EXPO",
+        "Singapore"
+      ],
+      "url": "https://ahboy.com/event/sekai-no-owari-concert-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv4ALDT0xzqwP4cNmTilL5duu-stOqC1AYa3XpYlIkHg&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Raffles Singers Presents: In Pursuit",
+      "start": "Aug 15",
+      "end": "",
+      "venue": [
+        "1 Zubir Said Dr, School of the Arts, Singapore",
+        "Singapore"
+      ],
+      "address": [
+        "1 Zubir Said Dr, School of the Arts, Singapore",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.com/e/raffles-singers-presents-in-pursuit-tickets-1451252708919",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNYR9M6aDBjpW0RI9Kpd_7TGefDTGBL0dkKVn6UCo-uQ&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Motta Maadi Music 2025",
+      "start": "Aug 11",
+      "end": "",
+      "venue": [
+        "1 Zubir Said Dr, School of the Arts, Singapore",
+        "Singapore"
+      ],
+      "address": [
+        "1 Zubir Said Dr, School of the Arts, Singapore",
+        "Singapore"
+      ],
+      "url": "https://www.premiertickets.co/event/motta-maadi-music-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT1eTvHAob03CoGksrzpUycc1aUS1R5Nkq7sZgO55ZRO1siWo5vKt9nyBZTRC6&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "HanYing Student Concert 2025",
+      "start": "Oct 18",
+      "end": "",
+      "venue": [
+        "80 Bencoolen St, Nanyang Academy of Fine Arts (NAFA)",
+        "Singapore"
+      ],
+      "address": [
+        "80 Bencoolen St, Nanyang Academy of Fine Arts (NAFA)",
+        "Singapore"
+      ],
+      "url": "https://au.trip.com/events/hanying-student-concert-2025-20250714/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1hD4GoCMGIB7r7WtKco6wIznMUyI3D4qyYt9MXQuIhA&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "2026-Jan-30, Esplanade Concert Hall: Pictures at an Exhibition / Bertrand Chamayou & Pierre Bleuse",
+      "start": "Jan 30",
+      "end": "",
+      "venue": [
+        "Esplanade Dr, Esplanade Concert Hall",
+        "Singapore"
+      ],
+      "address": [
+        "Esplanade Dr, Esplanade Concert Hall",
+        "Singapore"
+      ],
+      "url": "https://bachtrack.com/concert-event/pictures-at-an-exhibition-bertrand-chamayou-pierre-bleuse-singapore-symphony-orchestra-esplanade-concert-hall-30-january-2026/421663",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3LoLKBQjdijfHOvwIzsfTHcVZ9FHb2NyWxmokfG-uRQ&s=10",
       "category": "",
       "source": "google_events"
     }
