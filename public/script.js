@@ -112,27 +112,26 @@ function renderEvents(events) {
   const list = document.getElementById('eventList');
   if (!list) return;
 
-  const currentYear = new Date().getFullYear();
-  const today = new Date();
-
-  const parsedDate = (e) => {
-    try {
-      return new Date(`${e.start} ${currentYear}`);
-    } catch {
-      return new Date(8640000000000000); // fallback far future date
-    }
+  const parseDate = (d) => {
+    if (!d) return null;
+    const parsed = Date.parse(d);
+    return isNaN(parsed) ? null : new Date(parsed);
   };
 
-  const upcomingEvents = events
-    .map(e => ({ ...e, parsed: parsedDate(e) }))
-    .filter(e => e.parsed >= today)
-    .sort((a, b) => a.parsed - b.parsed);
+  // Sort by start date (ascending)
+  events.sort((a, b) => {
+    const dateA = parseDate(a.start);
+    const dateB = parseDate(b.start);
+    if (!dateA) return 1;
+    if (!dateB) return -1;
+    return dateA - dateB;
+  });
 
-  list.innerHTML = upcomingEvents.map(e => `
+  list.innerHTML = events.slice(0, 24).map(e => `
     <article class="card">
       ${e.image ? `<div class="thumb-wrap"><img class="thumb" src="${e.image}" alt="${esc(e.title)}" loading="lazy"></div>` : ''}
       <div class="title">${esc(e.title)}</div>
-      <div class="addr">${esc(e.venue?.join(', ') || '')}</div>
+      <div class="addr">${esc(e.venue?.join(', ') || e.venue || '')}</div>
       <div class="addr"><b>${esc(e.start || '')}</b></div>
       <div class="actions">
         ${e.url ? `<a class="btn-link" href="${e.url}" target="_blank">Event Link</a>` : ''}
@@ -140,6 +139,7 @@ function renderEvents(events) {
     </article>
   `).join('') || `<div class="notice">No events found.</div>`;
 }
+
 
 loadEvents();
 loadPlaces();
