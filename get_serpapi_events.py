@@ -2,10 +2,14 @@
 import os
 import requests
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 
 API_KEY = os.environ.get("SERPAPI_KEY")
-QUERY = "events in Singapore this weekend"
+
+today = datetime.now().strftime('%Y-%m-%d')
+next_week = (datetime.now() + timedelta(days=6)).strftime('%Y-%m-%d')
+QUERY = f"events in Singapore from {today} to {next_week}"
+
 
 params = {
     "engine": "google_events",
