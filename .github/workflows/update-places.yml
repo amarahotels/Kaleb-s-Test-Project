@@ -32,6 +32,12 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+
           git add public/data/places.json
-          git diff --quiet && echo "No changes to commit" || git commit -m "Auto-update places.json"
-          git push
+          if ! git diff --quiet; then
+            git commit -m "Auto-update places.json"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "✅ No changes to commit"
+          fi
