@@ -5,11 +5,14 @@ from datetime import datetime
 from dateutil import parser
 
 API_KEY = os.environ.get("SERPAPI_KEY")
+from datetime import datetime
+
+month_year = datetime.now().strftime("%B %Y")
 
 QUERIES = [
     "events in Singapore this week",
-#    "exhibitions or concerts in Singapore",
-#    "upcoming tourist attractions in Singapore"
+    f"Things to do in Singapore in {month_year}",
+    f"What's happening in Singapore in {month_year}"
 ]
 
 def fetch_events(query):
