@@ -1,109 +1,7 @@
 {
   "source": "google_events",
-  "generated_at": "2025-08-05T03:56:29.711697Z",
+  "generated_at": "2025-08-06T03:53:43.916111Z",
   "events": [
-    {
-      "title": "Coffee and Conversation (Aug 2025)",
-      "start": "Aug 5",
-      "end": "",
-      "venue": [
-        "500 Jln Sultan, #04-01 Jubilicious, Hotel Boss",
-        "Singapore"
-      ],
-      "address": [
-        "500 Jln Sultan, #04-01 Jubilicious, Hotel Boss",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.sg/e/coffee-and-conversation-aug-2025-tickets-1381539956199",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdT2nonsdiwKgTAjL2KmQ3fq7NopQpod4EKCteLFjAWw&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "National Day Celebrations at the National Museum of Singapore | National Museum of Singapore | Things to do in Singapore",
-      "start": "Aug 5",
-      "end": "",
-      "venue": [
-        "93 Stamford Rd, National Museum of Singapore",
-        "Singapore"
-      ],
-      "address": [
-        "93 Stamford Rd, National Museum of Singapore",
-        "Singapore"
-      ],
-      "url": "https://www.timeout.com/singapore/things-to-do/national-day-celebrations-at-the-national-museum-of-singapore",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmx7YDFFDHh7WHup5H6muB1ihQqpVXbujg8_WQVbWTQ&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Studio Sessions: Vinyāsa Yoga • 4 August 2025",
-      "start": "Aug 5",
-      "end": "",
-      "venue": [
-        "90 Goodman Rd, Block B, #01-08 RAW Moves Ltd, Goodman Arts Centre",
-        "Singapore"
-      ],
-      "address": [
-        "90 Goodman Rd, Block B, #01-08 RAW Moves Ltd, Goodman Arts Centre",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.sg/e/studio-sessions-vinyasa-yoga-4-august-2025-tickets-1529227884769",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvQIw8Ii1c69dP2Di6ErlG92zH5qClm8sw4kXTzeV7jQ&s",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "KAMPUNG ELEKTRIK PLUS KATONG SQUARE LIFESTYLE & VINTAGE MARKET 1-2-3 & 15-16-17 AUGUST 2025 EDITION",
-      "start": "Aug 5",
-      "end": "",
-      "venue": [
-        "88 E Coast Rd",
-        "Singapore"
-      ],
-      "address": [
-        "88 E Coast Rd",
-        "Singapore"
-      ],
-      "url": "https://m.facebook.com/events/1103508791881141/?acontext=%7B%22action_history%22%3A%22null%22%7D&ref_source=newsfeed&ref_mechanism=feed_attachment",
-      "image": "https://www.google.com/maps/vt/data=v9QgJvBCHjNDgvv_RmV2nnG5VX52P13q1KVMSOPOq0MzN70voBvwwFETWxbk5zvBlN11N4Aaiy7B2AmxbfxvJII__v4Qu-24WUr51AMLMCn2Buw693Y",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "The Honour Film Screening (Season 15) on 5 Aug 2025",
-      "start": "Aug 5",
-      "end": "",
-      "venue": [
-        "1 HarbourFront Walk, #02-30 Golden Village VivoCity, VivoCity",
-        "Singapore"
-      ],
-      "address": [
-        "1 HarbourFront Walk, #02-30 Golden Village VivoCity, VivoCity",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.co.uk/e/the-honour-film-screening-season-15-on-5-aug-2025-tickets-1445382841989",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sjQcBsVFe4dajCe9cRDdDGzXqlwGEZh644Qp5iZ_AG2XF1NL9s93OR5JaW8J&s",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "[04 & 05 Aug 2025] Turning Customer Complaints Into Our Opportunities",
-      "start": "Aug 5",
-      "end": "",
-      "venue": [
-        "11 Cavenagh Rd, Holiday Inn Singapore Orchard City Centre by IHG",
-        "Singapore"
-      ],
-      "address": [
-        "11 Cavenagh Rd, Holiday Inn Singapore Orchard City Centre by IHG",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.sg/e/04-05-aug-2025-turning-customer-complaints-into-our-opportunities-tickets-1137400679049",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcK-4kKXInEHBs0scG0ulgnHFAuoyXqiCA9X8WQ-4WuQ&s=10",
-      "category": "",
-      "source": "google_events"
-    },
     {
       "title": "Comedian Roast Battle | August 6th, 2025",
       "start": "Aug 6",
@@ -173,6 +71,74 @@
       "source": "google_events"
     },
     {
+      "title": "National Day Celebrations at the National Museum of Singapore | National Museum of Singapore | Things to do in Singapore",
+      "start": "Aug 6",
+      "end": "",
+      "venue": [
+        "93 Stamford Rd, National Museum of Singapore",
+        "Singapore"
+      ],
+      "address": [
+        "93 Stamford Rd, National Museum of Singapore",
+        "Singapore"
+      ],
+      "url": "https://www.timeout.com/singapore/things-to-do/national-day-celebrations-at-the-national-museum-of-singapore",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmx7YDFFDHh7WHup5H6muB1ihQqpVXbujg8_WQVbWTQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "RCSE August Meeting on 6 Aug 2025",
+      "start": "Aug 6",
+      "end": "",
+      "venue": [
+        "1 Farrer Park Station Rd, One Farrer Hotel",
+        "Singapore"
+      ],
+      "address": [
+        "1 Farrer Park Station Rd, One Farrer Hotel",
+        "Singapore"
+      ],
+      "url": "https://allevents.in/singapore/rcse-august-meeting-on-6-aug-2025/200028604091627",
+      "image": "https://www.google.com/maps/vt/data=GjxIgbRwzfcJfAkBlWfZ9naC7nw-xJmA-7Z45M52OXqs7BDbeZA9EHFAoenrHI--2scIoein-CBy6WVE-maZ7LQMRUBluEGek9a2mlhW_SnU2nZgsc0",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "[04 & 05 Aug 2025] Turning Customer Complaints Into Our Opportunities",
+      "start": "Aug 6",
+      "end": "",
+      "venue": [
+        "11 Cavenagh Rd, Holiday Inn Singapore Orchard City Centre by IHG",
+        "Singapore"
+      ],
+      "address": [
+        "11 Cavenagh Rd, Holiday Inn Singapore Orchard City Centre by IHG",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.sg/e/04-05-aug-2025-turning-customer-complaints-into-our-opportunities-tickets-1137400679049",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcK-4kKXInEHBs0scG0ulgnHFAuoyXqiCA9X8WQ-4WuQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Coffee and Conversation (Aug 2025)",
+      "start": "Aug 6",
+      "end": "",
+      "venue": [
+        "500 Jln Sultan, #04-01 Jubilicious, Hotel Boss",
+        "Singapore"
+      ],
+      "address": [
+        "500 Jln Sultan, #04-01 Jubilicious, Hotel Boss",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.sg/e/coffee-and-conversation-aug-2025-tickets-1381539956199",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdT2nonsdiwKgTAjL2KmQ3fq7NopQpod4EKCteLFjAWw&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
       "title": "Singapore Street Food Tour",
       "start": "Aug 7",
       "end": "",
@@ -190,7 +156,7 @@
       "source": "google_events"
     },
     {
-      "title": "SSO Pops: Disney Fantasia In Concert",
+      "title": "SSO Pops: Disney’s Fantasia",
       "start": "Aug 7",
       "end": "",
       "venue": [
@@ -203,6 +169,23 @@
       ],
       "url": "https://bachtrack.com/concert-event/disney-fantasia-in-concert-live-to-film-singapore-symphony-orchestra-esplanade-concert-hall-7-august-2025/421637",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRok3pSJ-Yg641iKCswp_ItMonrF-ak4BB_eKgTiXvt-Q&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Singapore Salesforce Developer Group Meetup August 2025",
+      "start": "Aug 7",
+      "end": "",
+      "venue": [
+        "6 Shenton Wy, #33-00 Deloitte Singapore, OUE Downtown 2",
+        "Singapore"
+      ],
+      "address": [
+        "6 Shenton Wy, #33-00 Deloitte Singapore, OUE Downtown 2",
+        "Singapore"
+      ],
+      "url": "https://trailblazercommunitygroups.com/events/details/salesforce-salesforce-developer-group-singapore-singapore-presents-singapore-salesforce-developer-group-meetup-august-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsxYUxIVhYIuXA0om-_zn6pys_SQrJgTWc-a5SF_l6g&s",
       "category": "",
       "source": "google_events"
     },
@@ -309,6 +292,23 @@
       "source": "google_events"
     },
     {
+      "title": "Chinatown Food Tour in Singapore",
+      "start": "Aug 9",
+      "end": "",
+      "venue": [
+        "150 N Bridge Rd",
+        "Singapore"
+      ],
+      "address": [
+        "150 N Bridge Rd",
+        "Singapore"
+      ],
+      "url": "https://wanderwomenproject.com/event/chinatown-food-tour-in-singapore/2025-08-09/",
+      "image": "https://www.google.com/maps/vt/data=K8NW9EB_CAseINrgJ551RgcXbTM9t0D5P1p0_zMNYTcxmLThaez-1t3wmGThuEFCioywVKyidogPpRBf-M5qgOZedE_76p04jtwL3auPw0k4xKDkpJk",
+      "category": "",
+      "source": "google_events"
+    },
+    {
       "title": "Yishun National Day Celebration 2025",
       "start": "Aug 10",
       "end": "",
@@ -322,6 +322,23 @@
       ],
       "url": "https://ahboy.com/event/nee-soon-national-day-celebration-2025/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk8nw9l4OS5UHy0SKeg_kOw1MD0HgQ-HR2rvW6Fhd2hQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Bishan National Day Celebration 2025",
+      "start": "Aug 10",
+      "end": "",
+      "venue": [
+        "118 Bishan St. 13, Grassland",
+        "Singapore"
+      ],
+      "address": [
+        "118 Bishan St. 13, Grassland",
+        "Singapore"
+      ],
+      "url": "https://ahboy.com/event/bishan-national-day-celebration-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJzYPrCMGVHGJXw4a25G3ucwicf3Ec8fMYSvupB1pEvQ&s=10",
       "category": "",
       "source": "google_events"
     }
