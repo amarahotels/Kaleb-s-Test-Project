@@ -1,6 +1,6 @@
 {
   "source": "google_events",
-  "generated_at": "2025-08-07T01:33:21.582204Z",
+  "generated_at": "2025-08-07T03:53:41.718404Z",
   "events": [
     {
       "title": "Singapore Street Food Tour",
@@ -37,6 +37,23 @@
       "source": "google_events"
     },
     {
+      "title": "Winesday Unwind @ Grand Cru (6 Aug)",
+      "start": "Aug 7",
+      "end": "",
+      "venue": [
+        "252 N Bridge Rd, #01-44B Grand Cru Wine Concierge, Raffles City Shopping Centre",
+        "Singapore"
+      ],
+      "address": [
+        "252 N Bridge Rd, #01-44B Grand Cru Wine Concierge, Raffles City Shopping Centre",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.sg/e/winesday-unwind-grand-cru-6-aug-tickets-1539329047619",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgeOW_tFxA55cA2IDAO4tiF56MdujLjJwF6vtjP1IytQ&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
       "title": "ACI CERTIFICATION SCHEME FOR CONCRETE CONSTRUCTION SPECIAL INSPECTOR (INTERNATIONAL CERTIFICATION BY ACI-USA)",
       "start": "Aug 7",
       "end": "",
@@ -50,40 +67,6 @@
       ],
       "url": "https://www.concrete.org.sg/events/list/?tribe-bar-date=2025-07-12",
       "image": "https://www.google.com/maps/vt/data=MnfkMDFLf6jKxAxlYZe_lXEwJEPXcxG8CPwiS_DmQ4ztEmAi0jh0OuTd45-car-lSh9ln0sVuLyPPmZgv88l9wBLlyS0Js0SAT6p6abD7SB_3c_Pjt8",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "LEARN IMPROV TODAY 6th august 2025",
-      "start": "Aug 7",
-      "end": "",
-      "venue": [
-        "Pocket Theatre @ Loft, New Bahru Complex, 46 Kim Yam Rd, #04-06 Pocket Theatre @ LOFT, Big Block",
-        "Singapore"
-      ],
-      "address": [
-        "Pocket Theatre @ Loft, New Bahru Complex, 46 Kim Yam Rd, #04-06 Pocket Theatre @ LOFT, Big Block",
-        "Singapore"
-      ],
-      "url": "https://www.premiertickets.co/event/learn-improv-today-6th-august-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHC7llEY27PsU3XP3C8f80GNnAm7n7YZK3W89VwFSUEM58GSmUbtHCudeIw&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "RCSE August Meeting on 6 Aug 2025",
-      "start": "Aug 7",
-      "end": "",
-      "venue": [
-        "1 Farrer Park Station Rd, One Farrer Hotel",
-        "Singapore"
-      ],
-      "address": [
-        "1 Farrer Park Station Rd, One Farrer Hotel",
-        "Singapore"
-      ],
-      "url": "https://allevents.in/singapore/rcse-august-meeting-on-6-aug-2025/200028604091627",
-      "image": "https://www.google.com/maps/vt/data=GjxIgbRwzfcJfAkBlWfZ9naC7nw-xJmA-7Z45M52OXqs7BDbeZA9EHFAoenrHI--2scIoein-CBy6WVE-maZ7LQMRUBluEGek9a2mlhW_SnU2nZgsc0",
       "category": "",
       "source": "google_events"
     },
@@ -118,6 +101,40 @@
       ],
       "url": "https://m.facebook.com/events/1103508791881141/?acontext=%7B%22action_history%22%3A%22null%22%7D&ref_source=newsfeed&ref_mechanism=feed_attachment",
       "image": "https://www.google.com/maps/vt/data=v9QgJvBCHjNDgvv_RmV2nnG5VX52P13q1KVMSOPOq0MzN70voBvwwFETWxbk5zvBlN11N4Aaiy7B2AmxbfxvJII__v4Qu-24WUr51AMLMCn2Buw693Y",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "LEARN IMPROV TODAY 6th august 2025",
+      "start": "Aug 7",
+      "end": "",
+      "venue": [
+        "Pocket Theatre @ Loft, New Bahru Complex, 46 Kim Yam Rd, #04-06 Pocket Theatre @ LOFT, Big Block",
+        "Singapore"
+      ],
+      "address": [
+        "Pocket Theatre @ Loft, New Bahru Complex, 46 Kim Yam Rd, #04-06 Pocket Theatre @ LOFT, Big Block",
+        "Singapore"
+      ],
+      "url": "https://www.premiertickets.co/event/learn-improv-today-6th-august-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHC7llEY27PsU3XP3C8f80GNnAm7n7YZK3W89VwFSUEM58GSmUbtHCudeIw&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "RCSE August Meeting on 6 Aug 2025",
+      "start": "Aug 7",
+      "end": "",
+      "venue": [
+        "1 Farrer Park Station Rd, One Farrer Hotel",
+        "Singapore"
+      ],
+      "address": [
+        "1 Farrer Park Station Rd, One Farrer Hotel",
+        "Singapore"
+      ],
+      "url": "https://allevents.in/singapore/rcse-august-meeting-on-6-aug-2025/200028604091627",
+      "image": "https://www.google.com/maps/vt/data=GjxIgbRwzfcJfAkBlWfZ9naC7nw-xJmA-7Z45M52OXqs7BDbeZA9EHFAoenrHI--2scIoein-CBy6WVE-maZ7LQMRUBluEGek9a2mlhW_SnU2nZgsc0",
       "category": "",
       "source": "google_events"
     },
@@ -173,23 +190,6 @@
       "source": "google_events"
     },
     {
-      "title": "Tastes of Togetherness: A National Day Feast [8 Aug]",
-      "start": "Aug 8",
-      "end": "",
-      "venue": [
-        "70 Bendemeer Rd, #05-01 Luzerne - A Heritage Tableware Brand in Singapore and Beyond",
-        "Singapore"
-      ],
-      "address": [
-        "70 Bendemeer Rd, #05-01 Luzerne - A Heritage Tableware Brand in Singapore and Beyond",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.sg/e/tastes-of-togetherness-a-national-day-feast-8-aug-tickets-1224314039249",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRecB7c68Z3bOwq9EjWlkDokkh32AMdMoX3hM4uVdeXhmoi9Uag9DFzcVD0nQ&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
       "title": "WEEKLY NIGHTLIFE PARTY",
       "start": "Aug 8",
       "end": "",
@@ -203,6 +203,23 @@
       ],
       "url": "https://www.partysingapore.club/ta/event-details/weekly-nightlife-party-73",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQGSAxfhqpzM5vZDadvODcvC6YsDTcWt-EoH2abAXgcw&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Tastes of Togetherness: A National Day Feast [8 Aug]",
+      "start": "Aug 8",
+      "end": "",
+      "venue": [
+        "70 Bendemeer Rd, #05-01 Luzerne - A Heritage Tableware Brand in Singapore and Beyond",
+        "Singapore"
+      ],
+      "address": [
+        "70 Bendemeer Rd, #05-01 Luzerne - A Heritage Tableware Brand in Singapore and Beyond",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.sg/e/tastes-of-togetherness-a-national-day-feast-8-aug-tickets-1224314039249",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRecB7c68Z3bOwq9EjWlkDokkh32AMdMoX3hM4uVdeXhmoi9Uag9DFzcVD0nQ&s=10",
       "category": "",
       "source": "google_events"
     },
@@ -237,23 +254,6 @@
       ],
       "url": "https://taogroup.com/event/8-08-25-avenue-fridays-avenue-singapore/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3n-O1-EFsGdICImcL2gBrUoWYlLdv_TqCaGNbXQ6zjD8--AWFmgxFRA1jNA&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Weekly Friday Badminton Session @ Arina Suites , SBH East coast",
-      "start": "Aug 8",
-      "end": "",
-      "venue": [
-        "1 Lor 23 Geylang, Singapore Badminton Hall",
-        "Singapore"
-      ],
-      "address": [
-        "1 Lor 23 Geylang, Singapore Badminton Hall",
-        "Singapore"
-      ],
-      "url": "https://allevents.in/singapore/weekly-friday-badminton-session-arina-suites-sbh-east-coast/200028604095751",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEwPkDSkxYxKOjle8KK9N9o9Tmf4bZ8HfrAsFubjSWyCvRL2iJzmEUmLMw5w&s=10",
       "category": "",
       "source": "google_events"
     },
@@ -322,6 +322,40 @@
       ],
       "url": "https://wanderwomenproject.com/event/chinatown-food-tour-in-singapore/2025-08-09/",
       "image": "https://www.google.com/maps/vt/data=K8NW9EB_CAseINrgJ551RgcXbTM9t0D5P1p0_zMNYTcxmLThaez-1t3wmGThuEFCioywVKyidogPpRBf-M5qgOZedE_76p04jtwL3auPw0k4xKDkpJk",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Stand Up Saturday | Saturday August 9th 2025 @ The Lemon Stand",
+      "start": "Aug 9",
+      "end": "",
+      "venue": [
+        "12 Queen St, #01-02 The Lemon Stand Comedy Club",
+        "Singapore"
+      ],
+      "address": [
+        "12 Queen St, #01-02 The Lemon Stand Comedy Club",
+        "Singapore"
+      ],
+      "url": "https://www.thelemonstand.sg/event-details/stand-up-saturday-saturday-august-9th-2025-the-lemon-stand",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo9ksGkwRjNi44pKHxNQ7m9dVIpcTmLUacbEBVNDyEcw&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Singapore National Climbing Standards (SNCS) Level 3 Certification Course (8/9 Aug 2025)",
+      "start": "Aug 9",
+      "end": "",
+      "venue": [
+        "21 Jurong Town Hall Rd, The Cliff @ Snow City",
+        "Singapore"
+      ],
+      "address": [
+        "21 Jurong Town Hall Rd, The Cliff @ Snow City",
+        "Singapore"
+      ],
+      "url": "http://www.rockerfellasadventure.com/event/singapore-national-climbing-standards-sncs-level-3-certification-course-8-9-aug-2025/",
+      "image": "https://www.google.com/maps/vt/data=FZ3e4otoRnypCR6jwiiHcAEcPbPbzeDX9BYYIKP4ctwjatsCe2rZBQ0CqupoI3fx-BZU3ZFIUn8ZbA-Q6kVu_jWJA-DQS0RVB9_ohZLP-ItdHKvC_CI",
       "category": "",
       "source": "google_events"
     },
