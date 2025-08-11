@@ -1,129 +1,10 @@
 {
   "source": "google_events",
-  "generated_at": "2025-08-10T03:52:25.031772Z",
+  "generated_at": "2025-08-11T03:52:52.308877Z",
   "events": [
     {
-      "title": "Stand Up Saturday | Saturday August 9th 2025 @ The Lemon Stand",
-      "start": "Aug 10",
-      "end": "",
-      "venue": [
-        "12 Queen St, #01-02 The Lemon Stand Comedy Club",
-        "Singapore"
-      ],
-      "address": [
-        "12 Queen St, #01-02 The Lemon Stand Comedy Club",
-        "Singapore"
-      ],
-      "url": "https://www.thelemonstand.sg/event-details/stand-up-saturday-saturday-august-9th-2025-the-lemon-stand",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo9ksGkwRjNi44pKHxNQ7m9dVIpcTmLUacbEBVNDyEcw&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Meet Friends at Spanish Group Singapore @Suntec (free)",
-      "start": "Aug 10",
-      "end": "",
-      "venue": [
-        "3 Temasek Blvd, #B1-115 Food Republic",
-        "Singapore"
-      ],
-      "address": [
-        "3 Temasek Blvd, #B1-115 Food Republic",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.sg/e/meet-friends-at-spanish-group-singapore-suntec-free-tickets-1130934979969",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdSo8UBiTuvZHrbotOG3JEYYmRqnOe9rKo96emcqEJzA&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Artist Talk, Open Scenes",
-      "start": "Aug 10",
-      "end": "",
-      "venue": [
-        "39 Keppel Rd, #03-10 INSTINC",
-        "Singapore"
-      ],
-      "address": [
-        "39 Keppel Rd, #03-10 INSTINC",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.sg/e/artist-talk-open-scenes-tickets-1520865803559",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa0udlGmi-ghK6846EpaAay2PZ-Qo6Ipixu_crEC6OxQ&s",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Public Holiday Yoga Classes: National Day weekend",
-      "start": "Aug 10",
-      "end": "",
-      "venue": [
-        "10 Selegie Rd, Block 10 HDB Selegie",
-        "Singapore"
-      ],
-      "address": [
-        "10 Selegie Rd, Block 10 HDB Selegie",
-        "Singapore"
-      ],
-      "url": "https://allevents.in/singapore/public-holiday-yoga-classes-national-day-weekend/200028535092033",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhfHXlHOYKlPkLw9Fh4aQ403bBSrDusOm_i60Tqifr4CSBlBvhQ6SktjGsgvQ&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Painting with Light",
-      "start": "Aug 10",
-      "end": "",
-      "venue": [
-        "National Gallery Singapore",
-        "Singapore"
-      ],
-      "address": [
-        "National Gallery Singapore",
-        "Singapore"
-      ],
-      "url": "https://citynomads.com/events/painting-with-light/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlUjQpjWJWn9y-AZ5cM4YimpoEdTOxXMgVH3PXv6_Xhw&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Singapore National Climbing Standards (SNCS) Level 3 Certification Course (8/9 Aug 2025)",
-      "start": "Aug 10",
-      "end": "",
-      "venue": [
-        "21 Jurong Town Hall Rd, The Cliff @ Snow City",
-        "Singapore"
-      ],
-      "address": [
-        "21 Jurong Town Hall Rd, The Cliff @ Snow City",
-        "Singapore"
-      ],
-      "url": "http://www.rockerfellasadventure.com/event/singapore-national-climbing-standards-sncs-level-3-certification-course-8-9-aug-2025/",
-      "image": "https://www.google.com/maps/vt/data=FZ3e4otoRnypCR6jwiiHcAEcPbPbzeDX9BYYIKP4ctwjatsCe2rZBQ0CqupoI3fx-BZU3ZFIUn8ZbA-Q6kVu_jWJA-DQS0RVB9_ohZLP-ItdHKvC_CI",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Lim Jia Qi: The Space Between- Recent Works",
-      "start": "Aug 10",
-      "end": "",
-      "venue": [
-        "50 Cuscaden Road HPL House #01-01, iPRECIATION",
-        "Singapore"
-      ],
-      "address": [
-        "50 Cuscaden Road HPL House #01-01, iPRECIATION",
-        "Singapore"
-      ],
-      "url": "https://www.mutualart.com/Exhibition/Lim-Jia-Qi--The-Space-Between--Recent-Wo/B0F491D5EF0E0F61",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKCa3DozMwrLMk6rD0DnNr-CZX9A0gLc-M5WQ5Fh_U8pmsU8y7ATgjdHiRRA&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
       "title": "Bishan National Day Celebration 2025",
-      "start": "Aug 10",
+      "start": "Aug 11",
       "end": "",
       "venue": [
         "118 Bishan St. 13, Grassland",
@@ -139,59 +20,8 @@
       "source": "google_events"
     },
     {
-      "title": "A National Day Feast at Moxie — Moxie",
-      "start": "Aug 10",
-      "end": "",
-      "venue": [
-        "2 College Rd, Level 1 Moxie",
-        "Singapore"
-      ],
-      "address": [
-        "2 College Rd, Level 1 Moxie",
-        "Singapore"
-      ],
-      "url": "https://www.moxie.sg/whats-happening/a-national-day-feast-at-moxie",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSopasYKVCQXPqw3q5gsPmW19qxFy84u4DHTdTDbM7GUj-ZjXLbO0uy3pxtPw&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "KAMPUNG ELEKTRIK PLUS KATONG SQUARE LIFESTYLE & VINTAGE MARKET 1-2-3 & 15-16-17 AUGUST 2025 EDITION",
-      "start": "Aug 10",
-      "end": "",
-      "venue": [
-        "88 E Coast Rd",
-        "Singapore"
-      ],
-      "address": [
-        "88 E Coast Rd",
-        "Singapore"
-      ],
-      "url": "https://m.facebook.com/events/1103508791881141/?acontext=%7B%22action_history%22%3A%22null%22%7D&ref_source=newsfeed&ref_mechanism=feed_attachment",
-      "image": "https://www.google.com/maps/vt/data=v9QgJvBCHjNDgvv_RmV2nnG5VX52P13q1KVMSOPOq0MzN70voBvwwFETWxbk5zvBlN11N4Aaiy7B2AmxbfxvJII__v4Qu-24WUr51AMLMCn2Buw693Y",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Chinatown Food Tour in Singapore",
-      "start": "Aug 10",
-      "end": "",
-      "venue": [
-        "150 N Bridge Rd",
-        "Singapore"
-      ],
-      "address": [
-        "150 N Bridge Rd",
-        "Singapore"
-      ],
-      "url": "https://wanderwomenproject.com/event/chinatown-food-tour-in-singapore/2025-08-09/",
-      "image": "https://www.google.com/maps/vt/data=K8NW9EB_CAseINrgJ551RgcXbTM9t0D5P1p0_zMNYTcxmLThaez-1t3wmGThuEFCioywVKyidogPpRBf-M5qgOZedE_76p04jtwL3auPw0k4xKDkpJk",
-      "category": "",
-      "source": "google_events"
-    },
-    {
       "title": "Yishun National Day Celebration 2025",
-      "start": "Aug 10",
+      "start": "Aug 11",
       "end": "",
       "venue": [
         "32 Yishun Central 1, FutsalArena @ Yishun Ltd",
@@ -207,76 +37,93 @@
       "source": "google_events"
     },
     {
-      "title": "Hello Summer | Paragon | Things to do in Singapore",
-      "start": "Aug 10",
+      "title": "KAMPUNG ELEKTRIK PLUS KATONG SQUARE LIFESTYLE & VINTAGE MARKET 1-2-3 & 15-16-17 AUGUST 2025 EDITION",
+      "start": "Aug 11",
       "end": "",
       "venue": [
-        "290 Orchard Rd, Paragon Shopping Centre",
+        "88 E Coast Rd",
         "Singapore"
       ],
       "address": [
-        "290 Orchard Rd, Paragon Shopping Centre",
+        "88 E Coast Rd",
         "Singapore"
       ],
-      "url": "https://www.timeout.com/singapore/things-to-do/hello-summer",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIRZNnaPKzS61N7D917TQg9enPdKxeadyUCH-khFtPuQ&s=10",
+      "url": "https://m.facebook.com/events/1103508791881141/?acontext=%7B%22action_history%22%3A%22null%22%7D&ref_source=newsfeed&ref_mechanism=feed_attachment",
+      "image": "https://www.google.com/maps/vt/data=v9QgJvBCHjNDgvv_RmV2nnG5VX52P13q1KVMSOPOq0MzN70voBvwwFETWxbk5zvBlN11N4Aaiy7B2AmxbfxvJII__v4Qu-24WUr51AMLMCn2Buw693Y",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "lululemon run club SG : Community Run - Raffles City store (10 August 2025)",
-      "start": "Aug 10",
+      "title": "The Kumar Show | Wednesday August 13th 2025 @ The Lemon Stand",
+      "start": "Aug 13",
       "end": "",
       "venue": [
-        "252 N Bridge Rd, Raffles City",
+        "12 Queen St, #01-02 The Lemon Stand Comedy Club",
         "Singapore"
       ],
       "address": [
-        "252 N Bridge Rd, Raffles City",
+        "12 Queen St, #01-02 The Lemon Stand Comedy Club",
         "Singapore"
       ],
-      "url": "https://www.eventbrite.sg/e/lululemon-run-club-sg-community-run-raffles-city-store-10-august-2025-tickets-1509250943199",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF-saJX5DYEAYmq3vn9rO8atiQImHrYvpZXmgrMhvAnyNNdQCihym1JbU-BQ&s",
+      "url": "https://www.thelemonstand.sg/event-details/the-kumar-show-wednesday-august-13th-2025-the-lemon-stand",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_enGrgukJHYNyaUSWTqngKAjTYXJE14eOAQqFi8NSA&s",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "Real Friends",
-      "start": "Aug 10",
+      "title": "UNWIND @ Raffles Place August 2025",
+      "start": "Aug 13",
       "end": "",
       "venue": [
-        "1 Selegie Rd, B1-05 Spectrum by Phil Studio, GR.iD (GR.iD",
+        "Raffles Place MRT station",
         "Singapore"
       ],
       "address": [
-        "1 Selegie Rd, B1-05 Spectrum by Phil Studio, GR.iD (GR.iD",
+        "Raffles Place MRT station",
         "Singapore"
       ],
-      "url": "https://open.spotify.com/concert/1RNA0odI9iFk7Qlm75Ydzw",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB-JMjRkRj-OHk0MqIWzyQ8Cj2s0F5FwefG0uLpOCnns3IR3PgrFPiWuci2Q&s=10",
+      "url": "https://allevents.in/singapore/unwind-raffles-place-august-2025/200028582514636",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnGcEK7uOT47f9-XFKegko5c7Fkx_ur7l_OJgoXr6_gQ&s=10",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "One Punggol National Day Celebration 2025",
-      "start": "Aug 10",
+      "title": "Indri Whisky & Camikara Rum Masterclass 13 Aug 2025, 6:30pm",
+      "start": "Aug 13",
       "end": "",
       "venue": [
-        "1 Punggol Dr., One Punggol",
+        "2 Sims Cl, Gemini @ Sims",
         "Singapore"
       ],
       "address": [
-        "1 Punggol Dr., One Punggol",
+        "2 Sims Cl, Gemini @ Sims",
         "Singapore"
       ],
-      "url": "https://allevents.in/pasir-ris/national-day-heartland-celebrations-2025-north-east/200028615986541",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXXQstSFqS6BpcRl3TgBqFz0--rHPPc2QwhcSKw6F6C-ZZVRnqEOjhufQXdw&s=10",
+      "url": "https://allevents.in/singapore/indri-whisky-and-camikara-rum-masterclass-13-aug-2025-6-30pm/200028554049703",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9oU-hVYbOQatx8JgayKV06SF8SKNDB922kjJixWUv1g&s=10",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "2025 Singtel NDP Contingent — Suntec Singapore",
-      "start": "Aug 10",
+      "title": "Studio Sessions: The Flow Practice • 13 August 2025",
+      "start": "Aug 13",
+      "end": "",
+      "venue": [
+        "90 Goodman Rd, Block B, #01-08 RAW Moves Ltd, Goodman Arts Centre",
+        "Singapore"
+      ],
+      "address": [
+        "90 Goodman Rd, Block B, #01-08 RAW Moves Ltd, Goodman Arts Centre",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.sg/e/studio-sessions-the-flow-practice-13-august-2025-tickets-1529295045649",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsY1j0M9PnRLgxX6fiKMW9vQwRPi3Lf4yY2Ie06GvltQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "BNI-Nexus (14/8/2025) — Suntec Singapore",
+      "start": "Aug 14",
       "end": "",
       "venue": [
         "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
@@ -286,59 +133,161 @@
         "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
         "Singapore"
       ],
-      "url": "https://www.suntecsingapore.com/visit-events/2025-singtel-ndp-contingent",
+      "url": "https://www.suntecsingapore.com/visit-events/bni-nexus-1482025",
       "image": "https://www.google.com/maps/vt/data=b5j4NiRIZm0xXfX9mpmexFoxF_t7zaJMmpqkVvwsgtiuiM2Q5Pt_1l1KUy6ggnxsbWDJ6vm_Adph1Vm_IV9X6dBZcrrMkK-J13uJ44DL5pZejARvyxQ",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "IMPACT WEEK 2025 — Suntec Singapore",
-      "start": "Sep 15",
+      "title": "YOUTH COACHING WORKSHOP - AUG 2025 RUN",
+      "start": "Aug 14",
       "end": "",
       "venue": [
-        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+        "601 MacPherson Road Grantral Mall, Grantral Mall/Grantral Complex@Macpherson, Grantral Complex",
         "Singapore"
       ],
       "address": [
-        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+        "601 MacPherson Road Grantral Mall, Grantral Mall/Grantral Complex@Macpherson, Grantral Complex",
         "Singapore"
       ],
-      "url": "https://www.suntecsingapore.com/visit-events/impact-week-2025",
-      "image": "https://www.google.com/maps/vt/data=b5j4NiRIZm0xXfX9mpmexFoxF_t7zaJMmpqkVvwsgtiuiM2Q5Pt_1l1KUy6ggnxsbWDJ6vm_Adph1Vm_IV9X6dBZcrrMkK-J13uJ44DL5pZejARvyxQ",
+      "url": "https://allevents.in/singapore/youth-coaching-workshop-aug-2025-run/200028561287545",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9JAiB-cSjPatmWzC4Elxjtt87HeOkAmNBteBAaUliCDhnPwvIEVGpRVucQ&s=10",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "Singapore Week of Innovation & Technology",
-      "start": "Oct 29",
+      "title": "Avenue Fridays",
+      "start": "Aug 15",
       "end": "",
       "venue": [
-        "10 Bayfront Ave, Marina Bay Sands Singapore",
+        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
         "Singapore"
       ],
       "address": [
-        "10 Bayfront Ave, Marina Bay Sands Singapore",
+        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
         "Singapore"
       ],
-      "url": "https://www.techinnovation.com.sg/events/iProc.aspx?5S,M3,da8a993f-9ff4-4e06-9033-b68936e5e578&trk=test",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYRghNcttNEHF1F5mmMdbH9GeTFfNd3RoEWwaRmZVisWvN&s",
+      "url": "https://taogroup.com/event/15-08-25-avenue-fridays-avenue-singapore/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3n-O1-EFsGdICImcL2gBrUoWYlLdv_TqCaGNbXQ6zjD8--AWFmgxFRA1jNA&s=10",
       "category": "",
       "source": "google_events"
     },
     {
-      "title": "Singapore International Agri-Food Week",
-      "start": "Nov 3",
+      "title": "The Lord of the Rings",
+      "start": "Aug 15",
       "end": "",
       "venue": [
-        "1 Expo Dr, Singapore EXPO",
+        "10 Bayfront Ave, B1-69/70 Sands Theatre, The Shoppes, Marina bay sands",
         "Singapore"
       ],
       "address": [
-        "1 Expo Dr, Singapore EXPO",
+        "10 Bayfront Ave, B1-69/70 Sands Theatre, The Shoppes, Marina bay sands",
         "Singapore"
       ],
-      "url": "https://www.ntradeshows.com/singapore-international-agri-food-week/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm-1KQE03qV10FTh30B105qPz-fzR8Y4A76I0Cdqln8S-jZyT9LstHj1_NaQ&s=10",
+      "url": "https://www.ticketswap.com/event/the-lord-of-the-rings-a-musical-tale/103e7a8d-01ac-49a5-98e1-b2b31371f3f2",
+      "image": "https://www.google.com/maps/vt/data=_x-6dYYbQB7-2CrhnkC8RcJV1mWz5N1a1-RkiViuHlUCXOck9ToYD6gigtJxOZsfSly1UIPjQiM18I8PG30paKOeyTaPM5RYMuy1LN0PCKYWaaaFvzw",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Art of Awakening Visual Facilitation Lab - Singapore AUGUST 2025",
+      "start": "Aug 15",
+      "end": "",
+      "venue": [
+        "30 Merchant Rd, Riverside Point",
+        "Singapore"
+      ],
+      "address": [
+        "30 Merchant Rd, Riverside Point",
+        "Singapore"
+      ],
+      "url": "https://www.artofawakeningasia.com/event-details/art-of-awakening-visual-facilitation-lab-singapore-august-2025",
+      "image": "https://www.google.com/maps/vt/data=dySYRRKoXUoNjzxcMe0pmuCQTwdlvb9MPvLqv_FqrUsCpctP7Mvk6rXZwHUkcxtKYYZjaGRvzfTBB_dJVZrQvH_5__W7HTNV0OR6TiK5-W9cgP0wukI",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Tampines West National Day Carnival 2025",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "Tampines Street 81, Play T West",
+        "Singapore"
+      ],
+      "address": [
+        "Tampines Street 81, Play T West",
+        "Singapore"
+      ],
+      "url": "https://ahboy.com/singapore-events/tag/tampines-fireworks/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnseVlKK4eODvlJRIZXseAYSa-pFzvO2QU62H34WLi-w&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "WEEKLY NIGHTLIFE PARTY",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "44A Prinsep St, SMÖÖbar @ Prinsep",
+        "Singapore"
+      ],
+      "address": [
+        "44A Prinsep St, SMÖÖbar @ Prinsep",
+        "Singapore"
+      ],
+      "url": "https://www.partysingapore.club/ta/event-details/weekly-nightlife-party-75",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQGSAxfhqpzM5vZDadvODcvC6YsDTcWt-EoH2abAXgcw&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "LE SSERAFIM",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "2 Stadium Walk, Singapore Indoor Stadium",
+        "Singapore"
+      ],
+      "address": [
+        "2 Stadium Walk, Singapore Indoor Stadium",
+        "Singapore"
+      ],
+      "url": "https://open.spotify.com/concert/7iqVXgVRd6lcxAl67Fv3Kv",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRng2f2g624UBclvdvmDsgE_tKXYnwVNADQm9BVtNHuLdU2n0tpRzca2dEdag&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Aman Alhamid | A Magic Comedy Act | Sat August 16th 2025 | The Lemon Stand",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "12 Queen St, #01-02 The Lemon Stand Comedy Club",
+        "Singapore"
+      ],
+      "address": [
+        "12 Queen St, #01-02 The Lemon Stand Comedy Club",
+        "Singapore"
+      ],
+      "url": "https://www.thelemonstand.sg/event-details/aman-alhamid-a-magic-comedy-act-sat-august-16th-2025-the-lemon-stand",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Z5NxUK2lhDMtUX1xq34oU0hMxdoUeKJIBqED2VQZqg&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Somewhere Out There Festival 2025",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "Fort Canning Park",
+        "Singapore"
+      ],
+      "address": [
+        "Fort Canning Park",
+        "Singapore"
+      ],
+      "url": "https://ra.co/events/2228029",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0wls_jXzIlsQ4IJBemglIuL-jIFsTk2IaEItLqu1vHPQmLDkSRv3gQJt1RQ&s=10",
       "category": "",
       "source": "google_events"
     }
