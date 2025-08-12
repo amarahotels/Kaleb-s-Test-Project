@@ -3,17 +3,25 @@ name: Update Places Daily
 on:
   push:
     branches:
-      - main     # run when you push to main
+      - main
   schedule:
-    - cron: "30 2 * * *"  # Runs daily at 10:30 AM SGT
-  workflow_dispatch:       # allow manual trigger via GitHub UI
+    - cron: "30 2 * * *" # Runs daily at 10:30 AM SGT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -28,14 +36,19 @@ jobs:
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
 
+      - name: Check for changes
+        run: |
+          git status
+          git diff --name-only
+
       - name: Commit & Push changes (if any)
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add public/data/places.json
-          if ! git diff --quiet; then
-            git commit -m "Auto-update places.json"
+          if [[ -n "$(git status --porcelain public/data/places.json)" ]]; then
+            git add public/data/places.json
+            git commit -m "Auto-update places.json ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
             git pull --rebase origin main
             git push origin main
           else
