@@ -21,12 +21,14 @@ if not API_KEY:
 
 LAT, LNG = 1.2765, 103.8456
 RADIUS_METERS = 800
+
+# Start with restaurants (you can change this anytime)
 INCLUDED_TYPES = ["restaurant"]
 
 NEARBY_URL = "https://places.googleapis.com/v1/places:searchNearby"
 TEXT_URL   = "https://places.googleapis.com/v1/places:searchText"
 
-# IMPORTANT: request the photo metadata so we can build a media URL
+# Request the fields we need (now includes 'types')
 FIELD_MASK = ",".join([
     "places.id",
     "places.displayName",
@@ -35,7 +37,8 @@ FIELD_MASK = ",".join([
     "places.googleMapsUri",
     "places.photos.name",
     "places.photos.widthPx",
-    "places.photos.heightPx"
+    "places.photos.heightPx",
+    "places.types"                     # <-- NEW
 ])
 
 def search_nearby():
@@ -103,7 +106,8 @@ for p in raw:
         "address": p.get("formattedAddress"),
         "place_id": p.get("id"),
         "maps_url": p.get("googleMapsUri"),
-        "photo_url": photo_url  # NEW
+        "photo_url": photo_url,
+        "types": p.get("types", [])            # <-- NEW (used by the front-end filter)
     })
 
 Path("public/data").mkdir(parents=True, exist_ok=True)
@@ -111,5 +115,3 @@ with open("public/data/places.json", "w", encoding="utf-8") as f:
     json.dump(places, f, ensure_ascii=False, indent=2)
 
 print(f"Wrote {len(places)} places to public/data/places.json")
-
-# testing the cost of the API call

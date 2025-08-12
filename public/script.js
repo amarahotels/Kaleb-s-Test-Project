@@ -7,8 +7,10 @@ const listEl = document.getElementById('placeList');
 const errorEl = document.getElementById('placesError');
 const sortSel = document.getElementById('sortSelect');
 const minRatingSel = document.getElementById('minRating');
+const typeSel = document.getElementById('typeFilter');   // <-- NEW
 
 let allPlaces = [];
+let selectedType = 'all';                                 // <-- NEW
 
 // load latest JSON (cache-busted)
 async function loadPlaces() {
@@ -30,11 +32,21 @@ function render() {
   if (errorEl) errorEl.classList.add('hidden');
 
   const minR = parseFloat(minRatingSel?.value || '0');
+
   let items = allPlaces.filter(p => {
+    // rating filter
     const r = num(p.rating);
-    return Number.isFinite(r) ? r >= minR : true;
+    const passRating = Number.isFinite(r) ? r >= minR : true;
+
+    // type/category filter (NEW)
+    const passType =
+      selectedType === 'all' ||
+      (Array.isArray(p.types) && p.types.includes(selectedType));
+
+    return passRating && passType;
   });
 
+  // sort
   const sort = sortSel?.value || 'ratingDesc';
   if (sort === 'ratingDesc') {
     items.sort((a, b) => num(b.rating) - num(a.rating));
@@ -42,6 +54,7 @@ function render() {
     items.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
   }
 
+  // brochure size
   items = items.slice(0, 24);
 
   listEl.innerHTML = items.map(cardHtml).join('') ||
@@ -80,6 +93,12 @@ function esc(s = '') {
 
 sortSel?.addEventListener('change', render);
 minRatingSel?.addEventListener('change', render);
+
+// NEW: category change
+typeSel?.addEventListener('change', () => {
+  selectedType = typeSel.value;
+  render();
+});
 
 // NAV TOGGLE
 document.querySelectorAll('.nav-btn').forEach(btn => {
@@ -139,7 +158,6 @@ function renderEvents(events) {
     </article>
   `).join('') || `<div class="notice">No events found.</div>`;
 }
-
 
 loadEvents();
 loadPlaces();
