@@ -1,121 +1,16 @@
 {
   "meta": {
-    "generated_at": "2025-08-12T03:35:25.346761+00:00"
+    "generated_at": "2025-08-12T08:52:28.621209+00:00"
   },
   "places": [
     {
-      "name": "POSB Tanjong Pagar - 24/7 Self-Service Branch",
-      "rating": 5,
-      "rating_count": 2,
-      "address": "1 Tanjong Pagar Plz, #01-41, Singapore 082001",
-      "place_id": "ChIJxwwjIIYZ2jER4KLwkJozHNs",
-      "maps_url": "https://maps.google.com/?cid=15788551132603785952&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJxwwjIIYZ2jER4KLwkJozHNs/photos/ATKogpf-XvmVEqE5J9LuDT3D3xMnHwLcyZMTfekGc1ntgX5WkW68K_Z67l9rjdGTY8558vdMByhc09q0jbmiMLH8kllpSWa2lcXAnsc_GQeCbCJkFKRTiPFdOe57WA6-wA6py_0sUOh1o-qgPtIU2AiszrOp6wuAiS1sdWG1_yP5hEteWmGCbzrSwhbsfKmvdNdVqNCH4EPiFIDW32KlhVGweb1qcrNO3EVjhi7bCEYnwwjEwS7HvydEAmTS6tILLNroEB0Ou-DOzbtKVf_uMxH6zEmxnKog-Cwn5i6M6W-3LxG36ZzoRHlryfGZSFe1opRBQvCxf6p7N44c0ntjrj1jRJf8Ge6WT1mVQJ68TxQNTncpBYYitafJa_jc0S3ZSoBuamLEDPm3kmOFzbzEdgv-m0U6gAD7QJtVfGMIrs6SYNt7XpU_/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "Poo Kin Thong",
-      "rating": 5,
-      "rating_count": 1,
-      "address": "4 Sago Ln, Singapore 050004",
-      "place_id": "ChIJnYxE4XIZ2jERIOEtiv2vp20",
-      "maps_url": "https://maps.google.com/?cid=7901477574724673824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJnYxE4XIZ2jERIOEtiv2vp20/photos/ATKogpeWYFWuo10I7fZcg6BJpdIT60xkON-YPRSLa7brHxY0oLZ1WhiIZ1ljzPvbv4D4Z6uwSYdosHb_Dn832EsvWOA2GeUsaF2Esk4qUl5SKFsgjN2tXKLJ8TYpPqsvRd9CQZApcP-RGk-HmXFnT5WsqsAqcs9Lz0bqU2utMQ7phdBZb5pzq9D2nPLeaRZ4TjdrkoByiXgAocgMdMYDnqMc7S_dLfClr62ba08OBaR6X9pNEg2-ipNCzRF0cJM5xee-qUM-hgWlZrbhnaNatex3DYbdHBqCFZV0FhUngfV-FwqlN1K52XfIrHTN9lcXT8U8TiU51vFXgtT-EucZlI0d4wHVxAw1koQiTWJ1y2qWVNImkQJmHVkRO6ehplZE2O0l1Qedd_2g4YNuEHHFExYAK7BHzCSENNDQ5t69nd4qMgRG5ndO/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "supermarket"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 5,
-      "rating_count": 1,
-      "address": "30 Smith St, Singapore 058944",
-      "place_id": "ChIJpUj-BwAZ2jERTnm1MFXLzuM",
-      "maps_url": "https://maps.google.com/?cid=16415281258561894734&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJpUj-BwAZ2jERTnm1MFXLzuM/photos/ATKogpfdsjtIzbvaWFmnyGZzeA9m87p4JCaRWMOA1DpcqkhpK4ij8QnwCoaLFw2PYXaSm7Gc1cVkxPAEpzMU_LfDtPPUEbMRMLJ4aIvzsZWsDpF7hUVzDJF6j73lThQrVYDqEmLg1vO7jst_5GZHubGc02tUk2L4iGatCdOQ-7t6qKbwWxhJ3a-L8D3EIPN5hhvi5SOvn7irwKtHgQNCpkhnMrbKe85rBVaE-u4E6PeUkH5_cqZ6VWJvo_zGsHr4344zr5kUo0gJlW8phxo5pI9bgMcGoLTzIXjTxVte5mionNt8XL6gS2FALzVif_68U7OLSeZYHxhts0n-jr877vtWRuapmpH7MbAf94klhTl7ggHvVkf3yAvAyYlTmYPMOtPVnEO9nvV__Ln8OkSFqA03lxK-SRuZn0EMu5eRKsT2XK3berEvA656qyHX2IV6_0yp/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "DBS ATM",
-      "rating": 5,
-      "rating_count": 1,
-      "address": "Blk 335 Smith St, Level 1, Singapore 050335",
-      "place_id": "ChIJVVWVGXMZ2jERnxoRGfZYI2w",
-      "maps_url": "https://maps.google.com/?cid=7792169594286840479&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJVVWVGXMZ2jERnxoRGfZYI2w/photos/ATKogpcGTsdJT4VzxlDCAIgHQ_XXtQuGX5L_WW98HmBXeItWAsSfQt39ZTR6eic4MLg4fcmI7ZX6q6P9RkPet6Lz1Z2SZZiYyATFRqh5PXO1T2zMwnSV91VMsTOhRdNCLQY4ypXSgrhVNFfyJKj-6inVaQx11VzAUleDactjwTEnTkV-gAomH3TTI7dX6boctHXG6VnC5z5s6y0OjbuwytnMvV76K6Mq2zBwLg6B9ehaTEfvuIQDBXO5sOfuyraT7m5vmEFHI9RrCXzOArMFCPqbbadeP2jKncQbRDZavplU_LoeAMV8rHVLJZzIiS9S78Hft6fNZAhNCzLI2Jk5mCkcElVev5-MVv3pKd9QxEqjeZ9XU6tgFTUC96CxXS_X_Igj5fgNZo5ClPiQNLZEJZURqESeZ4m6ZEgboYFUMOxYCkDWf4pE/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "Citibank Singapore CDM (Cash Deposit Machine) - Asia Square",
-      "rating": 5,
-      "rating_count": 1,
-      "address": "Asia Square Tower 1, 8 Marina View, #01-K7, Singapore 018960",
-      "place_id": "ChIJ2YUB8BEZ2jER3gpwYNvNZKk",
-      "maps_url": "https://maps.google.com/?cid=12206107232180374238&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ2YUB8BEZ2jER3gpwYNvNZKk/photos/ATKogpeNeW65_F5ZlHuZJPvnaP23aqnqu8nf9MwDmdk_H6HLsfhfcadUcv2NID8duf3qTc7KSOhr1L5IriI0yhAcxsAAEZslEwTNF5_kMVCe67UDh4D5QAIxl9PnKVu-isAAzKqWFtOJro2yrq0qR1SMkpZc9IWlva4hSnmfu29ZQ19q2CVRIaJksiTxULsubau-8SmNgl3ei5XNQGcQ9G4omdCPNAiATcjYQZV_hDopW24dTuRJ9JGBu4PgWEjB532A-sbAySctQ58XT-a6OEI37akNkNY5aPsHcYHs-PEhKONgWb69IM_cZsX_reTRejhmjJV4YP50M-4dIyjH3SrLsXmZs0nUgFFb9tQxmrAhX105d9_SXmHs0inh1-BoZXPShPLbRllISY7DMCLBbxAedFbCD6cJwiGfAmywH9DaxmV2ZAIv/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "Dome Bakery - Fudgy Brownies & Bakes",
-      "rating": 4.9,
-      "rating_count": 359,
-      "address": "227 South Bridge Rd, #01-01, Singapore 058776",
-      "place_id": "ChIJReZnRDIZ2jERDWKVQWtXn8E",
-      "maps_url": "https://maps.google.com/?cid=13951966288790512141&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJReZnRDIZ2jERDWKVQWtXn8E/photos/ATKogpd29uOCHaXgPlxcWNTxbeK7CEcaunK6UtbXjPjNytgyPPqgyPMSwXb70SGwEPtQvjMpSI3s0c8CrMxkGih-CsuupERwgRDdpsoU5_en8HTEgg23FVVRvqwNaSGMc3bWUJvpPXpDQqsItJJHqAfklKoaxMvRY0hxr-lO1N0DgcHu2kNmHCOH6-VHvfdl4Uf13gexfRN4IqT__MNnlQP951W0u6yzq1Xd1IX8BPc8ccn7ftaKconVDrXriNreWVykxdoQuze4kqF0M26m4uD8B_FtnwF8Niz4GXV4sv_AOWCxkA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "meal_takeaway",
-        "food_store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
       "name": "Fortuna - Italian Pizza & Pasta Restaurant",
       "rating": 4.8,
-      "rating_count": 5198,
+      "rating_count": 5203,
       "address": "7 Craig Rd, Singapore 089667",
       "place_id": "ChIJMdlUdEcZ2jERWCdZrF5aCnY",
       "maps_url": "https://maps.google.com/?cid=8505710208907552600&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJMdlUdEcZ2jERWCdZrF5aCnY/photos/ATKogpc8t9q64-A1fkhX9l1ObBKE0uFFHavfupGIx6-LbocHO67oS8MXrYcE8xIUoRXy4Hf1l8FW4IGRvNo7ilTGncJtsZF1j5pesU7HSMGNvL85xDP1wGVHCtd0X95hbrVFvP8RK6EKxAE_MFjXfx-QZ5XmDXExYbI6pbt0zc1lIz2q8eCqjk3cd6D1slMk6XGr8_Z-CV9iUorvr4DZ8hvFwpSBojmuAnei1j4Ut630LiR3fHx9_b78mk5T7iTPCWcpd35uDC1wQfQMD78BBEjzA05sBVE0FctB_huKbQZCNbdSMA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJMdlUdEcZ2jERWCdZrF5aCnY/photos/ATKogpfN0zaFh6KS2jH_I_c1Io4K60edNOYOa0NP7m-jTc0ApNcE0yI-c1IRyxpuIKI7Sb9vLAe26bZdDj48zxzCXz8nAs_8bSaDIwL1FRemmXDyQubETE8i0dePyQXOTJcEojfYM7SL4xm2WuRn8UNZSlZ6Gg7VDpb9gHLeDPEew1ikwf4FM2lV41J0zWZF3hAIMVehat0Qod2s0qpBT-GjIHuznISLRZsqAmxvRHlwoxMMKc7Cy1NJzFTk7HWKqhPduxcE72wZXHcfgl94u12vFxQcoG2BZ5N2iRdMP7SGSGN3EA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "italian_restaurant",
         "restaurant",
@@ -126,42 +21,24 @@
       "primary_type": "italian_restaurant"
     },
     {
-      "name": "Cheers",
-      "rating": 4.8,
-      "rating_count": 13,
-      "address": "7 Cross St, B1-02 Telok Ayer MRT Station, Singapore 048416",
-      "place_id": "ChIJpap_yTQZ2jERVMI0No2aKnc",
-      "maps_url": "https://maps.google.com/?cid=8586845570825765460&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJpap_yTQZ2jERVMI0No2aKnc/photos/ATKogpdfn0_-hjyAvttpViNPanBo8h94kaIlUi9fig1KOLnibo1-dyDP_TunGldNFffRJf1fjBA7CyhH0ivx8kVkBTUt7qKn_dFNRYs4SXfnoyb4MKtnTpA-GvbSuViGEGnz6oeTQ369HU2TYreW73tQ0TQtu_lrUkWdu2FPOPawQCjle_1A4uL0YVXly0NL9qTD9c4x69JNSAJOldyo9KXIiaKOXDFbOMM44UGImaYzSeq6NdBCX8hJLC9tYKfni5Ch182TMMxtpeuqD0T7k021UaGMsiJ7LL731WgFMSfCozjgH52nQIKr6kfht8zUYZRGDQWEV7tMk0IAoT-kWd5EMYJsiddv3ba1Mab4KcVOo3jKz3hrlxaK56bMISU2ohq9SWcuzexktlSbf5czIGlIvcAQMo3jrMI_03ID-zn6aHjvO7A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
       "name": "My Awesome Cafe",
       "rating": 4.7,
       "rating_count": 6946,
       "address": "202 Telok Ayer St, Singapore 068639",
       "place_id": "ChIJ83SVew0Z2jERsfl0iOB4Pco",
       "maps_url": "https://maps.google.com/?cid=14572936874998167985&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ83SVew0Z2jERsfl0iOB4Pco/photos/ATKogpdhClP30cqzNyU95dIETUcG-zMgAVO-DhpQCDQDqt0pWXgB-Q-Khd2RyMIl3EC1lsEaAH5ePmNVg2AjYlRnwb1OjbltlhJr9Vn48I4TRBot74Ka3ftwqB4KO-EKWbBj3mG9ReMWKDU98ZIRQuVSEzYNSFlziE8bo_Xks_xVkrJD1nFYr7bqYzXGIk9SeXQGc5-cngf3adRojckjck68SrQzCCGGK9gs2QywuVAw-o3yGO1IoaIHqdnP4hLTOmqB0E7Lla91mWGCLUu0CFhFoNgZea1Jno_rw4OCvBejKIzllA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ83SVew0Z2jERsfl0iOB4Pco/photos/ATKogpejVatPqLU0GbGxyMJnRsqFSOYeQAq32PVreHkuUMdrpRuYCrRGTyyOGDW77IFwL644DYJSrc6TRteawYJJjylRciAGlTJhKpcYs6WDy1_qnaOBB8CHlFWrNenD_kP2V42nGV3yZ1U5I4w4_gwJfhGrDajSX8l5GyF_vFjxQv2Du8cEZGfYNyvMlauTpMAgOfCuS6MkbCxzW3il149LNjEW0xycU9_-E_TsxuLd5aELZMmsXPtO23fVbVheq3sHpOGU1XvpodYJxKO5xolXCzKNQLh15WNJYrzyULyfBEITVw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "brunch_restaurant",
-        "wine_bar",
         "liquor_store",
+        "wine_bar",
         "wedding_venue",
         "cafe",
         "bar",
-        "food",
-        "store",
         "event_venue",
+        "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -174,7 +51,7 @@
       "address": "7-9 Club St, Singapore 069403",
       "place_id": "ChIJoQvLtqkZ2jERKOVZn48aivQ",
       "maps_url": "https://maps.google.com/?cid=17620925696196601128&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJoQvLtqkZ2jERKOVZn48aivQ/photos/ATKogpfwo1yHHS0AW4-533nehN93vKKhdH0_vIaciAbgu83L46mb0DWidC5HfIgLLHcDVLPokQA6q1SuKvswvF37eowzZgYd-6OdeSLKj5J3AURHxlcFWlDBp-k24GxV5u1Ylvt7i55RsDRvKheLlCw1mieO6T4ImAU6jYi2Dc9KN8W8ti-lBgiYq_G3DUb2xK5EZkCIJkK71xuBMIvrNfZvCLyp8hrb8EToyLEKPDDPI10oA367BjOKwosPuRkOJZcPsvdPf8jIPXBBG4J0VbJ9HpUx3_GxUAN5JvslGo6HIBJV9g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJoQvLtqkZ2jERKOVZn48aivQ/photos/ATKogpfPIuHi6qLovW0pog-ga-OGGNFrY5RPBRBflog4gNXBRx1LNo7t2IEf7a9lfNr8ZTl2psTcIW6JzPlv2DWMVO29dF6wUVOlD-EJjbMnpQLVAOA39qUUiEeDJBERqfuAf1G2s46QeyHPg2WU5SklMkA6cmBmAykmW91NUpMB2s-AeceQXQ4J6P_HPFIEoLbesf9cb7xtH1snjg4aGaLMCVRYtZQxfV_pSNzwgiyVYFZZC-DKfqBuqdycyV5pLHbzoX0yzd4aQmB7KB-OmKI8vkWAwg8t3amcN63t0FTW2HZTkg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "french_restaurant",
         "restaurant",
@@ -191,7 +68,7 @@
       "address": "204 Telok Ayer St, Singapore 068640",
       "place_id": "ChIJqRiu0v8Z2jERvOTymJC_loY",
       "maps_url": "https://maps.google.com/?cid=9698149475351192764&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJqRiu0v8Z2jERvOTymJC_loY/photos/ATKogpcHV_O0nRZvvAlxiupynvoSCLKKdwuSmbeeu7w8gKKd6mmGPzJDU7tbe7j2f8Hgsxqe4us4Qy9pvbEIOMoqLlXm50V10po03jG19itkCfHIaLH_gUTWXwi1yVpSaDSoVtHc6MmM08d4MP9xsZY5p9UU9LiLiK2gBXs8sWI_DBGgytOnAw_twan1LyKn4WxeVabkyQoSeuOupVAoXyotaL34ePpqLfLkflL5a_fHYb77YjvOtFyZx7vmlE2j8ZKMWQUBpWCD7Sfr-F0xQxgNBkEcN8_U7fqSqfye29WDffyAB0_hmJCvybSUX36WWO4S2fkLntxC74T-ZBcZYlDQm5XiLhwXmlXra4JM5L0YinijC159V4Sg-WpNnJDD5aknH1FNVEKJWD7wwNNC7d_37UsjRiEWGtFb_7iJ-L2aFELq057MisA22FHKOEwt9A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJqRiu0v8Z2jERvOTymJC_loY/photos/ATKogpcMpUvD3-SoB7Q3jsT9Bw4N67bT1p8a1OWRuGQgbn5jJGNfO-OiDNsdwcubCoSFA2R6w8ihzYv9gd3ctPzGGPfJjLVI6I4XXCn7XWgia48MAj0km2oMrQd5e2DeL6YFr_bwqQfTYrAJ7nViFRL3rCzyUabfpwFTR5dsL1IwefK3ysw6VP5IUGymEg50d3e7aBhXnSRm0dEGt3U4sGa5DZcAEfwsWyzKZ81XLzs-KdC6ygrL5sHf5ZntdjjMF2Xs29Tb6Ck5d8gyipstlUuE8tF8V-C2LVMDa_eq4W3KG7XuNVZzusIUJvEap7Pl_PAfRs3UritIi21-hbIMvuiqlU9iOwrjOkx38ZSV63uE2aRtbTajgGi5GehCglDpIPTLMfnDi8KOqq1ZCdpWoNTe3dWd12_68wF8ZKp9jVYd2MD01c2IXmc3IyREHdvSOg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "french_restaurant",
         "restaurant",
@@ -202,228 +79,13 @@
       "primary_type": "french_restaurant"
     },
     {
-      "name": "Nylon Coffee",
-      "rating": 4.7,
-      "rating_count": 2061,
-      "address": "4 Everton Park, #01-40, Singapore 080004",
-      "place_id": "ChIJE7ZtOWwZ2jERFcasWYmljJQ",
-      "maps_url": "https://maps.google.com/?cid=10704112423686424085&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJE7ZtOWwZ2jERFcasWYmljJQ/photos/ATKogpdMG8fhm_IrCsn2orEtdD1uGSUo8k2QS9FWxvW0g7NTfT-dsYXN_J04G-CiMz8hK66GS3WT9AEXUDN4qirxlYNkxySQRW2Abojy_1D-A2NRHw6noKE_vIKS2KDkx3uvmocaqxHxWKLpqI94DbMUsyK7bOyDzgmG8-sWqPLWsfoJJSXLu4cKVoY3F453F35OwMz_MsAr9ENBnYjeqgheSgfMTxdOkV6TCqHUuZr1qAaEv5RQk0CL1TtZ9-0nk8HUheGzYTaBbyaI6mM_M4e5ZOaQOZPTCb08QLtQ4pHrUNPpcQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "coffee_shop",
-        "cafe",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "coffee_shop"
-    },
-    {
-      "name": "Fieldnotes, Neil Road",
-      "rating": 4.7,
-      "rating_count": 705,
-      "address": "41 Neil Rd, Singapore 088824",
-      "place_id": "ChIJ4wutVe4Z2jERDUp3XtrAkeE",
-      "maps_url": "https://maps.google.com/?cid=16253984574277110285&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ4wutVe4Z2jERDUp3XtrAkeE/photos/ATKogpfdDzrp9UfQxvfKZjjdq_9AlTUlCvaf8fU-AgUdno_iiE-cUqzC6Zz1sncjMwH76T4l4fQ5ecBnr5Tqz9_Or5bj0dldXa6PeDx7mRUxLfl8xaap43blBaqQUXu6VeUTssiaxBr7RfsR2jwN298-IMd2l2I-FLcmOzQKvh_fHhEZFvIvyNK-NvW9UeOUw0dOcF3utOYmDizsTWC5CUaxh63iNJ1t6gla5BEagLSqoFnAuYVmq8_18QxOfcycU-McFQOAMmjsJVWZ7J9CoespCeeXnuU6eKJzCh881nOXRVjz2KFenqmw3HBp2F6jW8o-ZSzZt2KxIwaOuVaxoUwfkMe2vqWvvJE0BEHObwpBnBS2_gHSNiARfCawTJuggKSoGPHiEuJnD_yBC4QPR7yW6pbId5P8rylCPimR2WIfDhrBvou_/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "wholesaler",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "Maxi Coffee Bar",
-      "rating": 4.7,
-      "rating_count": 651,
-      "address": "6 Ann Siang Hill, Singapore 069787",
-      "place_id": "ChIJCT3xvhoZ2jERF_g-hcvpdis",
-      "maps_url": "https://maps.google.com/?cid=3131947651205888023&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJCT3xvhoZ2jERF_g-hcvpdis/photos/ATKogpf2JYbZQZLxmAvKQ4RvMtaNmyS94gJEs6mv65PrhraSBxnvMqfJ2rpmXrEc5IpUEW8uSKvo0-YBjZ57pIUCt5nsOqPdSpqAd-tWxUCpXKUAZqABh60RyroCEjhOv-YiOF2u20x_M3UAXFAoVwpxWUsKAk4XdDhnmjIVeySi6zYDl7Db6fGWK9Htevivyk2mysJHcNAQ6Iv1jyUpnKSGudnpw2eoFt-woFRiTMhtJfbdOF5lYQ1ZlhXuSBdWzg8fS9OKFNtv07fckEUvxfCnQ3bbPyQEEsjVudD1FnlDF944KoB2kizsP3wCVAGvR6mSt0DnsYebpNL7K8CFXDfKxemmEu2KM9Q-Cv-ZKNgRgJDjjz4EFkWeXYImg_9lZeVavIVVmmIw8ejBcXuBrDtyPqghzgGoihE0yO853JHE0G9SUg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "coffee_shop",
-        "cafe",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "coffee_shop"
-    },
-    {
-      "name": "Keen's Bagelry",
-      "rating": 4.7,
-      "rating_count": 534,
-      "address": "12 Marina View #02-19/20 Asia Square Tower 2 (Food Garden, Starbucks, Singapore 018961",
-      "place_id": "ChIJLRpYlb8Z2jER-t5LuonyDjU",
-      "maps_url": "https://maps.google.com/?cid=3823259807034105594&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJLRpYlb8Z2jER-t5LuonyDjU/photos/ATKogpe0mOVzUI-67FbbG8rWvc2iDZU4pcCv-k5YQ0Vols5VlvDo7TIEfCqu3Q4s0AibXtpAxY580bkgoAK8jVEYze6GaIvIHfXYrwzyU3aKKgrnCV_xzXfxqxB0sgOs1DS_yqrloRjleGmhWsHBaadxNtyNS4DjU48winr2ttsQCmOccmH91S_RZoGR_BxSM3SU9okamjnbkbt_mKLt6Vr6vbTD78y2fcEf_fm0ZHvimPFYo72hwWvS26F5b9_ctWDNHqo1iDFJ31bYmRYX_xQzvzwLC3hgsUCYjlYEnBEDkk8nGt6D9cDlK0B9ArA3BTPZkI6xDjFeHdyJok6KUVu58tfb7cO8NMdomg8FYyOHYsaEiE1WbGdya-CVt8dE4drb-FQ5XTYiZvL3jOZWpPftWaiWdtT-wkK0ilqPwcCfk-Q/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bagel_shop",
-        "coffee_shop",
-        "bakery",
-        "cafe",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bagel_shop"
-    },
-    {
-      "name": "The Fat Kid Bakery",
-      "rating": 4.7,
-      "rating_count": 315,
-      "address": "39 Amoy St, Singapore 069865",
-      "place_id": "ChIJvd151fQX2jERBdCV_JGOQDc",
-      "maps_url": "https://maps.google.com/?cid=3981338828254597125&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJvd151fQX2jERBdCV_JGOQDc/photos/ATKogpe_eNljgdQNqCD1cnRiRCOCD-2TH8F47-q2QaWgZACEq61ptbrHYWketouQcGs_VtaOUqGmPoK8xAthHDYhz4FoWTa6gLxLF6DPS-evsZAKsHr-oFS92_CmuayMmSGbNjp2AWiW5XMswh9zp12i-dBjEKk-AGCKP4ERa7PnmNaFNqNxFkLE7x6HgFQLgxmyW2mmBl-kLegWoTu0Ou-jjQAtofbZw8HOxqy-wG6FEDYErgn0VZPYSOv11BJGvdnM115KPhWLF0Sec0MELmLBM4aHWM5PrJWKt92KIsP9H9QVLA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "Everton Minimart",
-      "rating": 4.7,
-      "rating_count": 3,
-      "address": "7 Everton Park, Block 7, Singapore 080007",
-      "place_id": "ChIJt2g4KmwZ2jERoDvXVJrFQcE",
-      "maps_url": "https://maps.google.com/?cid=13925628789445311392&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "supermarket"
-    },
-    {
-      "name": "The Food Peeps Coffee and Deli",
-      "rating": 4.6,
-      "rating_count": 718,
-      "address": "34 Sago St, #01-01, Singapore 059026",
-      "place_id": "ChIJKVfMiTQZ2jERk7IpVMwaF4c",
-      "maps_url": "https://maps.google.com/?cid=9734278584472285843&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJKVfMiTQZ2jERk7IpVMwaF4c/photos/ATKogpewN9wEdpz_Ya25ROqHH036KhSr57ktLIpQeiYxhKNiw6_bPtKNb2EYszo4Gx8PyRqWDkjUR5nOoFslYnz8b81h5-zw5bBb9Me9xPGxYTHB1sgPD3JNiAuROU0Z9pkVU8rFSkvDoyS1K-SIoSBgBwWBcjSqN3Tc-a7-XSUPDIKbyl0yxCL8nOciKeILs5PbcvuOpbWmDiWw5GmLG0ZypjKIev7MY0yzZdcq3_DStXJ13nlP39qlkQ8wvITB5icS_1__Hu2vM77aDph4fn-mmiPXt1BJvK3vG22mQ7VAyvihOg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
-        "acai_shop",
-        "brazilian_restaurant",
-        "food_store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "cafe"
-    },
-    {
-      "name": "Beigelhaus",
-      "rating": 4.6,
-      "rating_count": 200,
-      "address": "144 Robinson Rd, #01-02 Robinson Square, Singapore 068908",
-      "place_id": "ChIJy5NwKIUZ2jER0l8pVZgtQKQ",
-      "maps_url": "https://maps.google.com/?cid=11835509953016717266&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJy5NwKIUZ2jER0l8pVZgtQKQ/photos/ATKogpc_pveZA80GaOzXZ1-7Rn0JpNccLeYDgZ-tdU6RlRqFUKR6_Q0c54lJ34Y3jsPJsj9Mc8MYiq0plYH1qJBaM3aZEE6eAyWDopzbBHsG2kz0tRb_o_sudiPfq94OmPCgiEHJ4rXWVlllrDGep1hWLSI4lDuyHrZBo2-PsZpyj0VRUoJFRY4v-resG74DLsZcDyJmj0EbjCg7UEn-G94XgYmBmxaCx0plT6JEGm5-NO74gFBlAtyczH_1TBhdNcOUe7rnJtdSJ7PKxKduc8uj2z3hFN65Gd_qLnlxPbJm8tWiyJ44rHLN_VKYjEu_SAJ4TFEvhOcgWgUDaQTYf2UKlxdqsVzPS3E2sH_fDpbXBs5aVIllsfhWSlRuOmzlwa_LFyLIkyoeUDTkaAOO1TahikCUvVuBMQDfNMLVQ83ad91laQs7/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bagel_shop",
-        "bakery",
-        "cafe",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bagel_shop"
-    },
-    {
-      "name": "Chef Yamashita",
-      "rating": 4.6,
-      "rating_count": 181,
-      "address": "1 Tanjong Pagar Plz, #02-44, Singapore 082001",
-      "place_id": "ChIJ416PnmwZ2jERBp9TmiTWw6U",
-      "maps_url": "https://maps.google.com/?cid=11944626089413025542&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ416PnmwZ2jERBp9TmiTWw6U/photos/ATKogpdqQBSiW4K4GnLd3_qEyajXhBJcqnjS_tV_pM578XElbl7IgRgF4UCYZwau5gqsRls3mbM_2k0GucGsfJmYp0Bnx9TwkDZxcUocGgV7776Ls3-JAKH1vpOABAyTYs5IGJ5lbvyNNx-jQJIhvb8YNxUp_jlJDpulEcQAmQwMtX1Rlc5o-EktjMGze0fvQNXqjK1agWFpB0Kgst2QahNQG7-eq8bf0Kk92penX20-qZXpYDq5TaAaN4lTWXXYrJjKP8u9VB1603VsNBFWFgrNWveqiLdWMhs_pc_PliDOvEngeg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "dessert_shop",
-        "confectionery",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "Dearborn Granola",
-      "rating": 4.6,
-      "rating_count": 178,
-      "address": "1 Everton Park, #01-29, Singapore 081001",
-      "place_id": "ChIJtTL4HrcZ2jEREXnKl_IFNTE",
-      "maps_url": "https://maps.google.com/?cid=3545746821110987025&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJtTL4HrcZ2jEREXnKl_IFNTE/photos/ATKogpeFn48DXWaz8onazr_Hr5m3ttcsBgDMhtPG3O8CzUV4oFvIeB-_EDrpG2o-dnY4AygIh2j96HdiGUANQmhOl1WcPI32Q5eG1dw-DD1XH6_7ybaapogjCMV3fSeOaMLTrzTLERiS6LcHG3Fc9qdCTZypSeo0G-mRBB4aNgHChGYKJe72Kp03qAw0FlkjCqNs0DGmeY_2BSTSIZG_vPY17XeC3l1r_2sGBsKSanUOuCBXnHHTAHMO3owm5xvrKXFvOsAzQuFKdfwzZ9AzKNep90fYzfha4QyjUEC3bmWQLAWOtw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "Two Men Bagel House Tanjong Pagar",
-      "rating": 4.5,
-      "rating_count": 1535,
-      "address": "16 Enggor St, #01-12 Icon Village Altez, Singapore 079717",
-      "place_id": "ChIJpZh7TmsZ2jERUtSFj2K7Db0",
-      "maps_url": "https://maps.google.com/?cid=13622750479854720082&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJpZh7TmsZ2jERUtSFj2K7Db0/photos/ATKogpehjScVyEjrQtnfAgqM2PPrL9UBljI01MpN4WLsqeH2bs-J7Hkt6Xbgl2puepoB68_ETRNtj5i2NzH4ZBB903gaz40RtkKQGm7nqTWa55d_WQ_Dq1--boSC_lBJjsJPXQu-Jhkt48Hwz4yK5IDG_urULB4JY7IMXB2ZTEMz8UvxirnCQxVNgFyKjs5VA8lk3D2-Kd0jajaDKETknNCzXX5wlGAlIs2Rq-J7g3DK0poSqqGNZsbLJoTXM9L8kH4adORkLAbsrlojDKX8kYe_G-4_1XAEEXmv1PAUDKGbYmPLoVa1bNSrplX2FgU-QWOP8_Bp2meyK0zGsApb1tGJWFmmikPat7lsyWm0zPKQ-ELjpjWds3uLYT98Al1yKX73ArhxaNXaLF-i8LlfDIGpkL4QUArfMVYLHzRH47-1fb2VnR8W/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
-        "bagel_shop",
-        "bakery",
-        "food_store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "cafe"
-    },
-    {
       "name": "L'antica Pizzeria Da Michele, Singapore",
       "rating": 4.5,
       "rating_count": 1472,
       "address": "8 Club St, Unit 01-08, Singapore 069472",
       "place_id": "ChIJp-p9TQAZ2jERsKCEh6lgKcQ",
       "maps_url": "https://maps.google.com/?cid=14134935186718367920&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJp-p9TQAZ2jERsKCEh6lgKcQ/photos/ATKogpeb9PMCZDugMIWZNhQgM-q84-0jo9h_OTK3rliq5V2e2FyHZ1IOsg4moyTlv4Fuskw51_mWeB0PKiEl1AvjatEkpNaG2F1hqZLUgIibA83s1sJjs6IsImSr6DNEqll-Cpqgs1_jNTKNWLaEwmiOxBE4PNth-QInEmBdugmOY7VNXja5pAczgdIJ_ZJ9_6-ecEw-C2LCWMGVOPYsDP4eKteqTAKns38E4nohAgfHQdK9xU-aBkHCjXcWx6aQBBkRBgxUtr38vztvt1Hin_Op5-G7EFbB37sVSM0VU98KlhE4hQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJp-p9TQAZ2jERsKCEh6lgKcQ/photos/ATKogpdx68Hk85ofQGwoqHtIQOXHAuJ4UOcBkeDSW8ZLMn3H253Ze1B3vO-qvc8QMBzKfzTAbS4je9RlZd9dqjzVIJw12iD8G3TgqbuoyKl0ynFW8V3DZRWOrNRf6ZWTn8UCJX4nVuGDhRuVcGHqKPiaGF9gm2pPo3bxasOPEC1hgDn_OHv6inMiAVvfIIktp2oSGrHHxV3jPHz1TkH8IBU3qA_n-inj0DeUGMusCMGQdrPdrFMRMqAwnWBV86OiA9ATXpFjKLNo24kwEkHiG4kT5JjOtEjbhO4ltyWC6z_r0H1Pkg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "italian_restaurant",
         "pizza_restaurant",
@@ -435,112 +97,13 @@
       "primary_type": "italian_restaurant"
     },
     {
-      "name": "Ji Xiang Confectionery (Everton Park)",
-      "rating": 4.5,
-      "rating_count": 842,
-      "address": "1 Everton Park, #01-33, Singapore 081001",
-      "place_id": "ChIJRxCdNGwZ2jERcH3ooNF1yBs",
-      "maps_url": "https://maps.google.com/?cid=2001979577574391152&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJRxCdNGwZ2jERcH3ooNF1yBs/photos/ATKogpfmuBk8E6dYvC9pKxKCWJ4q150QliYujQrlLDoUKN6dCkoLISJ1GoMjsagzFOFHJdkE4no-u9Wl-uVAY8-viu49Vvm8TDFP1FzPoEuVuNoYeoTXCFub-LEOZva81aEmiL03nTF9aZEwDZnnaO68VvUO1y2X9v108gdpCXrIjEk_ctHFfYpAvsCVYioiHIccxdfvcyq4e-31Z7tExqF1un9jtJ2VzHCZTKlrxCnTm3q4-Sr4e_W2m8VsqIWXUjR8pqrQqNw8EpQed0nAlli_owrcAftk7ZmXfMnWKrZ8nZ5MModXQJPbKtLV3PnRDH5xwJNuFvmkpH_sjfBBWVmP8GJ2ZZnnjZ9oLuaUqZQW8z70Xdq-m7PHc1ipJxArp-bnqMb_a6yHtDSLzU8debo3TDF0cmqDk8bJxuerqCDhUS-ptoE/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "confectionery",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "Baker's Bench Bakery",
-      "rating": 4.5,
-      "rating_count": 488,
-      "address": "6 Bukit Pasoh Rd, Singapore 089820",
-      "place_id": "ChIJGyk7PFsZ2jER8Bh_8B9U6rM",
-      "maps_url": "https://maps.google.com/?cid=12964266973494974704&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJGyk7PFsZ2jER8Bh_8B9U6rM/photos/ATKogpd0YW6IPGyiUdQmtUQ0c8_X_3aS9ZXQIKiwzSyvz5br6FE25HhQqA32sNUHh7hFg2g_RH9WHzNVCBX_aIQqGMLXszwffxX_WrzCw1NjB27X2VVccEBmEEG7PDzza2dg-Yeu6cgUBI6QmUYZkxxyqyF-SYJvHJ3DOKlMRXGWq1xkRm4c0kFBC7G2S9SKo8UfTojU_IO8JviWnCbcI5w4cJhKE6KpbTr3BY_fg0AT1Keu5n3WQaJ59h7u0I1FY4gblwSpu2GCuu0_R1Uk6JqTaenuoYGVAa_bhVZ7lTDyjzZENmFNRSfXYENa5r6xWGVJMmqEARJLy8wJWL796d7J0JPEh2ZoSkbSBj4VkMjp_p11cLbP6XeV8_rS7-tB-vkphIi7CDgOgKLLsz_WvAq48t5iAZnj-mCKjF4hzbHKMqOpWFgPG6okdI6BuXpnnVJS/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "Kele @ Chinatown",
-      "rating": 4.5,
-      "rating_count": 424,
-      "address": "2 Smith St, Singapore 058917",
-      "place_id": "ChIJo0EsKw0Z2jER-Xw7lPDSn1c",
-      "maps_url": "https://maps.google.com/?cid=6313997133317635321&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJo0EsKw0Z2jER-Xw7lPDSn1c/photos/ATKogpd0jB2c-8xpmzPePwEwxyFW0wuzhytRPpIpqlaDElSJw1r9KeYAaYq2wX13Cp9aCk7ftXlUtdN1b0WWdNNIMAskBB8vLtAvH9VUhWZB08jfiE19PSCTTqQ65tWs649kjSDrP_KGgxSWj2wkJOe2GbCn_IFHk8kIok8FkduV8FhypIp0ZG1xgaIQurWo1SulDf-OJDy-QFIHFc2O2n1uCDZTslt6PT6JFX75vcszT0JqZNJI-KqYAMjWomlyXz2gxVTajZ5N2qIsjD4BiJuOLRn4HO4jT1mzqeFgMBzg1ehY7uv16-nLTkbrOIt7co6Hv7Qx4GiYD1p5WGtmY1ROiw7a88oo_dsgTRDDIfuoNYKEh51RWTV8jciuJEih_cDJn7vDBBv_9y21WLOKLdSlRLYn-Qy5zacc_kQDdnjf7JEqUPSe/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "gift_shop",
-        "bakery",
-        "dessert_shop",
-        "wholesaler",
-        "confectionery",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "The Coffee Code Singapore",
-      "rating": 4.5,
-      "rating_count": 361,
-      "address": "37 Neil Rd, Singapore 088822",
-      "place_id": "ChIJNS3LCyYZ2jERlMO-qEa7ohQ",
-      "maps_url": "https://maps.google.com/?cid=1486956739138864020&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJNS3LCyYZ2jERlMO-qEa7ohQ/photos/ATKogpf0MuPfeg9XXAuBEx19b_rwrBS2fKnu3Uavv7AlCHIQ0kAmVfBp00RQbI2s8MoMYpsqm68Y7b8lb2VHRPKwLMYsNUrspyXee4zYHJ0X6VNNemBdnRBcRqu-641t88pD-CA8ABiSlAKRpTfnDWAftbNepz4f7i_xq0QRar6K1XJTRCLm90LUDm_yIJn2lHtasTppKA52pITZjbZaBfLQgvZ1T_Z2d5EZlkhsUAcruGgwamP2zBjj-lqGpSLk8LFTIVMaGa7EqbUGg7MjTFIK7e3oonR2u-84VMkYAZgnQL0OQyFOEAu5TcOqsKvHe-3jN_IxzQTWeeCkc5Cu27XxR-jyc6__wlW2Oy1XJ0Q3j3UYeCkSkoZybEi0JqHauHkgDJjPRIo8dRgntJHO91TFSRgzagAP6QLSnKSLYNG9zyvAxzk6qknRf4gcIuYp2yv1/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
-        "coffee_shop",
-        "ice_cream_shop",
-        "brunch_restaurant",
-        "dessert_shop",
-        "confectionery",
-        "food_store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "cafe"
-    },
-    {
-      "name": "Posb Atm (Chinatown Complex)",
-      "rating": 4.5,
-      "rating_count": 2,
-      "address": "336 Smith St, Singapore 050336",
-      "place_id": "ChIJj2vTEXMZ2jERXrPX5AQpwCA",
-      "maps_url": "https://maps.google.com/?cid=2359931305738089310&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJj2vTEXMZ2jERXrPX5AQpwCA/photos/ATKogpfGia51K6WhpEksZcDVSK9oXLyahiNo0O3_0hILd5KhiyUnaWPluh1_F_RGifyDDqKBtmzUOo0dFlECTOycDTGYLIAz7vFbG0olGMtY3aFFYw-bkHYuw6ZuOYPYp9EY8J1EPMDmQtENVMO3iJFd9cMgnhKm5JslnAwsc_Pe3J4la01Nu94sQlKvZI7p7nC4N8m7_Q5jpMlVVMDw25VGEAI157s7PDVvULQV5WINERy38OwvHfw_qKDXGKbjcdp3D8uJ5yR6MQ9sXMcI2zwE5Yxn1dm-2Bhu4N8KfFg9V98ypYlFyV4USXyr9KcNyocS6KVfrUPAK6naVZL2h-VMg15PD5QX8QlSiMiiPSiCFj-GLk8SJ3m7Zz1E5LZ9M17cWN4Fk-r3IH_zL9yElPQkgTZj1R248p9l5X72_ymSX6BJMw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
       "name": "Lau Pa Sat",
       "rating": 4.4,
-      "rating_count": 34084,
+      "rating_count": 34087,
       "address": "18 Raffles Quay, Singapore 048582",
       "place_id": "ChIJ5Y6l4Q0Z2jERYL0KDIjT6v0",
       "maps_url": "https://maps.google.com/?cid=18296669017417104736&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ5Y6l4Q0Z2jERYL0KDIjT6v0/photos/ATKogpdGFpMZ8mPEzDG3m7vuFFyg_d8JKXLWruW6YzgcocCN1cq30b-BVzSALK_0EXIytyw1LJA4xMbyqyOti7xI0knUKd2kctnl7WhuwA-yF0aoI_fJOmJzbot2aRNl9tuApCEU0zB_Y4IFNOUED7LMqxZVxNFgcBOFzL3gIb14VHHFKnTPf2Gc8elP2pF-YIUBz-WPd1RNfgKPIecvrTUygPlGsFvOrf7DbKaiiZ1dBz_Ffm-axZfM7RpOBrD7HY89xcaflP0vYDlzMrFujPPCowF_uoZJ0fHGoYWIqiqdJQjC2rBJkJU0hGZDX_WU4HvLFzAWuvmyD5z-0rFqx0u412kQ8cHqA95htZcP9BqZNQ5FkKj5XanbpWkm7GjgmPTF-lRB8MPhmclyCQZElSwOG_Q1-35sgoYx2R-IOZLgZMMkubW3cwBydsjW97Hjl_j3/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ5Y6l4Q0Z2jERYL0KDIjT6v0/photos/ATKogpfxAIH2d2eLzK7BofzNeFbXjV-_3SAWYY3VJl8BFA0MJGx6wIlF-qVHEYWpM1PT6JxgeYS9MbAdxkokIhFVSAHYyXFbEerD3h2unpjq0g4h9-et8Huvf3hGKdmXOeezQjEXKJoRIdGProBrMZV1tncZJAmf9nJxUkhMtHzSSB63GiwWQCPg2k1_zt6E8XfFSmv-3UBSG81Sp3L0s4C9lFuWPrttSAXyg3szLgUl45e5xrlP1oWjaU6i1kn1URvFBdn5TSuvaSjRKWXASYnZk-Oj0PEXeka-TOozKryVGhGQkHkHzsq6rNPq-BBxQdXMya6zNYLK5oyD3-cDJaIuYmUEAWvIoykBugtNt1EfeLPd7TUpLNKlKKIw6caJvH24SGZdK8EsGDuT9M3iQL3eezNV8B3VCCx20rKYKSOQeHPFHIiUPJCxVmQ7nGChflI7/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "tourist_attraction",
         "restaurant",
@@ -553,11 +116,11 @@
     {
       "name": "Maxwell Food Centre",
       "rating": 4.4,
-      "rating_count": 21050,
+      "rating_count": 21053,
       "address": "1 Kadayanallur St, Singapore 069184",
       "place_id": "ChIJseQsTQ0Z2jERqpBTWF0Zf84",
       "maps_url": "https://maps.google.com/?cid=14879639582559932586&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJseQsTQ0Z2jERqpBTWF0Zf84/photos/ATKogpexx2fzTYFJEbQROT0nBlirH0hWt19ZhB55t0SeGZOKEbl_RXMfYwcdgeZlXKZf4YiPGvRMxIg5lMThVW5BA_TjdKA-E-xAFcvPQMsxS9CqcWorjuWS3jJv3A8ivSXzBHG_j2mbxZMTie9kmObzuKpjgn6wsUTXAlvoCAe_SPgiotFkziUnsYlUcUaHsRT-w7DFk6QOEvEjywZLBTXn3oUB0SUU4csySCDLusaK7oVxm_3uZ4ZxXnIcNtROZH4BJQJpx_L_MIXXtDHVri-Au7-MSX-a1Bna1XlvnuXSptCyrYlr0YDQoIdnmwctOS-gzFULj9pCIOKA3y-Pc0caBpkuQsnwBhtVSd_o-F0tBqKIt8lABOsrxYcFgfJdShuqUl9tPPgu-eqQjfokA6ywS7Hc8IwtzOvFl6e70Fu85ntgzdVE/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJseQsTQ0Z2jERqpBTWF0Zf84/photos/ATKogpc7zP9mt23bSQ4B2qSOF-Q_7zZ2DUFVb9ApKdGCnd81gxy3GjqVD3eWOPnkrEzl7Wlm6pNJ_88Hsbu3sPkohgPGMvnoy_MgkchfhKUkPqjsC9ZBP1w7na5fGXYmDnHvB0cTgOSVLwOEJ4LbN1EcLl7dzSF1lVnzeRE5G7afJoDeSHNGcQvJX8AQaxlQH5gNrmd-nXXhOf2nP01BMOPf2yI6FuicszEK2yjt9GN8CZR46f_pHSSZVAeic5tMuOj-YkftvgwgMFbDzdvN5W5laJHKZoG9DQefGnF2gMp2l9XqPkw7BehJp1A91hnOFo2KOz06A1gTscy87nfa0j4WejMUzmIAjE9CKunQfIVsFh2Uy0RzAxHiRecDSrXiRD3JNERKXB7_hTwpHgvbVpztAVaJR167d743zRIA6jFAvi52Moxl/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "tourist_attraction",
         "restaurant",
@@ -568,74 +131,33 @@
       "primary_type": "restaurant"
     },
     {
-      "name": "Champion Bolo Bun",
+      "name": "Carlton City Hotel Singapore",
       "rating": 4.4,
-      "rating_count": 1463,
-      "address": "92 Tg Pagar Rd, Singapore 088513",
-      "place_id": "ChIJ41qJ4-gZ2jERMAZkYnM0cP4",
-      "maps_url": "https://maps.google.com/?cid=18334211753201894960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ41qJ4-gZ2jERMAZkYnM0cP4/photos/ATKogpfwuUi-q07Benrs7xTXUmVSCwyrSL-s90xCeb1vbkrT_JU33_z8FyXF2ivmSZxAYcyGn8E7jJ8Xct_YVLbAXUpChDT5rQNFhrxkJf2HE86_MRt6wD3LqWcmffGS0kF8a6H1RnoNm91OFbMltjOrsMcbD4MN-n6do7_7leFfVYc8Z0qPhNTzcgn90JWv6H2JW6sJQPhm4pC28IfndVt9GO39s6EdrqMDvzlnpVLDREMghC3yeK_kSMjwNlHQX9UPy91Pjk-mA6gajLvkSm5-1T_auT4gQSBU6pU2wPXCWezHjLRGxgQmUEZJgicclvh74kKIcBxc_0FqksrIEfieYAZFU9PMRxy0Ynh3akS3CxzK2Gam74nyyuL7L3JkG0Kcv0MsZj-aFUtTt_iFE_PD5w1_bqMN32CcTf_3NERUbdc/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating_count": 2250,
+      "address": "1 Gopeng St, 1, Singapore 078862",
+      "place_id": "ChIJW-HHrWwZ2jERC16smRC_0NQ",
+      "maps_url": "https://maps.google.com/?cid=15334966809215131147&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJW-HHrWwZ2jERC16smRC_0NQ/photos/ATKogpeCCgP_t4BhKQfIARI_sz1HQ7KrbxJzELG2j_ckpa6zInjxkflaiOFsX-4TM5seq3LUJQx4citlozkisMcAh_RcM6l7kMdD65VO3bNjyu-OSaIIW7oSZPL-1PW89Yi4GCp1_L5ZIZwZ-JlztIEXq_SkjFA_8iRDYFdpwwu1RiVQMdkpRT0C2Fx1KjZIlvrPmM-UIWbgRU_6ngCCOZplUQUYRH0u0UBL4MFiVBIFINCdPQJT1zPx_g2bPFt7WyBRPp6ANOO6zd2K4Ay1df3wl__O5p4Uh3amKM5VqZqsmV2ZMQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
+        "hotel",
         "cafe",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "cafe"
-    },
-    {
-      "name": "CAFE KREAMS",
-      "rating": 4.4,
-      "rating_count": 1169,
-      "address": "32 Maxwell Rd, #01-07 Maxwell Chambers, Singapore 069115",
-      "place_id": "ChIJM323rE0Z2jERWMg9G23kIBg",
-      "maps_url": "https://maps.google.com/?cid=1738640613424613464&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJM323rE0Z2jERWMg9G23kIBg/photos/ATKogpdOGPrvS52_XWwcB8tnOTVcCfehfVNAXO0ocaNdn-h-2JrIlRku3EkhQZIAH8C8vHsT8JEqYvKpShOuY3XzIKwFUDFpYCLAFqfm5zPBeP2619-5XOMADZT3qTHSRZ0INw5el_QphTLhhaP0cHHalgaksyo_lxAOmNQX_xqD5Nav-98I7Nnq5ANoaFepESj4BTPdl1HMZX1bI4hPksVNpnwX9FARnWA1-tRL9EzwasiS6kMRlCxl9y8ciPW9Fp7RYDjWVBD86wCk4zzTpA9SP3y5M0_SKSrN7t3VPBIDaYZom8ePUtQ_4lYsDq7BPVopDGfwNU85GWUesks4DWuw7gZUZO-rEUzPAIUSFXf9ie5q-d8TjXbjrxUa8DSesysaJ0VMm3DxpLnISpKgxkiJmiqLOWeni3NaPCcGOKKTQvLncA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
-        "bakery",
-        "dessert_shop",
-        "wholesaler",
-        "confectionery",
-        "food_store",
+        "bar",
+        "lodging",
         "restaurant",
         "food",
         "point_of_interest",
-        "store",
         "establishment"
       ],
-      "primary_type": "cafe"
-    },
-    {
-      "name": "Nesuto @ Tanjong Pagar",
-      "rating": 4.4,
-      "rating_count": 1082,
-      "address": "53 Tras St, #01-01, Singapore 078992",
-      "place_id": "ChIJ_eICMm0Z2jERPke__CIra2g",
-      "maps_url": "https://maps.google.com/?cid=7524155031721822014&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ_eICMm0Z2jERPke__CIra2g/photos/ATKogpfZmNiXFd8xuwTKJhNoKty2Ew2QrWlCW4Fhxg8S_nBdlZ_7dHC7OGBHUhhRkNIjuvP99ykIhz1joGoJaBU-NG_61KnZkvn2U6Rul25IqpFOMmplzfXIdvWAO3CqVlEe6if2ZAvbCsB6ZzTOSclM8urQ5wpdAh1Cil_UN1ucU1FkIyST92X3riOkEbCB_Zc_UTDH8kSFrHVpMNHSLPB6nhmr_4o8ApPIcELXvP9P82Lk9LMP1yZkwqYRLe113yuF3EdHSeOfMrL_ZO8sMd9MyXr4Rfnena76D9G9gq3yldSMCg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "dessert_shop",
-        "wholesaler",
-        "confectionery",
-        "cafe",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
+      "primary_type": "hotel"
     },
     {
       "name": "Um Yong Baek",
       "rating": 4.4,
-      "rating_count": 1058,
+      "rating_count": 1059,
       "address": "27 Boon Tat St, #01, Singapore 069623",
       "place_id": "ChIJO5O7_NMZ2jERQgxIxLAonDI",
       "maps_url": "https://maps.google.com/?cid=3646834537935670338&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJO5O7_NMZ2jERQgxIxLAonDI/photos/ATKogpcsf00D31m-w5bom0GYQ4jk8yJtweQ-ABnnKSqrUP-7XUU9SPOUkffjJyXrtEbgkL3lruEAXsItGNZ3WsUz6lYAv5ga4E98UFzXEfO-NywzU17g2iTW8c3x5rXqlRJMBA-oar7uMnGBJobp8eaHqJrx1nnpX4fHaqkwWozhQvxSSLvjaTgYsbcquJqiJ8D-PMTzBgFeccRM4xZ8fwje4KKCDCd437ruyrHq_7IHEfrYLK9tAsk0VyYaa5s0HdooKbf6HS1hDTDffVvYJhk_c6vMlQ8Dwm_1pJN3FckSYaXelExIblDvImKm_MZmd7GGL-xTrjufeOAZXPs_rSIRmaKmLXafud4Lf2Bb4PlksAVaBRFtm8AEAUP600rh5qMhdvCGjBzxO-DvLnv3jstWv4iCBjnbSXkcL-HxgP5QRkQ-Fg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJO5O7_NMZ2jERQgxIxLAonDI/photos/ATKogpfkKxMkS49qaDHkx5olg8nUmi7E_aygyaIxHp3gInGWJrDcX8kentSpet-sorkjFkjHgO3fS2uk7BL8ah2r5WcoSclwhRxzShN745QIz4j2nXktwOTDSRgkZLGWnjBQMR8ZQn3E5-YFzAJ5bPlhQL3FCite5IASIhF3X9Es0A4OLu8rAv471klm52tPyqwg_iLSioQMCHUhcWbYdFuRiw6I5yj92-2IDErQbzJUImmb3xvceUJdriSvOJgGwJSnjsppaZajeklIYjyTNWzthEnVdEov3ljRAHrqJs9kp2rE-00dYbBpFqi0EaVwJVJ53aMKvlx-dV-YywJBN9rg0CNK_-qUhRRJ68xVPoTAG1bJRFAgpkiOxu-X5btNEoJ6g-rWyTaIje0frvV6nxlM_SSQhxZjKQZur5LnNbIYQ3bcGA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "korean_restaurant",
         "restaurant",
@@ -646,135 +168,13 @@
       "primary_type": "korean_restaurant"
     },
     {
-      "name": "Common Man Coffee Roasters - Stanley Street",
-      "rating": 4.4,
-      "rating_count": 1016,
-      "address": "11, 12 Stanley St, Singapore 068730",
-      "place_id": "ChIJzeQ8gw0Z2jERhGLaINksUXI",
-      "maps_url": "https://maps.google.com/?cid=8237414504508056196&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJzeQ8gw0Z2jERhGLaINksUXI/photos/ATKogpemd53w8-qxZN8NQmnASZuxCH4zrTG8ec00v63kajXG31Hu8IDEZG5ycaiRugI_jSDZM3YhhE8MGZZb9lY51dnSkEG5K2d-yGX7om-M9rB8GlDO-Ps3ZEBxgpQ8TCTxJtLXFW8uPPrSEwequ3etx3kFqChk30sqAyatzKPAWQuOg-Aa61pXXHY93sNmJXuNGCLh3vrNLDnBg5EsreKvOr5dEqZheyIVEZq4OIFQnff9g7d_Eb16NTZdhwNXMMAScnoVwuLSLvbhob0FnrMmJDs0kISNsFOVMhyl3ZMHYMc/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
-        "coffee_shop",
-        "brunch_restaurant",
-        "breakfast_restaurant",
-        "food_store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "cafe"
-    },
-    {
-      "name": "Chicco Trattoria (Telok Ayer, Italian Restaurant)",
-      "rating": 4.4,
-      "rating_count": 983,
-      "address": "208 Telok Ayer St, Singapore 068642",
-      "place_id": "ChIJo3aP-W0Z2jER4eTcP0XF2w0",
-      "maps_url": "https://maps.google.com/?cid=998608643607553249&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJo3aP-W0Z2jER4eTcP0XF2w0/photos/ATKogpcoi__fclxTYxMPUpfmoKAdziYwb1bOWsN9J-kGWxIOVIdaDudBr1Qvw4YPZllfUiqQpxXyQtYw91cparOHeL2uAd8qWYfq_3MTuEe8QmJaRMyaZ2EHEJqxVMU92QdbeJXnIrwWor_aUrR1Qo1uixI8PNmK5It1UBxqHWQVyGC-kAEqyFI2GUyeHSZx04nSVKeBRbqSVYEcph2hoxYKLEu7FjbbKYAZrhxK6pVUxhxim8TKX5XPyRqBBp-20ppLCjBJcL-HueY9Li5gILycjEHyw7lKwJU0hFFyhjPBDhG4XQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "italian_restaurant",
-        "wine_bar",
-        "food_store",
-        "bar",
-        "restaurant",
-        "food",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "italian_restaurant"
-    },
-    {
-      "name": "South Side Keppel - All Day Brunch Cafe in Tanjong Pagar",
-      "rating": 4.4,
-      "rating_count": 453,
-      "address": "1557 Keppel Rd, #01-04, Singapore 089066",
-      "place_id": "ChIJHYmZEBQZ2jERjY5Dp58BGhU",
-      "maps_url": "https://maps.google.com/?cid=1520529609408614029&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJHYmZEBQZ2jERjY5Dp58BGhU/photos/ATKogpdPseVHdIpZzufc79tFD1oaOpeFtvdAka2BLCQe2dqQsrujjB1VDuQW3f7L_ZSnQaRryw4kgQ4IojLPPzwRiGJfAbVJ0RO9LELQpxiJ0ELwRw6kdaSbm62UuQuEpBf3Ycy3ySAEID92Um_mAb_gHXn3tUCNWoou0l3Tq-dnHfPCE-Ryq2nzL2dXTBkkpOdYPLTHPCw4KRBBTymHROoHBVezgM2tGlaOR2_Wiybyga1ZP-134jWvwhmIJfDLcc1_usQgjqyNuh1n2ENS9F9X4EUAjX9n5I1HR5yT-_pqdxmpGw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
-        "coffee_shop",
-        "wine_bar",
-        "vegan_restaurant",
-        "vegetarian_restaurant",
-        "brunch_restaurant",
-        "liquor_store",
-        "breakfast_restaurant",
-        "bar",
-        "food_store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "cafe"
-    },
-    {
-      "name": "Alani",
-      "rating": 4.4,
-      "rating_count": 88,
-      "address": "5 Kadayanallur St, #04-09, Singapore 069183",
-      "place_id": "ChIJN-byEwAZ2jERMXIDKjOiG9o",
-      "maps_url": "https://maps.google.com/?cid=15716333665271378481&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJN-byEwAZ2jERMXIDKjOiG9o/photos/ATKogpeisvJhVQgXRj3-HQjUPHgWOBQpqDDv1aiv9utjvoL4pRaDMvbhq9ocs4B5xrcqr-57KFcVJSd3aZMaZY1Z_wXdMhiNA23i_AEr2cPw489Jw0_bNZiqCKNmc26Y1olkNmc28j7SdQSA1kO99yLHnj4IG0JMlkEUsq46_09aXmF9SZtgu84ynqVa1ZdtUJ8ddM0BOahxUJCvIeagA8jFUXdU6bEifVcUAZkQo3aEa50cGI1j0KnOq72XirLpvoPjA4_Ss4J5o1k8NISdrgkLCc6W4_z_rbIq3HmhxpzUFZiq5aywWd-tjCpZRRDJYzJisy64d-oSek_hB_e6mRo78pvGxayBluqzpEBA52ABm1LLoKeWVS4NfyK-E9JOrZYa1MMBzTrfJwLeH24zVG-onoylXnuHo3Cb7LGvG2pSGuoMrm0F/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "Vitatron & Medical Co",
-      "rating": 4.4,
-      "rating_count": 12,
-      "address": "60 Smith St, Singapore 058963",
-      "place_id": "ChIJLcI_FnMZ2jERJl5YcFeMGdU",
-      "maps_url": "https://maps.google.com/?cid=15355458711671299622&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJLcI_FnMZ2jERJl5YcFeMGdU/photos/ATKogpcTg206ioShpyTaEn6Fdbm9bEwTtgW66TYQMCkRm6PGHnM1SqlxD6-fj0LCAMFZMQTDGCjaDc8A9pGotJj0I2iqW-LRqnkMxjhNO4s-hJiMDnhc8xpFHe8iNXUiC9PHzkSu7JqJc0JyNKciEJWVddG_h3w51Rug0zqu20K0FxeG_TRt9L_czQwpZEYDUT9WW06BhjBOO3oj0_iOL-08AOXBIW-3it_qiD5mveYW3cx826vn4TVeYsd6DUcMxZWthliIsdjkoTP9oDLuzZ5qby6LLG3kHMob6PPAVsdu1bdkdcinA5qefwaKIReRT_5XKp-6eQUfIPI1SxeO58xgo6luv5k7dmtEgt-tpAdZZjQUYieTaTzEpezaciZHyA9oAqR0wDLfrpkjOU1g08hpucAbOaNpnfPkN1YMjn3wZd8qz5GX/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "Unity Tanjong Pagar Plaza",
-      "rating": 4.4,
-      "rating_count": 12,
-      "address": "SG, Tanjong Pagar Plz, #01-01, Singapore 081005",
-      "place_id": "ChIJe-JX62wZ2jEReNOnwJmVF7E",
-      "maps_url": "https://maps.google.com/?cid=12760832556772348792&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJe-JX62wZ2jEReNOnwJmVF7E/photos/ATKogpd9mrfrMQjs5mOwIensVLqwewBzHymmbkFzDeX1l8NeCiWANN1JC-zNjXr_zf8nAwvdWgipbJf9SrvQ_PY6pkYylvVgLvb7TxGJgie-LUxOSUwWxcEYtdLtVybFah-YFNvrAm9IxKDZkTp-IxHJ-6wGS2tFz5VhSMGXUki9ozAsCEsSgChml_3SEVVplWM60-71ZbIOgSyApVW4YX2qRkwxrK8KRsP-XkNS9hAgOt4oP7HwezVn3_Ngl4MrSlTUuL_LNp4jjBxK7JtbqifTD_fgDwZSdXb8C74EW3HJUMr-vYCW-BCDS1yVipMBK1RjSDcosLq5_QOgOWAN8p707GsPJbArV7mhdWt9VopsWMJPtTz-cvqC-q1Mlyx1aoOo_BQg8vr-FZ_jexo8HBHpsD7SR1oAehAOl-X5RHoUQNYLXA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
       "name": "Amoy Street Food Centre",
       "rating": 4.3,
       "rating_count": 3434,
       "address": "7 Maxwell Rd, Singapore 069111",
       "place_id": "ChIJ1ZbzmxIZ2jERLxbskKJNx8Q",
       "maps_url": "https://maps.google.com/?cid=14179387312410727983&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ1ZbzmxIZ2jERLxbskKJNx8Q/photos/ATKogpdXb3TJDkMYy1y0JBkz_a48-fSMlZ9hBw0ekaJdHuHyutWdJZ0iE8GLezXzfg0sFnbOwg25ddvS5A9Fvm2kYPCPO1sj9eLyubkgXL8-z860R6u_3BeCR_MClF6WA_7RtAk0bF7Nvi59IObOl3KiLcTlog3ZmAxx7_IgG-Si6ypZNyoaSjZHCf6soqr7viON3_QahI0MakCfw_RqpqoILSu0LDJKldcvIaUYViAVLLDdfPeg_4rz96K9XZeVNUmMu9UjvvSrbwOQfDBhMvewQJW-Gtqiifz2oEczAXLqkd7DFDTERg3MwrXEJE9TUela_acfDzhS5DTff4f0QXw3brK2znAAkNbz0-V_NQvuZAFxycrLwJS-76MsP5wv4ij_vgacqLOCGANl5ai8-lktD2SN1wGeNEJJV8L9vbWUmcLS7yUF/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ1ZbzmxIZ2jERLxbskKJNx8Q/photos/ATKogpeaOscRvPYQeUOZVtnNU5J-y6qeE4AIzcBOCilys0OBlXESgXCgPKgckR4IW4pceDSqoDDB6svFJqyrwPh1FinWHiIG7OdwESqdLqc_uLs78_ni_WxYCNmrrL9UEXXw7lPyILa2om65ptCz9Ya2w0o1ivpfXC3QGzs4vEHXGo_qeJoYw3bGMq_E6aAXIq4dqy75l6yk0LRBbX9ZhD4vPoY5RAYuMeX1V0YePES8q-C6CE2JXO7KM7Li3u4awzN3jJcfWcq0LxGiKvaixT7O9WTltIpdiSCJpsWLifX2AFvXM00NlLFk-7zLMRg21Ylud-FI06CalxniXNEJLduAT7WrcmN18Kzc7YG69oOZAD9SeuZIG68-yM5riN4NtrUVsJoxGut0gEXYN0xD0fM6CK9ObgnCnMNNLw8N1MHkRoKkp3p0/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -790,112 +190,35 @@
       "address": "146 Neil Rd, Singapore 088875",
       "place_id": "ChIJ40h2uW0Z2jERA_TAOvT0Uzs",
       "maps_url": "https://maps.google.com/?cid=4275029801099654147&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ40h2uW0Z2jERA_TAOvT0Uzs/photos/ATKogpcETqCUl9Sq9LWU2rSzLNcHXkWcqRzb1wlibSKyorVhxYz4hEzeYVsG5NpobeOgNvY0Wx01vmyeIitXeoFmQYCanAXlAsx5WmFN1hTor0hR813Wp2FXJz0dyA_sRUGwQ4Krzm_2_hjaTJbySr3U9SZaGGHGMoS1Ig_OyPJ3b4St9ziOzlbE7A1DQ6yfykLLEscAzMd9Wilrsric6uwd67P1hqwPqKq8J0TrxzmoSBUueNpYDoL1-GwgoJmlydiULsGDOtecWZhLvCddrNUAZ0ocegK6mp5eIvCZNUD5Wbg3ZVggQ24aPAZNCWDOXzzndb3i3cF-9bYa5egZtvtzb-zRpCUllPM2BG6c3A_m5u69MEB3zKOauVPByjTWl6r5fd8Tu4XE6RkOXHl7oUog4AW8k8u3vOddrVihOMzrjM9EWwI/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ40h2uW0Z2jERA_TAOvT0Uzs/photos/ATKogpc-yK1XyRBa9n0x28cDJq9UHMnf83VgY975BVgkn2BwOKkGhnU4zA15Udy_xH2iVmJQR2YiRGPPr92b2SG7MwBwhlKFloDKhCF1uOLEZ_Pz5RWWjqQMk2wd0p0Ddt_gnEYGfjIR7Z5KDJBCxzkxA0LJFwuUEO4hE23qkSFaEtcNVNfjQlkNyeLPUX0N22CEJJi3CMyaRvuq2_O4LAFB9ebzz7dKO2HyBSENk0zPvW-A1wAycStCQMf9iPtcKiKrGrP9TtNxyxw4hEB6S6yEVwrnwibYs-_qYYSsX-6GcfD1vok1aAxsvVVaWuNQh1-sRv3Xp4RF93_6N-TP7-2b3zho_wxNSzHeMCM8Da5vMSqRNJhTcWBK4BoCnjKa-a1bC2E9p5oudQ8JRU8e3Qej6I_EkVM1jXioB9lIHce7Jsenf4Y/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
-        "coffee_shop",
         "breakfast_restaurant",
-        "food_store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "cafe"
-    },
-    {
-      "name": "Plain Vanilla Telok Ayer",
-      "rating": 4.3,
-      "rating_count": 639,
-      "address": "134 Telok Ayer St, Singapore 068600",
-      "place_id": "ChIJxc_ad0YZ2jER8r7qDFPdLz4",
-      "maps_url": "https://maps.google.com/?cid=4481043503025667826&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJxc_ad0YZ2jER8r7qDFPdLz4/photos/ATKogpcPyJYsaCMcQUwYzDlb0HMhHWxE_sDH1v_oD7EWhKqhcY-JXR0EPLVx2gu-pzNQS8l0aYaP_3HNMfzoYLi6vW1tuiqbXmzQzc1q4xo10fOwMDOahhfXgdAYBNwFqABn4C1xIJm8PL_7eYWi4Y-bV7Qirsjup4Mrj8oacMe5rgYxoPgmNReerOHnerho7_FlXn2DAYMPRDz1iUAN5L3jZ4eIEkvO6bHMNT9oN_gtlbwQz4_Ih2ktZZNsi-7MG36hMMvxUkmP2kOe1RfR29_R5hVLWTBj4xSIOU0YsYFEIs6MiX_smhxAKFzdfkMB1naJ7VISkdXdXxlpvY24snBYcwBFqrSv8Xkb38d_V2qCM29KTynwMGIO25jAuN5hn7nrQvamztXOhp6lDTMd9Br1V0Ry2cYxHEWl39c-1h1_KEhtxg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
         "coffee_shop",
-        "brunch_restaurant",
-        "bakery",
         "food_store",
+        "store",
         "restaurant",
         "food",
         "point_of_interest",
-        "store",
         "establishment"
       ],
       "primary_type": "cafe"
     },
     {
-      "name": "Glasshouse",
+      "name": "Mandala Club",
       "rating": 4.3,
-      "rating_count": 372,
-      "address": "136 Neil Rd, #01-01, Singapore 088865",
-      "place_id": "ChIJKeC0vJIZ2jERAsl1O-3x-00",
-      "maps_url": "https://maps.google.com/?cid=5619350961281943810&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJKeC0vJIZ2jERAsl1O-3x-00/photos/ATKogpfa7Y-_9K1d2C-EMJlkRUhqU5SAZ74whaHCVfJykvqtJRxfCn71sSiPjF_hn_amkpW5edM3aRKCtqR5fCW-lpFDy5zW4gQ5r_mpYT70MwzeHv4Vdcmc4OLwP0EjENjsIshKEUXVOD2MZ8EC-pLbVR3S-bq_JhBW0RjNzg1YV3WOdQ7jFIDh3BvisATp9xBDOqxajT2RRaWqO6ojeSuApV8wf3OEy9HRt5sjWxy8Tnj1hu0J6604pK4ohbua3M2B86jcyquDu-9y9oSokM731FeOAww6nDiBofiRf0ufgqP5kpEzRPYGg5WbGL8Q7zmrRnpfZw5x_NWYRedorExZpyw0FBw1GenbsLD7k15-BBspniIFH9HnP4dzS8ZXkuBmVBR6aj5w6uljpRYrB5CN6cKxpJGd6S5XsjqSdf5inDJhgZX_/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating_count": 266,
+      "address": "31 Bukit Pasoh Rd, Singapore 089845",
+      "place_id": "ChIJAemBQSsZ2jEROll-LrhYD9U",
+      "maps_url": "https://maps.google.com/?cid=15352587202806569274&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJAemBQSsZ2jEROll-LrhYD9U/photos/ATKogpfp9mIOXg6ZDF2rQipVO48TWzHJfb7EuTRQPVgNy7OSk1jBlglwu6o_czrghPsgRKaFnmYpL7uMLVZ30-dwvWqAWCsUPB140vVZ7doyTEuzXWAxCoBKuze7BXGAze6PyNSy3c7WRfZduUmhKalhLAck86yts1Zz_Mf_7Ph5_ICWGGoNXOT6KuKhvRJ0HHdRT7JLh4O69EfSJGD9rovj2J2XSZbMAKNpEXbDQPH47MSNhpZbgwZvgK9xuxFoZY_XvrrDtPNGE-P2HRPBoNsEx67lhR5vn1hDnT-g5x7_qOTiiQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
-        "cafe",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "cafe"
-    },
-    {
-      "name": "FairPrice Finest 100AM",
-      "rating": 4.3,
-      "rating_count": 365,
-      "address": "100 Tras Street, #B1-01, #100AM, Singapore 079027",
-      "place_id": "ChIJg7--XWsZ2jERFMp9MlsDiOY",
-      "maps_url": "https://maps.google.com/?cid=16611530915780086292&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJg7--XWsZ2jERFMp9MlsDiOY/photos/ATKogpdgnjilg716CEb9T4EmU4xMiaen6j5G8e7QNwuoyTiV5Z9L5WBiZsKyD_TqUWiZqUlf786TgZ16Z0NUuj48EO6cdVPfx182k9flDSs8iTZe_6GdK-_5WnpDzxsBJ5wTQ4G_xianCRNVHawsFTiLfbgkWlZhh5uRbTrsim191nNQPIhNu7FO7KotJhP6Q7SdFhfFe9A9OzecPuDyHpLzrXhQyQy8jTjGqELWXuoxgq_fhgmbW9mO3NJUI4ucaONiFx2ZAZi43vON6zm4UUPQq3CJ15_XJnUZIlua_XAMABhBg9DklTodhivtwRWTtFDJT5U0D2i5p8rhtcRUxhM3Pa4UlFnkHTWKfKgTcannf6enGT00WZ9ladgQmaPXPsHxcqsiJOwqTBcULCLp9nDki2HB0Hk7mMeDAags-4Ds6oVnOkSO/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
+        "restaurant",
         "food",
         "point_of_interest",
         "establishment"
       ],
-      "primary_type": "supermarket"
-    },
-    {
-      "name": "Starbucks",
-      "rating": 4.3,
-      "rating_count": 194,
-      "address": "37 Smith St, #01-01 & #02-01, Singapore 058950",
-      "place_id": "ChIJt5nUihUZ2jERPTdMOfNKjZc",
-      "maps_url": "https://maps.google.com/?cid=10920467079942125373&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJt5nUihUZ2jERPTdMOfNKjZc/photos/ATKogpei1l6PP4vtVTQcenh-MgcwGueAqt4Iou5_ayD6AlYatvhEevCGxEKyJjz13HpiWr1Ks-CdopjB5d6a6z1ntxdfld6sfH8u0DN-N9DgVGa7yDAVti8Hrd9evfbJJbKXsyIljmV1WN5z3k2N3hsxvhh5gUgol757OP_50sDECh9EowZ3Dh6ouZWtOla9Qqd_DSXsX27Czgxw9gFsvWmTyAp-eB_MWXNetkLlTqubEAMgvl8hi2L2G0d4GZ7xuCsHu3jotUBdY8HQ2vTu6VECDmF2wGd8DUwVQpdgDqkPD8jjgwHjBEdur49SKSgf15li7gJMFYpAn42pWm6HbtqHPa5_DstkIuiFmbD-uy_0sGYwCc2QBaAAjfMyAYYp7Q9NNBDGcg6KoGVzGHBidNrinS9-CEQsq1RbvEgk35ram0jJZw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "cafe"
-    },
-    {
-      "name": "Morimori Yogashi",
-      "rating": 4.3,
-      "rating_count": 174,
-      "address": "1 Everton Park, #01-31, Singapore 081001",
-      "place_id": "ChIJqeKkkCIZ2jERyFrZd-flxME",
-      "maps_url": "https://maps.google.com/?cid=13962537527066319560&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJqeKkkCIZ2jERyFrZd-flxME/photos/ATKogpdn8Ok-gnKIH5-dyPX8Qvlfc27twbPRFUr23B66Eb2GWZmCPlt5sqx6F4XY61gc1MAza-Vwc1IcxnCKN5uuaUXewOXepmuufCxk7j4WBNBTPVgvn2duj9frHVhu-YdWxyAvXny1pW_T131uUh_TF_51O0pRVG-fUYtTvt2ZwT11cHd1CVwNJXEmOvM9bXiMlw52XaV13c5DvoNbWV8WwTfD3h_e4eBF8xYAaWXcjEfyZ-ceE21iwm4KS2nCOUjNW2d35tKi2jKCaPMjlLM7ciawkpg8LdmIrN67mmuAi6zTWqY4uAalmxsKtvCr4kqm2QUttuMlDrLV5Wn3PH7psZcW60W7VroUtCv7QBPSLuv3DwTBNJfrQxC1Dy8ReKw5MaHCc9Lj5Wj-cR58d7XO7u53oSHAaYguGkV1YNgAhNPEgQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
+      "primary_type": null
     },
     {
       "name": "Chinatown Hawker Center",
@@ -904,7 +227,7 @@
       "address": "21 Banda St, Singapore 050005",
       "place_id": "ChIJgftoQGYZ2jERYN5VifWB6Ms",
       "maps_url": "https://maps.google.com/?cid=14693136675867319904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJgftoQGYZ2jERYN5VifWB6Ms/photos/ATKogpfT2h67zdx7_GsesAFeFSdA6lEHF-3RIR6VXdK-2p9XQSokYAyDkog4xHLIKCkkABHtpLov6AFElDj7lXQzZoG1bA_LlWvDlnsDKC4CcbaRtiF-vDE3xMTb1gkP_IZsU5VRJpG4XdYMO6Ft7AcDUPG3O5jBjyjxh0bPQGMRS3jTc9cUVQSLgm2pWLxumF5Xy6ZHshkHqRrrAaD_st2i-K62-bXp8H7LeKAGY1sTLiHRIAsQG9wsmwDW1aXJ8MczaUiTdhihrGL5S-5TduA7GV-o4Gf4WFmlwRaKSuGX3iMHjyFOb3f-OHxS7dso3mrTHtgRrFl3tXkF9TKDwT8LckmcGmZ8fw3x4SmWl7awYzdUejbdgudoGHeyyAnH-A-dypwySltm8UP63qSAyLjG1FxoZdqmydho_P3iS4UXhWXSqU4f/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJgftoQGYZ2jERYN5VifWB6Ms/photos/ATKogpdewiHNpc4X4Ix1BA-qha0DvdFo4UpHc9T4o5dITyS10D1yQ1A-9Z0gTDXLvKkaP79TePKSN2rNLKUC3lcxzlrd5jDQEJo6Hn2lpecBsNElrOfh3OIpkaCCe1xuBo0O44UrHgprbvBY6Sw1yEl4IKDmHQQHMym2CpPNx2gTaKRy0Q_vkNNCO4KZOL4wBRPDcjeOjJp3E1kVWfPxqb2H9mXI209izfGp71aIjfjqZcb6EGKnUlAvYrzr5VHZa2-SP3FK05Fuqe_BCoGXRlmYH8Nj7vbQZzUDrYM9J5dKQVq3nDRzrnkpgxOPNhMKRA4Dr5Ti44fUslUCMfx-T5W-zr3pgugTfOQtQx-QOsQLdMsOFGUpbXjAf7KXI45BAE6ejmPfdJc9Bvhw1Wj_eXujbPUNo6HhYyYtERbxVZ0xAP3CVjSa/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "food_court",
         "restaurant",
@@ -915,30 +238,13 @@
       "primary_type": "restaurant"
     },
     {
-      "name": "Medic Drugstore",
-      "rating": 4.3,
-      "rating_count": 23,
-      "address": "1 Tanjong Pagar Plz, #01-26/27, Singapore 082001",
-      "place_id": "ChIJ56SZZGsZ2jERKxlIRUAPFTE",
-      "maps_url": "https://maps.google.com/?cid=3536749851084069163&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ56SZZGsZ2jERKxlIRUAPFTE/photos/ATKogpcaW63uYOFvtWVptAayrw-R1-h9TIFxXvtxNuIxswz59WsfcLq1BwFO7WtjFZ3fJFnNbq0aAp5GNS2EdHvy-ao_ZR10W9AX4jzADBPIDfcrocPStnW6C6z_-0W01YS4jsPAu64tXmf_feE6PLNiSW-7Hq41RTG2iVV4krM-usLVcCQF-_aoqMfHm7hYJTfeT0rjSEAjK7LImXan0URdvdi75wu2z3Mgr166F4bxBd8sCXQPYrYsuZPatTqTXkEJGvivETis_NGGTECMo4FpH83H-1N_oPSmViPuUlLn8Co2v7NJzAz3JODdGeAWJNBBEhc_OSlylXGMMCpDvOQKIgdOy4bFAJknZtrkCy9V9Ql6KP6niVGqexdS3EnYigE71-HJAeFV6Y727jEEIAGnBoSaGoWWg-4K_vWF6PYHjKNPc8Oe/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
       "name": "Chinatown Complex",
       "rating": 4.2,
       "rating_count": 8406,
       "address": "335 Smith St, Singapore 050335",
       "place_id": "ChIJAenlH3MZ2jERqjoWXlxEH6w",
       "maps_url": "https://maps.google.com/?cid=12402707062307830442&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJAenlH3MZ2jERqjoWXlxEH6w/photos/ATKogpf1VCmTWljGZK_PgP0qb5Y_k5EufZXToIwLMcoJfhWfrUriWO48tSnLOFFdU3t3yv5zLurqh4oTsyNduKAZoB4mpxQb63w126nXK-4SOWB1wyV4jGiROALvkYuwnR1b9tiak2DvTSGdW4kyU_BKiKBKe1mitiBz30fUnxUIN7loxnYpn3xF49DYbdNAMRFf9GiHeNKUUXBuuuJd27BF-vMmY7trSImWO2kaVFvClWxl5vy_KjVFUUc55XtV0AvKrXJVKRPGkcsw-XKsyqiFZkSlJ8jlzrE0vVlEknByUbuRTQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJAenlH3MZ2jERqjoWXlxEH6w/photos/ATKogpd_JEZ9-mkj157B1CQH772ByOlydfaXpTp8BbIVD5SYHh3GxIMUnmqhonNBKy0y9oy5NkViLXELhrr0mUC37sz0EovBWWZJ7KPX_SJm5WdbUi3Y6ZacGd7u5uxtGOXZfg2JtmyUNTOrPq0lR9LezNn14MjCeM1xW_ERGzXtUD_Dr0pSsQHkxSMnfISCs2DL61tqPL7RQneTZfmHmvYOC650hnCUhW9AhMJY-ZzSkJv5anCSNaKTZh0bgA9dKTeB45sz-1XwnVyL4V53GsRc489NS8Ihurad3oU-C6SWf6Rhrw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -946,42 +252,6 @@
         "establishment"
       ],
       "primary_type": "restaurant"
-    },
-    {
-      "name": "Yum Cha Restaurant",
-      "rating": 4.2,
-      "rating_count": 4078,
-      "address": "20 Trengganu St, #02-01, Singapore 058479",
-      "place_id": "ChIJkzcdO3MZ2jERqXAO5yVGd9I",
-      "maps_url": "https://maps.google.com/?cid=15165667398797652137&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJkzcdO3MZ2jERqXAO5yVGd9I/photos/ATKogpfca4I0yUp3N6ClO5eYJyw7Nv63FYq6U3zUxJpG0ZFTcBbp-S-wBXSIjC7TRM8MF1i1jkGCtZiEBx9vUDE33U3fJX75pCJmcCYN86drthXS6qAxSHytVe2pzYk86Nnv-420tzuczRKEBDkwxbNsuzaSaHbpdQ4Fs_tLxpjIHY72Tyf6xJ_g1jMCP1uAb6yFwjpbdNagmWpT5j0OwtnF-4wtWzJjz8QAPPEz7Z8fFhGn88icB5Gy4wgk85EFWeW1FZcGjWFBins4TlAPuCCnBf3UG0YSDVR0GO2IeUxI8YJXpA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "chinese_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "chinese_restaurant"
-    },
-    {
-      "name": "FairPrice Tanjong Pagar Plaza",
-      "rating": 4.2,
-      "rating_count": 995,
-      "address": "1 Tanjong Pagar Plz, #01-01, Singapore 082001",
-      "place_id": "ChIJ2TQikGwZ2jERHGPeD2UcWHE",
-      "maps_url": "https://maps.google.com/?cid=8167309144619901724&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ2TQikGwZ2jERHGPeD2UcWHE/photos/ATKogpeV6Nxbxw0QSRDhseNPhf9Vn-sVfYA5ulduE_MsANEon-5RThufZQJPah_oZn8_FhTTVeWHCa28rfLfnVZ246S1EX9ffHP11JQ5WLjJbCCHnTb9cyaXASpR5ihh2h56zKAeixlamf1riI6fG3BlSth-g50iy-yWks7K69MDeRr1Uq6DK3jb2d3BDrNMXLEv-UWnMo8fvibAIBbJEv7Ip717jr05PpO29OMgTUg6R52AvKTTrWHzqf39tjI8S5GhIsJbFUk3amyBWr_bE6wKiKiK2bwOgfPhmgibk3rO4kJYQbTODzUpR4v46RT1ZmrFpwQCjLsMDWgGtyLQZzx5hHVZtM-VNIq5GKp7o4h15aI3MwyfeASbGhr9FGjkbG86h2Y6qOrIBLjcD5jQcG22rAZeLV-RAjV7lZV8zmm7ZWhoMVZ6/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "supermarket"
     },
     {
       "name": "September Coffee",
@@ -990,7 +260,7 @@
       "address": "258 South Bridge Rd, #01-01, Singapore 058807",
       "place_id": "ChIJJ5S86-EZ2jERVT1MfL5F3IA",
       "maps_url": "https://maps.google.com/?cid=9285373216162594133&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJJ5S86-EZ2jERVT1MfL5F3IA/photos/ATKogpe6IxSB3UCKO7XJZ509HhE9xc5HJkvZ7m1kAcxQVLrHsv2Hlw6DEOn6bupaTz31Jkm4ukzYjW5zQF1ohqz592UP59-r5H5SwVmfpBhtJE_wyt98clDMfstv7J1r_eBxiKkgJzi-I4l6SDdxMfDfG0ME8-Wj1_6x0oLjSxqJ2S7tWelqFb5XQYHA-t3c4NwaiVydSboK7AwJ4wwfHs9sHWLSizqhbqAdXwlfHwVJjSgzED9m4_8xVemxrtPmPzCzxCsHe5A3g3-kCzq26rn0c-r0rkfZX220FhxRk1Q6j05d2g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJJ5S86-EZ2jERVT1MfL5F3IA/photos/ATKogpdqDNhDVqAdCr6ORCOh7v3sY6T_L4tCtuWyPFWuF49ewC74iBD2cPCc241enULtlDyweFFx4_gIElVYMjEXwwoiKQgjqZSuox75R71O8zi1HdXJMM6OqNr2zNUl4oqNS5KlznjUlB3mZaJSrZ6-qJl-n4TMu8B-Ekkz1lF3VH9cmLPdHC5nSw0U1M5W01EIT9lo4_XFaceaNBqwHoe15-3zno74Z3tREQnJrx3o7zezJe_vRtt_U26nZHNmu1sh7kD5lNqm8Mh9m_YFPDCyssNZ-fkU1N6z-FxqtumHujctWA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "restaurant",
@@ -1001,75 +271,22 @@
       "primary_type": "cafe"
     },
     {
-      "name": "Five Oars Coffee Roasters Heritage",
-      "rating": 4.2,
-      "rating_count": 552,
-      "address": "43 Tg Pagar Rd, #01-01, Singapore 088464",
-      "place_id": "ChIJZ3NMXhcZ2jER9Y-Q_4EL1Oc",
-      "maps_url": "https://maps.google.com/?cid=16704989570790363125&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJZ3NMXhcZ2jER9Y-Q_4EL1Oc/photos/ATKogpdjPfp1QNpwa8Q0Gm_U7Fyd5WgE48pkitmiloT0B62382xsQiGYY_jLBOYXM7tILZmLZASXsXgO0c6Mo7FYl-GsK4x95luuOmAc5i5G-H-8CTPR2D66FCVQR2bKIYaGLLtvBPbGBIq1JR6A1qoUVo1fYIc3WCWid2tpsM4ejkV-8O4HqFh0VzNscJtv6Yxuye6vPord56xPsGCk_RbQhpKJCC8GyXyJ1Z6VAC8yo4EwOHEJMHcMiyTWQbgTTWdgSIhtqTE6x-B07JHnjxgwuk8uHHpMuy25MWr5NAymkdevALYWv9W0swuwIixVJrJB8URyEf9rEFETw0vFxlgC_HFykaK9XQCI7nzwTs3pmPcPHdeq4cQ1dzJW2f8gaW1iRrPoIJLTjekTfya8nMvfcLCgpVgL5KiimWQW1jqaJ4hmNxj-/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "cafe"
-    },
-    {
-      "name": "KYŌ KOHEE 112 Robinson",
-      "rating": 4.2,
-      "rating_count": 328,
-      "address": "112 Robinson Rd, #01-01, Singapore 068902",
-      "place_id": "ChIJJfN0aM8Z2jERV5c_a0z3YRk",
-      "maps_url": "https://maps.google.com/?cid=1829014831278036823&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJJfN0aM8Z2jERV5c_a0z3YRk/photos/ATKogpd7HQoihQ1N9mu4joOV_qpZmJ3jdjXQOKuF4GygjkEaa767qE-4vAcS8vC5V6dHW9pOghp0dDRQiotWOTFld21vdcccfLIFBVdFruw5wLJqa-2vYK1xfQwCEbkm__G75u38CfONHaJK0Ba1SMrX9k_GxXhE6ctmxdFjI-IkdVS4jCjUXWaZAEtyipna8_B3dQH4f07LGrCQcQKeK30z8ntLjPaO2DXnioJFCRAGMd_ciT5NVsxFLQJM6ljjW26TUtBRKVgRqh_cmsTY5P9pEN5N32-MGBatcGMgV3i92nb2XvKLc0SKofHa1SWKTG6C1RzJIhGihize8vFNBF8Hv-7ydSCbS8Fh227f5X_BJeaqnM4FeLJu-_l7UTRfB7O-MDmv27m3PG7w65hAHWDlmHUFi_NXvI_Foj2t9L06ztY0NA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "coffee_shop",
-        "cafe",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "coffee_shop"
-    },
-    {
-      "name": "Tanamera Coffee SGX Centre 2",
-      "rating": 4.2,
-      "rating_count": 135,
-      "address": "4 Shenton Wy, #01-K1 新加坡交易中心 Singapore 068807",
-      "place_id": "ChIJD2ltDxIZ2jERLbXRhzrP_ig",
-      "maps_url": "https://maps.google.com/?cid=2954026255895344429&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJD2ltDxIZ2jERLbXRhzrP_ig/photos/ATKogpc0BAD0RcIH7JtKoewOfwgoJCKOfWpbYL2lciiWyosZotdOdgSSzAk6r7_BhrZGS0uGUZtYf-KH5GsjkErPU8pfW90iTAv_hP1T1O-NTPPbG1HI6Z60dPPIhenL8SLcfCGqkn4e15ZbaFXanVssKJYbSp4QjfVIHx4pdn_XXo001dpuX6JTwij05lWyJFFLCj4Y5yxRTzqB76sNtXbbgWoRpmsY-0BqjSFmu6UIhisA4n8-vXJu8gyfKZsNuFepha77tu5yvO9YbqoIuz2BOtdlp8jFxAwp9KS7_eRGW3PqBA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "coffee_shop",
-        "cafe",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "coffee_shop"
-    },
-    {
-      "name": "McDonald's SpringLeaf Tower",
+      "name": "Amara Singapore",
       "rating": 4.1,
-      "rating_count": 2583,
-      "address": "3 Anson Rd, #01-03 Springleaf Tower, Singapore 079909",
-      "place_id": "ChIJbSX5nxQZ2jER7XXItxRWZLg",
-      "maps_url": "https://maps.google.com/?cid=13286839447632508397&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJbSX5nxQZ2jER7XXItxRWZLg/photos/ATKogpcRhMqTV4ME7-BH-yJffhdpD_tg9SJCScKmoq8N7pDkmfRZgVKryvltEZEKecISrK1ldWLGRioqgQtU-wJSDMMPTP5n1o9rE4V68Z22KGrF5ALyLpZC0iRY0nEAxVwqJitVW31YdbVs7QGwpE2x660YB_ZXyGUCUNNEs8RlTqfRg6AR_x6USe9NGIEqkB1lYz3AiugAo_Xfso3OBRJUUH3w--H56FVrZ8eXgU378Gndk5qfn96huKZkNULRde-EqyzriyX5GRUD80RdBnInVIUgYf6Bo9x0eHKq6Not87QWuFT07AkBmM2coOQWrTi7yz27Dfk4kJATxNfDTrQFFo685hmLqAPNMRitR8wtPbweREBvncnrdKX20GgpIInH01H0UNCXCBwYw5yHdSvFl5ALiR2mGV-vAjKnEEEmogYuzqI/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating_count": 3906,
+      "address": "165 Tg Pagar Rd, Singapore 088539",
+      "place_id": "ChIJrXZUXmsZ2jERdZPWv7o3QHA",
+      "maps_url": "https://maps.google.com/?cid=8088526205979366261&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJrXZUXmsZ2jERdZPWv7o3QHA/photos/ATKogpdcopmC0mVGgVxYJcvGnsLe72eKOl6hGmtsqIUipwYzcDMERy9XPmz0kIr0_t28sl3Wh2VTFDOD4_PrPH2KfJigPTVGHL4mbCZ64x-w8AUeqEL30WBboicCJo89zuUbWtphzTSvhv_ZDcdqiky9H3YwBJJKRSnm8SGDZEMxcHulx9jp766bkl8I22Ze5WhPj4BDIezconhMm_DBoyQdgoANdzlzXS2uLrc8bbVHc9HBtN0tEZsMPKfDnFIPKYe8hJdlEme-iCWX73Zk0UIG_3vvrC5Lh1wSC4AOZTH5x-jZFg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
-        "fast_food_restaurant",
+        "hotel",
+        "lodging",
         "restaurant",
         "food",
         "point_of_interest",
         "establishment"
       ],
-      "primary_type": "fast_food_restaurant"
+      "primary_type": "hotel"
     },
     {
       "name": "Kok Sen Restaurant || Michelin Bib Gourmand (Chinatown Area)",
@@ -1078,7 +295,7 @@
       "address": "Keong Saik Rd., 4, Singapore 089110",
       "place_id": "ChIJ1UPefHIZ2jERNw75Jntk0oM",
       "maps_url": "https://maps.google.com/?cid=9498765044175408695&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ1UPefHIZ2jERNw75Jntk0oM/photos/ATKogpdewQ-7X0DdUqUadFfccgj3AlnkP0oAuVEAWdEVn1ULXLZkBzB9jKSFFEhy3t__xV0i-QIfoQKUTo-lhq0EpF1t1PlGVkloYJKZGV828ZVFGwSnB8LudcS8FhPz_Sb7Pu4mND66cXeZF8KSipRo0fchl35zDDBUhVCYvoeSy8C3dfSHNwRPZnzvKAZRVw_Vy89JMRISUXrrpOomZUDsHdyXRthHA-Bd8T5AT17M6ntao2-b0IpoTdt1kA-CVhKOvo9uQurn_1gWIxijIkR0GV-8d4Sf4QrFjoQOeZeKIs0RYKH4vUVddSadivO3gSaN58-BN-kvU0MNrQe49oGvqvEgf72l6EHsTePrwlei6Kqc34wvVnrjl_W0t1_3wuOhRDwnRDdTvoPmzGu2bcQa-Y962IUo5AF14uoyb-WXEG47HHQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ1UPefHIZ2jERNw75Jntk0oM/photos/ATKogpcD8E8XCSpxfwXjG9zZ0LvGnEHR84WmEXc9YNwdtkN7WQCRgp7FjIToBBoNTtHD0WppmwlBsO0H4dKLrNXFFQyb0Zxef-09adtbUoaobJnRfU-PAN2JKVo4j4E2WGsnX7R4J8WiuZPfvICnAXtF-F8demhTMTAPQI9Zsle0SyQbgi_nwca18jeex4w3DLCcGEYmjgl-mbefj_XUkUbxH3m6Bn0yWHd-vkgcc-eU8Gc2Bk98UjuHBRwuKvNjdDee0lQkQWpK7iri4BFDrNUudChBr2NeOsmDzk_kakKOLgxIoLgqIiLXM-jZmL2TC7l89c6poDREnFSD0a-pE7laPPG5pixZOwKP9eXwk7GETa82VsukA-XdALlbKbknonXB3bplRCZpSRByO7UVpg7FEQRz8wp8pJF3MWzVR3RWmG32zEY/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -1086,87 +303,6 @@
         "establishment"
       ],
       "primary_type": "restaurant"
-    },
-    {
-      "name": "Sarnies",
-      "rating": 4.1,
-      "rating_count": 1800,
-      "address": "136 Telok Ayer St, Singapore 068601",
-      "place_id": "ChIJC6Atrw0Z2jERJ8FHIn-pwz0",
-      "maps_url": "https://maps.google.com/?cid=4450587220273250599&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJC6Atrw0Z2jERJ8FHIn-pwz0/photos/ATKogpfeCDkxUXmS1SkG9YUBEvmX3preGdGWZp5830lzCl0hNv8EQ0WTC-572oFJUPTXamZ5PPHz0gsPbS9cOWcmCfi5TuamDGkaXJnXk5jj7xOQkDow8ExLvFW7LY6cFffCpinaKFYybWjU6w3bW_KVBvSFb431I406bsBSEOkgRJDAFtWnZlcD5T0qnUaWiAnmcOga4n77wmKYFv3Q6HlTsLXl_rTxlAx7_stXZBMd_TmW5MJjYITeRZMfsYhj47l-B1tFo_S88SijrYwRSwxcqZ2R7crgMiX8jdRuqsNp0_4PgZhT1QR1fC9KXutdVG17BosSUGvjK53jXmFWyWTNFCnndtExzcUPcLOep5kYeUx3-79qIHnUhTQscBiIl9K6jDuVIi7tp6PWVqwGMTozq7gzgKIPUILPP8aL0V44zWUTxg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "cafe"
-    },
-    {
-      "name": "Nanyang Old Coffee",
-      "rating": 4.1,
-      "rating_count": 1590,
-      "address": "268 South Bridge Rd, Singapore 058817",
-      "place_id": "ChIJVdnsLA0Z2jERKE-IxD9TvRI",
-      "maps_url": "https://maps.google.com/?cid=1350326996626329384&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJVdnsLA0Z2jERKE-IxD9TvRI/photos/ATKogpdIJ3pfM23OBuGz_jvtClz4xu0bK8_eJXP6E1Q4SUNNW6J3f0YvC6Ow0EJPx3FE2pVQUXPuMGVN4i9qOBIz8KKY1JI4LN5Y35YhNGhyeOFHYEclyX_G5Sc-D59iZye_10EqCRbcmiN5bZuDezGYlqheKAyZOdfjohvlLWg_zGpndZE7BvOf8odp1RvlZptT7KF_rlQUVUs9lOUGhTPL3Y7sAmb_qcsfEibVCnVyb7LE1X4cPZVtTqSmjNkiazGkzI9gjrphMI8C83tI97fhoVrztGwvFdlcvaAxXaeFMpXRUg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "coffee_shop",
-        "breakfast_restaurant",
-        "cafe",
-        "food_store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "coffee_shop"
-    },
-    {
-      "name": "Baristart Coffee Singapore (Tras Street)",
-      "rating": 4.1,
-      "rating_count": 1543,
-      "address": "65 Tras St, Singapore 079004",
-      "place_id": "ChIJf_HCVR0Z2jEReXZb6jnLJ_4",
-      "maps_url": "https://maps.google.com/?cid=18313829859330848377&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJf_HCVR0Z2jEReXZb6jnLJ_4/photos/ATKogpdk3GMPGvTAfdMzKF6XUKKmGcC9ZiX4AqBk6dTU8qGaOl9_h5ElDEW9-OPG-oanvy0rLfyJ5qVu1VehIGFPjTa7gTwoo7dCkbt6KSJvO2anYEj8nHoFNTtoGYaw8KxVcpTFrbkGsRDdofVwxZA_uc38dBhdzApaXp3T_WZJ015Y1IEjmvjZu27B7YGVn3YJcxKFrjZdeps-Cn31caD-iBvAd5xM_r9T7RGO5De9SF9ZHpda_Fsiao9Ic5fiE328gTmBeVxm0FYKWLP2xjagHOY011T4lu4nGsBhdvbwaE8aBg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
-        "coffee_shop",
-        "dessert_restaurant",
-        "dessert_shop",
-        "confectionery",
-        "japanese_restaurant",
-        "food_store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "cafe"
-    },
-    {
-      "name": "Tong Heng Traditional Cantonese Pastries",
-      "rating": 4.1,
-      "rating_count": 953,
-      "address": "285 South Bridge Rd, Singapore 058833",
-      "place_id": "ChIJzSsOLQ0Z2jERqIFackFNEzI",
-      "maps_url": "https://maps.google.com/?cid=3608312669940646312&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJzSsOLQ0Z2jERqIFackFNEzI/photos/ATKogpfa0BmlljKPqUY2EFleYs0tmhASkn0wqXYM4TMFqEA8tXt7C9SjXagqhiBMuUQ_oqynhKgsScZd-kgBYiQy6iE1cfhoney1mGdiFjnplGHkVWb9Tj8iVZXmQvEOV1K8Eo2vlmEf6-deS5xB-T55Rpg4QPglQ4IYMYPsJ2r7TM7KBjHoFEkDfZROTkr5S-DzDpqVa4HkYfV1nSgj0d0J_HTHywIw5Rx8Sa7Y_1272UcXXTRVKpBxyC1w93ZVU_QiCGokTtdLm31VWbi0tE094kNUVoHVi6pn5wODwWXBdueEIg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "dessert_shop",
-        "confectionery",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
     },
     {
       "name": "Great Nanyang Heritage Cafe 大南洋",
@@ -1175,7 +311,7 @@
       "address": "5 Craig Rd, Singapore 089665",
       "place_id": "ChIJL1s64ccZ2jERWJa6Ep5wrdw",
       "maps_url": "https://maps.google.com/?cid=15901489683536451160&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJL1s64ccZ2jERWJa6Ep5wrdw/photos/ATKogpekdrTIWJ3UOVhsyLyRclCGAHhpaKGeWlFUZYqTLIsOxWnFhZv-Im1d_bmg1TuqZtGlC8E0CEds1pLZlvNwrWm1UgVhWCZBgtae2FVkg8NeizrqUFzkRW2r-PGtmexIUzwc428F_08ani-sfi1oGS3Sc23byKibIlX25DFiLuN5aBZiiHyZQ1Ie4fWckZ-Gf4XBHPXTzURUT4kAG5wVz0Vx-i4By9C2G8mfXijrkr066t9lEfJO1T9hdE3FkOa9U615UTm-PygSxZInuPfjG_uezx48LhNwTt2BKNEyBarn-A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJL1s64ccZ2jERWJa6Ep5wrdw/photos/ATKogpcINRt2C_JCyk5YMi1WC1bSShEQ9g3YtBCWqa2L2fbW1j4uicQ9V09DB2JW60Fc3QwcmjpUoJuvajb4gXdhN3kZzqqYyhbkfTtQLISLVaaaiiywCs-3LXL3o__Hwqq4yKOpsJALNHywty34zI0nNugOq1BQuoiqjESw747CNnQ4YB1gpKzghSX32P9tY3cgAl0_1ogbj0GKd1TPaFJmCfTlJ_XNNhxPk2NYJO0y5-0fHXxpto2SZoM6pf5qLC9T9Q0F0o8oQYOtN7Wyul4b3Mu1qS4r8jMOExgGexqLNH67jQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -1183,100 +319,6 @@
         "establishment"
       ],
       "primary_type": "restaurant"
-    },
-    {
-      "name": "Quah Song & Co.",
-      "rating": 4.1,
-      "rating_count": 171,
-      "address": "2 Everton Park, #01-61, Singapore 081002",
-      "place_id": "ChIJF-C-rhkZ2jER_1gyT2GJKPY",
-      "maps_url": "https://maps.google.com/?cid=17737578183432231167&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJF-C-rhkZ2jER_1gyT2GJKPY/photos/ATKogpfllOoNc8d1aPaCW7JKpuhLGgopBnDzbiOh5ruLmjO5mkNNIvYhgSZYYcbT_nZ09CKPNpN6q7pTmuQ5tUhpvlIRZ3_y5er2XsxRlCq3UTTNy3Rro6hgmyJ-Lp1H3dkWANOkqBEPzna6COGD9Yb-ZLmZhoBvsi5mECaSnUCDnoK0vHrn13AByc7H47pBCpdsxAKbnWRz0ULUJn9NrpxNTe4tTpJZIH8WbpOvGtv3J9mI60SoeWrIhtzql-nRvs57HU0WbiicbGZ19h0QnlD-ad74oFJjlV_m_Ne5d68BL3B58A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "coffee_shop",
-        "cafe",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "Cold Storage - Marina One",
-      "rating": 4.1,
-      "rating_count": 169,
-      "address": "5 Straits View, #B2-15/16 The Heart, West Tower, Marina One Show Gallery, Singapore 018935",
-      "place_id": "ChIJuSSIDBEZ2jER7Rj7S1OIj1A",
-      "maps_url": "https://maps.google.com/?cid=5805008336042268909&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJuSSIDBEZ2jER7Rj7S1OIj1A/photos/ATKogpeZsNqAHeAgyS9rv7k5MuNYUXf8zsb9dKryRzzIRV0UFozOe8UMspDJIjIyESlKpZ6OEqjqGE1vy9JMDaPlIEMCh4QYXfN3bZKEZWtU78crEj-Nhi_RRw-cliZGdWhNPdU4rZI_bSQKpeDMU2gKoL4_XNBH0qc89xZciYojGxeOlGaDh5CdmtznEqHirSwRh92ir-6H6gDoUiFpki752VGmCEhHEtj56Tq0ig56599eWtJEFIXzAZ8RyyVLGUY_CRtK4wohDNHuxM5hLNGJgetbDyoZERWx7MG-3Bm3SpuI-E82In6XaNMSiRL3O4K2_Q-oWQZixaxT7_ZMpM8LI0_ndKpgQH1zwXJv6s7XLa9gvwoFhYiJy_UrR-3bHGebZRDiwPSJ_CggyKxoqxijSiE6r1bYPUBsRKNlR7Uitw0Z78tK/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "supermarket"
-    },
-    {
-      "name": "Scarlett Supermarket @ Chinatown Trengganu Street",
-      "rating": 4.1,
-      "rating_count": 150,
-      "address": "20 Trengganu St, #01-01C, Singapore 058479",
-      "place_id": "ChIJObXma_wZ2jERZOHb5VGEtsw",
-      "maps_url": "https://maps.google.com/?cid=14751123116782248292&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJObXma_wZ2jERZOHb5VGEtsw/photos/ATKogpfybnV7d2eQjHEy5vk2abq0-JY15xK6MZzzo40coZDYHOHtAx9B2ElqU0EREprd2-1NcnNSSYk37L0VWR7rg-Gj_9KubCF8KZ9omGK36wzN-V1MhkuULP75sFJBDS--mUXLZRg5eKyX459w-HEl8hrbjMNw4b8kKWlbFrEaAxltgqZicQ5k4Wv2eicDzaI_WHW4VsuyhzMruW4N2SiZNEk8yV6D_EFqtEWI-xH9EMi6SUZz4QvJZawpx6bv0_Ya2ttCXLSmvgID_758xCjRgf6N5Ri-L7mg5rqL-4jiCf0i6tm1kiUGCbLeMkKfCXkvtdJGPTNgJAIl2PI24otjqUoBfG9ZCXj4LXNin6z1UfW-VuQniYq4ZE9DFHpRzmAaIVreAvXHWwpC5egerfRVGAC4IfYMXvEaQOnXeM5CZoXrRug/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "supermarket"
-    },
-    {
-      "name": "The Flour Department",
-      "rating": 4.1,
-      "rating_count": 113,
-      "address": "5 Everton Park, #01-36, Singapore 080005",
-      "place_id": "ChIJI8IeOoYZ2jERyoMpq-VM7MM",
-      "maps_url": "https://maps.google.com/?cid=14117743481202508746&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJI8IeOoYZ2jERyoMpq-VM7MM/photos/ATKogpepCaGT5KLyOXCxWBUA6f_XaVM4fnMVCAw9mq4pdaXx0QA8uw6cOt7b2YDAku5QUtFPkuQKZNkCKpx6N68FkuG9FYLxDZ-CMYC5CUA4m4D4j66WJZ6BUYxXpS0zkuz8mY6Ox01sDPpdPUez5zu5sV76ftY8QmWo-O-V870hzM9xGA-EnRmJ-GTBDbuXOnvoLIiQwchxfFAI67cmfvXIEjeXLGkwrndD9ykRHyz9Rw62y2Volh__-ABk6iRCm8Mp2bbabDhcEzuk2wjNRbHiqx46MDuTqr386muUJMKPhdobJ94PTJHD-iscD9-vw-Dk5W8HYQT3rKINzBslXb4fKnUHP4YujfFmxKrmvIa4L9y7A7SqLdREd_iQUj8CI4lBaJsZ5rFCTQH9XI9U2FRfi5mzmMH2ltCkw0TeLT7vynfiqA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "TOUS les JOURS @ Bukit Pasoh",
-      "rating": 4.1,
-      "rating_count": 78,
-      "address": "2A Bukit Pasoh Rd, Singapore 089860",
-      "place_id": "ChIJEyaz__oZ2jERpT_vLgTcaEA",
-      "maps_url": "https://maps.google.com/?cid=4641201326530707365&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJEyaz__oZ2jERpT_vLgTcaEA/photos/ATKogpf1EBk_ug0DLalS02yrN8V-BtQhL3O_llOQzVyGBbE_LsFkwZ6KCWGDaqiJOamnrU0k-y5dRi6z9MetmRedFxanL6OjYqaFGSL7PV4Vsp3n465xWKIqSOvzJtCjHjaTFSUWcFIN6xcG1VxyObw0TMuIVDl7XQexHAi1AZC16Yx92P42l_su_giEowiuY3Np07M1fDNq4sBukhU4zsXplrhzWiYC80wdf0idcZ76hxJQ-A1lLoEuAgk9RXQE8jENkS6xQYjxycmAGnVeh0Ae73Lpc7_cIPpRhNBKgbwClW3mtff7ahxcwagSytFiwOtz8xTEA7qvecZhvTRYPZYTSUlzoN8NnfofuzSVS30QZ2u33kia5oaAi8PRZALfACuInnyPhbly6IGH4tvn85rJMOCn35ms1wGvzVomixEgs7B9pw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
     },
     {
       "name": "Tian Tian Hainanese Chicken Rice",
@@ -1285,7 +327,7 @@
       "address": "1 Kadayanallur St, #01-10/11 Maxwell Food Centre, Singapore 069184",
       "place_id": "ChIJ2ZDgUg0Z2jERXUJpEsR0Oto",
       "maps_url": "https://maps.google.com/?cid=15725009434388808285&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ2ZDgUg0Z2jERXUJpEsR0Oto/photos/ATKogpfPZTQU-_GCK0glnzi5-ebmTjnsyLvPMNteitF5BVt9gwW6diXa7mXRZytmwdT7hWO2d7vk06oH1RU5sFFLrUuSQrFZQnrmQzvDvRBF4fl9fl6uH1bN4sDVAy5HnKceBkBElgtplKV_XRsUD-aE61YO0dyqN5DE0R2zw-x4RaUUlvnye7b7BYplu150WlUpNFp2c4aiYSuvqbW9ivjtiI9Yljk3eLaVMHfdG84am4nMt4K5nRMuknyQDZP2Gan0m5Vpw38GRF_nG12AyFzI__2VHHZIq48g5o4lA-LCxiIMmEoecOoo8c4wd2_IeYN4_aTSRP2Jds6GvrfF-N1MQ9E2MOd3Kke36luM11-ZlGp9zd_Cqy1g23geHUvP3CU06g5tdK-k9k9HoY1cbh7LsqcUuVAiE8hVQhGETTa9ZD18UxYzcXpG1rSI_hbHA2Xh/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ2ZDgUg0Z2jERXUJpEsR0Oto/photos/ATKogpfH-YIDEQxhKL0hg1hL8P64hkrSk8Nke_IIoPLdqIxyqjB1agYkNaszJS1hAL7eOleLIP6HiIU1ezgalYEQ3eLwjab6OaO06BiTU_-tzBx3hold2oq7bRAdMEnnv8dQ3cY24UR5aC8OJbt5s67k4ia5YS0LpHvwI7UGAOPOodSJluNlMIugZos02ut5rLyfpRa4L6ueI_MsxCCGIU0-Gxz-tdZvc-6mzZuXv3jgqxRajoL3sQ8jfJfj0SpbUucrcF-yL_82UCCbhhVeYFXKgOMRpe5NHUSw7yEdF5eRV5x6ZOXveb3c23FfchjkZmyvo7AeUpMkpSneMWQ-kGsWGmro8MY0V51yJJ0gkXgH6Asl0HddhL0vkSHUxN5FZnWcLMSnds-ktAMuF1CC2-Z7hv-N4p71-nxtHQmnavI_j_nk027QHOUgcUsNAMMrhl9K/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -1293,108 +335,6 @@
         "establishment"
       ],
       "primary_type": "restaurant"
-    },
-    {
-      "name": "So Good Bakery",
-      "rating": 4,
-      "rating_count": 237,
-      "address": "100 Tras St, Unit 01 - 10 & 14A, Singapore 079027",
-      "place_id": "ChIJvUUHX2sZ2jERGCu6veeGHkU",
-      "maps_url": "https://maps.google.com/?cid=4980566567797009176&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJvUUHX2sZ2jERGCu6veeGHkU/photos/ATKogpcGww6Acmvor1wKYa59A_kLd9c6Lri7iAIChBzdJ0fIFH5C1dnplgMYZyZdZmsvoI-MONx10OS9HLGmMmx5GFQ1IpSftkeiWcq1Q8Fx5y-hHjwvyVzZf6WlANKmRm_5aIDX-aHHLMfMRCzt5vJjeXt3yEjPR0XbigHGPg8INF2HuhzrnsHBfL8JLlHG7cVEBajFZ5qyfuUeSA9uufC4pYO8KPQmQOtUvd5JSj9EkKoapy-oANTH5sANxNC7nHl9m-SQ--w88A7rw_tvPJUrahBs8PY_NymOQL6qSKkkWp9X1auPRtm3li6DiJg4lMBOXydGm3Q-j4UYykzsinh3hFQVrp1bSANaifukkNnuVloTsrOR5AptKWWs_Ndtmasajq2HXKt5JHZfOq9iiZpua9gF1vsxZTKjoAYr520UH8uN8g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "cafe",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "Save Mart",
-      "rating": 4,
-      "rating_count": 15,
-      "address": "334 Kreta Ayer Rd, Singapore 080334",
-      "place_id": "ChIJnau2xpEZ2jERmyN4gRo3RlY",
-      "maps_url": "https://maps.google.com/?cid=6216716922612360091&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJnau2xpEZ2jERmyN4gRo3RlY/photos/ATKogpd18w4jZmsFjXWRN2aLBMxaaVyvILe9jysx1rc30E-23SHvuGDZ1FXH_Zk3kBWWVcDfgVXhLNYWMaTFxskTtq8LPpkseqALILBHuY4zrYJPvz0QUJIECETVRTP_EONF6Low98cf4VGKPmethjIcZraA-r0xSue87FFX28xeUgl4uExoqsPLv1bXam0SoRtr-oFgQ7nufO7R7ayhj0E9YH4ndmLUD3NGfi8NFwaINCEaKTdEJlZqSi_Ko5oW-IF8pAdiq-2UkgcI8OARGx8od6ID3EmYMkdCH_PhRR1rlyzsB0uwVEI-kaBDeWPyO4czVbpHtiMDQGDAC_HWVt2MbD_XRwlAGoP0o2ZwvPvtiFrbZyf2A_lHyJQBzzadcLXnN4ur8RRX37R_j2ivqZ9ZYZlBQFM0fK_yNSlpvcacgw0xMA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "DBS ATM - Lau Pa Sat Festival Market",
-      "rating": 4,
-      "rating_count": 4,
-      "address": "18 Raffles Quay, #76, Singapore 048582",
-      "place_id": "ChIJCZxqg_UZ2jERwoZGIJsAAB8",
-      "maps_url": "https://maps.google.com/?cid=2233786081437189826&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJCZxqg_UZ2jERwoZGIJsAAB8/photos/ATKogpesgbN0N7mkhwXXfkYCvIdSUCg0mpVdhLCVBgl6guQQyAC3FH6_B3nSZvzsGdERRwqfnacR3kysQ6kO_abzH2uYpRz7qyxPYKFHzL1I3WvX1h2br64dHdN5fLobmynGG33vZqPGEcYA3MmtnUurb3wgIg7LSPVGhyS5EGrl4SP7WM6TV5Gfd30XSQBMNvN057oG7aa_T2XGKZcD10TdLXAhIB6DUcM-v1BildDRKcJLXXy-xK008HlR1R8q57qZIdMdjDxQeKSYyok3THqCIf6IWt9MhTvqaV6C_V4kYm_eaaS3Ss6nfSrDPClHQejK6QuQA5ECP7XFrcF7yE4av4SN79-aGRAVAPZomx4WDJsgt1XhrZ_2XJIYaeRQDKox_rvVA-_Xo6UTE5_YY0MMMAj2cEhNm8nAgTcW7Fs1s2hArg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "POSB ATM - POSB SMITH STREET/335",
-      "rating": 4,
-      "rating_count": 1,
-      "address": "335 Smith St, CHINATOWN COMPLEX, Singapore 050335",
-      "place_id": "ChIJYcaxAScZ2jERYTKL__M9BKM",
-      "maps_url": "https://maps.google.com/?cid=11746581846262755937&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJYcaxAScZ2jERYTKL__M9BKM/photos/ATKogpcCaGuSbBJu4WZivoqUTNeIFpwLOQ16FmTqmi0XAq9fuSBqic7cPonCaCDJas_ItX0w3FVFe2fwLbFRIYBk5TeUMt-HJ4djFrJw5s-U7jaOuigQPsxQV7jmaDMSCrFd0a3ywnhaNwIcHgNza4GmxvavwSWUv0LKeMEmQxyGg8F9rNlxMEWE5PR5iflh7Zt1_TYVJSJBNfaXzpTA4ull_GK-lYVL80zgOM8zR3nIbhyCX7v_lVm9vHzL8pt2ph-obsQEABrWgTW4VRTJFoKDgc7NL5PG9d0F7OKMVVYGsD0_Pech7f7VNGKD9Yy7yhcHTIaAmoBMV6MGlAm_GkPeR18-MAvU5KxHXqndbmbE29UGeyQMtFNWSthxGhvfx0Oe-ctIk4hIM5g0Lb5EtooznmB_-Vv0DGSYeR7fUFOymm3CQg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "Moustache BBQ 大胡子串烧",
-      "rating": 3.9,
-      "rating_count": 377,
-      "address": "26 Temple St, Singapore 058571",
-      "place_id": "ChIJWULWWPkZ2jERSvvYNLC2ZAE",
-      "maps_url": "https://maps.google.com/?cid=100405959626128202&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJWULWWPkZ2jERSvvYNLC2ZAE/photos/ATKogpcggNRZkhtXq7327kcbOXT_KUGtKepMrK2AFApsgZ4AKkO4Fm3gPNBkzw8sXazPwZ8uXDWWF-ghsGqU7GagosaNe1uDuOUfTbQdPE_lQqYFBSA01RECp1rsgsIijEvUFNFlcm1fC_aMNeTToyx1K9ad4SkdHi4N6JdwGxO7vbF7L9i-vlM0kjfn5PrlUXHrnbeN2BDUI59qKCH9L7G3LGpc8yXfrr8skqgeTESvrK81lrqY_qSEnAjpIqqep_6-Ovk3tFQVfuZJLZffuWRVXICcWe48Uf3gBZzeAQ5_G1fJEQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "restaurant"
-    },
-    {
-      "name": "Fong Moon Kee (冯满记)",
-      "rating": 3.9,
-      "rating_count": 35,
-      "address": "16 Sago St, Singapore 059016",
-      "place_id": "ChIJTa0s0XIZ2jERNgR5-Z8Ql14",
-      "maps_url": "https://maps.google.com/?cid=6815934840319837238&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJTa0s0XIZ2jERNgR5-Z8Ql14/photos/ATKogpc07MwqslDCx-CkzOB7FVfKXbStpB_zZeAfe5G-Xvk2nRtbCT7MCTRAKqg20G8vRfe0QxkjqUlOtF7FfKOVd3-N7NtcWZ_vxltlZDKukSjXirFHkPBbC45Z74fTRFNXjbkPkcUtgRb1KkOF1BKFf89gtHtW8lccK4GoIVzksNCX2J5RpMGPzQ6WgHqirgA17VmyanMk_9te02qaYbEhN5YqNfRSdblAsOt9OFQq58zZC5lodOqNfP7krUih6xBzD3xASP05Efu4_qG7ES8TS2_pxfB0ESSOZF_T8-SWqT3i0sFcYAn2MBoLM-7yti4gH3IcpGb4KshNOBP-bqeggPPUftsaJLiRvCXxGoar1e7ZvXsa-Yx1DpaZWtWT2sa83NwQiGgw98Zd8P3X_skcJ5lPdAc1j69VHINWzBpQ8GBqHg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
     },
     {
       "name": "Liao Fan Hawker Chan (Chinatown)",
@@ -1403,7 +343,7 @@
       "address": "78 Smith St, Singapore 058972",
       "place_id": "ChIJ2eV4E3MZ2jERSJO0koIx8GY",
       "maps_url": "https://maps.google.com/?cid=7417483023156024136&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ2eV4E3MZ2jERSJO0koIx8GY/photos/ATKogpdKI3qXoKV81mabke4YWXyzwjYGhJhbAGYv4AnL_GKzLhtf9yC5kFB2bsmFBZD9Z_GorarTgbSqtaPhhjx0tXJKucnlg1eUKFgENEDcEsTkdd4I3UeHtKBVKgnulVPmChPGmIQbClSjwKdDtYpwxwP7ViYB247sS7n_9tWAfgXz2udctbJsMPXX4Hz_u0NRNNDKKA3LAx3_Nz_TylSFsMCnCmFkQxaiNlEPJZ9Rkkm7XkX0WF315qeRdXhhoz0rOq5URoy1mzodPi-6-EyxZI2rKDyekXoSVgleXWovBgz48m25R_7iL9anLFv0191aqRWLNQkQodWV_cZvq93uSbq-oerO_t_9GYWsncp85T2GDuuzf0n2aa1gVVuJnH2NP7LSmVUSE_iIMAOunukBnP5F1wu0isJt6iqoaB-5sK6wuLv7/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ2eV4E3MZ2jERSJO0koIx8GY/photos/ATKogpc0BQH70eUkf5wvEf330b8nijFSjHakviC8B7yQ6sdllkg8jdH_7lQzUu3tzDhPjlbwYIsV1S8c09imVVCk0qT0MRzmA5mNOef-dHgt-KvJazpvz-11l7i_ihyQpQX79ZzE2lkRBRPo7uiowqywVu9FqfYqmsFZ_8iLDglKrJtNm88hm1xK4BcrOWEV4COEZkuj3cmOMVRIZKZTQuEewjvHXEur39A07YYCBttbc4vGjQXc24m80J2q20D8B8NtkPEmkzKGCMBui97JOb99ox2UNRkdAVzVSPdIf7x5esfsb4gXakhpuOmL06ex_9jVGlv-QNI_9WSLmSRtnBjRNguTkwrrqcsOmWs61Wzq6tD4ln82TTcriP4QLTd8NwYi_A6fylQSp-i6ryofQ799gbN7THZQRixI4mVEE80l2eGHfbZk/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "fast_food_restaurant",
         "chinese_restaurant",
@@ -1413,959 +353,6 @@
         "establishment"
       ],
       "primary_type": "restaurant"
-    },
-    {
-      "name": "Mellben Signature - Tanjong Pagar",
-      "rating": 3.8,
-      "rating_count": 1092,
-      "address": "7 Tanjong Pagar Plz, #01-105, Singapore 081007",
-      "place_id": "ChIJz3ZC5GwZ2jERSz7uGSJMWXs",
-      "maps_url": "https://maps.google.com/?cid=8888219048940027467&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJz3ZC5GwZ2jERSz7uGSJMWXs/photos/ATKogpeirC1oVKdyzNOdAUpphaFh6TjdfvdiCYI_EyAT4tFFV5gkASIhLn4wxekYBpZeK8H5pUgJ4tGXZqJhyj4Y1D9vuKGxFpMYnZzb1uYApYzMBT6wljSfDj2_IGilhs5eTvTS9sh6QZ8XmwOb8-iDZgAe-TXXsC4l2xTWdnOZEt0szF4uDVusgVB5PVLn9aE9Q2JpCWMzlDYt9_rUrZYA2GTq2tbtO1QxQzJ8-okAmxPS8TliVh0jj4r3RiHcsg-dVR7gfAvY8OjL8Vd08lkIo_umUkv9NvRnZT39dvOEHpH4mhbyk42NPWsC4vomP694IIZ_08cDpBJn-bdZ9meP9PZqGsdD3ef3EfnxKm9hz0cMaMaDU-xnZww-2xhhQibztV0MSeg7Ulawe5qDF_HCfO0e1wCPNHcaxKt8EchySRa2vW0A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "seafood_restaurant",
-        "chinese_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "seafood_restaurant"
-    },
-    {
-      "name": "Cake Spade",
-      "rating": 3.8,
-      "rating_count": 546,
-      "address": "28 Keong Saik Rd., Singapore 089135",
-      "place_id": "ChIJQzBY2WwZ2jER-i5QX3_OAZo",
-      "maps_url": "https://maps.google.com/?cid=11097378003272871674&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJQzBY2WwZ2jER-i5QX3_OAZo/photos/ATKogpdwYf6Pcti-e9mijGt4wBRAz-XtQts7xZFmhsKXRaw-gChtGSwFycH6U3gMZUMrlqNe2bFbhV0XoqDBxeR0mSehHOpz3-DJE1CvlraWzaJbs8qOCCSRpOK1m2bsSfSHJ59RiSSLePopCJITaGQ9rXcZhsDCW1vy6SRL8SRtTfSCBrG0DXX3kpmRFHD72fZyhJszoKRpqmiEEOfMPiPiqRHD-jDspThS8R-HJQ3eQjeXRKslK9RSUgxr1ufGo10Wnludlk7RPR_jGbI2gciIPojTXuaVMXiTAdyjh9V2lGFXMQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "wholesaler",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "Pure Pandan Chinatown",
-      "rating": 3.8,
-      "rating_count": 142,
-      "address": "264 South Bridge Rd, Singapore 058813",
-      "place_id": "ChIJvdrB3Y4X2jERt0MWN25ZD8M",
-      "maps_url": "https://maps.google.com/?cid=14055551291952087991&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJvdrB3Y4X2jERt0MWN25ZD8M/photos/ATKogpd6DgwXpWfIvP6vwAvQBrTnZV1u6sid7Zd-gRxlRmyVz83LnqoYiFVw8Y0vWQJ8nAJyVXCm6BM1yWWSSVLXSs71tUk6c4CcyK7NoGG-5P9xiPj14HUZN1PRigkmQfzCSs9xdIGqR7CynxRj7hCn8IPmd53IejLd50OPhGa9crcONmJ6dQhfpwx-NNSoIdOlTnjFxHY31iNNGGUyS929oJMxvsutxudyuMgQxKowCl1blxM4daEn9zwVB7QvTCcsFWUFxfO_S3N4U689vE7GU1SU1TV6-Gt9BwCpS9gOH7fkCvv1zcQ31HQU30WssFVw5MIz80_T1iZSHGrVL4MI-u9B3Qwg2B1Ax3bTwXRoahPbTBS57-121TmiNXoom7vWqpjiM7_Nf7CQyivwnvgoOZZBSNYQXrQ9LgJt8PrfXX-TYSg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bakery",
-        "wholesaler",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "bakery"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 3.8,
-      "rating_count": 20,
-      "address": "3 McCallum St, Singapore 069044",
-      "place_id": "ChIJs8MwgBIZ2jERGP_o0f2Uvns",
-      "maps_url": "https://maps.google.com/?cid=8916728130109505304&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJs8MwgBIZ2jERGP_o0f2Uvns/photos/ATKogpcDX9CV4g_U0sQ-Olnq8RlF2caO9YupjhcNzcPk2QSAmNLWa-vdkp2iqMpQ9_gYbXKnOmIfIJLEA8gjtkKk_EyqkQ8C8EW6Eaa6adRfiKUjP6v8Xg_jq2RCxDdRkreDGMwdZ02A7Atcz46L9ffrnsT5TJtzNZI0tAWNXNsNbf1avSByepia9SrfC6us2yn3dpTnAhcOBVo0y9DRBHdcb_YxJbgEyvxCUxaTIQWUn9Lz0u8B85U555YyasrMtWG6_HxheLHigatipZTk8hmKjhlpxxQtsRR8OUnMIJtwNOX_kuL_2yjPNj7UjK75oZem8A5VY08TSJgnkYHorhIKJPAz7m54BtQ-I58cC8RWIb296WIb9vIxRSaZkKorhUSu9_8ak_OKWaVNDH9rMcHAHqtTQ2hDrVUsGvYcv33PpiTuwgk/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 3.8,
-      "rating_count": 19,
-      "address": "79 Anson Rd, #01-01, Singapore 079906",
-      "place_id": "ChIJafcMuhQZ2jERVrMW7GbZjbY",
-      "maps_url": "https://maps.google.com/?cid=13154409122689889110&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJafcMuhQZ2jERVrMW7GbZjbY/photos/ATKogpdabkxRkQYKANawDlQI60BV1oIeGB2TFSTzdi9OO4PZ_7vH5UUdnO-lhidIe_ow7g9kxTpC7gVuHzbLB1nrK5Q7slObhdkpyxlrZJ3-j7b4KZPwOSp0CNZUWDlLuGQ-dg8sTufAnSPBUr31ZVXzAqQjkETSRTXLR8MtjUYsIKDcyDrZBmgnxBn_ezUZmRc9q5KRrQWd74ZhAg1Rjuid4kZd6hqh4JXuif7ZTIuuA7deBDMJuul42CkuJ_QDmMqsaMMlJF3UYDhAVweQB8L01Cyl8BQIktU0HjELRsoEBpFuuZ9etHpGvu8tTG4PX8ocFQaqOuLHH1tXPCCe5LYlDYj5KVgIafoMEebtBF6CiVWvV6kdLBCzx0x5KbBh1L7v_YpUef5JgfB-3w0ZQv-BW2sGSzpelyaA_m1wMlzLmwPHtg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 3.7,
-      "rating_count": 31,
-      "address": "50 Club St, Singapore 069427",
-      "place_id": "ChIJf6XI2AwZ2jER4bH8F1Fov6E",
-      "maps_url": "https://maps.google.com/?cid=11655149058162209249&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJf6XI2AwZ2jER4bH8F1Fov6E/photos/ATKogpdhww3qmjGGjqQZsxkQJ1EDig0uTvIrde9RWmiwqrXUGHzyXR13QRw-pGDC3Cz6qANRFvUinPFraOzDvdrlpmPgpPz9lYpb-4AyoiwN9wvu8_JnlqcEozWfPtG4Jma6vESSNlDnYF_6JxPVmRJtyo91U1EW9pZYn0P0DxwdDf1JLqvaKTqOLiRwKyYoo4RgVi9TJXtGXslITqDs4qxOGjut_dQi23KVBB_ldQ81ewU2c_WkjgPB-9nxl2JqZCBv9SZ9TdYFAwtOnUcVyD-wab3xMD4N4XMxXJrAwkQTbtFwjhKm-oa6dnA3gF0ENVT6WruEY3da1Z_oR1qn0lC3lOQ8n5He1v8lydfkFBWDs9ILwgcu80RAUf6t2Ijga2lWzP3wIbinUvF1834CA1CxryT4UoX3NHFOkIw07Dql9bA3iL31/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 3.6,
-      "rating_count": 13,
-      "address": "138 Robinson Rd, #01-05 Oxley Tower, Singapore 068906",
-      "place_id": "ChIJ4aHbaBIZ2jERxuJh08b3B8Y",
-      "maps_url": "https://maps.google.com/?cid=14269646377668698822&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ4aHbaBIZ2jERxuJh08b3B8Y/photos/ATKogpcxuuc5UJJZ5Z5pZkvP9ST0VFek8PAcgDMy_bMj-G6oZibNWGO-lbxbkusvXGzUP-90bb0Zl-MA3Nm9uyOHsFjKZTLdoWJEQ35jhXSQdlWG4loMSSX8JGed1RzTPVYMUJwKy8VqiRy9yqWV6zySM0q62ilaIGhmQgsWgfe4QBDvFXZK1R9biXJ6oQ5RFk7uZGRYAO3slR544KAOr3uDv37AA6_D0vm8CtQPcYddOSKlITB5Z8KxCmywj-QSQwCrD3BiWDE0onzKQAzJcOjmr5dD0LaZ57t-fiT8OHvLX92YHwNiLOVOnNd_hFCj0uLeu69AY86iNRHsHFOe3SXL8OlFDF1aXCbrUwdNLYpH29h9Lurnq7wD8XQqW8WPu9-YuhpgK1Ac012XLEWIYoDBVpclXSMT8_pczIcykzHh0KUnfg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "Alfa H Mart",
-      "rating": 3.4,
-      "rating_count": 69,
-      "address": "1G Cantonment Rd, #01-07, Singapore 085701",
-      "place_id": "ChIJudI6b2wZ2jERhryOvIWndFM",
-      "maps_url": "https://maps.google.com/?cid=6013615595282414726&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJudI6b2wZ2jERhryOvIWndFM/photos/ATKogpdpS7E2PlS1c0hts8p0CG4NmBGczY70v7kMQDPjcIlr-JbikwKpqXA8lI6UDdOMzPf5_1MXzNyZpn7iHrry_kb3Vq9cegFVd_LXvDl0m-dDrPvUM9-d8CyOTGmLlT5hJdIo1pd_sQO9Fmqx59apnCxbHN9t6sCJaIvu0akEEs519SloPU9vPQedjs2JLiL9GNT1D6MAJ4E7lJUoJeqicdDb1D658QGeCYBlAXQcY9JOvSCEMqUol3PmzHkH22hMys_ldfRAiFyG8nXC0j1G3egeWGaUwJR8KJeJ1BPnteUxxNr2rlWHsxoWBJZ8169ezCW26x2yTK8HT0O4-DUvtiClQUoBvk7TU1A3YQH10yIIMA3tgMpXiOv4EkTCB5L_IBlxPCPMI_rK8PafJvEdPOpYUR66k8zHvLN-ODp14vkpVRw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "supermarket"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 3.4,
-      "rating_count": 5,
-      "address": "1 Shenton Wy, #01-01 One Shenton, Singapore 068803",
-      "place_id": "ChIJfZfppyQZ2jERZXyKmBKaPdM",
-      "maps_url": "https://maps.google.com/?cid=15221491720241445989&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJfZfppyQZ2jERZXyKmBKaPdM/photos/ATKogpcXRrgIJyyJTGoGhpcAUC5iz2ylHxfxoHHUDI2fJjRG8Kf6wWUMIpvgH2iaCYhc0SS7uEgIBwBjZUCERJPxLaTPUH2yq-36wpnVpEpXawOLIukojiP31kQvzu59DzXsbL5nRagwwYRLZ61M8s7lacf0WmmAiwbPls8LEq9bFSbhYEJs-KcKFpNGrz8WbRYtFxkv3LTzYScAxhiXVWfOG41O826lLvvzjUohdSkCawuCZgXOrTqLIdMffpDo0m0mfNoODckAwj05sP7SUHsXczKlbUt71TZasXsy13hIPaFX0KNNtde5Tt71NozbCjmZ0Xk_-M8EAjTVRTxDXuZAgjOAihVfQSb9GJlJ-mZHYD7LOwEpaaLsLUyAcrtbf-gjU9qzF4NZaaXpMV8AT4V6fzGnR39fhdbZKRDRTBova5aO6w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "Citibank Singapore ATM - Tanjong Pagar MRT",
-      "rating": 3.4,
-      "rating_count": 5,
-      "address": "120 Maxwell Rd, SMRT Station, Singapore 069119",
-      "place_id": "ChIJ5flPMBMZ2jERtG2ZdW-Li6w",
-      "maps_url": "https://maps.google.com/?cid=12433184507117006260&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ5flPMBMZ2jERtG2ZdW-Li6w/photos/ATKogpd_OJPVUG0_6f7TJWiTIBs8C0f_UwQs6i_BOGtp0-DNEEGev7Q3yAJhmCCaFLDVePUyHf1fgPZDPFN-d-_2kB86eWKs5qGwRaytXgfUU5s7h8c7GFTPSd_Zo32Fl2uknVnw3rUArCoW7RH5eJbmodjQJo5szoVffkJ1WlzbHNFuVDw52IrdzDAFC6W0jgCi-_mRs57lt3rQzvCFVW5r2ZPeG9dy5eYPfud35B0wcqC3a078lK_CzLHRHpEAp1pER5Li4QUSlzBiUvLX7s6p0Z_7JPgH3zuHaW4AX2SK4g4ArGea2T7B4r2wTNliSSYX4mdXAD8BEfjhmdPZNJ0NzEYFauimCoYfFZ82xtdtQyAvww1-UTe9zSxSaFKWnJlArXutyR9gYlrht00v9AZD67ldiZ5wC-xPOsWtS3QPXwQ8TmQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 3.2,
-      "rating_count": 27,
-      "address": "12 Gopeng St, #01-17 to19 Icon village, Singapore 078877",
-      "place_id": "ChIJFVRKqmwZ2jERjuEYD55nLw8",
-      "maps_url": "https://maps.google.com/?cid=1094207163030102414&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJFVRKqmwZ2jERjuEYD55nLw8/photos/ATKogpfYbCzuecls7DdN6KKsgKXRP7Uc2rjwTQA2Th81eZM3-LYmx2RID6VIzgmG1DeqWTTnSEiCdOts2FCaxLijqYG7vz8LnLCU7wJT_fM65ew1gqIyOq6FpAA45YKSNNF_ylSlR6IYinXsc8VGQzO-TdJB12oq7x2VZ_qQIV8067S-h5LbvT1fHXEfVvd7tzGn_cwvEsjXEBNb6uuM_lqcxvhabZvflsZUYrWdFJoJ4SbeVUjDQxAljYB8o_B8EW8ZMK1LC9LtfS7yVtZXOFEceS_cT0OfusnPcPY17vwb7ugT0sm9H5-mSkYrkm9guga43TfdDjSMOwxFdTC_8Mjm43BjzwNuHl5dyKqRlOybuYipLn9yQ0l39xJ2XXJ5cIGMkLfoZeqkWlJcfADzN0mIjc0EXTYvWoE1xOg4TvYzDeLYBjZ_/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 3.2,
-      "rating_count": 18,
-      "address": "36 Pagoda St, Singapore 059195",
-      "place_id": "ChIJIwCrKw0Z2jERIw0oEc1-W5w",
-      "maps_url": "https://maps.google.com/?cid=11266738312018660643&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJIwCrKw0Z2jERIw0oEc1-W5w/photos/ATKogpfAeh_YPDitnW23UzaEHSp4hTsXt37dN--1aDr2eGA3hEzfDvgnsHLxz5-20FaMf_zQS3oaPtOhdevMGV88fNUj0CS614AF9ydRV3Wh0gZSw3tF5TFcD8-O1dE7V91MO_BixHGDS4KNAWlDBx0Td-q8iIoikZUwd8ZkM3KPSroRQDzPM9K-XHPmlS0zzMF8nGr48sKxVAGMYtxI6It4N_Q_CpZZxRmTnx7zR55WumPwjhXqQrYHIuEfOvmQy1350FX5RhOrOtPkNDv1ZEUUQjDcq92g7cmfFVqpHwmQLq7RLsy2XgEHJhPu5NAqxT_OLRwC2pGYgJo9qx8ab4zWVGDiPDMOwAlc3pbXChxQJN8xBQ7GHYbP47-a2lusSM2Itv7CWRB77Ig0lR7dFOy9kLKXztacBJWAFLO-wZzf_O0zTGxJ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 3,
-      "rating_count": 20,
-      "address": "38 Duxton Rd, Singapore 089502",
-      "place_id": "ChIJlSHkQW0Z2jERO_apNw-lH1k",
-      "maps_url": "https://maps.google.com/?cid=6422033078430594619&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJlSHkQW0Z2jERO_apNw-lH1k/photos/ATKogpci3SCRn4BimOPLOSMRL_Ba-3GSXeIN6uKNGr2eYnEtMedohMD9UYDTDlmAW-bw1aOs24VERsnnxMrU3t76EwVLUrkT-kJaTg20toeoQgsdonbpya0Udmq7_AQ53das2sDsDJDIFv2iPwnGSD12oOvju8YPTW-1eOWZ8zBHomoPj_PIlhmwbLlrpKLtYibRTsWf93C8XV19Emhk-Y_XNqxkHHhjn6_4T5gP6RNxxjOLfWCqHNHQtroI6X2ptj2OWp3lqCT6PBHcT4RxAbTrkWDkl7C_NXlg7mmFbLn7jMi31KM-TdcMcaaQJ51AutyhNx6-ymXq1AeCvQ7yYrRUcTfxxGDvvE5sC5ZbFjr4ggV8xX6FwT2IdUUTON4ay762WvipgecFuxzwtQi730RTKRbXHutM_rqdl8eVvxQBRG8/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "Guardian Health & Beauty – Tanjong Pagar MRT",
-      "rating": 3,
-      "rating_count": 8,
-      "address": "120 Maxwell Rd, # B2-01/02/03 MRT, Singapore 069119",
-      "place_id": "ChIJgRnWPAIZ2jERf_xlz4lsAtM",
-      "maps_url": "https://maps.google.com/?cid=15204834631102102655&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJgRnWPAIZ2jERf_xlz4lsAtM/photos/ATKogpcq-pXckHf2kK28mTVSEgr7ZzVmICbXr2B91pUpFusqadS5i-3nllv-eXL4KGYXeAiuHGALHNRFR_rDiYCp0PHWwVkqWkKw5g_CSwkPWXruIjdwyBf_sgePt7noJv29NfP7lwoYRCte9073XN7w7hN90eYbqjdl_NpAyRt6LLo2furZ8-UKj1cMtei0efm1oJBVX7VsqnpVs3supFGX1vcvLx-EmB3UD2ffrP82GOkkqKfp6d_Mlheu2m0WQFWQR2aKUeHEkzgR_bq1ehfPHdXxrI7QBa_pQb2Bb8l1aj1xaJTqd9RlLGSqrMeIWH3F-N25NwYNKfsUvqbRrp5BXdp_1d_xUmMBNZGEQDjhaafFl_Vu5qJUCMDRzC7zgYm-aQZx2f_7OHykz6L-f54KKYWkxdOc7cSsOWGTCDMNa0H-_tR3/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "益寿中医保健診所",
-      "rating": 3,
-      "rating_count": 2,
-      "address": "〒058809 编码: 058809シンガポール サウス・ブリッジ・ロード 01-51号 260 邮政",
-      "place_id": "ChIJ_1PfaWQZ2jERgrGCQMFLGtk",
-      "maps_url": "https://maps.google.com/?cid=15643899549007917442&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ_1PfaWQZ2jERgrGCQMFLGtk/photos/ATKogpceSJCrnLERsZrrk40zDnX48asZHo4r2r042ujGYAISzYkVxlFU8DUoTibTO_vw9-JF20aDo5pJ3eRlXFT_m9EJpjAwc7Sgzb2WpGwwwF4lkkCcKDsvntIAeKwxgaaVxXlEII6AAL9K39LdO5hooiqqP083d-E4PLNnEUF0JED2qoT4QQf28ktVNQoTbkSfMOuUysGizXWVDdgXfA2ppJmk2997OgfHxmuGrW4hxVptjbucvgKBn3xuSLM75C4zjW7ckixaivThm82kVNHHaTbAH71hNzwddW4uECkhVJoA7XTUGfhEvCnegpBEKVSRwpwCszQWTdFSpfqy2OlVcczz9x6lzRWF030Jr4_taWLexKqQly2ZoTmxjg73T3tfE2toXO5MCQR1vMottSjNsA8i2LzKdvnhl7xl3QtPzr0/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "Tanjong Pagar Medical Hall",
-      "rating": 3,
-      "rating_count": 2,
-      "address": "7 Tanjong Pagar Plz, Singapore 081007",
-      "place_id": "ChIJTzzC52wZ2jER1BIyHuXSiTg",
-      "maps_url": "https://maps.google.com/?cid=4074019219429266132&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "OCBC ATM",
-      "rating": 3,
-      "rating_count": 2,
-      "address": "7 Maxwell Rd, Singapore 069111",
-      "place_id": "ChIJGcCGYg0Z2jERmMb4ePZiGzA",
-      "maps_url": "https://maps.google.com/?cid=3466473148922775192&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJGcCGYg0Z2jERmMb4ePZiGzA/photos/ATKogpdyDxkG0Swx61VNQ-Dh_EY2y2UMZhkqjssWPTWsdu6dggGcIanpoDearbrgief1IO_JSjG81nDttdtmFmMbpLD-acFrN-AZhIACsIRRXEqFLg2Cs6B9GwdBOnNZUuAUFjelPlRk_fVOCin7X9CqVhm6BQAmlIedQMv1NCt6HKlfJiGQ3_lXvVgnD74lVKw6FJeDBkkvbKuT_Y5AnN_Ap4qfmdkf2coZg1sn19xAgZkcH8mgwDZjvu1LyqvokTnS4OXnGydL98hU6flFWgtzKrCCGf7_uEnQjeHjrHlP5Va-bqd-0MhuOP7-je4qQXS_5m9uhlmxNDQH2ATjnHdp_AVyyFryLr4ZIfC9GtZTQWCyEHIOdzuUKQF-haPejmu8NMdLakPISd-glZQnqzUVNMweyqHYv-1FpPc8EiB6BhQ8NSzu/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 2.9,
-      "rating_count": 17,
-      "address": "112 Tg Pagar Rd, Singapore 088528",
-      "place_id": "ChIJ2X1XFR0Z2jERlBIRmv5n8WI",
-      "maps_url": "https://maps.google.com/?cid=7129594028308370068&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ2X1XFR0Z2jERlBIRmv5n8WI/photos/ATKogpfEfsMEJ3OD7asI95HekFAn298_wGNOstUI49Q3uZ7ZCd7jVYB_oauHHxRsnfc6_eLmmhsFmjvdDKzA_gzOSqr2RuNR2RXvwjvfsN1d_GP2Ncw0COXUSs1WsjWVVyG4rgWYYCDSmaODdDpy4v1DTKGfK_pQsesl4IYD3xcau2HrS6xMQqbIZh5ul60EBlEqukRHli5ceH0eMS8JUlRPGBFa9Ekm7DxAk_9rMT-0dT39G--nPVzxrHI12jcKZTSPMlUqIeP4ry_fwnTiWaPBCGla0wNaveNnXckkDRdDqrHu-hA0EJGt2f01cDqnAhNeTB839ebRunx69qxLTe43GRqRpyxZSH19XKZRZjXlvkTXLxDorFpT1SfL0zhr_vAMyTtX9AYckzzcnY03J7NHgiCS4UDaT-_628mSvKekUkLJFTHE/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 2.9,
-      "rating_count": 11,
-      "address": "18 Cross St, #01-101 China Square Central, Singapore 048423",
-      "place_id": "ChIJCX4uJcYZ2jERkyBKIMZ6FdE",
-      "maps_url": "https://maps.google.com/?cid=15066083119801704595&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJCX4uJcYZ2jERkyBKIMZ6FdE/photos/ATKogpeepGXL9NBwyYg2Vbcu9wkAa4BrsaT7sKegWZjDQv-LYFyKaIGp68xdHVJPE_YjowGFo2eFEwvoTvN2Lm7ujxq7D8UA2QGqyJippDPQwhq_-A_XG_dA55BlcuMQFGbWF4MX1GERG1s1dbyskqihqgPZGX6HhuN8wd3_t4MpgKuvP0uk3G8k49WwSHv6Np5Ag1fOI0zhEMSVolP-q8NL4fDK2ljLM4vDuGnMMCSHzCsRGS7r6ehaEz4OEghKJVuec_MOxHYi3JtUgnD5mFFaZlHCL0PocOdN5Acfv8KyVSS2F_XXd7QXReXtTYNA-d4tSXJRem4_oiNFhrF1V2qhn_JNd1ASBg1q1_SC6EdEK7TtWDmC21GoVXTpIicDCboCcPIDyUM3Oo1kX3I5KiGVuAn5Sv89o2LdVsWxmIj7fQ638hQx/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "DBS ATM - Tanjong Pagar MRT Station",
-      "rating": 2.8,
-      "rating_count": 21,
-      "address": "120 Maxwell Rd, Singapore 069119",
-      "place_id": "ChIJD1Yq2U4Z2jERzYecQLlndX0",
-      "maps_url": "https://maps.google.com/?cid=9040245872366749645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJD1Yq2U4Z2jERzYecQLlndX0/photos/ATKogpfP7PKx3P12tEhBOiGob8nPq-qyTFLsHmIDquDaue1W1AC1PgFJjPkL9ZqwMmn8rc2P88tbVyi4rxnES6UZtb02aBTHB4lGF_FoVqEWIxOqTEUjnm1hbsbAmCL4trIlGPe9Sbb_2uVKpK809qdJ7Wi5G2iOFAbmxQKbxTugLN1HgenZBg4tpBfSlYKjCBppOC6wR7v_nIYCjrDOFL8RjXZQ-yGMAigloWXqjUNZkJiJF53SPwb8OjbXj_lP0IOfhcSRRsjmwB9EUQ1t1S-vTOLWId5xYIPp3C_ecFwprqqf9ZQWwU-CI26wcoq8zH5pOIth5Kfw05FmOLk1I1lzqeet61gPTdGnvcpyzP_T86YzPfDbdx18E3b-ghDe_zZXVzvuwnoLaqNbGYIAZMNOuaLRASyES2Vb1a0Lq6JREGgTq2FW/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "Atm posb",
-      "rating": 2.5,
-      "rating_count": 4,
-      "address": "321 South Bridge Rd, Singapore 058841",
-      "place_id": "ChIJQ6vreQAZ2jERUiGDeu9_8Qk",
-      "maps_url": "https://maps.google.com/?cid=716494482257944914&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJQ6vreQAZ2jERUiGDeu9_8Qk/photos/ATKogpeb1S2ENY0KMJQ9-scrqS6LxYxXFgmPz6Ui5uf1EpXGFjbre7308mF9pxTEQ6Vij4pN97_ruDMR5_aZ0BQQaPbrur1Kdsr0Adsd1SGTFQogqDP-hL9hmxZfC6ZanyoaYBroVZ7NXa84zg4N4hjfZEviISE_7arFNmvW65nIiy-Zl-MBXK7W-WcPkKKiApdZ9Bavty2N0cfYdDgklTFQ8aV7iO4yLfCTbeErJ3hbdRYXxA0wuJAJdm_NIgB0h2j3RGl3uqcoDIUGUyIx5lIB4rbXNNsgD5SUriBmYC3R58JdNraL8UV7SQFXUMoxVXQI1YZ93DIgWHZg24mVyGdRS_QpOh4ut_8dx3GXuqfXDE3xJHa1dQENoY9GV23bQFfreHR9GIYX5hgRGpbQXngOTX7hoO9Ocl4fS8XaUDZ8ixLouA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "UOB ATM - New Bridge Centre",
-      "rating": 2.5,
-      "rating_count": 2,
-      "address": "No. 336 Smith St, Singapore 050336",
-      "place_id": "ChIJnQ1v1lQZ2jERZueu-eDtNxE",
-      "maps_url": "https://maps.google.com/?cid=1240721772881307494&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJnQ1v1lQZ2jERZueu-eDtNxE/photos/ATKogpcdG66VU1l_z_yerVg9glCxK6baNlUVJcO2obuqvycWGJkYAZ0ZRLYyeQkK7KATVr-yonrpIOchlZR_AigqicVuXvZYyiyMWOP0mGi1ZsXdGSLQ4qBSp5dc_ppQo61CFRzQDqyfLYc3G52wWlp3twds0TFXY5zJrwBu4sEKa4yVcb0tK1ycK0psmLX9uoXPscJb9qzUh8CYxmvHuHtOvLutmQzeikdJqrXjFUwxYr7y_YZ3b-7ujUZxgtsg5ATsMtwX_PzKDEfnDAh326_uKt17vePspXpPV4lw_p1dSMn5pdsMHgl4C0Qu6_t1Lf1CSkKeYXigfYCar_fpSz_Pw7a7iC4UOMuMh0YUDUN1YxD3C-sFJ1V7qomJ9u6L-TpEHDlNmzHtHxm5kH6cFPmivsHc64qNwGfoJ0KW6GQUEGpt0jnO/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 2.4,
-      "rating_count": 32,
-      "address": "35 Robinson Rd, #01-02 QT, Singapore 068876",
-      "place_id": "ChIJqys0chIZ2jERWKqVJsEhmP8",
-      "maps_url": "https://maps.google.com/?cid=18417507789591390808&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJqys0chIZ2jERWKqVJsEhmP8/photos/ATKogpdmMH7-EVHnCjQJ7q6rki-5-JKsQddo_l0ENZ-dJYc00yTWSX6Qs5nX7zmQunhYuUH7ThIrPderKtq4G7I50Wrvggn1ViZKKQBN46stUAQsgK5rQvQwC7ueDiu7kXQ4g2yO9E6zztJgRceX48r3fQgQt794jaE_7BoeotV5RrQQ7M5yxZ9RjDprvVAjZ8XcVT2t0RTNC1VwfL7tWUZKom1u-b0CHfig43rOP-yxwgsQjuhukeCjxtE91rUyRoasI8mPIixndw17lIGY8saUvBStQBC2sS0KF5tAkYQsCAmX2OTBNb8Vcc4OIgH-TcDpSh1rP0cY3AKU9o7U9E0XOLF6JxJIFVnFkJ71v6MCuiAybDKf1RS-m_jfRg9TLh5zLdaNQ98CtiNccW-hoPj7mZzqTM84jAg7ySUDkdLFbqkOMP9K/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 2.3,
-      "rating_count": 10,
-      "address": "10 Anson Rd, #01-08 International Plaza, Singapore 079903",
-      "place_id": "ChIJJ1vrQxMZ2jER-q3dpWL2VN8",
-      "maps_url": "https://maps.google.com/?cid=16092758272051621370&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJJ1vrQxMZ2jER-q3dpWL2VN8/photos/ATKogpc382xJeEIj0dIqGW1fgT1nrz39Ud_Nk9S9FZV7KzMQaC4rGDHQ2gu4DqGI89EaM_nuVLCGFklZEEf_iX66gyLa9Y0c5WiPaTv5YBSTeLprOR3kwpRgmmr9Q_Ozls19ikBkSbxH58lexzA3IbYyvKRav7sDODsH-Nx4RMnWcWibAHpXvgU-Wqhkh1kjGvGVgEs5ARI4Pq8GZE2AjGRF4g-HNWRsLmz0ZEF6qEsWkUpyaYSKgR6aIJCC4iVvuU40zByEYnStigHGP5EnsniI3ykagFWdHUftJ_Xly0heHUyhWXftGdVyxpDyUuNSaT0znns49NDieHzWAotGioxgBhHQMj7m8fFKqVU-_MF76iKC84n_KwEde2oDqzacYboe8M080RmJK9RVcpEJgZ4WjoMGhLFzAlolMr8LKHugRPe1S2QL/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 2.3,
-      "rating_count": 6,
-      "address": "120 Maxwell Rd, #B1-02 MRT Station, Singapore 069119",
-      "place_id": "ChIJ5flPMBMZ2jERowqDtFUbEHk",
-      "maps_url": "https://maps.google.com/?cid=8723502533131307683&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ5flPMBMZ2jERowqDtFUbEHk/photos/ATKogpfYUbDgGZcK4cv1Ge3d22GOsS8P0Rp1Bt1-2rbZb3wIjuoVYc7w5D6WNpTNcp8urWF4lRACSHxgdwmNDZFvnNDTloVjBjgjfaOi2iKHMEHDwxrIGjLXL5bP6TJ2IgiSaXp9STS0wvQ8GUGayl0_5UuviAIv9KUZW1fyxvUnDaJ29RiM0k_LfudFERWU_KqICwII6_z9o4vVlviynT5zpYEcHhTM5kWqfo7Gw17JSUmONhgw2-wwLfPLMhiHUJnQH_hatwtgtuBqBNgRfbdWZBOuAq100aGl66ZjrvPViYyKdlXmvbBOz8zBROJZvK-DytVEKULjv4j_ul7ToQkqzzxLwJEwJd8Wks4EgU8qh9grkzkP-Oq5Y6Zmn7TGJowB8z_OtoL08b5Fatk382AClg25yodP5uCiMXdowdMejQcc7w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 2.2,
-      "rating_count": 17,
-      "address": "22 Keong Saik Rd., Singapore 089129",
-      "place_id": "ChIJy7r8QwAZ2jERAHOxRIM5KU0",
-      "maps_url": "https://maps.google.com/?cid=5560038450921566976&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJy7r8QwAZ2jERAHOxRIM5KU0/photos/ATKogpderJ77_Z4cN2JLfLycAbucZDkf7VwEHOMg2hEExSX9H50o5CNz0rviBmi2DpopdN8YmsT7JEWnFgCcVS32XDNK0vj8329VB6CTviXhI9uE09RhwHK8DyCGCFeJ8RhUGmsgGAlbWI9XyCV4t1eigdDAcb2QaShTQ9HXLWlMKu1mUWe-9BJZHXHkGi5Q_DUWOaQ8nAHqcBOMhbau5CGlRH6_NkgM3TNmY37FAxox-qK4v2XS1sp804ambx_ZHz8tI9Ai16MxhhL-b1xMmC2UE4o7cOpXD_GumoVVdBVjpLouh9x2SXtOdTrNIJuhwV4p5hXqkeAHEafBwLI5lvKNhOtvoZY2npT5DtCEqao9dCP0t3J5Vjnlx-F3YFlJGE_9X6y73GsNwWuGfuq5MDGcLEFT03nrk0BiKpZb0lD0xy9aDzgOQobBBvuG8_GkVQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 1.7,
-      "rating_count": 25,
-      "address": "Blk.1 Tanjong Pagar Plz, #01-32, Singapore 082001",
-      "place_id": "ChIJ3R-SjmwZ2jERLFaxLIeAABU",
-      "maps_url": "https://maps.google.com/?cid=1513350792855246380&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ3R-SjmwZ2jERLFaxLIeAABU/photos/ATKogpezI_WN2a8A8OHuEN1_KRiHBUvFomwr36StUHnP8ekjVLqnNin-i36qFdK1paN1cdcFXzmyqKYLNPExgxB-CCkz6QIKWTKn80tzm1CB7Rtzst19H-SYlZRo412Vfj8-nH8nZgaH2bPXdEolISr0axZogriUqMb_5ZbjDdG6pEkTNjlW26BJOpkqixPawklpCKiFmo-tdEununaARnazLi8bR0GkDSIchd_nViWxUkRv6y53Qy3qAUFv9DYlJdQMsLwQL-Lxyf7d-rcn5zvZDFAIHLs2M3w5gOgvcU4jiMSwZc68oCEPkUFUX0IWNF4_YcFy--pVLH3MIL4Tym-v7cEMZIQtgtaF5KjjzjRnDg6cHvWLq3RvuWvmR1FkuvApRJU9Wcz-5HZ5wngWhA_QHdrZ7L503sNxsKgR4X4QizOqYA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 1.5,
-      "rating_count": 11,
-      "address": "3 Shenton Wy, #01-05 Shenton House, Singapore 068805",
-      "place_id": "ChIJ29JMnsIZ2jERR-Y2NJmE6-4",
-      "maps_url": "https://maps.google.com/?cid=17215999794094728775&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ29JMnsIZ2jERR-Y2NJmE6-4/photos/ATKogpev2mfbQP_eq3BhKuoXhZL5_bDfjF57-rHqF3V9Dp-CNmN0Flx_7kHpVJGSluue0SODM8v0XNWrcN4x2rTDrnWxrc9F5Ps16QYx0VLGmtEqeAfaRgsPkB6Esf85hc0NDIPPABepi5oyN2hi1kwsPV0XgNEhrTsvHMtY6FHD792RTCKnbgv9o9ufjZaSck6e_srZnZiVzjOcYqqcwh6MKn_jfHJ-e2LR2Py9__69nF1rMwSy2WLt4dEt4YK8nKDEXCIbHZaUmw4pP5hB057uHkG9WvSSo_26Wse3uIK0e_nbWOpFmo4lnOdDvftzM4HL6s78iqEwc_1IKFBfXZVSz1bljMLj7sJSXNtMomY_mw8d4GE3ibozmFoHuW-e7NLJnq6K0jat8Peu5vE2mP6we-nylIeT3y-MNeu_DGqN2wEuV5g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "7-Eleven",
-      "rating": 1,
-      "rating_count": 10,
-      "address": "178 Telok Ayer St, #178 Masjid Al-Abrar, Singapore 068626",
-      "place_id": "ChIJVaEiaoEZ2jERt40N6H4ytlU",
-      "maps_url": "https://maps.google.com/?cid=6176179459625684407&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJVaEiaoEZ2jERt40N6H4ytlU/photos/ATKogpcUSSJQgyTPmXfzceRsHm27fnDad7KeNK3QK7qvsXFEboEZL9ewYh8iiUvoeRkJBW0WUoHkoE_-zIP-fGOOlN3SlAp7aT-GaE2hUGVk-lDPWzbCFJIL8CLruWhDJJ9qpXxUFlTpTefK0ahgwtmSBTIkpIU3hVD_PidYL3LKit5g5W6-LLx72uva_uykVpgG1YsP9RdseJ5ZyShLmcw0IUY73Iex7qLXmSSqhj_59C5_r5ix7hggcUkL52f_ItltpPiUrk9nuPgV9Pj7p00WqX_zLxKs94cnxiZkh_RbxC8REKoJTBnV43Sm92nxE0d3t3hWUE5o4GtAywOxRhCpzvHoGL4Gn5KAqXSqMP6eb0O_9XrSqMCMiJ4ZU93wXg09Y31PsGX-9-l6k4jL6w6et3pP2sAZ8yYuzJhTnD3tuLGbz7Hr/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "convenience_store",
-        "food_store",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "primary_type": "convenience_store"
-    },
-    {
-      "name": "UOB ATM - FEB Building Autolobby",
-      "rating": 1,
-      "rating_count": 1,
-      "address": "156 Cecil St, FEB Building, Singapore 069544",
-      "place_id": "ChIJB_GmbwMZ2jERxNcqJw_jVSs",
-      "maps_url": "https://maps.google.com/?cid=3122651570872440772&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "DBS",
-      "rating": 1,
-      "rating_count": 1,
-      "address": "Singapore",
-      "place_id": "ChIJ8xlvYg0Z2jER7Pt-p8fwiKo",
-      "maps_url": "https://maps.google.com/?cid=12288336323579673580&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ8xlvYg0Z2jER7Pt-p8fwiKo/photos/ATKogpfyBtoVCBU6WwetKqRRSdFxKDrDLjGDy24mUZrQjLxpA2cG6kAuiG6EVmaYY5jraC1KMZ23K4sITKEusqw6leAgWJ5jbMmjRhcbCCfyXUqptrqPP1v7feO76ZY0mSZFgdgqvlbwUPA1dzughazJBLtZ8PitAoGUazj2ohqNZgS36pYuzAFifegQD73ftax1TP_I5AsAZOdD16YD5HAEUYTtT7BpKLwOU9bV5hY1Yn88Yd2ABLvIKfODTiAu6mc9qHMpgXVyBY2dPbfO_HwUSOQUHMmnwAa4DP-QWG6boLXHutgozrGcyRn6POrMQ0ApdZRIirdjLJWFUE-8Dz_Zh7xGSsgup20dUQfI4pN8633gVpjELUSQkBDwWYxiiWtE15ibg7VV9TR_NDsfH9Wi_6ZUcAv8JcWqXwgdSWClOuM5F48/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "UOB CDM - Tanjong Pagar Autolobby",
-      "rating": 1,
-      "rating_count": 1,
-      "address": "1 Tg Pagar Rd, #01-37/40, Singapore 082001",
-      "place_id": "ChIJR7A4Y2sZ2jERWtvrfeL9D-M",
-      "maps_url": "https://maps.google.com/?cid=16361575120477346650&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJR7A4Y2sZ2jERWtvrfeL9D-M/photos/ATKogpd6OI81-AWhNufzO_mGpVGwxHVE2fWUcTeRnaxi3a10A04S3K4QwRL9Hli1ZtWlWZlbuAMN2rEW87F_gCb4aTEUAfOZCAQp-6lSUAT7qa7gSw0P6eo3YA3ECTU5VhWlUpO4JQtgP6cCyezz3ffxbFQRApV26LJOhdEBv6OXGw0LMNDkqLMUWKclQwvbA_kZrzTmPqiUSRMpvhP0sq1kt_hqogQgEwbic254Wqd-ew07H9sa92gpzqWvArOVvX3I_mmb1IsN0qFiei9NWuRQrBKPpTzFN_VwGGNa1opL8jgbzbrr2KZa1H4bS4QGFff9YECMMxayBWonA5o3-T6RG24Hi777ztLufRIk2vSR2Om0Kb11BX9YapZshGThDHXfFsAt40_Zwy2zPTg87loeX4gkdkpYOIxBVcaxT9ja6OUmCw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "DBS ATM - NTUC Tanjong Pagar",
-      "rating": 1,
-      "rating_count": 1,
-      "address": "5 Tanjong Pagar Plz, Singapore 081005",
-      "place_id": "ChIJe-5S3soZ2jERCr4g12dCFGs",
-      "maps_url": "https://maps.google.com/?cid=7715865075350814218&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "Chinesische MEDIZIN",
-      "rating": null,
-      "rating_count": null,
-      "address": "264 South Bridge Rd, Singapore 058813",
-      "place_id": "ChIJZ1yyKw0Z2jERIjgZVzY8HQw",
-      "maps_url": "https://maps.google.com/?cid=872920106866915362&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "Liang Pin Medical Hall 良品药行",
-      "rating": null,
-      "rating_count": null,
-      "address": "5 Banda Street, Kreta Ayer Rd, #01-90, Singapore 050005",
-      "place_id": "ChIJpy0nNXQZ2jERXqRZN8P8hAM",
-      "maps_url": "https://maps.google.com/?cid=253605394417034334&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJpy0nNXQZ2jERXqRZN8P8hAM/photos/ATKogpei7nLk7o_DCx8Ib_KsBvLkFZ1F1lFUOCXVKLq9UnfA_T5cWVKMTHCVCvAGAhK20lJxY5Y0OTcWzkUfYsArpU-0_TIU-kEJ1bZbby9qz4dgtbuTfoOIpgVAvYbdxay-AS7q9ezB0OiWpTqIr1NJE5cfRZVN3Qp1M_qA3x4u6PRImod_Nb7ZCFj1qAMm9ZMv4XQqnPyYyg633BF5E9nisjMrZOuTakYLcdk6UBpMywYdbvB8UwYxlsXP25ZaS_izr_uHaCZhAtx-fzeKI0msclviKBXNxst6gkJ7prQ0SILtVbu-MXVZCasIBOVAFVRrzwMXyEnMfRS_QF4Q_AjAnRE5cywPtPca0cnMPljRPMed8VuOAPdf_Pbci4qmL9TMILX7ZFNG0xG9cebXrME2D3ql4FYufIOfwxV2KoGJkmYnsQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "Fresenius Pharma Asia Pacific",
-      "rating": null,
-      "rating_count": null,
-      "address": "12 Sago St, Singapore 059014",
-      "place_id": "ChIJIzVG0XIZ2jERSosvplwVmXs",
-      "maps_url": "https://maps.google.com/?cid=8906173225771174730&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "良品药行 Liang Pin Medical Hall Pte.Ltd.",
-      "rating": null,
-      "rating_count": null,
-      "address": "333 Kreta Ayer Rd, #01-15, Singapore 080333",
-      "place_id": "ChIJ0-0b4NMZ2jERlFnnZeE3wrM",
-      "maps_url": "https://maps.google.com/?cid=12952976919487797652&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ0-0b4NMZ2jERlFnnZeE3wrM/photos/ATKogpeIoxNHjMY1tFiuxEsO_0RCfQmldG1FJAjE3DV91DdTc7NXeobW2_Ud1IaAuCdaXPFsF-vIHd_3dp8Wg8Q9mj9p_0gPyTzw4kxYBRCa5YXzPrIm2b3U0yuci3ZGNDH2z9eLUwOvBxtIXMESs9KV3ZYuYN9E-Bnm2BoihDdTlrE7luNmCvaZuggCg6uBg4gqu8T784EsQ02BPFhSw2V5_sTD26AMizAPv_7nD-RF4_eOGQ2Y-hX316xTfdnwa49Xo_Av3zdNAlMeBi_rqStXTe7e4YS4SYOCVU74eBwsA7d5pg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "Watson's Personal Care Stores Pte Ltd",
-      "rating": null,
-      "rating_count": null,
-      "address": "80 Anson Rd, Singapore 079907",
-      "place_id": "ChIJ2QYwI2sZ2jER6w9M7LttjX0",
-      "maps_url": "https://maps.google.com/?cid=9047007880347914219&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "Win General Resources Pte Ltd",
-      "rating": null,
-      "rating_count": null,
-      "address": "63 Robinson Rd, Singapore 068894",
-      "place_id": "ChIJE8shbRIZ2jER3HJxaZiqt6U",
-      "maps_url": "https://maps.google.com/?cid=11941200508576953052&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "New Chinatown Medical Hall Pte Ltd",
-      "rating": null,
-      "rating_count": null,
-      "address": "64 Peck Seah St, Singapore 079325",
-      "place_id": "ChIJT-sYK20Z2jERbyVydnle6yY",
-      "maps_url": "https://maps.google.com/?cid=2804439068739511663&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "Equiden International Pte. Ltd.",
-      "rating": null,
-      "rating_count": null,
-      "address": "PO Box 1303, Robinson Road, 048545, Singapore 048545",
-      "place_id": "ChIJKZJZ9Q0Z2jER8ey5WyCeVys",
-      "maps_url": "https://maps.google.com/?cid=3123138728419781873&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "Tiancheng Pharmaceutical Enterprise",
-      "rating": null,
-      "rating_count": null,
-      "address": "No. 10, Anson Road, #18-18, International Plaza, 079903, Singapore 079903",
-      "place_id": "ChIJ9w6SQRMZ2jERsBLZR034xik",
-      "maps_url": "https://maps.google.com/?cid=3010366411745333936&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "SG Med International Pte Ltd",
-      "rating": null,
-      "rating_count": null,
-      "address": "10 Anson Rd, Singapore 079903",
-      "place_id": "ChIJJ1vrQxMZ2jERwOzH3mx7Fd8",
-      "maps_url": "https://maps.google.com/?cid=16074890152493182144&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "Yee Chang Medical Hall",
-      "rating": null,
-      "rating_count": null,
-      "address": "1 Everton Park, Singapore 081001",
-      "place_id": "ChIJRxCdNGwZ2jERgyChmqKhmUI",
-      "maps_url": "https://maps.google.com/?cid=4799044597690998915&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "Creative Body Studio",
-      "rating": null,
-      "rating_count": null,
-      "address": "15 Bukit Pasoh Rd, Singapore 089829",
-      "place_id": "ChIJFZpkk20Z2jERBclf5EODuhg",
-      "maps_url": "https://maps.google.com/?cid=1781880930195982597&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "Sidney Saradetch",
-      "rating": null,
-      "rating_count": null,
-      "address": "10 Anson Rd, Singapore 079903",
-      "place_id": "ChIJJ1vrQxMZ2jERc-KlgUgpOCs",
-      "maps_url": "https://maps.google.com/?cid=3114284533716214387&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "pharmacy"
-    },
-    {
-      "name": "OasisMarketSG",
-      "rating": null,
-      "rating_count": null,
-      "address": "3 Shenton Wy, Singapore 068805",
-      "place_id": "ChIJfRyVsMoZ2jERdhHqqlbWSJc",
-      "maps_url": "https://maps.google.com/?cid=10901198565773283702&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "supermarket"
-    },
-    {
-      "name": "Kwong Onn Herbal",
-      "rating": null,
-      "rating_count": null,
-      "address": "16 Trengganu St, Singapore 058470",
-      "place_id": "ChIJRVrMMHMZ2jERPhES0dr2BmE",
-      "maps_url": "https://maps.google.com/?cid=6991546891210199358&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJRVrMMHMZ2jERPhES0dr2BmE/photos/ATKogpdjF0M43aj3fDOoTHTsHD-gh3ZANz2PrAo1AQSrMUVC_A1GLEOsFm0V_wZgXpInKI3FV6qo9P0WAQgcdMvYlQtDdB6pCiUhpwLcCWCCiGnVVdIRohX89933-loXPzxQCpFSXia4IAs7wCd04wHrF8_XqiK7OYlRVRYklJk_YNyf44DGqFWqVGK4XVttp0VfRibpZ30OvUe8G88vS0StiaP1E5UM3eZbl2Yqlk4bAx8yfQK7lmhvaQsXQp2mm1BrPOhAFFWzuUHRL_5PiVkGCSNo9s7J5ura_H3eornUTauexFynRybz3CK75uxJivHJkZ_Ce7mEQg6c6w-x1P4hb9I3oGCWEZlI2oFpKDY7Cm1T0YKMM695LEg0XLrQODQlifs-2_3640gQ3RP4XJYd9uwBbH2uZ0rxGyzfFpvSPJ-u1g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "supermarket"
-    },
-    {
-      "name": "Nam Cheong And Company",
-      "rating": null,
-      "rating_count": null,
-      "address": "334 Kreta Ayer Rd, Singapore 080334",
-      "place_id": "ChIJYTjOj3IZ2jERrOyJDlOiCAA",
-      "maps_url": "https://maps.google.com/?cid=2430277423590572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "supermarket"
-    },
-    {
-      "name": "Raksha Beaute",
-      "rating": null,
-      "rating_count": null,
-      "address": "300 Eu Tong Sen St, Singapore 059816",
-      "place_id": "ChIJQzCr-G0Z2jER3o2FZ_jjay8",
-      "maps_url": "https://maps.google.com/?cid=3417075398318853598&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "supermarket"
-    },
-    {
-      "name": "DBS ATM - Amoy Street Food Centre",
-      "rating": null,
-      "rating_count": null,
-      "address": "7 Maxwell Rd, Amoy Street Food Centre, Singapore 069111",
-      "place_id": "ChIJgwJahagZ2jERxAo_R2PnkVo",
-      "maps_url": "https://maps.google.com/?cid=6526251748619651780&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJgwJahagZ2jERxAo_R2PnkVo/photos/ATKogpdmlVNtnVIXavcDbMUqwsik5oZGRLqQloo7P8_vOdosPrylX7rFe7UFqoCzi41TlaX3DyPkgzU0CG0IBThGkycPLtiLyjVea0jE5FdYdkpCZyAMKSZ3ESuSReIsr9LU4OUDzVP8vGkOstUGwDHk0lw8gSm4BdjlM-mTDqBqShR9bdrhdX_OZWZ04QbN9nQz3cXnG0J9Bf-MWerPzFuhk2vYFVlst01wd0xXAMKor6ccLYSkkPLK-5x0y_JeiXKYOwV9PpnhKhOEsbrSRukj3F4_yxHU5ajsA52D6u__WSQEKn0Oe2iP_QOSnJGwUP3FV-bwBM-qlPUlAaXpX111qDP92bX2Gw-Wyw4Mrc8aSZF2fwMqqlTr2J5KeHnvE6v8J_nDDs4qSHn0RPuDpYBq9MOMox5enq_Ry7BZ1JsP42Q1-Q/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "UOB ATM - Shenton Way Autolobby",
-      "rating": null,
-      "rating_count": null,
-      "address": "Singapore, 新加坡交易中心#1No. 2 Shenton Way , 1st storey Lot A49W 邮政编码: 068804",
-      "place_id": "ChIJmyhN7gcZ2jERV_sTXumEmK8",
-      "maps_url": "https://maps.google.com/?cid=12653009290938022743&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJmyhN7gcZ2jERV_sTXumEmK8/photos/ATKogpcTx_hIJBJxdsO2MS2mTv6zgzVqxEuPetl3xUnp7xmpk4hNIBC8S-tLF6bja8Ivx2J0BtRovhUNpCA4wzHZd2xQQ1Q01WeVFJNjNGbROIPuionnNERmvIH5kh-Y2QHqOfJKXWuKPuTZmwD-4MGYOJ4UQA6Sf1jxWGrOGkCqiMEgLU0tomDOzIqVVWlucM-eU_TFkmqKY8ijXGGy_Ymi8BbXKjaHRDFUiyNIF1y1mqi4nNB94C5as7Yaq3Vborb_9MkuHyz33m-S7oYGLOE_MrqkTdLYpdp-ZKfCkM1ZuhmUHRSxdLxP9TVD8B7s8YZ-WN4UZAZe304aD3ARrtsts577101W7yU_9aCLJHI2TLT7D2SiQ2LJxHnAL6_Q8JJXAeD301L7gWjm8iSMPMAppaZBoV_D6TucGLcghXoXUs9HDnW6/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "DBS ATM - NTUC 100 Tras Street",
-      "rating": null,
-      "rating_count": null,
-      "address": "100 Tras St, #03-17/18 100, AM1 079027",
-      "place_id": "ChIJTXHs_HsZ2jERnIghmpV5yQk",
-      "maps_url": "https://maps.google.com/?cid=705228500103170204&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": null,
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "DBS - ATM",
-      "rating": null,
-      "rating_count": null,
-      "address": "Blk 1 Cantonment Road, Everton Park, Singapore 080001",
-      "place_id": "ChIJVVWVemwZ2jERYb4XAnhLHsI",
-      "maps_url": "https://maps.google.com/?cid=13987700471462608481&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJVVWVemwZ2jERYb4XAnhLHsI/photos/ATKogpdVSCHGRGVfzNF6SYhEK41CN5rbZUo5FeFlqeXsinbBTOGP8Wv1NpSk5jV0aodg8EGBrVle4RBQ430-fc6VG-xMFqrafQYUboWT0X_8dfNKY05b3AOaM9cdGB1_9bMfFMVRQDoAhigiigXlmqGuCzDrfVycp23vu-xIG7GisSaDwjW2-oB9WbTBz9PQX2VCHPWs_HnCIFLmAiZwTIiGqmveQOH60478mN__arKqG2aZUkVmTzR7ZbM5FeBv3IkHLgbgxb3Mwa8NZf4rOFDoA7XR-lAVF8GqQhsg_5gasO8mqDOoXtguaKQ5m29P8z6FlvrkAnu7IdJp4HPIA6I9Spaxx2kH6AWPpV0hxievyBxal15iq8ctGa7163wmmv4Fdyn6HZp9hmWID_r8D1e2pVRIxctRtj4xGTueZ72E1h_SNIqN/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
-    },
-    {
-      "name": "DBS - ATM",
-      "rating": null,
-      "rating_count": null,
-      "address": "7 Maxwell Rd, Singapore 069111",
-      "place_id": "ChIJ1ZbzmxIZ2jER6XERZaYOQSc",
-      "maps_url": "https://maps.google.com/?cid=2828558148788384233&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRAAGAQgAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ1ZbzmxIZ2jER6XERZaYOQSc/photos/ATKogpcqFjUM8GNjKeg35cXTN0BwOwgXL1_zedThr_Y8a8IOQxKtOULVqXF9bNeQ1gJberwerNwkody37iSZbwQ0CnniOH3oJRBH_y2xdMOnZbtezXPjQUht20ZkOA67owQVo2rpdkrLPGL9DR5dAWwlBS0oIiURCc491sjwqC7CJ2ohRJvHAM4HEB36m-6Z39hXO4-wXtVwEGAkU4RGT0VDWLdJBqQqgzW3iwXG7udRiZNIypNcnFztcm-3jgsxUFsJKNrP-TqIA2M5z57wXQJHnNOo3GvzVv9Sz9EGDhYsQUtcJ9MItfHG4jq8ycG9Lnxgx4LjGXzoNDKxghg4VcsIbFYw9pYL9HuK5nPec7XaEhqKEnwB6G_WZO-X-UW9quBZEUOQzCNdqP9HwZyCFsM5DiMi-pV4QNcVBgbg4d4Xe4-4YhM/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "atm"
     }
   ]
 }
