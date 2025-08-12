@@ -28,7 +28,7 @@ RADIUS_METERS = 800
 NEARBY_URL = "https://places.googleapis.com/v1/places:searchNearby"
 TEXT_URL   = "https://places.googleapis.com/v1/places:searchText"
 
-# Ask for everything the front end/filter needs
+# Ask only for fields the front end needs
 FIELD_MASK = ",".join([
     "places.id",
     "places.displayName",
@@ -50,21 +50,30 @@ def _headers():
         "X-Goog-FieldMask": FIELD_MASK,
     }
 
-# -------- CATEGORY SCHEME --------
-# Anything that contains these keywords is allowed
-ALLOWED_FAMILIES = ("restaurant", "cafe", "bar")
-
-# Be explicit with search types to catch common subtypes
-SEARCH_TYPES = [
-    # restaurants
-    "restaurant", "brunch_restaurant", "italian_restaurant", "pizza_restaurant",
-    "japanese_restaurant", "chinese_restaurant", "thai_restaurant", "korean_restaurant",
+# ---------- Primary-type search & filter ----------
+# We will SEARCH using primary types (and a few common subtypes)
+SEARCH_PRIMARY_TYPES = [
+    # core
+    "restaurant", "cafe", "bar",
+    # common cuisine-specific primary types (some regions use these)
+    "italian_restaurant", "pizza_restaurant", "japanese_restaurant",
+    "chinese_restaurant", "thai_restaurant", "korean_restaurant",
     "indian_restaurant", "french_restaurant", "seafood_restaurant",
-    # cafes / coffee
-    "cafe", "coffee_shop",
-    # bars
-    "bar", "wine_bar", "beer_bar", "pub",
+    "brunch_restaurant", "steak_house", "barbecue_restaurant",
+    # coffee / drinks variants
+    "coffee_shop", "wine_bar", "beer_bar", "pub",
 ]
+
+# Keep only primary types that clearly map to Restaurants / Cafes / Bars
+ALLOWED_PRIMARY_FAMILIES = ("restaurant", "cafe", "bar")
+EXCLUDED_PRIMARY = {"lodging"}  # and anything with 'hotel' in the primaryType
+
+def is_allowed_primary(primary: str) -> bool:
+    p = (primary or "").lower()
+    if p in EXCLUDED_PRIMARY or "hotel" in p:
+        return False
+    # allow if exactly cafe/bar OR any primary that contains 'restaurant'
+    return p in ("cafe", "bar") or ("restaurant" in p)
 
 def _chunks(iterable, size):
     it = iter(iterable)
@@ -74,12 +83,12 @@ def _chunks(iterable, size):
             return
         yield chunk
 
-def search_nearby_types(included_types, max_results=20):
+def search_nearby_primary(included_primary_types, max_results=20):
     """
-    Call searchNearby using includedTypes (up to 10 per request).
+    Call searchNearby using includedPrimaryTypes (up to 10 per request).
     """
     body = {
-        "includedTypes": included_types,
+        "includedPrimaryTypes": included_primary_types,
         "maxResultCount": max_results,
         "locationRestriction": {
             "circle": {
@@ -92,7 +101,7 @@ def search_nearby_types(included_types, max_results=20):
     r.raise_for_status()
     data = r.json()
     if "error" in data:
-        print(f"Nearby error ({included_types}):", data["error"].get("message"))
+        print(f"Nearby error ({included_primary_types}):", data["error"].get("message"))
         return []
     return data.get("places", [])
 
@@ -114,13 +123,6 @@ def first_photo_url(photos, max_h=480, max_w=720):
         return None
     return f"https://places.googleapis.com/v1/{name}/media?maxHeightPx={max_h}&maxWidthPx={max_w}&key={API_KEY}"
 
-def is_allowed_place(p: dict) -> bool:
-    types = [t.lower() for t in (p.get("types") or [])]
-    primary = (p.get("primaryType") or "").lower()
-    if any(fam in primary for fam in ALLOWED_FAMILIES):
-        return True
-    return any(any(fam in t for fam in ALLOWED_FAMILIES) for t in types)
-
 def better(a, b):
     """Return the 'better' place record (higher rating_count, then rating)."""
     ar, br = a.get("userRatingCount") or 0, b.get("userRatingCount") or 0
@@ -129,15 +131,14 @@ def better(a, b):
     ra, rb = a.get("rating") or 0, b.get("rating") or 0
     return a if ra >= rb else b
 
-# ---- Fetch + dedupe (only our desired types) ----
+# ---- Fetch + dedupe (primaryType-based) ----
 raw_by_id = {}
-
 try:
-    # search in chunks of up to 10 types
-    for chunk in _chunks(SEARCH_TYPES, 10):
-        results = search_nearby_types(chunk, max_results=20)
+    for chunk in _chunks(SEARCH_PRIMARY_TYPES, 10):
+        results = search_nearby_primary(chunk, max_results=20)
         for p in results:
-            if not is_allowed_place(p):
+            primary = (p.get("primaryType") or "").lower()
+            if not is_allowed_primary(primary):
                 continue
             pid = p.get("id")
             if not pid:
@@ -150,13 +151,15 @@ try:
 except requests.RequestException as e:
     print(f"Request failed: {e}")
 
-# Optional fallback (rarely needed)
+# Optional fallback (rare)
 if not raw_by_id:
     for p in text_search_fallback("restaurants, cafes, bars near Tanjong Pagar, Singapore"):
-        if is_allowed_place(p):
-            pid = p.get("id")
-            if pid:
-                raw_by_id[pid] = p
+        primary = (p.get("primaryType") or "").lower()
+        if not is_allowed_primary(primary):
+            continue
+        pid = p.get("id")
+        if pid:
+            raw_by_id[pid] = p
 
 # ---- Transform for front-end ----
 places = []
