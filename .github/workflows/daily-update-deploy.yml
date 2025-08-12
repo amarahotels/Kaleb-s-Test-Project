@@ -1,13 +1,14 @@
-name: Update Places, Events, and Deploy
+name: Update Places & Events, then Deploy
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 16 * * *" # Runs every day at midnight SGT (UTC+8)
+    - cron: "0 16 * * *"  # Runs daily at 12:00 AM SGT (16:00 UTC previous day)
+  workflow_dispatch:
 
 jobs:
-  update-places:
+  update-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
@@ -15,63 +16,52 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: '3.10'
 
-      - name: Install Dependencies
-        run: pip install -r requirements.txt
+      - name: Install Python dependencies
+        run: pip install requests python-dotenv
 
-      - name: Run get_places.py
+      # ===== Update Places =====
+      - name: Generate places.json
+        run: python get_places.py
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: python get_places.py
 
-      - name: Commit & Push Changes
+      - name: Commit & Push places.json
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add public/data/places.json
-          git commit -m "Auto-update places.json" || echo "No changes to commit"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update places.json"
+          fi
 
-  update-events:
-    runs-on: ubuntu-latest
-    needs: update-places
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      # ===== Update Events =====
+      - name: Install Node.js
+        uses: actions/setup-node@v3
         with:
-          python-version: "3.x"
+          node-version: '18'
 
-      - name: Install Dependencies
-        run: pip install -r requirements.txt
+      - name: Install Node dependencies
+        run: npm ci
 
-      - name: Run get_events.py
+      - name: Generate events.json
+        run: node get_events.js
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-        run: python get_events.py
 
-      - name: Commit & Push Changes
+      - name: Commit & Push events.json
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
           git add public/data/events.json
-          git commit -m "Auto-update events.json" || echo "No changes to commit"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update events.json"
+            git pull --rebase origin main
+            git push origin main
+          fi
 
-  firebase-deploy:
-    runs-on: ubuntu-latest
-    needs: [update-places, update-events]
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
-
-      - name: Install Firebase CLI
+      # ===== Deploy to Firebase =====
+      - name: Install Firebase Tools
         run: npm install -g firebase-tools
 
-      - name: Deploy to Firebase
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        run: firebase deploy --only hosting
+      - name: Firebase Deploy
+        run: firebase deploy --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
