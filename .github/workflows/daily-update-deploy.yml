@@ -1,6 +1,9 @@
 name: Update Places, Update Events, and Deploy
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 16 * * *"  # 12:00 AM SGT daily
   workflow_dispatch:

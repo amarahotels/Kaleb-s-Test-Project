@@ -11,7 +11,7 @@ const typeSel = document.getElementById('typeFilter');   // <-- NEW
 const hawkerNameSet = new Set([
   "lau pa sat",
   "maxwell food centre",
-  "maxwell food center",   // just in case
+  "Amoy Street Food Centre",   // just in case
   "chinatown complex",
   "chinatown hawker center",
   "chinatown hawker centre"
