@@ -86,11 +86,13 @@ function render() {
 
     const passType =
       selectedType === 'all' ||
+      (selectedType === 'hawker' && isHawker) ||
       (Array.isArray(p.types) && !isHawker && (
         (selectedType === 'restaurants' && p.types.some(t => t.includes('restaurant'))) ||
         (selectedType === 'cafes' && p.types.some(t => t.includes('cafe'))) ||
         (selectedType === 'bars' && p.types.some(t => t.includes('bar')))
       ));
+
 
     return passRating && passType;
   });
