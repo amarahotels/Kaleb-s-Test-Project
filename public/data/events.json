@@ -1,44 +1,10 @@
 {
   "source": "google_events",
-  "generated_at": "2025-08-11T03:52:52.308877Z",
+  "generated_at": "2025-08-12T01:37:53.757505Z",
   "events": [
     {
-      "title": "Bishan National Day Celebration 2025",
-      "start": "Aug 11",
-      "end": "",
-      "venue": [
-        "118 Bishan St. 13, Grassland",
-        "Singapore"
-      ],
-      "address": [
-        "118 Bishan St. 13, Grassland",
-        "Singapore"
-      ],
-      "url": "https://ahboy.com/event/bishan-national-day-celebration-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJzYPrCMGVHGJXw4a25G3ucwicf3Ec8fMYSvupB1pEvQ&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Yishun National Day Celebration 2025",
-      "start": "Aug 11",
-      "end": "",
-      "venue": [
-        "32 Yishun Central 1, FutsalArena @ Yishun Ltd",
-        "Singapore"
-      ],
-      "address": [
-        "32 Yishun Central 1, FutsalArena @ Yishun Ltd",
-        "Singapore"
-      ],
-      "url": "https://ahboy.com/event/nee-soon-national-day-celebration-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk8nw9l4OS5UHy0SKeg_kOw1MD0HgQ-HR2rvW6Fhd2hQ&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
       "title": "KAMPUNG ELEKTRIK PLUS KATONG SQUARE LIFESTYLE & VINTAGE MARKET 1-2-3 & 15-16-17 AUGUST 2025 EDITION",
-      "start": "Aug 11",
+      "start": "Aug 12",
       "end": "",
       "venue": [
         "88 E Coast Rd",
@@ -88,23 +54,6 @@
       "source": "google_events"
     },
     {
-      "title": "Indri Whisky & Camikara Rum Masterclass 13 Aug 2025, 6:30pm",
-      "start": "Aug 13",
-      "end": "",
-      "venue": [
-        "2 Sims Cl, Gemini @ Sims",
-        "Singapore"
-      ],
-      "address": [
-        "2 Sims Cl, Gemini @ Sims",
-        "Singapore"
-      ],
-      "url": "https://allevents.in/singapore/indri-whisky-and-camikara-rum-masterclass-13-aug-2025-6-30pm/200028554049703",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9oU-hVYbOQatx8JgayKV06SF8SKNDB922kjJixWUv1g&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
       "title": "Studio Sessions: The Flow Practice • 13 August 2025",
       "start": "Aug 13",
       "end": "",
@@ -118,6 +67,23 @@
       ],
       "url": "https://www.eventbrite.sg/e/studio-sessions-the-flow-practice-13-august-2025-tickets-1529295045649",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsY1j0M9PnRLgxX6fiKMW9vQwRPi3Lf4yY2Ie06GvltQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Indri Whisky & Camikara Rum Masterclass 13 Aug 2025, 6:30pm",
+      "start": "Aug 13",
+      "end": "",
+      "venue": [
+        "2 Sims Cl, Gemini @ Sims",
+        "Singapore"
+      ],
+      "address": [
+        "2 Sims Cl, Gemini @ Sims",
+        "Singapore"
+      ],
+      "url": "https://allevents.in/singapore/indri-whisky-and-camikara-rum-masterclass-13-aug-2025-6-30pm/200028554049703",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9oU-hVYbOQatx8JgayKV06SF8SKNDB922kjJixWUv1g&s=10",
       "category": "",
       "source": "google_events"
     },
@@ -139,6 +105,23 @@
       "source": "google_events"
     },
     {
+      "title": "National Identity 4.0",
+      "start": "Aug 14",
+      "end": "",
+      "venue": [
+        "50 Genting Ln, #03-02 Art Seasons, Cideco Industrial Complex",
+        "Singapore"
+      ],
+      "address": [
+        "50 Genting Ln, #03-02 Art Seasons, Cideco Industrial Complex",
+        "Singapore"
+      ],
+      "url": "https://www.artrabbit.com/events/national-identity-40",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbMCjODFOaGIcsAFDSvCqp9Dhv5_KZqSurtgYfKtyrxk_7yNSEurljDDq48g&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
       "title": "YOUTH COACHING WORKSHOP - AUG 2025 RUN",
       "start": "Aug 14",
       "end": "",
@@ -152,6 +135,23 @@
       ],
       "url": "https://allevents.in/singapore/youth-coaching-workshop-aug-2025-run/200028561287545",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9JAiB-cSjPatmWzC4Elxjtt87HeOkAmNBteBAaUliCDhnPwvIEVGpRVucQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "[14 Aug 2025] BNI Synergy Weekly Networking Meeting",
+      "start": "Aug 14",
+      "end": "",
+      "venue": [
+        "190 Keng Lee Rd, #04-01 Chui Huay Lim Club",
+        "Singapore"
+      ],
+      "address": [
+        "190 Keng Lee Rd, #04-01 Chui Huay Lim Club",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.sg/e/14-aug-2025-bni-synergy-weekly-networking-meeting-tickets-1444529910849",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCr5GyDRCk4B2WD0khbH1Udv97cIS76rkeBbFtqh6Jfw&s=10",
       "category": "",
       "source": "google_events"
     },
@@ -271,6 +271,23 @@
       ],
       "url": "https://www.thelemonstand.sg/event-details/aman-alhamid-a-magic-comedy-act-sat-august-16th-2025-the-lemon-stand",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Z5NxUK2lhDMtUX1xq34oU0hMxdoUeKJIBqED2VQZqg&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "3 Week Storyteller's Workshop",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "444 Joo Chiat Rd, Joo Chiat City - Dry Cleaning and Laundry Services",
+        "Singapore"
+      ],
+      "address": [
+        "444 Joo Chiat Rd, Joo Chiat City - Dry Cleaning and Laundry Services",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.sg/e/3-week-storytellers-workshop-tickets-1451223722219",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1gjzK2c5EPf9oHuO0akTRrdHyucsj0N8XrVRcG8wLtg&s=10",
       "category": "",
       "source": "google_events"
     },
