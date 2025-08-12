@@ -18,13 +18,17 @@ async function loadPlaces() {
     const res = await fetch(`data/places.json?ts=${Date.now()}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    allPlaces = Array.isArray(data) ? data : [];
+
+    // FIX: handle new structure with { meta, places }
+    allPlaces = Array.isArray(data.places) ? data.places : (Array.isArray(data) ? data : []);
+
     render();
   } catch (e) {
     console.error('Failed to fetch places.json', e);
     if (errorEl) errorEl.classList.remove('hidden');
   }
 }
+
 
 // render cards with image overlay + controls
 function render() {
