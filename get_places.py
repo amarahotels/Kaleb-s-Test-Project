@@ -3,6 +3,7 @@ import json
 from datetime import datetime, timezone
 import requests
 from pathlib import Path
+from itertools import islice
 
 # --- Load .env locally if present (optional) ---
 env_path = Path(".env")
@@ -23,18 +24,6 @@ if not API_KEY:
 # --- Location & radius (meters) ---
 LAT, LNG = 1.2765, 103.8456
 RADIUS_METERS = 800
-
-# --- Categories you want available in the UI ---
-INCLUDED_PRIMARY_TYPES = [
-    "restaurant",
-    "cafe",
-    "bakery",
-    "pharmacy",
-    "supermarket",
-    "convenience_store",
-    "atm",
-    # add more if you expose them in the UI filter
-]
 
 NEARBY_URL = "https://places.googleapis.com/v1/places:searchNearby"
 TEXT_URL   = "https://places.googleapis.com/v1/places:searchText"
@@ -61,10 +50,36 @@ def _headers():
         "X-Goog-FieldMask": FIELD_MASK,
     }
 
-def search_nearby_for(primary_type: str, max_results: int = 20):
-    """Nearby Search for one primary type."""
+# -------- CATEGORY SCHEME --------
+# Anything that contains these keywords is allowed
+ALLOWED_FAMILIES = ("restaurant", "cafe", "bar")
+
+# Be explicit with search types to catch common subtypes
+SEARCH_TYPES = [
+    # restaurants
+    "restaurant", "brunch_restaurant", "italian_restaurant", "pizza_restaurant",
+    "japanese_restaurant", "chinese_restaurant", "thai_restaurant", "korean_restaurant",
+    "indian_restaurant", "french_restaurant", "seafood_restaurant",
+    # cafes / coffee
+    "cafe", "coffee_shop",
+    # bars
+    "bar", "wine_bar", "beer_bar", "pub",
+]
+
+def _chunks(iterable, size):
+    it = iter(iterable)
+    while True:
+        chunk = list(islice(it, size))
+        if not chunk:
+            return
+        yield chunk
+
+def search_nearby_types(included_types, max_results=20):
+    """
+    Call searchNearby using includedTypes (up to 10 per request).
+    """
     body = {
-        "includedPrimaryTypes": [primary_type],
+        "includedTypes": included_types,
         "maxResultCount": max_results,
         "locationRestriction": {
             "circle": {
@@ -77,12 +92,11 @@ def search_nearby_for(primary_type: str, max_results: int = 20):
     r.raise_for_status()
     data = r.json()
     if "error" in data:
-        print(f"Nearby error ({primary_type}):", data["error"].get("message"))
+        print(f"Nearby error ({included_types}):", data["error"].get("message"))
         return []
     return data.get("places", [])
 
 def text_search_fallback(query: str, max_results: int = 20):
-    """Optional fallback (usually not needed if nearby returns data)."""
     body = {"textQuery": query, "maxResultCount": max_results}
     r = requests.post(TEXT_URL, headers=_headers(), json=body, timeout=30)
     r.raise_for_status()
@@ -93,7 +107,6 @@ def text_search_fallback(query: str, max_results: int = 20):
     return data.get("places", [])
 
 def first_photo_url(photos, max_h=480, max_w=720):
-    """Build public photo URL from Places new Photos API."""
     if not photos:
         return None
     name = (photos[0] or {}).get("name")
@@ -101,27 +114,49 @@ def first_photo_url(photos, max_h=480, max_w=720):
         return None
     return f"https://places.googleapis.com/v1/{name}/media?maxHeightPx={max_h}&maxWidthPx={max_w}&key={API_KEY}"
 
-# ---- Fetch + dedupe across all categories ----
+def is_allowed_place(p: dict) -> bool:
+    types = [t.lower() for t in (p.get("types") or [])]
+    primary = (p.get("primaryType") or "").lower()
+    if any(fam in primary for fam in ALLOWED_FAMILIES):
+        return True
+    return any(any(fam in t for fam in ALLOWED_FAMILIES) for t in types)
+
+def better(a, b):
+    """Return the 'better' place record (higher rating_count, then rating)."""
+    ar, br = a.get("userRatingCount") or 0, b.get("userRatingCount") or 0
+    if ar != br:
+        return a if ar > br else b
+    ra, rb = a.get("rating") or 0, b.get("rating") or 0
+    return a if ra >= rb else b
+
+# ---- Fetch + dedupe (only our desired types) ----
 raw_by_id = {}
 
-for t in INCLUDED_PRIMARY_TYPES:
-    try:
-        results = search_nearby_for(t)
+try:
+    # search in chunks of up to 10 types
+    for chunk in _chunks(SEARCH_TYPES, 10):
+        results = search_nearby_types(chunk, max_results=20)
         for p in results:
+            if not is_allowed_place(p):
+                continue
             pid = p.get("id")
             if not pid:
                 continue
-            # last one wins — fine for our purpose
-            raw_by_id[pid] = p
-    except requests.RequestException as e:
-        print(f"Request failed for {t}: {e}")
+            # dedupe: keep the better one
+            if pid in raw_by_id:
+                raw_by_id[pid] = better(raw_by_id[pid], p)
+            else:
+                raw_by_id[pid] = p
+except requests.RequestException as e:
+    print(f"Request failed: {e}")
 
-# Optional fallback if nothing came back at all
+# Optional fallback (rarely needed)
 if not raw_by_id:
-    for p in text_search_fallback("restaurants near Tanjong Pagar, Singapore"):
-        pid = p.get("id")
-        if pid:
-            raw_by_id[pid] = p
+    for p in text_search_fallback("restaurants, cafes, bars near Tanjong Pagar, Singapore"):
+        if is_allowed_place(p):
+            pid = p.get("id")
+            if pid:
+                raw_by_id[pid] = p
 
 # ---- Transform for front-end ----
 places = []
@@ -140,17 +175,14 @@ for p in raw_by_id.values():
         "primary_type": p.get("primaryType"),
     })
 
-# Sort by rating (desc), then rating_count (desc) to keep it tidy
+# Sort by rating then rating_count
 places.sort(key=lambda x: ((x.get("rating") or 0), (x.get("rating_count") or 0)), reverse=True)
 
-# Ensure folder exists
+# ---- Write JSON ----
 Path("public/data").mkdir(parents=True, exist_ok=True)
-
-# Add metadata so the file always changes
 meta = {"generated_at": datetime.now(timezone.utc).isoformat()}
 out = {"meta": meta, "places": places}
 
-# Write to JSON
 with open("public/data/places.json", "w", encoding="utf-8") as f:
     json.dump(out, f, ensure_ascii=False, indent=2)
 
