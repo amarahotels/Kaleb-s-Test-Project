@@ -1,67 +1,89 @@
-name: Update Places & Events, then Deploy
+name: Update Places, Update Events, and Deploy
 
 on:
   schedule:
-    - cron: "0 16 * * *"  # Runs daily at 12:00 AM SGT (16:00 UTC previous day)
+    - cron: "0 16 * * *"  # 12:00 AM SGT daily
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
+      # --------------------------
+      # Common: Checkout Repo
+      # --------------------------
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+          fetch-depth: 0
 
+      # --------------------------
+      # Step 1: Update Places
+      # --------------------------
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Install Python dependencies
-        run: pip install requests python-dotenv
+      - name: Install dependencies (Places)
+        run: pip install requests
 
-      # ===== Update Places =====
       - name: Generate places.json
         run: python get_places.py
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
 
-      - name: Commit & Push places.json
+      - name: Commit & Push changes for places.json (if any)
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add public/data/places.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Auto-update places.json"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain public/data/places.json)" ]]; then
+            git add public/data/places.json
+            git commit -m "Auto-update places.json ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "✅ No changes to places.json"
           fi
 
-      # ===== Update Events =====
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
+      # --------------------------
+      # Step 2: Update Events
+      # --------------------------
+      - name: Install dependencies (Events)
+        run: pip install requests python-dateutil
 
-      - name: Install Node dependencies
-        run: npm ci
-
-      - name: Generate events.json
-        run: node get_events.js
+      - name: Fetch events from SerpAPI
+        run: |
+          python get_serpapi_events.py
+          mkdir -p public/data
+          mv events.json public/data/events.json
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
 
-      - name: Commit & Push events.json
+      - name: Commit & Push changes for events.json (if any)
         run: |
-          git add public/data/events.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Auto-update events.json"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain public/data/events.json)" ]]; then
+            git add public/data/events.json
+            git commit -m "chore: update events.json from SerpAPI"
             git pull --rebase origin main
             git push origin main
+          else
+            echo "✅ No changes to events.json"
           fi
 
-      # ===== Deploy to Firebase =====
-      - name: Install Firebase Tools
+      # --------------------------
+      # Step 3: Deploy to Firebase
+      # --------------------------
+      - name: Install Firebase CLI
         run: npm install -g firebase-tools
 
-      - name: Firebase Deploy
-        run: firebase deploy --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
+      - name: Deploy to Firebase
+        run: firebase deploy --project amara-concierge-88c12 --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
