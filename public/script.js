@@ -41,7 +41,11 @@ function render() {
     // type/category filter (NEW)
     const passType =
       selectedType === 'all' ||
-      (Array.isArray(p.types) && p.types.includes(selectedType));
+      (Array.isArray(p.types) && (
+        (selectedType === 'restaurants' && p.types.some(t => t.includes('restaurant'))) ||
+        (selectedType === 'cafes' && p.types.some(t => t.includes('cafe'))) ||
+        (selectedType === 'bars' && p.types.some(t => t.includes('bar')))
+      ));
 
     return passRating && passType;
   });
