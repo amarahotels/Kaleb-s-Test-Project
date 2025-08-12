@@ -1,5 +1,6 @@
 import os
 import json
+from datetime import datetime, timezone
 import requests
 from pathlib import Path
 
@@ -142,10 +143,15 @@ for p in raw_by_id.values():
 # Sort by rating (desc), then rating_count (desc) to keep it tidy
 places.sort(key=lambda x: ((x.get("rating") or 0), (x.get("rating_count") or 0)), reverse=True)
 
-# ---- Write JSON for the site ----
+# Ensure folder exists
 Path("public/data").mkdir(parents=True, exist_ok=True)
-out_path = Path("public/data/places.json")
-with out_path.open("w", encoding="utf-8") as f:
-    json.dump(places, f, ensure_ascii=False, indent=2)
 
-print(f"Wrote {len(places)} places to {out_path}")
+# Add metadata so the file always changes
+meta = {"generated_at": datetime.now(timezone.utc).isoformat()}
+out = {"meta": meta, "places": places}
+
+# Write to JSON
+with open("public/data/places.json", "w", encoding="utf-8") as f:
+    json.dump(out, f, ensure_ascii=False, indent=2)
+
+print(f"Wrote {len(places)} places to public/data/places.json (with metadata)")
