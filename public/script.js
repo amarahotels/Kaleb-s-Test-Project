@@ -11,6 +11,7 @@ const typeSel = document.getElementById('typeFilter');   // <-- NEW
 const hawkerNameSet = new Set([
   "lau pa sat",
   "maxwell food centre",
+  "maxwell food center",
   "Amoy Street Food Centre",   // just in case
   "Amoy Street Food Center", 
   "chinatown complex",
@@ -41,22 +42,15 @@ async function loadPlaces() {
 // --- Category helpers ---
 function isHawker(p) {
   const name = (p.name || "").toLowerCase().trim();
-  const address = (p.address || "").toLowerCase().trim();
   const primary = (p.primary_type || "").toLowerCase();
   const types = (p.types || []).map(t => t.toLowerCase());
 
-  // Match if name OR address contains any hawker name
-  const hawkerMatch = [...hawkerNameSet].some(h =>
-    name.includes(h.toLowerCase()) || address.includes(h.toLowerCase())
-  );
-
-  if (hawkerMatch) return true;
+  if (hawkerNameSet.has(name)) return true;
   if (primary.includes("food_court")) return true;
   if (types.some(t => t.includes("food_court") || t.includes("market"))) return true;
 
   return false;
 }
-
 
 function isRestaurant(p) {
   const primary = (p.primary_type || "").toLowerCase();
@@ -93,13 +87,12 @@ function render() {
 
     const passType =
       selectedType === 'all' ||
-      (selectedType === 'hawker' && isHawker(p)) ||
-      (!isHawker(p) && (
-        (selectedType === 'restaurants' && isRestaurant(p)) ||
-        (selectedType === 'cafes' && isCafe(p)) ||
-        (selectedType === 'bars' && isBar(p))
+      (selectedType === 'hawker' && isHawker) ||
+      (Array.isArray(p.types) && !isHawker && (
+        (selectedType === 'restaurants' && p.types.some(t => t.includes('restaurant'))) ||
+        (selectedType === 'cafes' && p.types.some(t => t.includes('cafe'))) ||
+        (selectedType === 'bars' && p.types.some(t => t.includes('bar')))
       ));
-
 
 
     return passRating && passType;
