@@ -12,6 +12,7 @@ const hawkerNameSet = new Set([
   "lau pa sat",
   "maxwell food centre",
   "Amoy Street Food Centre",   // just in case
+  "Amoy Street Food Center", 
   "chinatown complex",
   "chinatown hawker center",
   "chinatown hawker centre"
@@ -76,17 +77,20 @@ function render() {
   const minR = parseFloat(minRatingSel?.value || '0');
 
   let items = allPlaces.filter(p => {
-    // rating filter
     const r = num(p.rating);
     const passRating = Number.isFinite(r) ? r >= minR : true;
 
-    // type/category filter
+    // Ensure name matching is case-insensitive
+    const nameLower = (p.name || "").toLowerCase();
+    const isHawker = [...hawkerNameSet].some(h => nameLower.includes(h.toLowerCase()));
+
     const passType =
       selectedType === 'all' ||
-      (selectedType === 'restaurants' && isRestaurant(p)) ||
-      (selectedType === 'cafes' && isCafe(p)) ||
-      (selectedType === 'bars' && isBar(p)) ||
-      (selectedType === 'hawker' && isHawker(p));
+      (Array.isArray(p.types) && !isHawker && (
+        (selectedType === 'restaurants' && p.types.some(t => t.includes('restaurant'))) ||
+        (selectedType === 'cafes' && p.types.some(t => t.includes('cafe'))) ||
+        (selectedType === 'bars' && p.types.some(t => t.includes('bar')))
+      ));
 
     return passRating && passType;
   });
