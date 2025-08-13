@@ -38,6 +38,9 @@ const NAME_ALCOHOL_RE =
   /\b(cocktail|cocktails|wine|beer|ale|lager|ipa|stout|porter|whisky|whiskey|gin|rum|tequila|mezcal|soju|sake|spirits|liqueur)\b/i;
 const NAME_IS_RESTAURANT_RE =
   /\b(restaurant|ristorante|trattoria|bistro|eatery|osteria|cantina|kitchen|diner)\b/i;
+// ✅ NEW: bookstore
+const NAME_IS_BOOKSTORE_RE =
+  /\b(bookstore|book\s*shop|book\s*store|books|comics|manga|书店|書店|书屋|書屋)\b/i;
 
 // load latest JSON (cache-busted)
 async function loadPlaces() {
@@ -74,7 +77,7 @@ function isHawker(p) {
 
 /**
  * Categorize a place with multi-tag logic.
- * Returns a Set with any of: 'restaurants', 'cafes', 'bars'
+ * Returns a Set with any of: 'restaurants', 'cafes', 'bars', 'bookstores'
  * Hawkers are handled separately and never mixed.
  *
  * Rules:
@@ -94,21 +97,25 @@ function categorize(p) {
   const nameSaysCafe = NAME_IS_CAFE_RE.test(name);
   const nameSaysBar = NAME_IS_BAR_RE.test(name) || NAME_ALCOHOL_RE.test(name);
   const nameSaysRestaurant = NAME_IS_RESTAURANT_RE.test(name);
+  const nameSaysBookstore = NAME_IS_BOOKSTORE_RE.test(name);
 
   if (nameSaysCafe) tags.add('cafes');
   if (nameSaysBar) tags.add('bars');
   if (nameSaysRestaurant) tags.add('restaurants');
+  if (nameSaysBookstore) tags.add('bookstores');
 
   if (tags.size === 0) {
     // No name match → fall back to PRIMARY TYPE
     if (primary.includes('cafe')) tags.add('cafes');
     if (primary.includes('bar')) tags.add('bars');
     if (primary.includes('restaurant')) tags.add('restaurants');
+    if (primary.includes('book_store')) tags.add('bookstores');
   } else {
     // Name already decided → only reinforce SAME categories from primary
     if (primary.includes('cafe') && nameSaysCafe) tags.add('cafes');
     if (primary.includes('bar') && nameSaysBar) tags.add('bars');
     if (primary.includes('restaurant') && nameSaysRestaurant) tags.add('restaurants');
+    if (primary.includes('book_store') && nameSaysBookstore) tags.add('bookstores');
   }
 
   // Only let `types` add a category if NAME already suggested that category
@@ -120,6 +127,9 @@ function categorize(p) {
   }
   if (nameSaysRestaurant && types.some(t => t.includes('restaurant'))) {
     tags.add('restaurants');
+  }
+  if (nameSaysBookstore && types.some(t => t.includes('book_store'))) {
+    tags.add('bookstores');
   }
 
   return tags;
@@ -143,12 +153,13 @@ function render() {
     // Non-hawker categories
     if (isHawker(p)) return false;
 
-    const tags = categorize(p); // Set('restaurants'|'cafes'|'bars')
+    const tags = categorize(p); // Set('restaurants'|'cafes'|'bars'|'bookstores')
     const passType =
       selectedType === 'all' ||
       (selectedType === 'restaurants' && tags.has('restaurants')) ||
       (selectedType === 'cafes' && tags.has('cafes')) ||
-      (selectedType === 'bars' && tags.has('bars'));
+      (selectedType === 'bars' && tags.has('bars')) ||
+      (selectedType === 'bookstores' && tags.has('bookstores'));
 
     return passRating && passType;
   });
@@ -202,7 +213,7 @@ sortSel?.addEventListener('change', render);
 minRatingSel?.addEventListener('change', render);
 
 typeSel?.addEventListener('change', () => {
-  selectedType = typeSel.value; // 'all' | 'restaurants' | 'cafes' | 'bars' | 'hawker'
+  selectedType = typeSel.value; // 'all' | 'restaurants' | 'cafes' | 'bars' | 'bookstores' | 'hawker'
   render();
 });
 
