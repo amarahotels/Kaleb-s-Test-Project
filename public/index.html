@@ -22,6 +22,20 @@
 
   <!-- Main Content -->
   <main class="wrap">
+    <!-- Top picks carousel -->
+    <section id="topPicks" class="section hidden">
+      <div class="section-head">
+        <h2>Top picks nearby</h2>
+        <div class="hint">Auto-curated by rating & distance</div>
+      </div>
+
+      <div class="carousel">
+        <button id="topPrev" class="carousel-btn left" aria-label="Previous">‹</button>
+        <div id="topTrack" class="carousel-track" tabindex="0" aria-label="Top picks carousel"></div>
+        <button id="topNext" class="carousel-btn right" aria-label="Next">›</button>
+      </div>
+    </section>
+
     <!-- Places -->
     <section id="places" class="section">
       <div class="section-head">
@@ -32,7 +46,7 @@
             <select id="sortSelect">
               <option value="ratingDesc">Rating (high → low)</option>
               <option value="nameAsc">Name (A → Z)</option>
-              <option value="distanceAsc">Distance (near → far)</option> <!-- NEW -->
+              <option value="distanceAsc">Distance (near → far)</option>
             </select>
           </label>
           <label>
@@ -56,7 +70,6 @@
               <option value="hawker">Hawker Centres</option>
             </select>
           </label>
-
         </div>
       </div>
       <div id="placeList" class="grid"></div>
@@ -72,6 +85,7 @@
       <div id="eventsError" class="notice hidden">Couldn’t load events right now.</div>
     </section>
   </main>
+
 
   <footer class="footer">
     <div class="wrap">

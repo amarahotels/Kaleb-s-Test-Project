@@ -9,6 +9,12 @@ const sortSel = document.getElementById('sortSelect');
 const minRatingSel = document.getElementById('minRating');
 const typeSel = document.getElementById('typeFilter');
 
+// Top picks carousel refs (safe if section not present)
+const topTrack = document.getElementById('topTrack');
+const topPrev = document.getElementById('topPrev');
+const topNext = document.getElementById('topNext');
+const topSection = document.getElementById('topPicks');
+
 let allPlaces = [];
 let selectedType = 'all';
 
@@ -23,10 +29,6 @@ const hawkerNameSet = new Set([
   'chinatown hawker center',
   'chinatown hawker centre'
 ]);
-
-// Phrases that indicate a hawker in the address
-const HAWKER_ADDRESS_RE =
-  /(food\s*centre|food\s*center|hawker\s*centre|hawker\s*center|hawker|market)/i;
 
 // Name-based categorization (word-boundary where sensible)
 const NAME_IS_CAFE_RE =
@@ -52,6 +54,7 @@ async function loadPlaces() {
     // handle { meta, places } or legacy plain array
     allPlaces = Array.isArray(data.places) ? data.places : (Array.isArray(data) ? data : []);
 
+    renderTopPicks(allPlaces); // <- carousel
     render();
   } catch (e) {
     console.error('Failed to fetch places.json', e);
@@ -59,7 +62,6 @@ async function loadPlaces() {
   }
 }
 
-// --- Category helpers ---
 // --- Category helpers ---
 function isHawker(p) {
   // Prefer the backend's classification (already strict)
@@ -75,7 +77,6 @@ function isHawker(p) {
 
   return canonicalNameHit || metaHit;
 }
-
 
 /**
  * Categorize a place with multi-tag logic.
@@ -133,6 +134,78 @@ function formatDistance(m) {
   return `${km < 10 ? km.toFixed(1) : Math.round(km)} km`;
 }
 
+// ---- Top Picks (carousel) ----
+function topScore(p) {
+  const r = Number(p.rating) || 0;
+  const n = Number(p.rating_count) || 0;
+  const d = Number(p.distance_m);
+  const C = 25, m = 4.3; // prior
+  const bayes = (C * m + n * r) / (C + n);
+  const distBoost = Number.isFinite(d) ? Math.max(0, 1 - Math.min(d, 1200) / 1200) : 0; // 0..1
+  return bayes + distBoost;
+}
+
+function pickTopPicks(places, limit = 12) {
+  const candidates = places.filter(p => p.photo_url);
+  const scored = [...candidates].sort((a, b) => topScore(b) - topScore(a));
+
+  // Diversity across categories
+  const buckets = { restaurants: [], cafes: [], bars: [], bookstores: [], other: [] };
+  for (const p of scored) {
+    const tags = categorize(p);
+    let key = 'other';
+    if (tags.has('restaurants')) key = 'restaurants';
+    else if (tags.has('cafes')) key = 'cafes';
+    else if (tags.has('bars')) key = 'bars';
+    else if (tags.has('bookstores')) key = 'bookstores';
+    buckets[key].push(p);
+  }
+  const order = ['restaurants', 'cafes', 'bars', 'bookstores', 'other'];
+  const quotas = { restaurants: 3, cafes: 3, bars: 3, bookstores: 3 };
+
+  const picks = [];
+  for (const k of order) {
+    const q = quotas[k] || 0;
+    for (let i = 0; i < Math.min(q, buckets[k].length) && picks.length < limit; i++) {
+      picks.push(buckets[k][i]);
+    }
+  }
+  for (const p of scored) {
+    if (picks.length >= limit) break;
+    if (!picks.includes(p)) picks.push(p);
+  }
+  return picks.slice(0, limit);
+}
+
+function renderTopPicks(all) {
+  if (!topTrack || !topSection) return;
+  const items = pickTopPicks(all, 12);
+  if (!items.length) { topSection.classList.add('hidden'); return; }
+  topSection.classList.remove('hidden');
+  topTrack.innerHTML = items.map(topSlideHtml).join('');
+
+  // Arrow controls
+  const step = () => topTrack.clientWidth * 0.9;
+  topPrev?.addEventListener('click', () => topTrack.scrollBy({ left: -step(), behavior: 'smooth' }));
+  topNext?.addEventListener('click', () => topTrack.scrollBy({ left:  step(), behavior: 'smooth' }));
+}
+
+function topSlideHtml(p) {
+  const name = esc(p.name || '');
+  const dist = Number.isFinite(p.distance_m) ? formatDistance(p.distance_m) : '';
+  const rating = p.rating ? `${p.rating}★` : '';
+  const meta = [rating, dist].filter(Boolean).join(' · ');
+  return `
+    <a class="slide" href="${p.maps_url || '#'}" target="_blank" rel="noopener">
+      <img class="thumb" src="${p.photo_url}" alt="${name}" loading="lazy">
+      <div class="meta">
+        <div class="name">${name}</div>
+        ${meta ? `<span class="pill">${meta}</span>` : ''}
+      </div>
+    </a>
+  `;
+}
+
 // render cards with image overlay + controls
 function render() {
   if (!listEl) return;
@@ -186,7 +259,6 @@ function cardHtml(p) {
   const addr = esc(p.address || '');
   const rating = p.rating ? `${p.rating}★` : '';
   const dist = Number.isFinite(p.distance_m) ? formatDistance(p.distance_m) : '';
-
   const pillRight = [rating, dist].filter(Boolean).join(' · ');
 
   const imgBlock = p.photo_url ? `

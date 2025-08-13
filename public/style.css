@@ -171,3 +171,55 @@ select:focus{outline:2px solid rgba(183,138,86,.35)}
   background: var(--brand);
   color: white;
 }
+
+/* ---- Top picks carousel ---- */
+.hint { color: var(--muted, #777); font-size: 0.9rem; margin-top: .25rem; }
+
+.carousel { position: relative; }
+.carousel-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 85%;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 6px 6px 10px;
+  -ms-overflow-style: none;  /* IE/Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.carousel-track::-webkit-scrollbar { display: none; }
+
+@media (min-width: 640px) { .carousel-track { grid-auto-columns: 60%; } }
+@media (min-width: 1024px){ .carousel-track { grid-auto-columns: 33.33%; } }
+
+.slide {
+  position: relative;
+  scroll-snap-align: start;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  background: #f6f6f6;
+  text-decoration: none;
+  color: inherit;
+}
+.slide .thumb { width: 100%; height: 220px; object-fit: cover; display: block; }
+.slide .meta {
+  position: absolute; left: 12px; right: 12px; bottom: 12px;
+  color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,.6); font-weight: 600;
+}
+.slide .name { font-size: 1.05rem; line-height: 1.2; margin-bottom: 6px; }
+.slide .pill {
+  background: rgba(0,0,0,.55); display: inline-block;
+  padding: 4px 10px; border-radius: 999px; font-size: .85rem;
+}
+
+.carousel-btn {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  border: 0; width: 36px; height: 36px; border-radius: 999px;
+  background: rgba(0,0,0,.4); color: #fff; cursor: pointer;
+  display: grid; place-items: center; z-index: 3;
+}
+.carousel-btn.left { left: 6px; }
+.carousel-btn.right { right: 6px; }
+.carousel-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
