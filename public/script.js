@@ -2,65 +2,52 @@
 const y = document.getElementById('year');
 if (y) y.textContent = new Date().getFullYear();
 
-// refs
+// Refs
 const listEl = document.getElementById('placeList');
 const errorEl = document.getElementById('placesError');
 const sortSel = document.getElementById('sortSelect');
 const minRatingSel = document.getElementById('minRating');
 const typeSel = document.getElementById('typeFilter');
 
-// Top picks carousel refs (safe if section not present)
+// Top picks carousel refs
 const topTrack = document.getElementById('topTrack');
 const topPrev = document.getElementById('topPrev');
 const topNext = document.getElementById('topNext');
 const topSection = document.getElementById('topPicks');
 
-// Full-bleed hero collage refs
-const heroA = document.querySelector('.hv-a');
-const heroB = document.querySelector('.hv-b');
-const heroC = document.querySelector('.hv-c');
+// HERO slider refs
+const heroSlidesEl = document.getElementById('heroSlides');
+const heroDotsEl = document.getElementById('heroDots');
+const heroPrev = document.getElementById('heroPrev');
+const heroNext = document.getElementById('heroNext');
+const heroEl = document.getElementById('hero');
 
 let allPlaces = [];
 let selectedType = 'all';
 
-// ---- Hawker detection config (keep all lowercase) ----
+// ---- Hawker detection config ----
 const hawkerNameSet = new Set([
-  'lau pa sat',
-  'maxwell food centre',
-  'maxwell food center',
-  'amoy street food centre',
-  'amoy street food center',
-  'chinatown complex',
-  'chinatown hawker center',
-  'chinatown hawker centre'
+  'lau pa sat','maxwell food centre','maxwell food center',
+  'amoy street food centre','amoy street food center',
+  'chinatown complex','chinatown hawker center','chinatown hawker centre'
 ]);
 
-// Name-based categorization (word-boundary where sensible)
-const NAME_IS_CAFE_RE =
-  /\b(café|cafe|coffee|espresso|roastery|coffee\s*bar|bakery)\b/i;
-const NAME_IS_BAR_RE =
-  /\b(bar|pub|taproom|wine\s*bar|speakeasy)\b/i;
-// Alcohol cue → also counts as “bar”
-const NAME_ALCOHOL_RE =
-  /\b(cocktail|cocktails|wine|beer|ale|lager|ipa|stout|porter|whisky|whiskey|gin|rum|tequila|mezcal|soju|sake|spirits|liqueur)\b/i;
-const NAME_IS_RESTAURANT_RE =
-  /\b(restaurant|ristorante|trattoria|bistro|eatery|osteria|cantina|kitchen|diner)\b/i;
-// Bookstores
-const NAME_IS_BOOKSTORE_RE =
-  /\b(bookstore|book\s*shop|book\s*store|books|comics|manga|书店|書店|书屋|書屋)\b/i;
+// Name-based categorization
+const NAME_IS_CAFE_RE = /\b(café|cafe|coffee|espresso|roastery|coffee\s*bar|bakery)\b/i;
+const NAME_IS_BAR_RE = /\b(bar|pub|taproom|wine\s*bar|speakeasy)\b/i;
+const NAME_ALCOHOL_RE = /\b(cocktail|cocktails|wine|beer|ale|lager|ipa|stout|porter|whisky|whiskey|gin|rum|tequila|mezcal|soju|sake|spirits|liqueur)\b/i;
+const NAME_IS_RESTAURANT_RE = /\b(restaurant|ristorante|trattoria|bistro|eatery|osteria|cantina|kitchen|diner)\b/i;
+const NAME_IS_BOOKSTORE_RE = /\b(bookstore|book\s*shop|book\s*store|books|comics|manga|书店|書店|书屋|書屋)\b/i;
 
-// load latest JSON (cache-busted)
+// Load data
 async function loadPlaces() {
   try {
     const res = await fetch(`data/places.json?ts=${Date.now()}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-
-    // handle { meta, places } or legacy plain array
     allPlaces = Array.isArray(data.places) ? data.places : (Array.isArray(data) ? data : []);
 
-    // Fill hero collage first, then carousel + grid
-    renderHeroVisuals(allPlaces);
+    buildHeroSlider(allPlaces);   // NEW: full-viewport hero carousel
     renderTopPicks(allPlaces);
     render();
   } catch (e) {
@@ -69,28 +56,17 @@ async function loadPlaces() {
   }
 }
 
-// --- Category helpers ---
+// Helpers
 function isHawker(p) {
-  // Prefer the backend's classification (already strict)
   if (typeof p.is_hawker_centre === 'boolean') return p.is_hawker_centre;
-
-  // Fallback (if older JSON without the flag): strict — no address regex, no generic "market"
   const name = (p.name || '').toLowerCase().trim();
   const primary = (p.primary_type || '').toLowerCase();
   const types = (p.types || []).map(t => (t || '').toLowerCase());
-
   const canonicalNameHit = [...hawkerNameSet].some(h => name.includes(h));
   const metaHit = primary === 'food_court' || types.some(t => t === 'food_court');
-
   return canonicalNameHit || metaHit;
 }
-
-/**
- * Categorize a place with multi-tag logic.
- * Returns a Set with any of: 'restaurants', 'cafes', 'bars', 'bookstores'
- * Hawkers are handled separately and never mixed.
- */
-function categorize(p) {
+function categorize(p){
   const tags = new Set();
   const name = p.name || '';
   const primary = (p.primary_type || '').toLowerCase();
@@ -118,47 +94,32 @@ function categorize(p) {
     if (primary.includes('book_store') && nameSaysBookstore) tags.add('bookstores');
   }
 
-  if (nameSaysCafe && types.some(t => t.includes('cafe') || t.includes('coffee_shop'))) {
-    tags.add('cafes');
-  }
-  if (nameSaysBar && types.some(t => t.includes('bar') || t.includes('wine_bar') || t.includes('pub'))) {
-    tags.add('bars');
-  }
-  if (nameSaysRestaurant && types.some(t => t.includes('restaurant'))) {
-    tags.add('restaurants');
-  }
-  if (nameSaysBookstore && types.some(t => t.includes('book_store'))) {
-    tags.add('bookstores');
-  }
-
+  if (nameSaysCafe && types.some(t => t.includes('cafe') || t.includes('coffee_shop'))) tags.add('cafes');
+  if (nameSaysBar && types.some(t => t.includes('bar') || t.includes('wine_bar') || t.includes('pub'))) tags.add('bars');
+  if (nameSaysRestaurant && types.some(t => t.includes('restaurant'))) tags.add('restaurants');
+  if (nameSaysBookstore && types.some(t => t.includes('book_store'))) tags.add('bookstores');
   return tags;
 }
-
-function formatDistance(m) {
+function formatDistance(m){
   if (!Number.isFinite(m)) return '';
   if (m < 1000) return `${Math.round(m)} m`;
   const km = m / 1000;
   return `${km < 10 ? km.toFixed(1) : Math.round(km)} km`;
 }
-
-// ---- Top Picks (carousel) ----
-function topScore(p) {
+function topScore(p){
   const r = Number(p.rating) || 0;
   const n = Number(p.rating_count) || 0;
   const d = Number(p.distance_m);
-  const C = 25, m = 4.3; // prior
-  const bayes = (C * m + n * r) / (C + n);
-  const distBoost = Number.isFinite(d) ? Math.max(0, 1 - Math.min(d, 1200) / 1200) : 0; // 0..1
+  const C = 25, m = 4.3;
+  const bayes = (C*m + n*r) / (C + n);
+  const distBoost = Number.isFinite(d) ? Math.max(0, 1 - Math.min(d, 1200) / 1200) : 0;
   return bayes + distBoost;
 }
-
-function pickTopPicks(places, limit = 12) {
+function pickTopPicks(places, limit = 12){
   const candidates = places.filter(p => p.photo_url);
-  const scored = [...candidates].sort((a, b) => topScore(b) - topScore(a));
-
-  // Diversity across categories
-  const buckets = { restaurants: [], cafes: [], bars: [], bookstores: [], other: [] };
-  for (const p of scored) {
+  const scored = [...candidates].sort((a,b)=> topScore(b) - topScore(a));
+  const buckets = { restaurants:[], cafes:[], bars:[], bookstores:[], other:[] };
+  for (const p of scored){
     const tags = categorize(p);
     let key = 'other';
     if (tags.has('restaurants')) key = 'restaurants';
@@ -167,37 +128,114 @@ function pickTopPicks(places, limit = 12) {
     else if (tags.has('bookstores')) key = 'bookstores';
     buckets[key].push(p);
   }
-  const order = ['restaurants', 'cafes', 'bars', 'bookstores', 'other'];
-  const quotas = { restaurants: 3, cafes: 3, bars: 3, bookstores: 3 };
-
+  const order = ['restaurants','cafes','bars','bookstores','other'];
+  const quotas = { restaurants:3, cafes:3, bars:3, bookstores:3 };
   const picks = [];
-  for (const k of order) {
+  for (const k of order){
     const q = quotas[k] || 0;
-    for (let i = 0; i < Math.min(q, buckets[k].length) && picks.length < limit; i++) {
+    for (let i=0; i<Math.min(q, buckets[k].length) && picks.length<limit; i++){
       picks.push(buckets[k][i]);
     }
   }
-  for (const p of scored) {
+  for (const p of scored){
     if (picks.length >= limit) break;
     if (!picks.includes(p)) picks.push(p);
   }
   return picks.slice(0, limit);
 }
 
-function renderTopPicks(all) {
-  if (!topTrack || !topSection) return;
-  const items = pickTopPicks(all, 12);
-  if (!items.length) { topSection.classList.add('hidden'); return; }
-  topSection.classList.remove('hidden');
-  topTrack.innerHTML = items.map(topSlideHtml).join('');
+/* ---------- HERO SLIDER ---------- */
+let heroIndex = 0, heroTimer = null, heroSlides = [];
 
-  // Arrow controls
-  const step = () => topTrack.clientWidth * 0.9;
-  topPrev?.addEventListener('click', () => topTrack.scrollBy({ left: -step(), behavior: 'smooth' }));
-  topNext?.addEventListener('click', () => topTrack.scrollBy({ left:  step(), behavior: 'smooth' }));
+function buildHeroSlider(all){
+  if (!heroSlidesEl) return;
+
+  // pick 4–6 best items with photos; prefer closer ones
+  const picks = [...all]
+    .filter(p => p.photo_url)
+    .sort((a,b)=> topScore(b) - topScore(a))
+    .slice(0, 6);
+
+  heroSlidesEl.innerHTML = picks.map((p, i) =>
+    `<div class="hs-slide${i===0 ? ' is-active':''}" role="img" aria-label="${esc(p.name || '')}"
+       style="background-image:url('${p.photo_url}')"></div>`
+  ).join('');
+
+  // Dots
+  if (heroDotsEl){
+    heroDotsEl.innerHTML = picks.map((_,i)=>
+      `<button class="hs-dot${i===0?' is-active':''}" role="tab" aria-selected="${i===0?'true':'false'}" aria-label="Slide ${i+1}"></button>`
+    ).join('');
+    [...heroDotsEl.children].forEach((dot, i)=>{
+      dot.addEventListener('click', ()=> showHero(i, true));
+    });
+  }
+
+  heroSlides = [...heroSlidesEl.querySelectorAll('.hs-slide')];
+
+  // arrows
+  heroPrev?.addEventListener('click', ()=> showHero(heroIndex-1, true));
+  heroNext?.addEventListener('click', ()=> showHero(heroIndex+1, true));
+
+  // autoplay
+  startHeroAuto();
+
+  // pause on hover / focus
+  heroEl?.addEventListener('mouseenter', stopHeroAuto);
+  heroEl?.addEventListener('mouseleave', startHeroAuto);
+  heroEl?.addEventListener('focusin', stopHeroAuto);
+  heroEl?.addEventListener('focusout', startHeroAuto);
+
+  // swipe
+  addSwipe(heroEl, (dir)=>{
+    if (dir === 'left') showHero(heroIndex+1, true);
+    if (dir === 'right') showHero(heroIndex-1, true);
+  });
 }
 
-function topSlideHtml(p) {
+function showHero(nextIndex, userTriggered=false){
+  if (!heroSlides.length) return;
+  const count = heroSlides.length;
+  heroIndex = (nextIndex + count) % count;
+  heroSlides.forEach((el,i)=> el.classList.toggle('is-active', i===heroIndex));
+  if (heroDotsEl){
+    [...heroDotsEl.children].forEach((d,i)=>{
+      d.classList.toggle('is-active', i===heroIndex);
+      d.setAttribute('aria-selected', i===heroIndex ? 'true':'false');
+    });
+  }
+  if (userTriggered){ restartHeroAuto(); }
+}
+function startHeroAuto(){
+  stopHeroAuto();
+  heroTimer = setInterval(()=> showHero(heroIndex+1, false), 6000);
+}
+function stopHeroAuto(){ if (heroTimer) clearInterval(heroTimer); heroTimer = null; }
+function restartHeroAuto(){ stopHeroAuto(); startHeroAuto(); }
+function addSwipe(el, cb){
+  let x0=null, y0=null;
+  el.addEventListener('touchstart', e=>{ const t=e.touches[0]; x0=t.clientX; y0=t.clientY; }, {passive:true});
+  el.addEventListener('touchend', e=>{
+    if (x0==null) return;
+    const t=e.changedTouches[0];
+    const dx = t.clientX - x0; const dy = t.clientY - y0;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)){ cb(dx<0 ? 'left':'right'); }
+    x0 = y0 = null;
+  }, {passive:true});
+}
+
+/* ---------- TOP PICKS CAROUSEL (existing) ---------- */
+function renderTopPicks(all){
+  if (!topTrack || !topSection) return;
+  const items = pickTopPicks(all, 12);
+  if (!items.length){ topSection.classList.add('hidden'); return; }
+  topSection.classList.remove('hidden');
+  topTrack.innerHTML = items.map(topSlideHtml).join('');
+  const step = () => topTrack.clientWidth * 0.9;
+  topPrev?.addEventListener('click', () => topTrack.scrollBy({ left: -step(), behavior:'smooth'}));
+  topNext?.addEventListener('click', () => topTrack.scrollBy({ left:  step(), behavior:'smooth'}));
+}
+function topSlideHtml(p){
   const name = esc(p.name || '');
   const dist = Number.isFinite(p.distance_m) ? formatDistance(p.distance_m) : '';
   const rating = p.rating ? `${p.rating}★` : '';
@@ -213,93 +251,47 @@ function topSlideHtml(p) {
   `;
 }
 
-// ---- Hero collage (full-bleed) ----
-function renderHeroVisuals(all) {
-  if (!heroA || !heroB || !heroC) return;
-
-  // Prefer the same logic as Top Picks; take 3
-  let picks = [];
-  try {
-    picks = pickTopPicks(all, 3);
-  } catch {
-    // Fallback: best by score
-    picks = [...all]
-      .filter(p => p.photo_url)
-      .sort((a, b) => topScore(b) - topScore(a))
-      .slice(0, 3);
-  }
-
-  const photos = picks.map(p => p.photo_url).filter(Boolean);
-  const targets = [heroA, heroB, heroC];
-  for (let i = 0; i < targets.length; i++) {
-    const el = targets[i];
-    if (el && photos[i]) {
-      el.style.backgroundImage = `url("${photos[i]}")`;
-    }
-  }
-}
-
-// render cards with image overlay + controls
-function render() {
+/* ---------- GRID RENDER ---------- */
+function render(){
   if (!listEl) return;
   if (errorEl) errorEl.classList.add('hidden');
-
   const minR = parseFloat(minRatingSel?.value || '0');
 
   let items = allPlaces.filter(p => {
     const r = num(p.rating);
     const passRating = Number.isFinite(r) ? r >= minR : true;
-
-    // must have image (backend already filters, this is a safety net)
-    if (!p.photo_url) return false;
-
-    // Hawkers are exclusive
+    if (!p.photo_url) return false;           // photo required
     if (selectedType === 'hawker') return passRating && isHawker(p);
-
-    // Non-hawker categories
     if (isHawker(p)) return false;
-
-    const tags = categorize(p); // Set(...)
+    const tags = categorize(p);
     const passType =
       selectedType === 'all' ||
       (selectedType === 'restaurants' && tags.has('restaurants')) ||
       (selectedType === 'cafes' && tags.has('cafes')) ||
       (selectedType === 'bars' && tags.has('bars')) ||
       (selectedType === 'bookstores' && tags.has('bookstores'));
-
     return passRating && passType;
   });
 
-  // sort
   const sort = sortSel?.value || 'ratingDesc';
-  if (sort === 'ratingDesc') {
-    items.sort((a, b) => num(b.rating) - num(a.rating));
-  } else if (sort === 'distanceAsc') {
-    items.sort((a, b) => (num(a.distance_m) || 1e12) - (num(b.distance_m) || 1e12));
-  } else {
-    items.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
-  }
+  if (sort === 'ratingDesc') items.sort((a,b)=> num(b.rating) - num(a.rating));
+  else if (sort === 'distanceAsc') items.sort((a,b)=> (num(a.distance_m)||1e12) - (num(b.distance_m)||1e12));
+  else items.sort((a,b)=> (a.name||'').localeCompare(b.name||''));
 
-  // limit
   items = items.slice(0, 24);
-
-  listEl.innerHTML = items.map(cardHtml).join('') ||
-    `<div class="notice">No places found.</div>`;
+  listEl.innerHTML = items.map(cardHtml).join('') || `<div class="notice">No places found.</div>`;
 }
-
-function cardHtml(p) {
+function cardHtml(p){
   const name = esc(p.name || 'Unknown');
   const addr = esc(p.address || '');
   const rating = p.rating ? `${p.rating}★` : '';
   const dist = Number.isFinite(p.distance_m) ? formatDistance(p.distance_m) : '';
   const pillRight = [rating, dist].filter(Boolean).join(' · ');
-
   const imgBlock = p.photo_url ? `
     <div class="thumb-wrap">
       <img class="thumb" src="${p.photo_url}" alt="${name}" loading="lazy">
       ${pillRight ? `<span class="rating-pill">${pillRight}</span>` : ''}
     </div>` : '';
-
   return `
     <article class="card">
       ${imgBlock}
@@ -312,73 +304,54 @@ function cardHtml(p) {
   `;
 }
 
+// utils
 const num = v => Number.isFinite(v) ? v : parseFloat(v);
-function esc(s = '') {
-  return s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-}
+function esc(s=''){ return s.replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
+// filter listeners
 sortSel?.addEventListener('change', render);
 minRatingSel?.addEventListener('change', render);
+typeSel?.addEventListener('change', ()=>{ selectedType = typeSel.value; render(); });
 
-typeSel?.addEventListener('change', () => {
-  selectedType = typeSel.value; // 'all' | 'restaurants' | 'cafes' | 'bars' | 'bookstores' | 'hawker'
-  render();
-});
-
-// NAV TOGGLE
-document.querySelectorAll('.nav-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+// nav toggle
+document.querySelectorAll('.nav-btn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
-
     const tab = btn.dataset.tab;
     document.getElementById('places').classList.toggle('hidden', tab !== 'places');
     document.getElementById('events').classList.toggle('hidden', tab !== 'events');
   });
 });
 
-// LOAD EVENTS
-async function loadEvents() {
-  try {
+// events list
+async function loadEvents(){
+  try{
     const res = await fetch(`data/events.json?ts=${Date.now()}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    const events = data?.events || [];
-    renderEvents(events);
-  } catch (e) {
+    renderEvents(data?.events || []);
+  }catch(e){
     console.error('Failed to fetch events.json', e);
     document.getElementById('eventsError')?.classList.remove('hidden');
   }
 }
-
-// RENDER EVENTS
-function renderEvents(events) {
+function renderEvents(events){
   const list = document.getElementById('eventList');
   if (!list) return;
-
-  const parseDate = (d) => {
-    if (!d) return null;
-    const parsed = Date.parse(d);
-    return isNaN(parsed) ? null : new Date(parsed);
-  };
-
-  // Sort by start date (ascending)
-  events.sort((a, b) => {
-    const dateA = parseDate(a.start);
-    const dateB = parseDate(b.start);
-    if (!dateA) return 1;
-    if (!dateB) return -1;
-    return dateA - dateB;
+  const parseDate = d => (d && !isNaN(Date.parse(d))) ? new Date(d) : null;
+  events.sort((a,b)=>{
+    const A = parseDate(a.start), B = parseDate(b.start);
+    if (!A) return 1; if (!B) return -1; return A - B;
   });
-
-  list.innerHTML = events.slice(0, 24).map(e => `
+  list.innerHTML = events.slice(0,24).map(e=>`
     <article class="card">
       ${e.image ? `<div class="thumb-wrap"><img class="thumb" src="${e.image}" alt="${esc(e.title)}" loading="lazy"></div>` : ''}
       <div class="title">${esc(e.title)}</div>
       <div class="addr">${esc(e.venue?.join(', ') || e.venue || '')}</div>
       <div class="addr"><b>${esc(e.start || '')}</b></div>
       <div class="actions">
-        ${e.url ? `<a class="btn-link" href="${e.url}" target="_blank">Event Link</a>` : ''}
+        ${e.url ? `<a class="btn-link" href="${e.url}" target="_blank" rel="noopener">Event Link</a>` : ''}
       </div>
     </article>
   `).join('') || `<div class="notice">No events found.</div>`;

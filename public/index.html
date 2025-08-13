@@ -9,28 +9,27 @@
 </head>
 <body>
   <!-- Header -->
-  <header class="hero hero-full">
-    <div class="hero-inner">
-      <div class="hero-copy">
-        <h1 class="brand-title">
-          Explore Around <span class="brand">Amara</span>
-        </h1>
-        <p class="subtitle">
-          Handpicked nearby places for staff &amp; guests near Tanjong Pagar.
-        </p>
-        <nav class="nav cta-row">
-          <button class="nav-btn active" data-tab="places">🍜 Places</button>
-          <button class="nav-btn" data-tab="events">🎉 Events</button>
-        </nav>
-      </div>
+  <header id="hero" class="hero-slider">
+    <!-- slides are injected by script.js -->
+    <div class="hs-slides" id="heroSlides" aria-live="polite"></div>
 
-      <!-- Hero visual collage; images will be injected by script.js -->
-      <div class="hero-visual">
-        <div class="hv hv-a" aria-hidden="true"></div>
-        <div class="hv hv-b" aria-hidden="true"></div>
-        <div class="hv hv-c" aria-hidden="true"></div>
-      </div>
+    <!-- overlay copy -->
+    <div class="hero-overlay wrap">
+      <h1 class="brand-title">Explore Around <span class="brand">Amara</span></h1>
+      <p class="subtitle">Handpicked nearby places for staff &amp; guests near Tanjong Pagar.</p>
+      <nav class="nav cta-row">
+        <button class="nav-btn active" data-tab="places">🍜 Places</button>
+        <button class="nav-btn" data-tab="events">🎉 Events</button>
+      </nav>
     </div>
+
+    <!-- controls -->
+    <button class="hs-arrow left" id="heroPrev" aria-label="Previous slide">‹</button>
+    <button class="hs-arrow right" id="heroNext" aria-label="Next slide">›</button>
+    <div class="hs-dots" id="heroDots" role="tablist" aria-label="Hero slides"></div>
+
+    <!-- scroll cue -->
+    <a href="#places" class="scroll-cue" aria-label="Scroll to content">↓</a>
   </header>
 
   <!-- Main Content -->
