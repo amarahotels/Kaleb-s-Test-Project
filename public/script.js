@@ -15,6 +15,11 @@ const topPrev = document.getElementById('topPrev');
 const topNext = document.getElementById('topNext');
 const topSection = document.getElementById('topPicks');
 
+// Full-bleed hero collage refs
+const heroA = document.querySelector('.hv-a');
+const heroB = document.querySelector('.hv-b');
+const heroC = document.querySelector('.hv-c');
+
 let allPlaces = [];
 let selectedType = 'all';
 
@@ -54,7 +59,9 @@ async function loadPlaces() {
     // handle { meta, places } or legacy plain array
     allPlaces = Array.isArray(data.places) ? data.places : (Array.isArray(data) ? data : []);
 
-    renderTopPicks(allPlaces); // <- carousel
+    // Fill hero collage first, then carousel + grid
+    renderHeroVisuals(allPlaces);
+    renderTopPicks(allPlaces);
     render();
   } catch (e) {
     console.error('Failed to fetch places.json', e);
@@ -204,6 +211,32 @@ function topSlideHtml(p) {
       </div>
     </a>
   `;
+}
+
+// ---- Hero collage (full-bleed) ----
+function renderHeroVisuals(all) {
+  if (!heroA || !heroB || !heroC) return;
+
+  // Prefer the same logic as Top Picks; take 3
+  let picks = [];
+  try {
+    picks = pickTopPicks(all, 3);
+  } catch {
+    // Fallback: best by score
+    picks = [...all]
+      .filter(p => p.photo_url)
+      .sort((a, b) => topScore(b) - topScore(a))
+      .slice(0, 3);
+  }
+
+  const photos = picks.map(p => p.photo_url).filter(Boolean);
+  const targets = [heroA, heroB, heroC];
+  for (let i = 0; i < targets.length; i++) {
+    const el = targets[i];
+    if (el && photos[i]) {
+      el.style.backgroundImage = `url("${photos[i]}")`;
+    }
+  }
 }
 
 // render cards with image overlay + controls
