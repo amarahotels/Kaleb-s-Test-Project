@@ -100,8 +100,9 @@ HAWKER_TEXT_QUERIES = [
     "Chinatown Hawker Centre",
 ]
 
-# Canonical centre names (lowercase)
-HAWKER_NAME_SET = {
+# ---- Hawker identification (updated) ----
+# Canonical centre name tokens (substring match, lowercase)
+HAWKER_NAME_TOKENS = (
     "lau pa sat",
     "maxwell food centre",
     "maxwell food center",
@@ -110,9 +111,18 @@ HAWKER_NAME_SET = {
     "chinatown complex",
     "chinatown hawker centre",
     "chinatown hawker center",
-}
+    "market street hawker centre",
+    "people's park food centre",
+)
 
-EXCLUDED_PRIMARY = {"lodging"}  # and anything containing "hotel"
+# Generic keywords that indicate a *centre* (not a stall)
+HAWKER_NAME_KEYWORDS = (
+    "hawker centre", "hawker center",
+    "food centre", "food center",
+    "food court", "market",
+)
+
+EXCLUDED_PRIMARY = {"lodging"}  # and anything containing "hotel"}
 
 def is_allowed_primary(primary: str) -> bool:
     p = (primary or "").lower()
@@ -233,15 +243,24 @@ def _norm(s: str) -> str:
     return (s or "").strip().lower()
 
 def is_hawker_centre_place(p: dict) -> bool:
-    """True only for *centres* (not stalls)."""
+    """
+    True only for *centres* (not stalls).
+    We allow when:
+      1) primaryType == "food_court", OR
+      2) name contains any canonical centre token (e.g., 'lau pa sat'), OR
+      3) 'food_court' appears in types AND name contains a generic centre keyword.
+    """
     primary = _norm(p.get("primaryType"))
     types = [_norm(t) for t in (p.get("types") or [])]
     name = _norm((p.get("displayName") or {}).get("text") or "")
-    return (
-        primary == "food_court" or
-        "food_court" in types or
-        name in HAWKER_NAME_SET
-    )
+
+    if primary == "food_court":
+        return True
+    if any(tok in name for tok in HAWKER_NAME_TOKENS):
+        return True
+    if "food_court" in types and any(k in name for k in HAWKER_NAME_KEYWORDS):
+        return True
+    return False
 
 # ---- Fetch & blend per bucket ----
 raw_by_id = {}
@@ -316,7 +335,7 @@ for p in raw_by_id.values():
         "photo_url": photo_url,
         "types": p.get("types", []),
         "primary_type": p.get("primaryType"),
-        "is_hawker_centre": is_hawker_centre_place(p),  # <-- used by frontend filter
+        "is_hawker_centre": is_hawker_centre_place(p),  # used by frontend filter
     })
 
 # Sort by rating then rating_count
