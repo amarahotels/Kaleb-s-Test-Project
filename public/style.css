@@ -66,15 +66,35 @@ body::after{
 </svg>") center/contain no-repeat;
 }
 
-/* =================== Hero slider (now ~3/4 screen & centered) =================== */
+/* =================== Hero slider (now ~3/4 screen tall & 80% wide) =================== */
 .hero-slider{
-  position:relative;
-  height:75vh; min-height:520px; max-height:760px;
-  overflow:hidden; border-bottom:1px solid var(--border);
-  background:#0f0f0f;
+  position: relative;
+  height: 75vh;           /* keep whatever height you prefer */
+  min-height: 520px;
+  max-height: 760px;
+
+  /* NEW: width + centering */
+  width: 80vw;            /* take up 80% of the viewport width */
+  max-width: var(--wrap-max, 1280px);
+  margin-inline: auto;    /* center it */
+
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background: #0f0f0f;
 }
 @supports (height: 100svh) {
-  .hero-slider{ height:75svh; }
+  .hero-slider{ height: 75svh; } /* keep your svh height if you use it */
+}
+
+/* Optional: on tablets/phones, let it breathe to the edges */
+@media (max-width: 1024px){
+  .hero-slider{ width: 92vw; }   /* a bit wider on smaller screens */
+}
+@media (max-width: 640px){
+  .hero-slider{
+    width: 100vw;                /* full-bleed on phones */
+    border-radius: 0;            /* avoid clipped corners if you add radius later */
+  }
 }
 
 /* slides as stacked backgrounds */
