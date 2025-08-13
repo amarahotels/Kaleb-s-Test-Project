@@ -142,7 +142,7 @@ def nearby_all_pages(included_primary_types):
     page_token = None
     for _ in range(MAX_PAGES_PER_CHUNK):
         body = {
-            "includedPrimaryTypes": included_primary_types,
+            "includedTypes": included_primary_types,
             "maxResultCount": PER_PAGE,
             "rankPreference": "POPULARITY",
             "locationRestriction": {
