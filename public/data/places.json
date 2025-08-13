@@ -1,8 +1,78 @@
 {
   "meta": {
-    "generated_at": "2025-08-13T02:37:13.503771+00:00"
+    "generated_at": "2025-08-13T02:48:47.169234+00:00"
   },
   "places": [
+    {
+      "name": "Casper.sg",
+      "rating": 5,
+      "rating_count": 24,
+      "address": "59 Duxton Rd, #01-01, Singapore 089523",
+      "place_id": "ChIJB4nyirsZ2jERHk3EkbkZZMk",
+      "maps_url": "https://maps.google.com/?cid=14511752184099786014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJB4nyirsZ2jERHk3EkbkZZMk/photos/ATKogpcOUYvVgMm3dTsU1VaSvbPEZg_D8Yiag4ZPIwXHuBxhCs23aikwxDi1edWkwEJ7B5npaBE9pF34m7r1Uu8k1IuvgBwyDSiTZXdHdUFcWqovqRPGATVw4AiKBy3XcBh3rqCX8CmuVGxKnkG_TqHYm8aKzDtNfSL_8SmfVvD4gpkxBsT_ctJ1BluqQBCp03fMt8c-fYJcW3_9-_g48nngkD2jsPH1A450ozvtzTSl5kCIbnOchEEOeKVemlVmV-vXTjmv4gbXQ0Z237LWvzSo8HGau6A_t0iItp3ft7JdqEyEdA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "pub",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "Oriental Elixir",
+      "rating": 4.9,
+      "rating_count": 324,
+      "address": "19A Bukit Pasoh Rd, Second Floor, Singapore 089833",
+      "place_id": "ChIJfxVyki8Z2jERdEus8S-QJRY",
+      "maps_url": "https://maps.google.com/?cid=1595840178565172084&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJfxVyki8Z2jERdEus8S-QJRY/photos/ATKogpduIkEb9HNFSA-uWLR43Gi-n5xsR_OZB6B19zv27ZL8E22YAdk8N19XJvo8r4RAwILASw4HrVtLPg58QWrjM4mZVm-Q4nRXNoGqxvJeB_fuQRVRZ0mHfqGdSVpW8BYfdiBh30YsJTvo2-3LArtkltdvIkbc-qtQKyiu6eY0QuAweexLQiwaKPSdrlwtgVjImkVjiMYTMLDDLeV2GKN7oXVg15e15TwTtYR-PWdwy6gnp9Hzlgh3P8PB2LMg9LfccbtJnTlR755U02Z7SKPWoki6b8A5yRArNhOOSclCeysucg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "Bonjour Ma Cuisine",
+      "rating": 4.9,
+      "rating_count": 296,
+      "address": "39 Craig Rd, Singapore 089677",
+      "place_id": "ChIJP1YIH-YZ2jERVGC2jU63gFQ",
+      "maps_url": "https://maps.google.com/?cid=6089068244217782356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJP1YIH-YZ2jERVGC2jU63gFQ/photos/ATKogpcSbDiFN7mpgvCcryVyp5JSHYSH65oOJzgLnCflCoNvqcd_c9D5hN-bztvvH7egVxV9IdA5IfBi2MSKN1Z8EBoBY-PLd5AAeKia2sNvlAhFPNDrQmTQvaydjzjgJbcOcJio34Ae2p13Vcg5TBfAAmJl3vNV3Lwv71U_7Di3d2zJ7jpf10Zvkj6zkWDEECQmoEZBnkY_Dnd5o9tihEjJQCK9mG5G4wvq4W3cIkalpc5dUtLWImGP74w3HOYKFha1jOij6Y1_pf_xMUqUVNUGjOcWIVkc7ef7FAuy8UozrA1uew/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "french_restaurant",
+        "breakfast_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "french_restaurant"
+    },
+    {
+      "name": "Restaurant Fiz",
+      "rating": 4.9,
+      "rating_count": 239,
+      "address": "21 Tg Pagar Rd, #01-01/02 Next to the Fairfield Methodist Church, Singapore 088444",
+      "place_id": "ChIJJ8s24l8Z2jERmHd_s9Vxa1s",
+      "maps_url": "https://maps.google.com/?cid=6587484042612930456&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJJ8s24l8Z2jERmHd_s9Vxa1s/photos/ATKogpeuZ4sCGGACvVhVGjFDzqtMgDLPceoDJBfspwVyBAFMCnbH2M0MekmKDqm4ONW_KgJyxmhw1FY9rU1k3mF5ibWWAY46ST5iJCD0pwDqVv-CsOysvHIWjTiNG-7LuPpQq2LHkVsowes_pugTiqu3JAmLRyPMQjLDx7UgEDbPM3XPUWxfWFqVdRA3LmC6bA4SynY5GWTVH6_hB98NJ2zFYiH1ozxTCdOekBIwYmoelwDuERK09BIFl1MedRQyP0h4UtzXCbkcil2l0gaMGs4eNqEE64tgbqGYtvp58ATvmVS2Fw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "fine_dining_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "fine_dining_restaurant"
+    },
     {
       "name": "Leila Singapore",
       "rating": 4.9,
@@ -10,16 +80,133 @@
       "address": "12 Teck Lim Rd, Singapore 088390",
       "place_id": "ChIJDyDiFuEZ2jERBuobsH0BAZE",
       "maps_url": "https://maps.google.com/?cid=10448634249813420550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJDyDiFuEZ2jERBuobsH0BAZE/photos/ATKogpe4Il75FxG--n75w218zzNEmAuuV5SC7LnWRci5HCzsKb1OrtVsA67ylXp9_evZKTDvfzF_KC9OUpGg63a4cjHgq-DEgmWJ0KZNLTU3I9Ee33zcq9IXuiIXi8-YdFUnCEh0Dguja1QtEGT70KMejByF1k3zivoTJiHP4zznMWeSpTfMDj8eceX0bZDtvvq0YuMkAKfZ6yfOu6cCduOgpiMXy2hvKHcmdQLkcoXgPJzAxZnZzqijWQqVylnQFDhMXoXFtpK2CQmZTuJl50GdDLbA7aQ0bH24llYm2Q-aVL2N_av4h3FmrUBClnFxYvHGUnpYcW1AjXoY_rNcnr8Vt04nGzvQQApDn5ALc0ER1mYDaGrD8CJpWhsQmH5WoPkAuS_PPRbWtKtNPsJmjN3urQFbjBcuelp3TLC-klHR1AH-kTLffS0jU6U-6EsPJ8nW/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJDyDiFuEZ2jERBuobsH0BAZE/photos/ATKogpc161DkyMfVMk-91oNa-ngt37P7sDoIicXGFr1YOMAdlxhIi3uFI08xBEjeil7L8c3OohbE8w7wmnGt-e8CWc0xJdDWUwBAFD-frneIw_sLZ-Vadm41N4eUxapDK23uo2L32fJt4eVPGpgIOfPfWVAtd2zEACywEuGKgQfxgNsTadqptOhWBuQsPoubiBYjecOiIaIWpylU1mrg-4Dicfb_CAK7XbP_qVTRD4SERNuenUbgfO41eABAnfbspU9qOhyIHzaOLX8mWGoHPIRqI8Wh4oWwP0Uc8UOJqNG8z-2QJ_Q0MpDLd_cJUMBvQ_-R6Uo45K2fGn6E0tgx_xSTvZR7Zw-uWg_kYji4kp5JcnKGTlT7R4rAdrHBq-Z1DJ61IA4Vi6pvwZBp5woUq3ojoyXwOSD_-mC7I8QtykkefG5founqUcZ0H2TTSjR9vgLq/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "mediterranean_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "The Otherside – Rooftop Craft Bar & Natural Wine (Telok Ayer / Chinatown)",
+      "rating": 4.9,
+      "rating_count": 121,
+      "address": "7 Erskine Rd, Singapore 069320",
+      "place_id": "ChIJKyWPU_QZ2jERjAHHj9KCql0",
+      "maps_url": "https://maps.google.com/?cid=6749350832435036556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJKyWPU_QZ2jERjAHHj9KCql0/photos/ATKogpdr19TWsPqcXAsNFk_pwSWiDY-jSO4xsXh3ECsLcwm6JTiz_r9vCYhGulHQEPw24HdmePKPIHcBVeCO-ssGDh4Uf_YMo8t3Lv0oA-ElLZRju7uQWk5JhyG687kB5vqdl3PT9JeOS2sn0gZlmv36oK06TEGRW3GkGQGGwoSWTeWAQ4EmzNbK2-s76XEDHEMN5sB2HnHg_h8-r4riwygdyn-z1vhG73H8iF6q2Qgmw7ofIp5FmWYxB0RuBglsrGewhaRujCxe1lNWMCbUzJ_KK-YljCQe1skmzYYPcSf_KLrhfQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "wine_bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "Vinflow Wine Bar & Bistro",
+      "rating": 4.9,
+      "rating_count": 65,
+      "address": "55 Keong Saik Rd., #01-01, Singapore 089158",
+      "place_id": "ChIJucM3dIQZ2jERdlUq_5uBx5E",
+      "maps_url": "https://maps.google.com/?cid=10504507162865849718&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJucM3dIQZ2jERdlUq_5uBx5E/photos/ATKogpfXZy4sJEvQkv0cAxxoLUH2A0JGsS8uJs18zAw2jP_NOmiWmadlWz87ByRAZYq7kSr9vIBsZdbp6LIVcFLicQVBmBwyjoIPbTOHiJbwD3oqQGDZFExmtCLcJXZaH0PCm-yScOQnRRTqCpwrWbDSxTAjjlxsao5qErHVxy2DStBySmJp3rhNMhft8ZJ9bPOPJpTnNFNdUuSDQekdoZ_ZCylfKutyhhH5_dmp6wJWwuOqkRxnvxHMnGKWuv7l413m_KTgATmnAZybmRuWFyilClM44yd7MCUZUu-iBK6GIx5OjA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Foreground Coffee",
+      "rating": 4.9,
+      "rating_count": 34,
+      "address": "1 Tanjong Pagar Plz, #02-06, Singapore 082001",
+      "place_id": "ChIJYU1nZjQZ2jER17lQGBJuXDw",
+      "maps_url": "https://maps.google.com/?cid=4349472364129466839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJYU1nZjQZ2jER17lQGBJuXDw/photos/ATKogpdtRRSIqoePlwDVwBBljpsg7po3IyBEwkE7wZkOXZrJY7ftZI6sLEsTqmAU7Gwu5yZjZ0HkWf4VReRWdFTm3W0sX6J73MNNS1hXbd3Dp7gLzlBSa33pcgUO8gOp1O8cnRFR342AbVdztw1hMqy6m5DCWsyl-lnVK0plmWI-jV9KdTXeffUyAPkuYExLAIV3d4ZCndAgN5KF5QmxxPkOl8mkPT7sHERNRW9SepkTyKIobSVCKX914ur2nX2GcsAfVWlIxGQ8d4CWZSgpcY51Ja1Fi0_50DFuRt0BUQmlcPk/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
+      "name": "Madame Claude, Cocktail bar & Social Club",
+      "rating": 4.9,
+      "rating_count": 26,
+      "address": "8 Ann Siang Hill, #2nd Floor, Singapore 069788",
+      "place_id": "ChIJiaTsKQAZ2jERDWRahA_fOKs",
+      "maps_url": "https://maps.google.com/?cid=12337856436919493645&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJiaTsKQAZ2jERDWRahA_fOKs/photos/ATKogpe1ut7PCOqULGPrzD4S6RHNv_Zf0s_jfaob7qTxTa8fqhzPNywIZB_OjquWN2uD_pFpmkgxISCzkZKjt99BIEwGn-BWSsWiMmfQIk-c_4o4r1JVtBHFNx3akOHRwKriXBCx3NneDkLa5ImgsO1Sur_IoL8DySkFbzq01pbghVqdqipnhjKYuU2UMb3LWBmUMfeUTnvDh86FccjjGsYlmal-bPLScQ5RXDnd3BsNE8ykMNHJY44fZ-BMMjPDHkSXq0Co12mjkksyPqvRb0onzTSRaEotoM7-u50ZzMxyF-GGbg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "wine_bar",
+        "bar",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "Flower Pig 360 꽃돼지 360 Aged Meat Tanjong pagar",
+      "rating": 4.8,
+      "rating_count": 1762,
+      "address": "46 Tg Pagar Rd, Singapore 088467 44 Tg Pagar Rd, Singapore 088465, Singapore 088467",
+      "place_id": "ChIJNb1VpEUZ2jERVpHQnctuQ7g",
+      "maps_url": "https://maps.google.com/?cid=13277577947223462230&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJNb1VpEUZ2jERVpHQnctuQ7g/photos/ATKogpfx8GFjeLG2TJo_mawL-Z_TeV0TaUkDoo8vW7-WojvPq9puEV52GNt2_NiX42KiAEtOqitm5R4f5uxKqP9lKCYZiqUlVV_L2yVIVQEdno65e4sR49oVC8LB18ZG3o9EI8obZbIC8Ax13Q9sXsQdiCErfUtWQ5mFtHrQ1nwQDUfnBNwLraB5aYIwuinJe33tU8xeBGKyMna256Ycsf9Sa_1KTmN22uaZ5VUq-n6vjbXn3Aj167Guk78zDXPdkpRbHS2KRaxPljOdGWyLx78ZNtlrwmhM8qrZueh0AolcwvVDVMHLBEO09yf6nXd3XuHWzr7PSKquSOUN0L_xJoBcX-GJP7WwF_Q9b7r4u71-KZVlhd9hia13VXR9-9JF-soJ87vIfq8bF20_-os9rqWvxDiSZqSi64CzN4zByDtUTQNtww/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "korean_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
         "establishment"
       ],
-      "primary_type": "bar"
+      "primary_type": "korean_restaurant"
+    },
+    {
+      "name": "Ya Ge - 雅阁 (Orchid Hotel SG)",
+      "rating": 4.8,
+      "rating_count": 1050,
+      "address": "1 Tras Link, Level 3 Orchid Hotel Singapore, Singapore 078867",
+      "place_id": "ChIJF_bXmB4Z2jERLgKPEgkb3Tk",
+      "maps_url": "https://maps.google.com/?cid=4169518555794965038&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJF_bXmB4Z2jERLgKPEgkb3Tk/photos/ATKogpel-ei6IeReBOYRLrXsWSsWKApVxqAnnw6LuYxzpiLENbCGo-CV2T1uj-3-Y7KumWNdDNkM2h68D-vnptuWHSec9laESKf5oso7_yYzlKcqqFKWSN88UKeQv5CZGP-Hn5YSo3Ibop_566AmilkpOI2fSNoAEEIwWOShwce4WRobV5_TaqxpjUA_gIIFZs9lgRMeh79axiaWh7lWHggwQBMbU_mUaRqEwQOpsD4SQlphrcfaJGvLmzV12fKYHEGeL8c01VRPanYzXURm-bB9i9hgKDuAgjk2F_jj9PHe40KOVw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Myung Ga II Tanjong Pagar",
+      "rating": 4.8,
+      "rating_count": 848,
+      "address": "28 Tg Pagar Rd, Singapore 088451",
+      "place_id": "ChIJOWm_mgsZ2jEReyz3xCGLGpk",
+      "maps_url": "https://maps.google.com/?cid=11032283214352166011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJOWm_mgsZ2jEReyz3xCGLGpk/photos/ATKogpfGu-epeoybumT80962_RHhVkWOLEF9jq_g7KqITOwFGISWB7VtC8OwrXBYHS_KyMP04KHkSyLa7eFBr1cI_q64qo1c9v4-qsS4w5CumOyAZGKdkIpWC4CHpr5dZ_aqTT8T7FfmM-HjxyuMifZ_t3w20mKNYx6WRR2pmyI8-nK6aQPQ1Jd-hkX6FyLZKFDF4Tfifag9TGrE4CX8opFlG9TQSz6YvUrQ_UZPiplm_wbLDJrHepR3Kqh69I_caA2RodG-gLaV4fikDIREZvFbLd9W76-szPUEgEeUY8XwXhnoHA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "korean_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "korean_restaurant"
     },
     {
       "name": "BBC - Beats Bites Cocktails",
@@ -28,20 +215,54 @@
       "address": "8 Bukit Pasoh Rd, Singapore 089822",
       "place_id": "ChIJae5qzDwZ2jERRZGBVSeWuAY",
       "maps_url": "https://maps.google.com/?cid=484302055624773957&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJae5qzDwZ2jERRZGBVSeWuAY/photos/ATKogpfEDOG1y1qOBjqFblxYl_h5BakDZ-6sVQ9qmk69mvmDXwcK_lOv3ldM4AD0F3NmA6EnQhXhwZjiPvHDn4vGaXdSszevaql9fRZYvofWEcOg4_p0ekLU8Up_gJupYDMswcmAwjRLQMVs_q3qJwnP44JscXpPFye5a1kQzNZUag5PnRV3csdhJRzdNBxy3THtac23S6NL1LU3Gd5ZuCK5nP98jTpY7-e8u3grMCP3V50mBhgWnh3a9Os3gqhX3VRG0q6-5tWnAfbTrbckfdG0K7_WcpmALJELmufzwvFrbB-0-w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJae5qzDwZ2jERRZGBVSeWuAY/photos/ATKogpewx_WOv5ZUZmGvm9SCIQntk-qd1ADoFkR9HumEPMvGgtYm2-NyY8l7t8DHXn5Fxd7LF3dvF9HHz9HX0e5hOgv9y2Ld5uivwyBnAMHZ1FuxaDCu_pHfXDfyCIBK5tQ74o5jd-m32atAXssk7-NNsvuUodsn_MguZmrzp8mQhxKoQ6pdNQtZv-ogOR_dPtpeupj7JQCSAl8gJJKUyKehl4R1ef4sV4tVhxb7E9Q_esvJhu6y--PKpqpsgcxtqbgxAUYdGJgqNt7-zBH7QGtFlqkcv_VgcKyGR36bIfIZkGIYPw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "liquor_store",
         "cafe",
         "night_club",
-        "consultant",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
         "store",
+        "food",
+        "consultant",
         "establishment"
       ],
       "primary_type": "bar"
+    },
+    {
+      "name": "THE STORE SG",
+      "rating": 4.8,
+      "rating_count": 286,
+      "address": "11 Neil Rd, Singapore 088809",
+      "place_id": "ChIJM-RS84wZ2jERcDJIlxUriho",
+      "maps_url": "https://maps.google.com/?cid=1912388363504595568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJM-RS84wZ2jERcDJIlxUriho/photos/ATKogpeoPFwFF1YbA33e9xghalJBgmmsxxR3rOOm_cRpNjpzW6jU2ttAA6SGGC5TyuGqOYKlpnUvzGuWq62QwOv6wyEmvUVTw_O2gHfIiw0yXIJY6oSgt37EdZn9piIbrJLm2t_QoJ59WL_HBGxaZG8XpANyDsX64u3PY23BI3aaLq09Vm2towAXBgcs8t_nt3--mXIGiL9KUa5WPtW97fPH6PyF36lQ7TWj3vAa1VDET50QG5rbZq44YvD5RVeXbdBGw8MHpA1sLYxcRdBOggY64RHvsch59VkVgSy_HUAZXlWPc8srPxNNB-J3VXQL3LigMcdPch-XfN6yUZoSw1ObX1tDnvg45OuhyM_PrG0d50wpFrIx3itGHkuUx_e96P-gD9Ns3cP0H8i52MCVUqcWsuMCXCY6ZcM-aGix_ZKa-0Ans5iKNUheeP-uLk6dV6i6/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Thirty9",
+      "rating": 4.8,
+      "rating_count": 283,
+      "address": "39 Duxton Hl, Singapore 089617",
+      "place_id": "ChIJs0uStf8Z2jER2lDsYwq_dRk",
+      "maps_url": "https://maps.google.com/?cid=1834582474570354906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJs0uStf8Z2jER2lDsYwq_dRk/photos/ATKogpciAuVWRVqmPBkm3NZq08fwKcGedOSulgDxH5r-n7UthA1KSu4xkBZsowZmcnpDeoE6-7VjArMOPExwN1Y-inU0wpVn_Ntp3fIwqK4d13hb8OOn9Ogrdo7ztKXGkttKg5Hzpa1KWDeVsrD-WGUlmklR9TmX4kllGD2s1x6W4tilXnGC45NbIDLMbxKJeHE-iMbJ3G-i4aChPxsOlNHiCEMIVarSPdbb8C6TrsQ_ayo7Mx3hXL5Emszs_2brOduKmN3coQC8PRAToJHsXK5SARPHhXQTyzRt9wVmO4g_ba2S9g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "italian_restaurant",
+        "mediterranean_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "italian_restaurant"
     },
     {
       "name": "Spectre",
@@ -50,15 +271,111 @@
       "address": "120 Tg Pagar Rd, #02-01, Singapore 088532",
       "place_id": "ChIJGZwBdnIZ2jER70pdXxDZSKk",
       "maps_url": "https://maps.google.com/?cid=12198238255075642095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJGZwBdnIZ2jER70pdXxDZSKk/photos/ATKogpd5NFO9adwl_vs9n42cRIB7mmafPLiw3oC9A06MvVmGxS8hzClAW_Bb70OYNPfiIFelnjP1Lvun3ruIWuiKzNRJsCdz92YOAUCMoAZ8E8UxBoIvyXDXCVJK8dNpia4M4Ydlp0V49kdjNAUQ_h4u9OMAD5WyDjUGPNYi1-zo9N94syMy-3t5TfAPjR9tz6-eu6gOt6dC9Cv2iuGtKNDbMh20r-2bgNTbG1WXkxOIABQM1timQSb3BhltA7jYb_sJRQ_3c6IdzdkZ-muYgMXL8ODVqhUi5eMoNnjYlg_l41NtDA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJGZwBdnIZ2jER70pdXxDZSKk/photos/ATKogpc7Tz6EKEyQ-MYEHS8GYpytDZbQ1c_ZP0aO8fsw4kmm5R6cVG9NBcHeVZXCIWtyJLSInXieeEY_wQXw7vseAqMpa_R1j5m2HNTdbtbxcVlbD0mqowxvtI4TuGODuS1MPSPdDshunrwTJWEsFaOCPjSaDgodU4M1hBNMN94NqNfi2dHXa1UIKCXyUfHT6YojNNcgPqDEmCCMdm5o1JjTCnMNbyfte_bvXkEqlOjWmMOrg5hnjSl6Jz1qWsodt_4j-JmSf1XHdfqVLQHUUYLCalTuXc451yKoGkzv5XVT-E_Xew/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "bar",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Tamba",
+      "rating": 4.8,
+      "rating_count": 218,
+      "address": "101 Duxton Rd, Singapore 089964",
+      "place_id": "ChIJddAjwyQZ2jER_1O7DKDZhBM",
+      "maps_url": "https://maps.google.com/?cid=1406488265078035455&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJddAjwyQZ2jER_1O7DKDZhBM/photos/ATKogpcYPCxgvaL7kbjIOYFJAYkJArMl7aScVcSGb8iOTCOKPbmFivois7pyKJj5y-biW5xHxS3Z2BVr3z-0--4QJKrLjNJXlYl5k0rI3QSjMvO-eYcAYjXtlQ8qIY1HRxFSqXhNGkEWk5_KN4qc3pHPaM3LgMM91S-mtYnsyAohj3m9Vh4LoF-_c1K4GfHCpC10uunaKr8OI228-sfU9eEE-AuAsX6wR2Dp9dobeX3ucavDGNDtExLZRn63Xd6BFqpf7i9qyV57ebMQudOaQth5_AGehWEP1s8QMZH4aotDOJL_EQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
         "food",
         "point_of_interest",
         "establishment"
       ],
       "primary_type": "restaurant"
+    },
+    {
+      "name": "Parliament",
+      "rating": 4.8,
+      "rating_count": 190,
+      "address": "18 Teck Lim Rd, #02-01, Singapore 088390",
+      "place_id": "ChIJp-2nbjAZ2jERoFlLKG02p8I",
+      "maps_url": "https://maps.google.com/?cid=14026239406924061088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJp-2nbjAZ2jERoFlLKG02p8I/photos/ATKogpcM7xgn25ic0mVhKIV7Ga_pF8Yev4R2xIb2s4Z49vEROgYJD3VoeXbRGvwXWhBhD2oVOAqmyiYWng8aung8T1Pyz59F_RH7vr6k6NUByWuGT6odyBFwch5JkFeLnAktZm-oYoCbnfhtflxW8jM_WFiaCK36zqP_B_l4oOS7C-ak2kX5qr-W6edgj9rw9eRm9PIJfsmpZjic46JhH5-_LKD-NS3w3l1szX4doYJbkEVj-8uzNul8xBGOKh6YkDi-C7YaEjX63MSrF20QK3dL9vPMbU0vUsmR-o-Im5qV8mCgQg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "Mama's Kent Secret Recipe (Prev known as Mama's Kent Penang Delights)",
+      "rating": 4.8,
+      "rating_count": 116,
+      "address": "Blk 1 Tanjong Pagar Plz, #02-04/05 4A, Singapore 082001",
+      "place_id": "ChIJ_____2oZ2jERpXLgXEie7lI",
+      "maps_url": "https://maps.google.com/?cid=5975887789200274085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ_____2oZ2jERpXLgXEie7lI/photos/ATKogpcEViKpGdAq7lVT-Uc6iaVUZ_foA_eKpfib4DvnJIPkTRtywac0bF7vBy7HUZzUhPAJlmpVAF5cBMyUog27i5M4z6m-0AIcnYcrZb01J0kPAt1PqbURBJeD9kqFujC_CQX3HKpjdGwaIjUUs8fQdR18ezTKzVOkrbVPGLUIIxyRpWFkQ_EmF0cA3Za_X_yppcbyzseifs_j7p2XYo-AcyhWDjZrBgBqcnoTyDSFcChG6kVDlzjo8Ma8N7iYeuQmhIFU3Kbw9oTuYwyqhMkZGv0lBwYlTX4nBLizBPtBzYABmd-FVGsARQkANr149NeMFeAEjxL_S-gCSbb8M1gLgbutg9daGxuhiC9_87AB47fzuMqkE1H2sAybcuapmYE-a5UUjVetLHkQwTCDtAZgZnRzNr3RiQGSCPmkKBMhyGCg5xOk/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Meet Wine Bar & Restaurant",
+      "rating": 4.8,
+      "rating_count": 97,
+      "address": "2 Teck Lim Rd, Singapore 088380",
+      "place_id": "ChIJgUhApNsZ2jERO_Coa3gWIac",
+      "maps_url": "https://maps.google.com/?cid=12042931585023537211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJgUhApNsZ2jERO_Coa3gWIac/photos/ATKogpdJwFITA-x344P1CquOFaA9MBk5O6UHx-6B46L6OHudnh70iJzh1rP3JXK-y_3iGUDgF9N0mDAbp9FdytSasy4FeiToRW7xT12emWlUgRp5gyvTRqu8MkBic40vUf8-RTKzaMZfKjBaCocaqwj8ElpPQD3jMppMZaMrv3cKsUlxYcUATAhOpem8gQwExSWSis7TPBHLHCcN6nZappYOYd-ZknN2P_fiX6WG1vD3l4sjwhQKHzSZekxlia3xVgfgeJC2QFwmYNva_XBmdwpQDhQL0W9cDzFpowclQ46FN9WTb-e1GfiIccB0YmcAIutZFLM8UwuEq1styu5tcrl_f5SeuFcXkz0JW09ZLlEFmwM8TC5gh5ivMifJYUBr-49hTPT6EbeStjF4Vlh1-3p-BpBAnzfghHyi7fGkNtcWB8m_qLW3/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "DNA Oyster Bar & Lounge",
+      "rating": 4.8,
+      "rating_count": 96,
+      "address": "10a Duxton Hl, Singapore 089594",
+      "place_id": "ChIJK3-fWZUZ2jERvg5l8pWctB4",
+      "maps_url": "https://maps.google.com/?cid=2212565484776525502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJK3-fWZUZ2jERvg5l8pWctB4/photos/ATKogpdibS9TqrJ8R1nUWJOH6YZEJpzDOwbw8W2kWeBIcPSLPk2NhU6rX7pYVkv2OtAZyekMS5M3u4Nkm6g9BvYiIj07FE91Bulr-Deiu5GpEoTq1Y8703sRX5Fm81xV4mbgjSW-mIKOcCJ-eEYvo0AgV7-ArCZ7z8VG0anHITP9tM4VStIraMaf74ZS5nvR0EKoPHcu-xl5ezSmgcHxh5gJ_gPCOWH9wJAFGSfKzxcVN-mnGe0rdaIDCL9InYxCQ8LfVaBo93AIKRkh-VGu1mwxEYdBAJv1t3ZD6STH7DjkGJQyYHyQ-A9eU2NUG6lsgaFqx1NahSMC2a0DQW8tS9NT3jxnFegJ5wC84RTuOSvq3ZxO5fHpZKRUd_UWlEzASfj_ddakEMpgvuik7amdo1Xe5EoWiNe0CSt2GiqQLva2-Lc/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "Madame",
+      "rating": 4.8,
+      "rating_count": 38,
+      "address": "69 Tras St, Singapore 079008",
+      "place_id": "ChIJG4TWKgwZ2jER1WItjoiCVkU",
+      "maps_url": "https://maps.google.com/?cid=4996324359626646229&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJG4TWKgwZ2jER1WItjoiCVkU/photos/ATKogpcxpoRgDmBWsTqWbaoSKDORbsI98DGBlqmaRu-kQMHb-vjAIUB7nCfPKd8OejJ5-A2qo-pGb7pf1TyqTl_XidecW88-9xWSVr29GKXWJZe3T3ZQS065sjSAsALwn8q-WPRAsPUI-6rBSLfbCTfPVym0de3FdSEukPf__bPxH_3IgVWLHP3lqbdwCEV5MIfumbnXbp_gYoC3FwXbYJu7FXkP99AnAZiJqpjkcmZ2sxQcUFjXANp3CwKmmw-Y0hGB0eNbanu4DX9GrtDQ5PfolT0r_LeEDVL2xF6Eo1D0IUuLQA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "wine_bar",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "bar"
     },
     {
       "name": "My Awesome Cafe",
@@ -67,19 +384,52 @@
       "address": "202 Telok Ayer St, Singapore 068639",
       "place_id": "ChIJ83SVew0Z2jERsfl0iOB4Pco",
       "maps_url": "https://maps.google.com/?cid=14572936874998167985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ83SVew0Z2jERsfl0iOB4Pco/photos/ATKogpf_HgSP1GjxtdGqHrQFOs2vP1qEG9t2AoE0HtOOhhJKX8XiCtC5UZO0AxgbyTyTzz0PhPLEkd3z46MJivPidg2g2agnaI4j-rPEHjwbjt3waaO6c1BjZDXjeeSlQwg6WfaB4EeRdWZRo684FxBCx2K47R-h0qzFQ7lHRsXN97mJx_6WX4iR_5e7nGn65p1-_FcrjIOJiMDo8ef6Z8ERyGOvQ50g_vK47_DIRkZbpoLXVfqAieZjr95g3rmlOV1pUWWj5w18vNknfJRT14Y998UlWl3Qm4fkuz0XXrG_iPvBjQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ83SVew0Z2jERsfl0iOB4Pco/photos/ATKogpc_gBSdugPr2IBiEKGUnCUnsK7l6mKV1tnZyei-cTgpdE6E2HF_LuDJk7xBWdSoymCQECHxYgXtqLF45NNj4Xz04O4cJxP0UO2aun7Fk1AVBk9xyt129EEJIteNRhgZIFrJdXCPCD7lGGuCHTGQ9T_dTY7bPuHWpV01gMEuQeH1sL3zqx7ySJzpjRH5i-we1cW_DPnzf8R-j2yowXT9cwPgUX-4cqr4LrIPn_0NHyA2EVhxG-WoN8AGmGi4nZzX6rTa-mOFzwi9yJCLpl5hLSmj-o9O2iHZW33GWXECR-nZDw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "brunch_restaurant",
         "wine_bar",
-        "wedding_venue",
         "liquor_store",
+        "wedding_venue",
         "cafe",
         "event_venue",
         "bar",
-        "food",
         "point_of_interest",
         "store",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "French Fold Telok Ayer",
+      "rating": 4.7,
+      "rating_count": 3190,
+      "address": "204 Telok Ayer St, Singapore 068640",
+      "place_id": "ChIJqRiu0v8Z2jERvOTymJC_loY",
+      "maps_url": "https://maps.google.com/?cid=9698149475351192764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJqRiu0v8Z2jERvOTymJC_loY/photos/ATKogpcT-fT7FPCpDiYuv_XcPckuVaYTL5oarV28AYY_vaAmsZCcj6E1bT-Gsl1W1B97RA6h_FWnGB-Y8d2RvMiV5OOog8KqhSPK3jzOPGxDmp1qrPVY3rItxjhsaw1LiPO40tyXnYwFwpnqBKHWI87XqV58UwEeNu125-wCYmCYMddIr-mMbp4xQfwsSu9lXJDQe7RsJYfFBQA63LW95bf5DXuiwv5AnSlR-HnXRsoacSWkd-MyayunNwp2rcrxegB4geZCz1S8lyY73q4rIcO4VBfFQKaikl4laoClIkGEwRkrK9kDpfYorekVUS0NqlGq4qB7Lo_clL84a2Bxptza8qx0APZN18-0zGi1gxdHOlF34qnUf4503jSdZuZ4UftqHuCuO3Idgn8ioMhhtkyZep7LjmBU-ObFahX6eUhe86Ldwia0v-E9EMwYNDIK7w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "french_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "french_restaurant"
+    },
+    {
+      "name": "Seoul Noodle Shop_Tanjong Pagar",
+      "rating": 4.7,
+      "rating_count": 1656,
+      "address": "99 Tg Pagar Rd, Singapore 078520",
+      "place_id": "ChIJzYMPwQUZ2jERwZaYkXiUKn8",
+      "maps_url": "https://maps.google.com/?cid=9163299637398378177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJzYMPwQUZ2jERwZaYkXiUKn8/photos/ATKogpduuqgWBHlxavaU3rDO7AUFdoymUnOuK3TL1l_JngP2b9sN40FH0wGslpF5EMxIBrSj53rT1MnwdfyqqL6QwNMSq7AhJLILExIhtTN5p5bxXtSraau3ypEuoB4QTvNX-Je3q4K6kJc2VAmkrJVervVfjA51V8_Y5BX5erJLKFeLzuGlnfYeuLvXxdfYm7JUUqHSScah-JeYXYjC8lciaLgJGL5Ns2MLKEv9vxWnCPz5svNKsVtZzZJUGqKYu_eadqJ0BMxya3p4iF8grJnFRjSS3vlgdEKLhX1lm_ezlnG-Fg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
         "establishment"
       ],
       "primary_type": "restaurant"
@@ -91,7 +441,7 @@
       "address": "165 Tg Pagar Rd, Amara Hotel, Singapore 088539",
       "place_id": "ChIJ36AdBg0Z2jERvFl0QFoqZ0E",
       "maps_url": "https://maps.google.com/?cid=4712782102183303612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ36AdBg0Z2jERvFl0QFoqZ0E/photos/ATKogpfOiTTzy3np7J6Jk8fH_G-zwoiH7Do01EmSq98Df4nOYWny4xySEI2vlqxFwlPdyXot8KR2VgAgYTRDV2xnM4bjTLg-lG1gCjaWOMu0LzhF6FKu6jWUFKkacTS_ct_V8Lg9aYP9njGzz8mKru68ywiw9ahrP4HnQUS_tSy3OlhF480EffCKOeWPz1bNK4-3lh465IgS-x2F4alRFPa_JKkz2uFGyyS47wcZ13vHv79m48E2GMWZDfGkU7sJvsM882RNIbq1aV5VUOfPytd7iyxZwzR8cSsrNH4ZimwgMGNaPA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ36AdBg0Z2jERvFl0QFoqZ0E/photos/ATKogpdRh5IWqoK_nn9iiBXk26s0c1J2z0chUvs071PThxQ8srSQ9POVDUoklYeHskMm6rNFr69tOO5togwz93hYtrPiYnifnBXbyaldklHKnBCQt_LL2D0SVKnNaUrJiuy6-zghkmvc2fLQVvFMK3Fj4sGyHpAuKxjFE31-nrUgqm8KBYyrdhX5d3csb3YPbXGe9mzQ_gp8H2JqGUm3WMVNynFtFKfrVUprzEVPh5XM4070t7SBWoRkxfC-dkTJUvatrfnGWQItWsqY4l9t91dei7Ci4YYnDInfNkZOK5KL0na9mQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -100,21 +450,160 @@
       "primary_type": "bar"
     },
     {
-      "name": "Enclavebar",
+      "name": "BYD by 1826 | Tanjong Pagar",
       "rating": 4.7,
-      "rating_count": 42,
-      "address": "55A Neil Rd, #2-00, Singapore 088892",
-      "place_id": "ChIJAUfy32sZ2jERBgYah675Jj8",
-      "maps_url": "https://maps.google.com/?cid=4550599001490720262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJAUfy32sZ2jERBgYah675Jj8/photos/ATKogpfzgyp2bL037sH5ipSXsTx4dG2nPXJXTAXuuFdmHvPGZ2l3OekIEK19PVyWhw_sSkEbz73mq7Kp6sNYkoJ5oI0sMwzCb3NZAU8bR4WkiYNXqOWGO_ielCJvisvJb7tvSSkXqKbGsJKixq5M3IFjeM3ciifqGwlSJIdU3TbMdX11UZdMSsSQjGnG3ZMlDzERaAZhHmAScEasuMWeQ4gUg7u3dqH45dtFRN0IANBy1PIfEq1J8i9jp3KJK__zWqq8hAKN2kevH4vaT2d1KlPGDGKik5ka8hQgAVjG38o_HcE4cg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating_count": 998,
+      "address": "Guoco Tower, 5 Wallich St, #01-17/18, Singapore 078883",
+      "place_id": "ChIJMcW1b5QZ2jERcj4VNvBUdoQ",
+      "maps_url": "https://maps.google.com/?cid=9544909850934591090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJMcW1b5QZ2jERcj4VNvBUdoQ/photos/ATKogpfq8GXOvQHKrKq6hYVkUWVK-IO6B5-Iaf32Jvcd3xeMJZbWXEubMZFIJ08ne9RfgjkCknpV7dKbJ4Cp0_eicMcPryRrEkNkpT8fC3e84VX4iajrmjd3fJvV0r06j_yuuWNg7d-XF0d5Ha6x270ZUB6QpW7K_JQ1S7PYDxh4Y9hpXXjCm_RUSb_ysE3XGAsFgpOZGQlsI5dR4Tnz4fYEgP99PxFah4hle3zdSJNjgVDvqSAuo75e2RX2OuGmnYM-SUJgdS1BXgV8pczxosANTFvRiKpuZLjDepkXMV85y8zx-Q/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
-        "bar",
         "restaurant",
         "food",
         "point_of_interest",
         "establishment"
       ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Native",
+      "rating": 4.7,
+      "rating_count": 834,
+      "address": "52A Amoy St, Singapore 069878",
+      "place_id": "ChIJeZtTZA0Z2jERd2U9vPqi2Ds",
+      "maps_url": "https://maps.google.com/?cid=4312375840990913911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJeZtTZA0Z2jERd2U9vPqi2Ds/photos/ATKogpfOmUG8TVAGBDxXbiV8GQNc0D5RUonR1cMsa133q3LtOd94G6M2vOPY8bf2iWZkj4c18ozt0UU8IFzvA8ts--fQtJkiooe5WFbnh_cSMao9KmNYx-cFICUWNTX2a6jMuHt6dvf_ng7XgZRmXzL9OiDW3HCj24W0fiv_ZNOp-ADE9xiZ_dD-TyLHmaeTWU3YLPKRUmPFAb5DV9OuNOGkm6B215kgiIwY2AoJ6WmEwMX4RBMoe83Zh2rnmO6Nlb67ONyyyHSOGVSBESkj5ET5NqSvkOWihNJYHhn15C0oC4ftSA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
       "primary_type": "bar"
+    },
+    {
+      "name": "Griglia Open Fire Italian Kitchen - Craig Road",
+      "rating": 4.7,
+      "rating_count": 808,
+      "address": "37 Craig Rd, #01-01, Singapore 089675",
+      "place_id": "ChIJy910uegZ2jEROEQA2F_pKzg",
+      "maps_url": "https://maps.google.com/?cid=4047585287977583672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJy910uegZ2jEROEQA2F_pKzg/photos/ATKogpc4Rj6LrR_Pi71tYemza0qwbD2xAroqaYYjo7Mv3ExyG5P_SsX-TkVcCOWEbea4Q_tD-gpDfnKF3du6XaE3SNxmjYSGArQjMdC5PlHndEF0M-cN678xjNBSX-IfRvwG0OBQZ7t-uFuYa-hK8UtIinniO6DHlmcW6kAYMEr4icyKR20LWAi8ij6Twj-1EOwSk7-t99W8yFesZIWD01Ar68QFpi6okR_XitJ_wgSa3sPL_9D0zOf5WAtYaXnIMtRolUHk3I7ax-r9bVKwy1biv60x8oZn2DLRINZ4ogtcAjo/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "italian_restaurant"
+    },
+    {
+      "name": "Chef's Tavern",
+      "rating": 4.7,
+      "rating_count": 507,
+      "address": "20 Craig Rd, Singapore 089692",
+      "place_id": "ChIJ63aALm0Z2jERphNXNlGRGRk",
+      "maps_url": "https://maps.google.com/?cid=1808636503356019622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ63aALm0Z2jERphNXNlGRGRk/photos/ATKogpd8mIgPPtOdUIe-8zAX7HzN-FcgjfDij4opCaqIUS39Jq22Z6lN3KhTkIbKYw-1f0eZko40rbAt8Q5OeM-8ynRY0qeTSJCFWoPrNUHMwe2aIU8-e8jgkGfrvZhun5TsyjiR1gh-GUVbr3NJADfRG_MUUCO4yYmb6r2vrvl78a-5cBuVzW6J96esK31Ev6w4ZYGBRDQRcaA0QUJXFvSgdrAF-c6nYYQqTdWfz7PCAK44f2_mUKCeQd0MXr3pggyfGp1cINmktRJkBJhhPw2pyZ5tjhcv0rkHCuoQUQWwY5_xFw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "bar",
+        "japanese_restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Taylor Adam",
+      "rating": 4.7,
+      "rating_count": 376,
+      "address": "1 Raffles Pl, #01-03, Singapore 048616",
+      "place_id": "ChIJmSwesA4Z2jER_rstFi_9yl0",
+      "maps_url": "https://maps.google.com/?cid=6758492569500236798&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJmSwesA4Z2jER_rstFi_9yl0/photos/ATKogpc8DbyKVMFO-rGHzbAq8R4H_Lvzz-nuUH_jUX4CzxWoU06Svvr-A45tVapRH_sRRrSuM3g14h0qkqYy7NAyfSrzFvvJAio_KK6kZy9yQtQlThR-LFOSicqpJaNTqzCQmY38ZPt_TKBDRADKdJONCvK5pZCsiQjHvyCFmI480Crm_OVP6Y962EfROO765oQzYQfrdXZYDRkOgygn3xUdakAeepS37b2VPuBi-E57ormiDzDN_iyH6yN9YkX0d026cPY_53zmmOyhw3SAXQJbV3_6g5KA4QQWqv_Jt4czim7izA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "Praelum Wine Bistro",
+      "rating": 4.7,
+      "rating_count": 372,
+      "address": "4 Duxton Hl, Singapore 089590",
+      "place_id": "ChIJ0bgRZG0Z2jERyA0OoV6P3Uk",
+      "maps_url": "https://maps.google.com/?cid=5322567971213544904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ0bgRZG0Z2jERyA0OoV6P3Uk/photos/ATKogpcM4hREVR_upc4sEVSCl6gZqnI-mdpHfy5k95WgDPs9H0sHmde1wYP3YVWjTjDjC2DaZ2reCuF24lCo9NSlFV9XHochM0s92H5padhmrOkXVFlpTJr_00LojcFDVh9GBR6bjkR8fD6pCj1zZvYTev1A860YunfvwjTb2IBfEW9e-q2JgbHZYnJxYLXg06hD0dAV_JtnH53p7Zzf9cKg1KgE8wY69Xsv6vWilS5qhhfmjLDJ4O7pEYft1KSZjDiBhMwl602Ie6uyzKz7tPUwbpEd4reXgan83NsPor8pFyczkg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "liquor_store",
+        "point_of_interest",
+        "store",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Cat Bite Club",
+      "rating": 4.7,
+      "rating_count": 174,
+      "address": "75 Duxton Rd, Singapore 089534",
+      "place_id": "ChIJk04hRdgZ2jER-20uIYTmdYc",
+      "maps_url": "https://maps.google.com/?cid=9760961222562180603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJk04hRdgZ2jER-20uIYTmdYc/photos/ATKogpcRzD1koaCZUFh2tiqhs9HDGL_kbTXLP07_PTxjGlnOxXVWtlmw6VGxVH6diaU_wdrnd-r-Bjerl_skHdEHd_YzNGEUlylAki0Gw5RegdN0yy7ObXYeKCrbQFhU50geCUDYiA5zuEnKhzRKKLK1Qqc8cMSVcgKGj9viIFUUHZLxBUkrBMLWo6gl2oMoIUNXFJBw6pt0QA9k5Kg33gUZyUISNZPwSKuZfuskq8Fkar4eRVZxjAUH_c9TOJD_zsRRGp4R_6Z1_xU48UYVwW1vgxqpDfmhCcQnNCSUhblcCyyu8w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "Side Door",
+      "rating": 4.7,
+      "rating_count": 112,
+      "address": "3 Neil Rd, #01-01, Singapore 088805",
+      "place_id": "ChIJ43oEGRwZ2jERPNdexSLp2Io",
+      "maps_url": "https://maps.google.com/?cid=10005002907753043772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ43oEGRwZ2jERPNdexSLp2Io/photos/ATKogpdwVmIlIgI0rrW8wQ98l0UWTzcRyZrxhIaie82Etp49BgvZ4g-TnJOyFtqH3yfNQVTysyeAER303YzNrRKcey9jFq3GeElT4C7ng8lAy9JfoK6HhKP5FC7xKO6oJcP7xkmiPfdyZzK_HrLBw7KBYin5H9KpHYsmvak94cdmzA8CXzOREbIQgCC2m5xFs0C3aKQfAEqaDfIi3FsUAmYbMY1wEgW1RVQ80F2R8xeEFVeuJtjMCCwtDSRp3LgStoax1H2ABI8vXFH_kvWtr6Ul87f_qML6cLXnydsK7kxuRvYQuw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "O.BBa Jjajang",
+      "rating": 4.6,
+      "rating_count": 2673,
+      "address": "77 Tg Pagar Rd, Singapore 088498",
+      "place_id": "ChIJ1Y23JG0Z2jERCNoLztj3Zmk",
+      "maps_url": "https://maps.google.com/?cid=7595030332148800008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ1Y23JG0Z2jERCNoLztj3Zmk/photos/ATKogpf1Q3IJIZwubwnf2CQb2XnuJiW0FU-6zvlJVWnj2wFhonXZGolKBGP72voR0_M_gCUEkxmpPHBZeKrinMBiS_Ty0x2BXgcDSIqccSL3C-i_p8jm3oIPsEMDpdarjuBYgIkcEnAFzuy61Jlr3r3HA7twV8Ki606ueVqlWntByzVxEoesx3KbbyfBl1JFYvTJKadoUtn8ZB9m9QSuD5fZ4QdPHUw-27hEWXUMPviGN47AoJpUU38yLhzhQk_hfz_y4HMshfEkG0MoOEmE8wmww9PzpD_V9l5vdQUl6_4jJAcpz16AL-59ZfAmflYSH2DOKzspY5SAJgtuR70Pz4GTuQDZgHCiWaSxhv4RLjTWJrIGrH8oRPcElsgc9SJZQ0nH2g-oHAkkC-ue9Qd2Rghs-IM5fTLw57tRqL5kJ-jXC0vkQs3K/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "korean_restaurant",
+        "asian_restaurant",
+        "asian_grocery_store",
+        "restaurant",
+        "grocery_store",
+        "food_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "primary_type": "korean_restaurant"
     },
     {
       "name": "Kafe Utu",
@@ -123,7 +612,7 @@
       "address": "12 Jiak Chuan Rd, Singapore 089265",
       "place_id": "ChIJh1wCZnkZ2jERXbJCdT_iKGo",
       "maps_url": "https://maps.google.com/?cid=7649612729266909789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJh1wCZnkZ2jERXbJCdT_iKGo/photos/ATKogpdZVNnbaA3CHnMhJ5yF5Jl1GX1eIBaTigoK2nuCwHdXVJ3S1rLPdWyX0IJQvS99pAo0Kp_FY2Sc-MEww1l3BnUDJLiVJGGOuM0hjTDNKTXM36EF7r9b2-CBOaFXTRo5FTxyxGQDQV5O87D81lw8JaWkYQM7PjGLVmLsvw_BZlwSwcwM7eVM75nkuDWNY1wDNVMh91Caz4LvlpEqi0EgfLtz_QibDQATxWYCHW7tNe3OcexOBT1Z69M1ztgrFPsG952jGU13HmDHf12GAB39wuzmPwf42WO_ww6HuiW3AyuqPA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJh1wCZnkZ2jERXbJCdT_iKGo/photos/ATKogpcNWk09xIo0jLAmwKOgv0FiSFffGIQEaDAfuM33qugkCGHwi2I-z53dp1XrHiJryzqvIj3Fh9jVXe6XyQFvyGd2rDllgsWTCwOwNFMAjB1TLMMKKJ6daGFMhinsZTUsibze0V8hBPHxitGkdOPIVQp0Q-htlWH7tgdQHqiMA3Vjk4WXvVPWOoQ5RNdBO92KiBKy2JcGWDv8UgplSd4U3sLJoYcwkJj7jzb3mxW8lmkkHtrbTNeipT-XXDcJi_V4FuRgEPexNnK46QJM2prjt8FvN9mm0LTyCK9jXFr2eN5IMA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "african_restaurant",
@@ -135,13 +624,150 @@
       "primary_type": "restaurant"
     },
     {
+      "name": "The Marmalade Pantry - Cafe Bistro @ Tanjong Pagar",
+      "rating": 4.6,
+      "rating_count": 1437,
+      "address": "100 Peck Seah St, #01-01 Oasia Hotel Downtown, Singapore 079333",
+      "place_id": "ChIJ4TWEs2wZ2jERlHnfsC0JPQU",
+      "maps_url": "https://maps.google.com/?cid=377468035614603668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ4TWEs2wZ2jERlHnfsC0JPQU/photos/ATKogpcc39HLdEiKVFmBCgYolbb02dgOMHXVeWtpB2FRdfrqQQ6bzM6mBDTwvNBgkIFJJfrXlTC5ABV3h_RQJJ0lIRoyjBIcSocWHsbYk5eSaPjoNnhMHz8yqKwzaaDjK6mzPkNuRDF9ykmpLVuG60WoU7k_QtPO_bWqRK2_NbdefqOzfahKv0GHfWI7QDf2TaiJAGo7mJ4-_-BjYgVBTv9asvBvaxQ1qX8GCAfVKwSUWVJwTKhQ7-INF3JWe9URuEcYJsxY3-dAMphum5nFj30VDmmknO9wGGt-gCuv4iwCc4vzYw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "brunch_restaurant",
+        "dessert_restaurant",
+        "cafe",
+        "bakery",
+        "event_venue",
+        "wholesaler",
+        "point_of_interest",
+        "food_store",
+        "store",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Burma Social",
+      "rating": 4.6,
+      "rating_count": 1162,
+      "address": "34 Tras St, Singapore 079026",
+      "place_id": "ChIJs3dAVM4Z2jERjUXegbnZMOI",
+      "maps_url": "https://maps.google.com/?cid=16298766442224829837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJs3dAVM4Z2jERjUXegbnZMOI/photos/ATKogpcuRm9yDNn-uhEKwLqyQlV0asmsIhOe1hQgY7LJuO_vr3sZQr4wHMOGuylRKviSvF2Ts8i3Y4EevKybbmPpUJTVpOdbbCHOJKUkYN6aC-5D326D1nhk1EcUnqAizJoFNimccms95O4ufrDsD-_74usayWKEgWc1T4moDUcQY-zeEeJ4aqEaOphtw6p4B4le6xgWQ2GvLwEsWwYoMSlgK9GCMTUAFVyzlufMtnp3VAcbmeV2mTXl8Xe88uOA7pnPN2A6Eb7-Zk867Y_ONgKmse4xH3Jm6GkoU6GsFURADP05Sw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Otto Ristorante",
+      "rating": 4.6,
+      "rating_count": 619,
+      "address": "32 Maxwell Rd, #01-02/03 Maxwell Chambers, Singapore 069115",
+      "place_id": "ChIJWxVlyBIZ2jER0Wo8fPFxt88",
+      "maps_url": "https://maps.google.com/?cid=14967557168574524113&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJWxVlyBIZ2jER0Wo8fPFxt88/photos/ATKogpfAyFs5xcE8SxQGyjXbJE2o8bduXRxHNVZXhc6nHavqff8sfM351vk0wS60QxiRSvGpMFaDU1d4x-ghD9cgYJBGqONGogGMgrSP2xRJ5eGSoj8P7CINCGWrwBRHhLkvRrAgEJg4H8ayMuWmYJ9VQDjodJbpAylr-U1CzHCCV3qhCRz5ERYh2bFwsXPFVu3gJK6TH-yb3B8DKnyhQfXEyxfrT95AXAzHNEkVyn0m0Mgevlq3zd2TPf1yyQWyM47PdCxK7GGwuvAjH_lzGskeTlaXr4ZH74335giFsNLZkBt_tlbnM_YYzlHxg9iM_zRLoLrvmYK2PoU3bOPbJ123SMTx1QmB4wTI7OZ4JDCueD81PYsafj0n2QcWvyvyWn8mZ7rpFXHt0IurKvnrEldeH9MYv_sMgiUsDyNcN0QRsepmpraD/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "italian_restaurant"
+    },
+    {
+      "name": "Bitters & Love",
+      "rating": 4.6,
+      "rating_count": 534,
+      "address": "118 Telok Ayer St, Singapore 068587",
+      "place_id": "ChIJ-6zr_AoZ2jERoSRdI6lsE0s",
+      "maps_url": "https://maps.google.com/?cid=5409787051100677281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ-6zr_AoZ2jERoSRdI6lsE0s/photos/ATKogpecmOY9qZMbsfA7Rtr016JHZPQfa2OMjExqZuL9LXwRj0QR_ahPEz-KKkHCthgOSsiMsyf3YYAqQaxsMWQUoODKZMAbxflNzy-D6FNqaySy4eV-_iYjsN47vlGfXtSEgBotaPAKmooUvh70PIeWfHtOclzDFNkEgsGWZgMm4jRmCkhqn9UtPxRLyvECc8UghMPcS_iYiKfZqlpak7CPTMUnu1VBPhgwQZE7xh9W1G83mqdcpuudeiKxPf-AY79Z6jRjzrUOnnnasPY5H8k43IivlqWbfFFrktGjsi3iAIj8Eg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "ToMo Cafe (Neil Road)",
+      "rating": 4.6,
+      "rating_count": 440,
+      "address": "57 Neil Rd, #01-01, Singapore 088893",
+      "place_id": "ChIJ43MkL4AZ2jERA1FYPkeLz1g",
+      "maps_url": "https://maps.google.com/?cid=6399486733621678339&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ43MkL4AZ2jERA1FYPkeLz1g/photos/ATKogpcby4CSbS4-idnOOC6IMMsgkreRO5Nb0lPgevgKLuMEdqxNaypdShDUzkLKx7tc1ckf6Howebs-g0IwEzxipMVryqWYUvccTig8kS6sh9ldn7xQNJwloJX4GWB3V0Cexk_cKxc83hGhy9-CnooDnS9Z5rCelXhJ7mscGt-1Vcuv2rllioE89Zy0XfeusDlzZP8a8myBl13OfkIjwxXcYbGkfTiogwcqGBL5X4_J3xfWUwu0yg1EXocAZ6_ifxcjk4i0gmvO5ZVjJ9HqtWxhF2UorL_ZWAv734vrgtYBAvp-JBZUiPvlDdSYhxLDjIcZCd7vRPLXnx8dn6Hvta7AY26qydWdqI4UqOYbgmb4dMzfoc2Cp6Z8ug_Mnm85GDX2JXP3Ob_SEDPBU79YIGF9TqPLf2bmXGVk6Eo1qEvjE3LN2ho/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
       "name": "Sago House",
       "rating": 4.6,
       "rating_count": 428,
       "address": "37 Duxton Hl, Singapore 089615",
       "place_id": "ChIJocq8M6kZ2jER1vfKalVGgqE",
       "maps_url": "https://maps.google.com/?cid=11637941719756634070&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJocq8M6kZ2jER1vfKalVGgqE/photos/ATKogpc10fe-AE2O0Cc8ZtLs3kFbkZboy6jqCHd3zXazJK8aVpscDw1QBSpCtthOeT1HJlNcvjXGUoNbvlkEIHRXxjN1iiv7B_XzdRp8KWma8xASfg1BwkBp065JwEgFs_PYzIblUsV4-GmGV5mtTHDgd6Sluo4Y-rCMU9ePC8CPAlh6v7bUuIvQqaggBPPlhon-6z6_xFu_EBGVly2JlpU_AZbDqIIFauZlJVtmqxB1vSUc0SyT7bg0tEQ8xtuEySVSO-gELweeb7g236FEz5fIGlsygbZ3YvSc_UurTe5SUUF8DQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJocq8M6kZ2jER1vfKalVGgqE/photos/ATKogpenUGYQ0bXurELL306KwqgIZkzyqJWaQlss8CH1Jj0zQkfhc03hf05k-JHIelsetnuIEsiUi8v6f7Jb8rlWjppvAHwN2A1LUYIue3_Mam5_tHfMZ2mKX0bWv37znrudA9-3Gz19OXX5-Fb_85R86W5EA_W_gfj3k-BOMzQ78m9j4Gd2vYHCbq_JaqSbkk4v4ou3TpMNSBQfx-WcoNuO1Tw3JsYS0cDqk_GQzbxtcxwf1Ai2mt1Qo5JS0lCvJawIijfugw5mNF9YCAwqfNsPOTvSWnrXDl_HqjxEIIUKTGfdUA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "Bottega di Carna",
+      "rating": 4.6,
+      "rating_count": 353,
+      "address": "16A Duxton Hl, #03-01, Singapore 089970",
+      "place_id": "ChIJFxIrALcZ2jERf6kfJgXc_2s",
+      "maps_url": "https://maps.google.com/?cid=7782180595792062847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJFxIrALcZ2jERf6kfJgXc_2s/photos/ATKogpe7N46wWkOhNuRuxTuNkfwrSsBHJG39bzGBbiWVEQH00zC7vDkPjJKGW7b8XYtWkZ6_9zx-QKJ3COvQs6pDqO81Z8eWUchXUh0sKt2YBOrBU_88uSvOTojfUC1axKPMGOm4RPXKglPNh3pUK7xUIuHBp1GmTvwHuZiPFJAXgA2OWONzOsoc-9kzwQstbn7O0F08gyTj1eBnaAd-fAlIvLA0zLYoUrb68lyQgTKhBarnDxLZ1R-1PC47seIfphUKW6nhO19HMtWSrawKDtFW8rkWqZstCb-fsWkhdUuNuxO1Pg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "italian_restaurant"
+    },
+    {
+      "name": "Fleur De Sel Le Restaurant",
+      "rating": 4.6,
+      "rating_count": 312,
+      "address": "64 Tras St, Singapore 079003",
+      "place_id": "ChIJp2UFL20Z2jERJC_y2icO1kg",
+      "maps_url": "https://maps.google.com/?cid=5248397980086710052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJp2UFL20Z2jERJC_y2icO1kg/photos/ATKogpc2gvUuCFH8mGs--oTEGt6cRXopfURp8pnNadO-KvCs3CthOrfxlroSKEmcddymD8NDXHL6vAg-q9FkdACxOiCk2WGtCLiW7Ss7zJg6iHfIPeGuu1z_rCff6SJvWGyK_Jrh_O8G4W2J3Lt0ZMsn612WDZKnH_liDtkS7nbeCVNImNJksKzQD-g1chgp16oe-gGv-Fp912VDK0jQPZqtCz5IewgEa1eTBWBpqI-38q2AYoL3IbtQNFt2F3NwBDrCIWfi_qX71f7iIw6bWIBd5RiQM1CI4hYcQ_ZEVRRfCvEPmQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "french_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "french_restaurant"
+    },
+    {
+      "name": "Live Twice",
+      "rating": 4.6,
+      "rating_count": 287,
+      "address": "18-20 Bukit Pasoh Rd, Singapore 089834",
+      "place_id": "ChIJbfyg5TgZ2jERe8mNgbZbxlI",
+      "maps_url": "https://maps.google.com/?cid=5964555595914529147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJbfyg5TgZ2jERe8mNgbZbxlI/photos/ATKogpdeJOFv3g6RWnn-Rb5mnzIrB93-izK1ijCAl8fc56W7uykzd21FkjlPfyzrZPDErf5tS_ME4LXJZ_rGLJHxcHdeXyml1c7QpaSqpGlBMua3QJKYTzhqzbsHrxM9Xz9w0a9ZyJicTD01IEbxIJRAKiyzILwV4ifH5Ry-4-5quE5JAg3sEkGqLzM6L4VUDV8WUzDqr2luQfXyWOJSs1IeLDv469HBBpuKZmYfm8Sz9m6h6pXQPwy9nuUJGCtW9EaaAfM6sF3TcYctWk9RYHRImnoHt-0NNBfPRHM1S0W8cT6hvA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -156,7 +782,22 @@
       "address": "43 Tg Pagar Rd, #01-02, Singapore 088464",
       "place_id": "ChIJaVQGuSAZ2jERXksUhoJT-IM",
       "maps_url": "https://maps.google.com/?cid=9509442433253133150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJaVQGuSAZ2jERXksUhoJT-IM/photos/ATKogpcxjp8pFd9z8U7vpaBqIg4UWeBaI76lM4cUkSwzWeNrGg5cv9ZE9juyMOjI1IfxQO0PB-eVGB-gDwLi0RrIMTOiDMVA20mOtg7Greq7PWJ8M9t-xFUh-NZ17ivMFwCP4eGpYrpcxPKYSDVDmXvwKrlTOdpCc8EyzbE3tQyrABGousT186v1hVa26rBJTb8Ij6OnICVkWfHGe-ukhA6zT6fwHtt7tgETr96Duz0EO33nUKVy-eebWRV0FEQUaKBuab5jF-qiGQj9_8f01uREAwfdVvmr3o4xXRixE96PedESuO6AQSJR6LMVuI3Rcc3adJIWc7GacwzoKHzFrQI5PRRZFDxQW7DKoReeo0oBxds4pBvh-q_-ncM0_QADaStaw68RB_1TbwNatDYwXOpC3v_ObnhLEME013LSB9UfEOGLkKjb/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJaVQGuSAZ2jERXksUhoJT-IM/photos/ATKogpe_Y9sqBYPGfgtVdVEs9HcwmTtdn-ZOQrmUqX4ZNhypGHcK1XvYyO-1nGAvL9xTYSlRScC1N92zNtdtAwSjbU65mFSHVG6EbUZKX13fTgs0Ntlh984eTh8hv3Xwjb2YvLAwZeBM190bJ69rTTgeUNNkqEMnH85fr4Fe6-nIXJoI0JcMAeJ3m61GJ9grUh4bgTvNPkNgeXdAF_jm0hmHPU3wlL-gZitlvTv4hq2nacrzwqVQ_u__vnCXH3fMk99FcIBchY5Hrlvtkvck6YJQAfCPKBdRpt6RwzDcRFODE7cwLhfwJ91SJ7X4KUfsG-Wzd_ngeOStRtERTylqJHO2Q7wiJHFnHQQtJbLzS22XbLlLXqCAg5EECASXH7MFLsN8NkBPX8pcXWtMB-x7YZk-oTwWsL3pqlpFlUmMCSGKzf_f4rrj/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "bar"
+    },
+    {
+      "name": "Foxtail",
+      "rating": 4.6,
+      "rating_count": 164,
+      "address": "1 Keong Saik Rd., #02-01, Singapore 089109",
+      "place_id": "ChIJM3UlUrcZ2jER0b1e-GPP9DQ",
+      "maps_url": "https://maps.google.com/?cid=3815902812565323217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJM3UlUrcZ2jER0b1e-GPP9DQ/photos/ATKogpdFUPPfZYeQXqKjNBJ_ZzhkKOUnshgK_68CsCGYrc4HcNWfDEZD2SOzcTRq9hodEgsOE_XUcbIIKG2368qu8a-vY_eyK9mW22t2Pdp_E7j7yOzBYh7ErEM-uayhFw9KjtzBxDAXi7zen-5p7fZsFloTjcA5QXmR_5yxZQwTXhxUFgpCXGSWjVZp7lBuFS_Wh4hQdMTyloAIjmPFsgR_Ql96Y2BvySLnjMzf-zhccCdypXhmk1ad7RxpvbnQNeu9gKvVJ9r8w6x2ul830Ol3_PXW1Y9do6W5xFMxgqmBODnb7w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -171,21 +812,108 @@
       "address": "32 Maxwell Rd, #01-08 Maxwell Chambers, Singapore 069115",
       "place_id": "ChIJVeLWOYAZ2jERi-GzITIx05U",
       "maps_url": "https://maps.google.com/?cid=10796026823120773515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJVeLWOYAZ2jERi-GzITIx05U/photos/ATKogpe9QqAXyw9VVnn_M9zaJEY6y6lH_6eA4mS7IdbMfmszDaQOQPSfHfhzf9oJSxToVOCIVZg8im2epAgLA14CgVnbV3f58WJz9EUCalWorvz-AcY4HO4J1qsD1u2tg5UHP27pfzrs6eGVOXs5mlXzA0BfS-BcCSwewT_gDnMew6TFNNBxp2-Bp1kzkUIUN9bMBDbeqMEZF593-n9_Amd0qVQGuVFM9qhgN1SYXpFW9bviAHC-9NDdjBjhgIgfZNFSHwzxK_PMYisU5ncmbe-1-O6NKS5Iemu8H7d26tU82zcrAw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJVeLWOYAZ2jERi-GzITIx05U/photos/ATKogpfu9bhXyaQHmjnmRFVJsE4w3FBbbQK_RKf43GP_xK_KCgYbnVwggti-CoKQ69ccfhsqIH3aNkcYW2jH6oVygjoGFoyHdX56AaUtc2DfZ2O2GyCVIgRBaDo8c2u0RsszrBDdY--qpZ4k8KXDvmUvEdyYLe_bzbW-u3b-Et6hW2vOUKIhO3wbcCBAq0Dx6EqB6M5zt-9LJuOk61R6qi2EYKHGtqc9AJCSOhrFaZpPRn1Zt7gx_tBkcGRNfZ99XhBxada4jRm59OydVE0nkku6ByUcYwTXYqJQ_zQRgZhzOrhrjA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
+        "pub",
         "liquor_store",
         "cafe",
+        "bar",
         "food_store",
         "japanese_restaurant",
-        "pub",
-        "bar",
-        "food",
         "point_of_interest",
         "store",
+        "food",
         "establishment"
       ],
       "primary_type": "restaurant"
+    },
+    {
+      "name": "Two Men Bagel House Tanjong Pagar",
+      "rating": 4.5,
+      "rating_count": 1535,
+      "address": "16 Enggor St, #01-12 Icon Village Altez, Singapore 079717",
+      "place_id": "ChIJpZh7TmsZ2jERUtSFj2K7Db0",
+      "maps_url": "https://maps.google.com/?cid=13622750479854720082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJpZh7TmsZ2jERUtSFj2K7Db0/photos/ATKogpfPNS8VuV_vdWVFbUScRxqfu3fnZcG4e1kiOttm7FEomT8ltkDLPBV0qTmyyBGmZjmKRcaTBBWsHcxIF8gcWVhFYv2NsY8aNHhPVg44PJrZo-1KKOqpUnDEbD9LqZfxkDsRH0qES_BmHu_1urme1j1gHUftgBlJU0H5fLj1TndrMt60dZ-B8LLuvKSUTYTYo4JXm5BZTAIDNhhVFumBO530IurcnOv7KLBszHtr7lls5xFsJ6QTKBCG16bMSJgg48Np9ezKWZEWgF-mBwnZaEYCx0HjydySvWhIngYb_Boa9-b8-0Fm30lyopqsFWN-0C_ws9FGLxQLPlemLZDP8MFcl2B0bKggZHr9zRNhBCQN30k-FiykM5d2itJf0XMjSrjF_02uKPcSq-NoWrCuadYi2s7V5PuWOpVPdfwR6573hQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "bagel_shop",
+        "bakery",
+        "food_store",
+        "restaurant",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
+      "name": "Alice Boulangerie & Restaurant - Icon Village",
+      "rating": 4.5,
+      "rating_count": 1063,
+      "address": "12 Gopeng St, #01-05/11 Icon Village, Singapore 078877",
+      "place_id": "ChIJ6fBlRHsZ2jERuDtMge1ovMQ",
+      "maps_url": "https://maps.google.com/?cid=14176321096341273528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ6fBlRHsZ2jERuDtMge1ovMQ/photos/ATKogpeNB-wojvwXYNJgdtysaTtzfTf133nHg6GrJzBrunUoTHH8qMLG8GUQvIMKS_fjtS9MjRZ7Rb2-6Sez48UWKlWtNnhw-okZdHqGXcAaXC3WTpob69KrI86gD5D40dtIlpZ3SrF_loYYWpXsfwVOaQBwXNr1LbRSJ93jb6_CnCblgjDqCZ10CqUeauY_ZAsmmlpui37s7ZkRETF_XDA1DkAMsPZh6shPZeV6sae_tDxGP1r9I8T4uHeUckuAJpDv1uM9L15lf3nVX7OUKhfQdW22aQVPAOmTvqJ_swVwXmQHZw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Teppei Japanese Restaurant",
+      "rating": 4.5,
+      "rating_count": 869,
+      "address": "1 Tras Link, #01-18 Orchid Hotel Singapore, Singapore 078867",
+      "place_id": "ChIJYWuy22wZ2jER0SsGm6Lbbq8",
+      "maps_url": "https://maps.google.com/?cid=12641282695507618769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJYWuy22wZ2jER0SsGm6Lbbq8/photos/ATKogpemaHpRLDE339w0R_N2dcPC9K7c58iFUTT2nLj2jHTsp3KiekjXXnGO_lKRwWPSou7E4NDW0httjCutxec-9yMuzjyVgYZ6h2C8jMgPjRLI9M4PLYOoi4Yff1dgwcBQTRD99OtaG5lW0XxjICK3f6f9OXyt0RITIxl8PzuTFD8xpB4sSKDIs8EM3dXLSTwlnZL1zWzHXbHHmsYfn-_eGcsx1aH4qtn7JmU7smsugnVFJaT5yRXqUONm5Odp9s3HlCf-OlZf6FOMVGmotNebdEsZBUKKYOXSdm13FmmdK6iz2baMcWD6hdY1Yu5Cenftv6yFiasnOmlA4BL5WW4Jyq7vcUH2-ZXpCVhTZU3OB-IsghVLNvRrSQebmdrONmln-FFmPyQ6yVmuFAgr6oNEdIA1T1ukHH4tdGI4QDzvFYQbBqsn/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "japanese_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "japanese_restaurant"
+    },
+    {
+      "name": "Le Bon Funk (Club Street)",
+      "rating": 4.5,
+      "rating_count": 744,
+      "address": "29 Club St, Singapore 069414",
+      "place_id": "ChIJVZ7D5gwZ2jERXWvwVjpU5DA",
+      "maps_url": "https://maps.google.com/?cid=3523033418054003549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJVZ7D5gwZ2jERXWvwVjpU5DA/photos/ATKogpeJOI5zJKVHEbBejDq44djttrpc5cs9q4tPwZ0PlUr9Zr-b2WEIbx8Od3l-Cw4IkAcor3NRokqIcr83liRmvlcznJHBzQAuqQocMsHZ81K1oeDIZ2sD6mVaHwYdc1ACJuDppybwbJ4iqVBbIecHmj6u0YUBLff3QJALvzTSRCi0LLvNBW2PHIY1Y_4bccl27Cgl_WqcGl_6-bC96_zRdpC_3ED2MxsyKDQ1Wljegg39Zjp8mwqwKqmAJ7KghCMiWp2mf9iYYLwOITfAcjbtAAsuSGT7x3RuphkbK62t2CVT5w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "wine_bar",
+        "bar",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Gibson Bar",
+      "rating": 4.5,
+      "rating_count": 447,
+      "address": "20 Bukit Pasoh Rd, #2nd Floor, Singapore 089834",
+      "place_id": "ChIJsw3kjW0Z2jERT4MiHoOfQTI",
+      "maps_url": "https://maps.google.com/?cid=3621350960877699919&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJsw3kjW0Z2jERT4MiHoOfQTI/photos/ATKogpeBg5We2W8-rhNFb6xXAYcHzRFE452HH6B1FSk39oXX--TWurDhOzUQCDMCAQ6v__yzKbVqvRG-e_W_WwYj49cj2qhGnYtbMG0x4N6ZiUSVtiD2JIxis6wnhpbvQ-lUchfRT4zFnhjia-p7gKLW00yBJQ0jw3Ki3PqMR0QSRjJfGwhbHha3s2JXWBZKQOKUaFDGYUjCwTgjrfhD1GNEM8grfYhVKYff87EZ4ByC6gdP4ro__Qc1sREjIDi__d4xWZouiZjppm_t79Sbn2Xocq1IZvYjFwHv-NHGRGZYF5NS8Q/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "bar"
     },
     {
       "name": "The Elephant Room Singapore",
@@ -194,7 +922,7 @@
       "address": "33 Tg Pagar Rd, #01-02, Singapore 088456",
       "place_id": "ChIJvT8y8V8Z2jERMp-HfDjJQZw",
       "maps_url": "https://maps.google.com/?cid=11259501787847565106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJvT8y8V8Z2jERMp-HfDjJQZw/photos/ATKogpebU-9T0R2_mK5qwcbSpgc44nA8NycHB9s2uMWByzi21HQykcGR7g5arxaZCNXo7rQSqJJPy8vKgwCMyTNfP_hSnT7s-LfVjKZIEyrmLDhsVXzxDqKHCVtYmO9fsYEZQrxyHS46MTviPGn-hpVzVDrsKcsRKIR2qMLwYYovy67AurLn3PXOgAmAkVCluZbQ5sOomSWo16a1t_ApjoaORZabnqAoLGUBO04frudmb54ExWnnbojiWnufgwhNeS-4DBwoNiw1wZMRHzUf6kg8qQqTSrZ0j9SOidKHIgVdVkWUfw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJvT8y8V8Z2jERMp-HfDjJQZw/photos/ATKogpe0XvsU7tksRnh6GPKzh-i8sOfbBSVXjxG5uFQJabEZM3pT3sQfZopjASXl9-Q0cB4-nyn5c9euNVdOVlAIK8x0s04xMW9hB4m77nLOItkLyEF7D7Fw6Mn0BpUl2D4_UykVn1cOKy9NrGVl7Yn9kYHGnh9GZCfDuPchVG0OBEfXhixdh5B0gmpJwgtFUjtgSqcCJqY4OczYFFjtjds5hjhbVM8j9UtLodcCiLuQzmFpZII_58hK1L2l_Qa8qRNITfzSTgA3FMH_Bu9VihZoqIdd7PKTq7FTHWlR5bagy7oG9Q/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -209,34 +937,16 @@
       "address": "70 Anson Rd, #27-01 Hub Synergy Point, Singapore 079905",
       "place_id": "ChIJ-6eVAvgZ2jERXmewPCfIXSU",
       "maps_url": "https://maps.google.com/?cid=2692528223084898142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ-6eVAvgZ2jERXmewPCfIXSU/photos/ATKogpeQcKXfzAMDogdmkfDjBawjkZz6Rlym_dAnPq6pT9XUFkPnGm5Xa2Buza3DPrgVuOmGbKwoKjviVooJJjzKz5-wI9V59AmQp4Je7egyjzuSuJvRDpadyC_c7RXWYzRn3X2gi-wsYHEwSgQEioI77IoUGUXJmOzZtbw04PVRHDDkvPdM7p0IKcvU33qRPIoWWMAhHRytla_C9bfwtFOXrsVWzp8R3AK73yHoyx4Z6LnAnWMHPjVOIeUOCsN-WkAUAiyjtfqlJK4BS41qYhpepl3ffVlWXd6vKtN-h8ski9-YPw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ-6eVAvgZ2jERXmewPCfIXSU/photos/ATKogpeHpEwlJxWfMRveknaSkhzMXLifzIPpFCeMZsUeIqheUjMdaoTcsr4m90BxukINSEQE495-CNeo3fOe541rGMBZTkYf7OW2hKGVU1AOUrXwpe4rUW3OUUTmUrYh2LOk2lNrb1s1KekHAYCCqxAQtrHcdnC55ysUNpugIz0AIQnMg5Qg2qenQZcUvgOOBz8nAl89tHQ2NArq6pisa0deDD8pXyO_jVKhcB-CtuK0s60i7T6fTuYpFJoUQOVralN8tmsu4_T7F39vFgfMNNd66jywnjXwiD1OzgjDy5F0vorzuA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "night_club",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "primary_type": "bar"
-    },
-    {
-      "name": "noa by Olivia",
-      "rating": 4.5,
-      "rating_count": 319,
-      "address": "83 Neil Rd, 01, #01-02-03, Singapore 089813",
-      "place_id": "ChIJKSpsMwIZ2jERw1lMXfDw1bY",
-      "maps_url": "https://maps.google.com/?cid=13174701200090356163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJKSpsMwIZ2jERw1lMXfDw1bY/photos/ATKogpdlSAYV8pu-e5DNkPtF3EjggN9nssvcmw8Rqw0iTQoYRDO82oieRwKOIrlLmzrf2lLLk14Kp7jposmbi0NxBrLBmV_bvDWJQ0F83LfYaRdqqk5V-CRH7FCVa7SzrEEEGzaUjutypynd0fqXL5DxM79gMAYTniJZXLX7K4IAb5DMcla4Nywq47pI3xrlgAzg2a4eMQ0oGuo3ISbcKcrSBfwJmMIXHjt27smI1MPRSR041UbggusV0CYxmp7lINm8RT6NBF_Sk9kOPwpTfrg-3zwey7wchQA9WN0hhyuA6cHN0DFjOktOZ09_z8JIyriOXcaxgcfgMd-5AbxBM9NeDxFVppam6kGvJ9gqPXzAJMuheq6pNIUvg1whlpy6FITFgsatPpgCM2FlugrhfQNNYis1JGw04nW9QO6Sh5wCu_NujQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "mediterranean_restaurant",
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "mediterranean_restaurant"
     },
     {
       "name": "High Bar Society",
@@ -245,17 +955,106 @@
       "address": "52 Tg Pagar Rd, Singapore 088473",
       "place_id": "ChIJQyvsC0oZ2jERuxBfoOVXb7k",
       "maps_url": "https://maps.google.com/?cid=13361995263181263035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJQyvsC0oZ2jERuxBfoOVXb7k/photos/ATKogpeb2lmZfDnvu9SQEJ02tlVEF85AdTN594fozucAhtxUB59PniMI23Fj1LMVLuf20GgkkDm5F7l_DcOK2KuslZbiVPRn9TL5zVzgeiqyijo3sakBS6NfxALncmFdsNum_tZawpULwJau1w_VWi49RlddYyuyju5vUsoIspuMNCJKM56GOCupgxIoFuN7cL5-9A7b7haOM15s1Cd-qcmFGQ7SnuW-t4eblTJUSOFxm6vUp2CsrIVZ_q1-pctqMRtaAWui11nQdLb_T1KOgIiVgs4kGkxuHd2AvGfSFFQqTuEZXw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJQyvsC0oZ2jERuxBfoOVXb7k/photos/ATKogpcr3ZtjcNkGCeQFaIcOC7pKWbw7I3eMF_ewIaAj5G4x9c4didluwaRlQfhuQbM24e6PW7_TgXa9rH8uTQ-f9OWqKAeceYOKozzqIASPsaRPoa053_CpWaxAvDtBJgZbRjQf5GeNVfhdvM5RyCAh7BgmR7JgMh4F2gvXkELGfT3-fkBw_JKNqiKOUYc_KcJMmKUfKb9-6YQEcP2BUTTadWY_EY8opc05pKwIcu-rpDWua-9di3Esuq7vCOvhZR2BnM4L53tYApDBiFwGzOFHB-_OBef2tDzwK8gAuRYDaf8ZJw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "ice_cream_shop",
         "dessert_shop",
         "confectionery",
-        "food_store",
         "bar",
+        "point_of_interest",
+        "food_store",
+        "store",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
+      "name": "butter tgt",
+      "rating": 4.5,
+      "rating_count": 148,
+      "address": "76a Duxton Rd, floor 2, Singapore 089535",
+      "place_id": "ChIJ91qbH-oZ2jERk1af5_FAwXw",
+      "maps_url": "https://maps.google.com/?cid=8989537738925495955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ91qbH-oZ2jERk1af5_FAwXw/photos/ATKogpdcCVvHXxOaOfvGB8WSau_uXXeEwXxl3VTVexG2ueMB7scgtvWcbasBoQDOglkfT7hFFIPoCkEXbgeibusP4Akyy8Wer1WIipCW4UGkFf7MRuAXK8-nURjeQffMD7EEqOCpKol9_wJc2cat4YrAuF4kljb7kTvCoLJS2qjz0HMKE13wNoi24BE-wm1pQlMKkIXpW2igG_D3vJCuer3r_YLO-K6rlGYQHYLy96mJHVz9hocVhtzLBsKMT6D-VnVfqkl1aBnYsVJQOLt2Q6KWEHAIxtyqtynmA9cg5976nzG6ZH6d-wrc9pdsJB-jQRx6Bkljilu-n31ZWUIjUdHfTqrshxCMg58dyFgdjo-Nz0Ykybl_RyjH8iiGjpmws_WEJZqjNWuzlhAufrV785b22hIYXy3q7QUuWPeLqowCpM2PwWz_/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
+      "name": "Maxwell Food Centre",
+      "rating": 4.4,
+      "rating_count": 21061,
+      "address": "1 Kadayanallur St, Singapore 069184",
+      "place_id": "ChIJseQsTQ0Z2jERqpBTWF0Zf84",
+      "maps_url": "https://maps.google.com/?cid=14879639582559932586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJseQsTQ0Z2jERqpBTWF0Zf84/photos/ATKogpfzV_TDyWH2tO09a6xU2lzgq2F4azjjDMuq9Nnq5i4YGeutaaDi-W5WTBxCKvQkN5xCQC5ObN5co6B8J41nQ3dadgMeDgi34wUQtHWmbcDwlXY8gLw_8VCMhf1U4sq8s5gmChRExAFJKvrC3FW65W_or2xHn8OAcOXgTrmaFxTDI_WNcWHf-Uc1Vu9wuQXMCbTvC1IOGolSApdnyniBnjo03kREdKqitK5WZmgEGIMEPn21E6Qb5O7XhT5pS_IBfzSi9eYide41QEULdQALgFDamwYE-PNOJhiUogYc-UkoISfDw23pKzg2ClUe7WFaqyd9m8MzpY070HW5aNryOPhymjTF6nXCri_yRiswCinFWUtC9TnxHAdQzFSpOg4ibf5twTkNpKJqDpNIJqT1SJvBJcX9bKm9gnPIhBckf1ktiyY0/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "tourist_attraction",
+        "restaurant",
         "food",
         "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Pura Brasa Singapore",
+      "rating": 4.4,
+      "rating_count": 1896,
+      "address": "5 Wallich St, #01-16, Singapore 078883",
+      "place_id": "ChIJAcojGBMZ2jERgPMPzf89eaw",
+      "maps_url": "https://maps.google.com/?cid=12428032815571923840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJAcojGBMZ2jERgPMPzf89eaw/photos/ATKogpey52MGdBXHaP0Xgk_gCeBJqSnVYHbr4D_d5llGD0Lrq1fN1UMIn_p5Galerhm2LcKVmvDV79GG68M8SJjUkfBPk3rc8iccYGT4Euv7T4WjDVesLbvloSzWcBUYxMpKBZ05CdlmFP97DsdtEqJDWoLESeU3lGWhDkb5cGJRZeFLBBpGsmzqmO2pYoP-opRNFgOElrWwlTZv63_-6x3YIDlmK3rYKin-TENJENXm2hT0gFcmU5KlzD6RWukn8rR0L_2dm4AOBPKQzIip77GZW7q-kUw8qNhZ0sxQkagR58efpodw1JcztluVE3ccECw6h4qiRublcO4lF8CgN0BGMJGgsx8jXv-0KZxEJkScpAooQgB8WyaXrUwNJ1Bt40zmocfwMlD02y06LQ90sS-6i97qejPHmI-VASZXQDSALZ7hRRRa/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "spanish_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "spanish_restaurant"
+    },
+    {
+      "name": "Champion Bolo Bun",
+      "rating": 4.4,
+      "rating_count": 1464,
+      "address": "92 Tg Pagar Rd, Singapore 088513",
+      "place_id": "ChIJ41qJ4-gZ2jERMAZkYnM0cP4",
+      "maps_url": "https://maps.google.com/?cid=18334211753201894960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ41qJ4-gZ2jERMAZkYnM0cP4/photos/ATKogpeiPawa24FHXfYZM4U9WvW_2X0sVRMrymyIk9Brj-U5oJTfhq30KUL3MJ8EuUM3wrg-KNS6WmB-XDmTL5O11FJ3MpbStFOnzW3lGTfQm9sOL707c-M6aBeehYvhIpZmQsZIxyj2HCw4JBr4XsAczE-SLZ15Vl3WNPekHjPrQwNbBKXvl48XvQXh7zVgVX9O7jxf-Nmck5H1Qru7v92RXwOe-hJ7oCGFhMLtVq1Y5S-vVp9NAciZ5vIjOD6wjEwmLJC4CUTGdM1MZ3Ze_EhKRX1vKy8KbpYoV57f4MzjXUcfoQRbEtlNWtWLf0nO9RuTtlmeCWn16Fvi9TbC_gYR2zJ7yWV3leXw6SO6meXtrKqG4dtUQ4B1Zif4i4QnIeMSJGM08ECSAlrboBPMBDpOpI6FNFxJWUrGbKYsRfjhoTo/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
+      "name": "CAFE KREAMS",
+      "rating": 4.4,
+      "rating_count": 1169,
+      "address": "32 Maxwell Rd, #01-07 Maxwell Chambers, Singapore 069115",
+      "place_id": "ChIJM323rE0Z2jERWMg9G23kIBg",
+      "maps_url": "https://maps.google.com/?cid=1738640613424613464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJM323rE0Z2jERWMg9G23kIBg/photos/ATKogpeGqPl27FKUXd8SBdnx43UqUhLjlyAS-UdEWAxPWam8fTnzfk3NUN8mSgPvaS6P6SL3g-DR3COOkstEQTT1AENY7lf3y3p4cdWMQ_wEfhBFSHELABWwnnOA-t-Gx2r-3DYiVMKzSyqUaLLxAcJVwz2ZvPGKoiELYqyZNBNMiJsKIKxLTxfJ-X0y_3nNgOOsNJfdxq9sh7zBCWACWeP1dREITiDlD4GivPokMLTl-1IW6iwcqGIh6u2hqlBEPKQd7fg_N6EVh7-nwVbATYIpdw1Q57O4kzaNfrMn0B2bBycnUtERMd66iuzcc4FVwAm6wA6M_AezqAgaJ7Af8eQ7mpokZs1_abytH6twbe6JbNGujk_penV9IFgfXmXsMAxDClE70T2-ThcI9WdNoCXSdHpprM6Bs3WCJFi5K7lwH2KgMA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "bakery",
+        "dessert_shop",
+        "confectionery",
+        "wholesaler",
+        "restaurant",
+        "point_of_interest",
+        "food_store",
         "store",
+        "food",
         "establishment"
       ],
       "primary_type": "cafe"
@@ -267,36 +1066,124 @@
       "address": "5 Teck Lim Rd, #01-01, Singapore 088383",
       "place_id": "ChIJ9zVJobgZ2jERBCldKFZn9Qc",
       "maps_url": "https://maps.google.com/?cid=573478147301648644&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ9zVJobgZ2jERBCldKFZn9Qc/photos/ATKogpcsmo12xicyKErIOTX550hnTgJQkW8PmUVDO6tqMNPMIKy1vQKKAsheV2xlTZkrpOmkFxeR3bjuIAJsT20whVzjj0s90qTlr2UFF7MSX60Q3_NK---hp7V75dt-dfob8MeI4SxOMwu24-UIQN9EkUJnEK4M37tCiCNqxjQd5p7NDj8_ea0V5joz4N6HwDgtgn81bLHFONkyXYRqteRac9gOxzxOJE0fcVET0a5I3_eBKMPvIFQfbsm9Ajgp5T3lHGK5eHqGqLQGICa7yT2F9vhJK_zW1HGsTlswkqWXj0y55w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ9zVJobgZ2jERBCldKFZn9Qc/photos/ATKogpcIQzsCa1nQUJL075iwTKHhpOzUBhbTKtBAxgjxvkax8U0fe569qyrDlggrEphrRlUVLBcFjRb1p1sD3Nr2ETU40uIDLvS84WzCp9DE38eh_lO7iJixZFIn3h7H7Nz2JzGPx9oMa9rSQROyNxeRlpkfkXzNJditdBFbWwgv6-u6fcF0S8nI5_kwlmO__xZqN6LmAwg1T9vjSW3lyTpVTiAXc9vY4ob7FLB79bdD4RllBlPtG8y1O8zaqT1y6oA4lN7EFFksY-lNM5JmB0P0a85z2TeXgffIvhDRuGXfpb7vfA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "wine_bar",
         "night_club",
         "event_venue",
         "bar",
-        "food",
         "point_of_interest",
+        "food",
         "store",
         "establishment"
       ],
       "primary_type": "restaurant"
     },
     {
-      "name": "Bluemist Restaurant",
+      "name": "PIPES by HATTENDO",
       "rating": 4.4,
-      "rating_count": 447,
-      "address": "Blk 7 Tanjong Pagar Plz, #01-103, Singapore 081007",
-      "place_id": "ChIJP6ZuX2sZ2jERbzY9mmUsAJY",
-      "maps_url": "https://maps.google.com/?cid=10808687920580212335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJP6ZuX2sZ2jERbzY9mmUsAJY/photos/ATKogpcUxehAsnXapGHNudesaHA3Xr-EN0Rh2JaeBcTkl4V3MKLVzPmJukmCPWN8VHB1raKsHI0uxGM7qrYc5ktdQ1GX7fhIKl1FiUISHq-OwtnWel9VwZ-RfxSTxmpSz49ibbVOP4XrxjAMiRRk2VMntU7KilP_5w1cicSXkDACzOR9murgaYLdEp6oZ3Zr0s-GbIFjAYM2qN981jqFZEFaVY0MZqBv3wyPkeZcUm0-NQ3EOZnUbW9cx9m_wuOQIZzbV2nKyC3lS8HsL4UyhQE8Gp3ArmLpdYcVqa_KnY_-K4UsFQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating_count": 587,
+      "address": "331 New Bridge Rd, #01-02 Dorsett Residences, Singapore 088764",
+      "place_id": "ChIJjYEF44MZ2jERPtwio9nr5H8",
+      "maps_url": "https://maps.google.com/?cid=9215750057484278846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJjYEF44MZ2jERPtwio9nr5H8/photos/ATKogpcsyRQ0GkyldiW8REvLXJD_kSI6NDhH2eerYsKEph3NLkCOyoG2RuMJDs_KDH9TwhnO0dEFrsSz4_Zk-3gNnTC6UE61Q8mXaUk_yl9VsVIy3LGq4lLtiAwillxbjskWMl6tVahbMFytHZwVk2bhw3SnC1VCUVXwgbA-MMST4PTBTz5mr68t_qQlr2NEXtxZzcqEnQVv6_UMIAm4by5HYmVqX0C_gkIPLxFgt464rljlFxNapnewAfmIwcfnEv8L9H5zshCGwddRSphjd-guVDOiVk01mAa1cRv5zcy4v6TLxQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
+        "sandwich_shop",
+        "confectionery",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food_store",
+        "store",
+        "food",
         "establishment"
       ],
       "primary_type": "cafe"
+    },
+    {
+      "name": "Takagi Coffee 100 AM",
+      "rating": 4.4,
+      "rating_count": 557,
+      "address": "100 Tras St, #01-14B, Singapore 079027",
+      "place_id": "ChIJa6K-lQ4Z2jERxP5Wo9czkQA",
+      "maps_url": "https://maps.google.com/?cid=40870872874417860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJa6K-lQ4Z2jERxP5Wo9czkQA/photos/ATKogpclbePh9YT9yrKeRM-DdqYllGBhAst5FSQ5GK4i7XNHTTJqEJ-rpkJnlSilgSs4_X1BBeZONHSn4wyh72Znm5Zbs22FZRZSUQiwhtNydgOiPhGJZ27tpwhN1r8zDdM2cr01OzZducVCrU5-Yk10O8QBCDKrQNq0Z6w9f7L6ka3XhTPEEsIcfGdYS8Kmes5TkvB2nPhiMkZVjF0cUNDVDX98yKK1-bREAr-_Bq-8wqqy2-UeZAUDHUEVzduxlDWDSR9Cyio8Hrs7ZEIv4DmW0Z3vmSs8uYZ1CZF6GyWhibCyKg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "breakfast_restaurant",
+        "sandwich_shop",
+        "dessert_shop",
+        "confectionery",
+        "japanese_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food_store",
+        "store",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
+      "name": "Acoustics Coffee Bar Neil",
+      "rating": 4.4,
+      "rating_count": 551,
+      "address": "61 Neil Rd, Singapore 088895",
+      "place_id": "ChIJgU3MUqAX2jER8ytjKoY12Tw",
+      "maps_url": "https://maps.google.com/?cid=4384594562574920691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJgU3MUqAX2jER8ytjKoY12Tw/photos/ATKogpcXDw5jMg7g7pNquVEyNRtFw0Fy6CP3eaew0MddNtlcfY6hIut77UIt7ujMLG5_ENapp-iy0yxqNHM6ASx-ovcRunAd9I2aypkKV5zuuVaELKyQFdOS2Cj97O1TD_tZEKcX-9qWPdD7QHz_G3Px0Sr8MuqGoVr4MLXdWvnYcrkZ0GuZRghvqmbxcmQK77_Q6xtSdBgyrawaSV_vF3FUa7kggc-LNb-M1wxyXHf72xsj5kPZ9saytjbLHyZWBry1TyfnTXd9eojq_txmny-5QWxra3f4UIyJmNc9rHGpRB_PAA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
+      "name": "South Side Keppel - All Day Brunch Cafe in Tanjong Pagar",
+      "rating": 4.4,
+      "rating_count": 453,
+      "address": "1557 Keppel Rd, #01-04, Singapore 089066",
+      "place_id": "ChIJHYmZEBQZ2jERjY5Dp58BGhU",
+      "maps_url": "https://maps.google.com/?cid=1520529609408614029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJHYmZEBQZ2jERjY5Dp58BGhU/photos/ATKogpccHJne1R69hJ4NXInOwIfGnxu17dXPcvEgbg4aCyF38zjmomGUKflq3B_M2E6mvTWNk7_-bnuG_WwwhKzIHBw8BzRNTeYNa95ZC1TWTJ1ajyEXHU0ItJQlJPHbTdGWKwCCRJYcs0fpPYGtRFMAWDiL3JOMTxe3xqV6K8cwF5i4zhoVd7iJuZdWFmSfAQENDhVD5ZiyuY1RTn-hrvAPpiF2ewr0lLGp3k7Tvj_zh364hPcUb0ozo1rUZCO0spFZSuu4iHur9c3J1gEO2X-I6P6uZw1xapkSDKb8vM6Db_O2Ig/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "brunch_restaurant",
+        "coffee_shop",
+        "wine_bar",
+        "liquor_store",
+        "vegan_restaurant",
+        "vegetarian_restaurant",
+        "breakfast_restaurant",
+        "bar",
+        "food_store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "store",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
+      "name": "CIN CIN - Gin Bar @ Tanjong Pagar",
+      "rating": 4.4,
+      "rating_count": 387,
+      "address": "100 Peck Seah St, #01-02 Oasia Hotel Downtown, Singapore 079333",
+      "place_id": "ChIJP2hIsGwZ2jERMllXdFqQiDE",
+      "maps_url": "https://maps.google.com/?cid=3569261422864455986&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJP2hIsGwZ2jERMllXdFqQiDE/photos/ATKogpdOI93BpZRp7Zy-qnq9ELSncVyGlXMHXuYllU5sj3kO_UDumKrAq5r_XI4UlTHickhcLgiMS8e3L2T2c5xOD5lzW1CtEeatExKPVKgVVVFN_JQl-PA2EXlI2z8GFdzybRUWncaD_Pxi61-yRSlnBcEQ5OCqMhkjyJP-PPwZ3YAJphZ6Anj9Us_1vZitZ0EF2WN8PI2y_H629m2J_ItqtW0Ct6jYRxsaPYjW8frY27h_SJOs-GAHI-0_qXHvOlSx9ECR72AJR8oQabTDULF38PTRL9JE9L314dBWZ6iTPp2DSg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "pub",
+        "bar",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "bar"
     },
     {
       "name": "The Populus",
@@ -305,16 +1192,16 @@
       "address": "146 Neil Rd, Singapore 088875",
       "place_id": "ChIJ40h2uW0Z2jERA_TAOvT0Uzs",
       "maps_url": "https://maps.google.com/?cid=4275029801099654147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ40h2uW0Z2jERA_TAOvT0Uzs/photos/ATKogpfNm8Zvr4ZqPHcKy4t4LHxUcUlAKhqTd9G5M7lJFpiVPRZMLsnpJB1dbYWu7JdcanKjP1rbPa410VYwsJXqSsojJY7sIS5aUN78cNsAXSrSRNdZvWRG5avLmUJ-3VBp1aSDm4hlxNCS7Au7v8K5OIFlA2Urqh62iCftu5hEC-JaGMJSS1TEdr8kBLSTUlLkMqLjgE07yEBTQ43qOIZWlHkwU1KGDIrwzStO-witR8WxRIN40pfhoJMZvHY3rAsxf2bK7Bku-w3r-gjOm7TJQI9bgr2KfGScY03-VHQLoFU_K3_80pU-UfGFoCzeYyZoMqF5OqlwXGNax96o4wkFTXK9JRdbJI1_Z5w8AyflmZLRjNVB85vmZiqXEY_5T7jlSwzz2aLeFCg9L9KALDCRlL5we8NTJrGGW1xP3bkdtqgFReY/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ40h2uW0Z2jERA_TAOvT0Uzs/photos/ATKogpcvj7n6e8Wbl56f4tcpmbuTFrl4ovE3nVrUgKV6SX7ipNgxbJnXaBNI-MSE1xn_ASMb3fj_FoMTw9W-wHMz5sYcsDVPSbuxspwyy8v60Lf3LQA3w2JjZ6fwoCR2TEBdopgMZ_4Jz6dySni9b4LIjTRxa2MtdGcESOt9rlmlJctXucbtZEJAdc4Mx2A7smEL1tnJ1NMWCM1eZCIwBcLBqCLUuKGNN4a50ShPnxsBWVDDjSd0O0Rv5auEKLiHLwwZDudBPXsgZOUPSqEQohpFw7cwEi-7Y0S4qUaYGu4zR4BavtO5GqTjF2fJdE8fSgdZlDdiYHcEvTznYwfwJ5C6HhtAeYUsVySpLMh0CzWP02gpTDgo-Y_McGRGG5KToYYe26PbETPzC2GpFMrmyDLJ1YULXFHxrSc8hM4OV5xLeeWZKzU/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "coffee_shop",
         "breakfast_restaurant",
         "food_store",
         "restaurant",
+        "store",
         "food",
         "point_of_interest",
-        "store",
         "establishment"
       ],
       "primary_type": "cafe"
@@ -326,11 +1213,11 @@
       "address": "48 Peck Seah St, Singapore 079317",
       "place_id": "ChIJjZCj0hIZ2jERFf54vtrt17Y",
       "maps_url": "https://maps.google.com/?cid=13175260758649929237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJjZCj0hIZ2jERFf54vtrt17Y/photos/ATKogpfP0X5b-znS8TBpQwGe3zpzx4dsRzw24q369Zcsv61-LB-q2N-b21GcLcLLh9NUcU0triPR3FMOGmHiyzKZMDdYE1uAinnnz4g1KQr29sf_m2BQoUuojBlp_KVbjAfbaaH97NcRf8OGJqKVITLRiWBHtFjihnCf3TME_yMt8-K886uFY6RQTxJUPCPgTO6SKSV2mYZutjwg6diSJK300QQJY0EHBTQghvVwOi-dqs4kQ4zTK7SFQIac2vRf5niWuwwWVF1YqpmCGWQqXRZ5WPvjUrxttxiBVFpWYe0t9RUibg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJjZCj0hIZ2jERFf54vtrt17Y/photos/ATKogpdDMErpXwut0pV4oCfgDgS34Vo6nBJ2E_UXwAvxHxk2d5O4ToT7QBDPp1S2f91iy0Y_VrqXM1iWMK5XM2nEW11y0Ck0JVLTCqn_hYwZC_1uzfSm7lGW8wqD8cCkFDavd2g1E3YnX2mnqRJtwewgG8tVr_ijBMHaWiv7jK30-v284IG4Zzjqb-0VOZN5RYvtvTRf558i_Pw4kysn4kZ6K8MwKqvhfTRNbOBF0xSlQNXo7quattRtQf_gqg5_P7jhphjyLxtBQA0k0lO_NoP2rUmW-UFPWU3dsW7J9OEWZ4tU0w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "middle_eastern_restaurant",
-        "event_venue",
         "bar",
+        "event_venue",
         "restaurant",
         "food",
         "point_of_interest",
@@ -339,22 +1226,145 @@
       "primary_type": "middle_eastern_restaurant"
     },
     {
+      "name": "Pasta Brava",
+      "rating": 4.3,
+      "rating_count": 1059,
+      "address": "81 Tras St, Singapore 079020",
+      "place_id": "ChIJtzUeWEkZ2jERCRSqXj5-Vk4",
+      "maps_url": "https://maps.google.com/?cid=5644837989296772105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJtzUeWEkZ2jERCRSqXj5-Vk4/photos/ATKogpcbCOx7fvBK_x7zawvcCbvbQWjfSPKbh1NUgSIRT244B5M8XT3VF-biLgdUWiPMNMqXpzruUF4KBDgsJzn8FUBHVkwiI_oys6_HAqlGKHh1Fdn9ylIE9BNn9H8JlglyGOpJvdQS9hNv4Ixfk5YHZPFfEhVVVaG2l6yj2HJWXOXSRVdG07wtoq2W4__lX2hoKaL70Tl_OwGUrlt_SmP-hviyMz3nW2PQMMJ0YZKX4hUa5trUD6ZQU75xc8wgoSCRnK1Jzpje3Ln-aDsM022ABfw1NMyrgA1kB9iXjhtyx4Jcdg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "italian_restaurant"
+    },
+    {
       "name": "Glasshouse",
       "rating": 4.3,
       "rating_count": 372,
       "address": "136 Neil Rd, #01-01, Singapore 088865",
       "place_id": "ChIJKeC0vJIZ2jERAsl1O-3x-00",
       "maps_url": "https://maps.google.com/?cid=5619350961281943810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJKeC0vJIZ2jERAsl1O-3x-00/photos/ATKogpe6zxQUnQXvt1QcyFfyaNmMO4OGeVDOBYQJCiwja-8KCyYeRja1_Q61nyjSDAzsA4302M_Pvpj_Ie33ARCAwAUk8CTQhlfSeQVpg_96XR1jiWua2DB9caqHx98AvBm9eeUFZGUm5KkNzm9lBMNYRdWvHjPQNI7dQZMWIFau8oYC-rxgLeUcS6R0y_7Lle66RuKXPYHn6HYmfG9FmUJLWXOEGbq9zZ13ijWBpwjreExXAdSGylF-DHv0zGm66bhR97QscSsk2Y_kZ_9_cdT6gZpc8-WWFNzU3U8G6rqZDJ3koBNrjmE7hjStqokWC816FUk5hZzt6OKL4AxOQggjJTUjpV5QCwMRNN7tYckabANX4ftcD1tbwJWAnTLKQqEhBeHoqZmJ4At2CwWI04CEGGfoOaTtZLtYXXkM4WX8f4X-ZLyZ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJKeC0vJIZ2jERAsl1O-3x-00/photos/ATKogpeCocFE5YLakMEoWa-sEaRVI55XX4jbe0Lmq_vY2D0GXPZ5tM88A1SC13OqfqJfCsMFrW_HL-mG5Qz5H9VqW0_UlArXnJR8angJyxrKc8u8hlqD2Mc6-IzfZQ2mxoQUphmXpC2k1NlQFIjdIL5qo82yHk6zUhKJpEf52hWRvYNCFrMvQ8C6BoHe2P-vYwAONIMfiEgAwd8iB8fa3LMLTnxWxicunUZcOpXpXbQ7oETntDwZDIP88ev_6mVvUfqzxNYr_TkTyWttgIo5XSAVDKB9uJmNRMgASEBW6GnLACvp0QDPXeb-MwjSd1HSMcXG-qQerVhTrZ9n_7vtCMiffi2gzm3CoD34mClCTWX-snz08hC8u1ux9X2IkkpxSxL9UF_gNe63fIr_Qy1d7HcG82DsJm3N5uuTRc4BIfFMqbpQW0LI/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
-        "food_store",
-        "food",
         "point_of_interest",
+        "food_store",
         "store",
+        "food",
         "establishment"
       ],
       "primary_type": "cafe"
+    },
+    {
+      "name": "Monument Lifestyle at Duxton Road",
+      "rating": 4.3,
+      "rating_count": 242,
+      "address": "75 Duxton Rd, Singapore 089534",
+      "place_id": "ChIJd_wYFG0Z2jERZD8XxH7x324",
+      "maps_url": "https://maps.google.com/?cid=7989369790736580452&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJd_wYFG0Z2jERZD8XxH7x324/photos/ATKogpf2-Cuu-ye06EqW6i9GBe3eTFtSAbAu-6IeAgIdmshJ8lH-ptivGs7q_SKALqrLVdocCZVruSeEYfUVNK3bq972Xy6IsVudzsMs0VDVgu1w0JGR46rN1hSUrIasM2UzD7IS-n0dvl8x3FvZ_qnVmtRQdZe9xyfpspM_j-CAF95mXsXN3H-j_7o9k3CUAx1ca6fSbYCn64Wijw9qodp6u-ApIXfJcB5uFjEGbLaBn8qFtMgjZgX3O3tdeAoQkfjqA5QbI7invgOueGiAmHKhChHyAAsYkjc8VlptwzVU-EhyGA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
+      "name": "Big Wine Freaks",
+      "rating": 4.3,
+      "rating_count": 134,
+      "address": "44 Bukit Pasoh Rd, Singapore 089857",
+      "place_id": "ChIJueWnNgAZ2jERS_PuXrTIkxk",
+      "maps_url": "https://maps.google.com/?cid=1843037349537051467&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJueWnNgAZ2jERS_PuXrTIkxk/photos/ATKogpfZ8z0VixsOWZy2quPanAh_qOzGk8Qw1RzUvDfSxm5T17baY0BSLscYDPAnxqPwIke9HX5Ww53bI2YV0OeEodReUXv7dwV7DGiiWh18C7Niv_-wD5VI1wJeZGkAUZ0JHYXQGZbHCeEr2pxVEU-gIe5y-ONJ1ZWnxfnsRYK1393OryuntWigBzELGS-HgYQPWBXMI51S6x0LZzXbtrbGkUFbmHHBFKIX9S575k4GK2zkg1v6THNxsFZbmEMCiZQX3B1_oZLXajV6FRQGV3lv9pwSiFwDXUF-V-hgU-9OPlHxgQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "wine_bar",
+        "bar",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
+    },
+    {
+      "name": "Five Oars Coffee Roasters Heritage",
+      "rating": 4.2,
+      "rating_count": 554,
+      "address": "43 Tg Pagar Rd, #01-01, Singapore 088464",
+      "place_id": "ChIJZ3NMXhcZ2jER9Y-Q_4EL1Oc",
+      "maps_url": "https://maps.google.com/?cid=16704989570790363125&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJZ3NMXhcZ2jER9Y-Q_4EL1Oc/photos/ATKogpcjuuIdHhcIytAMPzcKi5P_XGLlmhvms77RQKlhjtzxrHLF9oIdT0w5_EZgjkbF_ujbBgncuwFdPXq6dc9PKTca3uGF-95rv6WPOvrnVQ_miAoTqz4-Rl6s7hZ47kutfUDIHVldAWUkzCsFRpFf46R_QwG7tC0MFcxgT2iF2ki5qps-ZCO2OaGMX4BnIGeudhiiozHF3NV8FgXO0nTj86JJcwQ9evF_cP4NUzqFhl6LrSw2CbmPHAKonn7vmxtXSsprPz6038bfNIWAHs_vwqNnrYVBDQ2C-newDlAcEVKQq3R4hxkZTMB9K85jmED3WpVoRtltM05Fx1nCjZfFs_muM6Aw2bhf-cfmqjBvpoPVvnjs6fTXVn1cuIkdlImn53EAzQwURuHnln2Xho5uudCPZsyXPdp2H6w5O6FtT1o83Ln1/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
+      "name": "cloud",
+      "rating": 4.2,
+      "rating_count": 197,
+      "address": "1a Duxton Hl, #01-01, Singapore 089587",
+      "place_id": "ChIJDQLQIPEZ2jERkcVSYXrt0Ns",
+      "maps_url": "https://maps.google.com/?cid=15839420999336641937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJDQLQIPEZ2jERkcVSYXrt0Ns/photos/ATKogpd9O1ZdREtNNGFeR6316Bwjo7eqJ_1dJNTRe2CxJ_fXzkNPfwNS0BeYAAPEdc30vXMAwKvahU6T0S2W3YbHr3b-8BUb19sQnOG0U9E3hFQuTSuvwAiIGrWHmlhFOPvibbxQHESyPHMRFYHEjrxW-dAzqJatcYUZF5wsWHGvJAoRk8mu3p4tI3cAecTiB71X1YHxCsGZj9FcWizos9ca9VHvI-ojSpZfk8QOnFgEWrDo3e5Gvz7pfV_5GELUSI11zC2i1A96NGffydl7Xgjk-tiD1MIARoaxHgtR5w2Z7WiUmw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
+      "name": "Baristart Coffee Singapore (Tras Street)",
+      "rating": 4.1,
+      "rating_count": 1543,
+      "address": "65 Tras St, Singapore 079004",
+      "place_id": "ChIJf_HCVR0Z2jEReXZb6jnLJ_4",
+      "maps_url": "https://maps.google.com/?cid=18313829859330848377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJf_HCVR0Z2jEReXZb6jnLJ_4/photos/ATKogpfelReU1j0lBb1go65nroDZdWqSWOPobXNLCix1wEOiI4LKRi7X-DR-sx6EKqenETTkSfOVDuF4P33kIS4umA4Fg7xoImWKibljhgJ1EBcZJuvjFV9eg14jDkoB3JXuegevPsjvtO_qGMtExpODuMwQxKTIbonJe1dTrDTnXtfr4GsgxUcskZ1wqftcvLLihjykd1veE9s_aVzmRK53B24xzHuOtR7Mx6niMStcFt3hwMqJ1vwmG0Oo9o0cjwFG6vGq6HY8CGcZ9KHRPguV5RLqL3QDC5T3buv2-RAoWi7oCA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "coffee_shop",
+        "dessert_restaurant",
+        "dessert_shop",
+        "confectionery",
+        "japanese_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food_store",
+        "store",
+        "food",
+        "establishment"
+      ],
+      "primary_type": "cafe"
+    },
+    {
+      "name": "Bearded Bella",
+      "rating": 4.1,
+      "rating_count": 1046,
+      "address": "8 Craig Rd, Singapore 089668",
+      "place_id": "ChIJSQisHW0Z2jERnTmZYc63ARI",
+      "maps_url": "https://maps.google.com/?cid=1297520264687991197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJSQisHW0Z2jERnTmZYc63ARI/photos/ATKogpeE-g7r356bkFeWRx4txgafURZDLAARIHdBTL12AG2p0kaBD1Or1iR2_-36ZIa7sj9ELmndddJu8ThAB3QSa2AMfHfrO-OApGhDZ26Ay_a_8G5h2Hxwfhg_6tckpXj0Iq4Mg4xvlMsTUkkwPdYtvp3cF5xw-5npSVWbaekdqLe8jnGnre-SDQ66VoNnfGKkUuAUuGP3GAAufO9P07nY0-iSm4yyVF5nH1IinC6hazN5Ryw97vx0tUkDWz6NxFWGjbfG5XQ8ClTiDFRiGd-q8fiZWaJvFAJnXLoQnLORd34t3x9nmvrP-Wy5FmSdP-xz5TS_gKrzZJjIwFMCnj0dnZHCP-q0keFuDsORxoAlseOUdLpopVSDWEyLkAHHpLrt7eKxJ4JeaygnChOUbmHaZtw_KCUgEcrimCyKkf5eMLk6z5VZ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "restaurant"
     }
   ]
 }
