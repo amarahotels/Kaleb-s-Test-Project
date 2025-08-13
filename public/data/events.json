@@ -1,6 +1,6 @@
 {
   "source": "google_events",
-  "generated_at": "2025-08-13T03:56:04.327948Z",
+  "generated_at": "2025-08-13T07:04:38.082190Z",
   "events": [
     {
       "title": "The Kumar Show | Wednesday August 13th 2025 @ The Lemon Stand",
@@ -31,7 +31,7 @@
         "252 N Bridge Rd, #01-44B Grand Cru Wine Concierge, Raffles City Shopping Centre",
         "Singapore"
       ],
-      "url": "https://www.eventbrite.sg/e/winesday-unwind-grand-cru-13-aug-tickets-1539348666299",
+      "url": "https://www.eventbrite.sg/e/winesday-unwind-grand-cru-13-aug-tickets-1539348666299?aff=ebdsoporgprofile",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgeOW_tFxA55cA2IDAO4tiF56MdujLjJwF6vtjP1IytQ&s",
       "category": "",
       "source": "google_events"
@@ -305,6 +305,23 @@
       ],
       "url": "https://ra.co/events/2228029",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0wls_jXzIlsQ4IJBemglIuL-jIFsTk2IaEItLqu1vHPQmLDkSRv3gQJt1RQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Reading Party - 2nd floor meeting room!",
+      "start": "Aug 17",
+      "end": "",
+      "venue": [
+        "20 Kandahar St, Mahmud's Tandoor",
+        "Singapore"
+      ],
+      "address": [
+        "20 Kandahar St, Mahmud's Tandoor",
+        "Singapore"
+      ],
+      "url": "https://www.facebook.com/events/live-oak-coffeehouse/silent-reading-at-live-oak-coffeehouse/767912142357987/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrknIqHNvEM1ETPJLVaPBysVvgOn95_ZWc8zz2WXT_ew&s",
       "category": "",
       "source": "google_events"
     }
