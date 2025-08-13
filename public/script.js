@@ -60,20 +60,22 @@ async function loadPlaces() {
 }
 
 // --- Category helpers ---
+// --- Category helpers ---
 function isHawker(p) {
+  // Prefer the backend's classification (already strict)
+  if (typeof p.is_hawker_centre === 'boolean') return p.is_hawker_centre;
+
+  // Fallback (if older JSON without the flag): strict — no address regex, no generic "market"
   const name = (p.name || '').toLowerCase().trim();
-  const addr = (p.address || '').toLowerCase().trim();
   const primary = (p.primary_type || '').toLowerCase();
   const types = (p.types || []).map(t => (t || '').toLowerCase());
 
-  const nameHit = [...hawkerNameSet].some(h => name.includes(h));
-  const addrHit = HAWKER_ADDRESS_RE.test(addr);
-  const metaHit =
-    primary.includes('food_court') ||
-    types.some(t => t.includes('food_court') || t.includes('market'));
+  const canonicalNameHit = [...hawkerNameSet].some(h => name.includes(h));
+  const metaHit = primary === 'food_court' || types.some(t => t === 'food_court');
 
-  return nameHit || addrHit || metaHit;
+  return canonicalNameHit || metaHit;
 }
+
 
 /**
  * Categorize a place with multi-tag logic.
