@@ -69,12 +69,12 @@ body::after{
 /* =================== Hero slider (now ~3/4 screen & centered) =================== */
 .hero-slider{
   position:relative;
-  height:72vh; min-height:520px; max-height:760px;   /* <- was 100vh */
+  height:75vh; min-height:520px; max-height:760px;
   overflow:hidden; border-bottom:1px solid var(--border);
   background:#0f0f0f;
 }
 @supports (height: 100svh) {
-  .hero-slider{ height:72svh; }
+  .hero-slider{ height:75svh; }
 }
 
 /* slides as stacked backgrounds */
