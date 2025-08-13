@@ -24,9 +24,17 @@ const hawkerNameSet = new Set([
   'chinatown hawker centre'
 ]);
 
-// Generic phrases that indicate a hawker location in the address
+// Phrases that indicate a hawker in the address
 const HAWKER_ADDRESS_RE =
   /(food\s*centre|food\s*center|hawker\s*centre|hawker\s*center|hawker|market)/i;
+
+// Name-based categorization (word-boundary where sensible)
+const NAME_IS_CAFE_RE =
+  /\b(café|cafe|coffee|espresso|roastery|coffee\s*bar|bakery)\b/i;
+const NAME_IS_BAR_RE =
+  /\b(bar|pub|taproom|wine\s*bar|speakeasy)\b/i;
+const NAME_IS_RESTAURANT_RE =
+  /\b(restaurant|ristorante|trattoria|bistro|eatery|osteria|cantina|kitchen|diner)\b/i;
 
 // load latest JSON (cache-busted)
 async function loadPlaces() {
@@ -52,11 +60,8 @@ function isHawker(p) {
   const primary = (p.primary_type || '').toLowerCase();
   const types = (p.types || []).map(t => (t || '').toLowerCase());
 
-  // Name OR address contains any known hawker name/phrase
   const nameHit = [...hawkerNameSet].some(h => name.includes(h));
   const addrHit = HAWKER_ADDRESS_RE.test(addr);
-
-  // Places metadata signals
   const metaHit =
     primary.includes('food_court') ||
     types.some(t => t.includes('food_court') || t.includes('market'));
@@ -64,8 +69,28 @@ function isHawker(p) {
   return nameHit || addrHit || metaHit;
 }
 
-function isRestaurant(p) {
-  if (isHawker(p)) return false;
+// Name-first classifier returning 'cafes' | 'bars' | 'restaurants' | null
+function classifyByName(p) {
+  const name = p.name || '';
+  if (NAME_IS_CAFE_RE.test(name)) return 'cafes';
+  if (NAME_IS_BAR_RE.test(name)) return 'bars';
+  if (NAME_IS_RESTAURANT_RE.test(name)) return 'restaurants';
+  return null;
+}
+
+function metaSaysCafe(p) {
+  const primary = (p.primary_type || '').toLowerCase();
+  const types = (p.types || []).map(t => (t || '').toLowerCase());
+  return primary.includes('cafe') || types.some(t => t.includes('cafe') || t.includes('coffee_shop'));
+}
+
+function metaSaysBar(p) {
+  const primary = (p.primary_type || '').toLowerCase();
+  const types = (p.types || []).map(t => (t || '').toLowerCase());
+  return primary.includes('bar') || types.some(t => t.includes('bar') || t.includes('wine_bar') || t.includes('pub'));
+}
+
+function metaSaysRestaurant(p) {
   const primary = (p.primary_type || '').toLowerCase();
   const types = (p.types || []).map(t => (t || '').toLowerCase());
   return primary.includes('restaurant') || types.some(t => t.includes('restaurant'));
@@ -73,16 +98,23 @@ function isRestaurant(p) {
 
 function isCafe(p) {
   if (isHawker(p)) return false;
-  const primary = (p.primary_type || '').toLowerCase();
-  const types = (p.types || []).map(t => (t || '').toLowerCase());
-  return primary.includes('cafe') || types.some(t => t.includes('cafe') || t.includes('coffee_shop'));
+  const byName = classifyByName(p);
+  if (byName) return byName === 'cafes';
+  return metaSaysCafe(p);
 }
 
 function isBar(p) {
   if (isHawker(p)) return false;
-  const primary = (p.primary_type || '').toLowerCase();
-  const types = (p.types || []).map(t => (t || '').toLowerCase());
-  return primary.includes('bar') || types.some(t => t.includes('bar') || t.includes('wine_bar') || t.includes('pub'));
+  const byName = classifyByName(p);
+  if (byName) return byName === 'bars';
+  return metaSaysBar(p);
+}
+
+function isRestaurant(p) {
+  if (isHawker(p)) return false;
+  const byName = classifyByName(p);
+  if (byName) return byName === 'restaurants';
+  return metaSaysRestaurant(p);
 }
 
 // render cards with image overlay + controls
@@ -96,13 +128,12 @@ function render() {
     const r = num(p.rating);
     const passRating = Number.isFinite(r) ? r >= minR : true;
 
-    // category gating: hawker first, then other categories
     const passType =
       selectedType === 'all' ||
       (selectedType === 'hawker' && isHawker(p)) ||
-      (selectedType === 'restaurants' && isRestaurant(p)) ||
       (selectedType === 'cafes' && isCafe(p)) ||
-      (selectedType === 'bars' && isBar(p));
+      (selectedType === 'bars' && isBar(p)) ||
+      (selectedType === 'restaurants' && isRestaurant(p));
 
     return passRating && passType;
   });
@@ -155,7 +186,7 @@ function esc(s = '') {
 sortSel?.addEventListener('change', render);
 minRatingSel?.addEventListener('change', render);
 
-// NEW: category change
+// category change
 typeSel?.addEventListener('change', () => {
   selectedType = typeSel.value; // 'all' | 'restaurants' | 'cafes' | 'bars' | 'hawker'
   render();
