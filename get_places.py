@@ -50,7 +50,7 @@ def _headers():
         "X-Goog-FieldMask": FIELD_MASK,
     }
 
-# ---------------- Buckets ----------------
+# ---------------- Buckets (includedTypes) ----------------
 BUCKETS = {
     "restaurants": [
         "restaurant", "brunch_restaurant", "italian_restaurant",
@@ -134,6 +134,14 @@ def is_allowed_primary(primary: str) -> bool:
     if p in EXCLUDED_PRIMARY or "hotel" in p:
         return False
     return True
+
+# Per-bucket primaryType restriction (None => no extra restriction)
+ALLOWED_PRIMARY = {
+    "bookstores": {"book_store"},  # <- STRICT: only true bookstores
+    "restaurants": None,
+    "cafes": None,
+    "bars": None,
+}
 
 # --- Nearby with pagination (includedTypes) ---
 MAX_PAGES_PER_CHUNK = 3
@@ -227,14 +235,22 @@ raw_by_id = {}
 
 # 1) Restaurants/Cafes/Bars/Bookstores
 for bucket_name, types in BUCKETS.items():
+    allowed_primary_for_bucket = ALLOWED_PRIMARY.get(bucket_name)
+
     # Nearby search
-    for i in range(0, len(types), 10):
+    for i in range(0, len(types), 10):  # API allows up to 10 types per call
         sub = types[i:i+10]
         try:
             for p in nearby_all_pages(sub):
                 primary = (p.get("primaryType") or "").lower()
+
+                # Global exclusions (lodging/hotel)
                 if not is_allowed_primary(primary):
                     continue
+                # Bucket-specific restriction (e.g., bookstores must be exactly book_store)
+                if allowed_primary_for_bucket and primary not in allowed_primary_for_bucket:
+                    continue
+
                 pid = p.get("id")
                 if not pid:
                     continue
@@ -247,8 +263,12 @@ for bucket_name, types in BUCKETS.items():
         try:
             for p in text_search(tq):
                 primary = (p.get("primaryType") or "").lower()
+
                 if not is_allowed_primary(primary):
                     continue
+                if allowed_primary_for_bucket and primary not in allowed_primary_for_bucket:
+                    continue
+
                 pid = p.get("id")
                 if not pid:
                     continue
