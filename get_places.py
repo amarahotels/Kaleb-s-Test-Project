@@ -66,10 +66,6 @@ BUCKETS = {
     "bars": [
         "bar", "cocktail_bar", "wine_bar", "beer_bar", "pub", "speakeasy",
     ],
-    # ✅ NEW: bookstores (primary type is "book_store")
-    "bookstores": [
-        "book_store",
-    ],
 }
 
 TEXT_QUERIES = {
@@ -87,14 +83,6 @@ TEXT_QUERIES = {
         "best bars near Tanjong Pagar",
         "cocktails near Tanjong Pagar",
         "wine bars near Tanjong Pagar",
-    ],
-    # ✅ NEW: bookstore queries
-    "bookstores": [
-        "bookstore near Tanjong Pagar",
-        "books near Tanjong Pagar",
-        "indie bookstore Tanjong Pagar",
-        "comic shop near Tanjong Pagar",
-        "manga bookstore near Tanjong Pagar",
     ],
 }
 
@@ -140,11 +128,8 @@ def is_allowed_primary(primary: str) -> bool:
     p = (primary or "").lower()
     if p in EXCLUDED_PRIMARY or "hotel" in p:
         return False
-    # allow dining + hawker + ✅ bookstores
-    return (
-        p in ("cafe", "bar", "food_court", "book_store")
-        or ("restaurant" in p)
-    )
+    # allow dining + hawker
+    return p in ("cafe", "bar", "food_court") or ("restaurant" in p)
 
 # ---- Nearby with pagination (PRIMARY TYPES) ----
 MAX_PAGES_PER_CHUNK = 3          # up to 3 pages per chunk
@@ -152,7 +137,7 @@ PAGE_DELAY_SEC = 2.0             # token warm-up
 PER_PAGE = 20                    # Places API limit per page
 
 def nearby_all_pages(included_primary_types):
-    """Search with includedPrimaryTypes (good for restaurant/cafe/bar/bookstore primaries)."""
+    """Search with includedPrimaryTypes (good for restaurant/cafe/bar primaries)."""
     items = []
     page_token = None
     for _ in range(MAX_PAGES_PER_CHUNK):
@@ -187,7 +172,7 @@ def nearby_all_pages(included_primary_types):
 
 # ---- Nearby with pagination (TYPES) ----
 def nearby_all_pages_types(included_types):
-    """Search with includedTypes (needed for hawker 'food_court', and as a fallback for others)."""
+    """Search with includedTypes (needed for hawker 'food_court')."""
     items = []
     page_token = None
     for _ in range(MAX_PAGES_PER_CHUNK):
@@ -280,7 +265,7 @@ def is_hawker_centre_place(p: dict) -> bool:
 # ---- Fetch & blend per bucket ----
 raw_by_id = {}
 
-# 1) Restaurants/Cafes/Bars/Bookstores via includedPrimaryTypes (+ paging) and text queries
+# 1) Restaurants/Cafes/Bars via includedPrimaryTypes (+ paging) and text queries
 for bucket_name, types in BUCKETS.items():
     # split into chunks of <=10 primary types (API limit)
     for i in range(0, len(types), 10):
@@ -358,4 +343,14 @@ for p in raw_by_id.values():
     })
 
 # Sort by rating then rating_count
-place
+places.sort(key=lambda x: ((x.get("rating") or 0), (x.get("rating_count") or 0)), reverse=True)
+
+# ---- Write JSON ----
+Path("public/data").mkdir(parents=True, exist_ok=True)
+meta = {"generated_at": datetime.now(timezone.utc).isoformat()}
+out = {"meta": meta, "places": places}
+
+with open("public/data/places.json", "w", encoding="utf-8") as f:
+    json.dump(out, f, ensure_ascii=False, indent=2)
+
+print(f"Wrote {len(places)} places to public/data/places.json (with metadata)")
