@@ -1,5 +1,6 @@
 import os
 import json
+import time
 from datetime import datetime, timezone
 import requests
 from pathlib import Path
@@ -41,6 +42,8 @@ FIELD_MASK = ",".join([
     "places.photos.heightPx",
     "places.types",
     "places.primaryType",
+    # paging token comes back even if not requested, but include to be safe
+    "nextPageToken",
 ])
 
 def _headers():
@@ -55,17 +58,16 @@ def _headers():
 SEARCH_PRIMARY_TYPES = [
     # core
     "restaurant", "cafe", "bar",
-    # common cuisine-specific primary types (some regions use these)
+    # cuisine-specific / variants
     "italian_restaurant", "pizza_restaurant", "japanese_restaurant",
     "chinese_restaurant", "thai_restaurant", "korean_restaurant",
     "indian_restaurant", "french_restaurant", "seafood_restaurant",
     "brunch_restaurant", "steak_house", "barbecue_restaurant",
     # coffee / drinks variants
-    "coffee_shop", "wine_bar", "beer_bar", "pub",
+    "coffee_shop", "tea_house",
+    "wine_bar", "beer_bar", "pub", "cocktail_bar", "speakeasy",
 ]
 
-# Keep only primary types that clearly map to Restaurants / Cafes / Bars
-ALLOWED_PRIMARY_FAMILIES = ("restaurant", "cafe", "bar")
 EXCLUDED_PRIMARY = {"lodging"}  # and anything with 'hotel' in the primaryType
 
 def is_allowed_primary(primary: str) -> bool:
@@ -83,27 +85,54 @@ def _chunks(iterable, size):
             return
         yield chunk
 
-def search_nearby_primary(included_primary_types, max_results=20):
+# --------- NEW: fetch multiple pages within the SAME radius ----------
+MAX_PAGES_PER_CHUNK = 3          # ~3 * 20 = up to 60 per type-chunk
+PAGE_DELAY_SEC = 2.0             # allow nextPageToken to become valid
+
+def search_nearby_primary_all_pages(included_primary_types, max_results=20):
     """
-    Call searchNearby using includedPrimaryTypes (up to 10 per request).
+    Call searchNearby using includedPrimaryTypes (up to 10 per request) and
+    follow nextPageToken to retrieve additional pages (more options, same radius).
     """
-    body = {
-        "includedPrimaryTypes": included_primary_types,
-        "maxResultCount": max_results,
-        "locationRestriction": {
-            "circle": {
-                "center": {"latitude": LAT, "longitude": LNG},
-                "radius": float(RADIUS_METERS),
-            }
-        },
-    }
-    r = requests.post(NEARBY_URL, headers=_headers(), json=body, timeout=30)
-    r.raise_for_status()
-    data = r.json()
-    if "error" in data:
-        print(f"Nearby error ({included_primary_types}):", data["error"].get("message"))
-        return []
-    return data.get("places", [])
+    results = []
+    page_token = None
+
+    for _ in range(MAX_PAGES_PER_CHUNK):
+        body = {
+            "includedPrimaryTypes": included_primary_types,
+            "maxResultCount": max_results,
+            "locationRestriction": {
+                "circle": {
+                    "center": {"latitude": LAT, "longitude": LNG},
+                    "radius": float(RADIUS_METERS),
+                }
+            },
+            # popularity tends to diversify results a bit
+            "rankPreference": "POPULARITY",
+        }
+        if page_token:
+            body["pageToken"] = page_token
+
+        r = requests.post(NEARBY_URL, headers=_headers(), json=body, timeout=30)
+        r.raise_for_status()
+        data = r.json()
+        if "error" in data:
+            print(f"Nearby error ({included_primary_types}):", data["error"].get("message"))
+            break
+
+        page = data.get("places", []) or []
+        if not page:
+            break
+
+        results.extend(page)
+
+        page_token = data.get("nextPageToken")
+        if not page_token:
+            break
+
+        time.sleep(PAGE_DELAY_SEC)
+
+    return results
 
 def text_search_fallback(query: str, max_results: int = 20):
     body = {"textQuery": query, "maxResultCount": max_results}
@@ -135,7 +164,7 @@ def better(a, b):
 raw_by_id = {}
 try:
     for chunk in _chunks(SEARCH_PRIMARY_TYPES, 10):
-        results = search_nearby_primary(chunk, max_results=20)
+        results = search_nearby_primary_all_pages(chunk, max_results=20)
         for p in results:
             primary = (p.get("primaryType") or "").lower()
             if not is_allowed_primary(primary):
@@ -143,11 +172,7 @@ try:
             pid = p.get("id")
             if not pid:
                 continue
-            # dedupe: keep the better one
-            if pid in raw_by_id:
-                raw_by_id[pid] = better(raw_by_id[pid], p)
-            else:
-                raw_by_id[pid] = p
+            raw_by_id[pid] = better(raw_by_id[pid], p) if pid in raw_by_id else p
 except requests.RequestException as e:
     print(f"Request failed: {e}")
 
