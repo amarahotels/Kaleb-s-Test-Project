@@ -4,7 +4,6 @@ import time
 from datetime import datetime, timezone
 import requests
 from pathlib import Path
-from itertools import islice
 
 # --- Load .env locally if present (optional) ---
 env_path = Path(".env")
@@ -100,6 +99,18 @@ HAWKER_TEXT_QUERIES = [
     "Chinatown Complex",
     "Chinatown Hawker Centre",
 ]
+
+# Canonical centre names (lowercase)
+HAWKER_NAME_SET = {
+    "lau pa sat",
+    "maxwell food centre",
+    "maxwell food center",
+    "amoy street food centre",
+    "amoy street food center",
+    "chinatown complex",
+    "chinatown hawker centre",
+    "chinatown hawker center",
+}
 
 EXCLUDED_PRIMARY = {"lodging"}  # and anything containing "hotel"
 
@@ -218,6 +229,20 @@ def better(a, b):
     ra, rb = a.get("rating") or 0, b.get("rating") or 0
     return a if ra >= rb else b
 
+def _norm(s: str) -> str:
+    return (s or "").strip().lower()
+
+def is_hawker_centre_place(p: dict) -> bool:
+    """True only for *centres* (not stalls)."""
+    primary = _norm(p.get("primaryType"))
+    types = [_norm(t) for t in (p.get("types") or [])]
+    name = _norm((p.get("displayName") or {}).get("text") or "")
+    return (
+        primary == "food_court" or
+        "food_court" in types or
+        name in HAWKER_NAME_SET
+    )
+
 # ---- Fetch & blend per bucket ----
 raw_by_id = {}
 
@@ -234,7 +259,7 @@ for bucket_name, types in BUCKETS.items():
                 pid = p.get("id")
                 if not pid:
                     continue
-                raw_by_id[pid] = better(raw_by_id[pid], p) if pid in raw_by_id else p
+                raw_by_id[pid] = better(raw_by_id.get(pid, p), p)
         except requests.RequestException as e:
             print(f"Nearby failed for {sub}: {e}")
 
@@ -248,34 +273,31 @@ for bucket_name, types in BUCKETS.items():
                 pid = p.get("id")
                 if not pid:
                     continue
-                raw_by_id[pid] = better(raw_by_id[pid], p) if pid in raw_by_id else p
+                raw_by_id[pid] = better(raw_by_id.get(pid, p), p)
         except requests.RequestException as e:
             print(f"TextSearch failed for '{tq}': {e}")
 
-# 2) 👉 Hawker centres via includedTypes + biased text searches
+# 2) Hawker centres via includedTypes + biased text searches (centres only)
 try:
     for p in nearby_all_pages_types(HAWKER_TYPES):
-        primary = (p.get("primaryType") or "").lower()
-        # allow food_court regardless of the dining allow-list
-        if primary not in ("food_court",) and not is_allowed_primary(primary):
+        if not is_hawker_centre_place(p):
             continue
         pid = p.get("id")
         if not pid:
             continue
-        raw_by_id[pid] = better(raw_by_id[pid], p) if pid in raw_by_id else p
+        raw_by_id[pid] = better(raw_by_id.get(pid, p), p)
 except requests.RequestException as e:
     print(f"Nearby(types) failed for hawkers: {e}")
 
 for q in HAWKER_TEXT_QUERIES:
     try:
         for p in text_search(q):
-            primary = (p.get("primaryType") or "").lower()
-            if primary not in ("food_court",) and not is_allowed_primary(primary):
+            if not is_hawker_centre_place(p):
                 continue
             pid = p.get("id")
             if not pid:
                 continue
-            raw_by_id[pid] = better(raw_by_id[pid], p) if pid in raw_by_id else p
+            raw_by_id[pid] = better(raw_by_id.get(pid, p), p)
     except requests.RequestException as e:
         print(f"TextSearch failed for hawker '{q}': {e}")
 
@@ -294,6 +316,7 @@ for p in raw_by_id.values():
         "photo_url": photo_url,
         "types": p.get("types", []),
         "primary_type": p.get("primaryType"),
+        "is_hawker_centre": is_hawker_centre_place(p),  # <-- used by frontend filter
     })
 
 # Sort by rating then rating_count
