@@ -21,14 +21,13 @@ if not API_KEY:
         "Locally: put it in a .env file. On GitHub: set as repo secret and expose to workflow."
     )
 
-# --- Location & radius (meters) ---
+# --- Location & radius ---
 LAT, LNG = 1.2765, 103.8456
 RADIUS_METERS = 800
 
 NEARBY_URL = "https://places.googleapis.com/v1/places:searchNearby"
 TEXT_URL   = "https://places.googleapis.com/v1/places:searchText"
 
-# Ask only for fields the front end needs (+ nextPageToken for paging)
 FIELD_MASK = ",".join([
     "places.id",
     "places.displayName",
@@ -66,6 +65,9 @@ BUCKETS = {
     "bars": [
         "bar", "cocktail_bar", "wine_bar", "beer_bar", "pub", "speakeasy",
     ],
+    "bookstores": [
+        "book_store"
+    ]
 }
 
 TEXT_QUERIES = {
@@ -84,10 +86,16 @@ TEXT_QUERIES = {
         "cocktails near Tanjong Pagar",
         "wine bars near Tanjong Pagar",
     ],
+    "bookstores": [
+        "bookstore near Tanjong Pagar",
+        "indie bookstore Tanjong Pagar",
+        "comic shop near Tanjong Pagar",
+        "manga bookstore near Tanjong Pagar"
+    ]
 }
 
-# 👉 Hawker fetch configuration
-HAWKER_TYPES = ["food_court"]  # includedTypes
+# --- Hawker config ---
+HAWKER_TYPES = ["food_court"]
 HAWKER_TEXT_QUERIES = [
     "hawker centre near Tanjong Pagar",
     "hawker center near Tanjong Pagar",
@@ -100,8 +108,6 @@ HAWKER_TEXT_QUERIES = [
     "Chinatown Hawker Centre",
 ]
 
-# ---- Hawker identification (updated) ----
-# Canonical centre name tokens (substring match, lowercase)
 HAWKER_NAME_TOKENS = (
     "lau pa sat",
     "maxwell food centre",
@@ -115,64 +121,26 @@ HAWKER_NAME_TOKENS = (
     "people's park food centre",
 )
 
-# Generic keywords that indicate a *centre* (not a stall)
 HAWKER_NAME_KEYWORDS = (
     "hawker centre", "hawker center",
     "food centre", "food center",
     "food court", "market",
 )
 
-EXCLUDED_PRIMARY = {"lodging"}  # and anything containing "hotel"}
+EXCLUDED_PRIMARY = {"lodging"}
 
 def is_allowed_primary(primary: str) -> bool:
     p = (primary or "").lower()
     if p in EXCLUDED_PRIMARY or "hotel" in p:
         return False
-    # allow dining + hawker
-    return p in ("cafe", "bar", "food_court") or ("restaurant" in p)
+    return True
 
-# ---- Nearby with pagination (PRIMARY TYPES) ----
-MAX_PAGES_PER_CHUNK = 3          # up to 3 pages per chunk
-PAGE_DELAY_SEC = 2.0             # token warm-up
-PER_PAGE = 20                    # Places API limit per page
+# --- Nearby with pagination (includedTypes) ---
+MAX_PAGES_PER_CHUNK = 3
+PAGE_DELAY_SEC = 2.0
+PER_PAGE = 20
 
-def nearby_all_pages(included_primary_types):
-    """Search with includedPrimaryTypes (good for restaurant/cafe/bar primaries)."""
-    items = []
-    page_token = None
-    for _ in range(MAX_PAGES_PER_CHUNK):
-        body = {
-            "includedTypes": included_primary_types,
-            "maxResultCount": PER_PAGE,
-            "rankPreference": "POPULARITY",
-            "locationRestriction": {
-                "circle": {
-                    "center": {"latitude": LAT, "longitude": LNG},
-                    "radius": float(RADIUS_METERS),
-                }
-            },
-        }
-        if page_token:
-            body["pageToken"] = page_token
-
-        r = requests.post(NEARBY_URL, headers=_headers(), json=body, timeout=30)
-        r.raise_for_status()
-        data = r.json()
-        if "error" in data:
-            print(f"Nearby error ({included_primary_types}):", data["error"].get("message"))
-            break
-
-        items.extend(data.get("places", []) or [])
-
-        page_token = data.get("nextPageToken")
-        if not page_token:
-            break
-        time.sleep(PAGE_DELAY_SEC)
-    return items
-
-# ---- Nearby with pagination (TYPES) ----
-def nearby_all_pages_types(included_types):
-    """Search with includedTypes (needed for hawker 'food_court')."""
+def nearby_all_pages(included_types):
     items = []
     page_token = None
     for _ in range(MAX_PAGES_PER_CHUNK):
@@ -194,11 +162,10 @@ def nearby_all_pages_types(included_types):
         r.raise_for_status()
         data = r.json()
         if "error" in data:
-            print(f"Nearby(types) error ({included_types}):", data["error"].get("message"))
+            print(f"Nearby error ({included_types}):", data["error"].get("message"))
             break
 
         items.extend(data.get("places", []) or [])
-
         page_token = data.get("nextPageToken")
         if not page_token:
             break
@@ -243,13 +210,6 @@ def _norm(s: str) -> str:
     return (s or "").strip().lower()
 
 def is_hawker_centre_place(p: dict) -> bool:
-    """
-    True only for *centres* (not stalls).
-    We allow when:
-      1) primaryType == "food_court", OR
-      2) name contains any canonical centre token (e.g., 'lau pa sat'), OR
-      3) 'food_court' appears in types AND name contains a generic centre keyword.
-    """
     primary = _norm(p.get("primaryType"))
     types = [_norm(t) for t in (p.get("types") or [])]
     name = _norm((p.get("displayName") or {}).get("text") or "")
@@ -262,12 +222,12 @@ def is_hawker_centre_place(p: dict) -> bool:
         return True
     return False
 
-# ---- Fetch & blend per bucket ----
+# --- Fetch & blend ---
 raw_by_id = {}
 
-# 1) Restaurants/Cafes/Bars via includedPrimaryTypes (+ paging) and text queries
+# 1) Restaurants/Cafes/Bars/Bookstores
 for bucket_name, types in BUCKETS.items():
-    # split into chunks of <=10 primary types (API limit)
+    # Nearby search
     for i in range(0, len(types), 10):
         sub = types[i:i+10]
         try:
@@ -282,7 +242,7 @@ for bucket_name, types in BUCKETS.items():
         except requests.RequestException as e:
             print(f"Nearby failed for {sub}: {e}")
 
-    # add a few text-search results to diversify
+    # Text search
     for tq in TEXT_QUERIES[bucket_name]:
         try:
             for p in text_search(tq):
@@ -296,9 +256,9 @@ for bucket_name, types in BUCKETS.items():
         except requests.RequestException as e:
             print(f"TextSearch failed for '{tq}': {e}")
 
-# 2) Hawker centres via includedTypes + biased text searches (centres only)
+# 2) Hawkers
 try:
-    for p in nearby_all_pages_types(HAWKER_TYPES):
+    for p in nearby_all_pages(HAWKER_TYPES):
         if not is_hawker_centre_place(p):
             continue
         pid = p.get("id")
@@ -306,7 +266,7 @@ try:
             continue
         raw_by_id[pid] = better(raw_by_id.get(pid, p), p)
 except requests.RequestException as e:
-    print(f"Nearby(types) failed for hawkers: {e}")
+    print(f"Nearby failed for hawkers: {e}")
 
 for q in HAWKER_TEXT_QUERIES:
     try:
@@ -320,13 +280,13 @@ for q in HAWKER_TEXT_QUERIES:
     except requests.RequestException as e:
         print(f"TextSearch failed for hawker '{q}': {e}")
 
-# ---- Transform for front-end ----
+# --- Transform for frontend ---
 places = []
 for p in raw_by_id.values():
     rating = p.get("rating")
     if rating is None or rating <= 3.5:
-        continue  # skip low-rated places
-    
+        continue
+
     display = p.get("displayName") or {}
     photo_url = first_photo_url(p.get("photos"))
     places.append({
@@ -342,10 +302,9 @@ for p in raw_by_id.values():
         "is_hawker_centre": is_hawker_centre_place(p),
     })
 
-# Sort by rating then rating_count
 places.sort(key=lambda x: ((x.get("rating") or 0), (x.get("rating_count") or 0)), reverse=True)
 
-# ---- Write JSON ----
+# --- Write JSON ---
 Path("public/data").mkdir(parents=True, exist_ok=True)
 meta = {"generated_at": datetime.now(timezone.utc).isoformat()}
 out = {"meta": meta, "places": places}
