@@ -203,7 +203,10 @@ body::after{
   padding:6px 10px; border-radius:999px;
   margin-right:2px;
 }
-.controls label{ color:var(--text); margin:0 4px; font-size:14px; font-weight:600 }
+.controls label{
+  color:var(--text); margin:0 4px; font-size:14px; font-weight:600;
+  display:inline-flex; align-items:center; gap:8px;
+}
 select{
   appearance:none; background:#fffaf2; color:var(--text);
   border:1.5px solid rgba(183,138,86,.6);
@@ -211,6 +214,44 @@ select{
 }
 select:hover{ box-shadow:0 0 0 3px rgba(183,138,86,.12); }
 select:focus{ outline:2px solid rgba(183,138,86,.35) }
+
+/* Desktop select width */
+.controls label select{ min-width:140px; }
+
+/* Tablet: turn the bar into a 2-column grid */
+@media (max-width:980px){
+  .controls{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+  }
+  .controls::before{
+    grid-column: 1 / -1;
+    justify-self: start;
+    margin-right:0;
+  }
+  .controls label{
+    width:100%;
+    justify-content: space-between;
+  }
+  .controls label select{
+    min-width:0;
+    width:60%;
+  }
+}
+
+/* Phone: stack everything full-width */
+@media (max-width:560px){
+  .controls{
+    grid-template-columns: 1fr;
+    padding:10px;
+    top:6px;
+  }
+  .controls label{ font-size:13px; }
+  .controls label select{
+    width:100%;
+  }
+}
 
 /* =================== Grid & Cards =================== */
 .grid{
