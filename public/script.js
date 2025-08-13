@@ -147,7 +147,7 @@ function render() {
   }
 
   // limit
-  items = items.slice(0, 24);
+  items = items.slice(0, 60);
 
   listEl.innerHTML = items.map(cardHtml).join('') ||
     `<div class="notice">No places found.</div>`;
