@@ -54,11 +54,14 @@
         <h2>Top nearby places</h2>
         <div class="controls">
           <label>
-            Sort:
-            <select id="sortSelect">
-              <option value="ratingDesc">Rating (high → low)</option>
-              <option value="nameAsc">Name (A → Z)</option>
-              <option value="distanceAsc">Distance (near → far)</option>
+            Category:
+            <select id="typeFilter">
+              <option value="all">All</option>
+              <option value="restaurants">Restaurants</option>
+              <option value="bars">Bars</option>
+              <option value="cafes">Cafés</option>
+              <option value="bookstores">Bookstores</option>
+              <option value="hawker">Hawker Centres</option>
             </select>
           </label>
           <label>
@@ -70,16 +73,12 @@
               <option value="4.5">4.5+</option>
             </select>
           </label>
-
           <label>
-            Category:
-            <select id="typeFilter">
-              <option value="all">All</option>
-              <option value="restaurants">Restaurants</option>
-              <option value="bars">Bars</option>
-              <option value="cafes">Cafés</option>
-              <option value="bookstores">Bookstores</option>
-              <option value="hawker">Hawker Centres</option>
+            Sort:
+            <select id="sortSelect">
+              <option value="distanceAsc">Distance (near → far)</option>
+              <option value="ratingDesc">Rating (high → low)</option>
+              <option value="nameAsc">Name (A → Z)</option>
             </select>
           </label>
         </div>
