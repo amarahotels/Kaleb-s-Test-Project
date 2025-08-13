@@ -1,24 +1,7 @@
 {
   "source": "google_events",
-  "generated_at": "2025-08-12T16:25:00.526229Z",
+  "generated_at": "2025-08-13T02:05:52.964764Z",
   "events": [
-    {
-      "title": "KAMPUNG ELEKTRIK PLUS KATONG SQUARE LIFESTYLE & VINTAGE MARKET 1-2-3 & 15-16-17 AUGUST 2025 EDITION",
-      "start": "Aug 12",
-      "end": "",
-      "venue": [
-        "88 E Coast Rd",
-        "Singapore"
-      ],
-      "address": [
-        "88 E Coast Rd",
-        "Singapore"
-      ],
-      "url": "https://m.facebook.com/events/1103508791881141/?acontext=%7B%22action_history%22%3A%22null%22%7D&ref_source=newsfeed&ref_mechanism=feed_attachment",
-      "image": "https://www.google.com/maps/vt/data=v9QgJvBCHjNDgvv_RmV2nnG5VX52P13q1KVMSOPOq0MzN70voBvwwFETWxbk5zvBlN11N4Aaiy7B2AmxbfxvJII__v4Qu-24WUr51AMLMCn2Buw693Y",
-      "category": "",
-      "source": "google_events"
-    },
     {
       "title": "The Kumar Show | Wednesday August 13th 2025 @ The Lemon Stand",
       "start": "Aug 13",
@@ -33,6 +16,23 @@
       ],
       "url": "https://www.thelemonstand.sg/event-details/the-kumar-show-wednesday-august-13th-2025-the-lemon-stand",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_enGrgukJHYNyaUSWTqngKAjTYXJE14eOAQqFi8NSA&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Winesday Unwind @ Grand Cru (13 Aug)",
+      "start": "Aug 13",
+      "end": "",
+      "venue": [
+        "252 N Bridge Rd, #01-44B Grand Cru Wine Concierge, Raffles City Shopping Centre",
+        "Singapore"
+      ],
+      "address": [
+        "252 N Bridge Rd, #01-44B Grand Cru Wine Concierge, Raffles City Shopping Centre",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.sg/e/winesday-unwind-grand-cru-13-aug-tickets-1539348666299?aff=ebdsoporgprofile",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgeOW_tFxA55cA2IDAO4tiF56MdujLjJwF6vtjP1IytQ&s",
       "category": "",
       "source": "google_events"
     },
@@ -84,6 +84,23 @@
       ],
       "url": "https://allevents.in/singapore/indri-whisky-and-camikara-rum-masterclass-13-aug-2025-6-30pm/200028554049703",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9oU-hVYbOQatx8JgayKV06SF8SKNDB922kjJixWUv1g&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "KAMPUNG ELEKTRIK PLUS KATONG SQUARE LIFESTYLE & VINTAGE MARKET 1-2-3 & 15-16-17 AUGUST 2025 EDITION",
+      "start": "Aug 13",
+      "end": "",
+      "venue": [
+        "88 E Coast Rd",
+        "Singapore"
+      ],
+      "address": [
+        "88 E Coast Rd",
+        "Singapore"
+      ],
+      "url": "https://m.facebook.com/events/1103508791881141/?acontext=%7B%22action_history%22%3A%22null%22%7D&ref_source=newsfeed&ref_mechanism=feed_attachment",
+      "image": "https://www.google.com/maps/vt/data=v9QgJvBCHjNDgvv_RmV2nnG5VX52P13q1KVMSOPOq0MzN70voBvwwFETWxbk5zvBlN11N4Aaiy7B2AmxbfxvJII__v4Qu-24WUr51AMLMCn2Buw693Y",
       "category": "",
       "source": "google_events"
     },
@@ -241,23 +258,6 @@
       "source": "google_events"
     },
     {
-      "title": "LE SSERAFIM",
-      "start": "Aug 16",
-      "end": "",
-      "venue": [
-        "2 Stadium Walk, Singapore Indoor Stadium",
-        "Singapore"
-      ],
-      "address": [
-        "2 Stadium Walk, Singapore Indoor Stadium",
-        "Singapore"
-      ],
-      "url": "https://open.spotify.com/concert/7iqVXgVRd6lcxAl67Fv3Kv",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRng2f2g624UBclvdvmDsgE_tKXYnwVNADQm9BVtNHuLdU2n0tpRzca2dEdag&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
       "title": "Aman Alhamid | A Magic Comedy Act | Sat August 16th 2025 | The Lemon Stand",
       "start": "Aug 16",
       "end": "",
@@ -275,19 +275,19 @@
       "source": "google_events"
     },
     {
-      "title": "3 Week Storyteller's Workshop",
+      "title": "LE SSERAFIM",
       "start": "Aug 16",
       "end": "",
       "venue": [
-        "444 Joo Chiat Rd, Joo Chiat City - Dry Cleaning and Laundry Services",
+        "2 Stadium Walk, Singapore Indoor Stadium",
         "Singapore"
       ],
       "address": [
-        "444 Joo Chiat Rd, Joo Chiat City - Dry Cleaning and Laundry Services",
+        "2 Stadium Walk, Singapore Indoor Stadium",
         "Singapore"
       ],
-      "url": "https://www.eventbrite.sg/e/3-week-storytellers-workshop-tickets-1451223722219",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1gjzK2c5EPf9oHuO0akTRrdHyucsj0N8XrVRcG8wLtg&s=10",
+      "url": "https://open.spotify.com/concert/7iqVXgVRd6lcxAl67Fv3Kv",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRng2f2g624UBclvdvmDsgE_tKXYnwVNADQm9BVtNHuLdU2n0tpRzca2dEdag&s=10",
       "category": "",
       "source": "google_events"
     },
