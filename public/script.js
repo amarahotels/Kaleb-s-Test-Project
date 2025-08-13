@@ -90,7 +90,7 @@ function categorize(p) {
   const primary = (p.primary_type || '').toLowerCase();
   const types = (p.types || []).map(t => (t || '').toLowerCase());
 
-  // 1) NAME signals (highest priority)
+  // NAME signals (highest priority)
   const nameSaysCafe = NAME_IS_CAFE_RE.test(name);
   const nameSaysBar = NAME_IS_BAR_RE.test(name) || NAME_ALCOHOL_RE.test(name);
   const nameSaysRestaurant = NAME_IS_RESTAURANT_RE.test(name);
@@ -99,23 +99,19 @@ function categorize(p) {
   if (nameSaysBar) tags.add('bars');
   if (nameSaysRestaurant) tags.add('restaurants');
 
-  // 2) If nothing from name, fall back to PRIMARY TYPE
   if (tags.size === 0) {
+    // No name match → fall back to PRIMARY TYPE
     if (primary.includes('cafe')) tags.add('cafes');
     if (primary.includes('bar')) tags.add('bars');
     if (primary.includes('restaurant')) tags.add('restaurants');
   } else {
-    // If name already picked categories, we still allow primary
-    // to reinforce them (no-op since Set), but we DO NOT add other
-    // categories just because `types` includes them.
-    if (primary.includes('cafe')) tags.add('cafes');
-    if (primary.includes('bar')) tags.add('bars');
-    if (primary.includes('restaurant')) tags.add('restaurants');
+    // Name already decided → only reinforce SAME categories from primary
+    if (primary.includes('cafe') && nameSaysCafe) tags.add('cafes');
+    if (primary.includes('bar') && nameSaysBar) tags.add('bars');
+    if (primary.includes('restaurant') && nameSaysRestaurant) tags.add('restaurants');
   }
 
-  // 3) Only use `types` to add a category if the NAME also suggests that category.
-  //    This prevents cases like “Oriental Elixir” (primary: bar, types include restaurant)
-  //    from leaking into Restaurants when the name doesn’t say so.
+  // Only let `types` add a category if NAME already suggested that category
   if (nameSaysCafe && types.some(t => t.includes('cafe') || t.includes('coffee_shop'))) {
     tags.add('cafes');
   }
@@ -128,6 +124,7 @@ function categorize(p) {
 
   return tags;
 }
+
 
 // render cards with image overlay + controls
 function render() {

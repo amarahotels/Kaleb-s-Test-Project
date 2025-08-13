@@ -1,6 +1,5 @@
 import os
 import json
-import time
 from datetime import datetime, timezone
 import requests
 from pathlib import Path
@@ -29,7 +28,7 @@ RADIUS_METERS = 800
 NEARBY_URL = "https://places.googleapis.com/v1/places:searchNearby"
 TEXT_URL   = "https://places.googleapis.com/v1/places:searchText"
 
-# Ask only for fields the front end needs (+ nextPageToken for paging)
+# Ask only for fields the front end needs
 FIELD_MASK = ",".join([
     "places.id",
     "places.displayName",
@@ -42,7 +41,6 @@ FIELD_MASK = ",".join([
     "places.photos.heightPx",
     "places.types",
     "places.primaryType",
-    "nextPageToken",
 ])
 
 def _headers():
@@ -52,97 +50,81 @@ def _headers():
         "X-Goog-FieldMask": FIELD_MASK,
     }
 
-# ---------------- Buckets ----------------
-BUCKETS = {
-    "restaurants": [
-        "restaurant", "brunch_restaurant", "italian_restaurant",
-        "pizza_restaurant", "japanese_restaurant", "chinese_restaurant",
-        "thai_restaurant", "korean_restaurant", "indian_restaurant",
-        "french_restaurant", "seafood_restaurant", "steak_house",
-        "barbecue_restaurant",
-    ],
-    "cafes": [
-        "cafe", "coffee_shop", "tea_house",
-    ],
-    "bars": [
-        "bar", "cocktail_bar", "wine_bar", "beer_bar", "pub", "speakeasy",
-    ],
-}
+# ---------- Primary-type search & filter ----------
+SEARCH_PRIMARY_TYPES = [
+    # core dining
+    "restaurant", "cafe", "bar",
+    # cuisine variants
+    "italian_restaurant", "pizza_restaurant", "japanese_restaurant",
+    "chinese_restaurant", "thai_restaurant", "korean_restaurant",
+    "indian_restaurant", "french_restaurant", "seafood_restaurant",
+    "brunch_restaurant", "steak_house", "barbecue_restaurant",
+    # drinks variants
+    "coffee_shop", "wine_bar", "beer_bar", "pub",
+    # 👉 add hawker-like primary types
+    "food_court",
+]
 
-TEXT_QUERIES = {
-    "restaurants": [
-        "best restaurants near Tanjong Pagar",
-        "dinner near Tanjong Pagar",
-        "lunch near Tanjong Pagar",
-    ],
-    "cafes": [
-        "best cafes near Tanjong Pagar",
-        "coffee near Tanjong Pagar",
-        "brunch near Tanjong Pagar",
-    ],
-    "bars": [
-        "best bars near Tanjong Pagar",
-        "cocktails near Tanjong Pagar",
-        "wine bars near Tanjong Pagar",
-    ],
-}
-
-EXCLUDED_PRIMARY = {"lodging"}  # and anything containing "hotel"
+EXCLUDED_PRIMARY = {"lodging"}  # and anything with 'hotel' inside
 
 def is_allowed_primary(primary: str) -> bool:
     p = (primary or "").lower()
     if p in EXCLUDED_PRIMARY or "hotel" in p:
         return False
-    return p in ("cafe", "bar") or ("restaurant" in p)
+    # allow clear dining + hawker
+    return (
+        p == "cafe" or
+        p == "bar" or
+        "restaurant" in p or
+        p == "food_court"
+    )
 
-# ---- Nearby with pagination ----
-MAX_PAGES_PER_CHUNK = 3          # up to 3 pages per chunk
-PAGE_DELAY_SEC = 2.0             # token warm-up
-PER_PAGE = 20                    # Places API limit per page
+def _chunks(iterable, size):
+    it = iter(iterable)
+    while True:
+        chunk = list(islice(it, size))
+        if not chunk:
+            return
+        yield chunk
 
-def nearby_all_pages(included_primary_types):
-    items = []
-    page_token = None
-    for _ in range(MAX_PAGES_PER_CHUNK):
-        body = {
-            "includedPrimaryTypes": included_primary_types,
-            "maxResultCount": PER_PAGE,
-            "rankPreference": "POPULARITY",
-            "locationRestriction": {
-                "circle": {
-                    "center": {"latitude": LAT, "longitude": LNG},
-                    "radius": float(RADIUS_METERS),
-                }
-            },
+def search_nearby_primary(included_primary_types, max_results=25):  # a bit higher than 20
+    body = {
+        "includedPrimaryTypes": included_primary_types,
+        "maxResultCount": max_results,
+        "locationRestriction": {
+            "circle": {
+                "center": {"latitude": LAT, "longitude": LNG},
+                "radius": float(RADIUS_METERS),
+            }
+        },
+    }
+    r = requests.post(NEARBY_URL, headers=_headers(), json=body, timeout=30)
+    r.raise_for_status()
+    data = r.json()
+    if "error" in data:
+        print(f"Nearby error ({included_primary_types}):", data["error"].get("message"))
+        return []
+    return data.get("places", [])
+
+def text_search(query: str, max_results: int = 8):
+    # Add a location bias so results are around Amara
+    body = {
+        "textQuery": query,
+        "maxResultCount": max_results,
+        "locationBias": {
+            "circle": {
+                "center": {"latitude": LAT, "longitude": LNG},
+                "radius": float(RADIUS_METERS),
+            }
         }
-        if page_token:
-            body["pageToken"] = page_token
-
-        r = requests.post(NEARBY_URL, headers=_headers(), json=body, timeout=30)
-        r.raise_for_status()
-        data = r.json()
-        if "error" in data:
-            print(f"Nearby error ({included_primary_types}):", data["error"].get("message"))
-            break
-
-        page = data.get("places", []) or []
-        items.extend(page)
-
-        page_token = data.get("nextPageToken")
-        if not page_token:
-            break
-        time.sleep(PAGE_DELAY_SEC)
-    return items
-
-def text_search(query):
-    r = requests.post(TEXT_URL, headers=_headers(),
-                      json={"textQuery": query, "maxResultCount": 20}, timeout=30)
+    }
+    r = requests.post(TEXT_URL, headers=_headers(), json=body, timeout=30)
     r.raise_for_status()
     data = r.json()
     if "error" in data:
         print("TextSearch error:", data["error"].get("message"))
         return []
-    return data.get("places", []) or []
+    return data.get("places", [])
 
 def first_photo_url(photos, max_h=480, max_w=720):
     if not photos:
@@ -153,44 +135,64 @@ def first_photo_url(photos, max_h=480, max_w=720):
     return f"https://places.googleapis.com/v1/{name}/media?maxHeightPx={max_h}&maxWidthPx={max_w}&key={API_KEY}"
 
 def better(a, b):
+    """Return the 'better' place record (higher rating_count, then rating)."""
     ar, br = a.get("userRatingCount") or 0, b.get("userRatingCount") or 0
     if ar != br:
         return a if ar > br else b
     ra, rb = a.get("rating") or 0, b.get("rating") or 0
     return a if ra >= rb else b
 
-# ---- Fetch & blend per bucket ----
+# ---- Fetch + dedupe (primaryType-based) ----
 raw_by_id = {}
 
-for bucket_name, types in BUCKETS.items():
-    # split into chunks of <=10 primary types (API limit)
-    for i in range(0, len(types), 10):
-        sub = types[i:i+10]
-        try:
-            for p in nearby_all_pages(sub):
-                primary = (p.get("primaryType") or "").lower()
-                if not is_allowed_primary(primary):
-                    continue
-                pid = p.get("id")
-                if not pid:
-                    continue
-                raw_by_id[pid] = better(raw_by_id[pid], p) if pid in raw_by_id else p
-        except requests.RequestException as e:
-            print(f"Nearby failed for {sub}: {e}")
+try:
+    for chunk in _chunks(SEARCH_PRIMARY_TYPES, 10):
+        results = search_nearby_primary(chunk, max_results=25)
+        for p in results:
+            primary = (p.get("primaryType") or "").lower()
+            if not is_allowed_primary(primary):
+                continue
+            pid = p.get("id")
+            if not pid:
+                continue
+            if pid in raw_by_id:
+                raw_by_id[pid] = better(raw_by_id[pid], p)
+            else:
+                raw_by_id[pid] = p
+except requests.RequestException as e:
+    print(f"Request failed: {e}")
 
-    # add a few text-search results to diversify
-    for tq in TEXT_QUERIES[bucket_name]:
-        try:
-            for p in text_search(tq):
-                primary = (p.get("primaryType") or "").lower()
-                if not is_allowed_primary(primary):
-                    continue
-                pid = p.get("id")
-                if not pid:
-                    continue
-                raw_by_id[pid] = better(raw_by_id[pid], p) if pid in raw_by_id else p
-        except requests.RequestException as e:
-            print(f"TextSearch failed for '{tq}': {e}")
+# 👉 Ensure the key hawker centres are present via text search
+HAWKER_QUERIES = [
+    "Lau Pa Sat",
+    "Maxwell Food Centre",
+    "Amoy Street Food Centre",
+    "Chinatown Complex",
+    "Chinatown Hawker Centre",
+]
+for q in HAWKER_QUERIES:
+    for p in text_search(q, max_results=3):
+        pid = p.get("id")
+        if not pid:
+            continue
+        # still respect exclusions (e.g., don't add hotels by accident)
+        primary = (p.get("primaryType") or "").lower()
+        if not is_allowed_primary(primary) and primary != "food_court":
+            continue
+        if pid in raw_by_id:
+            raw_by_id[pid] = better(raw_by_id[pid], p)
+        else:
+            raw_by_id[pid] = p
+
+# Optional broad fallback (rare)
+if not raw_by_id:
+    for p in text_search("restaurants, cafes, bars near Tanjong Pagar, Singapore", max_results=25):
+        primary = (p.get("primaryType") or "").lower()
+        if not is_allowed_primary(primary):
+            continue
+        pid = p.get("id")
+        if pid:
+            raw_by_id[pid] = p
 
 # ---- Transform for front-end ----
 places = []
