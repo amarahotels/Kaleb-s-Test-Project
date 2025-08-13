@@ -33,6 +33,9 @@ const NAME_IS_CAFE_RE =
   /\b(café|cafe|coffee|espresso|roastery|coffee\s*bar|bakery)\b/i;
 const NAME_IS_BAR_RE =
   /\b(bar|pub|taproom|wine\s*bar|speakeasy)\b/i;
+// Alcohol cue → also counts as “bar”
+const NAME_ALCOHOL_RE =
+  /\b(cocktail|cocktails|wine|beer|ale|lager|ipa|stout|porter|whisky|whiskey|gin|rum|tequila|mezcal|soju|sake|spirits|liqueur)\b/i;
 const NAME_IS_RESTAURANT_RE =
   /\b(restaurant|ristorante|trattoria|bistro|eatery|osteria|cantina|kitchen|diner)\b/i;
 
@@ -69,52 +72,61 @@ function isHawker(p) {
   return nameHit || addrHit || metaHit;
 }
 
-// Name-first classifier returning 'cafes' | 'bars' | 'restaurants' | null
-function classifyByName(p) {
+/**
+ * Categorize a place with multi-tag logic.
+ * Returns a Set with any of: 'restaurants', 'cafes', 'bars'
+ * Hawkers are handled separately and never mixed.
+ *
+ * Rules:
+ * 1) First look at the NAME — add tags found there.
+ * 2) If NAME had no tags, fall back to PRIMARY TYPE.
+ * 3) Ignore extra categories from `types` unless the NAME also suggests them.
+ * 4) If primary_type is decisively one category (e.g., 'bar') and
+ *    name does NOT suggest another category, do not add the other from `types`.
+ */
+function categorize(p) {
+  const tags = new Set();
   const name = p.name || '';
-  if (NAME_IS_CAFE_RE.test(name)) return 'cafes';
-  if (NAME_IS_BAR_RE.test(name)) return 'bars';
-  if (NAME_IS_RESTAURANT_RE.test(name)) return 'restaurants';
-  return null;
-}
-
-function metaSaysCafe(p) {
   const primary = (p.primary_type || '').toLowerCase();
   const types = (p.types || []).map(t => (t || '').toLowerCase());
-  return primary.includes('cafe') || types.some(t => t.includes('cafe') || t.includes('coffee_shop'));
-}
 
-function metaSaysBar(p) {
-  const primary = (p.primary_type || '').toLowerCase();
-  const types = (p.types || []).map(t => (t || '').toLowerCase());
-  return primary.includes('bar') || types.some(t => t.includes('bar') || t.includes('wine_bar') || t.includes('pub'));
-}
+  // 1) NAME signals (highest priority)
+  const nameSaysCafe = NAME_IS_CAFE_RE.test(name);
+  const nameSaysBar = NAME_IS_BAR_RE.test(name) || NAME_ALCOHOL_RE.test(name);
+  const nameSaysRestaurant = NAME_IS_RESTAURANT_RE.test(name);
 
-function metaSaysRestaurant(p) {
-  const primary = (p.primary_type || '').toLowerCase();
-  const types = (p.types || []).map(t => (t || '').toLowerCase());
-  return primary.includes('restaurant') || types.some(t => t.includes('restaurant'));
-}
+  if (nameSaysCafe) tags.add('cafes');
+  if (nameSaysBar) tags.add('bars');
+  if (nameSaysRestaurant) tags.add('restaurants');
 
-function isCafe(p) {
-  if (isHawker(p)) return false;
-  const byName = classifyByName(p);
-  if (byName) return byName === 'cafes';
-  return metaSaysCafe(p);
-}
+  // 2) If nothing from name, fall back to PRIMARY TYPE
+  if (tags.size === 0) {
+    if (primary.includes('cafe')) tags.add('cafes');
+    if (primary.includes('bar')) tags.add('bars');
+    if (primary.includes('restaurant')) tags.add('restaurants');
+  } else {
+    // If name already picked categories, we still allow primary
+    // to reinforce them (no-op since Set), but we DO NOT add other
+    // categories just because `types` includes them.
+    if (primary.includes('cafe')) tags.add('cafes');
+    if (primary.includes('bar')) tags.add('bars');
+    if (primary.includes('restaurant')) tags.add('restaurants');
+  }
 
-function isBar(p) {
-  if (isHawker(p)) return false;
-  const byName = classifyByName(p);
-  if (byName) return byName === 'bars';
-  return metaSaysBar(p);
-}
+  // 3) Only use `types` to add a category if the NAME also suggests that category.
+  //    This prevents cases like “Oriental Elixir” (primary: bar, types include restaurant)
+  //    from leaking into Restaurants when the name doesn’t say so.
+  if (nameSaysCafe && types.some(t => t.includes('cafe') || t.includes('coffee_shop'))) {
+    tags.add('cafes');
+  }
+  if (nameSaysBar && types.some(t => t.includes('bar') || t.includes('wine_bar') || t.includes('pub'))) {
+    tags.add('bars');
+  }
+  if (nameSaysRestaurant && types.some(t => t.includes('restaurant'))) {
+    tags.add('restaurants');
+  }
 
-function isRestaurant(p) {
-  if (isHawker(p)) return false;
-  const byName = classifyByName(p);
-  if (byName) return byName === 'restaurants';
-  return metaSaysRestaurant(p);
+  return tags;
 }
 
 // render cards with image overlay + controls
@@ -128,12 +140,18 @@ function render() {
     const r = num(p.rating);
     const passRating = Number.isFinite(r) ? r >= minR : true;
 
+    // Hawkers are exclusive
+    if (selectedType === 'hawker') return passRating && isHawker(p);
+
+    // Non-hawker categories
+    if (isHawker(p)) return false;
+
+    const tags = categorize(p); // Set('restaurants'|'cafes'|'bars')
     const passType =
       selectedType === 'all' ||
-      (selectedType === 'hawker' && isHawker(p)) ||
-      (selectedType === 'cafes' && isCafe(p)) ||
-      (selectedType === 'bars' && isBar(p)) ||
-      (selectedType === 'restaurants' && isRestaurant(p));
+      (selectedType === 'restaurants' && tags.has('restaurants')) ||
+      (selectedType === 'cafes' && tags.has('cafes')) ||
+      (selectedType === 'bars' && tags.has('bars'));
 
     return passRating && passType;
   });
@@ -147,7 +165,7 @@ function render() {
   }
 
   // limit
-  items = items.slice(0, 60);
+  items = items.slice(0, 24);
 
   listEl.innerHTML = items.map(cardHtml).join('') ||
     `<div class="notice">No places found.</div>`;
@@ -186,7 +204,6 @@ function esc(s = '') {
 sortSel?.addEventListener('change', render);
 minRatingSel?.addEventListener('change', render);
 
-// category change
 typeSel?.addEventListener('change', () => {
   selectedType = typeSel.value; // 'all' | 'restaurants' | 'cafes' | 'bars' | 'hawker'
   render();
