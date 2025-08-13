@@ -38,7 +38,7 @@ const NAME_ALCOHOL_RE =
   /\b(cocktail|cocktails|wine|beer|ale|lager|ipa|stout|porter|whisky|whiskey|gin|rum|tequila|mezcal|soju|sake|spirits|liqueur)\b/i;
 const NAME_IS_RESTAURANT_RE =
   /\b(restaurant|ristorante|trattoria|bistro|eatery|osteria|cantina|kitchen|diner)\b/i;
-// ✅ NEW: bookstore
+// Bookstores
 const NAME_IS_BOOKSTORE_RE =
   /\b(bookstore|book\s*shop|book\s*store|books|comics|manga|书店|書店|书屋|書屋)\b/i;
 
@@ -79,13 +79,6 @@ function isHawker(p) {
  * Categorize a place with multi-tag logic.
  * Returns a Set with any of: 'restaurants', 'cafes', 'bars', 'bookstores'
  * Hawkers are handled separately and never mixed.
- *
- * Rules:
- * 1) First look at the NAME — add tags found there.
- * 2) If NAME had no tags, fall back to PRIMARY TYPE.
- * 3) Ignore extra categories from `types` unless the NAME also suggests them.
- * 4) If primary_type is decisively one category (e.g., 'bar') and
- *    name does NOT suggest another category, do not add the other from `types`.
  */
 function categorize(p) {
   const tags = new Set();
@@ -93,7 +86,6 @@ function categorize(p) {
   const primary = (p.primary_type || '').toLowerCase();
   const types = (p.types || []).map(t => (t || '').toLowerCase());
 
-  // NAME signals (highest priority)
   const nameSaysCafe = NAME_IS_CAFE_RE.test(name);
   const nameSaysBar = NAME_IS_BAR_RE.test(name) || NAME_ALCOHOL_RE.test(name);
   const nameSaysRestaurant = NAME_IS_RESTAURANT_RE.test(name);
@@ -105,20 +97,17 @@ function categorize(p) {
   if (nameSaysBookstore) tags.add('bookstores');
 
   if (tags.size === 0) {
-    // No name match → fall back to PRIMARY TYPE
     if (primary.includes('cafe')) tags.add('cafes');
     if (primary.includes('bar')) tags.add('bars');
     if (primary.includes('restaurant')) tags.add('restaurants');
     if (primary.includes('book_store')) tags.add('bookstores');
   } else {
-    // Name already decided → only reinforce SAME categories from primary
     if (primary.includes('cafe') && nameSaysCafe) tags.add('cafes');
     if (primary.includes('bar') && nameSaysBar) tags.add('bars');
     if (primary.includes('restaurant') && nameSaysRestaurant) tags.add('restaurants');
     if (primary.includes('book_store') && nameSaysBookstore) tags.add('bookstores');
   }
 
-  // Only let `types` add a category if NAME already suggested that category
   if (nameSaysCafe && types.some(t => t.includes('cafe') || t.includes('coffee_shop'))) {
     tags.add('cafes');
   }
@@ -135,6 +124,12 @@ function categorize(p) {
   return tags;
 }
 
+function formatDistance(m) {
+  if (!Number.isFinite(m)) return '';
+  if (m < 1000) return `${Math.round(m)} m`;
+  const km = m / 1000;
+  return `${km < 10 ? km.toFixed(1) : Math.round(km)} km`;
+}
 
 // render cards with image overlay + controls
 function render() {
@@ -147,13 +142,16 @@ function render() {
     const r = num(p.rating);
     const passRating = Number.isFinite(r) ? r >= minR : true;
 
+    // must have image (backend already filters, this is a safety net)
+    if (!p.photo_url) return false;
+
     // Hawkers are exclusive
     if (selectedType === 'hawker') return passRating && isHawker(p);
 
     // Non-hawker categories
     if (isHawker(p)) return false;
 
-    const tags = categorize(p); // Set('restaurants'|'cafes'|'bars'|'bookstores')
+    const tags = categorize(p); // Set(...)
     const passType =
       selectedType === 'all' ||
       (selectedType === 'restaurants' && tags.has('restaurants')) ||
@@ -168,6 +166,8 @@ function render() {
   const sort = sortSel?.value || 'ratingDesc';
   if (sort === 'ratingDesc') {
     items.sort((a, b) => num(b.rating) - num(a.rating));
+  } else if (sort === 'distanceAsc') {
+    items.sort((a, b) => (num(a.distance_m) || 1e12) - (num(b.distance_m) || 1e12));
   } else {
     items.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
   }
@@ -183,19 +183,20 @@ function cardHtml(p) {
   const name = esc(p.name || 'Unknown');
   const addr = esc(p.address || '');
   const rating = p.rating ? `${p.rating}★` : '';
+  const dist = Number.isFinite(p.distance_m) ? formatDistance(p.distance_m) : '';
+
+  const pillRight = [rating, dist].filter(Boolean).join(' · ');
 
   const imgBlock = p.photo_url ? `
     <div class="thumb-wrap">
       <img class="thumb" src="${p.photo_url}" alt="${name}" loading="lazy">
-      ${rating ? `<span class="rating-pill">${rating}</span>` : ''}
+      ${pillRight ? `<span class="rating-pill">${pillRight}</span>` : ''}
     </div>` : '';
-
-  const meta = !p.photo_url && rating ? `<span class="rating-pill" style="position:static;margin-left:8px">${rating}</span>` : '';
 
   return `
     <article class="card">
       ${imgBlock}
-      <div class="title">${name}${meta}</div>
+      <div class="title">${name}</div>
       <div class="addr">${addr}</div>
       <div class="actions">
         ${p.maps_url ? `<a class="btn-link" href="${p.maps_url}" target="_blank" rel="noopener">Open in Google Maps</a>` : ''}

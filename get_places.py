@@ -1,5 +1,6 @@
 import os
 import json
+import math
 import time
 from datetime import datetime, timezone
 import requests
@@ -21,13 +22,14 @@ if not API_KEY:
         "Locally: put it in a .env file. On GitHub: set as repo secret and expose to workflow."
     )
 
-# --- Location & radius ---
-LAT, LNG = 1.2765, 103.8456
+# --- Location & radius (meters) ---
+LAT, LNG = 1.2765, 103.8456     # Amara / Tanjong Pagar area
 RADIUS_METERS = 800
 
 NEARBY_URL = "https://places.googleapis.com/v1/places:searchNearby"
 TEXT_URL   = "https://places.googleapis.com/v1/places:searchText"
 
+# Ask only for fields the front end needs (+ nextPageToken for paging)
 FIELD_MASK = ",".join([
     "places.id",
     "places.displayName",
@@ -40,6 +42,7 @@ FIELD_MASK = ",".join([
     "places.photos.heightPx",
     "places.types",
     "places.primaryType",
+    "places.location",            # <-- needed for distance
     "nextPageToken",
 ])
 
@@ -66,7 +69,7 @@ BUCKETS = {
         "bar", "cocktail_bar", "wine_bar", "beer_bar", "pub", "speakeasy",
     ],
     "bookstores": [
-        "book_store"
+        "book_store"                # keep it tight to avoid generic "store"
     ]
 }
 
@@ -127,7 +130,7 @@ HAWKER_NAME_KEYWORDS = (
     "food court", "market",
 )
 
-EXCLUDED_PRIMARY = {"lodging"}
+EXCLUDED_PRIMARY = {"lodging"}   # and anything containing "hotel"}
 
 def is_allowed_primary(primary: str) -> bool:
     p = (primary or "").lower()
@@ -137,11 +140,23 @@ def is_allowed_primary(primary: str) -> bool:
 
 # Per-bucket primaryType restriction (None => no extra restriction)
 ALLOWED_PRIMARY = {
-    "bookstores": {"book_store"},  # <- STRICT: only true bookstores
+    "bookstores": {"book_store"},   # STRICT: only true bookstores
     "restaurants": None,
     "cafes": None,
     "bars": None,
 }
+
+# --- Haversine distance (meters) ---
+def haversine_m(lat1, lon1, lat2, lon2):
+    if lat2 is None or lon2 is None:
+        return None
+    R = 6371000.0
+    ph1, ph2 = math.radians(lat1), math.radians(lat2)
+    dph = math.radians(lat2 - lat1)
+    dl  = math.radians(lon2 - lon1)
+    a = math.sin(dph/2)**2 + math.cos(ph1)*math.cos(ph2)*math.sin(dl/2)**2
+    c = 2*math.atan2(math.sqrt(a), math.sqrt(1-a))
+    return R * c
 
 # --- Nearby with pagination (includedTypes) ---
 MAX_PAGES_PER_CHUNK = 3
@@ -309,6 +324,17 @@ for p in raw_by_id.values():
 
     display = p.get("displayName") or {}
     photo_url = first_photo_url(p.get("photos"))
+
+    # ✅ Skip anything without a usable image
+    if not photo_url:
+        continue
+
+    # Pull lat/lng to compute distance
+    loc = p.get("location") or {}
+    plat = loc.get("latitude")
+    plng = loc.get("longitude")
+    dist_m = haversine_m(LAT, LNG, plat, plng)
+
     places.append({
         "name": display.get("text"),
         "rating": rating,
@@ -319,14 +345,21 @@ for p in raw_by_id.values():
         "photo_url": photo_url,
         "types": p.get("types", []),
         "primary_type": p.get("primaryType"),
+        "lat": plat,
+        "lng": plng,
+        "distance_m": round(dist_m) if dist_m is not None else None,
         "is_hawker_centre": is_hawker_centre_place(p),
     })
 
+# Sort by rating then rating_count
 places.sort(key=lambda x: ((x.get("rating") or 0), (x.get("rating_count") or 0)), reverse=True)
 
 # --- Write JSON ---
 Path("public/data").mkdir(parents=True, exist_ok=True)
-meta = {"generated_at": datetime.now(timezone.utc).isoformat()}
+meta = {
+    "generated_at": datetime.now(timezone.utc).isoformat(),
+    "origin": {"lat": LAT, "lng": LNG}
+}
 out = {"meta": meta, "places": places}
 
 with open("public/data/places.json", "w", encoding="utf-8") as f:
