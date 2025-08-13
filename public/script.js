@@ -7,20 +7,26 @@ const listEl = document.getElementById('placeList');
 const errorEl = document.getElementById('placesError');
 const sortSel = document.getElementById('sortSelect');
 const minRatingSel = document.getElementById('minRating');
-const typeSel = document.getElementById('typeFilter');   // <-- NEW
-const hawkerNameSet = new Set([
-  "lau pa sat",
-  "maxwell food centre",
-  "maxwell food center",
-  "Amoy Street Food Centre",   // just in case
-  "Amoy Street Food Center", 
-  "chinatown complex",
-  "chinatown hawker center",
-  "chinatown hawker centre"
-]);
+const typeSel = document.getElementById('typeFilter');
 
 let allPlaces = [];
-let selectedType = 'all'; // <-- NEW
+let selectedType = 'all';
+
+// ---- Hawker detection config (keep all lowercase) ----
+const hawkerNameSet = new Set([
+  'lau pa sat',
+  'maxwell food centre',
+  'maxwell food center',
+  'amoy street food centre',
+  'amoy street food center',
+  'chinatown complex',
+  'chinatown hawker center',
+  'chinatown hawker centre'
+]);
+
+// Generic phrases that indicate a hawker location in the address
+const HAWKER_ADDRESS_RE =
+  /(food\s*centre|food\s*center|hawker\s*centre|hawker\s*center|hawker|market)/i;
 
 // load latest JSON (cache-busted)
 async function loadPlaces() {
@@ -29,7 +35,7 @@ async function loadPlaces() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
-    // FIX: handle new structure with { meta, places }
+    // handle { meta, places } or legacy plain array
     allPlaces = Array.isArray(data.places) ? data.places : (Array.isArray(data) ? data : []);
 
     render();
@@ -41,33 +47,42 @@ async function loadPlaces() {
 
 // --- Category helpers ---
 function isHawker(p) {
-  const name = (p.name || "").toLowerCase().trim();
-  const primary = (p.primary_type || "").toLowerCase();
-  const types = (p.types || []).map(t => t.toLowerCase());
+  const name = (p.name || '').toLowerCase().trim();
+  const addr = (p.address || '').toLowerCase().trim();
+  const primary = (p.primary_type || '').toLowerCase();
+  const types = (p.types || []).map(t => (t || '').toLowerCase());
 
-  if (hawkerNameSet.has(name)) return true;
-  if (primary.includes("food_court")) return true;
-  if (types.some(t => t.includes("food_court") || t.includes("market"))) return true;
+  // Name OR address contains any known hawker name/phrase
+  const nameHit = [...hawkerNameSet].some(h => name.includes(h));
+  const addrHit = HAWKER_ADDRESS_RE.test(addr);
 
-  return false;
+  // Places metadata signals
+  const metaHit =
+    primary.includes('food_court') ||
+    types.some(t => t.includes('food_court') || t.includes('market'));
+
+  return nameHit || addrHit || metaHit;
 }
 
 function isRestaurant(p) {
-  const primary = (p.primary_type || "").toLowerCase();
-  const types = (p.types || []).map(t => t.toLowerCase());
-  return !isHawker(p) && (primary.includes("restaurant") || types.some(t => t.includes("restaurant")));
+  if (isHawker(p)) return false;
+  const primary = (p.primary_type || '').toLowerCase();
+  const types = (p.types || []).map(t => (t || '').toLowerCase());
+  return primary.includes('restaurant') || types.some(t => t.includes('restaurant'));
 }
 
 function isCafe(p) {
-  const primary = (p.primary_type || "").toLowerCase();
-  const types = (p.types || []).map(t => t.toLowerCase());
-  return primary.includes("cafe") || types.some(t => t.includes("cafe") || t.includes("coffee_shop"));
+  if (isHawker(p)) return false;
+  const primary = (p.primary_type || '').toLowerCase();
+  const types = (p.types || []).map(t => (t || '').toLowerCase());
+  return primary.includes('cafe') || types.some(t => t.includes('cafe') || t.includes('coffee_shop'));
 }
 
 function isBar(p) {
-  const primary = (p.primary_type || "").toLowerCase();
-  const types = (p.types || []).map(t => t.toLowerCase());
-  return primary.includes("bar") || types.some(t => t.includes("bar") || t.includes("wine_bar") || t.includes("pub"));
+  if (isHawker(p)) return false;
+  const primary = (p.primary_type || '').toLowerCase();
+  const types = (p.types || []).map(t => (t || '').toLowerCase());
+  return primary.includes('bar') || types.some(t => t.includes('bar') || t.includes('wine_bar') || t.includes('pub'));
 }
 
 // render cards with image overlay + controls
@@ -81,19 +96,13 @@ function render() {
     const r = num(p.rating);
     const passRating = Number.isFinite(r) ? r >= minR : true;
 
-    // Ensure name matching is case-insensitive
-    const nameLower = (p.name || "").toLowerCase();
-    const isHawker = [...hawkerNameSet].some(h => nameLower.includes(h.toLowerCase()));
-
+    // category gating: hawker first, then other categories
     const passType =
       selectedType === 'all' ||
-      (selectedType === 'hawker' && isHawker) ||
-      (Array.isArray(p.types) && !isHawker && (
-        (selectedType === 'restaurants' && p.types.some(t => t.includes('restaurant'))) ||
-        (selectedType === 'cafes' && p.types.some(t => t.includes('cafe'))) ||
-        (selectedType === 'bars' && p.types.some(t => t.includes('bar')))
-      ));
-
+      (selectedType === 'hawker' && isHawker(p)) ||
+      (selectedType === 'restaurants' && isRestaurant(p)) ||
+      (selectedType === 'cafes' && isCafe(p)) ||
+      (selectedType === 'bars' && isBar(p));
 
     return passRating && passType;
   });
@@ -106,7 +115,7 @@ function render() {
     items.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
   }
 
-  // brochure size
+  // limit
   items = items.slice(0, 24);
 
   listEl.innerHTML = items.map(cardHtml).join('') ||
@@ -148,7 +157,7 @@ minRatingSel?.addEventListener('change', render);
 
 // NEW: category change
 typeSel?.addEventListener('change', () => {
-  selectedType = typeSel.value;
+  selectedType = typeSel.value; // 'all' | 'restaurants' | 'cafes' | 'bars' | 'hawker'
   render();
 });
 
