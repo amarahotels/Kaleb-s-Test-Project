@@ -323,11 +323,15 @@ for q in HAWKER_TEXT_QUERIES:
 # ---- Transform for front-end ----
 places = []
 for p in raw_by_id.values():
+    rating = p.get("rating")
+    if rating is None or rating <= 3.5:
+        continue  # skip low-rated places
+    
     display = p.get("displayName") or {}
     photo_url = first_photo_url(p.get("photos"))
     places.append({
         "name": display.get("text"),
-        "rating": p.get("rating"),
+        "rating": rating,
         "rating_count": p.get("userRatingCount"),
         "address": p.get("formattedAddress"),
         "place_id": p.get("id"),
@@ -335,8 +339,9 @@ for p in raw_by_id.values():
         "photo_url": photo_url,
         "types": p.get("types", []),
         "primary_type": p.get("primaryType"),
-        "is_hawker_centre": is_hawker_centre_place(p),  # used by frontend filter
+        "is_hawker_centre": is_hawker_centre_place(p),
     })
+
 
 # Sort by rating then rating_count
 places.sort(key=lambda x: ((x.get("rating") or 0), (x.get("rating_count") or 0)), reverse=True)
