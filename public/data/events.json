@@ -1,109 +1,7 @@
 {
   "source": "google_events",
-  "generated_at": "2025-08-13T16:20:51.815137Z",
+  "generated_at": "2025-08-14T16:25:45.822902Z",
   "events": [
-    {
-      "title": "The Kumar Show | Wednesday August 13th 2025 @ The Lemon Stand",
-      "start": "Aug 13",
-      "end": "",
-      "venue": [
-        "12 Queen St, #01-02 The Lemon Stand Comedy Club",
-        "Singapore"
-      ],
-      "address": [
-        "12 Queen St, #01-02 The Lemon Stand Comedy Club",
-        "Singapore"
-      ],
-      "url": "https://www.thelemonstand.sg/event-details/the-kumar-show-wednesday-august-13th-2025-the-lemon-stand",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_enGrgukJHYNyaUSWTqngKAjTYXJE14eOAQqFi8NSA&s",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Winesday Unwind @ Grand Cru (13 Aug)",
-      "start": "Aug 13",
-      "end": "",
-      "venue": [
-        "252 N Bridge Rd, #01-44B Grand Cru Wine Concierge, Raffles City Shopping Centre",
-        "Singapore"
-      ],
-      "address": [
-        "252 N Bridge Rd, #01-44B Grand Cru Wine Concierge, Raffles City Shopping Centre",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.sg/e/winesday-unwind-grand-cru-13-aug-tickets-1539348666299",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgeOW_tFxA55cA2IDAO4tiF56MdujLjJwF6vtjP1IytQ&s",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "UNWIND @ Raffles Place August 2025",
-      "start": "Aug 13",
-      "end": "",
-      "venue": [
-        "Raffles Place MRT station",
-        "Singapore"
-      ],
-      "address": [
-        "Raffles Place MRT station",
-        "Singapore"
-      ],
-      "url": "https://allevents.in/singapore/unwind-raffles-place-august-2025/200028582514636",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnGcEK7uOT47f9-XFKegko5c7Fkx_ur7l_OJgoXr6_gQ&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Studio Sessions: The Flow Practice • 13 August 2025",
-      "start": "Aug 13",
-      "end": "",
-      "venue": [
-        "90 Goodman Rd, Block B, #01-08 RAW Moves Ltd, Goodman Arts Centre",
-        "Singapore"
-      ],
-      "address": [
-        "90 Goodman Rd, Block B, #01-08 RAW Moves Ltd, Goodman Arts Centre",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.sg/e/studio-sessions-the-flow-practice-13-august-2025-tickets-1529295045649",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsY1j0M9PnRLgxX6fiKMW9vQwRPi3Lf4yY2Ie06GvltQ&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Indri Whisky & Camikara Rum Masterclass 13 Aug 2025, 6:30pm",
-      "start": "Aug 13",
-      "end": "",
-      "venue": [
-        "2 Sims Cl, Gemini @ Sims",
-        "Singapore"
-      ],
-      "address": [
-        "2 Sims Cl, Gemini @ Sims",
-        "Singapore"
-      ],
-      "url": "https://allevents.in/singapore/indri-whisky-and-camikara-rum-masterclass-13-aug-2025-6-30pm/200028554049703",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9oU-hVYbOQatx8JgayKV06SF8SKNDB922kjJixWUv1g&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "KAMPUNG ELEKTRIK PLUS KATONG SQUARE LIFESTYLE & VINTAGE MARKET 1-2-3 & 15-16-17 AUGUST 2025 EDITION",
-      "start": "Aug 13",
-      "end": "",
-      "venue": [
-        "88 E Coast Rd",
-        "Singapore"
-      ],
-      "address": [
-        "88 E Coast Rd",
-        "Singapore"
-      ],
-      "url": "https://m.facebook.com/events/1103508791881141/?acontext=%7B%22action_history%22%3A%22null%22%7D&ref_source=newsfeed&ref_mechanism=feed_attachment",
-      "image": "https://www.google.com/maps/vt/data=v9QgJvBCHjNDgvv_RmV2nnG5VX52P13q1KVMSOPOq0MzN70voBvwwFETWxbk5zvBlN11N4Aaiy7B2AmxbfxvJII__v4Qu-24WUr51AMLMCn2Buw693Y",
-      "category": "",
-      "source": "google_events"
-    },
     {
       "title": "BNI-Nexus (14/8/2025) — Suntec Singapore",
       "start": "Aug 14",
@@ -139,6 +37,23 @@
       "source": "google_events"
     },
     {
+      "title": "2025 International Forum on Quality and Safety in Health Care Singapore",
+      "start": "Aug 14",
+      "end": "",
+      "venue": [
+        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+        "Singapore"
+      ],
+      "address": [
+        "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+        "Singapore"
+      ],
+      "url": "https://bmjgroup.com/events/2025-08-13/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFtnYtJuh723iW64AjDD9lL5SZspTvAV22NxpDbimROAc6Yw2lYd2MMsI4zw&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
       "title": "YOUTH COACHING WORKSHOP - AUG 2025 RUN",
       "start": "Aug 14",
       "end": "",
@@ -169,6 +84,23 @@
       ],
       "url": "https://www.eventbrite.sg/e/14-aug-2025-bni-synergy-weekly-networking-meeting-tickets-1444529910849",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCr5GyDRCk4B2WD0khbH1Udv97cIS76rkeBbFtqh6Jfw&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "KAMPUNG ELEKTRIK PLUS KATONG SQUARE LIFESTYLE & VINTAGE MARKET 1-2-3 & 15-16-17 AUGUST 2025 EDITION",
+      "start": "Aug 14",
+      "end": "",
+      "venue": [
+        "88 E Coast Rd",
+        "Singapore"
+      ],
+      "address": [
+        "88 E Coast Rd",
+        "Singapore"
+      ],
+      "url": "https://m.facebook.com/events/1103508791881141/?acontext=%7B%22action_history%22%3A%22null%22%7D&ref_source=newsfeed&ref_mechanism=feed_attachment",
+      "image": "https://www.google.com/maps/vt/data=v9QgJvBCHjNDgvv_RmV2nnG5VX52P13q1KVMSOPOq0MzN70voBvwwFETWxbk5zvBlN11N4Aaiy7B2AmxbfxvJII__v4Qu-24WUr51AMLMCn2Buw693Y",
       "category": "",
       "source": "google_events"
     },
@@ -220,6 +152,23 @@
       ],
       "url": "https://www.artofawakeningasia.com/event-details/art-of-awakening-visual-facilitation-lab-singapore-august-2025",
       "image": "https://www.google.com/maps/vt/data=dySYRRKoXUoNjzxcMe0pmuCQTwdlvb9MPvLqv_FqrUsCpctP7Mvk6rXZwHUkcxtKYYZjaGRvzfTBB_dJVZrQvH_5__W7HTNV0OR6TiK5-W9cgP0wukI",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Asian Academy 2025 (15-17 Aug)",
+      "start": "Aug 15",
+      "end": "",
+      "venue": [
+        "351 Cranwell Rd, Changi Cove",
+        "Singapore"
+      ],
+      "address": [
+        "351 Cranwell Rd, Changi Cove",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.com/e/asian-academy-2025-15-17-aug-tickets-1281840642869",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTlYg6j9XBQadPf33br_AWF832BaaSIstiUGfjuyi_CA&s=10",
       "category": "",
       "source": "google_events"
     },
@@ -292,6 +241,23 @@
       "source": "google_events"
     },
     {
+      "title": "3 Week Storyteller's Workshop",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "444 Joo Chiat Rd, Joo Chiat City - Dry Cleaning and Laundry Services",
+        "Singapore"
+      ],
+      "address": [
+        "444 Joo Chiat Rd, Joo Chiat City - Dry Cleaning and Laundry Services",
+        "Singapore"
+      ],
+      "url": "https://www.eventbrite.sg/e/3-week-storytellers-workshop-tickets-1451223722219",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1gjzK2c5EPf9oHuO0akTRrdHyucsj0N8XrVRcG8wLtg&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
       "title": "Somewhere Out There Festival 2025",
       "start": "Aug 16",
       "end": "",
@@ -305,6 +271,23 @@
       ],
       "url": "https://ra.co/events/2228029",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0wls_jXzIlsQ4IJBemglIuL-jIFsTk2IaEItLqu1vHPQmLDkSRv3gQJt1RQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "2025-Aug-16, Esplanade Concert Hall: National Day Concert 2025",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
+        "Singapore"
+      ],
+      "address": [
+        "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
+        "Singapore"
+      ],
+      "url": "https://bachtrack.com/concert-event/national-day-concert-2025-singapore-symphony-orchestra-esplanade-concert-hall-16-august-2025/421638",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRckwbFGVjXM6wRgl1gGxJugQKk7tfB7J38Non91Zf1wA&s=10",
       "category": "",
       "source": "google_events"
     },
