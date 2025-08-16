@@ -1,160 +1,7 @@
 {
   "source": "google_events",
-  "generated_at": "2025-08-15T16:23:47.423656Z",
+  "generated_at": "2025-08-16T16:21:18.399478Z",
   "events": [
-    {
-      "title": "The Lord of the Rings",
-      "start": "Aug 15",
-      "end": "",
-      "venue": [
-        "10 Bayfront Ave, B1-69/70 Sands Theatre, The Shoppes, Marina bay sands",
-        "Singapore"
-      ],
-      "address": [
-        "10 Bayfront Ave, B1-69/70 Sands Theatre, The Shoppes, Marina bay sands",
-        "Singapore"
-      ],
-      "url": "https://www.ticketswap.com/event/the-lord-of-the-rings-a-musical-tale/103e7a8d-01ac-49a5-98e1-b2b31371f3f2",
-      "image": "https://www.google.com/maps/vt/data=_x-6dYYbQB7-2CrhnkC8RcJV1mWz5N1a1-RkiViuHlUCXOck9ToYD6gigtJxOZsfSly1UIPjQiM18I8PG30paKOeyTaPM5RYMuy1LN0PCKYWaaaFvzw",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Avenue Fridays",
-      "start": "Aug 15",
-      "end": "",
-      "venue": [
-        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
-        "Singapore"
-      ],
-      "address": [
-        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
-        "Singapore"
-      ],
-      "url": "https://taogroup.com/event/15-08-25-avenue-fridays-avenue-singapore/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3n-O1-EFsGdICImcL2gBrUoWYlLdv_TqCaGNbXQ6zjD8--AWFmgxFRA1jNA&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "National Identity 4.0",
-      "start": "Aug 15",
-      "end": "",
-      "venue": [
-        "50 Genting Ln, #03-02 Art Seasons, Cideco Industrial Complex",
-        "Singapore"
-      ],
-      "address": [
-        "50 Genting Ln, #03-02 Art Seasons, Cideco Industrial Complex",
-        "Singapore"
-      ],
-      "url": "https://www.artrabbit.com/events/national-identity-40",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbMCjODFOaGIcsAFDSvCqp9Dhv5_KZqSurtgYfKtyrxk_7yNSEurljDDq48g&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "APAC Food & Beverage Expo - The Ultimate Foodie Playground",
-      "start": "Aug 15",
-      "end": "",
-      "venue": [
-        "101A Upper Cross St, #10-13A/26 APAC Lifestyle, Food & Travel Exhibitions, People’s Park Centre",
-        "Singapore"
-      ],
-      "address": [
-        "101A Upper Cross St, #10-13A/26 APAC Lifestyle, Food & Travel Exhibitions, People’s Park Centre",
-        "Singapore"
-      ],
-      "url": "https://thebeat.asia/singapore/the-list/events/apac-food-beverage-expo-the-ultimate-foodie-playground",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa2ZH9NfU0UhYIYFVGX-ygMB-pna7ZNKiuhSRaqjXRyg&s",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "YOUTH COACHING WORKSHOP - AUG 2025 RUN",
-      "start": "Aug 15",
-      "end": "",
-      "venue": [
-        "601 MacPherson Road Grantral Mall, Grantral Mall/Grantral Complex@Macpherson, Grantral Complex",
-        "Singapore"
-      ],
-      "address": [
-        "601 MacPherson Road Grantral Mall, Grantral Mall/Grantral Complex@Macpherson, Grantral Complex",
-        "Singapore"
-      ],
-      "url": "https://allevents.in/singapore/youth-coaching-workshop-aug-2025-run/200028561287545",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9JAiB-cSjPatmWzC4Elxjtt87HeOkAmNBteBAaUliCDhnPwvIEVGpRVucQ&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "KAMPUNG ELEKTRIK PLUS KATONG SQUARE LIFESTYLE & VINTAGE MARKET 1-2-3 & 15-16-17 AUGUST 2025 EDITION",
-      "start": "Aug 15",
-      "end": "",
-      "venue": [
-        "88 E Coast Rd",
-        "Singapore"
-      ],
-      "address": [
-        "88 E Coast Rd",
-        "Singapore"
-      ],
-      "url": "https://m.facebook.com/events/1103508791881141/?acontext=%7B%22action_history%22%3A%22null%22%7D&ref_source=newsfeed&ref_mechanism=feed_attachment",
-      "image": "https://www.google.com/maps/vt/data=v9QgJvBCHjNDgvv_RmV2nnG5VX52P13q1KVMSOPOq0MzN70voBvwwFETWxbk5zvBlN11N4Aaiy7B2AmxbfxvJII__v4Qu-24WUr51AMLMCn2Buw693Y",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Art of Awakening Visual Facilitation Lab - Singapore AUGUST 2025",
-      "start": "Aug 15",
-      "end": "",
-      "venue": [
-        "30 Merchant Rd, Riverside Point",
-        "Singapore"
-      ],
-      "address": [
-        "30 Merchant Rd, Riverside Point",
-        "Singapore"
-      ],
-      "url": "https://www.artofawakeningasia.com/event-details/art-of-awakening-visual-facilitation-lab-singapore-august-2025",
-      "image": "https://www.google.com/maps/vt/data=dySYRRKoXUoNjzxcMe0pmuCQTwdlvb9MPvLqv_FqrUsCpctP7Mvk6rXZwHUkcxtKYYZjaGRvzfTBB_dJVZrQvH_5__W7HTNV0OR6TiK5-W9cgP0wukI",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "[14 & 15 Aug 2025] Financial Data Analytics: Comprehensive Guide",
-      "start": "Aug 15",
-      "end": "",
-      "venue": [
-        "11 Cavenagh Rd, Holiday Inn Singapore Orchard City Centre by IHG",
-        "Singapore"
-      ],
-      "address": [
-        "11 Cavenagh Rd, Holiday Inn Singapore Orchard City Centre by IHG",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.sg/e/14-15-aug-2025-financial-data-analytics-comprehensive-guide-tickets-1204109767729",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5vB1Dz3CuAbEvXF3fGLYN7ZsiVEN2kR5-mcmL7rzCZA&s=10",
-      "category": "",
-      "source": "google_events"
-    },
-    {
-      "title": "Asian Academy 2025 (15-17 Aug)",
-      "start": "Aug 15",
-      "end": "",
-      "venue": [
-        "351 Cranwell Rd, Changi Cove",
-        "Singapore"
-      ],
-      "address": [
-        "351 Cranwell Rd, Changi Cove",
-        "Singapore"
-      ],
-      "url": "https://www.eventbrite.com/e/asian-academy-2025-15-17-aug-tickets-1281840642869",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTlYg6j9XBQadPf33br_AWF832BaaSIstiUGfjuyi_CA&s=10",
-      "category": "",
-      "source": "google_events"
-    },
     {
       "title": "Tampines West National Day Carnival 2025",
       "start": "Aug 16",
@@ -167,7 +14,7 @@
         "Tampines Street 81, Play T West",
         "Singapore"
       ],
-      "url": "https://ahboy.com/singapore-events/tag/tampines-fireworks/",
+      "url": "https://ahboy.com/event/tampines-west-national-day-carnival-2025/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnseVlKK4eODvlJRIZXseAYSa-pFzvO2QU62H34WLi-w&s=10",
       "category": "",
       "source": "google_events"
@@ -190,6 +37,57 @@
       "source": "google_events"
     },
     {
+      "title": "LE SSERAFIM",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "2 Stadium Walk, Singapore Indoor Stadium",
+        "Singapore"
+      ],
+      "address": [
+        "2 Stadium Walk, Singapore Indoor Stadium",
+        "Singapore"
+      ],
+      "url": "https://www.stereoboard.com/le-sserafim-tickets/singapore",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzAPGCVgy5za0lCti5cEq-0FdZB1PAX74L-uNp0qlXFkS6omhBK4PoAzXcQ&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Mountbatten National Day Celebration 2025",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "35 Jln. Satu, Mountbatten Community Club",
+        "Singapore"
+      ],
+      "address": [
+        "35 Jln. Satu, Mountbatten Community Club",
+        "Singapore"
+      ],
+      "url": "https://allevents.in/singapore/mountbatten-national-day-celebration-2025/200028597698515",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu80TZVJyunDtsnLIrcLBHVrBA1HE3UP2YLqu_cvUArn-O8XVHcuusYzCxbg&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Avenue Fridays",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
+        "Singapore"
+      ],
+      "address": [
+        "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
+        "Singapore"
+      ],
+      "url": "https://taogroup.com/event/15-08-25-avenue-fridays-avenue-singapore/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3n-O1-EFsGdICImcL2gBrUoWYlLdv_TqCaGNbXQ6zjD8--AWFmgxFRA1jNA&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
       "title": "Aman Alhamid | A Magic Comedy Act | Sat August 16th 2025 | The Lemon Stand",
       "start": "Aug 16",
       "end": "",
@@ -207,19 +105,36 @@
       "source": "google_events"
     },
     {
-      "title": "LE SSERAFIM",
+      "title": "National Identity 4.0",
       "start": "Aug 16",
       "end": "",
       "venue": [
-        "2 Stadium Walk, Singapore Indoor Stadium",
+        "50 Genting Ln, #03-02 Art Seasons, Cideco Industrial Complex",
         "Singapore"
       ],
       "address": [
-        "2 Stadium Walk, Singapore Indoor Stadium",
+        "50 Genting Ln, #03-02 Art Seasons, Cideco Industrial Complex",
         "Singapore"
       ],
-      "url": "https://www.stereoboard.com/le-sserafim-tickets/singapore",
-      "image": "https://www.google.com/maps/vt/data=JdNl-drUz0vbFK9MmeFpdPablwIQ6IA7lj7jTZgCx0k3Koid3ormeX4qqFEk3lLI6cKbG-by_UgkWfCX81P4N52tZzsrRaJjhWSdCGdQs16ayaoLEtM",
+      "url": "https://www.artrabbit.com/events/national-identity-40",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbMCjODFOaGIcsAFDSvCqp9Dhv5_KZqSurtgYfKtyrxk_7yNSEurljDDq48g&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "APAC Food & Beverage Expo - The Ultimate Foodie Playground",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "101A Upper Cross St, #10-13A/26 APAC Lifestyle, Food & Travel Exhibitions, People’s Park Centre",
+        "Singapore"
+      ],
+      "address": [
+        "101A Upper Cross St, #10-13A/26 APAC Lifestyle, Food & Travel Exhibitions, People’s Park Centre",
+        "Singapore"
+      ],
+      "url": "https://thebeat.asia/singapore/the-list/events/apac-food-beverage-expo-the-ultimate-foodie-playground",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa2ZH9NfU0UhYIYFVGX-ygMB-pna7ZNKiuhSRaqjXRyg&s",
       "category": "",
       "source": "google_events"
     },
@@ -292,6 +207,23 @@
       "source": "google_events"
     },
     {
+      "title": "Art of Awakening Visual Facilitation Lab - Singapore AUGUST 2025",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "30 Merchant Rd, Riverside Point",
+        "Singapore"
+      ],
+      "address": [
+        "30 Merchant Rd, Riverside Point",
+        "Singapore"
+      ],
+      "url": "https://www.artofawakeningasia.com/event-details/art-of-awakening-visual-facilitation-lab-singapore-august-2025",
+      "image": "https://www.google.com/maps/vt/data=dySYRRKoXUoNjzxcMe0pmuCQTwdlvb9MPvLqv_FqrUsCpctP7Mvk6rXZwHUkcxtKYYZjaGRvzfTBB_dJVZrQvH_5__W7HTNV0OR6TiK5-W9cgP0wukI",
+      "category": "",
+      "source": "google_events"
+    },
+    {
       "title": "The Rocketman",
       "start": "Aug 16",
       "end": "",
@@ -309,6 +241,23 @@
       "source": "google_events"
     },
     {
+      "title": "Chinatown Food Tour in Singapore",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "150 N Bridge Rd",
+        "Singapore"
+      ],
+      "address": [
+        "150 N Bridge Rd",
+        "Singapore"
+      ],
+      "url": "https://wanderwomenproject.com/event/chinatown-food-tour-in-singapore/2025-08-16/",
+      "image": "https://www.google.com/maps/vt/data=K8NW9EB_CAseINrgJ551RgcXbTM9t0D5P1p0_zMNYTcxmLThaez-1t3wmGThuEFCioywVKyidogPpRBf-M5qgOZedE_76p04jtwL3auPw0k4xKDkpJk",
+      "category": "",
+      "source": "google_events"
+    },
+    {
       "title": "The SingaporeBrides Wedding Fair Aug 2025",
       "start": "Aug 16",
       "end": "",
@@ -320,8 +269,25 @@
         "10 Bayfront Ave, Sands Expo & Convention Centre",
         "Singapore"
       ],
-      "url": "https://www.eventbrite.sg/e/the-singaporebrides-wedding-fair-aug-2025-tickets-1508531912559?aff=ebdssbcategorybrowse",
+      "url": "https://www.eventbrite.sg/e/the-singaporebrides-wedding-fair-aug-2025-tickets-1508531912559",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmbYd7MGsTZxtvgiGBo5z8rBKmwaonyat-ZLAKp6c7-g&s=10",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "SKM AADI POOJA 2025",
+      "start": "Aug 16",
+      "end": "",
+      "venue": [
+        "136 Yishun Ring Rd, Block 136 HDB Yishun",
+        "Singapore"
+      ],
+      "address": [
+        "136 Yishun Ring Rd, Block 136 HDB Yishun",
+        "Singapore"
+      ],
+      "url": "https://allevents.in/yishun/skm-aadi-pooja-2025/200028497931852",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvc4iXMUPmADQwAqR1jME28XbWZ6Uwu7RcvUaEoA7WtQ&s=10",
       "category": "",
       "source": "google_events"
     },
@@ -339,6 +305,23 @@
       ],
       "url": "https://www.facebook.com/events/live-oak-coffeehouse/silent-reading-at-live-oak-coffeehouse/767912142357987/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrknIqHNvEM1ETPJLVaPBysVvgOn95_ZWc8zz2WXT_ew&s",
+      "category": "",
+      "source": "google_events"
+    },
+    {
+      "title": "Sleep Training Workshop by Dr Wong Boh Boi - 17 August 2025",
+      "start": "Aug 17",
+      "end": "",
+      "venue": [
+        "371 Alexandra Rd, AIA Singapore (Alexandra)",
+        "Singapore"
+      ],
+      "address": [
+        "371 Alexandra Rd, AIA Singapore (Alexandra)",
+        "Singapore"
+      ],
+      "url": "https://www.wongbb.com/events/sleep-training-workshop-by-dr-wong-boh-boi-17-august-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbWdnZoMlHTPd1wrgYEk3NFeUa87QeQ7bKKov_urduwEE-&s=10",
       "category": "",
       "source": "google_events"
     }
