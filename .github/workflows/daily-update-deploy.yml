@@ -64,8 +64,7 @@ jobs:
       - name: Fetch events from SerpAPI
         run: |
           python get_serpapi_events.py
-          mkdir -p public/data
-          mv events.json public/data/events.json
+          # No move needed; script already writes to public/data/events.json
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
 
