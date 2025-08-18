@@ -349,17 +349,18 @@ async function loadEvents(){
     document.getElementById('eventsError')?.classList.remove('hidden');
   }
 }
+
 function renderEvents(events){
   const list = document.getElementById('eventList');
   if (!list) return;
 
-  // 1) category filter (if you have an <select id="eventCat">)
+  // 1) category filter
   let items = events;
   if (selectedEventCat !== 'all') {
     items = items.filter(e => ((e.category || 'general') + '').toLowerCase() === selectedEventCat);
   }
 
-  // 2) drop events without a usable image
+  // 2) cheap prefilter: has a non-empty image URL
   items = items.filter(e => typeof e.image === 'string' && e.image.trim().length > 0);
 
   // 3) sort by start date
@@ -369,11 +370,11 @@ function renderEvents(events){
     if (!A) return 1; if (!B) return -1; return A - B;
   });
 
-  // 4) render
+  // 4) render (note: event-img class)
   list.innerHTML = items.slice(0,24).map(e=>`
     <article class="card">
       <div class="thumb-wrap">
-        <img class="thumb" src="${e.image}" alt="${esc(e.title)}" loading="lazy">
+        <img class="thumb event-img" src="${e.image}" alt="${esc(e.title)}" loading="lazy">
       </div>
       <div class="title">${esc(e.title)}</div>
       <div class="addr">${esc(toText(e.venue) || toText(e.address))}</div>
@@ -383,6 +384,31 @@ function renderEvents(events){
       </div>
     </article>
   `).join('') || `<div class="notice">No events found.</div>`;
+
+  // 5) post-render prune: remove cards with broken/tiny images
+  pruneBrokenEventImages(list);
+}
+
+// Remove event cards whose images 404 or load as tiny placeholders
+function pruneBrokenEventImages(root){
+  root.querySelectorAll('img.event-img').forEach(img => {
+    const removeCard = () => img.closest('article.card')?.remove();
+
+    // If the image fails to load → remove card
+    img.addEventListener('error', removeCard, { once: true });
+
+    // If it loads but is basically empty (1×1, etc.) → remove
+    img.addEventListener('load', () => {
+      if (img.naturalWidth <= 2 || img.naturalHeight <= 2) removeCard();
+    }, { once: true });
+
+    // If already cached/complete, check immediately
+    if (img.complete) {
+      queueMicrotask(() => {
+        if (img.naturalWidth <= 2 || img.naturalHeight <= 2) removeCard();
+      });
+    }
+  });
 }
 
 // Events category change -> re-render
