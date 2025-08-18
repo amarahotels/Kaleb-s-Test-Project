@@ -22,8 +22,13 @@ const heroPrev = document.getElementById('heroPrev');
 const heroNext = document.getElementById('heroNext');
 const heroEl = document.getElementById('hero');
 
+// Events filter ref
+const eventCatSel = document.getElementById('eventCat');
+
 let allPlaces = [];
 let selectedType = 'all';
+let allEventsData = [];
+let selectedEventCat = 'all';
 
 // ---- Hawker detection config ----
 const hawkerNameSet = new Set([
@@ -47,7 +52,7 @@ async function loadPlaces() {
     const data = await res.json();
     allPlaces = Array.isArray(data.places) ? data.places : (Array.isArray(data) ? data : []);
 
-    buildHeroSlider(allPlaces);   // NEW: full-viewport hero carousel
+    buildHeroSlider(allPlaces);   // full-viewport hero carousel
     renderTopPicks(allPlaces);
     render();
   } catch (e) {
@@ -224,7 +229,7 @@ function addSwipe(el, cb){
   }, {passive:true});
 }
 
-/* ---------- TOP PICKS CAROUSEL (existing) ---------- */
+/* ---------- TOP PICKS CAROUSEL ---------- */
 function renderTopPicks(all){
   if (!topTrack || !topSection) return;
   const items = pickTopPicks(all, 12);
@@ -307,13 +312,13 @@ function cardHtml(p){
 // utils
 const num = v => Number.isFinite(v) ? v : parseFloat(v);
 function esc(s=''){ return s.replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
-// NEW: safely stringify possible array/string/object for venue/address
+// safely stringify possible array/string/object for venue/address
 const toText = (v) => Array.isArray(v) ? v.filter(Boolean).join(', ')
   : (v && typeof v === 'object')
     ? (['name','address','line1','line2','city'].map(k => v[k]).filter(Boolean).join(', ') || String(v))
     : (v ?? '');
 
-// filter listeners
+// filter listeners (Places)
 sortSel?.addEventListener('change', render);
 minRatingSel?.addEventListener('change', render);
 typeSel?.addEventListener('change', ()=>{ selectedType = typeSel.value; render(); });
@@ -335,7 +340,10 @@ async function loadEvents(){
     const res = await fetch(`data/events.json?ts=${Date.now()}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    renderEvents(data?.events || []);
+
+    // store & render (so category filter can re-render without refetching)
+    allEventsData = data?.events || [];
+    renderEvents(allEventsData);
   }catch(e){
     console.error('Failed to fetch events.json', e);
     document.getElementById('eventsError')?.classList.remove('hidden');
@@ -344,12 +352,20 @@ async function loadEvents(){
 function renderEvents(events){
   const list = document.getElementById('eventList');
   if (!list) return;
+
+  // filter by category from dropdown
+  let items = events;
+  if (selectedEventCat !== 'all') {
+    items = items.filter(e => ((e.category || 'general') + '').toLowerCase() === selectedEventCat);
+  }
+
   const parseDate = d => (d && !isNaN(Date.parse(d))) ? new Date(d) : null;
-  events.sort((a,b)=>{
+  items.sort((a,b)=>{
     const A = parseDate(a.start), B = parseDate(b.start);
     if (!A) return 1; if (!B) return -1; return A - B;
   });
-  list.innerHTML = events.slice(0,24).map(e=>`
+
+  list.innerHTML = items.slice(0,24).map(e=>`
     <article class="card">
       ${e.image ? `<div class="thumb-wrap"><img class="thumb" src="${e.image}" alt="${esc(e.title)}" loading="lazy"></div>` : ''}
       <div class="title">${esc(e.title)}</div>
@@ -361,6 +377,12 @@ function renderEvents(events){
     </article>
   `).join('') || `<div class="notice">No events found.</div>`;
 }
+
+// Events category change -> re-render
+eventCatSel?.addEventListener('change', ()=>{
+  selectedEventCat = eventCatSel.value;     // 'all' | 'family' | 'music' | 'general'
+  renderEvents(allEventsData);
+});
 
 loadEvents();
 loadPlaces();

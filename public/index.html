@@ -88,13 +88,26 @@
     </section>
 
     <!-- Events -->
-    <section id="events" class="section hidden">
+    <section id="events" class="section wrap">
       <div class="section-head">
         <h2>Upcoming Events</h2>
+
+        <!-- NEW: Events filter -->
+        <div class="controls" id="eventControls">
+          <label for="eventCat">Category:</label>
+          <select id="eventCat">
+            <option value="all">All</option>
+            <option value="family">Family</option>
+            <option value="music">Concerts & Festivals</option>
+            <option value="general">Things to do</option>
+          </select>
+        </div>
       </div>
+
+      <div id="eventsError" class="notice hidden">Couldn't load events right now.</div>
       <div id="eventList" class="grid"></div>
-      <div id="eventsError" class="notice hidden">Couldn’t load events right now.</div>
     </section>
+
   </main>
 
 
