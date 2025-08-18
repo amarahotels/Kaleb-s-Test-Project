@@ -307,6 +307,11 @@ function cardHtml(p){
 // utils
 const num = v => Number.isFinite(v) ? v : parseFloat(v);
 function esc(s=''){ return s.replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+// NEW: safely stringify possible array/string/object for venue/address
+const toText = (v) => Array.isArray(v) ? v.filter(Boolean).join(', ')
+  : (v && typeof v === 'object')
+    ? (['name','address','line1','line2','city'].map(k => v[k]).filter(Boolean).join(', ') || String(v))
+    : (v ?? '');
 
 // filter listeners
 sortSel?.addEventListener('change', render);
@@ -348,7 +353,7 @@ function renderEvents(events){
     <article class="card">
       ${e.image ? `<div class="thumb-wrap"><img class="thumb" src="${e.image}" alt="${esc(e.title)}" loading="lazy"></div>` : ''}
       <div class="title">${esc(e.title)}</div>
-      <div class="addr">${esc(e.venue?.join(', ') || e.venue || '')}</div>
+      <div class="addr">${esc(toText(e.venue) || toText(e.address))}</div>
       <div class="addr"><b>${esc(e.start || '')}</b></div>
       <div class="actions">
         ${e.url ? `<a class="btn-link" href="${e.url}" target="_blank" rel="noopener">Event Link</a>` : ''}
