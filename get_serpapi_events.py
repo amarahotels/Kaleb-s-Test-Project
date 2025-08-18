@@ -11,10 +11,9 @@ if not API_KEY:
     raise RuntimeError("SERPAPI_KEY is not set")
 
 # Quota/refresh controls (tweak via env vars)
-MAX_CALLS_PER_RUN      = int(os.getenv("EVENTS_MAX_CALLS", "6"))       # total SerpAPI requests per run
-RUN_IF_OLDER_HOURS     = int(os.getenv("EVENTS_REFRESH_HOURS", "24"))  # only refresh if file older than this
-TARGET_EVENTS          = int(os.getenv("EVENTS_TARGET_COUNT", "60"))   # stop when we have this many
-PER_BUCKET_CAP         = int(os.getenv("EVENTS_PER_BUCKET_CAP", "25")) # max kept from any single bucket
+MAX_CALLS_PER_RUN      = int(os.getenv("EVENTS_MAX_CALLS", "6"))        # total SerpAPI requests per run
+TARGET_EVENTS          = int(os.getenv("EVENTS_TARGET_COUNT", "60"))    # stop when we have this many
+PER_BUCKET_CAP         = int(os.getenv("EVENTS_PER_BUCKET_CAP", "25"))  # max kept from any single bucket
 
 OUT_PATH = Path("public/data/events.json")
 OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -25,20 +24,24 @@ now = datetime.now()
 month_year = now.strftime("%B %Y")
 
 # --- Minimal queries (6 total) ---
-FAMILY_QUERIES  = ["family activities Singapore", f"family events Singapore {month_year}"]
-MUSIC_QUERIES   = [f"concerts in Singapore {month_year}", "music festivals Singapore"]
-GENERAL_QUERIES = ["events in Singapore this week", "things to do in Singapore this weekend"]
+FAMILY_QUERIES  = [
+    "family activities Singapore",
+    f"family events Singapore {month_year}",
+]
+MUSIC_QUERIES   = [
+    f"concerts in Singapore {month_year}",
+    "music festivals Singapore",
+]
+GENERAL_QUERIES = [
+    "events in Singapore this week",
+    "things to do in Singapore this weekend",
+]
 
 PAST_GRACE_DAYS = 1  # keep events that started up to 1 day ago (helps multi-day events)
 
 # ---------------- Helpers ----------------
-def file_is_fresh(path: Path, hours: int) -> bool:
-    if not path.exists():
-        return False
-    age = datetime.now() - datetime.fromtimestamp(path.stat().st_mtime)
-    return age < timedelta(hours=hours)
-
 _calls_made = 0
+
 def fetch_events(query: str):
     """SerpAPI call with global budget."""
     global _calls_made
@@ -61,12 +64,16 @@ def fetch_events(query: str):
 def parse_date_safe(s):
     if not s:
         return None
-    try: return parser.parse(s)
-    except Exception: return None
+    try:
+        return parser.parse(s)
+    except Exception:
+        return None
 
 def _coerce_address(addr):
-    if not addr: return ""
-    if isinstance(addr, (list, tuple)): return ", ".join([str(x) for x in addr if x])
+    if not addr:
+        return ""
+    if isinstance(addr, (list, tuple)):
+        return ", ".join([str(x) for x in addr if x])
     return str(addr)
 
 def normalize_event(raw, category_tag):
@@ -96,11 +103,14 @@ def normalize_event(raw, category_tag):
 def deduplicate(events):
     seen, out = set(), []
     for e in events:
-        key = ((e.get("title") or "").strip().lower(),
-               (e.get("start") or "").strip(),
-               (e.get("venue") or "").strip().lower())
+        key = (
+            (e.get("title") or "").strip().lower(),
+            (e.get("start") or "").strip(),
+            (e.get("venue") or "").strip().lower(),
+        )
         if key not in seen:
-            seen.add(key); out.append(e)
+            seen.add(key)
+            out.append(e)
     return out
 
 def filter_future(events):
@@ -118,7 +128,7 @@ def run_bucket(queries, tag):
             break
         print(f"🔍 [{tag}] {q}")
         results = fetch_events(q)
-        if not results: 
+        if not results:
             continue
         bucket.extend(normalize_event(r, tag) for r in results)
         bucket = deduplicate(bucket)
@@ -126,31 +136,31 @@ def run_bucket(queries, tag):
     print(f"→ Bucket '{tag}': kept {len(bucket)}")
     return bucket
 
-# Skip run if recent file exists
-if file_is_fresh(OUT_PATH, RUN_IF_OLDER_HOURS):
-    print(f"⏭  Existing {OUT_PATH} is fresh (<{RUN_IF_OLDER_HOURS}h). No new calls made.")
-else:
-    all_events = []
-    for queries, tag in ((FAMILY_QUERIES, "family"),
-                         (MUSIC_QUERIES, "music"),
-                         (GENERAL_QUERIES, "general")):
-        all_events.extend(run_bucket(queries, tag))
-        if len(all_events) >= TARGET_EVENTS or _calls_made >= MAX_CALLS_PER_RUN:
-            break
+all_events = []
+for queries, tag in (
+    (FAMILY_QUERIES, "family"),
+    (MUSIC_QUERIES, "music"),
+    (GENERAL_QUERIES, "general"),
+):
+    all_events.extend(run_bucket(queries, tag))
+    if len(all_events) >= TARGET_EVENTS or _calls_made >= MAX_CALLS_PER_RUN:
+        break
 
-    all_events = deduplicate(all_events)
-    all_events = sort_by_start(filter_future(all_events))[:TARGET_EVENTS]
+all_events = deduplicate(all_events)
+all_events = sort_by_start(filter_future(all_events))[:TARGET_EVENTS]
 
-    for e in all_events:
-        e.pop("parsed_start", None); e.pop("parsed_end", None)
+for e in all_events:
+    e.pop("parsed_start", None)
+    e.pop("parsed_end", None)
 
-    payload = {
-        "source": "serpapi_google_events",
-        "generated_at": datetime.utcnow().isoformat() + "Z",
-        "events": all_events
-    }
+payload = {
+    "source": "serpapi_google_events",
+    "generated_at": datetime.utcnow().isoformat() + "Z",
+    "events": all_events,
+}
 
-    with OUT_PATH.open("w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
+with OUT_PATH.open("w", encoding="utf-8") as f:
+    json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Saved {len(all_events)} events to {OUT_PATH} using { _calls_made } call(s).")
+print(f"✅ Saved {len(all_events)} events to {OUT_PATH} using {_calls_made} call(s).")
+s
