@@ -70,26 +70,149 @@ def parse_date_safe(s):
         return None
 
 def _coerce_address(addr):
+    """Accepts str | list | dict and returns a string address."""
     if not addr:
         return ""
+    if isinstance(addr, str):
+        return addr
     if isinstance(addr, (list, tuple)):
-        return ", ".join([str(x) for x in addr if x])
+        parts = []
+        for x in addr:
+            if isinstance(x, dict):
+                parts.append(_coerce_address(x.get("address") or x.get("name") or ""))
+            else:
+                parts.append(str(x))
+        return ", ".join([p for p in parts if p])
+    if isinstance(addr, dict):
+        # Common shapes: {"address": "..."} or {"name": "..."}
+        return str(addr.get("address") or addr.get("name") or "")
     return str(addr)
+
+def _first_string_url(value):
+    """Return first plausible URL from value that can be str|list|dict."""
+    if not value:
+        return None
+    if isinstance(value, str):
+        return value
+    if isinstance(value, dict):
+        # common keys
+        for k in ("link", "url", "image", "src"):
+            v = value.get(k)
+            if isinstance(v, str) and v:
+                return v
+    if isinstance(value, (list, tuple)):
+        for item in value:
+            u = _first_string_url(item)
+            if u:
+                return u
+    return None
+
+def _extract_ticket_url(raw):
+    # ticket_info may be dict OR list OR string
+    ti = raw.get("ticket_info")
+    url = _first_string_url(ti)
+    if url:
+        return url
+    # fall back to raw.link (which may also be list/dict)
+    return _first_string_url(raw.get("link"))
+
+def _extract_image(raw):
+    img = raw.get("image")
+    if img:
+        url = _first_string_url(img)
+        if url:
+            return url
+    thumb = raw.get("thumbnail")
+    return _first_string_url(thumb)
+
+def _extract_venue(raw):
+    """
+    Try venue name from multiple shapes:
+    - venue: str|dict|list
+    - event_location: str|dict|list
+    """
+    v = raw.get("venue")
+    if isinstance(v, str):
+        if v.strip():
+            return v.strip()
+    elif isinstance(v, dict):
+        name = v.get("name") or v.get("address")
+        if isinstance(name, dict):
+            name = name.get("name") or name.get("address")
+        if name:
+            return str(name)
+    elif isinstance(v, (list, tuple)):
+        for item in v:
+            if isinstance(item, dict):
+                name = item.get("name") or _coerce_address(item.get("address"))
+                if name:
+                    return name
+            elif isinstance(item, str) and item.strip():
+                return item.strip()
+
+    el = raw.get("event_location")
+    if isinstance(el, str):
+        return el
+    if isinstance(el, dict):
+        return el.get("name") or _coerce_address(el.get("address"))
+    if isinstance(el, (list, tuple)):
+        for item in el:
+            if isinstance(item, dict):
+                name = item.get("name") or _coerce_address(item.get("address"))
+                if name:
+                    return name
+            elif isinstance(item, str) and item.strip():
+                return item.strip()
+
+    return ""
+
+def _extract_address(raw):
+    addr = raw.get("address")
+    if addr:
+        return _coerce_address(addr)
+    el = raw.get("event_location")
+    if isinstance(el, dict):
+        return _coerce_address(el.get("address") or el.get("name"))
+    if isinstance(el, (list, tuple)):
+        for item in el:
+            if isinstance(item, dict):
+                s = _coerce_address(item.get("address") or item.get("name"))
+                if s:
+                    return s
+            elif isinstance(item, str) and item.strip():
+                return item.strip()
+    return ""
+
+def _date_field(date_obj, key):
+    """Safely get date field from dict|list|str shapes."""
+    if not date_obj:
+        return None
+    if isinstance(date_obj, dict):
+        return date_obj.get(key) or date_obj.get("when")  # sometimes 'when' exists
+    if isinstance(date_obj, (list, tuple)):
+        for item in date_obj:
+            if isinstance(item, dict) and (item.get(key) or item.get("when")):
+                return item.get(key) or item.get("when")
+            if isinstance(item, str):
+                return item
+    if isinstance(date_obj, str):
+        return date_obj
+    return None
 
 def normalize_event(raw, category_tag):
     d = raw.get("date", {}) or {}
-    start_str = d.get("start_date") or d.get("when") or ""
-    end_str   = d.get("end_date") or ""
+    start_str = _date_field(d, "start_date")
+    end_str   = _date_field(d, "end_date")
 
-    venue_name = (raw.get("venue") or raw.get("event_location", {}) or {}).get("name")
-    address    = _coerce_address(raw.get("address") or raw.get("event_location", {}).get("address"))
-    ticket     = (raw.get("ticket_info") or {}).get("link") or raw.get("link")
-    image      = raw.get("image") or raw.get("thumbnail")
+    venue_name = _extract_venue(raw)
+    address    = _extract_address(raw)
+    ticket     = _extract_ticket_url(raw)
+    image      = _extract_image(raw)
 
     return {
         "title": raw.get("title"),
-        "start": start_str,
-        "end": end_str,
+        "start": start_str or "",
+        "end": end_str or "",
         "venue": venue_name or address or "",
         "address": address,
         "url": ticket,
@@ -163,4 +286,3 @@ with OUT_PATH.open("w", encoding="utf-8") as f:
     json.dump(payload, f, ensure_ascii=False, indent=2)
 
 print(f"✅ Saved {len(all_events)} events to {OUT_PATH} using {_calls_made} call(s).")
-s
