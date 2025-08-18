@@ -1,6 +1,6 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-18T10:00:39.585303Z",
+  "generated_at": "2025-08-18T16:25:21.746203Z",
   "events": [
     {
       "title": "Mindful Parenting Through The Years",
@@ -10,17 +10,6 @@
       "address": "318 Tanglin Rd",
       "url": "https://www.holdingground.sg/event-details-registration/sold-out-mindful-parenting-through-the-years-3",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDFaxc1giYfUPLI9J7uRvblQ22mjiBOzf-i9rtjA3Xm6j81Dwl1ZKGcehS0g&s",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Remedial Kids: playful academic lectures for the culturally curious",
-      "start": "Aug 18",
-      "end": "Sun, 17 Aug, 4:30 – 6:00 pm",
-      "venue": "Druggists | Craft Beer Taproom Restaurant Singapore",
-      "address": "119 Tyrwhitt Rd, Druggists | Craft Beer Taproom Restaurant Singapore",
-      "url": "https://www.eventbrite.com/e/remedial-kids-playful-academic-lectures-for-the-culturally-curious-tickets-1539083051839",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6yR4HhhiZKewA5Z07moZjgvUH8Kx9TEINBB6FUPe9pjc1ksGuUhGdRHTHaQ&s",
       "category": "family",
       "source": "serpapi_google_events"
     },
@@ -36,25 +25,14 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Kumar Sanu Bollywood Concert — Suntec Singapore",
+      "title": "Piano Course for Children (Age 6-8 ) @ SAFRA Punggol",
       "start": "Aug 18",
-      "end": "Sun, 17 Aug, 7:30 – 10:30 pm",
-      "venue": "Suntec Singapore Convention & Exhibition Centre",
-      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
-      "url": "https://www.premiertickets.co/event/kumar-sanu-live-in-singapore-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwL9XIN-6PG6Ijtc18qtfemuf77CbkMIDfbVizX8r9Ug&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Arts in the Alley: Walks of Life",
-      "start": "Aug 18",
-      "end": "Sat, 16 Aug, 2:00 pm – Sun, 17 Aug, 4:00 pm",
-      "venue": "Ann Siang House by The Unlimited Collection",
-      "address": "28 Ann Siang Rd, Ann Siang House by The Unlimited Collection",
-      "url": "https://www.klook.com/activity/168003-arts-in-the-alley/",
-      "image": "https://www.google.com/maps/vt/data=2DRWxwTv8rpcR3uucQgZlbuN6gfN2-KRfdEN6kv_t85yeVPSGm6yjrQFt6mTjyyG6LAmpZdexnUaMsGwLYcH9fklSd0FelDBDJ5R88k7-H_zwrya1YU",
-      "category": "general",
+      "end": "Mon, 18 Aug, 5:30 – 6:15 pm",
+      "venue": "Yamaha Music School - SAFRA Punggol",
+      "address": "9 Sentul Cres, #03-02/03 Yamaha Music School - SAFRA Punggol",
+      "url": "https://www.eventbrite.sg/e/piano-course-for-children-age-6-8-safra-punggol-tickets-634555752337",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPUsLW2ARuTrL1SGUdREXOJpCwLygMib8GhDGkqU8OKQ&s",
+      "category": "family",
       "source": "serpapi_google_events"
     },
     {
@@ -168,17 +146,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "All Things Singapore (AT SG) 2025",
-      "start": "Aug 22",
-      "end": "22 Aug, 7:00 pm – 6 Sept, 11:00 pm",
-      "venue": "National Library / Lee Kong Chian Reference Library",
-      "address": "100 Victoria St, National Library / Lee Kong Chian Reference Library",
-      "url": "https://citynomads.com/events/all-things-singapore-at-sg-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi5b92xUmqyNqsrQinXZWQsCB68ExxNfxwHdDLlLFIvydFFNCbRDw6zlzIOQ&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "A Date with Tradition 2025",
       "start": "Aug 22",
       "end": "Fri, 22 Aug, 6:00 – 10:30 pm",
@@ -186,6 +153,17 @@
       "address": "Waterloo St, #155 Stamford Arts Centre",
       "url": "https://allevents.in/singapore/a-date-with-tradition-2025/80003577360204",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl-QIo17FHSNWOls8CSc_fr_TULFUCaFebExBinZBGhqsnup0FUSml2SCRSQ&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "All Things Singapore (AT SG) 2025",
+      "start": "Aug 22",
+      "end": "22 Aug, 7:00 pm – 6 Sept, 11:00 pm",
+      "venue": "National Library / Lee Kong Chian Reference Library",
+      "address": "100 Victoria St, National Library / Lee Kong Chian Reference Library",
+      "url": "https://citynomads.com/events/all-things-singapore-at-sg-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi5b92xUmqyNqsrQinXZWQsCB68ExxNfxwHdDLlLFIvydFFNCbRDw6zlzIOQ&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -329,6 +307,17 @@
       "address": "171 Paya Lebar Rd, MacPherson MRT Exit B, Singapore",
       "url": "https://www.eventbrite.sg/e/all-about-joss-paper-hungry-ghost-festival-2025-tickets-1369507637209",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9uVSWT8QT9idhvYEssWMC1dFHhgUE45w2Y4tE1RgjQ&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "The Lord of the Rings",
+      "start": "Aug 24",
+      "end": "Sun, 24 Aug, 1:00 – 4:00 pm",
+      "venue": "Sands Theatre",
+      "address": "10 Bayfront Ave, B1-69/70 Sands Theatre, The Shoppes, Marina bay sands",
+      "url": "https://www.stubhub.com/the-lord-of-the-rings-singapore-tickets-8-24-2025/event/157618605/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqwJF2gMFOKYOnz3POzkM31HFnW9xv063EdavnwGxkXg&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -550,6 +539,17 @@
       "url": "https://www.eventbrite.sg/e/interactive-storytelling-adventure-for-kids-tickets-1588699927249",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmka7OO8V0zD2LLDrS2W2Thc0mo_MdNe4457_AVNxtPaP_3mwPTJLlOcjNw&s",
       "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Partner Event: Tech Week Singapore",
+      "start": "Oct 8",
+      "end": "Wed, 8 Oct – Thu, 9 Oct",
+      "venue": "Sands Expo & Convention Centre",
+      "address": "10 Bayfront Ave, Sands Expo & Convention Centre, Singapore",
+      "url": "https://eurocham.org.sg/event/partner-event-tech-week-singapore/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzdVBvgR5WZI11wVXCm8i6N2mAD90uy2GlOt-9s98kq9zy_1vC8ls8QK2MDg&s=10",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
