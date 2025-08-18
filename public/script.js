@@ -353,21 +353,28 @@ function renderEvents(events){
   const list = document.getElementById('eventList');
   if (!list) return;
 
-  // filter by category from dropdown
+  // 1) category filter (if you have an <select id="eventCat">)
   let items = events;
   if (selectedEventCat !== 'all') {
     items = items.filter(e => ((e.category || 'general') + '').toLowerCase() === selectedEventCat);
   }
 
+  // 2) drop events without a usable image
+  items = items.filter(e => typeof e.image === 'string' && e.image.trim().length > 0);
+
+  // 3) sort by start date
   const parseDate = d => (d && !isNaN(Date.parse(d))) ? new Date(d) : null;
   items.sort((a,b)=>{
     const A = parseDate(a.start), B = parseDate(b.start);
     if (!A) return 1; if (!B) return -1; return A - B;
   });
 
+  // 4) render
   list.innerHTML = items.slice(0,24).map(e=>`
     <article class="card">
-      ${e.image ? `<div class="thumb-wrap"><img class="thumb" src="${e.image}" alt="${esc(e.title)}" loading="lazy"></div>` : ''}
+      <div class="thumb-wrap">
+        <img class="thumb" src="${e.image}" alt="${esc(e.title)}" loading="lazy">
+      </div>
       <div class="title">${esc(e.title)}</div>
       <div class="addr">${esc(toText(e.venue) || toText(e.address))}</div>
       <div class="addr"><b>${esc(e.start || '')}</b></div>
