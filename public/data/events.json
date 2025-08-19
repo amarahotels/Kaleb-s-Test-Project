@@ -1,1 +1,259 @@
-{}
+{
+  "source": "serpapi_google_events",
+  "generated_at": "2025-08-19T01:52:54.572164Z",
+  "events": [
+    {
+      "title": "Hollow Coves",
+      "start": "Aug 20",
+      "end": "Wed, 20 Aug, 7:00 – 9:30 pm",
+      "venue": "Foochow Building",
+      "address": "21 Tyrwhitt Rd, Foochow Building, Singapore",
+      "url": "https://open.spotify.com/concert/1HXEk7E327Wjp7B2kiYBkx",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuT9joFRGNTGqBS7r-fPsgzoiK3zRP3FA0nMwcMT332R7GJUUwgcr4ZB8iww&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Beach Weather",
+      "start": "Aug 20",
+      "end": "Wed, 20 Aug, 7:00 – 10:00 pm",
+      "venue": "Capitol Theatre",
+      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
+      "url": "https://open.spotify.com/concert/47c2BSGHg4Gda9UgwgDV84",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-iccyz_KTzdcwkW6l1ah9mEr73RCa2nJIwTcbNnarYhN-_HMVKqTSv-x6QQ&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Tinashe",
+      "start": "Aug 21",
+      "end": "Thu, 21 Aug, 7:00 – 11:00 pm",
+      "venue": "Capitol Theatre",
+      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
+      "url": "https://open.spotify.com/concert/3IACmpYYbYG1wLoCjYDnxd",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdxBy0pHCh9iqjANGltXX0lejcptA7Z3WgOOcavcbhftUptud1ar7AWOvK6xAf&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Do Kyungsoo 도경수",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 6:00 – 9:00 pm",
+      "venue": "Singapore Indoor Stadium",
+      "address": "2 Stadium Walk, Singapore Indoor Stadium",
+      "url": "https://ahboy.com/event/d-o-kyungsoo-concert-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHaauECG207C6Scjl7Nbvu5NcQxbhYXgE5evFnTU3J1g&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "APBDA Singapore Music Tour - Indoor Concert",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 12:34 – 2:34 am",
+      "venue": "Nanyang Academy of Fine Arts (NAFA)",
+      "address": "80 Bencoolen St, Nanyang Academy of Fine Arts (NAFA)",
+      "url": "https://www.novawindorchestra.com/event-details-registration/apbda-singapore-music-tour-indoor-concert",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0v4FpEc2wFcpbfmwKM6IJAstqFqHx0dx7JNH99Mvv3SHFTM1KxavZLjzieA&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Skai is Your God",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 8:00 – 11:00 pm",
+      "venue": "Esplanade Annexe Studio",
+      "address": "1 Esplanade Dr, Esplanade Annexe Studio",
+      "url": "https://www.stubhub.com/skai-is-your-god-singapore-tickets-8-23-2025/event/158884897/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3cdFAylY88Be1BnayO6WQqYHcoLOSF0nCpDhV5zOgpivz2GH1R-TwhVXxYg&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "SB19",
+      "start": "Aug 24",
+      "end": "Sun, 24 Aug, 5:00 – 9:00 pm",
+      "venue": "Arena @ EXPO",
+      "address": "9 Somapah Rd, Arena @ EXPO",
+      "url": "https://open.spotify.com/concert/5h6lNu2dw3CiQoWHDDkdlO",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT41sGIoPdXq0yWFYN7tBXj4-oGAwooEWZ26Zh0QbMVthfCj-EYvJRvGtQPQ&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Black Eyed Peas",
+      "start": "Aug 25",
+      "end": "Mon, 25 Aug, 8:00 – 11:00 pm",
+      "venue": "Singapore Indoor Stadium",
+      "address": "2 Stadium Walk, Singapore Indoor Stadium",
+      "url": "https://open.spotify.com/concert/6JNb4F8m0UN0UXU8keSYJk",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH5uGE3YNZ47FOcGSZjgTfFziRjIK489i10ug6Hbl8RTDeYVxpIryvbLUebg&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "VOS Festival 2025 - Youth Festival Chorus",
+      "start": "Aug 25",
+      "end": "25 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "venue": "Voices of Singapore Sky Studio (L3)",
+      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-youth-festival-chorus-registration-1349486553609",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FS2U9LBscHBxFsyIecAPmxG0ATsYHy_1vbFxCGUU_g&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "yung kai",
+      "start": "Aug 26",
+      "end": "Tue, 26 Aug, 7:30 – 10:00 pm",
+      "venue": "*SCAPE",
+      "address": "2 Orchard Link, #04-05 *SCAPE",
+      "url": "https://open.spotify.com/concert/6nrBmpTPGJY1bTofNzORzo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuYUHqiZ1QxyejWkdrxtcEwM-wgFJqOzOVu5kFsp82Sv9plsKn0JMehh-yUA&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "VOS Festival 2025 - Virtuosi Festival Chorus",
+      "start": "Aug 28",
+      "end": "28 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "venue": "Voices of Singapore Sky Studio (L3)",
+      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-virtuosi-festival-chorus-registration-1339387898259",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3-eMngpQ73tcCwgZZla-Z9eHHpHeCCHMR7vIyYH85pA&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Epik High",
+      "start": "Aug 29",
+      "end": "Fri, 29 Aug, 8:00 – 11:00 pm",
+      "venue": "Pasir Panjang Power Station",
+      "address": "27 Pasir Panjang Rd, Pasir Panjang Power Station, Singapore",
+      "url": "https://www.bandsintown.com/e/107090774?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuGNbU3XCsdpcoiXVh1qaWBrPUTkFGV4Z-sQaJ8_MZ9HJrlLHyg9gYPxN7xEw5&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "P1Harmony Concert 2025 (Singapore)",
+      "start": "Aug 30",
+      "end": "Sat, 30 Aug, 8:00 – 10:00 pm",
+      "venue": "Singapore EXPO",
+      "address": "1 Expo Dr, Singapore EXPO",
+      "url": "https://ahboy.com/event/p1harmony-concert-2025/",
+      "image": "https://www.google.com/maps/vt/data=kEzbys_V0A6OxoLjP8lB2aU1XpPomRcw3IEFAX4dy5RScFwEB1-YRPiLLPSpMffVKx6CQPwKhHT_N4Fijxr2E8masy-gq1Bf5JVyclSaC5lCdPbfdnE",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "CLANG 克浪!",
+      "start": "Aug 30",
+      "end": "Sat, 30 Aug, 6:00 – 9:00 pm",
+      "venue": "Pasir Panjang Power Station",
+      "address": "27 Pasir Panjang Rd, Pasir Panjang Power Station, Singapore",
+      "url": "https://ahboy.com/event/clang-music-festival-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlmEmTh1Nshe1nuzBW12mTe0MZVnUuHaEqlqpGj2O8r6lrSXfb8wHRc2fPt5K-&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "VOS Festival 2025 - Community Festival Chorus",
+      "start": "Aug 30",
+      "end": "30 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "venue": "Voices of Singapore Sky Studio (L3)",
+      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-community-festival-chorus-registration-1349487606759",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZRi62lfYUdUYhS2Iq5lrRHpiosRc12zAiAIopeYnng&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "TRANCE4M International x Trance Family Asia pres NO BORDERS - SG / MY / ID",
+      "start": "Aug 30",
+      "end": "Sat, 30 Aug, 6:00 pm – Sun, 31 Aug, 2:00 am",
+      "venue": "Lady Wu",
+      "address": "11 North Canal Road Attic Level, Lady Wu, The Offshore Building",
+      "url": "https://www.eventbrite.sg/e/trance4m-international-x-trance-family-asia-pres-no-borders-sg-my-id-tickets-1499194694689",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKtgjr58GZPby6y8cRGOEzAZ-fuIab5rjKmYFC88bVI-lVxuuiil3TX2swAA&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "SPONGE COLA live in SG2025",
+      "start": "Aug 31",
+      "end": "Sun, 31 Aug, 5:00 pm",
+      "venue": "Timbre+ One North",
+      "address": "73A Ayer Rajah Crescent, Timbre+ One North, JTC LaunchPad @ one-north",
+      "url": "https://allevents.in/singapore/sponge-cola-live-in-sg2025/200028529449613",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1KCh5i9-gZ5fn_-U1R1-NtqYQEc0bm-SpeaGSaQaHyQ&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Yaeji",
+      "start": "Sept 1",
+      "end": "Mon, 1 Sept, 7:00 – 10:00 pm",
+      "venue": "Capitol Theatre",
+      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
+      "url": "https://www.eventbrite.sg/e/yaeji-live-in-singapore-tickets-1450268093909",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-NH6PZA6zPUNgEHQfRaRWNpg7fzkiavbMC6Bq3pq-Fg&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Voices of Singapore Festival 2025",
+      "start": "Sept 6",
+      "end": "Sat, 6 Sept, 10:30 am – Wed, 10 Sept, 9:30 pm",
+      "venue": "Capitol Building",
+      "address": "15 Stamford Rd, Capitol Building, Singapore",
+      "url": "https://www.eventbrite.sg/e/voices-of-singapore-festival-2025-tickets-1452811762089?aff=oddtdtcreator",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo4TtfH-iyAZFLKlU60uoFbg0SUIWUwQKA5pminatBYGnBqHq1l5qbh90RDg&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "One Love Asia Festival Singapore 2025",
+      "start": "Sept 13",
+      "end": "Sat, 13 Sept, 12:00 am – Sun, 14 Sept, 12:00 am",
+      "venue": "Bayfront Event Space",
+      "address": "12A Bayfront Ave, Bayfront Event Space",
+      "url": "https://sg.bookmyshow.com/en/events/one-love-asia-festival-singapore-2025/BMOLAF25",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2vhVC7J9zdN4Ge42581-EWaoebtGsZKk1nbCBuPQHVglRAn0Xpw_V70NBoA&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Bubbling and Boiling- Saturday",
+      "start": "Sept 13",
+      "end": "Sat, 13 Sept, 7:00 – 10:00 pm",
+      "venue": "Resorts World Ballroom",
+      "address": "8 Sentosa Gateway, Resorts World Ballroom",
+      "url": "https://www.stubhub.com/bubbling-and-boiling-singapore-tickets-9-13-2025/event/159098061/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHhX9mn8H1bX5SV6pD3v-o7ExLZEpGfyV8m4I_DP-ksA&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "One Love Asia Festival with Lexie Liu, Angela Chang, 5566 and more - Sunday",
+      "start": "Sept 14",
+      "end": "Sun, 14 Sept, 4:30 – 11:00 pm",
+      "venue": "Bayfront Event Space",
+      "address": "12A Bayfront Ave, Bayfront Event Space",
+      "url": "https://www.songkick.com/festivals/3736886-one-love-asia/id/42663615-one-love-asia-festival-2025?utm_medium=organic&utm_source=microformat",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrPxofKtjsy4SvxOv0XkXHj-RI5Trg4vn7SogC7JK2WA&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Jake Miller @ Hard Rock Cafe Singapore",
+      "start": "Sept 23",
+      "end": "Tue, 23 Sept, 7:00 pm – Wed, 24 Sept, 1:00 am",
+      "venue": "Hard Rock Cafe",
+      "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
+      "url": "https://www.bandsintown.com/e/107041270?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQfS57P2XpNC69Z-wFse5JgyjD6A8i6N7lwMU02cJHA&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    }
+  ]
+}
