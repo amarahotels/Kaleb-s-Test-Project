@@ -1,11 +1,11 @@
 // ---- version marker (helps verify deploy) ----
-console.info("script.js v2025-08-19a");
+console.info("script.js v2025-08-19b split-hero");
 
 // footer year
 const y = document.getElementById('year');
 if (y) y.textContent = new Date().getFullYear();
 
-// Refs
+// ---------------- Refs ----------------
 const listEl = document.getElementById('placeList');
 const errorEl = document.getElementById('placesError');
 const sortSel = document.getElementById('sortSelect');
@@ -26,23 +26,24 @@ const heroNext = document.getElementById('heroNext');
 const heroEl = document.getElementById('hero');
 const scrollCue = document.querySelector('.scroll-cue');
 
-// Hero overlay bits (title/subtitle + link pill)
+// Hero overlay copy + link pill
 const heroTitleEl = document.getElementById('heroTitle');
 const heroSubtitleEl = document.getElementById('heroSubtitle');
 const heroPlaceLink = document.getElementById('heroAttractionLink');
 
-let heroIndex = 0, heroTimer = null, heroSlides = [];
-let heroIsAttractions = false; // <- prevents fallback from overwriting
-
 // Events filter ref
 const eventCatSel = document.getElementById('eventCat');
 
+// ---------------- State ----------------
+let activeTab = 'places';        // 'places' | 'events'
+let heroIndex = 0, heroTimer = null, heroSlides = [];
 let allPlaces = [];
-let selectedType = 'all';
 let allEventsData = [];
+let selectedType = 'all';
 let selectedEventCat = 'all';
+let attractionsHeroData = [];    // from featured_attractions.json
 
-// ========= utilities =========
+// ---------------- Utils ----------------
 const num = v => Number.isFinite(v) ? v : parseFloat(v);
 function esc(s=''){ return s.replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 const toText = (v) => Array.isArray(v) ? v.filter(Boolean).join(', ')
@@ -50,36 +51,8 @@ const toText = (v) => Array.isArray(v) ? v.filter(Boolean).join(', ')
     ? (['name','address','line1','line2','city'].map(k => v[k]).filter(Boolean).join(', ') || String(v))
     : (v ?? '');
 
-// ========= HERO (shared) =========
-function showHero(nextIndex, userTriggered=false){
-  if (!heroSlides.length) return;
-  const count = heroSlides.length;
-  heroIndex = (nextIndex + count) % count;
-  heroSlides.forEach((el,i)=> el.classList.toggle('is-active', i===heroIndex));
-  if (heroDotsEl){
-    [...heroDotsEl.children].forEach((d,i)=>{
-      d.classList.toggle('is-active', i===heroIndex);
-      d.setAttribute('aria-selected', i===heroIndex ? 'true':'false');
-    });
-  }
-  // Update link pill when on attractions hero
-  if (heroIsAttractions && heroPlaceLink) {
-    const slide = heroSlides[heroIndex];
-    const href = slide?.dataset?.mapsUrl || '';
-    const name = slide?.dataset?.name || '';
-    if (href) {
-      heroPlaceLink.classList.remove('hidden');
-      heroPlaceLink.href = href;
-      heroPlaceLink.textContent = `📍 ${name || 'View on Maps'}`;
-      heroPlaceLink.setAttribute('aria-label', `Open ${name} in Google Maps`);
-    } else {
-      heroPlaceLink.classList.add('hidden');
-    }
-  }
-  if (userTriggered){ restartHeroAuto(); }
-}
-function startHeroAuto(){ stopHeroAuto(); heroTimer = setInterval(()=> showHero(heroIndex+1, false), 6000); }
 function stopHeroAuto(){ if (heroTimer) clearInterval(heroTimer); heroTimer = null; }
+function startHeroAuto(){ stopHeroAuto(); heroTimer = setInterval(()=> showHero(heroIndex+1, false), 6000); }
 function restartHeroAuto(){ stopHeroAuto(); startHeroAuto(); }
 function addSwipe(el, cb){
   let x0=null, y0=null;
@@ -93,53 +66,107 @@ function addSwipe(el, cb){
   }, {passive:true});
 }
 
-// ========= HERO: Attractions-first =========
-const HERO_ATTR_LIMIT = 14;
+// ---------------- HERO core ----------------
+function wireHeroControls() {
+  // clear any previous click handlers to avoid stacking
+  if (heroPrev) heroPrev.onclick = () => showHero(heroIndex - 1, true);
+  if (heroNext) heroNext.onclick = () => showHero(heroIndex + 1, true);
 
-async function loadAttractionsHero() {
-  try {
-    const res = await fetch(`data/featured_attractions.json?ts=${Date.now()}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    const items = Array.isArray(data.attractions) ? data.attractions : [];
-    if (!items.length) return false;
-    buildHeroFromAttractions(items, HERO_ATTR_LIMIT);
-    heroIsAttractions = true;
+  startHeroAuto();
+  heroEl?.addEventListener('mouseenter', stopHeroAuto, { once: true });
+  heroEl?.addEventListener('mouseleave', startHeroAuto, { once: true });
+  addSwipe(heroEl, (dir)=>{ if (dir==='left') showHero(heroIndex+1, true); if (dir==='right') showHero(heroIndex-1, true); });
 
-    // overlay copy switch
-    if (heroTitleEl) heroTitleEl.innerHTML = `What’s On in <span class="brand">Singapore</span>`;
-    if (heroSubtitleEl) heroSubtitleEl.textContent = `Signature year-round attractions & family-friendly hits.`;
-
-    // Ensure arrows/dots/swipe wired
-    heroPrev?.addEventListener('click', () => showHero(heroIndex - 1, true));
-    heroNext?.addEventListener('click', () => showHero(heroIndex + 1, true));
-    startHeroAuto();
-    heroEl?.addEventListener('mouseenter', stopHeroAuto);
-    heroEl?.addEventListener('mouseleave', startHeroAuto);
-    heroEl?.addEventListener('focusin', stopHeroAuto);
-    heroEl?.addEventListener('focusout', startHeroAuto);
-    addSwipe(heroEl, (dir)=>{ if (dir==='left') showHero(heroIndex+1, true); if (dir==='right') showHero(heroIndex-1, true); });
-
-    // Make the entire hero clickable to open the current place
-    heroEl?.addEventListener('click', (e) => {
-      // Ignore clicks on controls/buttons
-      const ignore = e.target.closest('.nav-btn, .hs-arrow, .hs-dot, .hero-place-pill');
-      if (ignore) return;
-      const slide = heroSlides[heroIndex];
-      const href = slide?.dataset?.mapsUrl;
-      if (href) window.open(href, '_blank', 'noopener');
-    });
-
-    return true;
-  } catch (e) {
-    console.warn('featured_attractions.json fetch failed:', e);
-    return false;
-  }
+  // Click anywhere on hero to open maps when on Attractions (events tab)
+  heroEl.onclick = (e) => {
+    // ignore clicks on controls/buttons/pill
+    if (e.target.closest('.nav-btn, .hs-arrow, .hs-dot, .hero-place-pill')) return;
+    if (activeTab !== 'events') return;
+    const slide = heroSlides[heroIndex];
+    const href = slide?.dataset?.mapsUrl;
+    if (href) window.open(href, '_blank', 'noopener');
+  };
 }
 
-function buildHeroFromAttractions(attrs, limit = 12) {
+function showHero(nextIndex, userTriggered=false){
+  if (!heroSlides.length) return;
+  const count = heroSlides.length;
+  heroIndex = (nextIndex + count) % count;
+  heroSlides.forEach((el,i)=> el.classList.toggle('is-active', i===heroIndex));
+  if (heroDotsEl){
+    [...heroDotsEl.children].forEach((d,i)=>{
+      d.classList.toggle('is-active', i===heroIndex);
+      d.setAttribute('aria-selected', i===heroIndex ? 'true':'false');
+    });
+  }
+
+  // Update the 📍 pill for events hero
+  if (activeTab === 'events' && heroPlaceLink) {
+    const slide = heroSlides[heroIndex];
+    const name = slide?.dataset?.name || '';
+    const href  = slide?.dataset?.mapsUrl || '';
+    if (href) {
+      heroPlaceLink.classList.remove('hidden');
+      heroPlaceLink.href = href;
+      heroPlaceLink.textContent = `📍 ${name || 'Open in Maps'}`;
+      heroPlaceLink.setAttribute('aria-label', `Open ${name} in Google Maps`);
+    } else {
+      heroPlaceLink.classList.add('hidden');
+    }
+  } else {
+    heroPlaceLink?.classList.add('hidden');
+  }
+
+  if (userTriggered){ restartHeroAuto(); }
+}
+
+// Build hero from nearby places (for Places tab)
+function buildPlacesHero(places){
   if (!heroSlidesEl) return;
-  const picks = attrs.filter(a => a && a.image_url).slice(0, limit);
+
+  // top 6 by score + with photo
+  const picks = [...places]
+    .filter(p => p.photo_url)
+    .sort((a,b)=> topScore(b) - topScore(a))
+    .slice(0, 6);
+
+  // overlay copy
+  if (heroTitleEl) heroTitleEl.innerHTML = `Explore Around <span class="brand">Amara</span>`;
+  if (heroSubtitleEl) heroSubtitleEl.textContent = `Handpicked nearby places for staff & guests near Tanjong Pagar.`;
+  heroPlaceLink?.classList.add('hidden');
+
+  // slides + dots
+  heroSlidesEl.innerHTML = picks.map((p, i) =>
+    `<div class="hs-slide${i===0 ? ' is-active':''}" role="img" aria-label="${esc(p.name || '')}"
+       style="background-image:url('${p.photo_url}')"></div>`
+  ).join('');
+
+  if (heroDotsEl){
+    heroDotsEl.innerHTML = picks.map((_,i)=>
+      `<button class="hs-dot${i===0?' is-active':''}" role="tab" aria-selected="${i===0?'true':'false'}" aria-label="Slide ${i+1}"></button>`
+    ).join('');
+    [...heroDotsEl.children].forEach((dot, i)=> dot.addEventListener('click', ()=> showHero(i, true)));
+  }
+
+  heroSlides = [...heroSlidesEl.querySelectorAll('.hs-slide')];
+  showHero(0,false);
+  wireHeroControls();
+}
+
+// Build hero from attractions (for Events tab). Fallback to places if empty.
+function buildAttractionsHero(attrs, fallbackPlaces){
+  if (!heroSlidesEl) return;
+
+  const picks = (attrs || []).filter(a => a && a.image_url).slice(0, 14);
+
+  if (!picks.length) {
+    // graceful fallback if images/data missing
+    buildPlacesHero(fallbackPlaces || []);
+    return;
+  }
+
+  if (heroTitleEl) heroTitleEl.innerHTML = `What’s On in <span class="brand">Singapore</span>`;
+  if (heroSubtitleEl) heroSubtitleEl.textContent = `Signature year-round attractions & family-friendly hits.`;
 
   heroSlidesEl.innerHTML = picks.map((a, i) =>
     `<div class="hs-slide${i === 0 ? ' is-active' : ''}" role="img"
@@ -159,46 +186,21 @@ function buildHeroFromAttractions(attrs, limit = 12) {
   }
 
   heroSlides = [...heroSlidesEl.querySelectorAll('.hs-slide')];
-  showHero(0, false);
+  showHero(0,false);
+  wireHeroControls();
 }
 
-// ========= HERO: Places fallback (used only if attractions fail) =========
-function buildHeroSlider(all){
-  if (heroIsAttractions || !heroSlidesEl) return; // <- do not overwrite attractions
-  const picks = [...all]
-    .filter(p => p.photo_url)
-    .sort((a,b)=> topScore(b) - topScore(a))
-    .slice(0, 6);
-
-  heroSlidesEl.innerHTML = picks.map((p, i) =>
-    `<div class="hs-slide${i===0 ? ' is-active':''}" role="img" aria-label="${esc(p.name || '')}"
-       style="background-image:url('${p.photo_url}')"></div>`
-  ).join('');
-
-  if (heroDotsEl){
-    heroDotsEl.innerHTML = picks.map((_,i)=>
-      `<button class="hs-dot${i===0?' is-active':''}" role="tab" aria-selected="${i===0?'true':'false'}" aria-label="Slide ${i+1}"></button>`
-    ).join('');
-    [...heroDotsEl.children].forEach((dot, i)=> dot.addEventListener('click', ()=> showHero(i, true)));
+// Called whenever tab changes or data arrives
+function ensureHeroForTab(){
+  stopHeroAuto();
+  if (activeTab === 'events') {
+    buildAttractionsHero(attractionsHeroData, allPlaces);
+  } else {
+    buildPlacesHero(allPlaces);
   }
-
-  heroSlides = [...heroSlidesEl.querySelectorAll('.hs-slide')];
-  heroPrev?.addEventListener('click', ()=> showHero(heroIndex-1, true));
-  heroNext?.addEventListener('click', ()=> showHero(heroIndex+1, true));
-  startHeroAuto();
-  heroEl?.addEventListener('mouseenter', stopHeroAuto);
-  heroEl?.addEventListener('mouseleave', startHeroAuto);
-  heroEl?.addEventListener('focusin', stopHeroAuto);
-  heroEl?.addEventListener('focusout', startHeroAuto);
-  addSwipe(heroEl, (dir)=>{ if (dir==='left') showHero(heroIndex+1, true); if (dir==='right') showHero(heroIndex-1, true); });
-
-  // Reset overlay copy for places mode
-  if (heroTitleEl) heroTitleEl.innerHTML = `Explore Around <span class="brand">Amara</span>`;
-  if (heroSubtitleEl) heroSubtitleEl.textContent = `Handpicked nearby places for staff & guests near Tanjong Pagar.`;
-  heroPlaceLink?.classList.add('hidden');
 }
 
-// ========= Places list / Top picks =========
+// ---------------- Hawker & scoring helpers (unchanged) ----------------
 const hawkerNameSet = new Set([
   'lau pa sat','maxwell food centre','maxwell food center',
   'amoy street food centre','amoy street food center',
@@ -210,23 +212,6 @@ const NAME_ALCOHOL_RE = /\b(cocktail|cocktails|wine|beer|ale|lager|ipa|stout|por
 const NAME_IS_RESTAURANT_RE = /\b(restaurant|ristorante|trattoria|bistro|eatery|osteria|cantina|kitchen|diner)\b/i;
 const NAME_IS_BOOKSTORE_RE = /\b(bookstore|book\s*shop|book\s*store|books|comics|manga|书店|書店|书屋|書屋)\b/i;
 
-async function loadPlaces() {
-  try {
-    const res = await fetch(`data/places.json?ts=${Date.now()}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    allPlaces = Array.isArray(data.places) ? data.places : (Array.isArray(data) ? data : []);
-
-    // Build fallback hero only if attractions didn't claim it
-    buildHeroSlider(allPlaces);
-
-    renderTopPicks(allPlaces);
-    render();
-  } catch (e) {
-    console.error('Failed to fetch places.json', e);
-    if (errorEl) errorEl.classList.remove('hidden');
-  }
-}
 function isHawker(p) {
   if (typeof p.is_hawker_centre === 'boolean') return p.is_hawker_centre;
   const name = (p.name || '').toLowerCase().trim();
@@ -264,10 +249,10 @@ function categorize(p){
     if (primary.includes('book_store') && nameSaysBookstore) tags.add('bookstores');
   }
 
-  if (nameSaysCafe && types.some(t => t.includes('cafe') || t.includes('coffee_shop'))) tags.add('cafes');
-  if (nameSaysBar && types.some(t => t.includes('bar') || t.includes('wine_bar') || t.includes('pub'))) tags.add('bars');
-  if (nameSaysRestaurant && types.some(t => t.includes('restaurant'))) tags.add('restaurants');
-  if (nameSaysBookstore && types.some(t => t.includes('book_store'))) tags.add('bookstores');
+  if (nameSaysCafe && (p.types||[]).some(t => t.includes('cafe') || t.includes('coffee_shop'))) tags.add('cafes');
+  if (nameSaysBar && (p.types||[]).some(t => t.includes('bar') || t.includes('wine_bar') || t.includes('pub'))) tags.add('bars');
+  if (nameSaysRestaurant && (p.types||[]).some(t => t.includes('restaurant'))) tags.add('restaurants');
+  if (nameSaysBookstore && (p.types||[]).some(t => t.includes('book_store'))) tags.add('bookstores');
   return tags;
 }
 function formatDistance(m){
@@ -284,6 +269,32 @@ function topScore(p){
   const bayes = (C*m + n*r) / (C + n);
   const distBoost = Number.isFinite(d) ? Math.max(0, 1 - Math.min(d, 1200) / 1200) : 0;
   return bayes + distBoost;
+}
+
+// ---------------- Places UI ----------------
+function renderTopPicks(all){
+  if (!topTrack || !topSection) return;
+  const items = pickTopPicks(all, 12);
+  if (!items.length){ topSection.classList.add('hidden'); return; }
+  topSection.classList.remove('hidden');
+  topTrack.innerHTML = items.map(p=>{
+    const name = esc(p.name || '');
+    const dist = Number.isFinite(p.distance_m) ? formatDistance(p.distance_m) : '';
+    const rating = p.rating ? `${p.rating}★` : '';
+    const meta = [rating, dist].filter(Boolean).join(' · ');
+    return `
+      <a class="slide" href="${p.maps_url || '#'}" target="_blank" rel="noopener">
+        <img class="thumb" src="${p.photo_url}" alt="${name}" loading="lazy">
+        <div class="meta">
+          <div class="name">${name}</div>
+          ${meta ? `<span class="pill">${meta}</span>` : ''}
+        </div>
+      </a>
+    `;
+  }).join('');
+  const step = () => topTrack.clientWidth * 0.9;
+  topPrev?.addEventListener('click', () => topTrack.scrollBy({ left: -step(), behavior:'smooth'}));
+  topNext?.addEventListener('click', () => topTrack.scrollBy({ left:  step(), behavior:'smooth'}));
 }
 function pickTopPicks(places, limit = 12){
   const candidates = places.filter(p => p.photo_url);
@@ -313,32 +324,6 @@ function pickTopPicks(places, limit = 12){
   }
   return picks.slice(0, limit);
 }
-function renderTopPicks(all){
-  if (!topTrack || !topSection) return;
-  const items = pickTopPicks(all, 12);
-  if (!items.length){ topSection.classList.add('hidden'); return; }
-  topSection.classList.remove('hidden');
-  topTrack.innerHTML = items.map(p=>{
-    const name = esc(p.name || '');
-    const dist = Number.isFinite(p.distance_m) ? formatDistance(p.distance_m) : '';
-    const rating = p.rating ? `${p.rating}★` : '';
-    const meta = [rating, dist].filter(Boolean).join(' · ');
-    return `
-      <a class="slide" href="${p.maps_url || '#'}" target="_blank" rel="noopener">
-        <img class="thumb" src="${p.photo_url}" alt="${name}" loading="lazy">
-        <div class="meta">
-          <div class="name">${name}</div>
-          ${meta ? `<span class="pill">${meta}</span>` : ''}
-        </div>
-      </a>
-    `;
-  }).join('');
-  const step = () => topTrack.clientWidth * 0.9;
-  topPrev?.addEventListener('click', () => topTrack.scrollBy({ left: -step(), behavior:'smooth'}));
-  topNext?.addEventListener('click', () => topTrack.scrollBy({ left:  step(), behavior:'smooth'}));
-}
-
-// ========= Places grid =========
 function render(){
   if (!listEl) return;
   if (errorEl) errorEl.classList.add('hidden');
@@ -347,7 +332,7 @@ function render(){
   let items = allPlaces.filter(p => {
     const r = num(p.rating);
     const passRating = Number.isFinite(r) ? r >= minR : true;
-    if (!p.photo_url) return false;
+    if (!p.photo_url) return false;           // photo required
     if (selectedType === 'hawker') return passRating && isHawker(p);
     if (isHawker(p)) return false;
     const tags = categorize(p);
@@ -390,7 +375,7 @@ function render(){
   }).join('') || `<div class="notice">No places found.</div>`;
 }
 
-// ========= Events =========
+// ---------------- Events list (unchanged) ----------------
 async function loadEvents(){
   try{
     const res = await fetch(`data/events.json?ts=${Date.now()}`);
@@ -450,7 +435,34 @@ function pruneBrokenEventImages(root){
   });
 }
 
-// ========= UI wiring =========
+// ---------------- Data loads ----------------
+async function loadPlaces(){
+  try {
+    const res = await fetch(`data/places.json?ts=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    allPlaces = Array.isArray(data.places) ? data.places : (Array.isArray(data) ? data : []);
+    renderTopPicks(allPlaces);
+    render();
+    ensureHeroForTab();
+  } catch (e) {
+    console.error('Failed to fetch places.json', e);
+    if (errorEl) errorEl.classList.remove('hidden');
+  }
+}
+async function loadAttractions(){
+  try {
+    const res = await fetch(`data/featured_attractions.json?ts=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    attractionsHeroData = Array.isArray(data.attractions) ? data.attractions : [];
+    ensureHeroForTab();
+  } catch (e) {
+    console.warn('featured_attractions.json fetch failed:', e);
+  }
+}
+
+// ---------------- UI wiring ----------------
 sortSel?.addEventListener('change', render);
 minRatingSel?.addEventListener('change', render);
 typeSel?.addEventListener('change', ()=>{ selectedType = typeSel.value; render(); });
@@ -459,24 +471,25 @@ document.querySelectorAll('.nav-btn').forEach(btn=>{
   btn.addEventListener('click', ()=>{
     document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
-    const tab = btn.dataset.tab;
-    const isEvents = tab === 'events';
+    activeTab = btn.dataset.tab;                // 'places' | 'events'
+
+    const isEvents = activeTab === 'events';
     document.getElementById('places').classList.toggle('hidden', isEvents);
     document.getElementById('events').classList.toggle('hidden', !isEvents);
-    topSection?.classList.toggle('hidden', isEvents);
+    topSection?.classList.toggle('hidden', isEvents);    // hide Top picks on events
     if (scrollCue) scrollCue.setAttribute('href', isEvents ? '#events' : '#places');
+
+    ensureHeroForTab();                          // <<< swap hero content now
   });
 });
 
+// Events category change -> re-render
 eventCatSel?.addEventListener('change', ()=>{
   selectedEventCat = eventCatSel.value;     // 'all' | 'family' | 'music' | 'general'
   renderEvents(allEventsData);
 });
 
-// ========= Boot: attractions first, then places/events =========
+// ---------------- Boot ----------------
 (async () => {
-  const attractionsOK = await loadAttractionsHero(); // builds hero if possible
-  // Load places (for lists/carousels). Fallback hero builds only if attractions failed.
-  await loadPlaces();
-  await loadEvents();
+  await Promise.all([loadAttractions(), loadPlaces(), loadEvents()]);
 })();
