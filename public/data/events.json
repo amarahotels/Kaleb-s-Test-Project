@@ -1,6 +1,6 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-19T09:45:13.366705Z",
+  "generated_at": "2025-08-19T09:56:15.756923Z",
   "events": [
     {
       "title": "Relax & Recharge at Chinatown – The Perfect Tourist Pit Stop ✨",
@@ -197,17 +197,6 @@
       "address": "1 Stars Ave, The Theatre at Mediacorp",
       "url": "https://www.stubhub.com/irama-singapore-tickets-8-23-2025/event/158403293/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5vLyW7YnHcMyAMprii9VQ2vcGlmjrQTOJDVvV4ujcrIj3WHO_1z4_e3jSw&s",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "All About Joss Paper - Hungry Ghost Festival 2025",
-      "start": "Aug 24",
-      "end": "Sun, 24 Aug, 5:00 – 6:30 pm",
-      "venue": "MacPherson MRT Exit B",
-      "address": "171 Paya Lebar Rd, MacPherson MRT Exit B, Singapore",
-      "url": "https://www.eventbrite.sg/e/all-about-joss-paper-hungry-ghost-festival-2025-tickets-1369507637209",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9uVSWT8QT9idhvYEssWMC1dFHhgUE45w2Y4tE1RgjQ&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
