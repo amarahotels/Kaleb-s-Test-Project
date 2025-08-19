@@ -1,6 +1,6 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-19T07:49:31.339430Z",
+  "generated_at": "2025-08-19T08:02:25.670721Z",
   "events": [
     {
       "title": "Relax & Recharge at Chinatown – The Perfect Tourist Pit Stop ✨",
@@ -333,6 +333,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "WATERBOMB SINGAPORE 2025",
+      "start": "Aug 30",
+      "end": "Sat, 30 Aug – Sun, 31 Aug",
+      "venue": "Siloso beach Sentosa",
+      "address": "Siloso Bch Walk, Siloso beach Sentosa",
+      "url": "https://ahboy.com/event/waterbomb-singapore-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzGEZk3BBPNtN0K9Q6vobBN17-mJMudYmeZu1RHGmgzSTM4grx4YCZzVvChq07&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "TRANCE4M International x Trance Family Asia pres NO BORDERS - SG / MY / ID",
       "start": "Aug 30",
       "end": "Sat, 30 Aug, 6:00 pm – Sun, 31 Aug, 2:00 am",
@@ -462,17 +473,6 @@
       "url": "https://greenwoodfishmarket.com/event/22nd-anniversary-gala-2025-sentosa/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWsRjCQzPjRJ4CV3Vo_bDFJsogInxB8jQCUHXSPXt08A&s=10",
       "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "ZoukOut 2018",
-      "start": "Dec 1",
-      "end": "Mon, 1 Dec, 6:00 pm – Tue, 2 Dec, 8:00 am",
-      "venue": "51 Imbiah Walk, Zoukout",
-      "address": "51 Imbiah Walk, Zoukout",
-      "url": "https://radseason.com/event/zoukout-sentosa-singapore/",
-      "image": "https://www.google.com/maps/vt/data=xKvA7BStXPIOaPzuEqVJxVQpG12C8KGTGvUlgakT8CWyNIL6PLCWhHfTcV2MW2dYRAi9J_ZWSIgK6M5hd4RexSgfcrHDbawqeWtB8Xw5pNz8JOjjcKo",
-      "category": "music",
       "source": "serpapi_google_events"
     }
   ]
