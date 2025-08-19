@@ -61,21 +61,19 @@ jobs:
       - name: Generate featured_attractions.json (+ images)
         run: python get_featured_attractions.py
         env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}   # ← per-step env
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
 
       - name: Commit & Push featured attractions (if any)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Commit JSON and any new/updated images
-          if ! git diff --quiet -- public/data/featured_attractions.json public/images/attractions; then
-            git add public/data/featured_attractions.json || true
-            git add -A public/images/attractions || true
-            git commit -m "Auto-update featured attractions ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+          if [[ -n "$(git status --porcelain public/data/featured_attractions.json)" ]]; then
+            git add public/data/featured_attractions.json
+            git commit -m "Auto-update featured_attractions.json ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
             git pull --rebase origin main
             git push origin main
           else
-            echo "✅ No changes to featured attractions"
+            echo "✅ No changes to featured_attractions.json"
           fi
 
       # --------------------------
@@ -87,7 +85,7 @@ jobs:
       - name: Fetch events from SerpAPI
         run: python get_serpapi_events.py
         env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}          # ← per-step env
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
 
       - name: Commit & Push changes for events.json (if any)
         run: |

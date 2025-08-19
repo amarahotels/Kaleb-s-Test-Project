@@ -2,7 +2,7 @@
 const y = document.getElementById('year');
 if (y) y.textContent = new Date().getFullYear();
 
-// Refs
+/* ---------------- Refs ---------------- */
 const listEl = document.getElementById('placeList');
 const errorEl = document.getElementById('placesError');
 const sortSel = document.getElementById('sortSelect');
@@ -16,24 +16,34 @@ const topNext = document.getElementById('topNext');
 const topSection = document.getElementById('topPicks');
 
 // HERO slider refs
-const heroSlidesEl = document.getElementById('heroSlides');
-const heroDotsEl = document.getElementById('heroDots');
-const heroPrev = document.getElementById('heroPrev');
-const heroNext = document.getElementById('heroNext');
-const heroEl = document.getElementById('hero');
-const heroTitleEl = document.getElementById('heroTitle');
+const heroSlidesEl   = document.getElementById('heroSlides');
+const heroDotsEl     = document.getElementById('heroDots');
+const heroPrev       = document.getElementById('heroPrev');
+const heroNext       = document.getElementById('heroNext');
+const heroEl         = document.getElementById('hero');
+const heroTitleEl    = document.getElementById('heroTitle');
 const heroSubtitleEl = document.getElementById('heroSubtitle');
+const scrollCueEl    = document.getElementById('scrollCue');
 
 // Events filter ref
 const eventCatSel = document.getElementById('eventCat');
 
-let allPlaces = [];
-let selectedType = 'all';
-let allEventsData = [];
-let selectedEventCat = 'all';
-let heroMode = 'places'; // 'places' | 'events'
+// Year-round attractions refs (carousel)
+const attractionsSection = document.getElementById('attractionsSection');
+const attrTrack = document.getElementById('attrTrack');
+const attrPrev  = document.getElementById('attrPrev');
+const attrNext  = document.getElementById('attrNext');
 
-// ---- Hawker detection config ----
+/* ---------------- State ---------------- */
+let allPlaces = [];
+let allEventsData = [];
+let allAttractions = [];
+
+let selectedType = 'all';
+let selectedEventCat = 'all';
+let activeTab = 'places';
+
+/* -------------- Hawker detection config -------------- */
 const hawkerNameSet = new Set([
   'lau pa sat','maxwell food centre','maxwell food center',
   'amoy street food centre','amoy street food center',
@@ -47,7 +57,7 @@ const NAME_ALCOHOL_RE = /\b(cocktail|cocktails|wine|beer|ale|lager|ipa|stout|por
 const NAME_IS_RESTAURANT_RE = /\b(restaurant|ristorante|trattoria|bistro|eatery|osteria|cantina|kitchen|diner)\b/i;
 const NAME_IS_BOOKSTORE_RE = /\b(bookstore|book\s*shop|book\s*store|books|comics|manga|书店|書店|书屋|書屋)\b/i;
 
-// Load data
+/* ---------------- Loaders ---------------- */
 async function loadPlaces() {
   try {
     const res = await fetch(`data/places.json?ts=${Date.now()}`);
@@ -55,8 +65,9 @@ async function loadPlaces() {
     const data = await res.json();
     allPlaces = Array.isArray(data.places) ? data.places : (Array.isArray(data) ? data : []);
 
-    // initial hero is places
-    buildHeroForPlaces(allPlaces);
+    // If we are currently on Places, build the Places hero
+    if (activeTab === 'places') buildHeroFromPlaces(allPlaces);
+
     renderTopPicks(allPlaces);
     render();
   } catch (e) {
@@ -65,7 +76,37 @@ async function loadPlaces() {
   }
 }
 
-// Helpers
+async function loadEvents(){
+  try{
+    const res = await fetch(`data/events.json?ts=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    allEventsData = data?.events || [];
+    renderEvents(allEventsData);
+  }catch(e){
+    console.error('Failed to fetch events.json', e);
+    document.getElementById('eventsError')?.classList.remove('hidden');
+  }
+}
+
+async function loadAttractions(){
+  try{
+    const res = await fetch(`data/featured_attractions.json?ts=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    allAttractions = Array.isArray(data.attractions) ? data.attractions : [];
+
+    // Build the attractions carousel (under Upcoming Events)
+    renderAttractionsCarousel(allAttractions);
+
+    // If Events tab is active, use attractions as hero
+    if (activeTab === 'events') buildHeroFromAttractions(allAttractions);
+  }catch(e){
+    console.warn('No featured_attractions.json yet or failed to load.', e);
+  }
+}
+
+/* ---------------- Helpers ---------------- */
 function isHawker(p) {
   if (typeof p.is_hawker_centre === 'boolean') return p.is_hawker_centre;
   const name = (p.name || '').toLowerCase().trim();
@@ -124,6 +165,90 @@ function topScore(p){
   const distBoost = Number.isFinite(d) ? Math.max(0, 1 - Math.min(d, 1200) / 1200) : 0;
   return bayes + distBoost;
 }
+
+/* ---------- HERO SLIDER (shared plumbing) ---------- */
+let heroIndex = 0, heroTimer = null, heroSlides = [];
+
+function showHero(nextIndex, userTriggered=false){
+  if (!heroSlides.length) return;
+  const count = heroSlides.length;
+  heroIndex = (nextIndex + count) % count;
+  heroSlides.forEach((el,i)=> el.classList.toggle('is-active', i===heroIndex));
+  if (heroDotsEl){
+    [...heroDotsEl.children].forEach((d,i)=>{
+      d.classList.toggle('is-active', i===heroIndex);
+      d.setAttribute('aria-selected', i===heroIndex ? 'true':'false');
+    });
+  }
+  if (userTriggered){ restartHeroAuto(); }
+}
+function startHeroAuto(){
+  stopHeroAuto();
+  heroTimer = setInterval(()=> showHero(heroIndex+1, false), 6000);
+}
+function stopHeroAuto(){ if (heroTimer) clearInterval(heroTimer); heroTimer = null; }
+function restartHeroAuto(){ stopHeroAuto(); startHeroAuto(); }
+function addSwipe(el, cb){
+  let x0=null, y0=null;
+  el.addEventListener('touchstart', e=>{ const t=e.touches[0]; x0=t.clientX; y0=t.clientY; }, {passive:true});
+  el.addEventListener('touchend', e=>{
+    if (x0==null) return;
+    const t=e.changedTouches[0];
+    const dx = t.clientX - x0; const dy = t.clientY - y0;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)){ cb(dx<0 ? 'left':'right'); }
+    x0 = y0 = null;
+  }, {passive:true});
+}
+addSwipe(heroEl, (dir)=>{ if (dir === 'left') showHero(heroIndex+1, true); if (dir === 'right') showHero(heroIndex-1, true); });
+heroPrev?.addEventListener('click', ()=> showHero(heroIndex-1, true));
+heroNext?.addEventListener('click', ()=> showHero(heroIndex+1, true));
+
+/* ---------- Build hero from PLACES ---------- */
+function buildHeroFromPlaces(all){
+  if (!heroSlidesEl) return;
+  const picks = [...all].filter(p => p.photo_url).sort((a,b)=> topScore(b) - topScore(a)).slice(0, 6);
+
+  heroSlidesEl.innerHTML = picks.map((p, i) =>
+    `<div class="hs-slide${i===0 ? ' is-active':''}" role="img" aria-label="${esc(p.name || '')}"
+       style="background-image:url('${p.photo_url}')"></div>`
+  ).join('');
+
+  if (heroDotsEl){
+    heroDotsEl.innerHTML = picks.map((_,i)=>
+      `<button class="hs-dot${i===0?' is-active':''}" role="tab" aria-selected="${i===0?'true':'false'}" aria-label="Slide ${i+1}"></button>`
+    ).join('');
+    [...heroDotsEl.children].forEach((dot, i)=> dot.addEventListener('click', ()=> showHero(i, true)));
+  }
+
+  heroSlides = [...heroSlidesEl.querySelectorAll('.hs-slide')];
+  startHeroAuto();
+}
+
+/* ---------- Build hero from ATTRACTIONS (Events tab) ---------- */
+function buildHeroFromAttractions(items){
+  if (!heroSlidesEl) return;
+  const picks = items.filter(a => a.image_url).slice(0, 6);
+  if (!picks.length) return;
+
+  heroSlidesEl.innerHTML = picks.map((a, i) => `
+    <div class="hs-slide${i===0 ? ' is-active' : ''}"
+         role="img"
+         aria-label="${esc(a.name || '')}"
+         style="background-image:url('${a.image_url}')"></div>
+  `).join('');
+
+  if (heroDotsEl){
+    heroDotsEl.innerHTML = picks.map((_,i)=>
+      `<button class="hs-dot${i===0?' is-active':''}" role="tab" aria-selected="${i===0?'true':'false'}" aria-label="Slide ${i+1}"></button>`
+    ).join('');
+    [...heroDotsEl.children].forEach((dot, i)=> dot.addEventListener('click', ()=> showHero(i, true)));
+  }
+
+  heroSlides = [...heroSlidesEl.querySelectorAll('.hs-slide')];
+  restartHeroAuto();
+}
+
+/* ---------- TOP PICKS CAROUSEL ---------- */
 function pickTopPicks(places, limit = 12){
   const candidates = places.filter(p => p.photo_url);
   const scored = [...candidates].sort((a,b)=> topScore(b) - topScore(a));
@@ -153,107 +278,6 @@ function pickTopPicks(places, limit = 12){
   return picks.slice(0, limit);
 }
 
-/* ---------- HERO (dual-mode) ---------- */
-let heroIndex = 0, heroTimer = null, heroSlides = [];
-
-function setHeroCopy(mode){
-  if (!heroTitleEl || !heroSubtitleEl) return;
-  if (mode === 'events'){
-    heroTitleEl.innerHTML = `What’s On in <span class="brand">Singapore</span>`;
-    heroSubtitleEl.textContent = `Upcoming concerts, festivals & family-friendly happenings.`;
-  }else{
-    heroTitleEl.innerHTML = `Explore Around <span class="brand">Amara</span>`;
-    heroSubtitleEl.textContent = `Handpicked nearby places for staff & guests near Tanjong Pagar.`;
-  }
-}
-
-function renderHeroSlides(picks, getImg, getAlt){
-  if (!heroSlidesEl) return;
-  heroSlidesEl.innerHTML = picks.map((item, i) => {
-    const img = getImg(item);
-    const alt = esc(getAlt(item) || '');
-    return `<div class="hs-slide${i===0 ? ' is-active':''}" role="img" aria-label="${alt}"
-              style="background-image:url('${img}')"></div>`;
-  }).join('');
-
-  if (heroDotsEl){
-    heroDotsEl.innerHTML = picks.map((_,i)=>
-      `<button class="hs-dot${i===0?' is-active':''}" role="tab" aria-selected="${i===0?'true':'false'}" aria-label="Slide ${i+1}"></button>`
-    ).join('');
-    [...heroDotsEl.children].forEach((dot, i)=> dot.addEventListener('click', ()=> showHero(i, true)));
-  }
-
-  heroSlides = [...heroSlidesEl.querySelectorAll('.hs-slide')];
-  heroPrev?.addEventListener('click', ()=> showHero(heroIndex-1, true));
-  heroNext?.addEventListener('click', ()=> showHero(heroIndex+1, true));
-  startHeroAuto();
-  heroEl?.addEventListener('mouseenter', stopHeroAuto);
-  heroEl?.addEventListener('mouseleave', startHeroAuto);
-  heroEl?.addEventListener('focusin', stopHeroAuto);
-  heroEl?.addEventListener('focusout', startHeroAuto);
-  addSwipe(heroEl, (dir)=>{ if (dir==='left') showHero(heroIndex+1, true); if (dir==='right') showHero(heroIndex-1, true); });
-}
-
-function buildHeroForPlaces(all){
-  heroMode = 'places';
-  setHeroCopy('places');
-  const picks = [...all].filter(p=>p.photo_url).sort((a,b)=> topScore(b)-topScore(a)).slice(0,6);
-  if (!picks.length) return;
-  renderHeroSlides(picks, p=>p.photo_url, p=>p.name);
-}
-
-function buildHeroForEvents(events){
-  heroMode = 'events';
-  setHeroCopy('events');
-
-  const parseDate = d => (d && !isNaN(Date.parse(d))) ? new Date(d) : null;
-  const picks = [...events]
-    .filter(e => e.image && e.image.trim())
-    .sort((a,b)=>{
-      const A = parseDate(a.start), B = parseDate(b.start);
-      if (!A) return 1; if (!B) return -1; return A - B;
-    })
-    .slice(0, 6);
-
-  // Fallback to places hero if we can’t find event images
-  if (!picks.length){ buildHeroForPlaces(allPlaces); return; }
-
-  renderHeroSlides(picks, e=>e.image, e=>e.title);
-}
-
-function showHero(nextIndex, userTriggered=false){
-  if (!heroSlides.length) return;
-  const count = heroSlides.length;
-  heroIndex = (nextIndex + count) % count;
-  heroSlides.forEach((el,i)=> el.classList.toggle('is-active', i===heroIndex));
-  if (heroDotsEl){
-    [...heroDotsEl.children].forEach((d,i)=>{
-      d.classList.toggle('is-active', i===heroIndex);
-      d.setAttribute('aria-selected', i===heroIndex ? 'true':'false');
-    });
-  }
-  if (userTriggered){ restartHeroAuto(); }
-}
-function startHeroAuto(){
-  stopHeroAuto();
-  heroTimer = setInterval(()=> showHero(heroIndex+1, false), 6000);
-}
-function stopHeroAuto(){ if (heroTimer) clearInterval(heroTimer); heroTimer = null; }
-function restartHeroAuto(){ stopHeroAuto(); startHeroAuto(); }
-function addSwipe(el, cb){
-  if (!el) return;
-  let x0=null, y0=null;
-  el.addEventListener('touchstart', e=>{ const t=e.touches[0]; x0=t.clientX; y0=t.clientY; }, {passive:true});
-  el.addEventListener('touchend', e=>{
-    if (x0==null) return;
-    const t=e.changedTouches[0];
-    const dx = t.clientX - x0; const dy = t.clientY - y0;
-    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)){ cb(dx<0 ? 'left':'right'); }
-    x0 = y0 = null;
-  }, {passive:true});
-}
-
-/* ---------- TOP PICKS CAROUSEL ---------- */
 function renderTopPicks(all){
   if (!topTrack || !topSection) return;
   const items = pickTopPicks(all, 12);
@@ -280,7 +304,34 @@ function topSlideHtml(p){
   `;
 }
 
-/* ---------- GRID RENDER ---------- */
+/* ---------- ATTRACTIONS CAROUSEL (under Events) ---------- */
+function renderAttractionsCarousel(items){
+  if (!attractionsSection || !attrTrack) return;
+  if (!items || !items.length){ attractionsSection.classList.add('hidden'); return; }
+
+  attractionsSection.classList.remove('hidden');
+  attrTrack.innerHTML = items.map(a => {
+    const name = esc(a.name || '');
+    const where = esc(a.address || '');
+    const href = a.maps_url || '#';
+    const img  = a.image_url || '';
+    return `
+      <a class="slide" href="${href}" target="_blank" rel="noopener">
+        <img class="thumb" src="${img}" alt="${name}" loading="lazy">
+        <div class="meta">
+          <div class="name">${name}</div>
+          ${where ? `<span class="pill">${where}</span>` : ''}
+        </div>
+      </a>
+    `;
+  }).join('');
+
+  const step = () => attrTrack.clientWidth * 0.9;
+  attrPrev?.addEventListener('click', () => attrTrack.scrollBy({ left: -step(), behavior:'smooth'}));
+  attrNext?.addEventListener('click', () => attrTrack.scrollBy({ left:  step(), behavior:'smooth'}));
+}
+
+/* ---------- GRID RENDER (Places) ---------- */
 function render(){
   if (!listEl) return;
   if (errorEl) errorEl.classList.add('hidden');
@@ -333,60 +384,7 @@ function cardHtml(p){
   `;
 }
 
-// utils
-const num = v => Number.isFinite(v) ? v : parseFloat(v);
-function esc(s=''){ return s.replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
-// safely stringify possible array/string/object for venue/address
-const toText = (v) => Array.isArray(v) ? v.filter(Boolean).join(', ')
-  : (v && typeof v === 'object')
-    ? (['name','address','line1','line2','city'].map(k => v[k]).filter(Boolean).join(', ') || String(v))
-    : (v ?? '');
-
-// filter listeners (Places)
-sortSel?.addEventListener('change', render);
-minRatingSel?.addEventListener('change', render);
-typeSel?.addEventListener('change', ()=>{ selectedType = typeSel.value; render(); });
-
-// nav toggle
-document.querySelectorAll('.nav-btn').forEach(btn=>{
-  btn.addEventListener('click', ()=>{
-    document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active');
-    const tab = btn.dataset.tab;
-
-    // toggle sections
-    document.getElementById('places').classList.toggle('hidden', tab !== 'places');
-    document.getElementById('events').classList.toggle('hidden', tab !== 'events');
-
-    // hide Top picks when viewing events
-    if (topSection) topSection.classList.toggle('hidden', tab !== 'places');
-
-    // swap hero content
-    if (tab === 'events') buildHeroForEvents(allEventsData);
-    else buildHeroForPlaces(allPlaces);
-  });
-});
-
-// events list
-async function loadEvents(){
-  try{
-    const res = await fetch(`data/events.json?ts=${Date.now()}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-
-    // store & render (so category filter can re-render without refetching)
-    allEventsData = data?.events || [];
-    renderEvents(allEventsData);
-
-    // If user is already on Events tab, refresh the hero now that we have data
-    const activeBtn = document.querySelector('.nav-btn.active');
-    if (activeBtn?.dataset.tab === 'events') buildHeroForEvents(allEventsData);
-  }catch(e){
-    console.error('Failed to fetch events.json', e);
-    document.getElementById('eventsError')?.classList.remove('hidden');
-  }
-}
-
+/* ---------- Events list render ---------- */
 function renderEvents(events){
   const list = document.getElementById('eventList');
   if (!list) return;
@@ -422,7 +420,6 @@ function renderEvents(events){
     </article>
   `).join('') || `<div class="notice">No events found.</div>`;
 
-  // 5) post-render prune: remove cards with broken/tiny images
   pruneBrokenEventImages(list);
 }
 
@@ -444,15 +441,53 @@ function pruneBrokenEventImages(root){
   });
 }
 
-// Events category change -> re-render
+/* ---------- Listeners ---------- */
+sortSel?.addEventListener('change', render);
+minRatingSel?.addEventListener('change', render);
+typeSel?.addEventListener('change', ()=>{ selectedType = typeSel.value; render(); });
+
+document.querySelectorAll('.nav-btn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const tab = btn.dataset.tab;
+    activeTab = tab;
+
+    document.getElementById('places').classList.toggle('hidden', tab !== 'places');
+    document.getElementById('events').classList.toggle('hidden', tab !== 'events');
+
+    if (tab === 'events'){
+      // Events hero (attractions)
+      if (heroTitleEl)    heroTitleEl.textContent = "What’s On in Singapore";
+      if (heroSubtitleEl) heroSubtitleEl.textContent = "Signature year-round attractions & family-friendly hits.";
+      buildHeroFromAttractions(allAttractions);
+      topSection?.classList.add('hidden');
+      scrollCueEl?.setAttribute('href', '#events');
+    } else {
+      // Places hero
+      if (heroTitleEl)    heroTitleEl.innerHTML = 'Explore Around <span class="brand">Amara</span>';
+      if (heroSubtitleEl) heroSubtitleEl.textContent = 'Handpicked nearby places for staff & guests near Tanjong Pagar.';
+      buildHeroFromPlaces(allPlaces);
+      topSection?.classList.remove('hidden');
+      scrollCueEl?.setAttribute('href', '#places');
+    }
+  });
+});
+
 eventCatSel?.addEventListener('change', ()=>{
   selectedEventCat = eventCatSel.value;     // 'all' | 'family' | 'music' | 'general'
   renderEvents(allEventsData);
-
-  // If in events mode, refresh hero picks (e.g., when filtering to Music)
-  const activeBtn = document.querySelector('.nav-btn.active');
-  if (activeBtn?.dataset.tab === 'events') buildHeroForEvents(allEventsData);
 });
 
+/* ---------- utils ---------- */
+const num = v => Number.isFinite(v) ? v : parseFloat(v);
+function esc(s=''){ return s.replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+const toText = (v) => Array.isArray(v) ? v.filter(Boolean).join(', ')
+  : (v && typeof v === 'object')
+    ? (['name','address','line1','line2','city'].map(k => v[k]).filter(Boolean).join(', ') || String(v))
+    : (v ?? '');
+
+/* ---------- boot ---------- */
+loadAttractions();
 loadEvents();
 loadPlaces();
