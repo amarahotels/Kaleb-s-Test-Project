@@ -30,16 +30,16 @@ month_year = now.strftime("%B %Y")
 # ---------- Ordered query lists (rotate in order, then wrap) ----------
 QUERIES_BY_BUCKET = {
     "family": [
-        "carnival singapore",
-        "kids activities singapore",
-        "indoor playground singapore",
-        "family attractions singapore",
-        "sentosa family activities",
+        # "carnival singapore",
+        # "kids activities singapore",
+        # "indoor playground singapore",
+        # "family attractions singapore",
+        # "sentosa family activities",
         "gardens by the bay children activities",
-        "zoo events singapore",
-        "science centre singapore events",
-        f"family events singapore {month_year}",
-        "family friendly shows singapore",
+        # "zoo events singapore",
+        "science centre singapore events"
+        # f"family events singapore {month_year}",
+        # "family friendly shows singapore",
     ],
     "music": [
         f"concerts in Singapore {month_year}",
