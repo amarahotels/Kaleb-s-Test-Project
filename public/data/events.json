@@ -1,6 +1,6 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-19T08:42:01.043407Z",
+  "generated_at": "2025-08-19T09:21:24.643203Z",
   "events": [
     {
       "title": "Relax & Recharge at Chinatown – The Perfect Tourist Pit Stop ✨",
@@ -22,17 +22,6 @@
       "url": "https://www.eventbrite.sg/poi/singapore--singapore/bedok-jetty--6HJ0b/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfL_2brbh_huBQG6TcC5CKC25v5T26ZpQrIJWHRKhhXg&s",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "orchids-extravaganza-2025 | Gardens by the Bay",
-      "start": "Aug 19",
-      "end": "1 Aug, 12:00 am – 31 Aug, 12:00 am",
-      "venue": "Flower Dome",
-      "address": "18 Marina Gardens Dr, Flower Dome, Singapore",
-      "url": "https://uk.trip.com/events/orchidsextravaganza2025-20250226/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rITbWjeW-XhVK7ziM7djrzSygOPVQUrE0Mx6HDgztg&s",
-      "category": "family",
       "source": "serpapi_google_events"
     },
     {
@@ -190,17 +179,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Yellow Ribbon Community Arts Festival 2025: Roving Arts Truck (Suntec City)",
-      "start": "Aug 23",
-      "end": "Sat, 23 Aug, 10:00 am – Sun, 24 Aug, 7:00 pm",
-      "venue": "Suntec City",
-      "address": "3 Temasek Blvd, Suntec City",
-      "url": "https://citynomads.com/events/yellow-ribbon-community-arts-festival-2025-roving-arts-truck-suntec-city/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJGUBAwb4TU2hzYKR_-0xmNLpaKMHkkbRvQMmOnroiTH-nuTo2XBQyEk4xog&s=10",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "Monster Jaw",
       "start": "Aug 23",
       "end": "Sat, 23 Aug, 6:00 – 10:00 pm",
@@ -355,28 +333,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Nature and Sustainability Tour: Energy and Water [Sep'25]",
-      "start": "Sept 6",
-      "end": "Sat, 6 Sept, 8:30 – 9:30 am",
-      "venue": "Gardens by the Bay",
-      "address": "Gardens by the Bay",
-      "url": "https://www.eventbrite.sg/e/nature-and-sustainability-tour-energy-and-water-sep25-tickets-1547172166599",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl0Rt6_u-jKSIM1ts-QxYC52FCI5CaSo5VWD3PqLjzmA&s=10",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Nature & Sustainability Tour: A Sensory Stroll - Can Eat or Not? [Sep'25]",
-      "start": "Sept 6",
-      "end": "Sat, 6 Sept, 10:30 – 11:30 am",
-      "venue": "Gardens by the Bay Gift Shop",
-      "address": "18 Marina S Dr, Gardens by the Bay Gift Shop",
-      "url": "https://www.eventbrite.sg/e/nature-sustainability-tour-a-sensory-stroll-can-eat-or-not-sep25-tickets-1547174403289",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmzgwAtLaW64g1cCkrr9YnUZtdNeJpJuB7LX4lT_Q1PxvbsL4nwmcD_BVqCg&s=10",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "Voices of Singapore Festival 2025",
       "start": "Sept 6",
       "end": "Sat, 6 Sept, 10:30 am – Wed, 10 Sept, 9:30 pm",
@@ -385,17 +341,6 @@
       "url": "https://www.eventbrite.sg/e/voices-of-singapore-festival-2025-tickets-1452811762089?aff=oddtdtcreator",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo4TtfH-iyAZFLKlU60uoFbg0SUIWUwQKA5pminatBYGnBqHq1l5qbh90RDg&s=10",
       "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "DBCS Celebrates 40 Years of Flourishing by Design",
-      "start": "Sept 10",
-      "end": "10–21 Sept",
-      "venue": "Flower Field Hall",
-      "address": "211 Marina Way, Flower Field Hall",
-      "url": "https://www.artrabbit.com/events/dbcs-celebrates-40-years-of-flourishing-by-design",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_xLgISc2L05X36zIu0b9nETsDhH__6S7p-ywt56fpaQeJUSNDYbnrf7UBPQ&s=10",
-      "category": "family",
       "source": "serpapi_google_events"
     },
     {
@@ -451,17 +396,6 @@
       "url": "https://www.suntecsingapore.com/visit-events/impact-week-2025",
       "image": "https://www.google.com/maps/vt/data=b5j4NiRIZm0xXfX9mpmexFoxF_t7zaJMmpqkVvwsgtiuiM2Q5Pt_1l1KUy6ggnxsbWDJ6vm_Adph1Vm_IV9X6dBZcrrMkK-J13uJ44DL5pZejARvyxQ",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Partner Event: Pink Ribbon Walk 2025",
-      "start": "Oct 11",
-      "end": "Sat, 11 Oct, 5:00 – 9:00 pm",
-      "venue": "OCBC Square",
-      "address": "Stadium Walk, OCBC Square",
-      "url": "https://pinkribbonwalk.sg/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9EQqXNCYQowITzlACvtrxwhteGJkqkZx8jriOVdsHGg&s=10",
-      "category": "family",
       "source": "serpapi_google_events"
     },
     {
