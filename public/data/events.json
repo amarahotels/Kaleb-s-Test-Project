@@ -1,1 +1,138 @@
-{}
+{
+  "source": "serpapi_google_events",
+  "generated_at": "2025-08-19T03:36:12.165043Z",
+  "events": [
+    {
+      "title": "Relax & Recharge at Chinatown – The Perfect Tourist Pit Stop ✨",
+      "start": "Aug 19",
+      "end": "12 Aug, 2:00 pm – 19 Aug, 4:00 pm",
+      "venue": "People's Park Centre",
+      "address": "101 Upper Cross St, People's Park Centre",
+      "url": "https://www.meetup.com/healing-jinshunli/",
+      "image": "https://www.google.com/maps/vt/data=wieSmMQVUS_hGCpvoKe-vl5a1E1lrXKp2cgbf-6VwF2yGU7aSK_EJh0owmWHxl4gwKnrH_VO3yArc3wbBo9wL2t1r66Auu0hIu6W-lQ7ZUKfGaRYHx8",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "orchids-extravaganza-2025 | Gardens by the Bay",
+      "start": "Aug 19",
+      "end": "1 Aug, 12:00 am – 31 Aug, 12:00 am",
+      "venue": "Flower Dome",
+      "address": "18 Marina Gardens Dr, Flower Dome, Singapore",
+      "url": "https://uk.trip.com/events/orchidsextravaganza2025-20250226/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rITbWjeW-XhVK7ziM7djrzSygOPVQUrE0Mx6HDgztg&s",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Suntamed Beach Festival 2025 | Siloso Beach",
+      "start": "Aug 22",
+      "end": "Fri, 22 Aug, 5:00 pm",
+      "venue": "10A Siloso Bch Walk",
+      "address": "10A Siloso Bch Walk",
+      "url": "https://nz.trip.com/events/suntamed-beach-festival-2025-20250714/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKk5LDCMlnqICtVpCLVAPHExaojvkeCUa1ODzif707_a64lMi2LVr6n8lOTQ&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Suntamed 2025 - Singapore",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 4:00 – 7:00 pm",
+      "venue": "Siloso Beach",
+      "address": "53 Siloso Bch Walk, Siloso Beach, Singapore",
+      "url": "https://www.stubhub.com/suntamed-beach-festival-singapore-tickets-8-23-2025/event/159079040/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoRYFPfQBmqvo5SAXNhey2947NiMKya4oJMAf4mFG2ZA&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Yellow Ribbon Community Arts Festival 2025: Roving Arts Truck (Suntec City)",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 10:00 am – Sun, 24 Aug, 7:00 pm",
+      "venue": "Suntec City",
+      "address": "3 Temasek Blvd, Suntec City",
+      "url": "https://citynomads.com/events/yellow-ribbon-community-arts-festival-2025-roving-arts-truck-suntec-city/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJGUBAwb4TU2hzYKR_-0xmNLpaKMHkkbRvQMmOnroiTH-nuTo2XBQyEk4xog&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Nature and Sustainability Tour: Energy and Water [Sep'25]",
+      "start": "Sept 6",
+      "end": "Sat, 6 Sept, 8:30 – 9:30 am",
+      "venue": "Gardens by the Bay",
+      "address": "Gardens by the Bay",
+      "url": "https://www.eventbrite.sg/e/nature-and-sustainability-tour-energy-and-water-sep25-tickets-1547172166599",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl0Rt6_u-jKSIM1ts-QxYC52FCI5CaSo5VWD3PqLjzmA&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Nature & Sustainability Tour: A Sensory Stroll - Can Eat or Not? [Sep'25]",
+      "start": "Sept 6",
+      "end": "Sat, 6 Sept, 10:30 – 11:30 am",
+      "venue": "Gardens by the Bay Gift Shop",
+      "address": "18 Marina S Dr, Gardens by the Bay Gift Shop",
+      "url": "https://www.eventbrite.sg/e/nature-sustainability-tour-a-sensory-stroll-can-eat-or-not-sep25-tickets-1547174403289",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmzgwAtLaW64g1cCkrr9YnUZtdNeJpJuB7LX4lT_Q1PxvbsL4nwmcD_BVqCg&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "DBCS Celebrates 40 Years of Flourishing by Design",
+      "start": "Sept 10",
+      "end": "10–21 Sept",
+      "venue": "Flower Field Hall",
+      "address": "211 Marina Way, Flower Field Hall",
+      "url": "https://www.artrabbit.com/events/dbcs-celebrates-40-years-of-flourishing-by-design",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_xLgISc2L05X36zIu0b9nETsDhH__6S7p-ywt56fpaQeJUSNDYbnrf7UBPQ&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Island Atelier - Edition 1",
+      "start": "Sept 11",
+      "end": "Thu, 11 Sept, 10:00 am – Fri, 12 Sept, 8:00 pm",
+      "venue": "ONE°15 Marina Sentosa Cove Singapore",
+      "address": "11 Cove Drive, #01-01, Sentosa Cove, ONE°15 Marina Sentosa Cove Singapore, Singapore",
+      "url": "https://www.eventbrite.com/e/island-atelier-edition-1-tickets-1266899914749",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShKR3ldz3x3NJ8U8HmIpCwDjfBhuZjJi6Sk96TEe4gDQqVM5fA95cEwbV05A&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Partner Event: Pink Ribbon Walk 2025",
+      "start": "Oct 11",
+      "end": "Sat, 11 Oct, 5:00 – 9:00 pm",
+      "venue": "OCBC Square",
+      "address": "Stadium Walk, OCBC Square",
+      "url": "https://pinkribbonwalk.sg/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9EQqXNCYQowITzlACvtrxwhteGJkqkZx8jriOVdsHGg&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "NIEC Cross-Campus Learning Journey 2025 to River Wonders",
+      "start": "Oct 17",
+      "end": "Fri, 17 Oct, 10:00 am – 5:00 pm",
+      "venue": "River Wonders",
+      "address": "80 Mandai Lake Rd, River Wonders, Singapore",
+      "url": "https://niec.edu.sg/venue/river-wonders/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO9hj9OdiVennGjD77ZckttLVAWzjbFq3fbpvRcdq3olMBgJg4ie4Pyk2Uyg&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "22nd Anniversary Gala: Buffet [Sentosa]",
+      "start": "Oct 30",
+      "end": "Thu, 30 Oct, 7:00 pm",
+      "venue": "Quayside Isle",
+      "address": "31 Ocean Way, Quayside Isle",
+      "url": "https://greenwoodfishmarket.com/event/22nd-anniversary-gala-2025-sentosa/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWsRjCQzPjRJ4CV3Vo_bDFJsogInxB8jQCUHXSPXt08A&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    }
+  ]
+}
