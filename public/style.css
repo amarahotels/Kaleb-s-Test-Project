@@ -360,3 +360,17 @@ select:focus{ outline:2px solid rgba(183,138,86,.35) }
   .carousel-track{ scroll-behavior:auto; }
   .card:hover .thumb{ transform:none; }
 }
+
+.hero-place-pill{
+  display:inline-block;
+  margin-top:12px;
+  padding:6px 10px;
+  border-radius:999px;
+  background:rgba(0,0,0,.45);
+  color:#fff;
+  font-weight:600;
+  font-size:.95rem;
+  text-decoration:none;
+  backdrop-filter:saturate(120%) blur(2px);
+}
+.hero-place-pill.hidden{ display:none; }
