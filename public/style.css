@@ -496,7 +496,3 @@ select:focus{ outline:2px solid rgba(183,138,86,.35) }
 @media (max-width:639px){
   .filters-panel{ position:sticky; top:8px; z-index:20; }
 }
-
-/* If you have old .controls styles that affected layout,
-   scope them to the Events section only to avoid conflicts: */
-#events .controls { /* your existing controls styles (if any) */ }

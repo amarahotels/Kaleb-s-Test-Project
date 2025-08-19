@@ -500,29 +500,35 @@ document.querySelectorAll('.nav-btn').forEach(btn=>{
   });
 });
 
-// ===== Filters accordion (phones) =====
-(function initFiltersAccordion() {
-  const toggle = document.querySelector('.filters-toggle');
-  const body   = document.getElementById('filtersBody');
+// ===== Filters accordions (supports multiple panels) =====
+(function initFiltersAccordions() {
+  const mql = window.matchMedia('(min-width: 640px)');
 
-  if (!toggle || !body) return;
+  function wirePanel(panel) {
+    const toggle = panel.querySelector('.filters-toggle');
+    const body   = panel.querySelector('.filters-body');
+    if (!toggle || !body) return;
 
-  // Helper to set state
-  function setOpen(isOpen) {
-    body.style.display = isOpen ? 'block' : 'none';
-    toggle.setAttribute('aria-expanded', String(isOpen));
-    toggle.textContent = isOpen ? 'Hide' : 'Show';
+    function setOpen(open) {
+      body.style.display = open ? 'block' : 'none';
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.textContent = open ? 'Hide' : 'Show';
+    }
+
+    // Open by default on ≥640px, collapsed on phones
+    setOpen(mql.matches);
+
+    toggle.addEventListener('click', () => {
+      const open = body.style.display === 'block';
+      setOpen(!open);
+    });
+
+    mql.addEventListener?.('change', e => setOpen(e.matches));
   }
 
-  // Initial state: collapsed on small screens, open otherwise (CSS also handles this)
-  const mq = window.matchMedia('(min-width: 640px)');
-  setOpen(mq.matches);            // open if ≥640px
-
-  toggle.addEventListener('click', () => setOpen(body.style.display !== 'block'));
-
-  // Keep it in sync if the user rotates/resizes
-  mq.addEventListener?.('change', e => setOpen(e.matches));
+  document.querySelectorAll('.filters-panel').forEach(wirePanel);
 })();
+
 
 
 // kick off
