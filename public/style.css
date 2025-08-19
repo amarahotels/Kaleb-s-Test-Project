@@ -96,6 +96,38 @@ body::after{
   }
 }
 
+/* Always show hero arrows (especially on touch devices) */
+.hero-slider .hs-arrow{
+  display: flex;                      /* ensure they render */
+  align-items: center;
+  justify-content: center;
+  width: 44px; height: 44px;
+  border-radius: 9999px;
+  background: rgba(0,0,0,.35);
+  color: #fff;
+  font-size: 28px;
+  line-height: 1;
+  opacity: 1;                         /* don't require :hover */
+  pointer-events: auto;
+}
+
+.hero-slider .hs-arrow.left  { left: 10px;  }
+.hero-slider .hs-arrow.right { right: 10px; }
+.hero-slider .hs-arrow { top: 50%; transform: translateY(-50%); position: absolute; }
+
+/* If your current CSS fades arrows in on :hover, keep that for desktops only */
+@media (hover: hover) and (pointer: fine){
+  .hero-slider .hs-arrow { opacity: 0; transition: opacity .2s; }
+  .hero-slider:hover .hs-arrow { opacity: 1; }
+}
+
+/* Slightly smaller arrows on narrow screens */
+@media (max-width: 480px){
+  .hero-slider .hs-arrow{
+    width: 36px; height: 36px; font-size: 24px;
+  }
+}
+
 /* slides as stacked backgrounds */
 .hs-slides{ position:absolute; inset:0; display:grid; }
 .hs-slide{
