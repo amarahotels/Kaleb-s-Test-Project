@@ -10,15 +10,12 @@ API_KEY = os.getenv("SERPAPI_KEY")
 if not API_KEY:
     raise RuntimeError("SERPAPI_KEY is not set")
 
-# Quota / selection controls (override in CI env if you want)
-MAX_CALLS_PER_RUN          = int(os.getenv("EVENTS_MAX_CALLS", "6"))         # total SerpAPI calls across all buckets
-EVENTS_PER_BUCKET_PER_RUN  = int(os.getenv("EVENTS_PER_BUCKET_PER_RUN", "3"))# how many queries to run per bucket per run
-TARGET_EVENTS              = int(os.getenv("EVENTS_TARGET_COUNT", "60"))     # cap output size
-PER_BUCKET_CAP             = int(os.getenv("EVENTS_PER_BUCKET_CAP", "25"))   # per-bucket keep cap after filtering
-PAST_GRACE_DAYS            = int(os.getenv("EVENTS_PAST_GRACE_DAYS", "1"))   # keep items up to N days in the past
+# Quota/refresh controls
+MAX_CALLS_PER_RUN      = int(os.getenv("EVENTS_MAX_CALLS", "6"))        # total SerpAPI requests per run
+TARGET_EVENTS          = int(os.getenv("EVENTS_TARGET_COUNT", "60"))    # stop when we have this many
+PER_BUCKET_CAP         = int(os.getenv("EVENTS_PER_BUCKET_CAP", "25"))  # max kept from any single bucket
 
-OUT_PATH   = Path("public/data/events.json")
-STATE_PATH = Path("public/data/_events_state.json")  # persists round-robin offsets
+OUT_PATH = Path("public/data/events.json")
 OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 SERP_LOCALE = {"engine": "google_events", "hl": "en", "gl": "sg", "location": "Singapore"}
@@ -26,32 +23,60 @@ SERP_LOCALE = {"engine": "google_events", "hl": "en", "gl": "sg", "location": "S
 now = datetime.now()
 month_year = now.strftime("%B %Y")
 
-# ---------------- Queries (yours, unchanged) ----------------
-QUERIES_BY_BUCKET = {
-    "family": [
-        f"kids events singapore {month_year}",
-        "kids activities singapore this weekend",
-        "family friendly events singapore",
-        "school holiday activities singapore",
-        "sentosa events",
-        "gardens by the bay events",
-        "singapore zoo events",
-    ],
-    "music": [
-        f"concerts in Singapore {month_year}",
-        "music festivals singapore",
-        "live music singapore weekend",
-        "classical concert singapore",
-        "indie concert singapore",
-        "dj events singapore",
-    ],
-    "general": [
-        "events in Singapore this week",
-        "things to do in Singapore this weekend",
-        f"exhibitions in Singapore {month_year}"
-    ],
-}
-BUCKET_ORDER = ["family", "music", "general"]
+# --- Tourist-leaning queries ---
+FAMILY_QUERIES = [
+    # venue / attraction anchored + event-y phrasing
+    "sentosa events",
+    "gardens by the bay events",
+    "mandai wildlife events",                 # Zoo / River Wonders / Bird Paradise
+    "singapore zoo events",
+    "bird paradise events",
+    "artscience museum exhibitions",
+    "science centre singapore events",
+    "children's museum singapore events",
+    "jewel changi events",
+    "marina bay events family",
+    f"kids events singapore {month_year}",
+    "family friendly events singapore",
+]
+MUSIC_QUERIES = [
+    f"concerts in Singapore {month_year}",
+    "music festivals singapore",
+    "live music singapore weekend",
+    "classical concert singapore",
+    "indie concert singapore",
+    "dj events singapore",
+]
+GENERAL_QUERIES = [
+    "events in Singapore this week",
+    "things to do in Singapore this weekend",
+    f"exhibitions in Singapore {month_year}",
+    "festivals in singapore",
+    "night festival singapore",
+]
+
+PAST_GRACE_DAYS = 1  # keep events that started up to 1 day ago (helps multi-day events)
+
+# --- Heuristics to prefer tourist-friendly family items ---
+TOURISTY_TITLE_WORDS = [
+    "festival","carnival","exhibition","exhibit","show","performance","parade",
+    "fireworks","light","illumination","spectacular","playtime","kidsfest","open house"
+]
+TOURISTY_VENUE_WORDS = [
+    "sentosa","gardens by the bay","mandai","singapore zoo","river wonders","bird paradise",
+    "jewel","changi","marina bay sands","marina bay","esplanade","artscience museum",
+    "science centre","children's museum","sports hub","national stadium","marina barrage",
+    "sea aquarium","s.e.a. aquarium","universal studios","uss","vivo city","vivocity",
+    "harbourfront","bayfront","orchard","singapore flyer"
+]
+DEMOTE_SMALL_TITLE_WORDS = [
+    "workshop","course","class","seminar","talk","lecture","meetup","parenting",
+    "book club","reading","tuition","coaching","support group"
+]
+DEMOTE_LOCAL_VENUE_WORDS = [
+    "community club","cc","library","hdb","void deck","rc centre","resident committee",
+    "secondary school","primary school","student care","kindergarten"
+]
 
 # ---------------- Helpers ----------------
 _calls_made = 0
@@ -122,9 +147,7 @@ def _first_string_url(value):
 def _extract_ticket_url(raw):
     ti = raw.get("ticket_info")
     url = _first_string_url(ti)
-    if url:
-        return url
-    return _first_string_url(raw.get("link"))
+    return url or _first_string_url(raw.get("link"))
 
 def _extract_image(raw):
     img = raw.get("image")
@@ -213,17 +236,17 @@ def normalize_event(raw, category_tag):
     image      = _extract_image(raw)
 
     return {
-        "title":   raw.get("title"),
-        "start":   start_str or "",
-        "end":     end_str or "",
-        "venue":   venue_name or address or "",
+        "title": raw.get("title"),
+        "start": start_str or "",
+        "end": end_str or "",
+        "venue": venue_name or address or "",
         "address": address,
-        "url":     ticket,
-        "image":   image,
+        "url": ticket,
+        "image": image,
         "category": category_tag,  # 'family' | 'music' | 'general'
-        "source":  "serpapi_google_events",
+        "source": "serpapi_google_events",
         "parsed_start": parse_date_safe(start_str),
-        "parsed_end":   parse_date_safe(end_str),
+        "parsed_end": parse_date_safe(end_str),
     }
 
 def deduplicate(events):
@@ -246,35 +269,40 @@ def filter_future(events):
 def sort_by_start(events):
     return sorted(events, key=lambda e: e.get("parsed_start") or datetime.max)
 
-# ---------------- Round-robin state ----------------
-def load_state():
-    try:
-        with STATE_PATH.open("r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return {"offsets": {}}
+# --- Tourist preference scoring (family bucket) ---
+def tourist_score(e) -> int:
+    title = (e.get("title") or "").lower()
+    where = f"{(e.get('venue') or '').lower()} | {(e.get('address') or '').lower()}"
+    score = 0
 
-def save_state(state):
-    STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with STATE_PATH.open("w", encoding="utf-8") as f:
-        json.dump(state, f, ensure_ascii=False, indent=2)
+    if any(w in title for w in TOURISTY_TITLE_WORDS):
+        score += 4
+    if any(w in where for w in TOURISTY_VENUE_WORDS):
+        score += 3
+    if e.get("image"):
+        score += 1
 
-def slice_queries_rr(queries, start, k):
-    """Return up to k queries starting at index 'start' with wrap-around, plus new start."""
-    if not queries or k <= 0:
-        return [], start
-    n = len(queries)
-    out = []
-    i = start % n
-    for _ in range(min(k, n)):
-        out.append(queries[i])
-        i = (i + 1) % n
-    return out, i
+    if any(w in title for w in DEMOTE_SMALL_TITLE_WORDS):
+        score -= 3
+    if any(w in where for w in DEMOTE_LOCAL_VENUE_WORDS):
+        score -= 3
+
+    return score
+
+def prefer_touristy_family(bucket):
+    if not bucket:
+        return bucket
+    # keep only items with an image for nicer cards
+    with_img = [e for e in bucket if e.get("image")]
+    pool = with_img if len(with_img) >= 6 else bucket  # fallback if too few images
+
+    pool.sort(key=lambda e: (-tourist_score(e), e.get("parsed_start") or datetime.max))
+    return pool[:PER_BUCKET_CAP]
 
 # ---------------- Main ----------------
-def run_bucket(selected_queries, tag):
+def run_bucket(queries, tag):
     bucket = []
-    for q in selected_queries:
+    for q in queries:
         if len(bucket) >= PER_BUCKET_CAP or len(all_events) >= TARGET_EVENTS or _calls_made >= MAX_CALLS_PER_RUN:
             break
         print(f"🔍 [{tag}] {q}")
@@ -284,33 +312,24 @@ def run_bucket(selected_queries, tag):
         bucket.extend(normalize_event(r, tag) for r in results)
         bucket = deduplicate(bucket)
         bucket = sort_by_start(filter_future(bucket))[:PER_BUCKET_CAP]
+
+    # Tourist preference just for the family bucket
+    if tag == "family":
+        bucket = prefer_touristy_family(bucket)
+
     print(f"→ Bucket '{tag}': kept {len(bucket)}")
     return bucket
 
-state = load_state()
-offsets = state.get("offsets", {})
-queries_run_summary = {}
-
 all_events = []
-
-for bucket in BUCKET_ORDER:
-    full_list = QUERIES_BY_BUCKET.get(bucket, []) or []
-    start_idx = int(offsets.get(bucket, 0))
-    # pick the next N queries in order
-    to_run, new_start = slice_queries_rr(full_list, start_idx, EVENTS_PER_BUCKET_PER_RUN)
-
-    # run them (honors global call budget inside)
-    items = run_bucket(to_run, bucket)
-    all_events.extend(items)
-
-    # record for logs & advance offset only by how many we *attempted*
-    offsets[bucket] = new_start if full_list else 0
-    queries_run_summary[bucket] = to_run
-
+for queries, tag in (
+    (FAMILY_QUERIES, "family"),
+    (MUSIC_QUERIES, "music"),
+    (GENERAL_QUERIES, "general"),
+):
+    all_events.extend(run_bucket(queries, tag))
     if len(all_events) >= TARGET_EVENTS or _calls_made >= MAX_CALLS_PER_RUN:
         break
 
-# finalize
 all_events = deduplicate(all_events)
 all_events = sort_by_start(filter_future(all_events))[:TARGET_EVENTS]
 
@@ -327,10 +346,4 @@ payload = {
 with OUT_PATH.open("w", encoding="utf-8") as f:
     json.dump(payload, f, ensure_ascii=False, indent=2)
 
-# persist new offsets for next run
-save_state({"offsets": offsets})
-
-print("-" * 56)
-print(f"Used {_calls_made} call(s).")
-print("Queries run:", json.dumps(queries_run_summary, indent=2))
-print(f"✅ Saved {len(all_events)} merged events to {OUT_PATH}")
+print(f"✅ Saved {len(all_events)} events to {OUT_PATH} using {_calls_made} call(s).")
