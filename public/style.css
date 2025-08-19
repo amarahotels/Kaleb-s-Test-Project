@@ -83,6 +83,9 @@ body::after{
   overflow: hidden;
   border-bottom: 1px solid var(--border);
   background: #0f0f0f;
+
+  touch-action: pan-y;          /* important on mobile Safari/Chrome */
+  -ms-touch-action: pan-y;      /* old Edge */
 }
 @supports (height: 100svh){
   .hero-slider{ height: 80svh; }

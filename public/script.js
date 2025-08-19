@@ -26,6 +26,7 @@ const heroSubEl = document.querySelector('.hero-overlay .subtitle');
 const scrollCue = document.querySelector('.scroll-cue');
 
 // Events / attractions refs
+const heroAttractionLink = document.getElementById('heroAttractionLink');
 const eventCatSel = document.getElementById('eventCat');
 
 let allPlaces = [];
@@ -33,6 +34,8 @@ let featuredAttractions = [];
 let selectedType = 'all';
 let allEventsData = [];
 let selectedEventCat = 'all';
+let heroMode = 'places';
+
 
 // ---- Hawker detection config ----
 const hawkerNameSet = new Set([
@@ -165,6 +168,45 @@ function pickTopPicks(places, limit = 12){
   return picks.slice(0, limit);
 }
 
+function enableHeroSwipe() {
+  if (!heroEl) return;
+  let x0 = 0, y0 = 0;
+  const THRESH = 40;
+
+  heroEl.addEventListener('touchstart', e => {
+    const t = e.touches[0]; x0 = t.clientX; y0 = t.clientY;
+  }, { passive: true });
+
+  heroEl.addEventListener('touchend', e => {
+    const t = e.changedTouches[0];
+    const dx = t.clientX - x0, dy = t.clientY - y0;
+    if (Math.abs(dx) > THRESH && Math.abs(dx) > Math.abs(dy)) {
+      dx < 0 ? showHero(heroIndex + 1, true) : showHero(heroIndex - 1, true);
+    }
+  }, { passive: true });
+}
+
+function updateHeroAttractionLink(){
+  if (!heroAttractionLink) return;
+
+  if (heroMode !== 'events') {
+    heroAttractionLink.classList.add('hidden');
+    return;
+  }
+
+  const slide = heroSlides[heroIndex];
+  const href = slide?.dataset?.href;
+  if (href) {
+    heroAttractionLink.href = href;
+    heroAttractionLink.textContent = '📍 Click for location';
+    heroAttractionLink.classList.remove('hidden');
+  } else {
+    heroAttractionLink.classList.add('hidden');
+  }
+}
+
+
+
 /* ---------- HERO SLIDER ---------- */
 let heroIndex = 0, heroTimer = null, heroSlides = [];
 let heroControlsBound = false;
@@ -181,12 +223,15 @@ function bindHeroControlsOnce(){
 
   // Clicking the HERO opens the current attraction on Events tab
   heroEl?.addEventListener('click', (e)=>{
-    // ignore clicks on nav/buttons/dots/arrows
     if (e.target.closest('.nav-btn, .hs-arrow, .hs-dot')) return;
+    if (heroMode !== 'events') return;                   // ← only in Events
     const slide = heroSlides[heroIndex];
     const href = slide?.dataset?.href;
     if (href) window.open(href, '_blank', 'noopener');
   });
+
+
+  enableHeroSwipe();
 
   heroControlsBound = true;
 }
@@ -218,12 +263,15 @@ function buildHeroFromPlaces(all){
   if (heroTitleEl) heroTitleEl.innerHTML = `Explore Around <span class="brand">Amara</span>`;
   if (heroSubEl) heroSubEl.textContent = 'Handpicked nearby places for staff & guests near Tanjong Pagar.';
   if (scrollCue) scrollCue.setAttribute('href', '#places');
+
+  heroMode = 'places';
+  heroAttractionLink?.classList.add('hidden');
+
 }
 
 function buildEventsHero(attractions){
   if (!heroSlidesEl) return;
 
-  // use DIVs (not <a>) so CSS sizing stays correct
   const picks = [...attractions]
     .filter(a => (a.image_url || a.photo_url || a.image))
     .slice(0, 12);
@@ -243,13 +291,16 @@ function buildEventsHero(attractions){
   heroSlides = [...heroSlidesEl.querySelectorAll('.hs-slide')];
   rebuildDots(heroSlides.length);
   bindHeroControlsOnce();
-  showHero(0);
 
-  // Events-mode copy + scroll cue
+  heroMode = 'events';
+  showHero(0);
+  updateHeroAttractionLink();
+
   if (heroTitleEl) heroTitleEl.textContent = `What’s On in Singapore`;
   if (heroSubEl) heroSubEl.textContent = 'Signature year-round attractions & family-friendly hits.';
   if (scrollCue) scrollCue.setAttribute('href', '#events');
 }
+
 
 function showHero(nextIndex, userTriggered=false){
   if (!heroSlides.length) return;
@@ -263,6 +314,8 @@ function showHero(nextIndex, userTriggered=false){
     });
   }
   if (userTriggered){ restartHeroAuto(); }
+
+  updateHeroAttractionLink();
 }
 function startHeroAuto(){ stopHeroAuto(); heroTimer = setInterval(()=> showHero(heroIndex+1, false), 6000); }
 function stopHeroAuto(){ if (heroTimer) clearInterval(heroTimer); heroTimer = null; }
