@@ -31,7 +31,7 @@ const eventCatSel = document.getElementById('eventCat');
 
 let allPlaces = [];
 let featuredAttractions = [];
-let selectedType = 'all';
+let selectedType = (typeSel?.value || 'all');
 let allEventsData = [];
 let selectedEventCat = 'all';
 let heroMode = 'places';
@@ -528,6 +528,16 @@ document.querySelectorAll('.nav-btn').forEach(btn=>{
 
   document.querySelectorAll('.filters-panel').forEach(wirePanel);
 })();
+
+// ---- Places filters -> update and re-render
+function handlePlacesFilters() {
+  selectedType = (typeSel?.value || 'all').toLowerCase();
+  render();
+}
+
+typeSel?.addEventListener('change', handlePlacesFilters);
+minRatingSel?.addEventListener('change', handlePlacesFilters);
+sortSel?.addEventListener('change', handlePlacesFilters);
 
 
 
