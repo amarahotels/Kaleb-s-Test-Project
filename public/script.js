@@ -500,6 +500,62 @@ document.querySelectorAll('.nav-btn').forEach(btn=>{
   });
 });
 
+/* ===== Smart sticky header ===== */
+(function initSmartHeader(){
+  const header = document.getElementById('siteHeader');
+  if (!header) return;
+
+  // Hide on scroll down, show on scroll up
+  let lastY = window.scrollY;
+  const HIDE_DELTA = 6;   // px
+  const SHOW_DELTA = 8;   // px
+
+  function onScroll(){
+    const y = window.scrollY;
+    const dy = y - lastY;
+
+    // Always show at the very top
+    if (y < 10) {
+      header.classList.remove('header--hidden');
+    } else if (dy > HIDE_DELTA) {
+      header.classList.add('header--hidden');    // scrolling down
+    } else if (dy < -SHOW_DELTA) {
+      header.classList.remove('header--hidden'); // scrolling up
+    }
+    lastY = y;
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  // Transparent over hero, solid after hero
+  const hero = document.getElementById('hero');
+  if ('IntersectionObserver' in window && hero) {
+    const io = new IntersectionObserver((entries)=>{
+      const en = entries[0];
+      const overHero = en.isIntersecting && en.intersectionRatio > 0.3;
+      header.classList.toggle('header--solid', !overHero);
+    }, { threshold: [0, 0.3, 1] });
+    io.observe(hero);
+  } else {
+    // Fallback if IO not supported
+    const solidAfter = 120;
+    const setSolid = () => header.classList.toggle('header--solid', window.scrollY > solidAfter);
+    setSolid();
+    window.addEventListener('scroll', setSolid, { passive: true });
+  }
+
+  // Hook header links to your existing tab buttons
+  document.querySelectorAll('.site-nav [data-tab]').forEach(a=>{
+    a.addEventListener('click', (e)=>{
+      e.preventDefault();
+      const tab = a.dataset.tab;
+      document.querySelector(`.nav-btn[data-tab="${tab}"]`)?.click();
+      // Ensure header shows after clicking a nav link
+      header.classList.remove('header--hidden');
+    });
+  });
+})();
+
+
 // ===== Filters accordions (supports multiple panels) =====
 (function initFiltersAccordions() {
   const mql = window.matchMedia('(min-width: 640px)');

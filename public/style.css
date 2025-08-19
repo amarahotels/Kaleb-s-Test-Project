@@ -66,6 +66,35 @@ body::after{
 </svg>") center/contain no-repeat;
 }
 
+/* ===== Smart sticky header (no :root, no custom props) ===== */
+#siteHeader{
+  position: fixed; top:0; left:0; right:0; height:56px;
+  display:flex; align-items:center; z-index:1000;
+  transform: translateY(0);
+  transition: transform .25s ease, background-color .2s ease, box-shadow .2s ease, color .2s ease;
+  background: transparent; color:#ffffff; /* over hero */
+}
+
+#siteHeader .header-inner{ display:flex; align-items:center; justify-content:space-between; width:100%; }
+#siteHeader .logo{ font-weight:800; letter-spacing:.2px; }
+#siteHeader .site-nav{ display:flex; gap:16px; }
+#siteHeader .nav-link{ text-decoration:none; font-weight:600; opacity:.95; }
+#siteHeader .nav-link:hover{ opacity:1; }
+
+#siteHeader.header--hidden{ transform: translateY(-100%); }
+
+/* solid/glassy after hero */
+#siteHeader.header--solid{
+  background: rgba(255,255,255,.85);
+  backdrop-filter: saturate(120%) blur(10px);
+  box-shadow: 0 2px 14px rgba(0,0,0,.08);
+  color:#111827;
+}
+
+/* optional: if a page doesn’t start with a hero and you want spacing */
+.has-fixed-header{ padding-top:56px; }
+
+
 /* =================== Hero slider (80% tall & 95% wide) =================== */
 .hero-slider{
   position: relative;
