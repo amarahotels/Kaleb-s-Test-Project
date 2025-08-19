@@ -25,6 +25,12 @@ const heroEl = document.getElementById('hero');
 // Events filter ref
 const eventCatSel = document.getElementById('eventCat');
 
+// NEW: Year-round attractions carousel refs (Events tab)
+const attrTrack   = document.getElementById('attrTrack');
+const attrPrev    = document.getElementById('attrPrev');
+const attrNext    = document.getElementById('attrNext');
+const attrSection = document.getElementById('attractionsSection');
+
 let allPlaces = [];
 let selectedType = 'all';
 let allEventsData = [];
@@ -334,7 +340,7 @@ document.querySelectorAll('.nav-btn').forEach(btn=>{
   });
 });
 
-// events list
+// -------------------- Events list --------------------
 async function loadEvents(){
   try{
     const res = await fetch(`data/events.json?ts=${Date.now()}`);
@@ -417,5 +423,53 @@ eventCatSel?.addEventListener('change', ()=>{
   renderEvents(allEventsData);
 });
 
+/* ---------- Year-round Attractions (Events tab, from JSON) ---------- */
+async function loadAttractions(){
+  if (!attrTrack || !attrSection) return;
+  try{
+    const res = await fetch(`data/featured_attractions.json?ts=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const raw = await res.json();
+    // Accept either {attractions:[...]} or bare array
+    let items = Array.isArray(raw?.attractions) ? raw.attractions : (Array.isArray(raw) ? raw : []);
+    // keep only those with an image
+    items = items.filter(a => (a.image || a.photo_url)?.trim());
+    renderAttractions(items);
+  }catch(e){
+    // Hide the section quietly if file missing or bad
+    attrSection.classList.add('hidden');
+    console.warn('Attractions not loaded:', e.message || e);
+  }
+}
+
+function renderAttractions(items){
+  if (!items?.length){
+    attrSection.classList.add('hidden');
+    return;
+  }
+  attrSection.classList.remove('hidden');
+  attrTrack.innerHTML = items.map(attrSlideHtml).join('');
+  const step = () => attrTrack.clientWidth * 0.9;
+  attrPrev?.addEventListener('click', () => attrTrack.scrollBy({ left: -step(), behavior:'smooth'}));
+  attrNext?.addEventListener('click', () => attrTrack.scrollBy({ left:  step(), behavior:'smooth'}));
+}
+
+function attrSlideHtml(a){
+  const name = esc(a.name || a.title || '');
+  const img  = a.image || a.photo_url || '';
+  const link = a.url || a.website || a.maps_url || '#';
+  const meta = esc(toText(a.address) || '');
+  return `
+    <a class="slide" href="${link}" target="_blank" rel="noopener">
+      <img class="thumb" src="${img}" alt="${name}" loading="lazy">
+      <div class="meta">
+        <div class="name">${name}</div>
+        ${meta ? `<span class="pill">${meta}</span>` : ''}
+      </div>
+    </a>
+  `;
+}
+
 loadEvents();
+loadAttractions();   // NEW: fetch & render year-round attractions
 loadPlaces();

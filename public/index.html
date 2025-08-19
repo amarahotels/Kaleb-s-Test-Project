@@ -104,12 +104,25 @@
         </div>
       </div>
 
+      <!-- NEW: Year-round attractions (Google Places) -->
+      <section id="attractionsSection" class="section hidden">
+        <div class="section-head">
+          <h3>Year-round Attractions</h3>
+          <div class="hint">Family-friendly crowd-pleasers</div>
+        </div>
+        <div class="carousel">
+          <button id="attrPrev" class="carousel-btn left" aria-label="Previous">‹</button>
+          <div id="attrTrack" class="carousel-track" tabindex="0" aria-label="Attractions carousel"></div>
+          <button id="attrNext" class="carousel-btn right" aria-label="Next">›</button>
+        </div>
+      </section>
+      <!-- /NEW -->
+
       <div id="eventsError" class="notice hidden">Couldn't load events right now.</div>
       <div id="eventList" class="grid"></div>
     </section>
 
   </main>
-
 
   <footer class="footer">
     <div class="wrap">
@@ -119,5 +132,4 @@
 
   <script src="script.js"></script>
 </body>
-
 </html>

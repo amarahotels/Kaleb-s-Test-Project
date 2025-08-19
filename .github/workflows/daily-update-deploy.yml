@@ -56,6 +56,30 @@ jobs:
           fi
 
       # --------------------------
+      # Step 1.5: Year-round Attractions from Google Places  ⬅️ NEW
+      # --------------------------
+      - name: Generate featured_attractions.json (+ images)
+        run: python get_featured_attractions.py
+        env:
+          # Reuse the same secret; the script expects GOOGLE_MAPS_API_KEY
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+
+      - name: Commit & Push featured attractions (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Commit JSON and any new/updated images
+          if ! git diff --quiet -- public/data/featured_attractions.json public/images/attractions; then
+            git add public/data/featured_attractions.json || true
+            git add -A public/images/attractions || true
+            git commit -m "Auto-update featured attractions ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "✅ No changes to featured attractions"
+          fi
+
+      # --------------------------
       # Step 2: Update Events
       # --------------------------
       - name: Install dependencies (Events)
