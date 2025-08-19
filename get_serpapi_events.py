@@ -14,7 +14,7 @@ if not API_KEY:
 MAX_CALLS_PER_RUN       = int(os.getenv("EVENTS_MAX_CALLS", "6"))         # total SerpAPI requests per run
 TARGET_EVENTS           = int(os.getenv("EVENTS_TARGET_COUNT", "60"))     # keep at most this many after merge
 PER_BUCKET_CAP          = int(os.getenv("EVENTS_PER_BUCKET_CAP", "25"))   # cap per category before merge
-PER_BUCKET_PER_RUN      = int(os.getenv("EVENTS_PER_BUCKET_PER_RUN", "2"))# rotate this many queries per bucket per run
+PER_BUCKET_PER_RUN      = int(os.getenv("EVENTS_PER_BUCKET_PER_RUN", "3"))# rotate this many queries per bucket per run
 PAST_GRACE_DAYS         = int(os.getenv("EVENTS_PAST_GRACE_DAYS", "1"))   # keep events that started up to N days ago
 KEEP_DAYS               = int(os.getenv("EVENTS_KEEP_DAYS", "45"))        # keep only events within next N days
 
@@ -30,16 +30,15 @@ month_year = now.strftime("%B %Y")
 # ---------- Ordered query lists (rotate in order, then wrap) ----------
 QUERIES_BY_BUCKET = {
     "family": [
-        # "carnival singapore",
-        # "kids activities singapore",
-        # "indoor playground singapore",
-        # "family attractions singapore",
-        # "sentosa family activities",
+        "carnivals singapore",
+#        "indoor playground singapore",
+        "family attractions singapore",
+        "sentosa family activities",
         "gardens by the bay children activities",
-        # "zoo events singapore",
-        "science centre singapore events"
-        # f"family events singapore {month_year}",
-        # "family friendly shows singapore",
+        "zoo events singapore",
+#        "science centre singapore events",
+        f"family events singapore {month_year}",
+#        "family friendly shows singapore",
     ],
     "music": [
         f"concerts in Singapore {month_year}",
@@ -53,11 +52,8 @@ QUERIES_BY_BUCKET = {
         "events in Singapore this week",
         "things to do in Singapore this weekend",
         f"exhibitions in Singapore {month_year}",
-        "free events singapore",
-        "art festivals singapore",
-        "night festival singapore",
-        "food festival singapore",
-        "sports events singapore",
+        # "art festivals singapore",
+        # "night festival singapore",
     ],
 }
 
