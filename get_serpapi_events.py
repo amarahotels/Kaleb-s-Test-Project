@@ -25,7 +25,7 @@ SERP_LOCALE = {"engine": "google_events", "hl": "en", "gl": "sg", "location": "S
 now = datetime.now()
 month_year = now.strftime("%B %Y")
 
-# --- Tourist-friendly queries (we’ll run exactly two per bucket each run) ---
+# --- Tourist-friendly queries ---
 QUERIES_BY_BUCKET = {
     "family": [
         "sentosa events",
@@ -56,28 +56,22 @@ QUERIES_BY_BUCKET = {
 PAST_GRACE_DAYS = 1  # keep events that started up to 1 day ago (helps multi-day)
 
 # ---------------- Filtering (tourist-friendly) ----------------
-# fitness/race-y
 FITNESS_RE = re.compile(
     r"\b(run|running|marathon|ultra|triathlon|race|jog(?:ging)?|"
     r"cycling|bike(?:\s*ride)?|spartan|ironman|5k|10k|15k|21k|42k|km)\b",
     re.I,
 )
-# business/networking
-BIZ_RE = re.compile(r"\b(conference|summit|expo|webinar|seminar|forum|networking|meet-?up|after work)\b", re.I)
-# alcohol/adult
+BIZ_RE   = re.compile(r"\b(conference|summit|expo|webinar|seminar|forum|networking|meet-?up|after work)\b", re.I)
+CISO_RE  = re.compile(r"\bciso\b", re.I)
 ALCOHOL_RE = re.compile(r"\b(wine|beer|whisk(?:y|ey)|cocktail|gin|rum|vodka|sake|soju|cigar|tasting)\b", re.I)
-ADULT_RE = re.compile(r"\b(18\+|21\+|adults\s*only)\b", re.I)
+ADULT_RE   = re.compile(r"\b(18\+|21\+|adults\s*only)\b", re.I)
 
 def matches_any(text: str, *patterns) -> bool:
     if not text:
         return False
-    for pat in patterns:
-        if pat.search(text):
-            return True
-    return False
+    return any(p.search(text) for p in patterns)
 
 def looks_like_interval_walk(text: str) -> bool:
-    """Block fitness 'walk training' but keep tourist 'walking tour'."""
     t = (text or "").lower()
     if "walk" not in t:
         return False
@@ -87,7 +81,6 @@ def looks_like_interval_walk(text: str) -> bool:
 _calls_made = 0
 
 def fetch_events(query: str):
-    """SerpAPI call with global budget."""
     global _calls_made
     if _calls_made >= MAX_CALLS_PER_RUN:
         print(f"⛔️ Budget reached ({MAX_CALLS_PER_RUN} calls). Skipping: {query}")
@@ -114,7 +107,6 @@ def parse_date_safe(s):
         return None
 
 def _coerce_address(addr):
-    """Accepts str | list | dict and returns a string address."""
     if not addr:
         return ""
     if isinstance(addr, str):
@@ -249,24 +241,22 @@ def normalize_event(raw, category_tag):
     }
 
 def should_drop(e, tag: str) -> bool:
-    """Category-aware filtering to keep things tourist-friendly."""
     text = " ".join([
         str(e.get("title") or ""),
         str(e.get("venue") or ""),
         str(e.get("address") or "")
     ])
 
-    # General blocks for all categories
+    # Global blocks
     if matches_any(text, FITNESS_RE) or looks_like_interval_walk(text):
         return True
-    if matches_any(text, BIZ_RE):
+    if matches_any(text, BIZ_RE) or CISO_RE.search(text):
         return True
 
-    # Require image if configured
     if REQUIRE_IMAGE and not (e.get("image") or "").strip():
         return True
 
-    # Family-specific blocks (no alcohol / adults-only)
+    # Family-specific
     if tag == "family" and (matches_any(text, ALCOHOL_RE, ADULT_RE)):
         return True
 
@@ -292,18 +282,17 @@ def filter_future(events):
 def sort_by_start(events):
     return sorted(events, key=lambda e: e.get("parsed_start") or datetime.max)
 
-# -------- Query planning: exactly 2 per category, round-robin within this run --------
-def build_query_plan(per_cat: int = 2, max_calls: int = MAX_CALLS_PER_RUN):
-    plan = []
-    buckets = [("family", QUERIES_BY_BUCKET["family"]),
-               ("music", QUERIES_BY_BUCKET["music"]),
-               ("general", QUERIES_BY_BUCKET["general"])]
-    for i in range(per_cat):
-        for tag, qlist in buckets:
-            if len(plan) >= max_calls:
-                return plan
-            if i < len(qlist):
-                plan.append((tag, qlist[i]))
+# -------- Query planning: ALL family, first 2 music, first 2 general --------
+def build_query_plan_family_all(per_music: int = 2, per_general: int = 2,
+                                max_calls: int = MAX_CALLS_PER_RUN,
+                                family_first: bool = True):
+    fam = [("family", q) for q in QUERIES_BY_BUCKET["family"]]
+    mus = [("music", q) for q in QUERIES_BY_BUCKET["music"][:per_music]]
+    gen = [("general", q) for q in QUERIES_BY_BUCKET["general"][:per_general]]
+
+    plan = (fam + mus + gen) if family_first else (mus + gen + fam)
+    if len(plan) > max_calls:
+        print(f"⚠️ Planned {len(plan)} queries, but max is {max_calls}. Truncating.")
     return plan[:max_calls]
 
 # ---------------- Main ----------------
@@ -318,7 +307,7 @@ def run_query(tag: str, q: str):
 
 def main():
     all_events = []
-    plan = build_query_plan(per_cat=2, max_calls=MAX_CALLS_PER_RUN)
+    plan = build_query_plan_family_all(per_music=2, per_general=2, max_calls=MAX_CALLS_PER_RUN, family_first=True)
     used = {}
     print("Queries plan:")
     for tag, q in plan:
