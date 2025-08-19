@@ -96,37 +96,38 @@ body::after{
   }
 }
 
-/* Always show hero arrows (especially on touch devices) */
+/* ---------- Hero arrows (shared) ---------- */
 .hero-slider .hs-arrow{
-  display: flex;                      /* ensure they render */
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   width: 44px; height: 44px;
+  display: flex; align-items: center; justify-content: center;
   border-radius: 9999px;
   background: rgba(0,0,0,.35);
-  color: #fff;
-  font-size: 28px;
-  line-height: 1;
-  opacity: 1;                         /* don't require :hover */
+  color: #fff; font-size: 28px; line-height: 1;
+  z-index: 3;                  /* sit above the overlay text */
   pointer-events: auto;
 }
-
-.hero-slider .hs-arrow.left  { left: 10px;  }
+.hero-slider .hs-arrow.left  { left: 10px; }
 .hero-slider .hs-arrow.right { right: 10px; }
-.hero-slider .hs-arrow { top: 50%; transform: translateY(-50%); position: absolute; }
 
-/* If your current CSS fades arrows in on :hover, keep that for desktops only */
+/* Desktop / laptop: hide until hover */
 @media (hover: hover) and (pointer: fine){
   .hero-slider .hs-arrow { opacity: 0; transition: opacity .2s; }
   .hero-slider:hover .hs-arrow { opacity: 1; }
 }
 
-/* Slightly smaller arrows on narrow screens */
-@media (max-width: 480px){
-  .hero-slider .hs-arrow{
-    width: 36px; height: 36px; font-size: 24px;
-  }
+/* Phones / touch devices: always visible */
+@media (hover: none), (pointer: coarse){
+  .hero-slider .hs-arrow { opacity: 1 !important; display: flex; }
 }
+
+/* Slightly smaller on very narrow phones */
+@media (max-width: 480px){
+  .hero-slider .hs-arrow{ width: 36px; height: 36px; font-size: 24px; }
+}
+
 
 /* slides as stacked backgrounds */
 .hs-slides{ position:absolute; inset:0; display:grid; }
@@ -165,6 +166,21 @@ body::after{
 .hero-overlay .nav{ max-width:720px; }
 .hero-overlay .nav .nav-btn{ background:transparent }
 .hero-overlay .nav .nav-btn.active{ background:var(--brand); color:#fff; }
+
+.hero-place-pill{
+  display:inline-block;
+  margin-top:12px;
+  padding:6px 10px;
+  border-radius:999px;
+  background:rgba(0,0,0,.45);
+  color:#fff;
+  font-weight:600;
+  font-size:.95rem;
+  text-decoration:none;
+  backdrop-filter:saturate(120%) blur(2px);
+}
+.hero-place-pill.hidden{ display:none; }
+
 
 /* arrows & dots */
 .hs-arrow{
@@ -392,17 +408,3 @@ select:focus{ outline:2px solid rgba(183,138,86,.35) }
   .carousel-track{ scroll-behavior:auto; }
   .card:hover .thumb{ transform:none; }
 }
-
-.hero-place-pill{
-  display:inline-block;
-  margin-top:12px;
-  padding:6px 10px;
-  border-radius:999px;
-  background:rgba(0,0,0,.45);
-  color:#fff;
-  font-weight:600;
-  font-size:.95rem;
-  text-decoration:none;
-  backdrop-filter:saturate(120%) blur(2px);
-}
-.hero-place-pill.hidden{ display:none; }
