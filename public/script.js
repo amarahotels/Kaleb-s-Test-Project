@@ -500,6 +500,31 @@ document.querySelectorAll('.nav-btn').forEach(btn=>{
   });
 });
 
+// ===== Filters accordion (phones) =====
+(function initFiltersAccordion() {
+  const toggle = document.querySelector('.filters-toggle');
+  const body   = document.getElementById('filtersBody');
+
+  if (!toggle || !body) return;
+
+  // Helper to set state
+  function setOpen(isOpen) {
+    body.style.display = isOpen ? 'block' : 'none';
+    toggle.setAttribute('aria-expanded', String(isOpen));
+    toggle.textContent = isOpen ? 'Hide' : 'Show';
+  }
+
+  // Initial state: collapsed on small screens, open otherwise (CSS also handles this)
+  const mq = window.matchMedia('(min-width: 640px)');
+  setOpen(mq.matches);            // open if ≥640px
+
+  toggle.addEventListener('click', () => setOpen(body.style.display !== 'block'));
+
+  // Keep it in sync if the user rotates/resizes
+  mq.addEventListener?.('change', e => setOpen(e.matches));
+})();
+
+
 // kick off
 loadAttractions();   // prefetch for snappy swap
 loadEvents();

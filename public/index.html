@@ -55,37 +55,52 @@
     <section id="places" class="section">
       <div class="section-head">
         <h2>Top nearby places</h2>
-        <div class="controls">
-          <label>
-            Category:
-            <select id="typeFilter">
-              <option value="all">All</option>
-              <option value="restaurants">Restaurants</option>
-              <option value="bars">Bars</option>
-              <option value="cafes">Cafés</option>
-              <option value="bookstores">Bookstores</option>
-              <option value="hawker">Hawker Centres</option>
-            </select>
-          </label>
-          <label>
-            Minimum rating:
-            <select id="minRating">
-              <option value="0">All</option>
-              <option value="3.5">3.5+</option>
-              <option value="4.0" selected>4.0+</option>
-              <option value="4.5">4.5+</option>
-            </select>
-          </label>
-          <label>
-            Sort:
-            <select id="sortSelect">
-              <option value="distanceAsc">Distance (near → far)</option>
-              <option value="ratingDesc">Rating (high → low)</option>
-              <option value="nameAsc">Name (A → Z)</option>
-            </select>
-          </label>
-        </div>
       </div>
+
+      <!-- Responsive filters panel -->
+      <section class="filters-panel">
+        <div class="filters-header">
+          <div class="filters-title">Filters</div>
+          <button class="filters-toggle" type="button" aria-expanded="false" aria-controls="filtersBody">
+            Show
+          </button>
+        </div>
+
+        <div class="filters-body" id="filtersBody">
+          <div class="filters-grid">
+            <div class="field">
+              <label for="typeFilter">Category</label>
+              <select id="typeFilter">
+                <option value="all">All</option>
+                <option value="restaurants">Restaurants</option>
+                <option value="bars">Bars</option>
+                <option value="cafes">Cafés</option>
+                <option value="bookstores">Bookstores</option>
+                <option value="hawker">Hawker Centres</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="minRating">Minimum rating</label>
+              <select id="minRating">
+                <option value="0">All</option>
+                <option value="3.5">3.5+</option>
+                <option value="4.0" selected>4.0+</option>
+                <option value="4.5">4.5+</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="sortSelect">Sort</label>
+              <select id="sortSelect">
+                <option value="distanceAsc">Distance (near → far)</option>
+                <option value="ratingDesc">Rating (high → low)</option>
+                <option value="nameAsc">Name (A → Z)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
       <div id="placeList" class="grid"></div>
       <div id="placesError" class="notice hidden">Couldn’t load nearby places right now.</div>
     </section>

@@ -411,3 +411,92 @@ select:focus{ outline:2px solid rgba(183,138,86,.35) }
   .carousel-track{ scroll-behavior:auto; }
   .card:hover .thumb{ transform:none; }
 }
+
+/* ===== Responsive Filters Panel (mobile-first) ===== */
+:root{
+  --card-bg:#ffffff;
+  --text-weak:#6b7280;
+  --ring:#e5e7eb;
+  --radius:16px;
+  --shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.filters-panel{
+  background:var(--card-bg);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:14px;
+  margin:12px 0 18px;
+}
+
+.filters-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.filters-title{
+  font-weight:700;
+  font-size:16px;
+}
+
+.filters-toggle{
+  appearance:none;
+  border:1px solid var(--ring);
+  border-radius:999px;
+  padding:8px 12px;
+  background:#fafafa;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.filters-body{            /* collapsed by default on phones */
+  display:none;
+  margin-top:10px;
+}
+
+.filters-grid{
+  display:grid;
+  grid-template-columns:1fr;   /* stacked on phones */
+  gap:12px;
+}
+
+.filters-grid .field label{
+  display:block;
+  font-size:12px;
+  color:var(--text-weak);
+  margin-bottom:6px;
+}
+
+.filters-grid select,
+.filters-grid input[type="text"],
+.filters-grid input[type="number"]{
+  width:100%;
+  height:42px;
+  border:1px solid var(--ring);
+  border-radius:12px;
+  background:#f9fafb;
+  padding:0 12px;
+}
+
+/* Tablets & up: always open and lay out in 2 columns */
+@media (min-width:640px){
+  .filters-body{ display:block; }
+  .filters-toggle{ display:none; }
+  .filters-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+
+/* Laptops/desktop: 4 columns */
+@media (min-width:1024px){
+  .filters-grid{ grid-template-columns:repeat(4,minmax(0,1fr)); }
+}
+
+/* Optional: make the panel stick near the top on mobile while scrolling */
+@media (max-width:639px){
+  .filters-panel{ position:sticky; top:8px; z-index:20; }
+}
+
+/* If you have old .controls styles that affected layout,
+   scope them to the Events section only to avoid conflicts: */
+#events .controls { /* your existing controls styles (if any) */ }
