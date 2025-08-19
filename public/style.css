@@ -28,6 +28,7 @@ html,body{
   margin:0; padding:0; background:var(--bg); color:var(--text);
   font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
 }
+html{ overflow-x:hidden }  /* avoid horizontal scroll when hero is 100vw */
 
 /* widen content slightly to reduce side emptiness */
 .wrap{ width:min(var(--wrap-max),95%); margin-inline:auto }
@@ -219,7 +220,7 @@ body::after{
 }
 .hero-place-pill.hidden{ display:none; }
 
-/* Dots & cue (no global .hs-arrow duplication) */
+/* Dots & cue */
 .hs-dots{
   position:absolute; z-index:3; left:50%; transform:translateX(-50%);
   bottom:16px; display:flex; gap:8px;
@@ -489,3 +490,29 @@ select:focus{ outline:2px solid rgba(183,138,86,.35) }
 @media (max-width:639px){
   .filters-panel{ position:sticky; top:8px; z-index:20; }
 }
+
+/* ===== Desktop override: make hero use the whole page ===== */
+@media (min-width: 1024px){
+  .hero-slider{
+    height: 100svh;     /* full screen height with mobile-safe unit */
+    min-height: 680px;  /* optional floor */
+    max-height: none;
+
+    width: 100vw;       /* edge-to-edge */
+    max-width: none;
+    margin: 0;
+
+    border-bottom: 0;   /* cleaner seam (optional) */
+  }
+}
+
+/* If (and only if) the hero lives inside .wrap, break it out to full width */
+.wrap > .hero-slider{
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+/* In-page anchors won’t hide under the fixed header */
+#places, #events { scroll-margin-top: 64px; }
