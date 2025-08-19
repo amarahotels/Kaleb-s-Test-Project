@@ -56,13 +56,12 @@ jobs:
           fi
 
       # --------------------------
-      # Step 1.5: Year-round Attractions from Google Places  ⬅️ NEW
+      # Step 1.5: Year-round Attractions from Google Places
       # --------------------------
       - name: Generate featured_attractions.json (+ images)
         run: python get_featured_attractions.py
         env:
-          # Reuse the same secret; the script expects GOOGLE_MAPS_API_KEY
-          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}   # ← per-step env
 
       - name: Commit & Push featured attractions (if any)
         run: |
@@ -86,11 +85,9 @@ jobs:
         run: pip install requests python-dateutil
 
       - name: Fetch events from SerpAPI
-        run: |
-          python get_serpapi_events.py
-          # No move needed; script already writes to public/data/events.json
+        run: python get_serpapi_events.py
         env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}          # ← per-step env
 
       - name: Commit & Push changes for events.json (if any)
         run: |
