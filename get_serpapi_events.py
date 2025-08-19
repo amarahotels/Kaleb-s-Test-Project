@@ -65,12 +65,23 @@ FITNESS_RE = re.compile(
 # business/networking
 BIZ_RE = re.compile(r"\b(conference|summit|expo|webinar|seminar|forum|networking|meet-?up|after work)\b", re.I)
 
-# NEW: explicitly block CISO-branded/cybersecurity enterprise events
+# ritual/funerary content to exclude from tourist-friendly feed
+RITUAL_RE = re.compile(
+    r"\b("
+    r"joss(?:\s*paper)?|hell\s*(?:money|note|notes)|"
+    r"hungry\s*ghost(?:\s*festival)?|ghost\s*festival|"
+    r"qing\s*ming|tomb\s*sweeping|ancestor(?:s)?\s*(?:worship|prayer|offering)s?|"
+    r"burn(?:ing)?\s*paper|paper\s*offerings?|incense\s*burn"
+    r")\b",
+    re.I,
+)
+
+# explicitly block CISO-branded/cybersecurity enterprise events
 CISO_RE = re.compile(r"\bciso\b", re.I)
 
 # alcohol/adult
 ALCOHOL_RE = re.compile(r"\b(wine|beer|whisk(?:y|ey)|cocktail|gin|rum|vodka|sake|soju|cigar|tasting)\b", re.I)
-ADULT_RE = re.compile(r"\b(18\+|21\+|adults\s*only)\b", re.I)
+ADULT_RE   = re.compile(r"\b(18\+|21\+|adults\s*only)\b", re.I)
 
 def matches_any(text: str, *patterns) -> bool:
     if not text:
@@ -263,11 +274,15 @@ def should_drop(e, tag: str) -> bool:
     # General blocks for all categories
     if matches_any(text, FITNESS_RE) or looks_like_interval_walk(text):
         return True
-    if matches_any(text, BIZ_RE) or CISO_RE.search(text):  # ← blocks CISO/cybersecurity enterprise events
+    if matches_any(text, BIZ_RE) or CISO_RE.search(text):
         return True
 
     # Require image if configured
     if REQUIRE_IMAGE and not (e.get("image") or "").strip():
+        return True
+
+    # NEW: drop ritual/funerary themed items (e.g., joss paper / hungry ghost)
+    if RITUAL_RE.search(text):
         return True
 
     # Family-specific blocks (no alcohol / adults-only)
@@ -315,7 +330,7 @@ def run_query(tag: str, q: str):
     results = fetch_events(q)
     if not results:
         return []
-    normed = [normalize_event(r, tag) for r in results]
+    normed   = [normalize_event(r, tag) for r in results]
     filtered = [e for e in normed if not should_drop(e, tag)]
     filtered = sort_by_start(filter_future(deduplicate(filtered)))[:PER_BUCKET_CAP]
     return filtered
