@@ -1,6 +1,6 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-19T06:38:11.064391Z",
+  "generated_at": "2025-08-19T06:56:31.312983Z",
   "events": [
     {
       "title": "Relax & Recharge at Chinatown – The Perfect Tourist Pit Stop ✨",
@@ -69,6 +69,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Winesday Unwind @ Grand Cru (20 Aug)",
+      "start": "Aug 20",
+      "end": "Wed, 20 Aug, 5:00 – 7:00 pm",
+      "venue": "Grand Cru Wine Concierge",
+      "address": "252 N Bridge Rd, #01-44B Grand Cru Wine Concierge, Raffles City Shopping Centre",
+      "url": "https://www.eventbrite.sg/e/winesday-unwind-grand-cru-20-aug-tickets-1550244285389",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgeOW_tFxA55cA2IDAO4tiF56MdujLjJwF6vtjP1IytQ&s",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Tinashe",
       "start": "Aug 21",
       "end": "Thu, 21 Aug, 7:00 – 11:00 pm",
@@ -120,17 +131,6 @@
       "address": "Waterloo St, #155 Stamford Arts Centre",
       "url": "https://allevents.in/singapore/a-date-with-tradition-2025/80003577360204",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl-QIo17FHSNWOls8CSc_fr_TULFUCaFebExBinZBGhqsnup0FUSml2SCRSQ&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "All Things Singapore (AT SG) 2025",
-      "start": "Aug 22",
-      "end": "22 Aug, 7:00 pm – 6 Sept, 11:00 pm",
-      "venue": "National Library / Lee Kong Chian Reference Library",
-      "address": "100 Victoria St, National Library / Lee Kong Chian Reference Library",
-      "url": "https://citynomads.com/events/all-things-singapore-at-sg-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi5b92xUmqyNqsrQinXZWQsCB68ExxNfxwHdDLlLFIvydFFNCbRDw6zlzIOQ&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
