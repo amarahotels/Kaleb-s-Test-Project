@@ -1,3 +1,6 @@
+// ---- version marker (helps verify deploy) ----
+console.info("script.js v2025-08-19a");
+
 // footer year
 const y = document.getElementById('year');
 if (y) y.textContent = new Date().getFullYear();
@@ -23,10 +26,13 @@ const heroNext = document.getElementById('heroNext');
 const heroEl = document.getElementById('hero');
 const scrollCue = document.querySelector('.scroll-cue');
 
-// NEW: hero title/subtitle + attraction pill
+// Hero overlay bits (title/subtitle + link pill)
 const heroTitleEl = document.getElementById('heroTitle');
 const heroSubtitleEl = document.getElementById('heroSubtitle');
-const heroAttractionLink = document.getElementById('heroAttractionLink');
+const heroPlaceLink = document.getElementById('heroAttractionLink');
+
+let heroIndex = 0, heroTimer = null, heroSlides = [];
+let heroIsAttractions = false; // <- prevents fallback from overwriting
 
 // Events filter ref
 const eventCatSel = document.getElementById('eventCat');
@@ -36,10 +42,59 @@ let selectedType = 'all';
 let allEventsData = [];
 let selectedEventCat = 'all';
 
-// ===== Year-round attractions in the HERO =====
+// ========= utilities =========
+const num = v => Number.isFinite(v) ? v : parseFloat(v);
+function esc(s=''){ return s.replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+const toText = (v) => Array.isArray(v) ? v.filter(Boolean).join(', ')
+  : (v && typeof v === 'object')
+    ? (['name','address','line1','line2','city'].map(k => v[k]).filter(Boolean).join(', ') || String(v))
+    : (v ?? '');
+
+// ========= HERO (shared) =========
+function showHero(nextIndex, userTriggered=false){
+  if (!heroSlides.length) return;
+  const count = heroSlides.length;
+  heroIndex = (nextIndex + count) % count;
+  heroSlides.forEach((el,i)=> el.classList.toggle('is-active', i===heroIndex));
+  if (heroDotsEl){
+    [...heroDotsEl.children].forEach((d,i)=>{
+      d.classList.toggle('is-active', i===heroIndex);
+      d.setAttribute('aria-selected', i===heroIndex ? 'true':'false');
+    });
+  }
+  // Update link pill when on attractions hero
+  if (heroIsAttractions && heroPlaceLink) {
+    const slide = heroSlides[heroIndex];
+    const href = slide?.dataset?.mapsUrl || '';
+    const name = slide?.dataset?.name || '';
+    if (href) {
+      heroPlaceLink.classList.remove('hidden');
+      heroPlaceLink.href = href;
+      heroPlaceLink.textContent = `📍 ${name || 'View on Maps'}`;
+      heroPlaceLink.setAttribute('aria-label', `Open ${name} in Google Maps`);
+    } else {
+      heroPlaceLink.classList.add('hidden');
+    }
+  }
+  if (userTriggered){ restartHeroAuto(); }
+}
+function startHeroAuto(){ stopHeroAuto(); heroTimer = setInterval(()=> showHero(heroIndex+1, false), 6000); }
+function stopHeroAuto(){ if (heroTimer) clearInterval(heroTimer); heroTimer = null; }
+function restartHeroAuto(){ stopHeroAuto(); startHeroAuto(); }
+function addSwipe(el, cb){
+  let x0=null, y0=null;
+  el.addEventListener('touchstart', e=>{ const t=e.touches[0]; x0=t.clientX; y0=t.clientY; }, {passive:true});
+  el.addEventListener('touchend', e=>{
+    if (x0==null) return;
+    const t=e.changedTouches[0];
+    const dx = t.clientX - x0; const dy = t.clientY - y0;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)){ cb(dx<0 ? 'left':'right'); }
+    x0 = y0 = null;
+  }, {passive:true});
+}
+
+// ========= HERO: Attractions-first =========
 const HERO_ATTR_LIMIT = 14;
-let heroAttractions = [];
-let heroIsAttractions = false; // <<< guard so fallback can't overwrite attractions
 
 async function loadAttractionsHero() {
   try {
@@ -49,104 +104,112 @@ async function loadAttractionsHero() {
     const items = Array.isArray(data.attractions) ? data.attractions : [];
     if (!items.length) return false;
     buildHeroFromAttractions(items, HERO_ATTR_LIMIT);
+    heroIsAttractions = true;
+
+    // overlay copy switch
+    if (heroTitleEl) heroTitleEl.innerHTML = `What’s On in <span class="brand">Singapore</span>`;
+    if (heroSubtitleEl) heroSubtitleEl.textContent = `Signature year-round attractions & family-friendly hits.`;
+
+    // Ensure arrows/dots/swipe wired
+    heroPrev?.addEventListener('click', () => showHero(heroIndex - 1, true));
+    heroNext?.addEventListener('click', () => showHero(heroIndex + 1, true));
+    startHeroAuto();
+    heroEl?.addEventListener('mouseenter', stopHeroAuto);
+    heroEl?.addEventListener('mouseleave', startHeroAuto);
+    heroEl?.addEventListener('focusin', stopHeroAuto);
+    heroEl?.addEventListener('focusout', startHeroAuto);
+    addSwipe(heroEl, (dir)=>{ if (dir==='left') showHero(heroIndex+1, true); if (dir==='right') showHero(heroIndex-1, true); });
+
+    // Make the entire hero clickable to open the current place
+    heroEl?.addEventListener('click', (e) => {
+      // Ignore clicks on controls/buttons
+      const ignore = e.target.closest('.nav-btn, .hs-arrow, .hs-dot, .hero-place-pill');
+      if (ignore) return;
+      const slide = heroSlides[heroIndex];
+      const href = slide?.dataset?.mapsUrl;
+      if (href) window.open(href, '_blank', 'noopener');
+    });
+
     return true;
   } catch (e) {
-    console.warn('featured_attractions.json not available; leaving default hero.', e);
+    console.warn('featured_attractions.json fetch failed:', e);
     return false;
   }
-}
-
-function mapsUrlFor(a){
-  return a.maps_url || a.url ||
-    `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${a.name} ${a.address || 'Singapore'}`)}`;
-}
-
-function updateHeroAttractionPill(i){
-  if (!heroAttractionLink) return;
-  if (!heroAttractions.length) { heroAttractionLink.classList.add('hidden'); return; }
-  const a = heroAttractions[(i + heroAttractions.length) % heroAttractions.length];
-  if (!a) { heroAttractionLink.classList.add('hidden'); return; }
-  heroAttractionLink.href = mapsUrlFor(a);
-  heroAttractionLink.textContent = `📍 ${a.name}`;
-  heroAttractionLink.classList.remove('hidden');
 }
 
 function buildHeroFromAttractions(attrs, limit = 12) {
   if (!heroSlidesEl) return;
   const picks = attrs.filter(a => a && a.image_url).slice(0, limit);
-  if (!picks.length) return;
 
-  heroIsAttractions = true; // <<< mark hero as attractions
-  heroAttractions = picks;
-
-  // swap hero copy for “What’s On…”
-  if (heroTitleEl) heroTitleEl.innerHTML = `What’s On in <span class="brand">Singapore</span>`;
-  if (heroSubtitleEl) heroSubtitleEl.textContent = `Signature year-round attractions & family-friendly hits.`;
-
-  // Slides
   heroSlidesEl.innerHTML = picks.map((a, i) =>
     `<div class="hs-slide${i === 0 ? ' is-active' : ''}" role="img"
          aria-label="${esc(a.name || '')}"
+         data-name="${esc(a.name || '')}"
+         data-maps-url="${esc(a.maps_url || '')}"
          style="background-image:url('${a.image_url}')"></div>`
   ).join('');
 
-  // Dots
   if (heroDotsEl) {
     heroDotsEl.innerHTML = picks.map((_, i) =>
       `<button class="hs-dot${i===0?' is-active':''}" role="tab"
                aria-selected="${i===0?'true':'false'}"
                aria-label="Slide ${i+1}"></button>`
     ).join('');
-    [...heroDotsEl.children].forEach((dot, i) => {
-      dot.addEventListener('click', () => showHero(i, true));
-    });
+    [...heroDotsEl.children].forEach((dot, i) => dot.addEventListener('click', () => showHero(i, true)));
   }
 
   heroSlides = [...heroSlidesEl.querySelectorAll('.hs-slide')];
+  showHero(0, false);
+}
 
-  // arrows
-  heroPrev?.addEventListener('click', () => showHero(heroIndex - 1, true));
-  heroNext?.addEventListener('click', () => showHero(heroIndex + 1, true));
+// ========= HERO: Places fallback (used only if attractions fail) =========
+function buildHeroSlider(all){
+  if (heroIsAttractions || !heroSlidesEl) return; // <- do not overwrite attractions
+  const picks = [...all]
+    .filter(p => p.photo_url)
+    .sort((a,b)=> topScore(b) - topScore(a))
+    .slice(0, 6);
 
-  // click on slide → open Maps
-  heroSlidesEl?.addEventListener('click', (e) => {
-    const isControl = e.target.closest('.hs-arrow, .hs-dot, .nav-btn');
-    if (isControl) return;
-    const a = heroAttractions[heroIndex];
-    if (a) window.open(mapsUrlFor(a), '_blank', 'noopener');
-  });
+  heroSlidesEl.innerHTML = picks.map((p, i) =>
+    `<div class="hs-slide${i===0 ? ' is-active':''}" role="img" aria-label="${esc(p.name || '')}"
+       style="background-image:url('${p.photo_url}')"></div>`
+  ).join('');
 
-  // autoplay + hover pause
+  if (heroDotsEl){
+    heroDotsEl.innerHTML = picks.map((_,i)=>
+      `<button class="hs-dot${i===0?' is-active':''}" role="tab" aria-selected="${i===0?'true':'false'}" aria-label="Slide ${i+1}"></button>`
+    ).join('');
+    [...heroDotsEl.children].forEach((dot, i)=> dot.addEventListener('click', ()=> showHero(i, true)));
+  }
+
+  heroSlides = [...heroSlidesEl.querySelectorAll('.hs-slide')];
+  heroPrev?.addEventListener('click', ()=> showHero(heroIndex-1, true));
+  heroNext?.addEventListener('click', ()=> showHero(heroIndex+1, true));
   startHeroAuto();
   heroEl?.addEventListener('mouseenter', stopHeroAuto);
   heroEl?.addEventListener('mouseleave', startHeroAuto);
   heroEl?.addEventListener('focusin', stopHeroAuto);
   heroEl?.addEventListener('focusout', startHeroAuto);
+  addSwipe(heroEl, (dir)=>{ if (dir==='left') showHero(heroIndex+1, true); if (dir==='right') showHero(heroIndex-1, true); });
 
-  // swipe
-  addSwipe(heroEl, (dir) => {
-    if (dir === 'left') showHero(heroIndex + 1, true);
-    if (dir === 'right') showHero(heroIndex - 1, true);
-  });
-
-  updateHeroAttractionPill(0);
+  // Reset overlay copy for places mode
+  if (heroTitleEl) heroTitleEl.innerHTML = `Explore Around <span class="brand">Amara</span>`;
+  if (heroSubtitleEl) heroSubtitleEl.textContent = `Handpicked nearby places for staff & guests near Tanjong Pagar.`;
+  heroPlaceLink?.classList.add('hidden');
 }
 
-// ---- Hawker detection config ----
+// ========= Places list / Top picks =========
 const hawkerNameSet = new Set([
   'lau pa sat','maxwell food centre','maxwell food center',
   'amoy street food centre','amoy street food center',
   'chinatown complex','chinatown hawker center','chinatown hawker centre'
 ]);
-
-// Name-based categorization
 const NAME_IS_CAFE_RE = /\b(café|cafe|coffee|espresso|roastery|coffee\s*bar|bakery)\b/i;
 const NAME_IS_BAR_RE = /\b(bar|pub|taproom|wine\s*bar|speakeasy)\b/i;
 const NAME_ALCOHOL_RE = /\b(cocktail|cocktails|wine|beer|ale|lager|ipa|stout|porter|whisky|whiskey|gin|rum|tequila|mezcal|soju|sake|spirits|liqueur)\b/i;
 const NAME_IS_RESTAURANT_RE = /\b(restaurant|ristorante|trattoria|bistro|eatery|osteria|cantina|kitchen|diner)\b/i;
 const NAME_IS_BOOKSTORE_RE = /\b(bookstore|book\s*shop|book\s*store|books|comics|manga|书店|書店|书屋|書屋)\b/i;
 
-// Load data
 async function loadPlaces() {
   try {
     const res = await fetch(`data/places.json?ts=${Date.now()}`);
@@ -154,8 +217,8 @@ async function loadPlaces() {
     const data = await res.json();
     allPlaces = Array.isArray(data.places) ? data.places : (Array.isArray(data) ? data : []);
 
-    // Build fallback hero only if attractions didn't already claim it
-    if (!heroIsAttractions) buildHeroSlider(allPlaces);
+    // Build fallback hero only if attractions didn't claim it
+    buildHeroSlider(allPlaces);
 
     renderTopPicks(allPlaces);
     render();
@@ -164,8 +227,6 @@ async function loadPlaces() {
     if (errorEl) errorEl.classList.remove('hidden');
   }
 }
-
-// Helpers
 function isHawker(p) {
   if (typeof p.is_hawker_centre === 'boolean') return p.is_hawker_centre;
   const name = (p.name || '').toLowerCase().trim();
@@ -252,108 +313,32 @@ function pickTopPicks(places, limit = 12){
   }
   return picks.slice(0, limit);
 }
-
-/* ---------- HERO SLIDER ---------- */
-let heroIndex = 0, heroTimer = null, heroSlides = [];
-
-function buildHeroSlider(all){
-  if (!heroSlidesEl) return;
-  if (heroIsAttractions) return; // <<< don't overwrite attractions hero
-
-  // fallback hero based on nearby places
-  const picks = [...all]
-    .filter(p => p.photo_url)
-    .sort((a,b)=> topScore(b) - topScore(a))
-    .slice(0, 6);
-
-  // fallback copy
-  if (heroTitleEl) heroTitleEl.innerHTML = `Explore Around <span class="brand">Amara</span>`;
-  if (heroSubtitleEl) heroSubtitleEl.textContent = `Handpicked nearby places for staff & guests near Tanjong Pagar.`;
-  heroAttractionLink?.classList.add('hidden');
-
-  heroSlidesEl.innerHTML = picks.map((p, i) =>
-    `<div class="hs-slide${i===0 ? ' is-active':''}" role="img" aria-label="${esc(p.name || '')}"
-       style="background-image:url('${p.photo_url}')"></div>`
-  ).join('');
-
-  if (heroDotsEl){
-    heroDotsEl.innerHTML = picks.map((_,i)=>
-      `<button class="hs-dot${i===0?' is-active':''}" role="tab" aria-selected="${i===0?'true':'false'}" aria-label="Slide ${i+1}"></button>`
-    ).join('');
-    [...heroDotsEl.children].forEach((dot, i)=> dot.addEventListener('click', ()=> showHero(i, true)));
-  }
-
-  heroSlides = [...heroSlidesEl.querySelectorAll('.hs-slide')];
-  heroPrev?.addEventListener('click', ()=> showHero(heroIndex-1, true));
-  heroNext?.addEventListener('click', ()=> showHero(heroIndex+1, true));
-  startHeroAuto();
-  heroEl?.addEventListener('mouseenter', stopHeroAuto);
-  heroEl?.addEventListener('mouseleave', startHeroAuto);
-  heroEl?.addEventListener('focusin', stopHeroAuto);
-  heroEl?.addEventListener('focusout', startHeroAuto);
-  addSwipe(heroEl, (dir)=>{ if (dir==='left') showHero(heroIndex+1, true); if (dir==='right') showHero(heroIndex-1, true); });
-}
-
-function showHero(nextIndex, userTriggered=false){
-  if (!heroSlides.length) return;
-  const count = heroSlides.length;
-  heroIndex = (nextIndex + count) % count;
-  heroSlides.forEach((el,i)=> el.classList.toggle('is-active', i===heroIndex));
-  if (heroDotsEl){
-    [...heroDotsEl.children].forEach((d,i)=>{
-      d.classList.toggle('is-active', i===heroIndex);
-      d.setAttribute('aria-selected', i===heroIndex ? 'true':'false');
-    });
-  }
-  updateHeroAttractionPill(heroIndex); // keep pill synced
-  if (userTriggered){ restartHeroAuto(); }
-}
-function startHeroAuto(){
-  stopHeroAuto();
-  heroTimer = setInterval(()=> showHero(heroIndex+1, false), 6000);
-}
-function stopHeroAuto(){ if (heroTimer) clearInterval(heroTimer); heroTimer = null; }
-function restartHeroAuto(){ stopHeroAuto(); startHeroAuto(); }
-function addSwipe(el, cb){
-  let x0=null, y0=null;
-  el.addEventListener('touchstart', e=>{ const t=e.touches[0]; x0=t.clientX; y0=t.clientY; }, {passive:true});
-  el.addEventListener('touchend', e=>{
-    if (x0==null) return;
-    const t=e.changedTouches[0];
-    const dx = t.clientX - x0; const dy = t.clientY - y0;
-    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)){ cb(dx<0 ? 'left':'right'); }
-    x0 = y0 = null;
-  }, {passive:true});
-}
-
-/* ---------- TOP PICKS CAROUSEL ---------- */
 function renderTopPicks(all){
   if (!topTrack || !topSection) return;
   const items = pickTopPicks(all, 12);
   if (!items.length){ topSection.classList.add('hidden'); return; }
   topSection.classList.remove('hidden');
-  topTrack.innerHTML = items.map(topSlideHtml).join('');
+  topTrack.innerHTML = items.map(p=>{
+    const name = esc(p.name || '');
+    const dist = Number.isFinite(p.distance_m) ? formatDistance(p.distance_m) : '';
+    const rating = p.rating ? `${p.rating}★` : '';
+    const meta = [rating, dist].filter(Boolean).join(' · ');
+    return `
+      <a class="slide" href="${p.maps_url || '#'}" target="_blank" rel="noopener">
+        <img class="thumb" src="${p.photo_url}" alt="${name}" loading="lazy">
+        <div class="meta">
+          <div class="name">${name}</div>
+          ${meta ? `<span class="pill">${meta}</span>` : ''}
+        </div>
+      </a>
+    `;
+  }).join('');
   const step = () => topTrack.clientWidth * 0.9;
   topPrev?.addEventListener('click', () => topTrack.scrollBy({ left: -step(), behavior:'smooth'}));
   topNext?.addEventListener('click', () => topTrack.scrollBy({ left:  step(), behavior:'smooth'}));
 }
-function topSlideHtml(p){
-  const name = esc(p.name || '');
-  const dist = Number.isFinite(p.distance_m) ? formatDistance(p.distance_m) : '';
-  const rating = p.rating ? `${p.rating}★` : '';
-  const meta = [rating, dist].filter(Boolean).join(' · ');
-  return `
-    <a class="slide" href="${p.maps_url || '#'}" target="_blank" rel="noopener">
-      <img class="thumb" src="${p.photo_url}" alt="${name}" loading="lazy">
-      <div class="meta">
-        <div class="name">${name}</div>
-        ${meta ? `<span class="pill">${meta}</span>` : ''}
-      </div>
-    </a>
-  `;
-}
 
-/* ---------- GRID RENDER ---------- */
+// ========= Places grid =========
 function render(){
   if (!listEl) return;
   if (errorEl) errorEl.classList.add('hidden');
@@ -371,7 +356,7 @@ function render(){
       (selectedType === 'restaurants' && tags.has('restaurants')) ||
       (selectedType === 'cafes' && tags.has('cafes')) ||
       (selectedType === 'bars' && tags.has('bars')) ||
-      (selectedType === 'bookstores') && tags.has('bookstores');
+      (selectedType === 'bookstores' && tags.has('bookstores'));
     return passRating && passType;
   });
 
@@ -381,64 +366,31 @@ function render(){
   else items.sort((a,b)=> (a.name||'').localeCompare(b.name||''));
 
   items = items.slice(0, 24);
-  listEl.innerHTML = items.map(cardHtml).join('') || `<div class="notice">No places found.</div>`;
+  listEl.innerHTML = items.map(p=>{
+    const name = esc(p.name || 'Unknown');
+    const addr = esc(p.address || '');
+    const rating = p.rating ? `${p.rating}★` : '';
+    const dist = Number.isFinite(p.distance_m) ? formatDistance(p.distance_m) : '';
+    const pillRight = [rating, dist].filter(Boolean).join(' · ');
+    const imgBlock = p.photo_url ? `
+      <div class="thumb-wrap">
+        <img class="thumb" src="${p.photo_url}" alt="${name}" loading="lazy">
+        ${pillRight ? `<span class="rating-pill">${pillRight}</span>` : ''}
+      </div>` : '';
+    return `
+      <article class="card">
+        ${imgBlock}
+        <div class="title">${name}</div>
+        <div class="addr">${addr}</div>
+        <div class="actions">
+          ${p.maps_url ? `<a class="btn-link" href="${p.maps_url}" target="_blank" rel="noopener">Open in Google Maps</a>` : ''}
+        </div>
+      </article>
+    `;
+  }).join('') || `<div class="notice">No places found.</div>`;
 }
-function cardHtml(p){
-  const name = esc(p.name || 'Unknown');
-  const addr = esc(p.address || '');
-  const rating = p.rating ? `${p.rating}★` : '';
-  const dist = Number.isFinite(p.distance_m) ? formatDistance(p.distance_m) : '';
-  const pillRight = [rating, dist].filter(Boolean).join(' · ');
-  const imgBlock = p.photo_url ? `
-    <div class="thumb-wrap">
-      <img class="thumb" src="${p.photo_url}" alt="${name}" loading="lazy">
-      ${pillRight ? `<span class="rating-pill">${pillRight}</span>` : ''}
-    </div>` : '';
-  return `
-    <article class="card">
-      ${imgBlock}
-      <div class="title">${name}</div>
-      <div class="addr">${addr}</div>
-      <div class="actions">
-        ${p.maps_url ? `<a class="btn-link" href="${p.maps_url}" target="_blank" rel="noopener">Open in Google Maps</a>` : ''}
-      </div>
-    </article>
-  `;
-}
 
-// utils
-const num = v => Number.isFinite(v) ? v : parseFloat(v);
-function esc(s=''){ return s.replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
-const toText = (v) => Array.isArray(v) ? v.filter(Boolean).join(', ')
-  : (v && typeof v === 'object')
-    ? (['name','address','line1','line2','city'].map(k => v[k]).filter(Boolean).join(', ') || String(v))
-    : (v ?? '');
-
-// filter listeners (Places)
-sortSel?.addEventListener('change', render);
-minRatingSel?.addEventListener('change', render);
-typeSel?.addEventListener('change', ()=>{ selectedType = typeSel.value; render(); });
-
-// nav toggle — also hide Top Picks on Events
-document.querySelectorAll('.nav-btn').forEach(btn=>{
-  btn.addEventListener('click', ()=>{
-    document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active');
-    const tab = btn.dataset.tab;
-    const isEvents = tab === 'events';
-
-    document.getElementById('places').classList.toggle('hidden', isEvents);
-    document.getElementById('events').classList.toggle('hidden', !isEvents);
-
-    // Hide Top Picks on Events page
-    topSection?.classList.toggle('hidden', isEvents);
-
-    // Scroll cue target
-    if (scrollCue) scrollCue.setAttribute('href', isEvents ? '#events' : '#places');
-  });
-});
-
-// events list
+// ========= Events =========
 async function loadEvents(){
   try{
     const res = await fetch(`data/events.json?ts=${Date.now()}`);
@@ -451,7 +403,6 @@ async function loadEvents(){
     document.getElementById('eventsError')?.classList.remove('hidden');
   }
 }
-
 function renderEvents(events){
   const list = document.getElementById('eventList');
   if (!list) return;
@@ -460,7 +411,6 @@ function renderEvents(events){
   if (selectedEventCat !== 'all') {
     items = items.filter(e => ((e.category || 'general') + '').toLowerCase() === selectedEventCat);
   }
-
   items = items.filter(e => typeof e.image === 'string' && e.image.trim().length > 0);
 
   const parseDate = d => (d && !isNaN(Date.parse(d))) ? new Date(d) : null;
@@ -485,7 +435,6 @@ function renderEvents(events){
 
   pruneBrokenEventImages(list);
 }
-
 function pruneBrokenEventImages(root){
   root.querySelectorAll('img.event-img').forEach(img => {
     const removeCard = () => img.closest('article.card')?.remove();
@@ -501,14 +450,33 @@ function pruneBrokenEventImages(root){
   });
 }
 
+// ========= UI wiring =========
+sortSel?.addEventListener('change', render);
+minRatingSel?.addEventListener('change', render);
+typeSel?.addEventListener('change', ()=>{ selectedType = typeSel.value; render(); });
+
+document.querySelectorAll('.nav-btn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const tab = btn.dataset.tab;
+    const isEvents = tab === 'events';
+    document.getElementById('places').classList.toggle('hidden', isEvents);
+    document.getElementById('events').classList.toggle('hidden', !isEvents);
+    topSection?.classList.toggle('hidden', isEvents);
+    if (scrollCue) scrollCue.setAttribute('href', isEvents ? '#events' : '#places');
+  });
+});
+
 eventCatSel?.addEventListener('change', ()=>{
-  selectedEventCat = eventCatSel.value;
+  selectedEventCat = eventCatSel.value;     // 'all' | 'family' | 'music' | 'general'
   renderEvents(allEventsData);
 });
 
-// ---- Boot: try attractions first, then places + events
+// ========= Boot: attractions first, then places/events =========
 (async () => {
-  const attractionsOK = await loadAttractionsHero();
-  await loadPlaces();   // fallback hero skipped if attractionsOK
+  const attractionsOK = await loadAttractionsHero(); // builds hero if possible
+  // Load places (for lists/carousels). Fallback hero builds only if attractions failed.
+  await loadPlaces();
   await loadEvents();
 })();
