@@ -1,51 +1,7 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-18T16:25:21.746203Z",
+  "generated_at": "2025-08-19T01:39:31.709946Z",
   "events": [
-    {
-      "title": "Mindful Parenting Through The Years",
-      "start": "Aug 18",
-      "end": "7 Aug, 2:00 am – 28 Aug, 3:30 am",
-      "venue": "318 Tanglin Rd",
-      "address": "318 Tanglin Rd",
-      "url": "https://www.holdingground.sg/event-details-registration/sold-out-mindful-parenting-through-the-years-3",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDFaxc1giYfUPLI9J7uRvblQ22mjiBOzf-i9rtjA3Xm6j81Dwl1ZKGcehS0g&s",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Creating Compelling Picture Books",
-      "start": "Aug 18",
-      "end": "16 Aug, 9:30 am – 23 Aug, 5:00 pm",
-      "venue": "90 Goodman Road, Blk E #03-32, Goodman Arts Centre, Singapore Book Council",
-      "address": "90 Goodman Road, Blk E #03-32, Goodman Arts Centre, Singapore Book Council",
-      "url": "https://www.eventbrite.sg/e/creating-compelling-picture-books-tickets-1268106132579",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuTWcRcswMhmy17mCI991_sl7MEwpKfrqgtAazTtUBKw&s=10",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Piano Course for Children (Age 6-8 ) @ SAFRA Punggol",
-      "start": "Aug 18",
-      "end": "Mon, 18 Aug, 5:30 – 6:15 pm",
-      "venue": "Yamaha Music School - SAFRA Punggol",
-      "address": "9 Sentul Cres, #03-02/03 Yamaha Music School - SAFRA Punggol",
-      "url": "https://www.eventbrite.sg/e/piano-course-for-children-age-6-8-safra-punggol-tickets-634555752337",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPUsLW2ARuTrL1SGUdREXOJpCwLygMib8GhDGkqU8OKQ&s",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "City In Session | New Bahru | Things to do in Singapore",
-      "start": "Aug 18",
-      "end": "9 Aug, 12:00 am – 31 Aug, 12:00 am",
-      "venue": "New Bahru",
-      "address": "46 Kim Yam Rd, New Bahru",
-      "url": "https://www.timeout.com/singapore/things-to-do/city-in-session",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vrxIuXPmLgyVkfvTEn69XFK_AOsS3-v0rtDqhLqH2A&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
     {
       "title": "⭐️Piano Group for Age 3-5 yrs⭐️",
       "start": "Aug 19",
@@ -65,6 +21,28 @@
       "address": "5 Sennett Rd, Singapore",
       "url": "https://www.eventbrite.sg/poi/singapore--singapore/bedok-jetty--6HJ0b/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfL_2brbh_huBQG6TcC5CKC25v5T26ZpQrIJWHRKhhXg&s",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Piano Course for Children (Age 6-8 ) @ SAFRA Punggol",
+      "start": "Aug 19",
+      "end": "Mon, 18 Aug, 5:30 – 6:15 pm",
+      "venue": "Yamaha Music School - SAFRA Punggol",
+      "address": "9 Sentul Cres, #03-02/03 Yamaha Music School - SAFRA Punggol",
+      "url": "https://www.eventbrite.sg/e/piano-course-for-children-age-6-8-safra-punggol-tickets-634555752337",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPUsLW2ARuTrL1SGUdREXOJpCwLygMib8GhDGkqU8OKQ&s",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "City In Session | New Bahru | Things to do in Singapore",
+      "start": "Aug 19",
+      "end": "9 Aug, 12:00 am – 31 Aug, 12:00 am",
+      "venue": "New Bahru",
+      "address": "46 Kim Yam Rd, New Bahru",
+      "url": "https://www.timeout.com/singapore/things-to-do/city-in-session",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vrxIuXPmLgyVkfvTEn69XFK_AOsS3-v0rtDqhLqH2A&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -165,6 +143,17 @@
       "url": "https://citynomads.com/events/all-things-singapore-at-sg-2025/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi5b92xUmqyNqsrQinXZWQsCB68ExxNfxwHdDLlLFIvydFFNCbRDw6zlzIOQ&s=10",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Atomy Singapore Product Carnival",
+      "start": "Aug 22",
+      "end": "Fri, 22 Aug, 2:00 – 5:00 pm",
+      "venue": "Burlington Square",
+      "address": "175 Bencoolen St, #01-45 Burlington Square",
+      "url": "https://allevents.in/org/atomy-singapore-darren-tan/26256253",
+      "image": "https://www.google.com/maps/vt/data=BLYf7x31FSlPyQtf4-IEeL6PHjV4PjeLqJLUH9pFE4BYTsdflyw1ISCCAF9lNr-EpeoaxpSIvfAS1nr5WCnBhGg_QfT7eOG27KzYdim7suxZm0R1uXg",
+      "category": "family",
       "source": "serpapi_google_events"
     },
     {
@@ -278,6 +267,28 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "SG60 Carnival @ Buangkok",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 12:00 am",
+      "venue": "Buangkok Square Mall",
+      "address": "Block 991 Buangkok Link, Buangkok Square Mall",
+      "url": "https://familiesforlife.sg/pages/volunteer/sg60-carnival-buangkok",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL5LrrRrTIMnnp70o1J31iGMmeN1CN5OxuWrwehxOa-ws6r-_BFY1OfAIzGA&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Vege Happy Workshop (Parent-Child)",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 2:30 am",
+      "venue": "Choa Chu Kang Public Library",
+      "address": "21 Choa Chu Kang Avenue 4 #04-01/02 and #05-06, Choa Chu Kang Public Library, Lot One Shopper’s Mall",
+      "url": "https://allevents.in/choa-chu-kang/vege-happy-workshop-parent-child/200028662041716",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDd0cpiYiWAQXKf90MV5T8E1BoZysoPEbGI4hmjFcMUmz1_-IzFLlt8EVAw&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Jalan Kayu National Day Celebrations",
       "start": "Aug 24",
       "end": "Sun, 24 Aug, 12:00 am",
@@ -319,6 +330,17 @@
       "url": "https://www.stubhub.com/the-lord-of-the-rings-singapore-tickets-8-24-2025/event/157618605/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqwJF2gMFOKYOnz3POzkM31HFnW9xv063EdavnwGxkXg&s=10",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Carnival Of Poetry",
+      "start": "Aug 24",
+      "end": "Sun, 24 Aug, 3:00 – 4:30 pm",
+      "venue": "Sing Lit Station",
+      "address": "22 Dickson Rd, Sing Lit Station",
+      "url": "https://allevents.in/org/migrant-writers-of-singapore/21120594",
+      "image": "https://www.google.com/maps/vt/data=LLES09-LvEUeQQ1-kAwCQKbWF8uqMC51mfET7aexm0FG28ginmSYn91Q6_TIutyA_cjhd9WDx557_3XKQWMpQ5ml1Tgs82P7Ok-DGudX6SEwgAuLXQ8",
+      "category": "family",
       "source": "serpapi_google_events"
     },
     {
@@ -476,6 +498,28 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Fengshan CC SG60 Family Carnival",
+      "start": "Sept 7",
+      "end": "Sun, 7 Sept, 12:00 am",
+      "venue": "Fengshan Community Club",
+      "address": "20 Bedok North Street 2, Fengshan Community Club, Singapore",
+      "url": "https://familiesforlife.sg/pages/volunteer/fengshan-cc-sg60-family-carnival",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRurfOoh9vFs3HUdLvSbx_w1G_E8vPaCMbtdQrjTzatow2rghJYrEd8SDfS7A&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Water Carnival @ WFI",
+      "start": "Sept 7",
+      "end": "Sun, 7 Sept, 9:00 am",
+      "venue": "Waterfront Isle",
+      "address": "730-738 Bedok Reservoir Rd, Waterfront Isle",
+      "url": "https://allevents.in/bedok/water-carnival-wfi/200028452652113",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV55yzWLZd3QIx3oBJ49fxphEsZRCiq7eyyYRJUGijWvD6qPI55pBDY11Zow&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "One Love Asia Festival Singapore 2025",
       "start": "Sept 13",
       "end": "Sat, 13 Sept, 12:00 am – Sun, 14 Sept, 12:00 am",
@@ -495,6 +539,17 @@
       "url": "https://www.stubhub.com/bubbling-and-boiling-singapore-tickets-9-13-2025/event/159098061/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHhX9mn8H1bX5SV6pD3v-o7ExLZEpGfyV8m4I_DP-ksA&s=10",
       "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "The Get Up Kids",
+      "start": "Sept 13",
+      "end": "Sat, 13 Sept, 7:00 pm – Sun, 14 Sept, 1:00 am",
+      "venue": "Foochow Building Event Hall",
+      "address": "21 Tyrwhitt Rd, #04-00 Foochow Building Event Hall, Singapore",
+      "url": "https://open.spotify.com/concert/7FrXAwGIn3k5XbdpLlJQr9",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtXO5bSHc0hpYuNSfIhzUcdAKK3deuS-sQ6KFSvakVRIYbNkHFz1GbsF41tw&s=10",
+      "category": "family",
       "source": "serpapi_google_events"
     },
     {
@@ -542,58 +597,25 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Partner Event: Tech Week Singapore",
-      "start": "Oct 8",
-      "end": "Wed, 8 Oct – Thu, 9 Oct",
-      "venue": "Sands Expo & Convention Centre",
-      "address": "10 Bayfront Ave, Sands Expo & Convention Centre, Singapore",
-      "url": "https://eurocham.org.sg/event/partner-event-tech-week-singapore/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzdVBvgR5WZI11wVXCm8i6N2mAD90uy2GlOt-9s98kq9zy_1vC8ls8QK2MDg&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Singapore Week of Innovation & Technology",
-      "start": "Oct 29",
-      "end": "Wed, 29 Oct, 9:00 am – Fri, 31 Oct, 5:00 pm",
-      "venue": "Sands Expo & Convention Centre",
-      "address": "10 Bayfront Ave, Sands Expo & Convention Centre, Singapore",
-      "url": "https://www.rogers-asia.com/events/singapore-week-of-innovation-technology-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYRghNcttNEHF1F5mmMdbH9GeTFfNd3RoEWwaRmZVisWvN&s",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Power Kids Gym - Minecraft Halloween",
-      "start": "Oct 31",
-      "end": "Fri, 31 Oct, 2:30 – 4:00 pm",
-      "venue": "UE Square",
-      "address": "81 Clemenceau Ave, UE Square, Singapore",
-      "url": "https://allevents.in/singapore/power-kids-gym-minecraft-halloween/200028610616942",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5MLkV8z0A5lTb19gmpu4yX0RLSIsVjyQLAB00BltYevQF4Wz5NVBZFYFimA&s=10",
+      "title": "SAJS Children's Day Carnival 2025 Volunteer Registration",
+      "start": "Oct 2",
+      "end": "Thu, 2 Oct, 7:00 am – 12:00 pm",
+      "venue": "2 Francis Thomas Dr, St. Andrew's Junior School",
+      "address": "2 Francis Thomas Dr, St. Andrew's Junior School",
+      "url": "https://www.eventbrite.sg/e/sajs-childrens-day-carnival-2025-volunteer-registration-tickets-1554102766209",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSUU2r5ILnRJGcewevaSeeHaoi9Ollss3IA4Ck6IhhHw&s",
       "category": "family",
       "source": "serpapi_google_events"
     },
     {
-      "title": "Moral Detective Kids",
-      "start": "Nov 29",
-      "end": "Sat, 29 Nov, 6:00 – 8:30 pm",
-      "venue": "172 Woodlands Street 13, Block 172",
-      "address": "172 Woodlands Street 13, Block 172",
-      "url": "https://www.eventbrite.com/e/moral-detective-kids-tickets-1520598303459",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTStlLaRnHUtCKjFgaAfuDdnGGnsNe65FwbNyHFAYOPA&s=10",
+      "title": "Token 2049 CRYPTO Carnival Party",
+      "start": "Oct 2",
+      "end": "Thu, 2 Oct, 8:00 pm – Fri, 3 Oct, 2:00 am",
+      "venue": "LAVO Italian Restaurant And Rooftop Bar",
+      "address": "10 Bayfront Avenue, Marina Bay Sands, Hotel, Level 57 LAVO Italian Restaurant And Rooftop Bar, Tower 1",
+      "url": "https://lu.ma/d4f8vivz",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_ZK32CeLvUEAyhNlNSOgHtbxSaOhFaist-hPFtArvg&s=10",
       "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "ZoukOut 2018",
-      "start": "Dec 1",
-      "end": "Mon, 1 Dec, 6:00 pm – Tue, 2 Dec, 8:00 am",
-      "venue": "51 Imbiah Walk, Zoukout",
-      "address": "51 Imbiah Walk, Zoukout",
-      "url": "https://radseason.com/event/zoukout-sentosa-singapore/",
-      "image": "https://www.google.com/maps/vt/data=xKvA7BStXPIOaPzuEqVJxVQpG12C8KGTGvUlgakT8CWyNIL6PLCWhHfTcV2MW2dYRAi9J_ZWSIgK6M5hd4RexSgfcrHDbawqeWtB8Xw5pNz8JOjjcKo",
-      "category": "music",
       "source": "serpapi_google_events"
     }
   ]
