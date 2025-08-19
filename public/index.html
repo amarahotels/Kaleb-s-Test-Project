@@ -106,34 +106,40 @@
     </section>
 
     <!-- Events -->
-    <section id="events" class="section wrap">
+    <section id="events" class="section">
       <div class="section-head">
         <h2>Upcoming Events</h2>
+      </div>
 
-        <!-- Responsive filters panel (Events) -->
-        <section class="filters-panel">
-          <div class="filters-header">
-            <div class="filters-title">Filters</div>
-            <button class="filters-toggle" type="button" aria-expanded="false" aria-controls="eventsFiltersBody">
-              Show
-            </button>
-          </div>
+      <!-- Filters BELOW the heading -->
+      <section class="filters-panel">
+        <div class="filters-header">
+          <div class="filters-title">Filters</div>
+          <button class="filters-toggle" type="button" aria-expanded="false" aria-controls="eventsFiltersBody">
+            Show
+          </button>
+        </div>
 
-          <div class="filters-body" id="eventsFiltersBody">
-            <div class="filters-grid">
-              <div class="field">
-                <label for="eventCat">Category</label>
-                <select id="eventCat">
-                  <option value="all">All</option>
-                  <option value="family">Family</option>
-                  <option value="music">Concerts &amp; Festivals</option>
-                  <option value="general">Things to do</option>
-                </select>
-              </div>
-              <!-- Add more event fields here later (e.g., date range, area, sort) -->
+        <div class="filters-body" id="eventsFiltersBody">
+          <div class="filters-grid">
+            <div class="field">
+              <label for="eventCat">Category</label>
+              <select id="eventCat">
+                <option value="all">All</option>
+                <option value="family">Family</option>
+                <option value="music">Concerts &amp; Festivals</option>
+                <option value="general">Things to do</option>
+              </select>
             </div>
+            <!-- add more event filters later -->
           </div>
-        </section>
+        </div>
+      </section>
+
+      <div id="eventsError" class="notice hidden">Couldn't load events right now.</div>
+      <div id="eventList" class="grid"></div>
+    </section>
+
 
       </div>
 
