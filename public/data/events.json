@@ -1,11 +1,6 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-19T02:54:06.184818Z",
-  "_cursor": {
-    "family": 2,
-    "music": 2,
-    "general": 2
-  },
+  "generated_at": "2025-08-19T03:12:43.757631Z",
   "events": [
     {
       "title": "CISO Singapore 2025",
@@ -30,17 +25,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "orchids-extravaganza-2025 | Gardens by the Bay",
-      "start": "Aug 19",
-      "end": "1 Aug, 12:00 am – 31 Aug, 12:00 am",
-      "venue": "Flower Dome",
-      "address": "18 Marina Gardens Dr, Flower Dome, Singapore",
-      "url": "https://uk.trip.com/events/orchidsextravaganza2025-20250226/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rITbWjeW-XhVK7ziM7djrzSygOPVQUrE0Mx6HDgztg&s",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "Singapore‘s First Dunhuang Dance week",
       "start": "Aug 19",
       "end": "Tue, 19 Aug, 2:00 am – Thu, 21 Aug, 1:00 pm",
@@ -49,6 +33,17 @@
       "url": "https://www.eventbrite.sg/poi/singapore--singapore/bedok-jetty--6HJ0b/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfL_2brbh_huBQG6TcC5CKC25v5T26ZpQrIJWHRKhhXg&s",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "orchids-extravaganza-2025 | Gardens by the Bay",
+      "start": "Aug 19",
+      "end": "1 Aug, 12:00 am – 31 Aug, 12:00 am",
+      "venue": "Flower Dome",
+      "address": "18 Marina Gardens Dr, Flower Dome, Singapore",
+      "url": "https://uk.trip.com/events/orchidsextravaganza2025-20250226/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rITbWjeW-XhVK7ziM7djrzSygOPVQUrE0Mx6HDgztg&s",
+      "category": "family",
       "source": "serpapi_google_events"
     },
     {
@@ -118,17 +113,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Soul & Jazz by RnR Duo",
-      "start": "Aug 22",
-      "end": "Fri, 22 Aug, 8:30 – 11:30 pm",
-      "venue": "Maduro Cigar & Whisky Bar",
-      "address": "2 Bukit Manis Rd, Maduro Cigar & Whisky Bar, Lower Lobby of Sofitel Singapore Sentosa",
-      "url": "https://www.eventbrite.sg/e/soul-jazz-by-rnr-duo-tickets-1536771668429",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBVnP05cmXvlKRFcxDfeNIX9-wqxZ7exOVDxUG68kc0kg1rqPkio_I7EFXsQ&s",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "WEEKLY NIGHTLIFE PARTY",
       "start": "Aug 22",
       "end": "Fri, 22 Aug, 7:00 – 11:00 pm",
@@ -184,28 +168,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Yellow Ribbon Community Arts Festival 2025: Roving Arts Truck (Suntec City)",
-      "start": "Aug 23",
-      "end": "Sat, 23 Aug, 10:00 am – Sun, 24 Aug, 7:00 pm",
-      "venue": "Suntec City",
-      "address": "3 Temasek Blvd, Suntec City",
-      "url": "https://citynomads.com/events/yellow-ribbon-community-arts-festival-2025-roving-arts-truck-suntec-city/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJGUBAwb4TU2hzYKR_-0xmNLpaKMHkkbRvQMmOnroiTH-nuTo2XBQyEk4xog&s=10",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Interval Walk Training (IWT) - 15KM+",
-      "start": "Aug 23",
-      "end": "Sat, 23 Aug, 7:45 am – 1:00 pm",
-      "venue": "Gardens by the Bay MRT Station (TE22)",
-      "address": "11 Marina Mall, Gardens by the Bay MRT Station (TE22), Singapore",
-      "url": "https://www.meetup.com/deep-breathing-brisk-walking/",
-      "image": "https://www.google.com/maps/vt/data=VEa-B5ool9pJtbiGjGUstTqz55z4wULOjxMn8LRcCX6hrcpaUTZGQDURQ6cmqwwjrTO9MEKeQ_0_f3AFV9NHeyV32yD2YmY3KaFKfFyksqVaOmHN-ek",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "Do Kyungsoo 도경수",
       "start": "Aug 23",
       "end": "Sat, 23 Aug, 6:00 – 9:00 pm",
@@ -239,6 +201,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Yellow Ribbon Community Arts Festival 2025: Roving Arts Truck (Suntec City)",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 10:00 am – Sun, 24 Aug, 7:00 pm",
+      "venue": "Suntec City",
+      "address": "3 Temasek Blvd, Suntec City",
+      "url": "https://citynomads.com/events/yellow-ribbon-community-arts-festival-2025-roving-arts-truck-suntec-city/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJGUBAwb4TU2hzYKR_-0xmNLpaKMHkkbRvQMmOnroiTH-nuTo2XBQyEk4xog&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Monster Jaw",
       "start": "Aug 23",
       "end": "Sat, 23 Aug, 6:00 – 10:00 pm",
@@ -258,17 +231,6 @@
       "url": "https://www.stubhub.com/irama-singapore-tickets-8-23-2025/event/158403293/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5vLyW7YnHcMyAMprii9VQ2vcGlmjrQTOJDVvV4ujcrIj3WHO_1z4_e3jSw&s",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "SB19",
-      "start": "Aug 24",
-      "end": "Sun, 24 Aug, 5:00 – 9:00 pm",
-      "venue": "Arena @ EXPO",
-      "address": "9 Somapah Rd, Arena @ EXPO",
-      "url": "https://open.spotify.com/concert/5h6lNu2dw3CiQoWHDDkdlO",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT41sGIoPdXq0yWFYN7tBXj4-oGAwooEWZ26Zh0QbMVthfCj-EYvJRvGtQPQ&s=10",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -360,17 +322,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "P1Harmony Concert 2025 (Singapore)",
-      "start": "Aug 30",
-      "end": "Sat, 30 Aug, 8:00 – 10:00 pm",
-      "venue": "Singapore EXPO",
-      "address": "1 Expo Dr, Singapore EXPO",
-      "url": "https://ahboy.com/event/p1harmony-concert-2025/",
-      "image": "https://www.google.com/maps/vt/data=kEzbys_V0A6OxoLjP8lB2aU1XpPomRcw3IEFAX4dy5RScFwEB1-YRPiLLPSpMffVKx6CQPwKhHT_N4Fijxr2E8masy-gq1Bf5JVyclSaC5lCdPbfdnE",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "CLANG 克浪!",
       "start": "Aug 30",
       "end": "Sat, 30 Aug, 6:00 – 9:00 pm",
@@ -437,6 +388,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "DBCS Celebrates 40 Years of Flourishing by Design",
+      "start": "Sept 10",
+      "end": "10–21 Sept",
+      "venue": "Flower Field Hall",
+      "address": "211 Marina Way, Flower Field Hall",
+      "url": "https://www.artrabbit.com/events/dbcs-celebrates-40-years-of-flourishing-by-design",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_xLgISc2L05X36zIu0b9nETsDhH__6S7p-ywt56fpaQeJUSNDYbnrf7UBPQ&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Island Atelier - Edition 1",
       "start": "Sept 11",
       "end": "Thu, 11 Sept, 10:00 am – Fri, 12 Sept, 8:00 pm",
@@ -492,36 +454,14 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Wine & Cheese Tasting at Sentosa",
-      "start": "Sept 18",
-      "end": "Thu, 18 Sept, 6:00 – 8:00 pm",
-      "venue": "Little Farms Market, Sentosa (Grocery store)",
-      "address": "1 Cove Ave, #02-13 Little Farms Market, Sentosa (Grocery store), Sentosa",
-      "url": "https://www.eventbrite.sg/e/wine-cheese-tasting-at-sentosa-tickets-1588530670999",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGH89WZxqr9ACr0wc5fP8OpSuf4XL6zQ1fX59U68-ZdQ&s",
+      "title": "Partner Event: Pink Ribbon Walk 2025",
+      "start": "Oct 11",
+      "end": "Sat, 11 Oct, 5:00 – 9:00 pm",
+      "venue": "OCBC Square",
+      "address": "Stadium Walk, OCBC Square",
+      "url": "https://pinkribbonwalk.sg/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9EQqXNCYQowITzlACvtrxwhteGJkqkZx8jriOVdsHGg&s=10",
       "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Partner Event: Tech Week Singapore",
-      "start": "Oct 8",
-      "end": "Wed, 8 Oct – Thu, 9 Oct",
-      "venue": "Sands Expo & Convention Centre",
-      "address": "10 Bayfront Ave, Sands Expo & Convention Centre, Singapore",
-      "url": "https://eurocham.org.sg/event/partner-event-tech-week-singapore/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzdVBvgR5WZI11wVXCm8i6N2mAD90uy2GlOt-9s98kq9zy_1vC8ls8QK2MDg&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Singapore Week of Innovation & Technology",
-      "start": "Oct 29",
-      "end": "Wed, 29 Oct, 9:00 am – Fri, 31 Oct, 5:00 pm",
-      "venue": "Sands Expo & Convention Centre",
-      "address": "10 Bayfront Ave, Sands Expo & Convention Centre, Singapore",
-      "url": "https://www.rogers-asia.com/events/singapore-week-of-innovation-technology-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYRghNcttNEHF1F5mmMdbH9GeTFfNd3RoEWwaRmZVisWvN&s",
-      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -532,28 +472,6 @@
       "address": "31 Ocean Way, Quayside Isle",
       "url": "https://greenwoodfishmarket.com/event/22nd-anniversary-gala-2025-sentosa/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWsRjCQzPjRJ4CV3Vo_bDFJsogInxB8jQCUHXSPXt08A&s=10",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Cross-Chamber Women's After Work",
-      "start": "Oct 30",
-      "end": "Thu, 30 Oct, 6:30 – 9:30 pm",
-      "venue": "Raffles Sentosa Singapore",
-      "address": "4 Bukit Manis Rd, Raffles Sentosa Singapore, Sentosa",
-      "url": "https://swedchamsg.glueup.com/event/womens-cross-chamber-aw-raffles-sentosa-144569/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaLOMkJ5rAnbINkLXH3J6xxWcfZzJv3BPjSu69HhdQXQ&s",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Run For Hope 2025",
-      "start": "Nov 23",
-      "end": "Sun, 23 Nov, 6:30 am – 11:59 pm",
-      "venue": "Marina Barrage",
-      "address": "8 Marina Gardens Dr, Marina Barrage",
-      "url": "https://www.runforhopesg.com/",
-      "image": "https://www.google.com/maps/vt/data=Hs4My5aR2_6BmKqA6OswtzbEzkOmlQ5O10Ft2GqK65sr3_nbi84BODyl2UtUFksfMC_ogCtVtXUGNd9Eu7D68BXc_lDQAwhizADoEoK_4-jgz-AepmY",
       "category": "family",
       "source": "serpapi_google_events"
     },
