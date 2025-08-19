@@ -31,7 +31,7 @@ const eventCatSel = document.getElementById('eventCat');
 
 let allPlaces = [];
 let featuredAttractions = [];
-let selectedType = (typeSel?.value || 'all');
+let selectedType = (typeSel?.value || 'all').toLowerCase();
 let allEventsData = [];
 let selectedEventCat = 'all';
 let heroMode = 'places';
