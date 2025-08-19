@@ -22,10 +22,13 @@ const heroPrev = document.getElementById('heroPrev');
 const heroNext = document.getElementById('heroNext');
 const heroEl = document.getElementById('hero');
 const scrollCue = document.querySelector('.scroll-cue');
-// NEW: pill link that opens the current attraction in Maps
+
+// NEW: hero title/subtitle + attraction pill
+const heroTitleEl = document.getElementById('heroTitle');
+const heroSubtitleEl = document.getElementById('heroSubtitle');
 const heroAttractionLink = document.getElementById('heroAttractionLink');
 
- // Events filter ref
+// Events filter ref
 const eventCatSel = document.getElementById('eventCat');
 
 let allPlaces = [];
@@ -34,8 +37,9 @@ let allEventsData = [];
 let selectedEventCat = 'all';
 
 // ===== Year-round attractions in the HERO =====
-const HERO_ATTR_LIMIT = 14; // show up to 14 slides
-let heroAttractions = [];   // keeps the list currently used in the hero
+const HERO_ATTR_LIMIT = 14;
+let heroAttractions = [];
+let heroIsAttractions = false; // <<< guard so fallback can't overwrite attractions
 
 async function loadAttractionsHero() {
   try {
@@ -43,19 +47,20 @@ async function loadAttractionsHero() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     const items = Array.isArray(data.attractions) ? data.attractions : [];
+    if (!items.length) return false;
     buildHeroFromAttractions(items, HERO_ATTR_LIMIT);
+    return true;
   } catch (e) {
-    console.warn('featured_attractions.json not available yet; leaving default hero.', e);
+    console.warn('featured_attractions.json not available; leaving default hero.', e);
+    return false;
   }
 }
 
-// Build URL to open in maps for an attraction
 function mapsUrlFor(a){
   return a.maps_url || a.url ||
     `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${a.name} ${a.address || 'Singapore'}`)}`;
 }
 
-// Update the pill (name + link) for the currently visible hero slide
 function updateHeroAttractionPill(i){
   if (!heroAttractionLink) return;
   if (!heroAttractions.length) { heroAttractionLink.classList.add('hidden'); return; }
@@ -69,9 +74,14 @@ function updateHeroAttractionPill(i){
 function buildHeroFromAttractions(attrs, limit = 12) {
   if (!heroSlidesEl) return;
   const picks = attrs.filter(a => a && a.image_url).slice(0, limit);
+  if (!picks.length) return;
 
-  // remember attractions for pill + click-through
+  heroIsAttractions = true; // <<< mark hero as attractions
   heroAttractions = picks;
+
+  // swap hero copy for “What’s On…”
+  if (heroTitleEl) heroTitleEl.innerHTML = `What’s On in <span class="brand">Singapore</span>`;
+  if (heroSubtitleEl) heroSubtitleEl.textContent = `Signature year-round attractions & family-friendly hits.`;
 
   // Slides
   heroSlidesEl.innerHTML = picks.map((a, i) =>
@@ -98,7 +108,7 @@ function buildHeroFromAttractions(attrs, limit = 12) {
   heroPrev?.addEventListener('click', () => showHero(heroIndex - 1, true));
   heroNext?.addEventListener('click', () => showHero(heroIndex + 1, true));
 
-  // click anywhere on the slide (except controls) → open maps
+  // click on slide → open Maps
   heroSlidesEl?.addEventListener('click', (e) => {
     const isControl = e.target.closest('.hs-arrow, .hs-dot, .nav-btn');
     if (isControl) return;
@@ -119,7 +129,6 @@ function buildHeroFromAttractions(attrs, limit = 12) {
     if (dir === 'right') showHero(heroIndex - 1, true);
   });
 
-  // show pill for slide 0
   updateHeroAttractionPill(0);
 }
 
@@ -145,8 +154,9 @@ async function loadPlaces() {
     const data = await res.json();
     allPlaces = Array.isArray(data.places) ? data.places : (Array.isArray(data) ? data : []);
 
-    // NOTE: hero will be replaced by attractions once they load
-    buildHeroSlider(allPlaces);
+    // Build fallback hero only if attractions didn't already claim it
+    if (!heroIsAttractions) buildHeroSlider(allPlaces);
+
     renderTopPicks(allPlaces);
     render();
   } catch (e) {
@@ -248,12 +258,18 @@ let heroIndex = 0, heroTimer = null, heroSlides = [];
 
 function buildHeroSlider(all){
   if (!heroSlidesEl) return;
+  if (heroIsAttractions) return; // <<< don't overwrite attractions hero
 
-  // fallback hero based on nearby places (will be replaced by attractions)
+  // fallback hero based on nearby places
   const picks = [...all]
     .filter(p => p.photo_url)
     .sort((a,b)=> topScore(b) - topScore(a))
     .slice(0, 6);
+
+  // fallback copy
+  if (heroTitleEl) heroTitleEl.innerHTML = `Explore Around <span class="brand">Amara</span>`;
+  if (heroSubtitleEl) heroSubtitleEl.textContent = `Handpicked nearby places for staff & guests near Tanjong Pagar.`;
+  heroAttractionLink?.classList.add('hidden');
 
   heroSlidesEl.innerHTML = picks.map((p, i) =>
     `<div class="hs-slide${i===0 ? ' is-active':''}" role="img" aria-label="${esc(p.name || '')}"
@@ -266,10 +282,6 @@ function buildHeroSlider(all){
     ).join('');
     [...heroDotsEl.children].forEach((dot, i)=> dot.addEventListener('click', ()=> showHero(i, true)));
   }
-
-  // since this is a PLACES fallback (not attractions), hide the pill
-  if (heroAttractionLink) heroAttractionLink.classList.add('hidden');
-  heroAttractions = [];
 
   heroSlides = [...heroSlidesEl.querySelectorAll('.hs-slide')];
   heroPrev?.addEventListener('click', ()=> showHero(heroIndex-1, true));
@@ -293,8 +305,7 @@ function showHero(nextIndex, userTriggered=false){
       d.setAttribute('aria-selected', i===heroIndex ? 'true':'false');
     });
   }
-  // keep the pill synced to the slide
-  updateHeroAttractionPill(heroIndex);
+  updateHeroAttractionPill(heroIndex); // keep pill synced
   if (userTriggered){ restartHeroAuto(); }
 }
 function startHeroAuto(){
@@ -351,7 +362,7 @@ function render(){
   let items = allPlaces.filter(p => {
     const r = num(p.rating);
     const passRating = Number.isFinite(r) ? r >= minR : true;
-    if (!p.photo_url) return false;           // photo required
+    if (!p.photo_url) return false;
     if (selectedType === 'hawker') return passRating && isHawker(p);
     if (isHawker(p)) return false;
     const tags = categorize(p);
@@ -360,7 +371,7 @@ function render(){
       (selectedType === 'restaurants' && tags.has('restaurants')) ||
       (selectedType === 'cafes' && tags.has('cafes')) ||
       (selectedType === 'bars' && tags.has('bars')) ||
-      (selectedType === 'bookstores' && tags.has('bookstores'));
+      (selectedType === 'bookstores') && tags.has('bookstores');
     return passRating && passType;
   });
 
@@ -398,7 +409,6 @@ function cardHtml(p){
 // utils
 const num = v => Number.isFinite(v) ? v : parseFloat(v);
 function esc(s=''){ return s.replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
-// safely stringify possible array/string/object for venue/address
 const toText = (v) => Array.isArray(v) ? v.filter(Boolean).join(', ')
   : (v && typeof v === 'object')
     ? (['name','address','line1','line2','city'].map(k => v[k]).filter(Boolean).join(', ') || String(v))
@@ -446,23 +456,19 @@ function renderEvents(events){
   const list = document.getElementById('eventList');
   if (!list) return;
 
-  // 1) category filter
   let items = events;
   if (selectedEventCat !== 'all') {
     items = items.filter(e => ((e.category || 'general') + '').toLowerCase() === selectedEventCat);
   }
 
-  // 2) cheap prefilter: has a non-empty image URL
   items = items.filter(e => typeof e.image === 'string' && e.image.trim().length > 0);
 
-  // 3) sort by start date
   const parseDate = d => (d && !isNaN(Date.parse(d))) ? new Date(d) : null;
   items.sort((a,b)=>{
     const A = parseDate(a.start), B = parseDate(b.start);
     if (!A) return 1; if (!B) return -1; return A - B;
   });
 
-  // 4) render
   list.innerHTML = items.slice(0,24).map(e=>`
     <article class="card">
       <div class="thumb-wrap">
@@ -480,7 +486,6 @@ function renderEvents(events){
   pruneBrokenEventImages(list);
 }
 
-// Remove event cards whose images 404 or load as tiny placeholders
 function pruneBrokenEventImages(root){
   root.querySelectorAll('img.event-img').forEach(img => {
     const removeCard = () => img.closest('article.card')?.remove();
@@ -496,13 +501,14 @@ function pruneBrokenEventImages(root){
   });
 }
 
-// Events category change -> re-render
 eventCatSel?.addEventListener('change', ()=>{
-  selectedEventCat = eventCatSel.value;     // 'all' | 'family' | 'music' | 'general'
+  selectedEventCat = eventCatSel.value;
   renderEvents(allEventsData);
 });
 
-// Boot
-loadEvents();
-loadPlaces();
-loadAttractionsHero(); // build hero from year-round attractions (overrides the fallback)
+// ---- Boot: try attractions first, then places + events
+(async () => {
+  const attractionsOK = await loadAttractionsHero();
+  await loadPlaces();   // fallback hero skipped if attractionsOK
+  await loadEvents();
+})();
