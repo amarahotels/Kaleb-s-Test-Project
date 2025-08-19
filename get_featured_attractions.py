@@ -1,4 +1,4 @@
-# get_featured_attractions.py  (Places API NEW)
+# get_featured_attractions.py  (Places API NEW – fixed radius)
 import os, json, requests
 from pathlib import Path
 from datetime import datetime
@@ -10,14 +10,12 @@ if not API_KEY:
 BASE = "https://places.googleapis.com/v1"
 HEADERS = {
     "X-Goog-Api-Key": API_KEY,
-    # Ask only for the fields we need
     "X-Goog-FieldMask": (
         "places.displayName,places.id,places.formattedAddress,"
         "places.location,places.googleMapsUri,places.photos"
     ),
 }
 
-# Curated, tourist staples
 QUERIES = [
     "Gardens by the Bay",
     "Flower Dome Gardens by the Bay",
@@ -32,7 +30,7 @@ QUERIES = [
     "Science Centre Singapore",
     "Jewel Changi Airport HSBC Rain Vortex",
     "Marina Bay Sands SkyPark Observation Deck",
-    "Sentosa"
+    "Sentosa",
 ]
 
 OUT_JSON = Path("public/data/featured_attractions.json")
@@ -41,9 +39,12 @@ OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
 def search_place(q: str):
     body = {
         "textQuery": f"{q}, Singapore",
-        # Small bias so we stay in SG
+        "regionCode": "SG",
         "locationBias": {
-            "circle": {"center": {"latitude": 1.3521, "longitude": 103.8198}, "radius": 60000}
+            "circle": {
+                "center": {"latitude": 1.3521, "longitude": 103.8198},
+                "radius": 50000  # <= 50,000 required
+            }
         },
     }
     r = requests.post(f"{BASE}/places:searchText", json=body, headers=HEADERS, timeout=30)
@@ -53,12 +54,9 @@ def search_place(q: str):
 
 def photo_media_url(place: dict) -> str | None:
     photos = place.get("photos") or []
-    if not photos:
-        return None
-    # New API: use the Photo.name in the media URL
-    name = photos[0].get("name")  # e.g. 'places/ChIJ.../photos/ATtYBw...'
-    if not name:
-        return None
+    if not photos: return None
+    name = photos[0].get("name")
+    if not name: return None
     return f"{BASE}/{name}/media?maxHeightPx=640&key={API_KEY}"
 
 def normalize(p: dict):
@@ -83,18 +81,14 @@ def main():
             if not p:
                 print(f"  ⚠️ No result for {q}")
                 continue
-            norm = normalize(p)
-            results.append(norm)
-            print(f"  ✅ {q} → {norm['title']}")
+            results.append(normalize(p))
+            print(f"  ✅ Found: {q}")
         except requests.HTTPError as e:
             print(f"  ❌ HTTP error for {q}: {e.response.text[:200]}")
         except Exception as e:
             print(f"  ❌ {q}: {e}")
 
-    payload = {
-        "generated_at": datetime.utcnow().isoformat() + "Z",
-        "attractions": results,
-    }
+    payload = {"generated_at": datetime.utcnow().isoformat() + "Z", "attractions": results}
     OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"✅ Saved {len(results)} attractions to {OUT_JSON}")
 
