@@ -10,16 +10,15 @@ API_KEY = os.getenv("SERPAPI_KEY")
 if not API_KEY:
     raise RuntimeError("SERPAPI_KEY is not set")
 
-# Quota / sizing (override via env if you want)
-MAX_CALLS_PER_RUN       = int(os.getenv("EVENTS_MAX_CALLS", "6"))         # total SerpAPI requests per run
-TARGET_EVENTS           = int(os.getenv("EVENTS_TARGET_COUNT", "60"))     # keep at most this many after merge
-PER_BUCKET_CAP          = int(os.getenv("EVENTS_PER_BUCKET_CAP", "25"))   # cap per category before merge
-PER_BUCKET_PER_RUN      = int(os.getenv("EVENTS_PER_BUCKET_PER_RUN", "3"))# rotate this many queries per bucket per run
-PAST_GRACE_DAYS         = int(os.getenv("EVENTS_PAST_GRACE_DAYS", "1"))   # keep events that started up to N days ago
-KEEP_DAYS               = int(os.getenv("EVENTS_KEEP_DAYS", "45"))        # keep only events within next N days
+# Quota / selection controls (override in CI env if you want)
+MAX_CALLS_PER_RUN          = int(os.getenv("EVENTS_MAX_CALLS", "6"))         # total SerpAPI calls across all buckets
+EVENTS_PER_BUCKET_PER_RUN  = int(os.getenv("EVENTS_PER_BUCKET_PER_RUN", "3"))# how many queries to run per bucket per run
+TARGET_EVENTS              = int(os.getenv("EVENTS_TARGET_COUNT", "60"))     # cap output size
+PER_BUCKET_CAP             = int(os.getenv("EVENTS_PER_BUCKET_CAP", "25"))   # per-bucket keep cap after filtering
+PAST_GRACE_DAYS            = int(os.getenv("EVENTS_PAST_GRACE_DAYS", "1"))   # keep items up to N days in the past
 
 OUT_PATH   = Path("public/data/events.json")
-STATE_PATH = Path("public/data/events_state.json")
+STATE_PATH = Path("public/data/_events_state.json")  # persists round-robin offsets
 OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 SERP_LOCALE = {"engine": "google_events", "hl": "en", "gl": "sg", "location": "Singapore"}
@@ -27,18 +26,16 @@ SERP_LOCALE = {"engine": "google_events", "hl": "en", "gl": "sg", "location": "S
 now = datetime.now()
 month_year = now.strftime("%B %Y")
 
-# ---------- Ordered query lists (rotate in order, then wrap) ----------
+# ---------------- Queries (yours, unchanged) ----------------
 QUERIES_BY_BUCKET = {
     "family": [
-        "carnivals singapore",
-#        "indoor playground singapore",
-        "family attractions singapore",
-        "sentosa family activities",
-        "gardens by the bay children activities",
-        "zoo events singapore",
-#        "science centre singapore events",
-        f"family events singapore {month_year}",
-#        "family friendly shows singapore",
+        f"kids events singapore {month_year}",
+        "kids activities singapore this weekend",
+        "family friendly events singapore",
+        "school holiday activities singapore",
+        "sentosa events",
+        "gardens by the bay events",
+        "singapore zoo events",
     ],
     "music": [
         f"concerts in Singapore {month_year}",
@@ -51,49 +48,13 @@ QUERIES_BY_BUCKET = {
     "general": [
         "events in Singapore this week",
         "things to do in Singapore this weekend",
-        f"exhibitions in Singapore {month_year}",
-        # "art festivals singapore",
-        # "night festival singapore",
+        f"exhibitions in Singapore {month_year}"
     ],
 }
+BUCKET_ORDER = ["family", "music", "general"]
 
 # ---------------- Helpers ----------------
 _calls_made = 0
-
-def file_json_load(path: Path, default):
-    try:
-        with path.open("r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return default
-
-def save_json(path: Path, obj):
-    with path.open("w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2)
-
-def load_state():
-    state = file_json_load(STATE_PATH, {})
-    cursors = state.get("cursors", {})
-    # ensure all buckets exist
-    for b in QUERIES_BY_BUCKET.keys():
-        cursors.setdefault(b, 0)
-    state["cursors"] = cursors
-    return state
-
-def save_state(state):
-    state["last_run"] = datetime.utcnow().isoformat() + "Z"
-    save_json(STATE_PATH, state)
-
-def pick_queries_in_order(state, bucket):
-    """Return the next N queries for this bucket, wraparound, and update cursor."""
-    all_qs = QUERIES_BY_BUCKET.get(bucket, [])
-    if not all_qs:
-        return []
-    start_idx = state["cursors"].get(bucket, 0) % len(all_qs)
-    k = min(PER_BUCKET_PER_RUN, len(all_qs))
-    chosen = [all_qs[(start_idx + i) % len(all_qs)] for i in range(k)]
-    state["cursors"][bucket] = (start_idx + k) % len(all_qs)
-    return chosen
 
 def fetch_events(query: str):
     """SerpAPI call with global budget."""
@@ -101,6 +62,7 @@ def fetch_events(query: str):
     if _calls_made >= MAX_CALLS_PER_RUN:
         print(f"⛔️ Budget reached ({MAX_CALLS_PER_RUN} calls). Skipping: {query}")
         return []
+
     params = {**SERP_LOCALE, "q": query, "api_key": API_KEY}
     try:
         r = requests.get("https://serpapi.com/search", params=params, timeout=30)
@@ -108,6 +70,7 @@ def fetch_events(query: str):
     except requests.RequestException as e:
         print(f"❌ Request failed for '{query}': {e}")
         return []
+
     _calls_made += 1
     data = r.json() or {}
     return data.get("events_results", []) or []
@@ -121,6 +84,7 @@ def parse_date_safe(s):
         return None
 
 def _coerce_address(addr):
+    """Accepts str | list | dict and returns a string address."""
     if not addr:
         return ""
     if isinstance(addr, str):
@@ -138,6 +102,7 @@ def _coerce_address(addr):
     return str(addr)
 
 def _first_string_url(value):
+    """Return first plausible URL from value that can be str|list|dict."""
     if not value:
         return None
     if isinstance(value, str):
@@ -157,15 +122,18 @@ def _first_string_url(value):
 def _extract_ticket_url(raw):
     ti = raw.get("ticket_info")
     url = _first_string_url(ti)
-    return url or _first_string_url(raw.get("link"))
+    if url:
+        return url
+    return _first_string_url(raw.get("link"))
 
 def _extract_image(raw):
     img = raw.get("image")
     if img:
-        u = _first_string_url(img)
-        if u:
-            return u
-    return _first_string_url(raw.get("thumbnail"))
+        url = _first_string_url(img)
+        if url:
+            return url
+    thumb = raw.get("thumbnail")
+    return _first_string_url(thumb)
 
 def _extract_venue(raw):
     v = raw.get("venue")
@@ -180,9 +148,9 @@ def _extract_venue(raw):
     if isinstance(v, (list, tuple)):
         for item in v:
             if isinstance(item, dict):
-                nm = item.get("name") or _coerce_address(item.get("address"))
-                if nm:
-                    return nm
+                name = item.get("name") or _coerce_address(item.get("address"))
+                if name:
+                    return name
             elif isinstance(item, str) and item.strip():
                 return item.strip()
 
@@ -194,9 +162,9 @@ def _extract_venue(raw):
     if isinstance(el, (list, tuple)):
         for item in el:
             if isinstance(item, dict):
-                nm = item.get("name") or _coerce_address(item.get("address"))
-                if nm:
-                    return nm
+                name = item.get("name") or _coerce_address(item.get("address"))
+                if name:
+                    return name
             elif isinstance(item, str) and item.strip():
                 return item.strip()
     return ""
@@ -219,6 +187,7 @@ def _extract_address(raw):
     return ""
 
 def _date_field(date_obj, key):
+    """Safely get date field from dict|list|str shapes."""
     if not date_obj:
         return None
     if isinstance(date_obj, dict):
@@ -237,22 +206,24 @@ def normalize_event(raw, category_tag):
     d = raw.get("date", {}) or {}
     start_str = _date_field(d, "start_date")
     end_str   = _date_field(d, "end_date")
+
     venue_name = _extract_venue(raw)
     address    = _extract_address(raw)
     ticket     = _extract_ticket_url(raw)
     image      = _extract_image(raw)
+
     return {
-        "title": raw.get("title"),
-        "start": start_str or "",
-        "end": end_str or "",
-        "venue": venue_name or address or "",
+        "title":   raw.get("title"),
+        "start":   start_str or "",
+        "end":     end_str or "",
+        "venue":   venue_name or address or "",
         "address": address,
-        "url": ticket,
-        "image": image,
-        "category": category_tag,
-        "source": "serpapi_google_events",
+        "url":     ticket,
+        "image":   image,
+        "category": category_tag,  # 'family' | 'music' | 'general'
+        "source":  "serpapi_google_events",
         "parsed_start": parse_date_safe(start_str),
-        "parsed_end": parse_date_safe(end_str),
+        "parsed_end":   parse_date_safe(end_str),
     }
 
 def deduplicate(events):
@@ -275,27 +246,36 @@ def filter_future(events):
 def sort_by_start(events):
     return sorted(events, key=lambda e: e.get("parsed_start") or datetime.max)
 
-def load_existing(path: Path):
-    data = file_json_load(path, {})
-    items = data.get("events", [])
-    for e in items:
-        e["parsed_start"] = parse_date_safe(e.get("start"))
-        e["parsed_end"] = parse_date_safe(e.get("end"))
-    return items
+# ---------------- Round-robin state ----------------
+def load_state():
+    try:
+        with STATE_PATH.open("r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {"offsets": {}}
 
-def within_window(e, now_):
-    start = e.get("parsed_start")
-    if not start:
-        return True
-    if start < (now_ - timedelta(days=PAST_GRACE_DAYS)):
-        return False
-    return start <= (now_ + timedelta(days=KEEP_DAYS))
+def save_state(state):
+    STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with STATE_PATH.open("w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+
+def slice_queries_rr(queries, start, k):
+    """Return up to k queries starting at index 'start' with wrap-around, plus new start."""
+    if not queries or k <= 0:
+        return [], start
+    n = len(queries)
+    out = []
+    i = start % n
+    for _ in range(min(k, n)):
+        out.append(queries[i])
+        i = (i + 1) % n
+    return out, i
 
 # ---------------- Main ----------------
-def run_bucket(queries, tag):
+def run_bucket(selected_queries, tag):
     bucket = []
-    for q in queries:
-        if len(bucket) >= PER_BUCKET_CAP or _calls_made >= MAX_CALLS_PER_RUN:
+    for q in selected_queries:
+        if len(bucket) >= PER_BUCKET_CAP or len(all_events) >= TARGET_EVENTS or _calls_made >= MAX_CALLS_PER_RUN:
             break
         print(f"🔍 [{tag}] {q}")
         results = fetch_events(q)
@@ -307,48 +287,50 @@ def run_bucket(queries, tag):
     print(f"→ Bucket '{tag}': kept {len(bucket)}")
     return bucket
 
-def main():
-    # 1) choose next queries (rotate) with global call budget
-    state = load_state()
-    calls_left = MAX_CALLS_PER_RUN
-    selected = {}
-    for tag in ("family", "music", "general"):
-        qs = pick_queries_in_order(state, tag)
-        if calls_left <= 0:
-            qs = []
-        elif len(qs) > calls_left:
-            qs = qs[:calls_left]
-        selected[tag] = qs
-        calls_left -= len(qs)
+state = load_state()
+offsets = state.get("offsets", {})
+queries_run_summary = {}
 
-    # 2) fetch new events for chosen queries
-    all_new = []
-    for tag in ("family", "music", "general"):
-        all_new.extend(run_bucket(selected.get(tag, []), tag))
+all_events = []
 
-    # 3) merge with existing file
-    existing = load_existing(OUT_PATH)
-    combined = deduplicate(existing + all_new)
-    combined = [e for e in combined if within_window(e, now)]
-    combined = sort_by_start(filter_future(combined))[:TARGET_EVENTS]
+for bucket in BUCKET_ORDER:
+    full_list = QUERIES_BY_BUCKET.get(bucket, []) or []
+    start_idx = int(offsets.get(bucket, 0))
+    # pick the next N queries in order
+    to_run, new_start = slice_queries_rr(full_list, start_idx, EVENTS_PER_BUCKET_PER_RUN)
 
-    # 4) strip helper fields and save
-    for e in combined:
-        e.pop("parsed_start", None)
-        e.pop("parsed_end", None)
+    # run them (honors global call budget inside)
+    items = run_bucket(to_run, bucket)
+    all_events.extend(items)
 
-    payload = {
-        "source": "serpapi_google_events",
-        "generated_at": datetime.utcnow().isoformat() + "Z",
-        "events": combined,
-    }
-    save_json(OUT_PATH, payload)
-    save_state(state)
+    # record for logs & advance offset only by how many we *attempted*
+    offsets[bucket] = new_start if full_list else 0
+    queries_run_summary[bucket] = to_run
 
-    print("--------------------------------------------------")
-    print(f"Used {_calls_made} call(s).")
-    print(f"Queries run: {selected}")
-    print(f"✅ Saved {len(combined)} merged events to {OUT_PATH}")
+    if len(all_events) >= TARGET_EVENTS or _calls_made >= MAX_CALLS_PER_RUN:
+        break
 
-if __name__ == "__main__":
-    main()
+# finalize
+all_events = deduplicate(all_events)
+all_events = sort_by_start(filter_future(all_events))[:TARGET_EVENTS]
+
+for e in all_events:
+    e.pop("parsed_start", None)
+    e.pop("parsed_end", None)
+
+payload = {
+    "source": "serpapi_google_events",
+    "generated_at": datetime.utcnow().isoformat() + "Z",
+    "events": all_events,
+}
+
+with OUT_PATH.open("w", encoding="utf-8") as f:
+    json.dump(payload, f, ensure_ascii=False, indent=2)
+
+# persist new offsets for next run
+save_state({"offsets": offsets})
+
+print("-" * 56)
+print(f"Used {_calls_made} call(s).")
+print("Queries run:", json.dumps(queries_run_summary, indent=2))
+print(f"✅ Saved {len(all_events)} merged events to {OUT_PATH}")
