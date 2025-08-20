@@ -1,49 +1,16 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-19T16:23:51.122358Z",
+  "generated_at": "2025-08-20T01:13:26.247938Z",
   "events": [
     {
       "title": "Relax & Recharge at Chinatown – The Perfect Tourist Pit Stop ✨",
-      "start": "Aug 19",
+      "start": "Aug 20",
       "end": "12 Aug, 2:00 pm – 19 Aug, 4:00 pm",
       "venue": "People's Park Centre",
       "address": "101 Upper Cross St, People's Park Centre",
       "url": "https://www.meetup.com/healing-jinshunli/",
       "image": "https://www.google.com/maps/vt/data=wieSmMQVUS_hGCpvoKe-vl5a1E1lrXKp2cgbf-6VwF2yGU7aSK_EJh0owmWHxl4gwKnrH_VO3yArc3wbBo9wL2t1r66Auu0hIu6W-lQ7ZUKfGaRYHx8",
       "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Singapore‘s First Dunhuang Dance week",
-      "start": "Aug 19",
-      "end": "Tue, 19 Aug, 2:00 am – Thu, 21 Aug, 1:00 pm",
-      "venue": "5 Sennett Rd, Singapore",
-      "address": "5 Sennett Rd, Singapore",
-      "url": "https://www.eventbrite.sg/poi/singapore--singapore/bedok-jetty--6HJ0b/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfL_2brbh_huBQG6TcC5CKC25v5T26ZpQrIJWHRKhhXg&s",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "orchids-extravaganza-2025 | Gardens by the Bay",
-      "start": "Aug 19",
-      "end": "1 Aug, 12:00 am – 31 Aug, 12:00 am",
-      "venue": "Flower Dome",
-      "address": "18 Marina Gardens Dr, Flower Dome, Singapore",
-      "url": "https://uk.trip.com/events/orchidsextravaganza2025-20250226/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rITbWjeW-XhVK7ziM7djrzSygOPVQUrE0Mx6HDgztg&s",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "City In Session | New Bahru | Things to do in Singapore",
-      "start": "Aug 19",
-      "end": "9 Aug, 12:00 am – 31 Aug, 12:00 am",
-      "venue": "New Bahru",
-      "address": "46 Kim Yam Rd, New Bahru",
-      "url": "https://www.timeout.com/singapore/things-to-do/city-in-session",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vrxIuXPmLgyVkfvTEn69XFK_AOsS3-v0rtDqhLqH2A&s=10",
-      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -60,12 +27,45 @@
     {
       "title": "Beach Weather",
       "start": "Aug 20",
-      "end": "Wed, 20 Aug, 7:00 pm – Thu, 21 Aug, 1:00 am",
+      "end": "Wed, 20 Aug, 7:00 – 10:00 pm",
       "venue": "Capitol Theatre",
       "address": "17 Stamford Rd, Capitol Theatre, Singapore",
       "url": "https://open.spotify.com/concert/47c2BSGHg4Gda9UgwgDV84",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-iccyz_KTzdcwkW6l1ah9mEr73RCa2nJIwTcbNnarYhN-_HMVKqTSv-x6QQ&s=10",
       "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Singapore‘s First Dunhuang Dance week",
+      "start": "Aug 20",
+      "end": "Tue, 19 Aug, 2:00 am – Thu, 21 Aug, 1:00 pm",
+      "venue": "5 Sennett Rd, Singapore",
+      "address": "5 Sennett Rd, Singapore",
+      "url": "https://www.eventbrite.sg/poi/singapore--singapore/bedok-jetty--6HJ0b/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfL_2brbh_huBQG6TcC5CKC25v5T26ZpQrIJWHRKhhXg&s",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "orchids-extravaganza-2025 | Gardens by the Bay",
+      "start": "Aug 20",
+      "end": "1 Aug, 12:00 am – 31 Aug, 12:00 am",
+      "venue": "Flower Dome",
+      "address": "18 Marina Gardens Dr, Flower Dome, Singapore",
+      "url": "https://uk.trip.com/events/orchidsextravaganza2025-20250226/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rITbWjeW-XhVK7ziM7djrzSygOPVQUrE0Mx6HDgztg&s",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "City In Session | New Bahru | Things to do in Singapore",
+      "start": "Aug 20",
+      "end": "9 Aug, 12:00 am – 31 Aug, 12:00 am",
+      "venue": "New Bahru",
+      "address": "46 Kim Yam Rd, New Bahru",
+      "url": "https://www.timeout.com/singapore/things-to-do/city-in-session",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vrxIuXPmLgyVkfvTEn69XFK_AOsS3-v0rtDqhLqH2A&s=10",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -190,6 +190,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Weekend Hangout at Sentosa",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 9:00 am – 12:00 pm",
+      "venue": "Little Farms Market, Sentosa (Grocery store)",
+      "address": "1 Cove Ave, #02-13 Little Farms Market, Sentosa (Grocery store), Sentosa",
+      "url": "https://www.eventbrite.sg/e/weekend-hangout-at-sentosa-tickets-1574806752389",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvtevRUpNs6lgr9uHE7-ZiQ5Zqp0e-I94qAs6-C_ns0w&s",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Monster Jaw",
       "start": "Aug 23",
       "end": "Sat, 23 Aug, 6:00 – 10:00 pm",
@@ -197,17 +208,6 @@
       "address": "1 Stadium Dr, National Stadium",
       "url": "https://open.spotify.com/concert/2vWa6ObqU8cAtoqJEFc0Rg",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdIAs9hES18wRV7mgvG02zhJrAKR6Tc3LHkwWZuojafA&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "KONSERT IRAMA PERJUANGAN [G]",
-      "start": "Aug 23",
-      "end": "Sat, 23 Aug, 8:00 pm",
-      "venue": "The Theatre at Mediacorp",
-      "address": "1 Stars Ave, The Theatre at Mediacorp",
-      "url": "https://www.stubhub.com/irama-singapore-tickets-8-23-2025/event/158403293/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5vLyW7YnHcMyAMprii9VQ2vcGlmjrQTOJDVvV4ujcrIj3WHO_1z4_e3jSw&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -307,17 +307,6 @@
       "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
       "url": "https://www.eventbrite.sg/e/vos-festival-2025-community-festival-chorus-registration-1349487606759",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZRi62lfYUdUYhS2Iq5lrRHpiosRc12zAiAIopeYnng&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "WATERBOMB SINGAPORE 2025",
-      "start": "Aug 30",
-      "end": "Sat, 30 Aug – Sun, 31 Aug",
-      "venue": "Siloso beach Sentosa",
-      "address": "Siloso Bch Walk, Siloso beach Sentosa",
-      "url": "https://ahboy.com/event/waterbomb-singapore-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzGEZk3BBPNtN0K9Q6vobBN17-mJMudYmeZu1RHGmgzSTM4grx4YCZzVvChq07&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -451,6 +440,17 @@
       "url": "https://greenwoodfishmarket.com/event/22nd-anniversary-gala-2025-sentosa/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWsRjCQzPjRJ4CV3Vo_bDFJsogInxB8jQCUHXSPXt08A&s=10",
       "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "ZoukOut 2018",
+      "start": "Dec 1",
+      "end": "Mon, 1 Dec, 6:00 pm – Tue, 2 Dec, 8:00 am",
+      "venue": "51 Imbiah Walk, Zoukout",
+      "address": "51 Imbiah Walk, Zoukout",
+      "url": "https://radseason.com/event/zoukout-sentosa-singapore/",
+      "image": "https://www.google.com/maps/vt/data=xKvA7BStXPIOaPzuEqVJxVQpG12C8KGTGvUlgakT8CWyNIL6PLCWhHfTcV2MW2dYRAi9J_ZWSIgK6M5hd4RexSgfcrHDbawqeWtB8Xw5pNz8JOjjcKo",
+      "category": "music",
       "source": "serpapi_google_events"
     }
   ]
