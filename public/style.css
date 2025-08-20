@@ -16,7 +16,7 @@
   /* Header + logo */
   --header-h:80px;            /* phones/tablets */
   --logo-min:56px;            /* phone logo */
-  --logo-max:132px;           /* desktop cap */
+  --logo-max:117px;           /* desktop cap */
 
   /* Hero heights (never 100%) */
   --hero-h-s:78svh;           /* phones */
@@ -108,6 +108,43 @@ body::after{
   #siteHeader .site-logo{ justify-self:start; }
   #siteHeader .site-nav{ justify-self:end; gap:14px; }
 }
+
+/* ===== Desktop/laptop: bigger navbar + bigger nav text ===== */
+@media (min-width:1024px){
+  /* Taller bar + allow a slightly bigger logo on large screens */
+  :root{
+    --header-h: 112px;   /* was 100px */
+    --logo-max: 132px;   /* keep or raise if you want the logo even larger */
+  }
+
+  /* Give the header a bit more breathing room */
+  #siteHeader .header-inner{
+    padding-block: 10px;   /* adds vertical space inside the bar */
+    gap: 24px;             /* more space between zones */
+  }
+
+  /* Left label: "AMARA EXPLORE" — larger only on desktop */
+  .brand-mini{
+    font-size: clamp(14px, 0.95vw, 18px);   /* was 13px */
+    letter-spacing: .16em;                  /* a touch more premium spacing */
+  }
+
+  /* Right links: Places / Events — larger only on desktop */
+  #siteHeader .site-nav .nav-link{
+    font-size: clamp(14px, 0.95vw, 18px);   /* scales nicely on big screens */
+    font-weight: 700;                        /* optional: a bit bolder */
+  }
+}
+
+/* Optional: extra-large desktops (1440px+) */
+@media (min-width:1440px){
+  :root{
+    --header-h: 120px;  /* even taller if you like */
+    --logo-max: 140px;  /* allow the centered logo to grow more */
+  }
+}
+
+
 
 /* ===== Hero slider (never 100%) ===== */
 .hero-slider{
