@@ -29,6 +29,9 @@ const scrollCue = document.querySelector('.scroll-cue');
 const heroAttractionLink = document.getElementById('heroAttractionLink');
 const eventCatSel = document.getElementById('eventCat');
 
+// Auto-close filters on small screens (matches your CSS breakpoint)
+const mqlMobile = window.matchMedia('(max-width: 639px)');
+
 let allPlaces = [];
 let featuredAttractions = [];
 let selectedType = (typeSel?.value || 'all').toLowerCase();
@@ -401,6 +404,17 @@ function cardHtml(p){
   `;
 }
 
+function autoCloseFiltersIfMobile(panel) {
+  if (!mqlMobile.matches) return;                  // only on phones
+  const body   = panel.querySelector('.filters-body');
+  const toggle = panel.querySelector('.filters-toggle');
+  if (!body) return;
+  if (getComputedStyle(body).display !== 'none') { // only if open
+    if (toggle) toggle.click();                    // keeps label/ARIA in sync
+    else body.style.display = 'none';
+  }
+}
+
 // utils
 const num = v => Number.isFinite(v) ? v : parseFloat(v);
 function esc(s=''){ return s.replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
@@ -580,6 +594,14 @@ document.querySelectorAll('.nav-btn').forEach(btn=>{
     });
 
     mql.addEventListener?.('change', e => setOpen(e.matches));
+
+    // Close after a user makes a selection on mobile
+    body.addEventListener('change', (ev) => {
+      if (!ev.target.matches('select, input, textarea')) return;
+      // let the change apply, then close
+      setTimeout(() => autoCloseFiltersIfMobile(panel), 50);
+    });
+
   }
 
   document.querySelectorAll('.filters-panel').forEach(wirePanel);
@@ -589,6 +611,11 @@ document.querySelectorAll('.nav-btn').forEach(btn=>{
 function handlePlacesFilters() {
   selectedType = (typeSel?.value || 'all').toLowerCase();
   render();
+
+  // Auto-close if a filter changed via these controls on mobile
+  document.querySelectorAll('.filters-panel')
+    .forEach(p => autoCloseFiltersIfMobile(p));
+
 }
 
 typeSel?.addEventListener('change', handlePlacesFilters);

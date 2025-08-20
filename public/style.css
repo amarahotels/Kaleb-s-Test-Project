@@ -140,7 +140,7 @@ body::after{
 @media (min-width:1440px){
   :root{
     --header-h: 120px;  /* even taller if you like */
-    --logo-max: 140px;  /* allow the centered logo to grow more */
+    --logo-max: 110px;  /* allow the centered logo to grow more */
   }
 }
 
