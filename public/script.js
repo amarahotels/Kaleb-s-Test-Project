@@ -502,17 +502,21 @@ document.querySelectorAll('.nav-btn').forEach(btn=>{
 
     placesSec.classList.toggle('hidden', isEvents);
     eventsSec.classList.toggle('hidden', !isEvents);
-    topSection?.classList.toggle('hidden', isEvents); // hide Top picks on Events
+    topSection?.classList.toggle('hidden', isEvents);
 
     if (isEvents) {
       if (!featuredAttractions.length) await loadAttractions();
       if (featuredAttractions.length) buildEventsHero(featuredAttractions);
-      else buildHeroFromPlaces(allPlaces); // graceful fallback
+      else buildHeroFromPlaces(allPlaces);
     } else {
       buildHeroFromPlaces(allPlaces);
     }
+
+    // NEW: jump to very top after the swap
+    requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'smooth' }));
   });
 });
+
 
 /* ===== Smart sticky header ===== */
 (function initSmartHeader(){
