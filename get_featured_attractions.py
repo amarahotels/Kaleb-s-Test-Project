@@ -17,19 +17,18 @@ HEADERS = {
 }
 
 QUERIES = [
-    "Gardens by the Bay",
     "Flower Dome Gardens by the Bay",
+    "Bird Paradise Singapore",
+    "S.E.A. Aquarium",
+    "Gardens by the Bay",
+    "Jewel Changi Airport HSBC Rain Vortex",
+    "Universal Studios Singapore",
     "Cloud Forest Gardens by the Bay",
     "ArtScience Museum",
     "Singapore Zoo",
     "Night Safari",
     "River Wonders",
-    "Bird Paradise Singapore",
-    "Universal Studios Singapore",
-    "S.E.A. Aquarium",
     "Science Centre Singapore",
-    "Jewel Changi Airport HSBC Rain Vortex",
-    "Marina Bay Sands SkyPark Observation Deck",
     "Sentosa",
 ]
 

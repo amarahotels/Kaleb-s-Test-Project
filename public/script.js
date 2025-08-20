@@ -632,6 +632,3 @@ sortSel?.addEventListener('change', handlePlacesFilters);
 loadAttractions();   // prefetch for snappy swap
 loadEvents();
 loadPlaces();
-
-// tiny version marker
-console.info("script.js events-hero fix v2");
