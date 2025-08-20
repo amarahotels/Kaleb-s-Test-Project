@@ -24,7 +24,12 @@
 
   /* Header */
   --header-h: 64px;
+
+  --logo-h: 30px;
 }
+
+@media (min-width:640px){ :root{ --logo-h: 36px; } }
+@media (min-width:1024px){ :root{ --logo-h: 44px; } }
 
 *{ box-sizing:border-box }
 html,body{
@@ -105,7 +110,7 @@ body::after{
 
 /* Center logo (two versions for swap) */
 .site-logo{ justify-self:center; display:inline-flex; align-items:center; height:100%; }
-.site-logo img{ height:28px; width:auto; display:block; }
+.site-logo img{ height: var(--logo-h); width:auto; display:block; }
 .site-logo .logo-dark{ display:none; }             /* transparent header -> light logo */
 #siteHeader.header--solid .logo-light{ display:none; }
 #siteHeader.header--solid .logo-dark{ display:block; }
@@ -127,30 +132,37 @@ body::after{
   color:#111827;
 }
 
-/* =================== Hero slider (base) =================== */
+/* =================== Hero slider (full viewport everywhere) =================== */
 .hero-slider{
   position: relative;
 
-  /* Height */
-  height: 80vh;
-  min-height: 520px;
-  max-height: 760px;
+  /* edge-to-edge and full height on all screens */
+  width: 100vw;
+  max-width: none;
+  margin: 0;
 
-  /* Width & centering */
-  width: 95vw;
-  max-width: var(--wrap-max, 1280px);
-  margin-inline: auto;
+  height: 100vh;              /* fallback */
+  max-height: none;
+  min-height: 480px;          /* safety floor for short viewports */
 
   overflow: hidden;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 0;
   background: #0f0f0f;
 
   touch-action: pan-y;
   -ms-touch-action: pan-y;
 }
+
+/* prefer static viewport unit on older iOS */
 @supports (height: 100svh){
-  .hero-slider{ height: 80svh; }
+  .hero-slider{ height: 100svh; }
 }
+
+/* prefer dynamic viewport on modern mobile (responds to URL bar) */
+@supports (height: 100dvh){
+  .hero-slider{ height: 100dvh; }
+}
+
 
 /* Make the top of the hero darker under the header (premium feel) */
 .hero-slider::before{
