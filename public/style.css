@@ -264,6 +264,24 @@ body::after{
   #topPicks .carousel{ padding: 0; }
 }
 
+/* XL screens: widen overlay + make cards taller */
+@media (min-width: 1440px){
+  .top-picks-overlay{ width: min(1400px, 92vw); }
+  .top-picks-overlay .slide .thumb{ height: 260px; }
+}
+
+/* 2XL screens: even wider/taller */
+@media (min-width: 1800px){
+  .top-picks-overlay{ width: min(1650px, 94vw); }
+  .top-picks-overlay .slide .thumb{ height: 300px; }
+}
+
+/* Optional: on very large screens show ~4 cards across instead of 3 */
+@media (min-width: 1800px){
+  .top-picks-overlay .carousel-track{ grid-auto-columns: 25%; }
+}
+
+
 
 /* =================== Sections =================== */
 .section{ padding:30px 0 }
