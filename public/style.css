@@ -16,7 +16,7 @@
   /* Header + logo */
   --header-h:80px;            /* phones/tablets */
   --logo-min:56px;            /* phone logo */
-  --logo-max:117px;           /* desktop cap */
+  --logo-max:120px;           /* desktop cap */
 
   /* Hero heights (never 100%) */
   --hero-h-s:78svh;           /* phones */
