@@ -22,14 +22,21 @@
   --ring:#e5e7eb;
   --shadow:0 10px 25px rgba(0,0,0,.08);
 
-  /* Header */
-  --header-h: 64px;
+  /* Header + logo (bigger everywhere) */
+  --header-h: 72px;          /* base header height (phones/tablets) */
+  --logo-min: 48px;          /* phone logo size */
+  --logo-max: 96px;          /* desktop logo cap */
 
-  --logo-h: 30px;
+  /* Hero heights (never 100%) */
+  --hero-h-s: 78svh;         /* phones */
+  --hero-h-m: 82svh;         /* tablets */
+  --hero-h-l: 88svh;         /* desktops */
 }
 
-@media (min-width:640px){ :root{ --logo-h: 36px; } }
-@media (min-width:1024px){ :root{ --logo-h: 44px; } }
+/* Slightly taller header on big screens for the larger logo */
+@media (min-width:1024px){
+  :root{ --header-h: 84px; }
+}
 
 *{ box-sizing:border-box }
 html,body{
@@ -101,16 +108,19 @@ body::after{
   width:100%; max-width:1200px; margin:0 auto; padding:0 16px;
 }
 
-/* Left mini brand (edit text in HTML) */
+/* Left mini brand */
 .brand-mini{
   justify-self:start;
   font-weight:800; letter-spacing:.12em; text-transform:uppercase;
   font-size:13px; opacity:.95; text-decoration:none; color:inherit;
 }
 
-/* Center logo (two versions for swap) */
+/* Center logo (scales aggressively) */
 .site-logo{ justify-self:center; display:inline-flex; align-items:center; height:100%; }
-.site-logo img{ height: var(--logo-h); width:auto; display:block; }
+.site-logo img{
+  height: clamp(var(--logo-min), 6vw, var(--logo-max));   /* BIGGER on all screens */
+  width:auto; display:block; transition:height .2s ease;
+}
 .site-logo .logo-dark{ display:none; }             /* transparent header -> light logo */
 #siteHeader.header--solid .logo-light{ display:none; }
 #siteHeader.header--solid .logo-dark{ display:block; }
@@ -132,37 +142,41 @@ body::after{
   color:#111827;
 }
 
-/* =================== Hero slider (full viewport everywhere) =================== */
+/* =================== Hero slider (NEVER 100% height) =================== */
 .hero-slider{
   position: relative;
 
-  /* edge-to-edge and full height on all screens */
+  /* Edge-to-edge full width */
   width: 100vw;
   max-width: none;
   margin: 0;
 
-  height: 100vh;              /* fallback */
+  /* Height by breakpoint (always shows a hint of the next section) */
+  height: var(--hero-h-s);      /* phones */
+  min-height: 480px;
   max-height: none;
-  min-height: 480px;          /* safety floor for short viewports */
 
   overflow: hidden;
   border-bottom: 0;
   background: #0f0f0f;
 
-  touch-action: pan-y;
+  touch-action: pan-y;          /* mobile swipe safety */
   -ms-touch-action: pan-y;
 }
-
-/* prefer static viewport unit on older iOS */
-@supports (height: 100svh){
-  .hero-slider{ height: 100svh; }
+@media (min-width:640px){
+  .hero-slider{ height: var(--hero-h-m); min-height: 520px; }
+}
+@media (min-width:1024px){
+  .hero-slider{ height: var(--hero-h-l); min-height: 620px; }
 }
 
-/* prefer dynamic viewport on modern mobile (responds to URL bar) */
-@supports (height: 100dvh){
-  .hero-slider{ height: 100dvh; }
+/* If the hero lives inside .wrap, break it out to full width */
+.wrap > .hero-slider{
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
-
 
 /* Make the top of the hero darker under the header (premium feel) */
 .hero-slider::before{
@@ -170,15 +184,14 @@ body::after{
   background:linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,0));
 }
 
-/* Optional: on phones, let it bleed edge-to-edge */
-@media (max-width: 640px){
-  .hero-slider{
-    width: 100vw;
-    border-radius: 0;
-  }
+/* Subtle scrim for readability (also hints to scroll at the bottom) */
+.hero-slider::after{
+  content:""; position:absolute; inset:0; z-index:0;
+  background: linear-gradient(180deg, rgba(0,0,0,.20) 0%, rgba(0,0,0,.28) 65%, rgba(0,0,0,.45) 100%);
+  pointer-events:none;
 }
 
-/* ---------- Hero arrows (scoped) ---------- */
+/* ---------- Hero arrows ---------- */
 .hero-slider .hs-arrow{
   position: absolute;
   top: 50%;
@@ -188,24 +201,19 @@ body::after{
   border-radius: 9999px;
   background: rgba(0,0,0,.35);
   color: #fff; font-size: 28px; line-height: 1;
-  z-index: 3;                  /* sit above the overlay text */
+  z-index: 3;
   pointer-events: auto;
 }
 .hero-slider .hs-arrow.left  { left: 10px; }
 .hero-slider .hs-arrow.right { right: 10px; }
 
-/* Desktop / laptop: hide until hover */
 @media (hover: hover) and (pointer: fine){
   .hero-slider .hs-arrow { opacity: 0; transition: opacity .2s; }
   .hero-slider:hover .hs-arrow { opacity: 1; }
 }
-
-/* Phones / touch devices: always visible */
 @media (hover: none), (pointer: coarse){
   .hero-slider .hs-arrow { opacity: 1 !important; display: flex; }
 }
-
-/* Slightly smaller on very narrow phones */
 @media (max-width: 480px){
   .hero-slider .hs-arrow{ width: 36px; height: 36px; font-size: 24px; }
 }
@@ -220,21 +228,16 @@ body::after{
 }
 .hs-slide.is-active{ opacity:1; }
 
-/* subtle scrim for readability (below ::before gradient) */
-.hero-slider::after{
-  content:""; position:absolute; inset:0; z-index:0;
-  background:rgba(0,0,0,.20);
-  pointer-events:none;
-}
-@media (max-width:520px){
-  .hero-slider::after{ background:rgba(0,0,0,.28); }
-}
-
 /* overlay copy — centered */
 .hero-overlay{
   position:relative; z-index:2; height:100%;
   display:flex; flex-direction:column; justify-content:center; align-items:center;
   text-align:center; padding-inline: clamp(16px, 3vw, 32px);
+  padding-top: calc(var(--header-h) + 4vh);
+  padding-bottom: 6vh;
+}
+@media (min-width:1024px){
+  .hero-overlay{ padding-top: calc(var(--header-h) + 6vh); }
 }
 .hero-overlay .brand-title{
   color:#fff; text-shadow:0 2px 18px rgba(0,0,0,.35);
@@ -281,11 +284,6 @@ body::after{
 @media (max-width:960px){
   .hero-overlay{ padding-top:10vh; }
   .hero-slider .hs-arrow{ display:none; } /* rely on swipe */
-}
-
-/* Desktop: give the hero headline more breathing room from the very top */
-@media (min-width:1024px){
-  .hero-overlay{ padding-top: calc(var(--header-h) + 9vh); }
 }
 
 /* first section closer to fold */
@@ -475,90 +473,6 @@ select:focus{ outline:2px solid rgba(183,138,86,.35) }
 @media (prefers-reduced-motion: reduce){
   .carousel-track{ scroll-behavior:auto; }
   .card:hover .thumb{ transform:none; }
-}
-
-/* ===== Responsive Filters Panel (mobile-first) ===== */
-.filters-panel{
-  background:var(--card-bg);
-  border-radius:var(--radius);
-  box-shadow:var(--shadow);
-  padding:14px;
-  margin:12px 0 18px;
-}
-.filters-header{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:12px;
-}
-.filters-title{ font-weight:700; font-size:16px; }
-.filters-toggle{
-  appearance:none;
-  border:1px solid var(--ring);
-  border-radius:999px;
-  padding:8px 12px;
-  background:#fafafa;
-  cursor:pointer;
-  font-weight:600;
-}
-.filters-body{ display:none; margin-top:10px; }   /* collapsed by default on phones */
-.filters-grid{
-  display:grid;
-  grid-template-columns:1fr;   /* stacked on phones */
-  gap:12px;
-}
-.filters-grid .field label{
-  display:block;
-  font-size:12px;
-  color:var(--text-weak);
-  margin-bottom:6px;
-}
-.filters-grid select,
-.filters-grid input[type="text"],
-.filters-grid input[type="number"]{
-  width:100%;
-  height:42px;
-  border:1px solid var(--ring);
-  border-radius:12px;
-  background:#f9fafb;
-  padding:0 12px;
-}
-/* Tablets & up: always open and lay out in 2 columns */
-@media (min-width:640px){
-  .filters-body{ display:block; }
-  .filters-toggle{ display:none; }
-  .filters-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); }
-}
-/* Laptops/desktop: 4 columns */
-@media (min-width:1024px){
-  .filters-grid{ grid-template-columns:repeat(4,minmax(0,1fr)); }
-}
-/* Optional: stick near the top on mobile while scrolling */
-@media (max-width:639px){
-  .filters-panel{ position:sticky; top:8px; z-index:20; }
-}
-
-/* ===== Desktop override: make hero use the whole page ===== */
-@media (min-width: 1024px){
-  .hero-slider{
-    height: 100svh;     /* full screen height with mobile-safe unit */
-    min-height: 680px;  /* optional floor */
-    max-height: none;
-
-    width: 100vw;       /* edge-to-edge */
-    max-width: none;
-    margin: 0;
-
-    border-bottom: 0;   /* cleaner seam (optional) */
-  }
-}
-
-/* If (and only if) the hero lives inside .wrap, break it out to full width */
-.wrap > .hero-slider{
-  width: 100vw;
-  max-width: none;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
 }
 
 /* In-page anchors won’t hide under the fixed header */
