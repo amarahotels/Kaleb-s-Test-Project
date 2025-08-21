@@ -1,18 +1,7 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-20T03:19:49.999501Z",
+  "generated_at": "2025-08-20T16:24:52.950072Z",
   "events": [
-    {
-      "title": "Relax & Recharge at Chinatown – The Perfect Tourist Pit Stop ✨",
-      "start": "Aug 20",
-      "end": "12 Aug, 2:00 pm – 19 Aug, 4:00 pm",
-      "venue": "People's Park Centre",
-      "address": "101 Upper Cross St, People's Park Centre",
-      "url": "https://www.meetup.com/healing-jinshunli/",
-      "image": "https://www.google.com/maps/vt/data=wieSmMQVUS_hGCpvoKe-vl5a1E1lrXKp2cgbf-6VwF2yGU7aSK_EJh0owmWHxl4gwKnrH_VO3yArc3wbBo9wL2t1r66Auu0hIu6W-lQ7ZUKfGaRYHx8",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
     {
       "title": "Hollow Coves",
       "start": "Aug 20",
@@ -135,6 +124,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Weekend Hangout at Sentosa",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 9:00 am – 12:00 pm",
+      "venue": "Little Farms Market, Sentosa (Grocery store)",
+      "address": "1 Cove Ave, #02-13 Little Farms Market, Sentosa (Grocery store), Sentosa",
+      "url": "https://www.eventbrite.sg/e/weekend-hangout-at-sentosa-tickets-1574806752389",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvtevRUpNs6lgr9uHE7-ZiQ5Zqp0e-I94qAs6-C_ns0w&s",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Do Kyungsoo 도경수",
       "start": "Aug 23",
       "end": "Sat, 23 Aug, 6:00 – 9:00 pm",
@@ -190,17 +190,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Weekend Hangout at Sentosa",
-      "start": "Aug 23",
-      "end": "Sat, 23 Aug, 9:00 am – 12:00 pm",
-      "venue": "Little Farms Market, Sentosa (Grocery store)",
-      "address": "1 Cove Ave, #02-13 Little Farms Market, Sentosa (Grocery store), Sentosa",
-      "url": "https://www.eventbrite.sg/e/weekend-hangout-at-sentosa-tickets-1574806752389",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvtevRUpNs6lgr9uHE7-ZiQ5Zqp0e-I94qAs6-C_ns0w&s",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "Monster Jaw",
       "start": "Aug 23",
       "end": "Sat, 23 Aug, 6:00 – 10:00 pm",
@@ -212,13 +201,13 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "The Lord of the Rings",
-      "start": "Aug 24",
-      "end": "Sun, 24 Aug, 1:00 – 4:00 pm",
-      "venue": "Sands Theatre",
-      "address": "10 Bayfront Ave, B1-69/70 Sands Theatre, The Shoppes, Marina bay sands",
-      "url": "https://www.stubhub.com/the-lord-of-the-rings-singapore-tickets-8-24-2025/event/157618605/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqwJF2gMFOKYOnz3POzkM31HFnW9xv063EdavnwGxkXg&s=10",
+      "title": "KONSERT IRAMA PERJUANGAN [G]",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 8:00 pm",
+      "venue": "The Theatre at Mediacorp",
+      "address": "1 Stars Ave, The Theatre at Mediacorp",
+      "url": "https://www.stubhub.com/irama-singapore-tickets-8-23-2025/event/158403293/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5vLyW7YnHcMyAMprii9VQ2vcGlmjrQTOJDVvV4ujcrIj3WHO_1z4_e3jSw&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -450,7 +439,7 @@
       "address": "51 Imbiah Walk, Zoukout",
       "url": "https://radseason.com/event/zoukout-sentosa-singapore/",
       "image": "https://www.google.com/maps/vt/data=xKvA7BStXPIOaPzuEqVJxVQpG12C8KGTGvUlgakT8CWyNIL6PLCWhHfTcV2MW2dYRAi9J_ZWSIgK6M5hd4RexSgfcrHDbawqeWtB8Xw5pNz8JOjjcKo",
-      "category": "music",
+      "category": "family",
       "source": "serpapi_google_events"
     }
   ]
