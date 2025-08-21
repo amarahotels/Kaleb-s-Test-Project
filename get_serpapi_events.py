@@ -27,15 +27,23 @@ SERP_LOCALE = {"engine": "google_events", "hl": "en", "gl": "sg", "location": "S
 now = datetime.now()
 month_year = now.strftime("%B %Y")
 
-# --- Tourist-friendly queries (brand/place terms; no `site:` with google_events) ---
+# --- Query sets (keep Music/General as-is; fix Family) ---
 QUERIES_BY_BUCKET = {
     "family": [
-        "Sentosa family events",
-        "Gardens by the Bay kids events",
-        "Mandai Wildlife family events",
+        # strongly anchored to SG (broad, high-yield)
+        "family events Singapore",
+        "kids events Singapore",
+        # extras that still stay local but narrower
+        "Sentosa family events Singapore",
+        "Gardens by the Bay family events Singapore",
+        "Science Centre Singapore events",
+        "Children's Museum Singapore events",
+        "Mandai Wildlife kids Singapore",
         "Singapore Zoo events",
-        "Bird Paradise events",
-        "ArtScience Museum family events",
+        "Bird Paradise Singapore events",
+        "ArtScience Museum family Singapore",
+        "Singapore Discovery Centre events",
+        "Jewel Changi family events",
     ],
     "music": [
         f"concerts in Singapore {month_year}",
@@ -262,6 +270,7 @@ LOCAL_BRANDS = {
     "jewel changi", "nparks", "botanic gardens",
     "national museum", "asian civilisations museum",
     "singapore discovery centre", "hortpark", "marina barrage",
+    "children's museum singapore", "science center singapore",
 }
 
 def is_local_event(e) -> bool:
@@ -383,6 +392,16 @@ def main():
         bucket_events = run_query(tag, q)
         used.setdefault(tag, 0)
         used[tag] += 1
+
+        # --- Family fallback if too few after filtering ---
+        if tag == "family" and len(bucket_events) < 3:
+            print("  [family] Low yield; trying fallbacks…")
+            for extra in QUERIES_BY_BUCKET["family"][2:]:
+                more = run_query(tag, extra)
+                bucket_events.extend(more)
+                if len(bucket_events) >= 6:  # stop once decent yield
+                    break
+
         for e in bucket_events:
             if admit(e):
                 all_events.append(e)
