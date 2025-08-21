@@ -16,7 +16,7 @@ if not API_KEY:
 MAX_CALLS_PER_RUN      = int(os.getenv("EVENTS_MAX_CALLS", "6"))        # total SerpAPI requests per run
 TARGET_EVENTS          = int(os.getenv("EVENTS_TARGET_COUNT", "60"))    # cap saved events
 PER_BUCKET_CAP         = int(os.getenv("EVENTS_PER_BUCKET_CAP", "25"))  # per-bucket keep cap
-PER_DOMAIN_CAP         = int(os.getenv("EVENTS_PER_DOMAIN_CAP", "4"))   # NEW: cap per host/domain
+PER_DOMAIN_CAP         = int(os.getenv("EVENTS_PER_DOMAIN_CAP", "4"))   # cap per host/domain
 REQUIRE_IMAGE          = os.getenv("EVENTS_REQUIRE_IMAGE", "1") == "1"  # drop events without image
 
 OUT_PATH = Path("public/data/events.json")
@@ -27,37 +27,31 @@ SERP_LOCALE = {"engine": "google_events", "hl": "en", "gl": "sg", "location": "S
 now = datetime.now()
 month_year = now.strftime("%B %Y")
 
-# --- Tourist-friendly queries (first 2 per bucket are high-signal venue/site terms) ---
+# --- Tourist-friendly queries (brand/place terms; no `site:` with google_events) ---
 QUERIES_BY_BUCKET = {
     "family": [
-        # venue-leaning
-        "site:sentosa.com.sg events",
-        "site:gardensbythebay.com.sg events",
-        # general fallbacks
-        "mandai wildlife events",
-        "singapore zoo events",
-        "bird paradise events",
-        "artscience museum exhibitions",
+        "Sentosa family events",
+        "Gardens by the Bay kids events",
+        "Mandai Wildlife family events",
+        "Singapore Zoo events",
+        "Bird Paradise events",
+        "ArtScience Museum family events",
     ],
     "music": [
-        # venue-leaning
-        "site:esplanade.com events",
         f"concerts in Singapore {month_year}",
-        # general fallbacks
-        "music festivals singapore",
-        "live music singapore weekend",
-        "classical concert singapore",
-        "dj events singapore",
+        "live music Singapore weekend",
+        "classical concert Singapore",
+        "indie concert Singapore",
+        "music festivals Singapore",
+        "DJ events Singapore",
     ],
     "general": [
-        # venue-leaning
-        "site:nparks.gov.sg events",
-        "site:marinabaysands.com museum exhibitions",
-        # general fallbacks
         "events in Singapore this week",
         "things to do in Singapore this weekend",
         f"exhibitions in Singapore {month_year}",
-        "national museum singapore events",
+        "museum events Singapore",
+        "Jewel Changi events",
+        "Singapore Botanic Gardens events",
     ],
 }
 
@@ -260,7 +254,39 @@ def normalize_event(raw, category_tag):
         "parsed_end": parse_date_safe(end_str),
     }
 
+# ---- Locality guard: keep only SG-looking items ----
+LOCAL_BRANDS = {
+    "singapore", "sentosa", "gardens by the bay", "mandai",
+    "bird paradise", "river wonders", "zoo", "esplanade",
+    "artscience museum", "marina bay sands", "science centre",
+    "jewel changi", "nparks", "botanic gardens",
+    "national museum", "asian civilisations museum",
+    "singapore discovery centre", "hortpark", "marina barrage",
+}
+
+def is_local_event(e) -> bool:
+    text = " ".join([
+        str(e.get("title") or ""),
+        str(e.get("venue") or ""),
+        str(e.get("address") or ""),
+    ]).lower()
+
+    if "singapore" in text:
+        return True
+    if any(tag in text for tag in LOCAL_BRANDS):
+        return True
+
+    host = urlparse(e.get("url") or "").hostname or ""
+    if host.endswith(".sg"):
+        return True
+
+    return False
+
 def should_drop(e, tag: str) -> bool:
+    # must look local
+    if not is_local_event(e):
+        return True
+
     text = " ".join([
         str(e.get("title") or ""),
         str(e.get("venue") or ""),
@@ -271,13 +297,10 @@ def should_drop(e, tag: str) -> bool:
         return True
     if matches_any(text, BIZ_RE) or CISO_RE.search(text):
         return True
-
     if REQUIRE_IMAGE and not (e.get("image") or "").strip():
         return True
-
     if RITUAL_RE.search(text):
         return True
-
     if tag == "family" and (matches_any(text, ALCOHOL_RE, ADULT_RE)):
         return True
 
@@ -343,7 +366,7 @@ def main():
     all_events = []
     plan = build_query_plan(per_cat=2, max_calls=MAX_CALLS_PER_RUN)
     used = {}
-    host_counts = {}  # NEW: global per-domain counters
+    host_counts = {}
 
     def admit(e) -> bool:
         host = domain_of(e.get("url") or "") or domain_of(e.get("image") or "")
