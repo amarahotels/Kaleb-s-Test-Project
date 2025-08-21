@@ -1,29 +1,7 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-21T02:48:07.802304Z",
+  "generated_at": "2025-08-21T16:28:00.401875Z",
   "events": [
-    {
-      "title": "Hollow Coves",
-      "start": "Aug 21",
-      "end": "Wed, 20 Aug, 7:00 – 9:30 pm",
-      "venue": "Foochow Building",
-      "address": "21 Tyrwhitt Rd, Foochow Building, Singapore",
-      "url": "https://open.spotify.com/concert/1HXEk7E327Wjp7B2kiYBkx",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuT9joFRGNTGqBS7r-fPsgzoiK3zRP3FA0nMwcMT332R7GJUUwgcr4ZB8iww&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Beach Weather",
-      "start": "Aug 21",
-      "end": "Wed, 20 Aug, 7:00 – 10:00 pm",
-      "venue": "Capitol Theatre",
-      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
-      "url": "https://open.spotify.com/concert/47c2BSGHg4Gda9UgwgDV84",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-iccyz_KTzdcwkW6l1ah9mEr73RCa2nJIwTcbNnarYhN-_HMVKqTSv-x6QQ&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
     {
       "title": "Tinashe",
       "start": "Aug 21",
@@ -36,17 +14,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Singapore‘s First Dunhuang Dance week",
-      "start": "Aug 21",
-      "end": "Tue, 19 Aug, 2:00 am – Thu, 21 Aug, 1:00 pm",
-      "venue": "5 Sennett Rd, Singapore",
-      "address": "5 Sennett Rd, Singapore",
-      "url": "https://www.eventbrite.sg/poi/singapore--singapore/bedok-jetty--6HJ0b/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfL_2brbh_huBQG6TcC5CKC25v5T26ZpQrIJWHRKhhXg&s",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "City In Session | New Bahru | Things to do in Singapore",
       "start": "Aug 21",
       "end": "9 Aug, 12:00 am – 31 Aug, 12:00 am",
@@ -54,6 +21,28 @@
       "address": "46 Kim Yam Rd, New Bahru",
       "url": "https://www.timeout.com/singapore/things-to-do/city-in-session",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vrxIuXPmLgyVkfvTEn69XFK_AOsS3-v0rtDqhLqH2A&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Itadakimasu! | Heartware Store and Gallery | Things to do in Singapore",
+      "start": "Aug 21",
+      "end": "14 Aug, 10:30 am – 31 Aug, 12:00 pm",
+      "venue": "Heartware Store and Gallery",
+      "address": "350B Joo Chiat Rd, Heartware Store and Gallery",
+      "url": "https://www.timeout.com/singapore/things-to-do/itadakimasu",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlnjPZt-V7e5ftWzGbU-p_vS8IPy559nnxe_SU_NS7-A&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Singapore Night Festival 2025",
+      "start": "Aug 22",
+      "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
+      "venue": "Bugis Street",
+      "address": "261 Victoria St, Bugis Street",
+      "url": "https://www.heritage.sg/sgnightfest",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAUnqYXQIq2xWL_jN7tk5imzGQ-JUWNxolBP9IO5JycXY6vX-q4g-LoowQQ&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -69,17 +58,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Singapore Night Festival 2025",
-      "start": "Aug 22",
-      "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
-      "venue": "Bugis Street",
-      "address": "261 Victoria St, Bugis Street",
-      "url": "https://www.heritage.sg/sgnightfest",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAUnqYXQIq2xWL_jN7tk5imzGQ-JUWNxolBP9IO5JycXY6vX-q4g-LoowQQ&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "Book Club July - Stage for Kids Global",
       "start": "Aug 23",
       "end": "Sat, 23 Aug, 2:30 – 4:30 pm",
@@ -87,6 +65,17 @@
       "address": "77 Indus Rd, Block 77 HDB Indus, Singapore",
       "url": "https://www.eventbrite.com/e/book-club-july-stage-for-kids-global-afternoon-slot-tickets-1466343556049",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDkRlca_8k1gmLPTTpjEKHEXVNAUrtiYKwXhGGiLSE9g&s",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "✨ Fun-Filled Saturday: Mosaic Coaster Making for Kids! ✨ Early-Bird",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 3:00 – 6:00 pm",
+      "venue": "UE Bizhub West",
+      "address": "450 Alexandra Rd, UE Bizhub West, Singapore",
+      "url": "https://www.eventbrite.com/e/fun-filled-saturday-mosaic-coaster-making-for-kids-early-bird-tickets-1558204494589",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEk5N7lFHVGue1LY6duqey1AqAHaD_0Ko_wxAXhdJT0IdOs2TjC9314tek6w&s=10",
       "category": "family",
       "source": "serpapi_google_events"
     },
@@ -119,7 +108,7 @@
       "venue": "Bras Basah Complex",
       "address": "231 Bain St, Bras Basah Complex",
       "url": "https://eventseeker.com/venue/70718-bras-basah-complex-singapore",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS85TUxpr_S95khUYJUPYGChUuKCI9eJOIFBJPYchsawwioS5-P9aDxxEfd6A&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTywPoSaf4bsyZO22u8dC-F34IfwM9SWK207p19Ob4Ej5t0Hb0bjVSBmAzYA&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -157,14 +146,14 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Escape to Batam by Checkpoint Theatre",
-      "start": "Aug 23",
-      "end": "Sat, 23 Aug, 8:00 – 11:00 pm",
-      "venue": "Singtel Waterfront Theatre",
-      "address": "8 Raffles Ave., Singtel Waterfront Theatre, Singapore",
-      "url": "https://www.stubhub.com/escape-to-batam-singapore-tickets-8-23-2025/event/158377840/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHhX9mn8H1bX5SV6pD3v-o7ExLZEpGfyV8m4I_DP-ksA&s=10",
-      "category": "general",
+      "title": "Black Eyed Peas",
+      "start": "Aug 25",
+      "end": "Mon, 25 Aug, 8:00 – 11:00 pm",
+      "venue": "Singapore Indoor Stadium",
+      "address": "2 Stadium Walk, Singapore Indoor Stadium",
+      "url": "https://open.spotify.com/concert/6JNb4F8m0UN0UXU8keSYJk",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH5uGE3YNZ47FOcGSZjgTfFziRjIK489i10ug6Hbl8RTDeYVxpIryvbLUebg&s=10",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -190,6 +179,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Summer Salt @ Esplanade Annexe Studio",
+      "start": "Aug 29",
+      "end": "Fri, 29 Aug, 7:00 – 11:00 pm",
+      "venue": "Esplanade Annexe Studio",
+      "address": "1 Esplanade Dr, Esplanade Annexe Studio",
+      "url": "https://open.spotify.com/concert/3OmMxQvKYszHrXpQomIapg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvv_7TbPS17RV7ndADV7a2VB6Un65oh9JGvSgTrbUs_9Z_8TNIT_MA1QRB4A&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Yoga for Kids",
       "start": "Aug 31",
       "end": "Sun, 31 Aug, 1:30 – 2:30 pm",
@@ -198,6 +198,17 @@
       "url": "https://www.eventbrite.sg/e/yoga-for-kids-tickets-1467571829849",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3XRpRurYsmmuXIi6rDB4hYqYYHAsfHVeCYcxI0pDqfA&s=10",
       "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Singapore - Japan Friendship Handbell Concert 2025",
+      "start": "Aug 31",
+      "end": "Sun, 31 Aug, 5:00 – 6:15 pm",
+      "venue": "The Arts House at The Old Parliament",
+      "address": "1 Old Parliament Ln, The Arts House at The Old Parliament, Former Parliament House and Annex Building",
+      "url": "https://www.eventbrite.com/e/singapore-japan-friendship-handbell-concert-2025-tickets-1370622030389",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgUiXKzhV4iF_15smYJGTvwsKIPPtHSYIcjuTHtQIa_Q&s",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -253,17 +264,6 @@
       "url": "https://www.eventbrite.sg/e/interactive-storytelling-adventure-for-kids-tickets-1588699927249",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmka7OO8V0zD2LLDrS2W2Thc0mo_MdNe4457_AVNxtPaP_3mwPTJLlOcjNw&s",
       "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Angel’s Voice Music Live 2025",
-      "start": "Oct 4",
-      "end": "Sat, 4 Oct, 3:00 – 5:30 pm",
-      "venue": "Centre 42",
-      "address": "42 Waterloo St, Centre 42, 42, Singapore",
-      "url": "https://www.eventbrite.com/e/1558747258009",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLFiipB1IqY3Dzfc9mfbnyrkbF5cjEbxNGdaJMT5mKkA&s",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
