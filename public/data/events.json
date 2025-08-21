@@ -1,6 +1,6 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-21T02:34:56.513181Z",
+  "generated_at": "2025-08-21T02:48:07.802304Z",
   "events": [
     {
       "title": "Hollow Coves",
@@ -58,6 +58,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "AI Empowering Child Development - Learning to Play & Playing to Learn",
+      "start": "Aug 22",
+      "end": "Fri, 22 Aug, 9:00 am – Sat, 23 Aug, 6:00 pm",
+      "venue": "Lee Kong Chian School of Medicine HQ Building",
+      "address": "11 Mandalay Rd, Lee Kong Chian School of Medicine HQ Building, Singapore",
+      "url": "https://allevents.in/singapore/ai-empowering-child-development-learning-to-play-and-playing-to-learn/200028655365801",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqfPEn1QeJow10fSlNqJ7y5jIw6ptYoTQKSuLI-ot9Pb2J587u3hipharlBw&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Singapore Night Festival 2025",
       "start": "Aug 22",
       "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
@@ -66,6 +77,17 @@
       "url": "https://www.heritage.sg/sgnightfest",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAUnqYXQIq2xWL_jN7tk5imzGQ-JUWNxolBP9IO5JycXY6vX-q4g-LoowQQ&s=10",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Book Club July - Stage for Kids Global",
+      "start": "Aug 23",
+      "end": "Sat, 23 Aug, 2:30 – 4:30 pm",
+      "venue": "Block 77 HDB Indus",
+      "address": "77 Indus Rd, Block 77 HDB Indus, Singapore",
+      "url": "https://www.eventbrite.com/e/book-club-july-stage-for-kids-global-afternoon-slot-tickets-1466343556049",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDkRlca_8k1gmLPTTpjEKHEXVNAUrtiYKwXhGGiLSE9g&s",
+      "category": "family",
       "source": "serpapi_google_events"
     },
     {
@@ -146,17 +168,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Black Eyed Peas",
-      "start": "Aug 25",
-      "end": "Mon, 25 Aug, 8:00 – 11:00 pm",
-      "venue": "Singapore Indoor Stadium",
-      "address": "2 Stadium Walk, Singapore Indoor Stadium",
-      "url": "https://open.spotify.com/concert/6JNb4F8m0UN0UXU8keSYJk",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH5uGE3YNZ47FOcGSZjgTfFziRjIK489i10ug6Hbl8RTDeYVxpIryvbLUebg&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "IP Week @ SG 2025",
       "start": "Aug 26",
       "end": "Tue, 26 Aug – Wed, 27 Aug",
@@ -179,14 +190,25 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Yaeji",
-      "start": "Sept 1",
-      "end": "Mon, 1 Sept, 7:00 – 10:00 pm",
-      "venue": "Capitol Theatre",
-      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
-      "url": "https://www.eventbrite.sg/e/yaeji-live-in-singapore-tickets-1450268093909",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-NH6PZA6zPUNgEHQfRaRWNpg7fzkiavbMC6Bq3pq-Fg&s",
-      "category": "music",
+      "title": "Yoga for Kids",
+      "start": "Aug 31",
+      "end": "Sun, 31 Aug, 1:30 – 2:30 pm",
+      "venue": "Kreta Ayer Community Club",
+      "address": "28 Kreta Ayer Rd, Kreta Ayer Community Club, Singapore",
+      "url": "https://www.eventbrite.sg/e/yoga-for-kids-tickets-1467571829849",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3XRpRurYsmmuXIi6rDB4hYqYYHAsfHVeCYcxI0pDqfA&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "The Get Up Kids",
+      "start": "Sept 13",
+      "end": "Sat, 13 Sept, 7:00 pm – Sun, 14 Sept, 1:00 am",
+      "venue": "Foochow Building Event Hall",
+      "address": "21 Tyrwhitt Rd, #04-00 Foochow Building Event Hall, Singapore",
+      "url": "https://open.spotify.com/concert/7FrXAwGIn3k5XbdpLlJQr9",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtXO5bSHc0hpYuNSfIhzUcdAKK3deuS-sQ6KFSvakVRIYbNkHFz1GbsF41tw&s=10",
+      "category": "family",
       "source": "serpapi_google_events"
     },
     {
@@ -201,6 +223,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Family Journey Singapore Gathering",
+      "start": "Sept 20",
+      "end": "Sat, 20 Sept, 11:00 am – 2:00 pm",
+      "venue": "1 Queen St, Singapore",
+      "address": "1 Queen St, Singapore",
+      "url": "https://www.familyjourneysg.com/events-1/family-journey-singapore-gathering-2025-09-20-19-00",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqNAh_llSlpIZnI46MhPbmVmlq5X9wQKwmRUC787e2Bw&s",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Jake Miller @ Hard Rock Cafe Singapore",
       "start": "Sept 23",
       "end": "Tue, 23 Sept, 7:00 pm – Wed, 24 Sept, 1:00 am",
@@ -209,6 +242,17 @@
       "url": "https://www.bandsintown.com/e/107041270?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQfS57P2XpNC69Z-wFse5JgyjD6A8i6N7lwMU02cJHA&s=10",
       "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Interactive Storytelling Adventure for Kids!",
+      "start": "Sept 27",
+      "end": "Sat, 27 Sept, 4:30 – 5:15 pm",
+      "venue": "36/38 Armenian Street",
+      "address": "38 Armenian St, 36/38 Armenian Street, 36",
+      "url": "https://www.eventbrite.sg/e/interactive-storytelling-adventure-for-kids-tickets-1588699927249",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmka7OO8V0zD2LLDrS2W2Thc0mo_MdNe4457_AVNxtPaP_3mwPTJLlOcjNw&s",
+      "category": "family",
       "source": "serpapi_google_events"
     },
     {
@@ -223,14 +267,25 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Bright Eyes",
-      "start": "Nov 27",
-      "end": "Thu, 27 Nov, 7:00 – 10:30 pm",
-      "venue": "Capitol Theatre",
-      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
-      "url": "https://www.eventbrite.sg/e/bright-eyes-live-in-singapore-tickets-1415195621199",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn3Q8mWuNNnahq5s-CeDEwm1nWRZm27I1xe3foEy3xkQ&s",
-      "category": "music",
+      "title": "Power Kids Gym - Minecraft Halloween",
+      "start": "Oct 31",
+      "end": "Fri, 31 Oct, 2:30 – 4:00 pm",
+      "venue": "UE Square",
+      "address": "81 Clemenceau Ave, UE Square, Singapore",
+      "url": "https://allevents.in/singapore/power-kids-gym-minecraft-halloween/200028610616942",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5MLkV8z0A5lTb19gmpu4yX0RLSIsVjyQLAB00BltYevQF4Wz5NVBZFYFimA&s=10",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Silva Kids Workshop",
+      "start": "Nov 8",
+      "end": "Sat, 8 Nov, 10:00 am – Sun, 9 Nov, 5:00 pm",
+      "venue": "203 Henderson Rd Parking",
+      "address": "203 Henderson Rd, #03-07 203 Henderson Rd Parking, Henderson Industrial Park B, Singapore",
+      "url": "https://www.eventbrite.sg/e/silva-kids-workshop-tickets-1334850757549",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRifc6rwtlXXW_iG19wbHdk4Ep6RGsqJrQZ_A9p3dF-Eg&s=10",
+      "category": "family",
       "source": "serpapi_google_events"
     },
     {
