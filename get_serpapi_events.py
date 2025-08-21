@@ -5,6 +5,7 @@ import requests
 from pathlib import Path
 from datetime import datetime, timedelta
 from dateutil import parser
+from urllib.parse import urlparse
 
 # ---------------- Config ----------------
 API_KEY = os.getenv("SERPAPI_KEY")
@@ -15,6 +16,7 @@ if not API_KEY:
 MAX_CALLS_PER_RUN      = int(os.getenv("EVENTS_MAX_CALLS", "6"))        # total SerpAPI requests per run
 TARGET_EVENTS          = int(os.getenv("EVENTS_TARGET_COUNT", "60"))    # cap saved events
 PER_BUCKET_CAP         = int(os.getenv("EVENTS_PER_BUCKET_CAP", "25"))  # per-bucket keep cap
+PER_DOMAIN_CAP         = int(os.getenv("EVENTS_PER_DOMAIN_CAP", "4"))   # NEW: cap per host/domain
 REQUIRE_IMAGE          = os.getenv("EVENTS_REQUIRE_IMAGE", "1") == "1"  # drop events without image
 
 OUT_PATH = Path("public/data/events.json")
@@ -25,30 +27,36 @@ SERP_LOCALE = {"engine": "google_events", "hl": "en", "gl": "sg", "location": "S
 now = datetime.now()
 month_year = now.strftime("%B %Y")
 
-# --- Tourist-friendly queries (we’ll run exactly two per bucket each run) ---
+# --- Tourist-friendly queries (first 2 per bucket are high-signal venue/site terms) ---
 QUERIES_BY_BUCKET = {
     "family": [
-        "sentosa events",
-        "gardens by the bay events",
+        # venue-leaning
+        "site:sentosa.com.sg events",
+        "site:gardensbythebay.com.sg events",
+        # general fallbacks
         "mandai wildlife events",
         "singapore zoo events",
         "bird paradise events",
         "artscience museum exhibitions",
     ],
     "music": [
+        # venue-leaning
+        "site:esplanade.com events",
         f"concerts in Singapore {month_year}",
+        # general fallbacks
         "music festivals singapore",
         "live music singapore weekend",
         "classical concert singapore",
-        "indie concert singapore",
         "dj events singapore",
     ],
     "general": [
+        # venue-leaning
+        "site:nparks.gov.sg events",
+        "site:marinabaysands.com museum exhibitions",
+        # general fallbacks
         "events in Singapore this week",
         "things to do in Singapore this weekend",
         f"exhibitions in Singapore {month_year}",
-        "museum events singapore",
-        "jewel changi attractions events",
         "national museum singapore events",
     ],
 }
@@ -56,16 +64,11 @@ QUERIES_BY_BUCKET = {
 PAST_GRACE_DAYS = 1  # keep events that started up to 1 day ago (helps multi-day)
 
 # ---------------- Filtering (tourist-friendly) ----------------
-# fitness/race-y
 FITNESS_RE = re.compile(
     r"\b(run|running|marathon|ultra|triathlon|race|jog(?:ging)?|"
-    r"cycling|bike(?:\s*ride)?|spartan|ironman|5k|10k|15k|21k|42k|km)\b",
-    re.I,
+    r"cycling|bike(?:\s*ride)?|spartan|ironman|5k|10k|15k|21k|42k|km)\b", re.I
 )
-# business/networking
 BIZ_RE = re.compile(r"\b(conference|summit|expo|webinar|seminar|forum|networking|meet-?up|after work)\b", re.I)
-
-# ritual/funerary content to exclude from tourist-friendly feed
 RITUAL_RE = re.compile(
     r"\b("
     r"joss(?:\s*paper)?|hell\s*(?:money|note|notes)|"
@@ -75,11 +78,7 @@ RITUAL_RE = re.compile(
     r")\b",
     re.I,
 )
-
-# explicitly block CISO-branded/cybersecurity enterprise events
 CISO_RE = re.compile(r"\bciso\b", re.I)
-
-# alcohol/adult
 ALCOHOL_RE = re.compile(r"\b(wine|beer|whisk(?:y|ey)|cocktail|gin|rum|vodka|sake|soju|cigar|tasting)\b", re.I)
 ADULT_RE   = re.compile(r"\b(18\+|21\+|adults\s*only)\b", re.I)
 
@@ -92,7 +91,6 @@ def matches_any(text: str, *patterns) -> bool:
     return False
 
 def looks_like_interval_walk(text: str) -> bool:
-    """Block fitness 'walk training' but keep tourist 'walking tour'."""
     t = (text or "").lower()
     if "walk" not in t:
         return False
@@ -129,7 +127,6 @@ def parse_date_safe(s):
         return None
 
 def _coerce_address(addr):
-    """Accepts str | list | dict and returns a string address."""
     if not addr:
         return ""
     if isinstance(addr, str):
@@ -264,28 +261,23 @@ def normalize_event(raw, category_tag):
     }
 
 def should_drop(e, tag: str) -> bool:
-    """Category-aware filtering to keep things tourist-friendly."""
     text = " ".join([
         str(e.get("title") or ""),
         str(e.get("venue") or ""),
         str(e.get("address") or "")
     ])
 
-    # General blocks for all categories
     if matches_any(text, FITNESS_RE) or looks_like_interval_walk(text):
         return True
     if matches_any(text, BIZ_RE) or CISO_RE.search(text):
         return True
 
-    # Require image if configured
     if REQUIRE_IMAGE and not (e.get("image") or "").strip():
         return True
 
-    # NEW: drop ritual/funerary themed items (e.g., joss paper / hungry ghost)
     if RITUAL_RE.search(text):
         return True
 
-    # Family-specific blocks (no alcohol / adults-only)
     if tag == "family" and (matches_any(text, ALCOHOL_RE, ADULT_RE)):
         return True
 
@@ -310,6 +302,18 @@ def filter_future(events):
 
 def sort_by_start(events):
     return sorted(events, key=lambda e: e.get("parsed_start") or datetime.max)
+
+def domain_of(url: str) -> str:
+    """Return bare host for per-domain caps."""
+    if not url:
+        return ""
+    try:
+        host = urlparse(url).netloc.lower()
+        if host.startswith("www."):
+            host = host[4:]
+        return host
+    except Exception:
+        return ""
 
 # -------- Query planning: exactly 2 per category, round-robin within this run --------
 def build_query_plan(per_cat: int = 2, max_calls: int = MAX_CALLS_PER_RUN):
@@ -339,13 +343,26 @@ def main():
     all_events = []
     plan = build_query_plan(per_cat=2, max_calls=MAX_CALLS_PER_RUN)
     used = {}
+    host_counts = {}  # NEW: global per-domain counters
+
+    def admit(e) -> bool:
+        host = domain_of(e.get("url") or "") or domain_of(e.get("image") or "")
+        if not host:
+            return True
+        if host_counts.get(host, 0) >= PER_DOMAIN_CAP:
+            return False
+        host_counts[host] = host_counts.get(host, 0) + 1
+        return True
+
     print("Queries plan:")
     for tag, q in plan:
         print(f"  [{tag}] {q}")
         bucket_events = run_query(tag, q)
         used.setdefault(tag, 0)
         used[tag] += 1
-        all_events.extend(bucket_events)
+        for e in bucket_events:
+            if admit(e):
+                all_events.append(e)
 
     all_events = deduplicate(all_events)
     all_events = sort_by_start(filter_future(all_events))[:TARGET_EVENTS]
@@ -365,6 +382,7 @@ def main():
 
     print("-" * 56)
     print(f"Used { _calls_made } call(s). Buckets hit: {used}")
+    print(f"Per-domain counts: {host_counts}")
     print(f"✅ Saved {len(all_events)} events to {OUT_PATH}")
 
 if __name__ == "__main__":
