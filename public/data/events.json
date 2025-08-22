@@ -1,38 +1,27 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-21T16:28:00.401875Z",
+  "generated_at": "2025-08-22T07:23:42.474419Z",
   "events": [
     {
+      "title": "Trial Classes with Ready Steady Go Kids Singapore",
+      "start": "Aug 22",
+      "end": "Fri, 22 Aug, 7:15 pm",
+      "venue": "Ready Steady Go Kids Singapore",
+      "address": "1008 Toa Payoh N, #02-01 Ready Steady Go Kids Singapore",
+      "url": "https://tickikids.com/zh-sg/ready-steady-go-kids-singapore/",
+      "image": "https://www.google.com/maps/vt/data=TRHPyVeeEjMEruDHAxLWc15vy4lxM_bo8wKz9tnLwzdyBV-163Dg6ITiSxOdx7w-H-IuWYiZrNX46PO_0gvHrIu8Z1ENKlqehtgOspKQpe1LA6QdWDw",
+      "category": "family",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Tinashe",
-      "start": "Aug 21",
+      "start": "Aug 22",
       "end": "Thu, 21 Aug, 7:00 – 11:00 pm",
       "venue": "Capitol Theatre",
       "address": "17 Stamford Rd, Capitol Theatre, Singapore",
       "url": "https://open.spotify.com/concert/3IACmpYYbYG1wLoCjYDnxd",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdxBy0pHCh9iqjANGltXX0lejcptA7Z3WgOOcavcbhftUptud1ar7AWOvK6xAf&s",
       "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "City In Session | New Bahru | Things to do in Singapore",
-      "start": "Aug 21",
-      "end": "9 Aug, 12:00 am – 31 Aug, 12:00 am",
-      "venue": "New Bahru",
-      "address": "46 Kim Yam Rd, New Bahru",
-      "url": "https://www.timeout.com/singapore/things-to-do/city-in-session",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vrxIuXPmLgyVkfvTEn69XFK_AOsS3-v0rtDqhLqH2A&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Itadakimasu! | Heartware Store and Gallery | Things to do in Singapore",
-      "start": "Aug 21",
-      "end": "14 Aug, 10:30 am – 31 Aug, 12:00 pm",
-      "venue": "Heartware Store and Gallery",
-      "address": "350B Joo Chiat Rd, Heartware Store and Gallery",
-      "url": "https://www.timeout.com/singapore/things-to-do/itadakimasu",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlnjPZt-V7e5ftWzGbU-p_vS8IPy559nnxe_SU_NS7-A&s=10",
-      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -58,6 +47,39 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "City In Session | New Bahru | Things to do in Singapore",
+      "start": "Aug 22",
+      "end": "9 Aug, 12:00 am – 31 Aug, 12:00 am",
+      "venue": "New Bahru",
+      "address": "46 Kim Yam Rd, New Bahru",
+      "url": "https://www.timeout.com/singapore/things-to-do/city-in-session",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vrxIuXPmLgyVkfvTEn69XFK_AOsS3-v0rtDqhLqH2A&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Itadakimasu! | Heartware Store and Gallery | Things to do in Singapore",
+      "start": "Aug 22",
+      "end": "14 Aug, 10:30 am – 31 Aug, 12:00 pm",
+      "venue": "Heartware Store and Gallery",
+      "address": "350B Joo Chiat Rd, Heartware Store and Gallery",
+      "url": "https://www.timeout.com/singapore/things-to-do/itadakimasu",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlnjPZt-V7e5ftWzGbU-p_vS8IPy559nnxe_SU_NS7-A&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "All Things Singapore (AT SG) 2025",
+      "start": "Aug 22",
+      "end": "22 Aug, 7:00 pm – 6 Sept, 11:00 pm",
+      "venue": "National Library / Lee Kong Chian Reference Library",
+      "address": "100 Victoria St, National Library / Lee Kong Chian Reference Library",
+      "url": "https://citynomads.com/events/all-things-singapore-at-sg-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi5b92xUmqyNqsrQinXZWQsCB68ExxNfxwHdDLlLFIvydFFNCbRDw6zlzIOQ&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Book Club July - Stage for Kids Global",
       "start": "Aug 23",
       "end": "Sat, 23 Aug, 2:30 – 4:30 pm",
@@ -69,12 +91,12 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "✨ Fun-Filled Saturday: Mosaic Coaster Making for Kids! ✨ Early-Bird",
+      "title": "✨Fun-Filled Saturday: Mosaic Coaster Making for Kids! ✨",
       "start": "Aug 23",
       "end": "Sat, 23 Aug, 3:00 – 6:00 pm",
       "venue": "UE Bizhub West",
       "address": "450 Alexandra Rd, UE Bizhub West, Singapore",
-      "url": "https://www.eventbrite.com/e/fun-filled-saturday-mosaic-coaster-making-for-kids-early-bird-tickets-1558204494589",
+      "url": "https://www.eventbrite.com/e/fun-filled-saturday-mosaic-coaster-making-for-kids-tickets-1584650826279",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEk5N7lFHVGue1LY6duqey1AqAHaD_0Ko_wxAXhdJT0IdOs2TjC9314tek6w&s=10",
       "category": "family",
       "source": "serpapi_google_events"
@@ -102,17 +124,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Singapore Night Festival",
-      "start": "Aug 23",
-      "end": "Sat, 23 Aug, 12:00 am – Wed, 27 Aug, 12:00 am",
-      "venue": "Bras Basah Complex",
-      "address": "231 Bain St, Bras Basah Complex",
-      "url": "https://eventseeker.com/venue/70718-bras-basah-complex-singapore",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTywPoSaf4bsyZO22u8dC-F34IfwM9SWK207p19Ob4Ej5t0Hb0bjVSBmAzYA&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "The Lord of the Rings",
       "start": "Aug 23",
       "end": "Sat, 23 Aug, 2:00 – 5:00 pm",
@@ -129,20 +140,9 @@
       "end": "Sat, 23 Aug, 10:00 pm – Sun, 24 Aug, 6:00 am",
       "venue": "Avenue Lounge",
       "address": "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
-      "url": "https://www.stubhub.com/skai-is-your-god-singapore-tickets-8-23-2025/event/158884897/",
+      "url": "https://taogroup.com/event/23-08-25-crossfade-presents-skai-isyourgod-avenue-singapore/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3cdFAylY88Be1BnayO6WQqYHcoLOSF0nCpDhV5zOgpivz2GH1R-TwhVXxYg&s=10",
       "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Suntamed 2025 - Singapore",
-      "start": "Aug 23",
-      "end": "Sat, 23 Aug, 4:00 – 7:00 pm",
-      "venue": "Siloso Beach",
-      "address": "53 Siloso Bch Walk, Siloso Beach, Singapore",
-      "url": "https://www.stubhub.com/suntamed-beach-festival-singapore-tickets-8-23-2025/event/159079040/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoRYFPfQBmqvo5SAXNhey2947NiMKya4oJMAf4mFG2ZA&s=10",
-      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -263,17 +263,6 @@
       "address": "38 Armenian St, 36/38 Armenian Street, 36",
       "url": "https://www.eventbrite.sg/e/interactive-storytelling-adventure-for-kids-tickets-1588699927249",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmka7OO8V0zD2LLDrS2W2Thc0mo_MdNe4457_AVNxtPaP_3mwPTJLlOcjNw&s",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Power Kids Gym - Minecraft Halloween",
-      "start": "Oct 31",
-      "end": "Fri, 31 Oct, 2:30 – 4:00 pm",
-      "venue": "UE Square",
-      "address": "81 Clemenceau Ave, UE Square, Singapore",
-      "url": "https://allevents.in/singapore/power-kids-gym-minecraft-halloween/200028610616942",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5MLkV8z0A5lTb19gmpu4yX0RLSIsVjyQLAB00BltYevQF4Wz5NVBZFYFimA&s=10",
       "category": "family",
       "source": "serpapi_google_events"
     },
