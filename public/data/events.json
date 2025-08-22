@@ -1,6 +1,6 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-22T07:23:42.474419Z",
+  "generated_at": "2025-08-22T16:22:51.783788Z",
   "events": [
     {
       "title": "Trial Classes with Ready Steady Go Kids Singapore",
@@ -11,17 +11,6 @@
       "url": "https://tickikids.com/zh-sg/ready-steady-go-kids-singapore/",
       "image": "https://www.google.com/maps/vt/data=TRHPyVeeEjMEruDHAxLWc15vy4lxM_bo8wKz9tnLwzdyBV-163Dg6ITiSxOdx7w-H-IuWYiZrNX46PO_0gvHrIu8Z1ENKlqehtgOspKQpe1LA6QdWDw",
       "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Tinashe",
-      "start": "Aug 22",
-      "end": "Thu, 21 Aug, 7:00 – 11:00 pm",
-      "venue": "Capitol Theatre",
-      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
-      "url": "https://open.spotify.com/concert/3IACmpYYbYG1wLoCjYDnxd",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdxBy0pHCh9iqjANGltXX0lejcptA7Z3WgOOcavcbhftUptud1ar7AWOvK6xAf&s",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -186,6 +175,17 @@
       "address": "1 Esplanade Dr, Esplanade Annexe Studio",
       "url": "https://open.spotify.com/concert/3OmMxQvKYszHrXpQomIapg",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvv_7TbPS17RV7ndADV7a2VB6Un65oh9JGvSgTrbUs_9Z_8TNIT_MA1QRB4A&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Chorus in Concert - A Choral Tribute to Singapore by Singapore Lyric Opera Adult Chorus featuring Youth Chorus [G]",
+      "start": "Aug 30",
+      "end": "Sat, 30 Aug, 7:00 – 10:00 pm",
+      "venue": "Victoria Concert Hall",
+      "address": "11 Empress Pl, #01-02 Victoria Concert Hall",
+      "url": "https://www.stubhub.com/chorus-in-concert-singapore-tickets-8-30-2025/event/158989840/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdqt2F64tg5uVoOBu6XClRJP2b67DQh_wenPNnjwP7cQ&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
