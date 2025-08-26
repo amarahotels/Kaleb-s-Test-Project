@@ -39,7 +39,6 @@ QUERIES_BY_BUCKET = {
         "carnival Singapore",
         "night festival Singapore",
         "street market Singapore",
-        "bazaar Singapore",
         "food festival Singapore",
         "lantern festival Singapore",
         "light show Singapore",
