@@ -13,7 +13,7 @@ if not API_KEY:
     raise RuntimeError("SERPAPI_KEY is not set")
 
 # Quota/refresh controls
-MAX_CALLS_PER_RUN      = int(os.getenv("EVENTS_MAX_CALLS", "6"))
+MAX_CALLS_PER_RUN      = int(os.getenv("EVENTS_MAX_CALLS", "10"))
 TARGET_EVENTS          = int(os.getenv("EVENTS_TARGET_COUNT", "60"))
 PER_BUCKET_CAP         = int(os.getenv("EVENTS_PER_BUCKET_CAP", "25"))
 PER_DOMAIN_CAP         = int(os.getenv("EVENTS_PER_DOMAIN_CAP", "4"))
@@ -32,9 +32,6 @@ QUERIES_BY_BUCKET = {
     "music": [
         f"concerts in Singapore {month_year}",
         "live music Singapore weekend",
-        "classical concert Singapore",
-        "indie concert Singapore",
-        "music festivals Singapore",
         "DJ events Singapore",
     ],
     "general": [
@@ -69,6 +66,11 @@ RITUAL_RE = re.compile(
     re.I,
 )
 CISO_RE = re.compile(r"\bciso\b", re.I)
+
+# --- Community-club filter (General bucket) ---
+COMMUNITY_CLUB_PHRASE_RE = re.compile(r"\bcommunity\s*club\b", re.I)   # “community club”
+CC_SHORT_RE               = re.compile(r"\b[a-z]{3,}\s+cc\b", re.I)     # e.g. “Fengshan CC”
+BLOCK_HOSTS               = {"onepa.gov.sg", "pa.gov.sg"}
 
 def matches_any(text: str, *patterns) -> bool:
     if not text:
@@ -286,6 +288,7 @@ def should_drop(e, tag: str) -> bool:
         str(e.get("address") or "")
     ])
 
+    # fitness / corporate / rituals / image
     if matches_any(text, FITNESS_RE) or looks_like_interval_walk(text):
         return True
     if matches_any(text, BIZ_RE) or CISO_RE.search(text):
@@ -294,6 +297,16 @@ def should_drop(e, tag: str) -> bool:
         return True
     if RITUAL_RE.search(text):
         return True
+
+    # General-only community club filtering
+    if tag == "general":
+        host = (urlparse(e.get("url") or "").hostname or "").lower()
+        if host.startswith("www."):
+            host = host[4:]
+        if host in BLOCK_HOSTS:
+            return True
+        if COMMUNITY_CLUB_PHRASE_RE.search(text) or CC_SHORT_RE.search(text):
+            return True
 
     return False
 
@@ -328,18 +341,23 @@ def domain_of(url: str) -> str:
     except Exception:
         return ""
 
-# -------- Query planning: spread calls across music/general --------
-def build_query_plan(per_cat: int = 3, max_calls: int = MAX_CALLS_PER_RUN):
+# -------- Query planning: round-robin until budget or queries exhausted --------
+def build_query_plan(max_calls: int = MAX_CALLS_PER_RUN):
     plan = []
     buckets = [("music", QUERIES_BY_BUCKET["music"]),
                ("general", QUERIES_BY_BUCKET["general"])]
-    for i in range(per_cat):
-      for tag, qlist in buckets:
-        if len(plan) >= max_calls:
-            return plan
-        if i < len(qlist):
-            plan.append((tag, qlist[i]))
-    return plan[:max_calls]
+
+    i = 0
+    while len(plan) < max_calls:
+        progressed = False
+        for tag, qlist in buckets:
+            if i < len(qlist) and len(plan) < max_calls:
+                plan.append((tag, qlist[i]))
+                progressed = True
+        if not progressed:   # no more queries in any bucket
+            break
+        i += 1
+    return plan
 
 # ---------------- Main ----------------
 def run_query(tag: str, q: str):
@@ -353,7 +371,7 @@ def run_query(tag: str, q: str):
 
 def main():
     all_events = []
-    plan = build_query_plan(max_calls=MAX_CALLS_PER_RUN)
+    plan = build_query_plan(MAX_CALLS_PER_RUN)
     used = {}
     host_counts = {}
 
