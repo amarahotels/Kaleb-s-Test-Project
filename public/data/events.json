@@ -1,6 +1,6 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-26T01:33:42.411880Z",
+  "generated_at": "2025-08-26T01:56:41.993184Z",
   "events": [
     {
       "title": "Asia and Pacific Band Directors' Association Gala Concert",
@@ -146,24 +146,35 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Fengshan CC SG60 Family Carnival",
-      "start": "Sept 7",
-      "end": "Sun, 7 Sept, 12:00 am",
-      "venue": "Fengshan Community Club",
-      "address": "20 Bedok North Street 2, Fengshan Community Club, Singapore",
-      "url": "https://familiesforlife.sg/pages/volunteer/fengshan-cc-sg60-family-carnival",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRurfOoh9vFs3HUdLvSbx_w1G_E8vPaCMbtdQrjTzatow2rghJYrEd8SDfS7A&s=10",
+      "title": "IWA Festive Bazaar 2025 — Suntec Singapore",
+      "start": "Sept 5",
+      "end": "Fri, 5 Sept, 9:00 am – 8:00 pm",
+      "venue": "Suntec Singapore Convention & Exhibition Centre",
+      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+      "url": "https://www.suntecsingapore.com/visit-events/iwa-festive-bazaar-2025-1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ_TkbHwHiNdnO8YFsRpvPfogZQP9JUXtokma_6SeTZQ&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
     {
-      "title": "Luka Šulić",
-      "start": "Sept 19",
-      "end": "Fri, 19 Sept, 8:00 – 11:00 pm",
-      "venue": "Esplanade - Theatres on the Bay, Singapore",
-      "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
-      "url": "https://www.stubhub.com/_C-153055?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-21458%7Cev-158628703%7Ccy-6573&ps_ev=158628703",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIq4t5Xh0HcVawkxTJJO5V9keQuCP-xOwDlT9fcXM9BuzZdEfwaS0Y8LpZgg&s=10",
+      "title": "Crossfade Presents DJ PUFFY",
+      "start": "Sept 6",
+      "end": "Sat, 6 Sept, 10:00 pm – Sun, 7 Sept, 6:00 am",
+      "venue": "Avenue Lounge",
+      "address": "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
+      "url": "https://taogroup.com/event/06-09-25-crossfade-presents-dj-puffy-avenue-singapore/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxkkk9kilUl3L6ut6yMvmtC4C8Jo_7Dpmiy26cUKsDKk_vaRq_6NwDFNp1uQ&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Hardwell",
+      "start": "Sept 12",
+      "end": "Fri, 12 Sept, 10:00 pm – Sat, 13 Sept, 6:00 am",
+      "venue": "MARQUEE Singapore",
+      "address": "10 Bayfront Ave, B1-67 MARQUEE Singapore, The Shoppes, Marina Bay Sands",
+      "url": "https://taogroup.com/event/12-09-25-hardwell-marquee-singapore-2/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRxheGtVAQBJmaQZ7fgZJzrzFadVzXonbJgi8vyHN_051XVKgCioV_xP_sBg&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -179,6 +190,39 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "PAKKA LOCAL SINGAPORE Ch 2 ft Dj Gowtham and Keli Thee",
+      "start": "Sept 26",
+      "end": "Fri, 26 Sept, 10:00 pm – Sat, 27 Sept, 3:00 am",
+      "venue": "Hard Rock Cafe",
+      "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
+      "url": "https://www.eventbrite.com/e/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee-tickets-1528162638589",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8TOIbOUymJzlqwzpZ1YpxWIf0uDRDKpwVSw5Hc4f89w&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Diwali Bazaar (26th September 2025) — Suntec Singapore",
+      "start": "Sept 26",
+      "end": "Fri, 26 Sept, 9:30 am – 8:00 pm",
+      "venue": "Suntec Singapore Convention & Exhibition Centre",
+      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+      "url": "https://www.suntecsingapore.com/visit-events/diwali-bazaar-26th-september-2025",
+      "image": "https://www.google.com/maps/vt/data=b5j4NiRIZm0xXfX9mpmexFoxF_t7zaJMmpqkVvwsgtiuiM2Q5Pt_1l1KUy6ggnxsbWDJ6vm_Adph1Vm_IV9X6dBZcrrMkK-J13uJ44DL5pZejARvyxQ",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "DJ Isaac",
+      "start": "Sept 27",
+      "end": "Sat, 27 Sept, 10:00 pm",
+      "venue": "Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
+      "url": "https://app.discotech.me/events/38016848-dj-isaac-at-zouk",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvqChztTH98vSzW2mUyc7cX42LsS8qm0Hj-_09RkPDPQ&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Token 2049 CRYPTO Carnival Party",
       "start": "Oct 2",
       "end": "Thu, 2 Oct, 8:00 pm – Fri, 3 Oct, 2:00 am",
@@ -187,6 +231,17 @@
       "url": "https://lu.ma/d4f8vivz",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_ZK32CeLvUEAyhNlNSOgHtbxSaOhFaist-hPFtArvg&s=10",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Don Diablo",
+      "start": "Oct 3",
+      "end": "Fri, 3 Oct, 9:00 pm – Sat, 4 Oct, 3:00 am",
+      "venue": "Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
+      "url": "https://www.bandsintown.com/e/107262312?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtG-UGD4WJ6L0IrzwR5ITtKnGze3glbKRZjAiPq0igaw&s=10",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -201,6 +256,28 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Food Japan 2025",
+      "start": "Oct 16",
+      "end": "Thu, 16 Oct, 9:30 am – Sat, 18 Oct, 6:00 pm",
+      "venue": "Suntec Singapore Convention & Exhibition Centre",
+      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+      "url": "https://www.rogers-asia.com/events/food-japan-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYCigrmcFNkEJGLet-07sYhJaQBmQUKbA8GgKRgr5odKeG&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Kizomba & Semba Weekender Singapore",
+      "start": "Oct 21",
+      "end": "Tue, 21 Oct, 12:00 am – Thu, 23 Oct, 12:00 am",
+      "venue": "Bugis Street",
+      "address": "261 Victoria St, Bugis Street",
+      "url": "https://eventseeker.com/venue/866256-bugis-street-market-singapore",
+      "image": "https://www.google.com/maps/vt/data=km-IHD7tYxy4MAbB4Qp6X6Fp7qpD_WSjyP9QpBzSkpqH9RYvmxXUR36JumMGl1K5V12lsGJ-xsRrGZio09agJcOnwY2pa-EzFo80ZOCfJnK1hEPcQdk",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "TV Girl",
       "start": "Dec 3",
       "end": "Wed, 3 Dec, 7:00 – 10:00 pm",
@@ -209,6 +286,17 @@
       "url": "https://www.livenation.sg/show/1605614/tv-girl-perform-their-hits-live/singapore/2025-12-03/en",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZygluyrAaVrkAvZEkv9zK2SYIrOFkBsjQWtIW4E5byyRTQxQ0vGU_jc9nxQ&s=10",
       "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Twilight Flea & Feast 2025 (December)",
+      "start": "Dec 19",
+      "end": "Fri, 19 Dec – Sun, 21 Dec",
+      "venue": "Suntec Singapore Convention & Exhibition Centre",
+      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+      "url": "https://ahboy.com/event/twilight-flea-feast/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKVh05dRw0EJye13aXBtwWxq3mw7vVZ6JmXNL-gEp-8w&s=10",
+      "category": "general",
       "source": "serpapi_google_events"
     }
   ]
