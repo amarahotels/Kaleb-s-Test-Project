@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-25T16:23:37.644906Z",
+  "generated_at": "2025-08-26T01:18:10.947937Z",
   "attractions": [
     {
       "title": "Flower Dome",
@@ -7,7 +7,9 @@
       "lat": 1.2846292,
       "lng": 103.86469749999999,
       "maps_url": "https://maps.google.com/?cid=2886416303121492523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJPYrvewEZ2jERK-pztVWcDig/photos/ATKogpePEq1JGVYla0Qg-9fIX84JSJ5uHcWeYkuoTmPzl5MB0Ad3EZytL5rAPJy8yA2o6MpaLyVHekx4dMwcmY9MQqDJmmOgOvy7aF9X-4i_S4duqGARfVqTab2NA5oQQGj0LpykbHY-odR6ZgsajHyJrBe1nApWu33dw3J7fqoMv22zt41ScbPrk4GgWrRhDV8-Vu8o5zpi1AV1ckroxqJWUDsxn_vozM0XsDY0ji6Tni7n_7qvMkSgfbjl_jsWwuEg_8jB9HwTooj7EKbBFXeEa0tMig_7UjNx-X7wlVCwPDPmAfSYsqsCkx8fuGgQ9xrHWQt850SukVHGkULsloP8Z2RC72UoCeuSycTNqCvsluuX5dYMyfwkfCSBoDeJpo6fyoNslGqiSYaQ_0enNMHqenrgU7qotYzPbUBrh7PlPsRu2ROU/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJPYrvewEZ2jERK-pztVWcDig/photos/ATKogpfChYQS0vFycLL_ogAm8S6fa6TS7Nv_8QbfPRCIXRw0GYR3kXwf1rM8TlUeJgdyzSQKGAV0GjhQk_SNcUKYdj0DnRy7XKAGHKcSfvoW-u1n9QLcMJKOfXsP5g1Do_kqcMbqJ_4bQjYreNoE0pbb4U7fFUo8kPZMV5EX_P10W7Ddr2i_ZeSJbSZPi9ld0Z4jhp8ldCJr3D_-bdmw6yeShE6o2o01Ak8j_CuDUrbIzRcGo9xDefI0oiJbM5Ti78qB42C1qIB2N4C7BPuEKiTlROnaCrK4x7WRxDdwHnbNzu2XGVBwEaa8BUAHYRJ8Cq5v4mV-2z5e_NiMJvhhaWRVLLM3p0H0OkJttVQYgv6q7xcRj6kGVIP-R7KyavKa-8_XKb9S5uNKQko-C44gopDUGRjfeE0bDd7vld6IV0ZurMBBMEC-/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.7,
+      "rating_count": 25020,
       "category": "family_featured",
       "source": "places_api_new"
     },
@@ -17,7 +19,9 @@
       "lat": 1.4071539,
       "lng": 103.7812684,
       "maps_url": "https://maps.google.com/?cid=9521681205815532500&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJkyCpkWcT2jER1Nsl0ZvOI4Q/photos/ATKogpenkRHPZNEfIdqcHjoRkBgq6Oin_GGfVn8tK9XiO2dUeEezBbDpLGqbzFAQzRBFGnlgkI0XWlHuTSygtZzd9UpQ0XuMZFHxyF3LueyTaiv_xq1BcOmIA7dQGTKPyoow1yiCWcgfp_4jWXW8nJieWuh1ViKar-kwJSTUUtU9WcdfIOV63nDpJF96ImUOD0n0Efgj3lhVxOzxoO6t0H77tHujLHvPQOARKlnxwYQnWwHb0986Oi3HNr00kc5R3S2uilB9b2RhZGoVI7G1Cq0flZ79f3pIBOaL6YQaji5zhyO6J6xgl9lcNQ_REaogooM6SMzcVC98XVNqcp0KtRK1xRJaPDsQvEb3qh-JAl7SROpyll45ce91trDVcwvCFJvZNOCOW7e3_hQSH4X2JbU0orT9YpO5DW03VghpSCpevTul_gs/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJkyCpkWcT2jER1Nsl0ZvOI4Q/photos/ATKogpeoOozo14cZgzvxb0bTeoIMJeJeDnhbsP8R8Ut0ayE0JFnUoUK5PHJQG5snBBSHHC_eMypqmc3ZNF-ZEd_7R4NCB4lnzVpQzLxqEOSFCu8c3u10Hf5I9ia1geYIgiyrLQHUQdcshGRrHDsL0OObxlgoSDUr-9BZNU1f0UjOp6L1rdbu6qmvxu6L-i3lYu1iwYXYYfWS_KzyaZibeFzCVofn5CG7r7op5ZTtcvlxsjv23PFZsCHCHXZZ-1_s9pNMRXY-dWL0_8mHCRjR5R3jDB_MRA0TtxzQsbP52Kah5huS7OE2k1CKA5AjeDf7ciEjKxN2nmhNa88z-rLNi1Q95kTJNToYDG9Ex1wWpLQ1q9brWQzEmS0HQCtUPshcooXCOX8Ohvy4-y6y58FlyOOF85NFcUngx7NB09VU5p4wvIJ3r7Q/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.6,
+      "rating_count": 6921,
       "category": "family_featured",
       "source": "places_api_new"
     },
@@ -27,7 +31,9 @@
       "lat": 1.2583209,
       "lng": 103.82051469999999,
       "maps_url": "https://maps.google.com/?cid=17631756660555709734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJj-3Cq_0b2jERJv2MBkSVsPQ/photos/ATKogpd-al9y9wF3K-cQhTKI3IxzqeQQpdHYu7coPcmcolR-9APmtrAuFOXCQfusXqj7hbM-rMFikX2s-Zh6yEtS637E-cDzTmXf1thRULW6o_9czqsw6XSPEMY83yjMtwwJZmHFjGJJfEDZgWAUX2bQSKPSQPsNW69jcs2tJkCrKFP_UKM8PY8-BMEFecIudfduf5D5RDKeiVQs8hIhPlGm7qdkSIZg-LyFte59oQvIz52KirqKwasK0ZIftT2ZxlB6PBqu_jobiWK2r6U7xQDv-qabJ0oektRTs1sXUUhOJ9fs7g/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJj-3Cq_0b2jERJv2MBkSVsPQ/photos/ATKogpezCvfAzFYQi9MPG8RLlMJ3p5ebdikvDNikuXmX3vLuXVIw46RGEZ_eg9stP5rU1Uei03fNlUQGp0jRIPmxopUjZd61s2tBiARtqQR2W_JIqkbeeE38ACD0CuL2Wo23kS4aDJ5Ew2axeM_1djAFR16tfSKcklIDjjkKH9gUHAbMN-QFOckWQ5bNPlHlu_EVoxWIhxCYwn0pko9WorBog4bt7SRywOYLOhdWqUfW_R2Aret7MhKU-3w38VPtSYSViUNPYjGR0XvZy1WusY90rljIThEuYlmnDAYGsP9z81iNFw/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.6,
+      "rating_count": 30451,
       "category": "family_featured",
       "source": "places_api_new"
     },
@@ -37,7 +43,9 @@
       "lat": 1.2815683,
       "lng": 103.8636132,
       "maps_url": "https://maps.google.com/?cid=7064342931399756406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJMxZ-kwQZ2jERdsqftXeWCWI/photos/ATKogpc8jpLyfBD-sMCCtjI5ESn24jx8BKRn-0K_HhnVv7inPTO4PKozXcuytoUM7FJUi24yKGvyG8NxbTdJRhWw904yQWjWDe-pyyjoG5tRjgpCXBzplEG9Q9wl_vd_WmE4-n4ZhB5N4NNYvo6E1xN30XMU0Xb7FMpsbxZH9CokcazUDWNV4Sz61ui_5HSITiklY3aHQ_dAPNo4XbmsxsLEG6nll72cU8Nw5XqxW5oT_UtrVt9KidRv6nQN9HMFpQkPPySOBtJtNNXEgiFNzrobVlSJoUVKqy89bSj7vhtSaa_GUCola2C4B-ZX9hCqWjtXKlpwPKXqWhgy9rGXRSsLC_ZxEpzWx_KEIAi2J8re4koCDpBNtw9l95WX2u2XUmxsjnD1P9DQIJamlJI7lWi_LoSB4P4MzR1ztXWGycWdQHMTlw/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJMxZ-kwQZ2jERdsqftXeWCWI/photos/ATKogpfoNfrQ9JT8H8kiyyFs-LmTdifmQK-sknnoIAwAxGGjUHE7jdiOc__G26e5yGQmM2i5GraR4UbdI6kPrGtVWwlQ2gktRlXH6PRIuIlCW22vyfX3tpTtdt6W44VDXUpN8Jh84YlXILhwPDhPbFQ8_VgKGUGS9LvjMPgTSMy8BeXKdnCXywiCpQ21FLb0oHsE1DhnR69XIenuXC-JGzjDK6vB0WdEW1J7VfKDIgVuPZmzwRaAo5-nC-hXajKRPvrJtYFbRLplacVCaF035pwWIZHwo46VYMDfQGPapFEBzhh_0NVW5WNmwaORbqtFomf1aGgGUKQocWggI9vaMizUN9ogUWaNgc0o996VtowysgPW6SP9adVU0RbktO9jrwDptPuwga52Vsrhn7OgvGPwaOR_V0PeP1GLaF_vbH_ZLjVlkg/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.7,
+      "rating_count": 150157,
       "category": "family_featured",
       "source": "places_api_new"
     },
@@ -47,7 +55,9 @@
       "lat": 1.360136,
       "lng": 103.98973,
       "maps_url": "https://maps.google.com/?cid=17049913300396863432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJiyPzSU092jERyO9c-c91new/photos/ATKogpcrMd6zIUS8Io6n2NH0S0O08cGemz7uUWdvffgG9ayzIOL5KMpJYdepb6HN11aAjhI-v9Qnag74HFhxCrIVaP_7RerfdovaQi5Hihx8ic6YA8dcVW-f7L0Hrt2beoCBllj8ODN01BZECudPo3uWNsRD5cxSfMex0MS1a8LTPTYML1WxAUhuLIpMKv3Re3rIZaweTiYLQNvegOKpcZyI3GP7biPxcM7KGxSoX2P8__Mplt4A05rJ6hRtU1J8_oNlfKkI3syjC_SQx1Ad4chyKfFLoAF2X0VrUDcQ70K09dSNXLkMNNQN_KD5IGQzEr3Fs_rp8-fF2SXOIgmy78nRBDQLgjmcbT_A73dhWQ9sPJXNry6So2lxfP4oGBJni8KKwjmhNTvEylfczLpkPJ3OBojZoik1Wbf_hHh2msNvu2O0BaAZ/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJiyPzSU092jERyO9c-c91new/photos/ATKogpeP-AbRdNXLXnMLgIaBhhNzbYc2YEImKkVP5iaH-0e4bTqlnS-bIr7nRkFfLvkHA-8D2Ywew3BdZLdEYHXz42Iq-RTVr27uFb6jk2-kr6lk_tO20K3rE2ciXpirLUwS6jDXgCgVD0ebosQHs8pc-t0hEig45oHzsWnj7M07Lnjh-w_J5o235Ae_Jui4kzD8RUcIMUVGn9feEKMw6raWVBj75TsSWcL3ATLiJLxWSQgsJSvo4ZbZ7tex_3afAKK52oMUbIM1ZDi6LWUUiDaPvUAKwYyo3C0GBYsWwLUrobqoF7IGCLhZILFV8UeWef8H8uqSEfwKRLXO-fqA603KXCU6XOpWayBWnxoK1jcgJelrFKKr3dSW-qqTYIWuf0kz0gKllGKbO2Bf3NC6NBPhDIZ0ZorNbtZwQHGdt6Los__O7B0D/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.8,
+      "rating_count": 1757,
       "category": "family_featured",
       "source": "places_api_new"
     },
@@ -57,7 +67,9 @@
       "lat": 1.2540421,
       "lng": 103.82380839999999,
       "maps_url": "https://maps.google.com/?cid=3500426646667023007&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJQ6MVplUZ2jERn1LmNH0DlDA/photos/ATKogpc0vJphDuKBUr5xDB9oZyOKwzO9v6snL5YKDEfpzcg6itmIEQm4e_zSo0oCUjMmV7B1ZW3A1a6AVp5mClYXl_GVYU-nwLxp4B-oLgzeypUPIKqpYeDzcxskONP7ngdyQOVQ6BA5GigYoLvVh-9gLxQSDfkrB5rKeDLECAaC6PaOcKJ8ewRADe6mK4Re8gJWCJNzXAyX6R9f4kylWTRLBXw-egxd6-QSvntdJsJGFXPOeNZFovca_ygQr5j4hRx3Ftvy4CsmWiWhP7aeBTp0wbznT9dsswPiEsyuyuFKXjkDjaL9G50yWRKr-QYYw4MPadoWt_0lWXZJpDL-V1yJNlVQpoK3TXt7CKeH1SugFhVceJW0aPDTNHpBiJqnhKy1Qxvy0LznQnNNnhnYRtWo7kGQ3fyDH41oOe7ybK5Y8VoJPw/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJQ6MVplUZ2jERn1LmNH0DlDA/photos/ATKogpdeKFVZrfYtuGAYtiJlSDWlAx-AlXEvAc-mZmkLq79PsZVZFs-qJTaD8shR6-dC60_Kr-Q1SsS_Mlb5uBJat-XTOm8A6rCP0BJZPo1aZWoXL--PY3pUy6-RaKJDMPxJsBJrM_vpjNgP6WejzTHJRapWd8hqKfPuCMs0mfYF2SNhxi9BTW-wqK_BAO7NCiz7-TVziIYvt2ykg2EJ49eSmLpcCJLtDUneOYt6Fh69C3mmSh5zSPufdFTk_NU9ARY2JvLl4LsTSZwBpZTbSbu-VdaFdF23iDwHql-HY8LodnDiG4LqBmLhuO5aZ9rSgC19EpxbVWckfBfR66HCxq4tRktj97Z5bW9Qf0-S7Hssiasks7lAXaqLPdUFOyhM7xxnR4oMi5RN65bcfdRccYXsh1kL2fPwELN266Agij-dvmqgcQ/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.6,
+      "rating_count": 105789,
       "category": "family_featured",
       "source": "places_api_new"
     },
@@ -67,7 +79,9 @@
       "lat": 1.2838676999999998,
       "lng": 103.8660024,
       "maps_url": "https://maps.google.com/?cid=636563281322239017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJd0VihwEZ2jERKeREhO6G1Qg/photos/ATKogpczZHahei0N9bhNuzoAbUI3tyLzNIpcTgGuhCxAsACh1iuH4T0pJU2844f8LClMBOHmwem_jjIal22qUpfRUSW4kki2AhmFgHDoD4U26Q0yCOQAMh35XjAkxJx3yYoVV7hhRlFeK_FSHl7EjsVtmdZnDsNsrDNNIPHrdnkwh3sybRLkiKzcHk2wm-Ml7kyfhddwLxDOXU0seY0PEYw6U4WJYbO-Q6Hy3FBnNI56Rka9IxuzRYSZeZuTg5H4pM-CoTW1sleLDriXE1iZWx5Q-vFudrRVFSdXoq1BHTLeR3YPAv11ISJ8vca99DCLWvDEOm1EXRbBEy5OOwANRwNmX-hzF7312R7TqqN_BwEJ_72gDxgp4W-7Oz7C-E127eWgAA4S0g2EhvdtZ-uOeatP0_jrI-pissubYPNCJXQTjIoRYA/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJd0VihwEZ2jERKeREhO6G1Qg/photos/ATKogpcncYYWkF-sy_MXb--m45QjHdL_ob9EG1-hW_zkp44_3Q7aMFpS5ya1nAeKPeJ48fpxzjx0pBX7jvKyS6Xfop4SM0wtXhvjfQP1ywWjJA4SD7WmFJV9Y_HjecUTH4dx7bDWWY8fnyNSCgLFNJSLAyZ0T8v1wl4BVk-WQzbuyB8I_6pC2ak7g3rf2zKpjyurTlVtmCsrJjHaMYrgQFRFUTdNHxPq9Ijn_f5x6FOm-GzaasgZz1IWah5CnRbLuTV1Rv-Y__iqy32D3T_KghxHwWSrZr9b-EbmYxsX3v78wqk3yPDmGX0hiUzld9gkpRzrUR0l1K_rcnwQVa6lEjWCkiq6I1PBohwQLoKLmOeKlSPnLoYSzYqCeSWSfx2PnV5DJVieS8Zlvi16t1B6Y818mFTWA1mBwq5J8VQ1T5x9yEQXhA/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.8,
+      "rating_count": 29576,
       "category": "family_featured",
       "source": "places_api_new"
     },
@@ -77,7 +91,9 @@
       "lat": 1.2862738,
       "lng": 103.8592663,
       "maps_url": "https://maps.google.com/?cid=9351803658631562569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJnWdQKQQZ2jERScXuKeFHyIE/photos/ATKogpeg3urutbyvcWXScYlSDHUI64MtdrWvBReDIXVV_qXFF90viYWav0pbz_bYSSh4hx479D-GSTbRD2bKmG3JfYvfqaBJPLhYzRbFpBC5B0nBk4L_Ay5cHsd44SZVrymquYHORgcaK_zxvZVK2wac9XTwXoiu4Asnbkb3QkbbLQQUC2VeteYtmDi2pjB3jJAnnJadJVTnGpXlWQN2YeMnplrC2aODYQrcrdS_c4d-oIzA6-xPO1uRz4WGqqJWqGLOqKmEVZnZOK958KE-TA81xiSFghtRCQttOOnQ3ee5g4pTOUvL5VvEu9Xk4SRIeabwUwq22x6J6CEjHZVvKgbwV2Pie9azw93Z6Qjm09dRaeFJK7MtGoxGa7kijMebzCVvwwcUlkZ5kCGSGK0iFNwkNfQrBW9GkBLZqTp74vjycGtBz9c/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJnWdQKQQZ2jERScXuKeFHyIE/photos/ATKogpexyx86KJpaLkXnaX4yLVYrR98JOqJgB2JY0ZaE-7xlKbi9Wbpd-eqpCTX6Ih7gBBkLBbMLoTqwxBykwpRcVTJNkdK1TAS5j3V3iFt0zm5lFQI3eqhgTFOhqPKmphJfuLiO3tKmBAuRoke2ar9A5pdV78h4sBzsvd48gDS_VwjaVhCo3sjZHMXaXqLkndAvS6DPMFqJ6JNflcHHGTcM_28LHEi36XmozHkG11s62tbpmIGJ9X8tNjNUHxoXs0Kn_hNMHtNQJqn-Tv-c2JWPJHEuSUq3aRh22PpZLRtmaP2Tnl1gEWK-x4G8cqGSz5YiPy4ObMXrC7nZOPDTn09fRgsSL52ZvGIjaM_ExgK4Bzv6xQE-c2AR0uH-itcwexMzWraib4QDJa54OfydCKmtwEiem49Kf9Qm6xEtxEXzFyCAtBU/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.4,
+      "rating_count": 17118,
       "category": "family_featured",
       "source": "places_api_new"
     },
@@ -87,7 +103,9 @@
       "lat": 1.4043485,
       "lng": 103.79302299999999,
       "maps_url": "https://maps.google.com/?cid=12976272166016981905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJr9wqENkT2jERkRs7pMj6FLQ/photos/ATKogpdYRIKG11R77DgBdXqhHtwDq8GHmzom08yvV0Ivg4Vwu94UST9OC2TqmE8YPXV61_cgt57BI48_VsDWyiU2VWYDFP-KyHiC4rIYqiTD5N39CKRpKr6BzSTlkL3jFpj7KWcdvtt11-Y8V4eD6w8MtT-BKXYdeZ_uUwwenGHTXXDo3D6-uG2ZhgYk8AJXs43cB2aUU5GZ5RobWaMxE7wajPsvTwRcxGihSsPcGLxqppoGZpW4ziWodnpkoDbJ2wH6jeJxKEvSxlwlSP6WuyOj8iE8v1vOY-0_8zGQwTHdSTeV1hFiwPoSbAGAXmCPWaKDs4VEM9aFbRyCB91YMa-GgWTKXr5ALquwwFjatf-H2CCPj-KxsGu4CjEaxYprT7UzyQCRzR3MYUproE52mrywWcIpMqsZzuKgeaubwily9QI/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJr9wqENkT2jERkRs7pMj6FLQ/photos/ATKogpe_oGWTHSGt2sQ_CvLTD0EWQVi8PJYHFs0g43atXvWgeTPFaLsBdCQz-ifN6cklR8STRI9NQ_8myHa6XZYnJlKDsosZ8mz6Z1uBGoD8nBE6V2x6gOx1Q1ke6sw6ENpfE3yNF2EG0c632on0KSZdnHmhcDJ5fMc8_9r89w8cksORcSfGDRBRyjPYTKh1E-CQjg5GRunC7Sch7xDRglLfpMLPnh5b1mIh2U18dIx3lPqICGjYep61YB0lntmNBsL_WedVJgLfqP_LwwvSEowdAh0QV2ewtnV3tSeAwmcuR5o7zatz59AcCOZ8yOTWQJULo80j9otYG8UrgNlQfUWpnO03Oh947dXaCasq2dTsomA2Xec1zABgngRjiV7cafEb6bEc9seY1FyU9XBE_16Eq9CIQ77BJzm3UVvKfgjBLjQ/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.6,
+      "rating_count": 48861,
       "category": "family_featured",
       "source": "places_api_new"
     },
@@ -97,7 +115,9 @@
       "lat": 1.4021872,
       "lng": 103.7880606,
       "maps_url": "https://maps.google.com/?cid=8066304183039611363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ9xUuiNcT2jER49FS2OpE8W8/photos/ATKogpcFjoJn_pcpyMquJvyyXVQsG8srOfoUi_HnUBh8_D2Idv8AHt9QgtxI1HyLSMiNRYws-JVqaZ7i_0P0rVxNkJAg1RUHsQM6NOu4KsA49iv0jJQ-WvldEWUnRfPVqIUhjzDuRUtHdf9s2wASHB4e9cHcTf2_ML-ZAQAiiEtW095x6lOxrN45ig8uU5ymFYxFY8nFtAyaIp8hiLhp7EICKB6t19EiojpjY4ags05unkzpAXVqhhZknokR5DASg9ApVFiKFjp-zFS1qie9qMT-jqhiXcvFUVfrQFou51qnA9sEFw5YKZJpBuTFoWFI2okmmtXxF3bdRibU3vNPudw74lLf1taX1J1uLxjn2q9wRjJ3nUUwpq5pbIT_b0wO3wYuiRYP-nwJ2Sj90q2yOQbOvFWLkuoe9Ztj04o2-m6G8rlLCqU/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ9xUuiNcT2jER49FS2OpE8W8/photos/ATKogpcjWmPcDJCtMpHpR2PmvHRJmQq1UiYspr_0rA0AUfJ99gkjOd7TTbp9fhEyKu7mqMT5DW8SdbTDswrspJwgf96y5J_H03imxbCV4LSYmOTRiXQ0OyREuvKbpDLzBtsjuTHXqRuc4vLBLuX5Ppj51WoYTISHllqfzahB0w991D-yu7K4QwjAF5oavC7O35LDnLJ7WNRGXJBp6WqJ2pCDHtfDX6UyZOD0tKDvRnXlh0mzoROixZm8uoKh5qd9XWzzfLbjcTFhlfklr7vuQOFWPpqiTXCsPe-HU-q52xE9d0PSYA_Il3XoALp_8I-kpqldjKXTrfxA9eq5m6uiwc1CcyUmJ0YNtb4ziQDEGF0PTQliSYtOT3hc4so-FTgNE7dMS58X28NoaQWFwS7ugTTPcIOuRvZQ3hjsH9E415_jXKUIf8s/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.3,
+      "rating_count": 33095,
       "category": "family_featured",
       "source": "places_api_new"
     },
@@ -107,7 +127,9 @@
       "lat": 1.4038498,
       "lng": 103.79066759999999,
       "maps_url": "https://maps.google.com/?cid=8439811586239659154&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJxZfX_9gT2jERknwK8es7IHU/photos/ATKogpfheeB9oJCqEnhBytBHeaZ0JLsgW2Yqrb2hohBVsTg38Prq-74RvJBM3N09XrpLG1Sr9nvKV9DMGGciQVJsWIfgueR4GTdlUlJirh5NnBN8dYhNx7XrZbaQWtGA6WzFplNCEBimGI4o8yv1TBR8fKyqxJpJI19Gw7AaVI6LFSAKXhjZj9GUC7wih9E8IIsziqnbr7z8eVwEakwlETAxBvb55FStqMlnjqisaisCwHALiSUyXb0MB_GR37ZRd2TC7Zy7C117aN1vcQrAxn5fWx3NINlQDksfQJDeIO2JiHF-OUJvswo5cHnBgoC1M06E53AN7anSati3SKed2jlUShzbk_WJsYzMWdu1XstyNFfFcmB0WJIedaqM6GrP2uoKjGTW7rqyPUrhjRn0HcWENUDXbrMpUQnWEj5m9JK0IvznHQ/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJxZfX_9gT2jERknwK8es7IHU/photos/ATKogpcQKUbUVHU5CadqQztJ4VuSOnX02WXzUvEZTtDMkCUg6_QpcFyneXVN1FvlQjbpNZKdAqf9TSzUM5rp9tdOMDGodx5dJVk1fcfrzxJhiUyaDBdn6tPKbwfjpjlt3lVVWqR2aA62pX5X09UFR__0sEuoC1ok5JgiFnCF3jZnIR-rOAPGE1R-nyIhbBIwohMwS4WWp7U85B8JbFVHuSveNuDGK_6UbAMq1hL9a3OKqLmCf4a0SM8FgB0-_uNhJB7gX1yUvJPf8URhYDYoOqHbLZZ5f_3Z0PsynNMqcwfjYHySDewsqcSkSYTPIs0wRjcNP4Its387z_6ULUwQbGIQcqXIeM6SdG2ZQKVQMzhEy2vwdtnEIeR2Rk0M3-QYM4blZKpBel_1wqwhAtpRlKM2yN4JsSPL37YHqc5N5a_np06gjw/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.4,
+      "rating_count": 11373,
       "category": "family_featured",
       "source": "places_api_new"
     },
@@ -117,7 +139,9 @@
       "lat": 1.3331686999999999,
       "lng": 103.73564429999999,
       "maps_url": "https://maps.google.com/?cid=1792471688187710926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJY618FAQQ2jERzo1f5IAj4Bg/photos/ATKogpf-lsuiDmsxA3WU-rxf8gkIkqjP5ObF8KLwy4YbbsjT-0DfxRzoJyahCE2g8tVPGZTxT0GnCdjsc9_FgqzZdWhWjoMohwN7c2drJrHrjh0qQAwMlQpaC-0sYpUMzKPxJmbR6ErvRHtz5iA5G79u-IS7dD41EoXVc3uPYQk1qwP6yHDMgKPip983T_GeZPNNT65qwA2siwHg47GCYCCQtwC_I4w-87u25_8d6UUAoeaxRLx2Tr9LS-uOPIqOWjXvVhpStJW83oxIw8UgJFtl4EXWRZHXWAj9EGHc0z9UUQaAjiDPMBUqeI4WyM_thMyQSMMvcnJUUOGwfkzKJKRlGQSPrPkOQolhKaYvfwRq4_i6spJ9_P4wCMHkUdLfVzGAgWf3dBUjcG-KEw2ljwlNRn_QIiiPjRKOm2IL927Pgqjg7w/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJY618FAQQ2jERzo1f5IAj4Bg/photos/ATKogpfZwPEjMjxvxadc_Xr5URGEb65lpRXKRtIpNZHedLhBTz5HUdEdiwDH5oGjVhjXN7OXurIpr6jSVKmO0HYfE2dKI8UjCapNMm3-Lg2q8z8WwkQvqvbLDukclibu7ODOpYBPjQ5Ekd-_KLjz29gNIwoSnLXinyD5PN5pTiu6yxrNEbqiCH0Nn2cw40OY1vFPRLZGaINISvrMfSc5_oLWIXPr-cH9c41K1mpbt0esQqg_3fSomZKmJ8Wjm1w5wlmK-wn_rqG5c-_k4jVkcOMcGjGEVL2TJnTy2-_f_w7YyJOqoY_n0e4iws4YR9cAt8rfP-DcYEFEBIOLrbFiKPQBHRns6VNV9GgDTYVpc1m_JrVR1Z26DchmzSoNa8cG0V1W-QvQhBxl12NVm2d16cYjTDTm9pQ1-QfDfUosf1sZZEUC1Q/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.4,
+      "rating_count": 7165,
       "category": "family_featured",
       "source": "places_api_new"
     },
@@ -127,7 +151,9 @@
       "lat": 1.2494041,
       "lng": 103.83032089999999,
       "maps_url": "https://maps.google.com/?cid=17939587005458423041&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJRYMSeKwe2jERAR2QXVU39vg/photos/ATKogpccuQtEQhM_NWENfFqZ8fiTgE6tQ2GBus5uI1cRsZWF1m3Vvx8daismjYboz20apH-dRsG0sDuv73qQiH1MwDfe9pJPM1ZYcMzyMGVaYZMIyhdA3aU5WRho3QtpQ1-398OvJpDdrzEymvDLLNYqird1uItGqVfbgEQGsu79W7mY3dX42sCeBnkfqoLRYLf41dRzStofCxYWEEHEYXeHhVr9nwcdD4VPUtfFmocefs5h4cYWo-m8Woo8JPUoVQE0KYYcQtMswCbR5PVOLVKuEUvHoDIq1oaDRQuQBQJWJI48GNmr2W6w54DNDRsSU4TrGRG_ccAP_LiO7FrBXSL1rSyIRM10S9GqAsCX632Akw5rlTJwsZr4Y2BXUzSCqz_ORcrVFWZGUdzM5hhTmMKGoq4FAaY_GmQUs0IfzHCGZZDs3Q/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJRYMSeKwe2jERAR2QXVU39vg/photos/ATKogpdL2TCXupz15FVgtHkNTUd2QuwL7UyMI0Sf1Zfxnoo8iah-2fgI-eOb1OpSmrgLxvNJWDESE-ZyQHdlRXUhfA0elGKgfx2I-Qh0676XUo3dhovUoU5lbLdB4zF-AWi9VvDZEhDHNwTNmj6hYlDMPuYaNBILYhXH4TXfaC7u-2JlXuUJh1oe5v2AWqFWo5UH_TMOdJmZ_GkkZCUkJrccCEksG-4zk2vxdZZfEik2lVrSaw9ltWptISsRN3VuVSdl4WDiGJnhqwMJq6CgXPodldFn0bzDD5wfa7eaWgnBrf7gR62SDV21_d81nDjrzoowqZl32EbW7pURlwMQqk87hLSASom1zuQ_dqOQFYuHS1rSY61q5sQfNWx0t81EPF3tgeQcDGVeVg3Y8RwTJwDBOFvGrn9fYq1eNbyONDSGRVzqrA/media?maxHeightPx=640&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "rating": 4.7,
+      "rating_count": 9283,
       "category": "family_featured",
       "source": "places_api_new"
     }

@@ -1,1 +1,285 @@
+<<<<<<< HEAD
 {}
+=======
+{
+  "source": "serpapi_google_events",
+  "generated_at": "2025-08-26T01:18:27.713108Z",
+  "events": [
+    {
+      "title": "Asia and Pacific Band Directors' Association Gala Concert",
+      "start": "Aug 26",
+      "end": "Tue, 26 Aug, 3:00 am",
+      "venue": "Esplanade - Theatres on the Bay, Singapore",
+      "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
+      "url": "https://www.facebook.com/events/esplanade-concert-hall/asia-and-pacific-band-directors-association-gala-concert/1099110202121365/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBKibjxJUxwzoeoB4MF46LDBrCcnfC8_MYVxIUnztxf1dBxwqW3UAc2mLYvudU&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "IP Week @ SG 2025",
+      "start": "Aug 26",
+      "end": "Tue, 26 Aug – Wed, 27 Aug",
+      "venue": "Marina Bay Sands Singapore",
+      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
+      "url": "https://www.jamsadr.com/events/2025/ipos-week-singapore-2025",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOnszqzszYQDD_lgNs2J17XmVHcFInIYWnGYMcGhYCqteTKoePbK9AylTSco&s",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Singapore Night Festival 2025",
+      "start": "Aug 26",
+      "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
+      "venue": "Bugis Street",
+      "address": "261 Victoria St, Bugis Street",
+      "url": "https://www.heritage.sg/sgnightfest",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAUnqYXQIq2xWL_jN7tk5imzGQ-JUWNxolBP9IO5JycXY6vX-q4g-LoowQQ&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "City In Session | New Bahru | Things to do in Singapore",
+      "start": "Aug 26",
+      "end": "9 Aug, 12:00 am – 31 Aug, 12:00 am",
+      "venue": "New Bahru",
+      "address": "46 Kim Yam Rd, New Bahru",
+      "url": "https://www.timeout.com/singapore/things-to-do/city-in-session",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vrxIuXPmLgyVkfvTEn69XFK_AOsS3-v0rtDqhLqH2A&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Itadakimasu! | Heartware Store and Gallery | Things to do in Singapore",
+      "start": "Aug 26",
+      "end": "14 Aug, 10:30 am – 31 Aug, 12:00 pm",
+      "venue": "Heartware Store and Gallery",
+      "address": "350B Joo Chiat Rd, Heartware Store and Gallery",
+      "url": "https://www.timeout.com/singapore/things-to-do/itadakimasu",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlnjPZt-V7e5ftWzGbU-p_vS8IPy559nnxe_SU_NS7-A&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "All Things Singapore (AT SG) 2025",
+      "start": "Aug 26",
+      "end": "22 Aug, 7:00 pm – 6 Sept, 11:00 pm",
+      "venue": "National Library / Lee Kong Chian Reference Library",
+      "address": "100 Victoria St, National Library / Lee Kong Chian Reference Library",
+      "url": "https://citynomads.com/events/all-things-singapore-at-sg-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi5b92xUmqyNqsrQinXZWQsCB68ExxNfxwHdDLlLFIvydFFNCbRDw6zlzIOQ&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "COMEX2025 — Suntec Singapore",
+      "start": "Aug 28",
+      "end": "Thu, 28 Aug, 12:00 pm – Sun, 31 Aug, 9:00 pm",
+      "venue": "Suntec Singapore Convention & Exhibition Centre",
+      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+      "url": "https://www.suntecsingapore.com/visit-events/comex2025",
+      "image": "https://www.google.com/maps/vt/data=b5j4NiRIZm0xXfX9mpmexFoxF_t7zaJMmpqkVvwsgtiuiM2Q5Pt_1l1KUy6ggnxsbWDJ6vm_Adph1Vm_IV9X6dBZcrrMkK-J13uJ44DL5pZejARvyxQ",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Epik High",
+      "start": "Aug 29",
+      "end": "Fri, 29 Aug, 8:00 – 11:00 pm",
+      "venue": "Pasir Panjang Power Station",
+      "address": "27 Pasir Panjang Rd, Pasir Panjang Power Station, Singapore",
+      "url": "https://www.bandsintown.com/e/107090774?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuGNbU3XCsdpcoiXVh1qaWBrPUTkFGV4Z-sQaJ8_MZ9HJrlLHyg9gYPxN7xEw5&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Summer Salt @ Esplanade Annexe Studio",
+      "start": "Aug 29",
+      "end": "Fri, 29 Aug, 7:00 – 11:00 pm",
+      "venue": "Esplanade Annexe Studio",
+      "address": "1 Esplanade Dr, Esplanade Annexe Studio",
+      "url": "https://open.spotify.com/concert/3OmMxQvKYszHrXpQomIapg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvv_7TbPS17RV7ndADV7a2VB6Un65oh9JGvSgTrbUs_9Z_8TNIT_MA1QRB4A&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Walk & Talk 2025",
+      "start": "Aug 29",
+      "end": "Fri, 29 Aug, 7:30 – 9:30 am",
+      "venue": "Maxwell Chambers Suites",
+      "address": "28 Maxwell Rd, #03-13/14 Maxwell Chambers Suites, Singapore",
+      "url": "https://www.eventbrite.com/e/walk-talk-2025-tickets-1459815309889",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrzVM5dh4Ad4fth1Q3_Vw-u6-9B8xN8wpBTHtaGP4gvg&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "SYNDICATE presents NOSAJ THING (US) x BATAVIA COLLECTIVE (ID)",
+      "start": "Aug 29",
+      "end": "Fri, 29 Aug, 5:00 pm – Sat, 30 Aug, 3:00 am",
+      "venue": "RASA Space | Bar, Club, Restaurant, Events and more",
+      "address": "9 Raffles Place #02-01, Tower, #1 RASA Space | Bar, Club, Restaurant, Events and more, Republic Plaza",
+      "url": "https://www.eventbrite.sg/e/syndicate-presents-nosaj-thing-us-x-batavia-collective-id-tickets-1544621788349",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiauunffKeqFCVyv4jx4xLFZ_ErnDxr5l5xxW3mfeUPR4ba7o78N9eqlBYmg&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Funny Fridays",
+      "start": "Aug 29",
+      "end": "Fri, 29 Aug, 8:00 – 10:00 pm",
+      "venue": "The Lemon Stand Comedy Club",
+      "address": "12 Queen St, #01-02 The Lemon Stand Comedy Club",
+      "url": "https://www.thelemonstand.sg/event-details/funny-fridays-2025-08-29-20-00",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCNjWi0w-qhv0ZrWd0J7CFaZsA9Qo-zmHU86c7XF_Vmw&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Chorus in Concert - A Choral Tribute to Singapore by Singapore Lyric Opera Adult Chorus featuring Youth Chorus [G]",
+      "start": "Aug 30",
+      "end": "Sat, 30 Aug, 7:00 – 10:00 pm",
+      "venue": "Victoria Concert Hall",
+      "address": "11 Empress Pl, #01-02 Victoria Concert Hall",
+      "url": "https://www.stubhub.com/chorus-in-concert-singapore-tickets-8-30-2025/event/158989840/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdqt2F64tg5uVoOBu6XClRJP2b67DQh_wenPNnjwP7cQ&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Cosmopolitan Polo",
+      "start": "Aug 30",
+      "end": "Sat, 30 Aug, 3:00 pm",
+      "venue": "Singapore Polo Club",
+      "address": "80 Mount Pleasant Rd, Singapore Polo Club",
+      "url": "https://www.stubhub.com/cosmopolitan-polo-tickets/grouping/150527154",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-VL511TupAYQM4977u3P41wJNsJ6U8IaHL5uHsTXCuQ&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "CLANG Music Festival 2025 (Singapore)",
+      "start": "Aug 30",
+      "end": "Sat, 30 Aug, 6:00 – 9:00 pm",
+      "venue": "Pasir Panjang Power Station",
+      "address": "27 Pasir Panjang Rd, Pasir Panjang Power Station, Singapore",
+      "url": "https://ahboy.com/event/clang-music-festival-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlmEmTh1Nshe1nuzBW12mTe0MZVnUuHaEqlqpGj2O8r6lrSXfb8wHRc2fPt5K-&s",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "The Lord of the Rings",
+      "start": "Aug 30",
+      "end": "Sat, 30 Aug, 2:00 – 5:00 pm",
+      "venue": "Sands Theatre",
+      "address": "10 Bayfront Ave, B1-69/70 Sands Theatre, The Shoppes, Marina bay sands",
+      "url": "https://www.stubhub.com/the-lord-of-the-rings-singapore-tickets-8-30-2025/event/158557790/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqwJF2gMFOKYOnz3POzkM31HFnW9xv063EdavnwGxkXg&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Singapore - Japan Friendship Handbell Concert 2025",
+      "start": "Aug 31",
+      "end": "Sun, 31 Aug, 5:00 – 6:15 pm",
+      "venue": "The Arts House at The Old Parliament",
+      "address": "1 Old Parliament Ln, The Arts House at The Old Parliament, Former Parliament House and Annex Building",
+      "url": "https://www.eventbrite.com/e/singapore-japan-friendship-handbell-concert-2025-tickets-1370622030389",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgUiXKzhV4iF_15smYJGTvwsKIPPtHSYIcjuTHtQIa_Q&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Little People, Big Dreams - KD Concert 2025",
+      "start": "Aug 31",
+      "end": "Sun, 31 Aug, 5:00 – 6:30 pm",
+      "venue": "Anglo-Chinese Junior College",
+      "address": "25 Dover Cl E, Anglo-Chinese Junior College, Singapore",
+      "url": "https://www.eventbrite.sg/e/little-people-big-dreams-kd-concert-2025-tickets-1301059125869",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBAUAGkSMndhVQPSNMm9Ikww6mdXb2UGk6p0Pc9vF9A&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Yaeji",
+      "start": "Sept 1",
+      "end": "Mon, 1 Sept, 7:00 – 10:00 pm",
+      "venue": "Capitol Theatre",
+      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
+      "url": "https://www.eventbrite.sg/e/yaeji-live-in-singapore-tickets-1450268093909",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-NH6PZA6zPUNgEHQfRaRWNpg7fzkiavbMC6Bq3pq-Fg&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "The Voice of Mr Big, ERIC MARTIN Live in Singapore",
+      "start": "Sept 8",
+      "end": "Mon, 8 Sept, 8:00 – 10:30 pm",
+      "venue": "Spectrum by Phil Studio",
+      "address": "1 Selegie Rd, B1-05 Spectrum by Phil Studio, GR.iD (GR.iD, Singapore",
+      "url": "https://www.eventbrite.sg/e/the-voice-of-mr-big-eric-martin-unleashed-and-unplugged-live-in-sg-2025-tickets-1507983462129",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv9zvkkY9SQYq2ExOvYBQe-c9z1uQRESBPuNYSw6bz3DLMhuphTRjJAcvqgg&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "IMPACT WEEK 2025 — Suntec Singapore",
+      "start": "Sept 15",
+      "end": "Mon, 15 Sept, 8:00 am – Fri, 19 Sept, 6:00 pm",
+      "venue": "Suntec Singapore Convention & Exhibition Centre",
+      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+      "url": "https://www.suntecsingapore.com/visit-events/impact-week-2025",
+      "image": "https://www.google.com/maps/vt/data=b5j4NiRIZm0xXfX9mpmexFoxF_t7zaJMmpqkVvwsgtiuiM2Q5Pt_1l1KUy6ggnxsbWDJ6vm_Adph1Vm_IV9X6dBZcrrMkK-J13uJ44DL5pZejARvyxQ",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Luka Šulić",
+      "start": "Sept 19",
+      "end": "Fri, 19 Sept, 8:00 – 11:00 pm",
+      "venue": "Esplanade - Theatres on the Bay, Singapore",
+      "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
+      "url": "https://www.stubhub.com/_C-153055?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-21458%7Cev-158628703%7Ccy-6573&ps_ev=158628703",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIq4t5Xh0HcVawkxTJJO5V9keQuCP-xOwDlT9fcXM9BuzZdEfwaS0Y8LpZgg&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Jake Miller @ Hard Rock Cafe Singapore",
+      "start": "Sept 23",
+      "end": "Tue, 23 Sept, 7:00 pm – Wed, 24 Sept, 1:00 am",
+      "venue": "Hard Rock Cafe",
+      "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
+      "url": "https://www.bandsintown.com/e/107041270?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQfS57P2XpNC69Z-wFse5JgyjD6A8i6N7lwMU02cJHA&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Angel’s Voice Music Live 2025",
+      "start": "Oct 4",
+      "end": "Sat, 4 Oct, 3:00 – 5:30 pm",
+      "venue": "Centre 42",
+      "address": "42 Waterloo St, Centre 42, 42, Singapore",
+      "url": "https://www.eventbrite.com/e/1558747258009",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLFiipB1IqY3Dzfc9mfbnyrkbF5cjEbxNGdaJMT5mKkA&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "TV Girl",
+      "start": "Dec 3",
+      "end": "Wed, 3 Dec, 7:00 – 10:00 pm",
+      "venue": "The Star Vista",
+      "address": "1 Vista Exchange Green, The Star Vista",
+      "url": "https://www.livenation.sg/show/1605614/tv-girl-perform-their-hits-live/singapore/2025-12-03/en",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZygluyrAaVrkAvZEkv9zK2SYIrOFkBsjQWtIW4E5byyRTQxQ0vGU_jc9nxQ&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    }
+  ]
+}
+>>>>>>> 85fb5578f842224507519444e1c79cf545de8ec3
