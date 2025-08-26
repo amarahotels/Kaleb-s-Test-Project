@@ -1,6 +1,6 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-26T01:56:41.993184Z",
+  "generated_at": "2025-08-26T02:12:53.110167Z",
   "events": [
     {
       "title": "Asia and Pacific Band Directors' Association Gala Concert",
@@ -146,17 +146,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "IWA Festive Bazaar 2025 — Suntec Singapore",
-      "start": "Sept 5",
-      "end": "Fri, 5 Sept, 9:00 am – 8:00 pm",
-      "venue": "Suntec Singapore Convention & Exhibition Centre",
-      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
-      "url": "https://www.suntecsingapore.com/visit-events/iwa-festive-bazaar-2025-1",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ_TkbHwHiNdnO8YFsRpvPfogZQP9JUXtokma_6SeTZQ&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "Crossfade Presents DJ PUFFY",
       "start": "Sept 6",
       "end": "Sat, 6 Sept, 10:00 pm – Sun, 7 Sept, 6:00 am",
@@ -198,17 +187,6 @@
       "url": "https://www.eventbrite.com/e/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee-tickets-1528162638589",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8TOIbOUymJzlqwzpZ1YpxWIf0uDRDKpwVSw5Hc4f89w&s",
       "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Diwali Bazaar (26th September 2025) — Suntec Singapore",
-      "start": "Sept 26",
-      "end": "Fri, 26 Sept, 9:30 am – 8:00 pm",
-      "venue": "Suntec Singapore Convention & Exhibition Centre",
-      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
-      "url": "https://www.suntecsingapore.com/visit-events/diwali-bazaar-26th-september-2025",
-      "image": "https://www.google.com/maps/vt/data=b5j4NiRIZm0xXfX9mpmexFoxF_t7zaJMmpqkVvwsgtiuiM2Q5Pt_1l1KUy6ggnxsbWDJ6vm_Adph1Vm_IV9X6dBZcrrMkK-J13uJ44DL5pZejARvyxQ",
-      "category": "general",
       "source": "serpapi_google_events"
     },
     {
