@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-{}
-=======
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-26T01:18:27.713108Z",
+  "generated_at": "2025-08-26T01:28:19.829308Z",
   "events": [
     {
       "title": "Asia and Pacific Band Directors' Association Gala Concert",
@@ -14,17 +11,6 @@
       "url": "https://www.facebook.com/events/esplanade-concert-hall/asia-and-pacific-band-directors-association-gala-concert/1099110202121365/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBKibjxJUxwzoeoB4MF46LDBrCcnfC8_MYVxIUnztxf1dBxwqW3UAc2mLYvudU&s",
       "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "IP Week @ SG 2025",
-      "start": "Aug 26",
-      "end": "Tue, 26 Aug – Wed, 27 Aug",
-      "venue": "Marina Bay Sands Singapore",
-      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
-      "url": "https://www.jamsadr.com/events/2025/ipos-week-singapore-2025",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOnszqzszYQDD_lgNs2J17XmVHcFInIYWnGYMcGhYCqteTKoePbK9AylTSco&s",
-      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -39,46 +25,24 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "City In Session | New Bahru | Things to do in Singapore",
+      "title": "VOS Festival 2025 - Youth Festival Chorus",
       "start": "Aug 26",
-      "end": "9 Aug, 12:00 am – 31 Aug, 12:00 am",
-      "venue": "New Bahru",
-      "address": "46 Kim Yam Rd, New Bahru",
-      "url": "https://www.timeout.com/singapore/things-to-do/city-in-session",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vrxIuXPmLgyVkfvTEn69XFK_AOsS3-v0rtDqhLqH2A&s=10",
+      "end": "25 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "venue": "Voices of Singapore Capitol Studios (B1)",
+      "address": "13 Stamford Rd, B1-20/21 Voices of Singapore Capitol Studios (B1), Capitol Singapore",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-youth-festival-chorus-registration-1349486553609",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FS2U9LBscHBxFsyIecAPmxG0ATsYHy_1vbFxCGUU_g&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
     {
-      "title": "Itadakimasu! | Heartware Store and Gallery | Things to do in Singapore",
-      "start": "Aug 26",
-      "end": "14 Aug, 10:30 am – 31 Aug, 12:00 pm",
-      "venue": "Heartware Store and Gallery",
-      "address": "350B Joo Chiat Rd, Heartware Store and Gallery",
-      "url": "https://www.timeout.com/singapore/things-to-do/itadakimasu",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlnjPZt-V7e5ftWzGbU-p_vS8IPy559nnxe_SU_NS7-A&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "All Things Singapore (AT SG) 2025",
-      "start": "Aug 26",
-      "end": "22 Aug, 7:00 pm – 6 Sept, 11:00 pm",
-      "venue": "National Library / Lee Kong Chian Reference Library",
-      "address": "100 Victoria St, National Library / Lee Kong Chian Reference Library",
-      "url": "https://citynomads.com/events/all-things-singapore-at-sg-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi5b92xUmqyNqsrQinXZWQsCB68ExxNfxwHdDLlLFIvydFFNCbRDw6zlzIOQ&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "COMEX2025 — Suntec Singapore",
+      "title": "VOS Festival 2025 - Virtuosi Festival Chorus",
       "start": "Aug 28",
-      "end": "Thu, 28 Aug, 12:00 pm – Sun, 31 Aug, 9:00 pm",
-      "venue": "Suntec Singapore Convention & Exhibition Centre",
-      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
-      "url": "https://www.suntecsingapore.com/visit-events/comex2025",
-      "image": "https://www.google.com/maps/vt/data=b5j4NiRIZm0xXfX9mpmexFoxF_t7zaJMmpqkVvwsgtiuiM2Q5Pt_1l1KUy6ggnxsbWDJ6vm_Adph1Vm_IV9X6dBZcrrMkK-J13uJ44DL5pZejARvyxQ",
+      "end": "28 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "venue": "Voices of Singapore Sky Studio (L3)",
+      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-virtuosi-festival-chorus-registration-1339387898259",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3-eMngpQ73tcCwgZZla-Z9eHHpHeCCHMR7vIyYH85pA&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -105,35 +69,13 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Walk & Talk 2025",
+      "title": "Live, Laugh, Lor",
       "start": "Aug 29",
-      "end": "Fri, 29 Aug, 7:30 – 9:30 am",
-      "venue": "Maxwell Chambers Suites",
-      "address": "28 Maxwell Rd, #03-13/14 Maxwell Chambers Suites, Singapore",
-      "url": "https://www.eventbrite.com/e/walk-talk-2025-tickets-1459815309889",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrzVM5dh4Ad4fth1Q3_Vw-u6-9B8xN8wpBTHtaGP4gvg&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "SYNDICATE presents NOSAJ THING (US) x BATAVIA COLLECTIVE (ID)",
-      "start": "Aug 29",
-      "end": "Fri, 29 Aug, 5:00 pm – Sat, 30 Aug, 3:00 am",
-      "venue": "RASA Space | Bar, Club, Restaurant, Events and more",
-      "address": "9 Raffles Place #02-01, Tower, #1 RASA Space | Bar, Club, Restaurant, Events and more, Republic Plaza",
-      "url": "https://www.eventbrite.sg/e/syndicate-presents-nosaj-thing-us-x-batavia-collective-id-tickets-1544621788349",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiauunffKeqFCVyv4jx4xLFZ_ErnDxr5l5xxW3mfeUPR4ba7o78N9eqlBYmg&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Funny Fridays",
-      "start": "Aug 29",
-      "end": "Fri, 29 Aug, 8:00 – 10:00 pm",
-      "venue": "The Lemon Stand Comedy Club",
-      "address": "12 Queen St, #01-02 The Lemon Stand Comedy Club",
-      "url": "https://www.thelemonstand.sg/event-details/funny-fridays-2025-08-29-20-00",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCNjWi0w-qhv0ZrWd0J7CFaZsA9Qo-zmHU86c7XF_Vmw&s=10",
+      "end": "Fri, 29 Aug, 8:00 – 10:30 pm",
+      "venue": "SMU Campus Green",
+      "address": "91 Stamford Rd, SMU Campus Green, Singapore",
+      "url": "https://sg.bookmyshow.com/en/events/live-laugh-lor/SMUAF251",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2caj4JNhQ3SuIFHMmN7ylXH1apilnv4rX5IGdxJJb5dT_Q5c1eD2YECxjrRq2&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -149,17 +91,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Cosmopolitan Polo",
-      "start": "Aug 30",
-      "end": "Sat, 30 Aug, 3:00 pm",
-      "venue": "Singapore Polo Club",
-      "address": "80 Mount Pleasant Rd, Singapore Polo Club",
-      "url": "https://www.stubhub.com/cosmopolitan-polo-tickets/grouping/150527154",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-VL511TupAYQM4977u3P41wJNsJ6U8IaHL5uHsTXCuQ&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "CLANG Music Festival 2025 (Singapore)",
       "start": "Aug 30",
       "end": "Sat, 30 Aug, 6:00 – 9:00 pm",
@@ -171,13 +102,24 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "The Lord of the Rings",
+      "title": "Horticultural Festival 30-31 Aug 2025 @Hortpark",
       "start": "Aug 30",
-      "end": "Sat, 30 Aug, 2:00 – 5:00 pm",
-      "venue": "Sands Theatre",
-      "address": "10 Bayfront Ave, B1-69/70 Sands Theatre, The Shoppes, Marina bay sands",
-      "url": "https://www.stubhub.com/the-lord-of-the-rings-singapore-tickets-8-30-2025/event/158557790/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqwJF2gMFOKYOnz3POzkM31HFnW9xv063EdavnwGxkXg&s=10",
+      "end": "Sat, 30 Aug, 9:00 am – Sun, 31 Aug, 6:00 pm",
+      "venue": "HortPark",
+      "address": "33 Hyderabad Rd, HortPark",
+      "url": "https://allevents.in/singapore/horticultural-festival-30-31-aug-2025-hortpark/200028649423832",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQug5YL2aJ_q3GWLjtREcv6FL6PMQUceQFBB-A7XC33OvnIcKIQxH6EhjWW2w&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "VOS Festival 2025 - Community Festival Chorus",
+      "start": "Aug 30",
+      "end": "30 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "venue": "Voices of Singapore Sky Studio (L3)",
+      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-community-festival-chorus-registration-1349487606759",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZRi62lfYUdUYhS2Iq5lrRHpiosRc12zAiAIopeYnng&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -204,35 +146,13 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Yaeji",
-      "start": "Sept 1",
-      "end": "Mon, 1 Sept, 7:00 – 10:00 pm",
-      "venue": "Capitol Theatre",
-      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
-      "url": "https://www.eventbrite.sg/e/yaeji-live-in-singapore-tickets-1450268093909",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-NH6PZA6zPUNgEHQfRaRWNpg7fzkiavbMC6Bq3pq-Fg&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "The Voice of Mr Big, ERIC MARTIN Live in Singapore",
-      "start": "Sept 8",
-      "end": "Mon, 8 Sept, 8:00 – 10:30 pm",
-      "venue": "Spectrum by Phil Studio",
-      "address": "1 Selegie Rd, B1-05 Spectrum by Phil Studio, GR.iD (GR.iD, Singapore",
-      "url": "https://www.eventbrite.sg/e/the-voice-of-mr-big-eric-martin-unleashed-and-unplugged-live-in-sg-2025-tickets-1507983462129",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv9zvkkY9SQYq2ExOvYBQe-c9z1uQRESBPuNYSw6bz3DLMhuphTRjJAcvqgg&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "IMPACT WEEK 2025 — Suntec Singapore",
-      "start": "Sept 15",
-      "end": "Mon, 15 Sept, 8:00 am – Fri, 19 Sept, 6:00 pm",
-      "venue": "Suntec Singapore Convention & Exhibition Centre",
-      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
-      "url": "https://www.suntecsingapore.com/visit-events/impact-week-2025",
-      "image": "https://www.google.com/maps/vt/data=b5j4NiRIZm0xXfX9mpmexFoxF_t7zaJMmpqkVvwsgtiuiM2Q5Pt_1l1KUy6ggnxsbWDJ6vm_Adph1Vm_IV9X6dBZcrrMkK-J13uJ44DL5pZejARvyxQ",
+      "title": "Fengshan CC SG60 Family Carnival",
+      "start": "Sept 7",
+      "end": "Sun, 7 Sept, 12:00 am",
+      "venue": "Fengshan Community Club",
+      "address": "20 Bedok North Street 2, Fengshan Community Club, Singapore",
+      "url": "https://familiesforlife.sg/pages/volunteer/fengshan-cc-sg60-family-carnival",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRurfOoh9vFs3HUdLvSbx_w1G_E8vPaCMbtdQrjTzatow2rghJYrEd8SDfS7A&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -259,6 +179,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Token 2049 CRYPTO Carnival Party",
+      "start": "Oct 2",
+      "end": "Thu, 2 Oct, 8:00 pm – Fri, 3 Oct, 2:00 am",
+      "venue": "LAVO Italian Restaurant And Rooftop Bar",
+      "address": "10 Bayfront Avenue, Marina Bay Sands, Hotel, Level 57 LAVO Italian Restaurant And Rooftop Bar, Tower 1",
+      "url": "https://lu.ma/d4f8vivz",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_ZK32CeLvUEAyhNlNSOgHtbxSaOhFaist-hPFtArvg&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Angel’s Voice Music Live 2025",
       "start": "Oct 4",
       "end": "Sat, 4 Oct, 3:00 – 5:30 pm",
@@ -282,4 +213,3 @@
     }
   ]
 }
->>>>>>> 85fb5578f842224507519444e1c79cf545de8ec3
