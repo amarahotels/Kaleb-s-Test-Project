@@ -5,20 +5,23 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 16 * * *"  # 12:00 AM SGT daily
-  workflow_dispatch:
+    # 00:00 SGT daily (16:00 UTC) — events job will gate to odd days or weekends
+    - cron: "0 16 * * *"
+    # 00:05 SGT every Monday (16:05 UTC) — weekly Places refresh
+    - cron: "5 16 * * 1"
+  workflow_dispatch: {}
 
 permissions:
   contents: write
 
 jobs:
-  update-and-deploy:
+  # --------------------------
+  # EVENTS: alternate days + weekends (SerpAPI)
+  # --------------------------
+  events-serpapi:
     runs-on: ubuntu-latest
 
     steps:
-      # --------------------------
-      # Common: Checkout Repo
-      # --------------------------
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
@@ -26,9 +29,76 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
-      # --------------------------
-      # Step 1: Update Places
-      # --------------------------
+      - name: Decide if we should run today (odd DOM OR weekend, in Singapore time)
+        id: decide
+        shell: bash
+        run: |
+          export TZ=Asia/Singapore
+          dom=$(date +%d)         # 01..31 (zero-padded)
+          dow=$(date +%u)         # 1=Mon .. 7=Sun
+          is_odd=$((10#$dom % 2))
+          if [ "$dow" -ge 6 ] || [ "$is_odd" -eq 1 ]; then
+            echo "run=true"  >> "$GITHUB_OUTPUT"
+            echo "Will run: weekend or odd day-of-month."
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping: even weekday."
+          fi
+
+      - name: Set up Python
+        if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies (Events)
+        if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
+        run: pip install requests python-dateutil
+
+      - name: Fetch events from SerpAPI
+        if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python get_serpapi_events.py
+
+      - name: Commit & Push changes for events.json (if any)
+        if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain public/data/events.json)" ]]; then
+            git add public/data/events.json
+            git commit -m "chore: update events.json from SerpAPI ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "✅ No changes to events.json"
+          fi
+
+      - name: Install Firebase CLI
+        if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
+        run: npm install -g firebase-tools
+
+      - name: Deploy to Firebase
+        if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
+        run: firebase deploy --project amara-concierge-88c12 --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
+
+  # --------------------------
+  # PLACES: weekly (every Monday 00:05 SGT)
+  # --------------------------
+  places-weekly:
+    # Only run this job when triggered by the Monday 00:05 SGT schedule line
+    if: github.event.schedule == '5 16 * * 1' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+          fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -38,13 +108,13 @@ jobs:
         run: pip install requests
 
       - name: Generate places.json
-        run: python get_places.py
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python get_places.py
 
       - name: Commit & Push changes for places.json (if any)
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain public/data/places.json)" ]]; then
             git add public/data/places.json
@@ -55,17 +125,14 @@ jobs:
             echo "✅ No changes to places.json"
           fi
 
-      # --------------------------
-      # Step 1.5: Year-round Attractions from Google Places
-      # --------------------------
       - name: Generate featured_attractions.json (+ images)
-        run: python get_featured_attractions.py
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python get_featured_attractions.py
 
       - name: Commit & Push featured attractions (if any)
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain public/data/featured_attractions.json)" ]]; then
             git add public/data/featured_attractions.json
@@ -76,33 +143,6 @@ jobs:
             echo "✅ No changes to featured_attractions.json"
           fi
 
-      # --------------------------
-      # Step 2: Update Events
-      # --------------------------
-      - name: Install dependencies (Events)
-        run: pip install requests python-dateutil
-
-      - name: Fetch events from SerpAPI
-        run: python get_serpapi_events.py
-        env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-
-      - name: Commit & Push changes for events.json (if any)
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain public/data/events.json)" ]]; then
-            git add public/data/events.json
-            git commit -m "chore: update events.json from SerpAPI"
-            git pull --rebase origin main
-            git push origin main
-          else
-            echo "✅ No changes to events.json"
-          fi
-
-      # --------------------------
-      # Step 3: Deploy to Firebase
-      # --------------------------
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
 
