@@ -1,15 +1,15 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-26T03:56:25.770549Z",
+  "generated_at": "2025-08-26T16:22:43.108219Z",
   "events": [
     {
-      "title": "Asia and Pacific Band Directors' Association Gala Concert",
+      "title": "VOS Festival 2025 - Youth Festival Chorus",
       "start": "Aug 26",
-      "end": "Tue, 26 Aug, 3:00 am",
-      "venue": "Esplanade - Theatres on the Bay, Singapore",
-      "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
-      "url": "https://www.facebook.com/events/esplanade-concert-hall/asia-and-pacific-band-directors-association-gala-concert/1099110202121365/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBKibjxJUxwzoeoB4MF46LDBrCcnfC8_MYVxIUnztxf1dBxwqW3UAc2mLYvudU&s",
+      "end": "25 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "venue": "Voices of Singapore Capitol Studios (B1)",
+      "address": "13 Stamford Rd, B1-20/21 Voices of Singapore Capitol Studios (B1), Capitol Singapore",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-youth-festival-chorus-registration-1349486553609",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FS2U9LBscHBxFsyIecAPmxG0ATsYHy_1vbFxCGUU_g&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -25,24 +25,24 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "VOS Festival 2025 - Youth Festival Chorus",
+      "title": "VOS Festival 2025 - Children's Festival Chorus",
       "start": "Aug 26",
-      "end": "25 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "end": "24 Aug, 11:00 am – 10 Sept, 9:30 pm",
       "venue": "Voices of Singapore Capitol Studios (B1)",
       "address": "13 Stamford Rd, B1-20/21 Voices of Singapore Capitol Studios (B1), Capitol Singapore",
-      "url": "https://www.eventbrite.sg/e/vos-festival-2025-youth-festival-chorus-registration-1349486553609",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FS2U9LBscHBxFsyIecAPmxG0ATsYHy_1vbFxCGUU_g&s",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-childrens-festival-chorus-registration-1349486663939",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_IuAgQ0cZtnUcnOpSZGS5_mOCOtuqrpW0wHCAb29Nw&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
     {
-      "title": "VOS Festival 2025 - Virtuosi Festival Chorus",
-      "start": "Aug 28",
-      "end": "28 Aug, 7:30 pm – 10 Sept, 10:00 pm",
-      "venue": "Voices of Singapore Sky Studio (L3)",
-      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
-      "url": "https://www.eventbrite.sg/e/vos-festival-2025-virtuosi-festival-chorus-registration-1339387898259",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3-eMngpQ73tcCwgZZla-Z9eHHpHeCCHMR7vIyYH85pA&s=10",
+      "title": "Digital Light Canvas by teamLab",
+      "start": "Aug 26",
+      "end": "18 Aug, 5:45 pm – 14 Sept, 7:45 pm",
+      "venue": "Marina Bay Sands Singapore",
+      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
+      "url": "https://feverup.com/m/336316",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBPIH_Iwa_rPy1S84u4K0i4R8OkdWvaa0w6mOrHhI5g&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -108,19 +108,19 @@
       "venue": "HortPark",
       "address": "33 Hyderabad Rd, HortPark",
       "url": "https://allevents.in/singapore/horticultural-festival-30-31-aug-2025-hortpark/200028649423832",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQug5YL2aJ_q3GWLjtREcv6FL6PMQUceQFBB-A7XC33OvnIcKIQxH6EhjWW2w&s=10",
+      "image": "https://www.google.com/maps/vt/data=yJmq-4Ju-_5sQtKEaiTxlGEAVTFV4-eq449P7QUhXguwazkAhFylqu-uuS3aFTBQjPxI7T_jL6EJoILbnQEIYiJ8zRqtEQHeTq6GGP_PPw8nzeprvBs",
       "category": "general",
       "source": "serpapi_google_events"
     },
     {
-      "title": "VOS Festival 2025 - Community Festival Chorus",
+      "title": "Ground Zero",
       "start": "Aug 30",
-      "end": "30 Aug, 7:30 pm – 10 Sept, 10:00 pm",
-      "venue": "Voices of Singapore Sky Studio (L3)",
-      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
-      "url": "https://www.eventbrite.sg/e/vos-festival-2025-community-festival-chorus-registration-1349487606759",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZRi62lfYUdUYhS2Iq5lrRHpiosRc12zAiAIopeYnng&s=10",
-      "category": "general",
+      "end": "Sat, 30 Aug, 11:00 pm",
+      "venue": "Spectrum by Phil Studio",
+      "address": "1 Selegie Rd, B1-05 Spectrum by Phil Studio, GR.iD (GR.iD, Singapore",
+      "url": "https://www.philstudio-events.com/event-details-registration/ground-zero",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdFLmw-M2MqHlH4yFcQZrL4QaME4OdpmY98wbv7SjTM9re8FzM_MNJMaJLHQ&s",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -184,19 +184,8 @@
       "end": "Fri, 26 Sept, 10:00 pm – Sat, 27 Sept, 3:00 am",
       "venue": "Hard Rock Cafe",
       "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
-      "url": "https://www.eventbrite.com/e/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee-tickets-1528162638589",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8TOIbOUymJzlqwzpZ1YpxWIf0uDRDKpwVSw5Hc4f89w&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "DJ Isaac",
-      "start": "Sept 27",
-      "end": "Sat, 27 Sept, 10:00 pm",
-      "venue": "Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://app.discotech.me/events/38016848-dj-isaac-at-zouk",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvqChztTH98vSzW2mUyc7cX42LsS8qm0Hj-_09RkPDPQ&s=10",
+      "url": "https://allevents.in/queenstown/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee/100001528162638589",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkSPqbWX3S9lwr2O24wBJb9vI_6CNO7jQT99eBqy90srx5imVXYB-RHEtvqw&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -234,6 +223,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Singapore Polo Club Annual Outreach Polo Tournament & Carnival 2025",
+      "start": "Oct 11",
+      "end": "Sat, 11 Oct, 10:00 am – 6:00 pm",
+      "venue": "Singapore Polo Club",
+      "address": "80 Mount Pleasant Rd, Singapore Polo Club",
+      "url": "https://www.singaporepoloclub.org/upcoming-event/outreach-event-with-carnival-games-stalls/",
+      "image": "https://www.google.com/maps/vt/data=ob7ZuqwJmFH-bF_GcYHOpSghONg54FhVRVBaM09F_CiGTBGNvyKkTEvcUf_g_xd08mWaO2aVtp86zMFhmIl9HVQmhdV0V4oYg6WQVQAweRODpaMweZw",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Food Japan 2025",
       "start": "Oct 16",
       "end": "Thu, 16 Oct, 9:30 am – Sat, 18 Oct, 6:00 pm",
@@ -253,17 +253,6 @@
       "url": "https://eventseeker.com/venue/866256-bugis-street-market-singapore",
       "image": "https://www.google.com/maps/vt/data=km-IHD7tYxy4MAbB4Qp6X6Fp7qpD_WSjyP9QpBzSkpqH9RYvmxXUR36JumMGl1K5V12lsGJ-xsRrGZio09agJcOnwY2pa-EzFo80ZOCfJnK1hEPcQdk",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "TV Girl",
-      "start": "Dec 3",
-      "end": "Wed, 3 Dec, 7:00 – 10:00 pm",
-      "venue": "The Star Vista",
-      "address": "1 Vista Exchange Green, The Star Vista",
-      "url": "https://www.livenation.sg/show/1605614/tv-girl-perform-their-hits-live/singapore/2025-12-03/en",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZygluyrAaVrkAvZEkv9zK2SYIrOFkBsjQWtIW4E5byyRTQxQ0vGU_jc9nxQ&s=10",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
