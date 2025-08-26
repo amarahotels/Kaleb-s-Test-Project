@@ -1,71 +1,16 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-25T16:24:05.584397Z",
+  "generated_at": "2025-08-26T01:18:27.713108Z",
   "events": [
     {
-      "title": "Black Eyed Peas",
-      "start": "Aug 25",
-      "end": "Mon, 25 Aug, 8:00 – 11:00 pm",
-      "venue": "Singapore Indoor Stadium",
-      "address": "2 Stadium Walk, Singapore Indoor Stadium",
-      "url": "https://open.spotify.com/concert/6JNb4F8m0UN0UXU8keSYJk",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH5uGE3YNZ47FOcGSZjgTfFziRjIK489i10ug6Hbl8RTDeYVxpIryvbLUebg&s=10",
+      "title": "Asia and Pacific Band Directors' Association Gala Concert",
+      "start": "Aug 26",
+      "end": "Tue, 26 Aug, 3:00 am",
+      "venue": "Esplanade - Theatres on the Bay, Singapore",
+      "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
+      "url": "https://www.facebook.com/events/esplanade-concert-hall/asia-and-pacific-band-directors-association-gala-concert/1099110202121365/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBKibjxJUxwzoeoB4MF46LDBrCcnfC8_MYVxIUnztxf1dBxwqW3UAc2mLYvudU&s",
       "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Singapore Night Festival 2025",
-      "start": "Aug 25",
-      "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
-      "venue": "Bugis Street",
-      "address": "261 Victoria St, Bugis Street",
-      "url": "https://www.heritage.sg/sgnightfest",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAUnqYXQIq2xWL_jN7tk5imzGQ-JUWNxolBP9IO5JycXY6vX-q4g-LoowQQ&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Mindful Parenting Through The Years",
-      "start": "Aug 25",
-      "end": "7 Aug, 2:00 am – 28 Aug, 3:30 am",
-      "venue": "318 Tanglin Rd",
-      "address": "318 Tanglin Rd",
-      "url": "https://www.holdingground.sg/event-details-registration/sold-out-mindful-parenting-through-the-years-3",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDFaxc1giYfUPLI9J7uRvblQ22mjiBOzf-i9rtjA3Xm6j81Dwl1ZKGcehS0g&s",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "City In Session | New Bahru | Things to do in Singapore",
-      "start": "Aug 25",
-      "end": "9 Aug, 12:00 am – 31 Aug, 12:00 am",
-      "venue": "New Bahru",
-      "address": "46 Kim Yam Rd, New Bahru",
-      "url": "https://www.timeout.com/singapore/things-to-do/city-in-session",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vrxIuXPmLgyVkfvTEn69XFK_AOsS3-v0rtDqhLqH2A&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Itadakimasu! | Heartware Store and Gallery | Things to do in Singapore",
-      "start": "Aug 25",
-      "end": "14 Aug, 10:30 am – 31 Aug, 12:00 pm",
-      "venue": "Heartware Store and Gallery",
-      "address": "350B Joo Chiat Rd, Heartware Store and Gallery",
-      "url": "https://www.timeout.com/singapore/things-to-do/itadakimasu",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlnjPZt-V7e5ftWzGbU-p_vS8IPy559nnxe_SU_NS7-A&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "All Things Singapore (AT SG) 2025",
-      "start": "Aug 25",
-      "end": "22 Aug, 7:00 pm – 6 Sept, 11:00 pm",
-      "venue": "National Library / Lee Kong Chian Reference Library",
-      "address": "100 Victoria St, National Library / Lee Kong Chian Reference Library",
-      "url": "https://citynomads.com/events/all-things-singapore-at-sg-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi5b92xUmqyNqsrQinXZWQsCB68ExxNfxwHdDLlLFIvydFFNCbRDw6zlzIOQ&s=10",
-      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -76,6 +21,61 @@
       "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
       "url": "https://www.jamsadr.com/events/2025/ipos-week-singapore-2025",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOnszqzszYQDD_lgNs2J17XmVHcFInIYWnGYMcGhYCqteTKoePbK9AylTSco&s",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Singapore Night Festival 2025",
+      "start": "Aug 26",
+      "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
+      "venue": "Bugis Street",
+      "address": "261 Victoria St, Bugis Street",
+      "url": "https://www.heritage.sg/sgnightfest",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAUnqYXQIq2xWL_jN7tk5imzGQ-JUWNxolBP9IO5JycXY6vX-q4g-LoowQQ&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "City In Session | New Bahru | Things to do in Singapore",
+      "start": "Aug 26",
+      "end": "9 Aug, 12:00 am – 31 Aug, 12:00 am",
+      "venue": "New Bahru",
+      "address": "46 Kim Yam Rd, New Bahru",
+      "url": "https://www.timeout.com/singapore/things-to-do/city-in-session",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vrxIuXPmLgyVkfvTEn69XFK_AOsS3-v0rtDqhLqH2A&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Itadakimasu! | Heartware Store and Gallery | Things to do in Singapore",
+      "start": "Aug 26",
+      "end": "14 Aug, 10:30 am – 31 Aug, 12:00 pm",
+      "venue": "Heartware Store and Gallery",
+      "address": "350B Joo Chiat Rd, Heartware Store and Gallery",
+      "url": "https://www.timeout.com/singapore/things-to-do/itadakimasu",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlnjPZt-V7e5ftWzGbU-p_vS8IPy559nnxe_SU_NS7-A&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "All Things Singapore (AT SG) 2025",
+      "start": "Aug 26",
+      "end": "22 Aug, 7:00 pm – 6 Sept, 11:00 pm",
+      "venue": "National Library / Lee Kong Chian Reference Library",
+      "address": "100 Victoria St, National Library / Lee Kong Chian Reference Library",
+      "url": "https://citynomads.com/events/all-things-singapore-at-sg-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi5b92xUmqyNqsrQinXZWQsCB68ExxNfxwHdDLlLFIvydFFNCbRDw6zlzIOQ&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "COMEX2025 — Suntec Singapore",
+      "start": "Aug 28",
+      "end": "Thu, 28 Aug, 12:00 pm – Sun, 31 Aug, 9:00 pm",
+      "venue": "Suntec Singapore Convention & Exhibition Centre",
+      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+      "url": "https://www.suntecsingapore.com/visit-events/comex2025",
+      "image": "https://www.google.com/maps/vt/data=b5j4NiRIZm0xXfX9mpmexFoxF_t7zaJMmpqkVvwsgtiuiM2Q5Pt_1l1KUy6ggnxsbWDJ6vm_Adph1Vm_IV9X6dBZcrrMkK-J13uJ44DL5pZejARvyxQ",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -113,6 +113,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "SYNDICATE presents NOSAJ THING (US) x BATAVIA COLLECTIVE (ID)",
+      "start": "Aug 29",
+      "end": "Fri, 29 Aug, 5:00 pm – Sat, 30 Aug, 3:00 am",
+      "venue": "RASA Space | Bar, Club, Restaurant, Events and more",
+      "address": "9 Raffles Place #02-01, Tower, #1 RASA Space | Bar, Club, Restaurant, Events and more, Republic Plaza",
+      "url": "https://www.eventbrite.sg/e/syndicate-presents-nosaj-thing-us-x-batavia-collective-id-tickets-1544621788349",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiauunffKeqFCVyv4jx4xLFZ_ErnDxr5l5xxW3mfeUPR4ba7o78N9eqlBYmg&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Funny Fridays",
       "start": "Aug 29",
       "end": "Fri, 29 Aug, 8:00 – 10:00 pm",
@@ -121,17 +132,6 @@
       "url": "https://www.thelemonstand.sg/event-details/funny-fridays-2025-08-29-20-00",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCNjWi0w-qhv0ZrWd0J7CFaZsA9Qo-zmHU86c7XF_Vmw&s=10",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Soap Making - Stage for Kids Global",
-      "start": "Aug 30",
-      "end": "Sat, 30 Aug, 2:30 – 4:30 pm",
-      "venue": "Block 77 HDB Indus",
-      "address": "77 Indus Rd, Block 77 HDB Indus, Singapore",
-      "url": "https://www.eventbrite.com/e/soap-making-stage-for-kids-global-afternoon-slot-tickets-1466379403269",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtTW3XAA9EPxdwwsxl_dQ8m7GePeCZ1OnKQWj_hqnIuQ&s",
-      "category": "family",
       "source": "serpapi_google_events"
     },
     {
@@ -179,17 +179,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Yoga for Kids",
-      "start": "Aug 31",
-      "end": "Sun, 31 Aug, 1:30 – 2:30 pm",
-      "venue": "Kreta Ayer Community Club",
-      "address": "28 Kreta Ayer Rd, Kreta Ayer Community Club, Singapore",
-      "url": "https://www.eventbrite.sg/e/yoga-for-kids-tickets-1467571829849",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3XRpRurYsmmuXIi6rDB4hYqYYHAsfHVeCYcxI0pDqfA&s=10",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "Singapore - Japan Friendship Handbell Concert 2025",
       "start": "Aug 31",
       "end": "Sun, 31 Aug, 5:00 – 6:15 pm",
@@ -212,14 +201,25 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "The Get Up Kids",
-      "start": "Sept 13",
-      "end": "Sat, 13 Sept, 7:00 pm – Sun, 14 Sept, 1:00 am",
-      "venue": "Foochow Building Event Hall",
-      "address": "21 Tyrwhitt Rd, #04-00 Foochow Building Event Hall, Singapore",
-      "url": "https://open.spotify.com/concert/7FrXAwGIn3k5XbdpLlJQr9",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtXO5bSHc0hpYuNSfIhzUcdAKK3deuS-sQ6KFSvakVRIYbNkHFz1GbsF41tw&s=10",
-      "category": "family",
+      "title": "Yaeji",
+      "start": "Sept 1",
+      "end": "Mon, 1 Sept, 7:00 – 10:00 pm",
+      "venue": "Capitol Theatre",
+      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
+      "url": "https://www.eventbrite.sg/e/yaeji-live-in-singapore-tickets-1450268093909",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-NH6PZA6zPUNgEHQfRaRWNpg7fzkiavbMC6Bq3pq-Fg&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "The Voice of Mr Big, ERIC MARTIN Live in Singapore",
+      "start": "Sept 8",
+      "end": "Mon, 8 Sept, 8:00 – 10:30 pm",
+      "venue": "Spectrum by Phil Studio",
+      "address": "1 Selegie Rd, B1-05 Spectrum by Phil Studio, GR.iD (GR.iD, Singapore",
+      "url": "https://www.eventbrite.sg/e/the-voice-of-mr-big-eric-martin-unleashed-and-unplugged-live-in-sg-2025-tickets-1507983462129",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv9zvkkY9SQYq2ExOvYBQe-c9z1uQRESBPuNYSw6bz3DLMhuphTRjJAcvqgg&s",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -234,14 +234,14 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Family Journey Singapore Gathering",
-      "start": "Sept 20",
-      "end": "Sat, 20 Sept, 11:00 am – 2:00 pm",
-      "venue": "1 Queen St, Singapore",
-      "address": "1 Queen St, Singapore",
-      "url": "https://www.familyjourneysg.com/events-1/family-journey-singapore-gathering-2025-09-20-19-00",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqNAh_llSlpIZnI46MhPbmVmlq5X9wQKwmRUC787e2Bw&s",
-      "category": "family",
+      "title": "Luka Šulić",
+      "start": "Sept 19",
+      "end": "Fri, 19 Sept, 8:00 – 11:00 pm",
+      "venue": "Esplanade - Theatres on the Bay, Singapore",
+      "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
+      "url": "https://www.stubhub.com/_C-153055?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-21458%7Cev-158628703%7Ccy-6573&ps_ev=158628703",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIq4t5Xh0HcVawkxTJJO5V9keQuCP-xOwDlT9fcXM9BuzZdEfwaS0Y8LpZgg&s=10",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -256,36 +256,25 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Interactive Storytelling Adventure for Kids!",
-      "start": "Sept 27",
-      "end": "Sat, 27 Sept, 4:30 – 5:15 pm",
-      "venue": "36/38 Armenian Street",
-      "address": "38 Armenian St, 36/38 Armenian Street, 36",
-      "url": "https://www.eventbrite.sg/e/interactive-storytelling-adventure-for-kids-tickets-1588699927249",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmka7OO8V0zD2LLDrS2W2Thc0mo_MdNe4457_AVNxtPaP_3mwPTJLlOcjNw&s",
-      "category": "family",
+      "title": "Angel’s Voice Music Live 2025",
+      "start": "Oct 4",
+      "end": "Sat, 4 Oct, 3:00 – 5:30 pm",
+      "venue": "Centre 42",
+      "address": "42 Waterloo St, Centre 42, 42, Singapore",
+      "url": "https://www.eventbrite.com/e/1558747258009",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLFiipB1IqY3Dzfc9mfbnyrkbF5cjEbxNGdaJMT5mKkA&s",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
-      "title": "Power Kids Gym - Minecraft Halloween",
-      "start": "Oct 31",
-      "end": "Fri, 31 Oct, 2:30 – 4:00 pm",
-      "venue": "UE Square",
-      "address": "81 Clemenceau Ave, UE Square, Singapore",
-      "url": "https://allevents.in/singapore/power-kids-gym-minecraft-halloween/200028610616942",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5MLkV8z0A5lTb19gmpu4yX0RLSIsVjyQLAB00BltYevQF4Wz5NVBZFYFimA&s=10",
-      "category": "family",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Silva Kids Workshop",
-      "start": "Nov 8",
-      "end": "Sat, 8 Nov, 10:00 am – Sun, 9 Nov, 5:00 pm",
-      "venue": "203 Henderson Rd Parking",
-      "address": "203 Henderson Rd, #03-07 203 Henderson Rd Parking, Henderson Industrial Park B, Singapore",
-      "url": "https://www.eventbrite.sg/e/silva-kids-workshop-tickets-1334850757549",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRifc6rwtlXXW_iG19wbHdk4Ep6RGsqJrQZ_A9p3dF-Eg&s=10",
-      "category": "family",
+      "title": "TV Girl",
+      "start": "Dec 3",
+      "end": "Wed, 3 Dec, 7:00 – 10:00 pm",
+      "venue": "The Star Vista",
+      "address": "1 Vista Exchange Green, The Star Vista",
+      "url": "https://www.livenation.sg/show/1605614/tv-girl-perform-their-hits-live/singapore/2025-12-03/en",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZygluyrAaVrkAvZEkv9zK2SYIrOFkBsjQWtIW4E5byyRTQxQ0vGU_jc9nxQ&s=10",
+      "category": "music",
       "source": "serpapi_google_events"
     }
   ]
