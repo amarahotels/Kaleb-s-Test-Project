@@ -227,15 +227,13 @@ function bindHeroControlsOnce(){
   // Clicking the HERO opens the current attraction on Events tab
   heroEl?.addEventListener('click', (e)=>{
     if (e.target.closest('.nav-btn, .hs-arrow, .hs-dot')) return;
-    if (heroMode !== 'events') return;                   // ← only in Events
+    if (heroMode !== 'events') return;
     const slide = heroSlides[heroIndex];
     const href = slide?.dataset?.href;
     if (href) window.open(href, '_blank', 'noopener');
   });
 
-
   enableHeroSwipe();
-
   heroControlsBound = true;
 }
 
@@ -281,11 +279,11 @@ function buildEventsHero(attractions){
 
   heroSlidesEl.innerHTML = picks.map((a,i)=>{
     const img = a.image_url || a.photo_url || a.image || '';
-    const name = esc(a.name || '');
+    const title = esc(a.title || a.name || '');         // ← fixed: attractions use "title"
     const href = a.maps_url || a.website || '';
     return `
       <div class="hs-slide${i===0?' is-active':''}" role="img"
-           aria-label="${name}"
+           aria-label="${title}"
            data-href="${esc(href)}"
            style="background-image:url('${img}')"></div>
     `;
@@ -423,6 +421,37 @@ const toText = (v) => Array.isArray(v) ? v.filter(Boolean).join(', ')
     ? (['name','address','line1','line2','city'].map(k => v[k]).filter(Boolean).join(', ') || String(v))
     : (v ?? '');
 
+// ------- Family (curated) helpers -------
+function scoreAttraction(a){
+  const r = Number(a.rating) || 0;
+  const n = Number(a.rating_count) || 0;
+  const C = 30, m = 4.3; // prior
+  return (C*m + n*r) / (C + n);
+}
+function renderFamilyAttractionsIntoEventsPanel(){
+  const list = document.getElementById('eventList');
+  if (!list) return;
+
+  if (!featuredAttractions.length){
+    list.innerHTML = `<div class="notice">No attractions found.</div>`;
+    return;
+  }
+
+  const items = [...featuredAttractions]
+    .sort((a,b)=> scoreAttraction(b) - scoreAttraction(a))
+    .slice(0, 24);
+
+  const asPlaces = items.map(a => ({
+    name: a.title,              // map title -> name for cardHtml()
+    address: a.address,
+    photo_url: a.photo_url,
+    rating: a.rating,
+    maps_url: a.maps_url
+  }));
+
+  list.innerHTML = asPlaces.map(cardHtml).join('');
+}
+
 // ---------- Events ----------
 async function loadEvents(){
   try{
@@ -439,6 +468,12 @@ async function loadEvents(){
 function renderEvents(events){
   const list = document.getElementById('eventList');
   if (!list) return;
+
+  // ⬇️ Family uses curated attractions instead of SerpAPI
+  if (selectedEventCat === 'family') {
+    renderFamilyAttractionsIntoEventsPanel();
+    return;
+  }
 
   let items = events;
   if (selectedEventCat !== 'all') {
@@ -512,7 +547,7 @@ document.querySelectorAll('.nav-btn').forEach(btn=>{
       buildHeroFromPlaces(allPlaces);
     }
 
-    // NEW: jump to very top after the swap
+    // jump to very top after the swap
     requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'smooth' }));
   });
 });
@@ -625,8 +660,6 @@ function handlePlacesFilters() {
 typeSel?.addEventListener('change', handlePlacesFilters);
 minRatingSel?.addEventListener('change', handlePlacesFilters);
 sortSel?.addEventListener('change', handlePlacesFilters);
-
-
 
 // kick off
 loadAttractions();   // prefetch for snappy swap

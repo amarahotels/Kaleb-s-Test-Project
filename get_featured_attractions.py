@@ -1,4 +1,4 @@
-# get_featured_attractions.py  (Places API NEW – fixed radius)
+# get_featured_attractions.py  (Places API NEW – with ratings)
 import os, json, requests
 from pathlib import Path
 from datetime import datetime
@@ -10,9 +10,11 @@ if not API_KEY:
 BASE = "https://places.googleapis.com/v1"
 HEADERS = {
     "X-Goog-Api-Key": API_KEY,
+    # ⬇️ ask for rating + userRatingCount as well
     "X-Goog-FieldMask": (
         "places.displayName,places.id,places.formattedAddress,"
-        "places.location,places.googleMapsUri,places.photos"
+        "places.location,places.googleMapsUri,places.photos,"
+        "places.rating,places.userRatingCount"
     ),
 }
 
@@ -42,7 +44,7 @@ def search_place(q: str):
         "locationBias": {
             "circle": {
                 "center": {"latitude": 1.3521, "longitude": 103.8198},
-                "radius": 50000  # <= 50,000 required
+                "radius": 50000
             }
         },
     }
@@ -67,6 +69,8 @@ def normalize(p: dict):
         "lng": loc.get("longitude"),
         "maps_url": p.get("googleMapsUri"),
         "photo_url": photo_media_url(p),
+        "rating": p.get("rating"),                   # ⬅️ NEW
+        "rating_count": p.get("userRatingCount"),    # ⬅️ NEW
         "category": "family_featured",
         "source": "places_api_new",
     }

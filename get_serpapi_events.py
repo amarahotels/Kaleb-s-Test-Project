@@ -13,11 +13,11 @@ if not API_KEY:
     raise RuntimeError("SERPAPI_KEY is not set")
 
 # Quota/refresh controls
-MAX_CALLS_PER_RUN      = int(os.getenv("EVENTS_MAX_CALLS", "6"))        # total SerpAPI requests per run
-TARGET_EVENTS          = int(os.getenv("EVENTS_TARGET_COUNT", "60"))    # cap saved events
-PER_BUCKET_CAP         = int(os.getenv("EVENTS_PER_BUCKET_CAP", "25"))  # per-bucket keep cap
-PER_DOMAIN_CAP         = int(os.getenv("EVENTS_PER_DOMAIN_CAP", "4"))   # cap per host/domain
-REQUIRE_IMAGE          = os.getenv("EVENTS_REQUIRE_IMAGE", "1") == "1"  # drop events without image
+MAX_CALLS_PER_RUN      = int(os.getenv("EVENTS_MAX_CALLS", "6"))
+TARGET_EVENTS          = int(os.getenv("EVENTS_TARGET_COUNT", "60"))
+PER_BUCKET_CAP         = int(os.getenv("EVENTS_PER_BUCKET_CAP", "25"))
+PER_DOMAIN_CAP         = int(os.getenv("EVENTS_PER_DOMAIN_CAP", "4"))
+REQUIRE_IMAGE          = os.getenv("EVENTS_REQUIRE_IMAGE", "1") == "1"
 
 OUT_PATH = Path("public/data/events.json")
 OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -27,24 +27,8 @@ SERP_LOCALE = {"engine": "google_events", "hl": "en", "gl": "sg", "location": "S
 now = datetime.now()
 month_year = now.strftime("%B %Y")
 
-# --- Query sets (keep Music/General as-is; fix Family) ---
+# --- Only Music & General buckets (Family is curated from Places API) ---
 QUERIES_BY_BUCKET = {
-    "family": [
-        # strongly anchored to SG (broad, high-yield)
-        "family events Singapore",
-        "kids events Singapore",
-        # extras that still stay local but narrower
-        "Sentosa family events Singapore",
-        "Gardens by the Bay family events Singapore",
-        "Science Centre Singapore events",
-        "Children's Museum Singapore events",
-        "Mandai Wildlife kids Singapore",
-        "Singapore Zoo events",
-        "Bird Paradise Singapore events",
-        "ArtScience Museum family Singapore",
-        "Singapore Discovery Centre events",
-        "Jewel Changi family events",
-    ],
     "music": [
         f"concerts in Singapore {month_year}",
         "live music Singapore weekend",
@@ -63,7 +47,7 @@ QUERIES_BY_BUCKET = {
     ],
 }
 
-PAST_GRACE_DAYS = 1  # keep events that started up to 1 day ago (helps multi-day)
+PAST_GRACE_DAYS = 1
 
 # ---------------- Filtering (tourist-friendly) ----------------
 FITNESS_RE = re.compile(
@@ -81,8 +65,6 @@ RITUAL_RE = re.compile(
     re.I,
 )
 CISO_RE = re.compile(r"\bciso\b", re.I)
-ALCOHOL_RE = re.compile(r"\b(wine|beer|whisk(?:y|ey)|cocktail|gin|rum|vodka|sake|soju|cigar|tasting)\b", re.I)
-ADULT_RE   = re.compile(r"\b(18\+|21\+|adults\s*only)\b", re.I)
 
 def matches_any(text: str, *patterns) -> bool:
     if not text:
@@ -102,7 +84,6 @@ def looks_like_interval_walk(text: str) -> bool:
 _calls_made = 0
 
 def fetch_events(query: str):
-    """SerpAPI call with global budget."""
     global _calls_made
     if _calls_made >= MAX_CALLS_PER_RUN:
         print(f"⛔️ Budget reached ({MAX_CALLS_PER_RUN} calls). Skipping: {query}")
@@ -292,7 +273,6 @@ def is_local_event(e) -> bool:
     return False
 
 def should_drop(e, tag: str) -> bool:
-    # must look local
     if not is_local_event(e):
         return True
 
@@ -309,8 +289,6 @@ def should_drop(e, tag: str) -> bool:
     if REQUIRE_IMAGE and not (e.get("image") or "").strip():
         return True
     if RITUAL_RE.search(text):
-        return True
-    if tag == "family" and (matches_any(text, ALCOHOL_RE, ADULT_RE)):
         return True
 
     return False
@@ -336,7 +314,6 @@ def sort_by_start(events):
     return sorted(events, key=lambda e: e.get("parsed_start") or datetime.max)
 
 def domain_of(url: str) -> str:
-    """Return bare host for per-domain caps."""
     if not url:
         return ""
     try:
@@ -347,18 +324,17 @@ def domain_of(url: str) -> str:
     except Exception:
         return ""
 
-# -------- Query planning: exactly 2 per category, round-robin within this run --------
-def build_query_plan(per_cat: int = 2, max_calls: int = MAX_CALLS_PER_RUN):
+# -------- Query planning: spread calls across music/general --------
+def build_query_plan(per_cat: int = 3, max_calls: int = MAX_CALLS_PER_RUN):
     plan = []
-    buckets = [("family", QUERIES_BY_BUCKET["family"]),
-               ("music", QUERIES_BY_BUCKET["music"]),
+    buckets = [("music", QUERIES_BY_BUCKET["music"]),
                ("general", QUERIES_BY_BUCKET["general"])]
     for i in range(per_cat):
-        for tag, qlist in buckets:
-            if len(plan) >= max_calls:
-                return plan
-            if i < len(qlist):
-                plan.append((tag, qlist[i]))
+      for tag, qlist in buckets:
+        if len(plan) >= max_calls:
+            return plan
+        if i < len(qlist):
+            plan.append((tag, qlist[i]))
     return plan[:max_calls]
 
 # ---------------- Main ----------------
@@ -373,7 +349,7 @@ def run_query(tag: str, q: str):
 
 def main():
     all_events = []
-    plan = build_query_plan(per_cat=2, max_calls=MAX_CALLS_PER_RUN)
+    plan = build_query_plan(max_calls=MAX_CALLS_PER_RUN)
     used = {}
     host_counts = {}
 
@@ -392,16 +368,6 @@ def main():
         bucket_events = run_query(tag, q)
         used.setdefault(tag, 0)
         used[tag] += 1
-
-        # --- Family fallback if too few after filtering ---
-        if tag == "family" and len(bucket_events) < 3:
-            print("  [family] Low yield; trying fallbacks…")
-            for extra in QUERIES_BY_BUCKET["family"][2:]:
-                more = run_query(tag, extra)
-                bucket_events.extend(more)
-                if len(bucket_events) >= 6:  # stop once decent yield
-                    break
-
         for e in bucket_events:
             if admit(e):
                 all_events.append(e)
