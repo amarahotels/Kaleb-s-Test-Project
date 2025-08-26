@@ -38,12 +38,16 @@ QUERIES_BY_BUCKET = {
         "DJ events Singapore",
     ],
     "general": [
-        "events in Singapore this week",
-        "things to do in Singapore this weekend",
-        f"exhibitions in Singapore {month_year}",
-        "museum events Singapore",
-        "Jewel Changi events",
-        "Singapore Botanic Gardens events",
+        f"festivals in Singapore {month_year}",
+        "carnival Singapore",
+        "night festival Singapore",
+        "street market Singapore",
+        "bazaar Singapore",
+        "food festival Singapore",
+        "lantern festival Singapore",
+        "light show Singapore",
+        "fireworks Singapore",
+        f"museum exhibitions Singapore {month_year}",
     ],
 }
 
