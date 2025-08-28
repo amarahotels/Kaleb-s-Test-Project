@@ -1,13 +1,13 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-26T16:22:43.108219Z",
+  "generated_at": "2025-08-28T16:23:01.285519Z",
   "events": [
     {
       "title": "VOS Festival 2025 - Youth Festival Chorus",
-      "start": "Aug 26",
+      "start": "Aug 28",
       "end": "25 Aug, 7:30 pm – 10 Sept, 10:00 pm",
-      "venue": "Voices of Singapore Capitol Studios (B1)",
-      "address": "13 Stamford Rd, B1-20/21 Voices of Singapore Capitol Studios (B1), Capitol Singapore",
+      "venue": "Voices of Singapore Sky Studio (L3)",
+      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
       "url": "https://www.eventbrite.sg/e/vos-festival-2025-youth-festival-chorus-registration-1349486553609",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FS2U9LBscHBxFsyIecAPmxG0ATsYHy_1vbFxCGUU_g&s",
       "category": "music",
@@ -15,7 +15,7 @@
     },
     {
       "title": "Singapore Night Festival 2025",
-      "start": "Aug 26",
+      "start": "Aug 28",
       "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
       "venue": "Bugis Street",
       "address": "261 Victoria St, Bugis Street",
@@ -26,23 +26,12 @@
     },
     {
       "title": "VOS Festival 2025 - Children's Festival Chorus",
-      "start": "Aug 26",
+      "start": "Aug 28",
       "end": "24 Aug, 11:00 am – 10 Sept, 9:30 pm",
-      "venue": "Voices of Singapore Capitol Studios (B1)",
-      "address": "13 Stamford Rd, B1-20/21 Voices of Singapore Capitol Studios (B1), Capitol Singapore",
+      "venue": "Voices of Singapore Sky Studio (L3)",
+      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
       "url": "https://www.eventbrite.sg/e/vos-festival-2025-childrens-festival-chorus-registration-1349486663939",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_IuAgQ0cZtnUcnOpSZGS5_mOCOtuqrpW0wHCAb29Nw&s",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Digital Light Canvas by teamLab",
-      "start": "Aug 26",
-      "end": "18 Aug, 5:45 pm – 14 Sept, 7:45 pm",
-      "venue": "Marina Bay Sands Singapore",
-      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
-      "url": "https://feverup.com/m/336316",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBPIH_Iwa_rPy1S84u4K0i4R8OkdWvaa0w6mOrHhI5g&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -60,7 +49,7 @@
     {
       "title": "Summer Salt @ Esplanade Annexe Studio",
       "start": "Aug 29",
-      "end": "Fri, 29 Aug, 7:00 – 11:00 pm",
+      "end": "Fri, 29 Aug, 7:00 pm – Sat, 30 Aug, 1:00 am",
       "venue": "Esplanade Annexe Studio",
       "address": "1 Esplanade Dr, Esplanade Annexe Studio",
       "url": "https://open.spotify.com/concert/3OmMxQvKYszHrXpQomIapg",
@@ -80,6 +69,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Certainty in Uncertainty",
+      "start": "Aug 29",
+      "end": "Fri, 29 Aug, 10:00 – 11:00 am",
+      "venue": "ERCO LIGHTING PTE. LTD.",
+      "address": "93 Havelock Rd, #03-532 ERCO LIGHTING PTE. LTD., Singapore",
+      "url": "https://www.eventbrite.de/e/certainty-in-uncertainty-the-exhibition-tickets-1487946240259",
+      "image": "https://www.google.com/maps/vt/data=eKPH_dn1Sz450JcnSDCC0v4-N4tErQY8vEvKlpdEn93NBIH93FLJLdHf2w5rahS1LteScIccjXgBfZlhk8mcp1dIbYdM4DQcTh7mncfJ4af6s7UJGdI",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Chorus in Concert - A Choral Tribute to Singapore by Singapore Lyric Opera Adult Chorus featuring Youth Chorus [G]",
       "start": "Aug 30",
       "end": "Sat, 30 Aug, 7:00 – 10:00 pm",
@@ -88,6 +88,17 @@
       "url": "https://www.stubhub.com/chorus-in-concert-singapore-tickets-8-30-2025/event/158989840/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdqt2F64tg5uVoOBu6XClRJP2b67DQh_wenPNnjwP7cQ&s=10",
       "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Horticultural Festival 30-31 Aug 2025 @Hortpark",
+      "start": "Aug 30",
+      "end": "Sat, 30 Aug, 9:00 am – Sun, 31 Aug, 6:00 pm",
+      "venue": "HortPark",
+      "address": "33 Hyderabad Rd, HortPark",
+      "url": "https://allevents.in/singapore/horticultural-festival-30-31-aug-2025-hortpark/200028649423832",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQug5YL2aJ_q3GWLjtREcv6FL6PMQUceQFBB-A7XC33OvnIcKIQxH6EhjWW2w&s=10",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -102,25 +113,14 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Horticultural Festival 30-31 Aug 2025 @Hortpark",
+      "title": "[Qixi Fest 2025] (Her)Story of the Majies",
       "start": "Aug 30",
-      "end": "Sat, 30 Aug, 9:00 am – Sun, 31 Aug, 6:00 pm",
-      "venue": "HortPark",
-      "address": "33 Hyderabad Rd, HortPark",
-      "url": "https://allevents.in/singapore/horticultural-festival-30-31-aug-2025-hortpark/200028649423832",
-      "image": "https://www.google.com/maps/vt/data=yJmq-4Ju-_5sQtKEaiTxlGEAVTFV4-eq449P7QUhXguwazkAhFylqu-uuS3aFTBQjPxI7T_jL6EJoILbnQEIYiJ8zRqtEQHeTq6GGP_PPw8nzeprvBs",
+      "end": "Sat, 30 Aug, 3:00 – 5:30 pm",
+      "venue": "Mondrian Singapore Duxton",
+      "address": "16A Duxton Hill, Mondrian Singapore Duxton, 16A",
+      "url": "https://www.eventbrite.com/e/1468273007089",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5aq_HXVgOUBfmLSmepbrJwJ7qIpjvixmQpukFXYmgew&s",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Ground Zero",
-      "start": "Aug 30",
-      "end": "Sat, 30 Aug, 11:00 pm",
-      "venue": "Spectrum by Phil Studio",
-      "address": "1 Selegie Rd, B1-05 Spectrum by Phil Studio, GR.iD (GR.iD, Singapore",
-      "url": "https://www.philstudio-events.com/event-details-registration/ground-zero",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdFLmw-M2MqHlH4yFcQZrL4QaME4OdpmY98wbv7SjTM9re8FzM_MNJMaJLHQ&s",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -146,6 +146,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Yaeji",
+      "start": "Sept 1",
+      "end": "Mon, 1 Sept, 7:00 – 10:00 pm",
+      "venue": "Capitol Theatre",
+      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
+      "url": "https://www.timeout.com/singapore/music/yaeji",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwHVrORyhHAQfI07zcFTTUPq2NrI41HySYhgB8SpemCQ&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Crossfade Presents DJ PUFFY",
       "start": "Sept 6",
       "end": "Sat, 6 Sept, 10:00 pm – Sun, 7 Sept, 6:00 am",
@@ -154,6 +165,17 @@
       "url": "https://taogroup.com/event/06-09-25-crossfade-presents-dj-puffy-avenue-singapore/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxkkk9kilUl3L6ut6yMvmtC4C8Jo_7Dpmiy26cUKsDKk_vaRq_6NwDFNp1uQ&s=10",
       "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Atomy Singapore Product Carnival",
+      "start": "Sept 12",
+      "end": "Fri, 12 Sept, 2:00 – 5:00 pm",
+      "venue": "ATOMY LC @ Kovan Guan Yu 冠宇中心",
+      "address": "Blk203 Hougang St 21, #03-69 ATOMY LC @ Kovan Guan Yu 冠宇中心",
+      "url": "https://allevents.in/serangoon/atomy-singapore-product-carnival/200028703647508",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTFlIOI-ja4sjUUVVKbNpUeBQuUlkWWr8b1zoSeigmNtCELAIAqjpPjnxTFg&s=10",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -168,13 +190,24 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "SARVĀRPANAM 2025",
+      "start": "Sept 21",
+      "end": "Sun, 21 Sept, 2:00 – 6:00 pm",
+      "venue": "Carnival Cinemas Singapore",
+      "address": "Beach Rd, #03/00 Carnival Cinemas Singapore, GOLDEN MILE TOWER",
+      "url": "https://www.sarvafinearts.com/event-details-registration/sarvarpanam-2025-2",
+      "image": "https://www.google.com/maps/vt/data=7B7Kn-a_Ke6lFQgs9k04_spFix1l7HBlxlalwbMEXWPBurZcxDj9IbpZVTxHy0sd_rxz-OY0gyJcQaNADm_UUGNr15iSJparEfZBGjrjLdaP2JIahH0",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Jake Miller @ Hard Rock Cafe Singapore",
       "start": "Sept 23",
       "end": "Tue, 23 Sept, 7:00 pm – Wed, 24 Sept, 1:00 am",
       "venue": "Hard Rock Cafe",
       "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
-      "url": "https://www.bandsintown.com/e/107041270?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQfS57P2XpNC69Z-wFse5JgyjD6A8i6N7lwMU02cJHA&s=10",
+      "url": "https://www.timeout.com/singapore/music/jake-miller",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKwidFtYRUo41VjTlPJMiTMyp8gg9KCntPVlL5lWpIlA&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -187,6 +220,17 @@
       "url": "https://allevents.in/queenstown/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee/100001528162638589",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkSPqbWX3S9lwr2O24wBJb9vI_6CNO7jQT99eBqy90srx5imVXYB-RHEtvqw&s=10",
       "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Atomy Singapore Product Carnival",
+      "start": "Sept 27",
+      "end": "Sat, 27 Sept, 12:00 – 3:00 pm",
+      "venue": "Asia Green",
+      "address": "9 Tampines Grande, Asia Green",
+      "url": "https://allevents.in/tampines/atomy-singapore-product-carnival/200028711276302",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTFlIOI-ja4sjUUVVKbNpUeBQuUlkWWr8b1zoSeigmNtCELAIAqjpPjnxTFg&s=10",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -223,6 +267,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "UK Bhangra Bash 2025 - Live In Singapore",
+      "start": "Oct 4",
+      "end": "Sat, 4 Oct, 10:00 pm – Sun, 5 Oct, 3:00 am",
+      "venue": "Hard Rock Cafe",
+      "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
+      "url": "https://www.eventbrite.com/e/uk-bhangra-bash-2025-live-in-singapore-tickets-1542273053219",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNRix0Ct7LFdN0HgAK9VpPeUDxmVDLNakKIFfwlK51yw&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Singapore Polo Club Annual Outreach Polo Tournament & Carnival 2025",
       "start": "Oct 11",
       "end": "Sat, 11 Oct, 10:00 am – 6:00 pm",
@@ -230,6 +285,17 @@
       "address": "80 Mount Pleasant Rd, Singapore Polo Club",
       "url": "https://www.singaporepoloclub.org/upcoming-event/outreach-event-with-carnival-games-stalls/",
       "image": "https://www.google.com/maps/vt/data=ob7ZuqwJmFH-bF_GcYHOpSghONg54FhVRVBaM09F_CiGTBGNvyKkTEvcUf_g_xd08mWaO2aVtp86zMFhmIl9HVQmhdV0V4oYg6WQVQAweRODpaMweZw",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Sarawak Mega Fair 2025 - Business Collaboration Opportunities with Malaysian State — Suntec Singapore",
+      "start": "Oct 16",
+      "end": "Thu, 16 Oct, 7:00 am – Fri, 17 Oct, 6:30 pm",
+      "venue": "Suntec Singapore Convention & Exhibition Centre",
+      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+      "url": "https://www.suntecsingapore.com/visit-events/sarawak-mega-fair-2025-business-collaboration-opportunities-with-malaysian-state",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG95yCY-nHc8qmR0roYQlV7H4er-YlUGUzQYlBQkcOk7qGKYeZITTBW-ZQA&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -253,6 +319,28 @@
       "url": "https://eventseeker.com/venue/866256-bugis-street-market-singapore",
       "image": "https://www.google.com/maps/vt/data=km-IHD7tYxy4MAbB4Qp6X6Fp7qpD_WSjyP9QpBzSkpqH9RYvmxXUR36JumMGl1K5V12lsGJ-xsRrGZio09agJcOnwY2pa-EzFo80ZOCfJnK1hEPcQdk",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "2025 N.Flying LIVE '&CON4 : FULL CIRCLE' in SINGAPORE",
+      "start": "Nov 23",
+      "end": "Sun, 23 Nov, 6:00 pm – Mon, 24 Nov, 12:00 am",
+      "venue": "The Theatre at Mediacorp",
+      "address": "1 Stars Ave, The Theatre at Mediacorp",
+      "url": "https://www.bandsintown.com/e/107185687?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStluTqx-EbT1tEJdx5nWY2QAH83yCZptov7r2aeF3bdA&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "TV Girl",
+      "start": "Dec 3",
+      "end": "Wed, 3 Dec, 7:00 – 10:00 pm",
+      "venue": "The Star Vista",
+      "address": "1 Vista Exchange Green, The Star Vista",
+      "url": "https://ticketmaster.sg/activity/detail/25sg_tvgirl",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZygluyrAaVrkAvZEkv9zK2SYIrOFkBsjQWtIW4E5byyRTQxQ0vGU_jc9nxQ&s=10",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
