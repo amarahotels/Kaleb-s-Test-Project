@@ -1,40 +1,7 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-28T16:23:01.285519Z",
+  "generated_at": "2025-08-29T16:22:17.940272Z",
   "events": [
-    {
-      "title": "VOS Festival 2025 - Youth Festival Chorus",
-      "start": "Aug 28",
-      "end": "25 Aug, 7:30 pm – 10 Sept, 10:00 pm",
-      "venue": "Voices of Singapore Sky Studio (L3)",
-      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
-      "url": "https://www.eventbrite.sg/e/vos-festival-2025-youth-festival-chorus-registration-1349486553609",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FS2U9LBscHBxFsyIecAPmxG0ATsYHy_1vbFxCGUU_g&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Singapore Night Festival 2025",
-      "start": "Aug 28",
-      "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
-      "venue": "Bugis Street",
-      "address": "261 Victoria St, Bugis Street",
-      "url": "https://www.heritage.sg/sgnightfest",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAUnqYXQIq2xWL_jN7tk5imzGQ-JUWNxolBP9IO5JycXY6vX-q4g-LoowQQ&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "VOS Festival 2025 - Children's Festival Chorus",
-      "start": "Aug 28",
-      "end": "24 Aug, 11:00 am – 10 Sept, 9:30 pm",
-      "venue": "Voices of Singapore Sky Studio (L3)",
-      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
-      "url": "https://www.eventbrite.sg/e/vos-festival-2025-childrens-festival-chorus-registration-1349486663939",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_IuAgQ0cZtnUcnOpSZGS5_mOCOtuqrpW0wHCAb29Nw&s",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
     {
       "title": "Epik High",
       "start": "Aug 29",
@@ -58,6 +25,39 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "VOS Festival 2025 - Youth Festival Chorus",
+      "start": "Aug 29",
+      "end": "25 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "venue": "Voices of Singapore Sky Studio (L3)",
+      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-youth-festival-chorus-registration-1349486553609",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FS2U9LBscHBxFsyIecAPmxG0ATsYHy_1vbFxCGUU_g&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Singapore Night Festival 2025",
+      "start": "Aug 29",
+      "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
+      "venue": "Bugis Street",
+      "address": "261 Victoria St, Bugis Street",
+      "url": "https://www.heritage.sg/sgnightfest",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAUnqYXQIq2xWL_jN7tk5imzGQ-JUWNxolBP9IO5JycXY6vX-q4g-LoowQQ&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "VOS Festival 2025 - Virtuosi Festival Chorus",
+      "start": "Aug 29",
+      "end": "28 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "venue": "Voices of Singapore Capitol Studios (B1)",
+      "address": "13 Stamford Rd, B1-20/21 Voices of Singapore Capitol Studios (B1), Capitol Singapore",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-virtuosi-festival-chorus-registration-1339387898259",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3-eMngpQ73tcCwgZZla-Z9eHHpHeCCHMR7vIyYH85pA&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Live, Laugh, Lor",
       "start": "Aug 29",
       "end": "Fri, 29 Aug, 8:00 – 10:30 pm",
@@ -69,20 +69,20 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Certainty in Uncertainty",
-      "start": "Aug 29",
-      "end": "Fri, 29 Aug, 10:00 – 11:00 am",
-      "venue": "ERCO LIGHTING PTE. LTD.",
-      "address": "93 Havelock Rd, #03-532 ERCO LIGHTING PTE. LTD., Singapore",
-      "url": "https://www.eventbrite.de/e/certainty-in-uncertainty-the-exhibition-tickets-1487946240259",
-      "image": "https://www.google.com/maps/vt/data=eKPH_dn1Sz450JcnSDCC0v4-N4tErQY8vEvKlpdEn93NBIH93FLJLdHf2w5rahS1LteScIccjXgBfZlhk8mcp1dIbYdM4DQcTh7mncfJ4af6s7UJGdI",
-      "category": "general",
+      "title": "Sergei Nakariakov",
+      "start": "Aug 30",
+      "end": "Sat, 30 Aug, 7:30 – 9:30 pm",
+      "venue": "Esplanade - Theatres on the Bay, Singapore",
+      "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
+      "url": "https://www.stubhub.com/sergei-nakariakov-singapore-tickets-8-29-2025/event/159024408/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAIThr2XnW2nmfOEU_8iru_XlZhMQSe27Kw7tnccgwSw&s=10",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
       "title": "Chorus in Concert - A Choral Tribute to Singapore by Singapore Lyric Opera Adult Chorus featuring Youth Chorus [G]",
       "start": "Aug 30",
-      "end": "Sat, 30 Aug, 7:00 – 10:00 pm",
+      "end": "Sat, 30 Aug, 7:00 pm",
       "venue": "Victoria Concert Hall",
       "address": "11 Empress Pl, #01-02 Victoria Concert Hall",
       "url": "https://www.stubhub.com/chorus-in-concert-singapore-tickets-8-30-2025/event/158989840/",
@@ -91,14 +91,14 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Horticultural Festival 30-31 Aug 2025 @Hortpark",
+      "title": "WATERBOMB SINGAPORE 2025 @ Siloso Beach",
       "start": "Aug 30",
-      "end": "Sat, 30 Aug, 9:00 am – Sun, 31 Aug, 6:00 pm",
-      "venue": "HortPark",
-      "address": "33 Hyderabad Rd, HortPark",
-      "url": "https://allevents.in/singapore/horticultural-festival-30-31-aug-2025-hortpark/200028649423832",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQug5YL2aJ_q3GWLjtREcv6FL6PMQUceQFBB-A7XC33OvnIcKIQxH6EhjWW2w&s=10",
-      "category": "general",
+      "end": "Sat, 30 Aug, 12:00 – 11:59 pm",
+      "venue": "Siloso Beach",
+      "address": "53 Siloso Bch Walk, Siloso Beach, Singapore",
+      "url": "https://www.songkick.com/festivals/3736309-waterbomb-singapore/id/42657574-waterbomb-singapore-2025?utm_medium=organic&utm_source=microformat",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7yM4Tai2wwoJ93qaJzjJd85BnqB8nZfQyfJ2qzP7tSvniXRCxLmP49nVrRw&s=10",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -113,13 +113,24 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "[Qixi Fest 2025] (Her)Story of the Majies",
+      "title": "Horticultural Festival 30-31 Aug 2025 @Hortpark",
       "start": "Aug 30",
-      "end": "Sat, 30 Aug, 3:00 – 5:30 pm",
-      "venue": "Mondrian Singapore Duxton",
-      "address": "16A Duxton Hill, Mondrian Singapore Duxton, 16A",
-      "url": "https://www.eventbrite.com/e/1468273007089",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5aq_HXVgOUBfmLSmepbrJwJ7qIpjvixmQpukFXYmgew&s",
+      "end": "Sat, 30 Aug, 9:00 am – Sun, 31 Aug, 6:00 pm",
+      "venue": "HortPark",
+      "address": "33 Hyderabad Rd, HortPark",
+      "url": "https://allevents.in/singapore/horticultural-festival-30-31-aug-2025-hortpark/200028649423832",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQug5YL2aJ_q3GWLjtREcv6FL6PMQUceQFBB-A7XC33OvnIcKIQxH6EhjWW2w&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "VOS Festival 2025 - Community Festival Chorus",
+      "start": "Aug 30",
+      "end": "30 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "venue": "Voices of Singapore Capitol Studios (B1)",
+      "address": "13 Stamford Rd, B1-20/21 Voices of Singapore Capitol Studios (B1), Capitol Singapore",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-community-festival-chorus-registration-1349487606759",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZRi62lfYUdUYhS2Iq5lrRHpiosRc12zAiAIopeYnng&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -135,17 +146,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Little People, Big Dreams - KD Concert 2025",
-      "start": "Aug 31",
-      "end": "Sun, 31 Aug, 5:00 – 6:30 pm",
-      "venue": "Anglo-Chinese Junior College",
-      "address": "25 Dover Cl E, Anglo-Chinese Junior College, Singapore",
-      "url": "https://www.eventbrite.sg/e/little-people-big-dreams-kd-concert-2025-tickets-1301059125869",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBAUAGkSMndhVQPSNMm9Ikww6mdXb2UGk6p0Pc9vF9A&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "Yaeji",
       "start": "Sept 1",
       "end": "Mon, 1 Sept, 7:00 – 10:00 pm",
@@ -153,6 +153,17 @@
       "address": "17 Stamford Rd, Capitol Theatre, Singapore",
       "url": "https://www.timeout.com/singapore/music/yaeji",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwHVrORyhHAQfI07zcFTTUPq2NrI41HySYhgB8SpemCQ&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Thursday Night Hustle",
+      "start": "Sept 4",
+      "end": "Thu, 4 Sept",
+      "venue": "Capital Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
+      "url": "https://zoukgroup.com/singapore/capital/event/EVE109749000020250904/thursday-night-hustle/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGKKQkeOmwbheRfPzsTxjgiEtSE4hAh_dBmD5ejYnTlg&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -234,6 +245,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "DJ Isaac",
+      "start": "Sept 27",
+      "end": "Sat, 27 Sept",
+      "venue": "Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
+      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020250927/dj-isaac/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvqChztTH98vSzW2mUyc7cX42LsS8qm0Hj-_09RkPDPQ&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Token 2049 CRYPTO Carnival Party",
       "start": "Oct 2",
       "end": "Thu, 2 Oct, 8:00 pm – Fri, 3 Oct, 2:00 am",
@@ -242,17 +264,6 @@
       "url": "https://lu.ma/d4f8vivz",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_ZK32CeLvUEAyhNlNSOgHtbxSaOhFaist-hPFtArvg&s=10",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Don Diablo",
-      "start": "Oct 3",
-      "end": "Fri, 3 Oct, 9:00 pm – Sat, 4 Oct, 3:00 am",
-      "venue": "Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://www.bandsintown.com/e/107262312?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtG-UGD4WJ6L0IrzwR5ITtKnGze3glbKRZjAiPq0igaw&s=10",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -319,28 +330,6 @@
       "url": "https://eventseeker.com/venue/866256-bugis-street-market-singapore",
       "image": "https://www.google.com/maps/vt/data=km-IHD7tYxy4MAbB4Qp6X6Fp7qpD_WSjyP9QpBzSkpqH9RYvmxXUR36JumMGl1K5V12lsGJ-xsRrGZio09agJcOnwY2pa-EzFo80ZOCfJnK1hEPcQdk",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "2025 N.Flying LIVE '&CON4 : FULL CIRCLE' in SINGAPORE",
-      "start": "Nov 23",
-      "end": "Sun, 23 Nov, 6:00 pm – Mon, 24 Nov, 12:00 am",
-      "venue": "The Theatre at Mediacorp",
-      "address": "1 Stars Ave, The Theatre at Mediacorp",
-      "url": "https://www.bandsintown.com/e/107185687?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStluTqx-EbT1tEJdx5nWY2QAH83yCZptov7r2aeF3bdA&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "TV Girl",
-      "start": "Dec 3",
-      "end": "Wed, 3 Dec, 7:00 – 10:00 pm",
-      "venue": "The Star Vista",
-      "address": "1 Vista Exchange Green, The Star Vista",
-      "url": "https://ticketmaster.sg/activity/detail/25sg_tvgirl",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZygluyrAaVrkAvZEkv9zK2SYIrOFkBsjQWtIW4E5byyRTQxQ0vGU_jc9nxQ&s=10",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
