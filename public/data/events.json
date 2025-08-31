@@ -1,95 +1,7 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-08-30T16:19:44.727602Z",
+  "generated_at": "2025-08-31T16:20:02.206597Z",
   "events": [
-    {
-      "title": "Sergei Nakariakov",
-      "start": "Aug 30",
-      "end": "Sat, 30 Aug, 7:30 – 9:30 pm",
-      "venue": "Esplanade - Theatres on the Bay, Singapore",
-      "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
-      "url": "https://www.stubhub.com/sergei-nakariakov-singapore-tickets-8-29-2025/event/159024408/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAIThr2XnW2nmfOEU_8iru_XlZhMQSe27Kw7tnccgwSw&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Chorus in Concert - A Choral Tribute to Singapore by Singapore Lyric Opera Adult Chorus featuring Youth Chorus [G]",
-      "start": "Aug 30",
-      "end": "Sat, 30 Aug, 7:00 pm",
-      "venue": "Victoria Concert Hall",
-      "address": "11 Empress Pl, #01-02 Victoria Concert Hall",
-      "url": "https://www.stubhub.com/chorus-in-concert-singapore-tickets-8-30-2025/event/158989840/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdqt2F64tg5uVoOBu6XClRJP2b67DQh_wenPNnjwP7cQ&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "WATERBOMB SINGAPORE 2025 @ Siloso Beach",
-      "start": "Aug 30",
-      "end": "Sat, 30 Aug, 12:00 – 11:59 pm",
-      "venue": "Siloso Beach",
-      "address": "53 Siloso Bch Walk, Siloso Beach, Singapore",
-      "url": "https://www.songkick.com/festivals/3736309-waterbomb-singapore/id/42657574-waterbomb-singapore-2025?utm_medium=organic&utm_source=microformat",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7yM4Tai2wwoJ93qaJzjJd85BnqB8nZfQyfJ2qzP7tSvniXRCxLmP49nVrRw&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "VOS Festival 2025 - Youth Festival Chorus",
-      "start": "Aug 30",
-      "end": "25 Aug, 7:30 pm – 10 Sept, 10:00 pm",
-      "venue": "Voices of Singapore Sky Studio (L3)",
-      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
-      "url": "https://www.eventbrite.sg/e/vos-festival-2025-youth-festival-chorus-registration-1349486553609",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FS2U9LBscHBxFsyIecAPmxG0ATsYHy_1vbFxCGUU_g&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Singapore Night Festival 2025",
-      "start": "Aug 30",
-      "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
-      "venue": "Bugis Street",
-      "address": "261 Victoria St, Bugis Street",
-      "url": "https://www.heritage.sg/sgnightfest",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAUnqYXQIq2xWL_jN7tk5imzGQ-JUWNxolBP9IO5JycXY6vX-q4g-LoowQQ&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "CLANG Music Festival 2025 (Singapore)",
-      "start": "Aug 30",
-      "end": "Sat, 30 Aug, 6:00 – 9:00 pm",
-      "venue": "Pasir Panjang Power Station",
-      "address": "27 Pasir Panjang Rd, Pasir Panjang Power Station, Singapore",
-      "url": "https://ahboy.com/event/clang-music-festival-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlmEmTh1Nshe1nuzBW12mTe0MZVnUuHaEqlqpGj2O8r6lrSXfb8wHRc2fPt5K-&s",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Horticultural Festival 30-31 Aug 2025 @Hortpark",
-      "start": "Aug 30",
-      "end": "Sat, 30 Aug, 9:00 am – Sun, 31 Aug, 6:00 pm",
-      "venue": "HortPark",
-      "address": "33 Hyderabad Rd, HortPark",
-      "url": "https://allevents.in/singapore/horticultural-festival-30-31-aug-2025-hortpark/200028649423832",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQug5YL2aJ_q3GWLjtREcv6FL6PMQUceQFBB-A7XC33OvnIcKIQxH6EhjWW2w&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "VOS Festival 2025 - Community Festival Chorus",
-      "start": "Aug 30",
-      "end": "30 Aug, 7:30 pm – 10 Sept, 10:00 pm",
-      "venue": "Voices of Singapore Capitol Studios (B1)",
-      "address": "13 Stamford Rd, B1-20/21 Voices of Singapore Capitol Studios (B1), Capitol Singapore",
-      "url": "https://www.eventbrite.sg/e/vos-festival-2025-community-festival-chorus-registration-1349487606759",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZRi62lfYUdUYhS2Iq5lrRHpiosRc12zAiAIopeYnng&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
     {
       "title": "Singapore - Japan Friendship Handbell Concert 2025",
       "start": "Aug 31",
@@ -98,6 +10,17 @@
       "address": "1 Old Parliament Ln, The Arts House at The Old Parliament, Former Parliament House and Annex Building",
       "url": "https://www.eventbrite.com/e/singapore-japan-friendship-handbell-concert-2025-tickets-1370622030389",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgUiXKzhV4iF_15smYJGTvwsKIPPtHSYIcjuTHtQIa_Q&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "VOS Festival 2025 - Youth Festival Chorus",
+      "start": "Aug 31",
+      "end": "25 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "venue": "Voices of Singapore Sky Studio (L3)",
+      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-youth-festival-chorus-registration-1349486553609",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FS2U9LBscHBxFsyIecAPmxG0ATsYHy_1vbFxCGUU_g&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -113,6 +36,83 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "VOS Festival 2025 - Community Festival Chorus",
+      "start": "Aug 31",
+      "end": "30 Aug, 7:30 pm – 10 Sept, 10:00 pm",
+      "venue": "Voices of Singapore Capitol Studios (B1)",
+      "address": "13 Stamford Rd, B1-20/21 Voices of Singapore Capitol Studios (B1), Capitol Singapore",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-community-festival-chorus-registration-1349487606759",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZRi62lfYUdUYhS2Iq5lrRHpiosRc12zAiAIopeYnng&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "VOS Festival 2025 - Children's Festival Chorus",
+      "start": "Aug 31",
+      "end": "24 Aug, 11:00 am – 10 Sept, 9:30 pm",
+      "venue": "Voices of Singapore Sky Studio (L3)",
+      "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
+      "url": "https://www.eventbrite.sg/e/vos-festival-2025-childrens-festival-chorus-registration-1349486663939",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_IuAgQ0cZtnUcnOpSZGS5_mOCOtuqrpW0wHCAb29Nw&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Tommy Emmanuel",
+      "start": "Aug 31",
+      "end": "Sun, 31 Aug, 7:00 – 11:00 pm",
+      "venue": "Gateway Theatre",
+      "address": "3615 Jalan Bukit Merah, Gateway Theatre, Singapore",
+      "url": "https://open.spotify.com/concert/4nYhZ1zBXtPLtQkhRVh1Gk",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ5gLhC-tPRO9d0TNL-5tFp1lQluAHevJbw_fT3TfP-BxT2iam1zo8IaT_FQ&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Sammy Obeid: LIVE in Singapore!",
+      "start": "Aug 31",
+      "end": "Sun, 31 Aug, 6:00 – 10:00 pm",
+      "venue": "Victoria Theatre",
+      "address": "9 Empress Pl, Victoria Theatre",
+      "url": "https://www.eventbrite.com/e/sammy-obeid-live-in-singapore-tickets-1382931197439",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNgP-HTgYh-f2R2APx9bCu2jOQbsYhuSIEyZcJ5Ag8DJTJ57IqQHVAujnUow&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Singapore Night Festival 2025",
+      "start": "Aug 31",
+      "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
+      "venue": "Bugis Street",
+      "address": "261 Victoria St, Bugis Street",
+      "url": "https://www.heritage.sg/sgnightfest",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAUnqYXQIq2xWL_jN7tk5imzGQ-JUWNxolBP9IO5JycXY6vX-q4g-LoowQQ&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Singapore Night Festival",
+      "start": "Aug 31",
+      "end": "25 Aug, 12:00 am – 6 Sept, 12:00 am",
+      "venue": "Bras Basah Complex",
+      "address": "231 Bain St, Bras Basah Complex",
+      "url": "https://eventseeker.com/venue/70718-bras-basah-complex-singapore",
+      "image": "https://www.google.com/maps/vt/data=02O_QAOrCVb7sp1B1OVlU3qe5hedfGXgRMQlVp0mIdvSjXVzTT-mNh8Uou2zd1ia5zkG2nQfZBa80iS6_8wUl9xU0a-gZmoq6y0v2KrntIWsty11GVE",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Qi Xi Festival 2025",
+      "start": "Aug 31",
+      "end": "Fri, 29 Aug, 12:00 pm – Sun, 31 Aug, 8:00 pm",
+      "venue": "Ang Mo Kio, Singapore",
+      "address": "Ang Mo Kio, Singapore",
+      "url": "https://m.facebook.com/events/1328232992004552/?acontext=%7B%22action_history%22%3A%22null%22%7D&ref_source=newsfeed&ref_mechanism=feed_attachment",
+      "image": "https://www.google.com/maps/vt/data=1XasQNfx8RA9RKdp_39R3IqZGC4aGVrVjW1R6sGn25sV4cZYMv59CkWE-J7HpQ3vHAwtbizlJlnL6Gj9awf3VKkx5OF0boOz8soeOSa2VMYbgCz2-5c",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Yaeji",
       "start": "Sept 1",
       "end": "Mon, 1 Sept, 7:00 – 10:00 pm",
@@ -124,13 +124,13 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "TGIW",
+      "title": "Industry Night : We Are Family",
       "start": "Sept 3",
-      "end": "Wed, 3 Sept",
-      "venue": "Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020250903/tgiw/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RRQptIhO2Xun8iYvWXPPeqCZRShHn4y8r0YvYK_v-w&s=10",
+      "end": "Wed, 3 Sept, 6:00 – 9:00 pm",
+      "venue": "HPL House",
+      "address": "50 Cuscaden Rd, HPL House, Singapore",
+      "url": "https://allevents.in/singapore/industry-night-we-are-family/200028748359623",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu229vm1R-Fmrq7-VDteJmZ8ly6RT-HVgcI0OI94E_vw&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -179,12 +179,23 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Future Food: Singapore Food Festival",
+      "start": "Sept 19",
+      "end": "Fri, 19 Sept, 6:00 pm – Sat, 20 Sept, 10:30 pm",
+      "venue": "SKAI Restaurant",
+      "address": "2 Stamford Rd, Lvl 70 #70-01 SKAI Restaurant",
+      "url": "https://singaporefoodfestival.com/event/future-food-2025/",
+      "image": "https://www.google.com/maps/vt/data=20YHrWTW8fylZf6vAXHk48oIcZWsjqMNcIXNFkK3uJ5VfvU2-45vDktx6Ve_Jmcm-dpRcLp0qb5HMt-HGDn2L0_XUbn2cfZd7uPiHb3kogDzrlOX4I8",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "SARVĀRPANAM 2025",
       "start": "Sept 21",
-      "end": "Sun, 21 Sept, 9:00 am – 1:00 pm",
+      "end": "Sun, 21 Sept, 2:00 – 6:00 pm",
       "venue": "Carnival Cinemas Singapore",
       "address": "Beach Rd, #03/00 Carnival Cinemas Singapore, GOLDEN MILE TOWER",
-      "url": "https://www.sarvafinearts.com/event-details-registration/sarvarpanam-2025",
+      "url": "https://www.sarvafinearts.com/event-details-registration/sarvarpanam-2025-2",
       "image": "https://www.google.com/maps/vt/data=7B7Kn-a_Ke6lFQgs9k04_spFix1l7HBlxlalwbMEXWPBurZcxDj9IbpZVTxHy0sd_rxz-OY0gyJcQaNADm_UUGNr15iSJparEfZBGjrjLdaP2JIahH0",
       "category": "general",
       "source": "serpapi_google_events"
@@ -225,10 +236,10 @@
     {
       "title": "DJ Isaac",
       "start": "Sept 27",
-      "end": "Sat, 27 Sept, 10:00 pm",
+      "end": "Sat, 27 Sept",
       "venue": "Zouk Singapore",
       "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://app.discotech.me/events/38016848-dj-isaac-at-zouk",
+      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020250927/dj-isaac/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvqChztTH98vSzW2mUyc7cX42LsS8qm0Hj-_09RkPDPQ&s=10",
       "category": "music",
       "source": "serpapi_google_events"
@@ -245,6 +256,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "香港聯校校友會中秋晚宴 2025 Hong Kong Joint-U Alumni Mid-Autumn Festival Dinner 2025",
+      "start": "Oct 4",
+      "end": "Sat, 4 Oct, 5:30 – 10:00 pm",
+      "venue": "Fu Lin Men Grandeur",
+      "address": "Kitchener Rd, #03-05 Fu Lin Men Grandeur, Novotel Singapore on Kitchener, 181",
+      "url": "https://www.eventbrite.com/e/1468425763989",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaa09LQ9MJf4BQUfzEyygovEL9AefTDdSBPgY0Giof3A&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Angel’s Voice Music Live 2025",
       "start": "Oct 4",
       "end": "Sat, 4 Oct, 3:00 – 5:30 pm",
@@ -252,17 +274,6 @@
       "address": "42 Waterloo St, Centre 42, 42, Singapore",
       "url": "https://www.eventbrite.com/e/1558747258009",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLFiipB1IqY3Dzfc9mfbnyrkbF5cjEbxNGdaJMT5mKkA&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "UK Bhangra Bash 2025 - Live In Singapore",
-      "start": "Oct 4",
-      "end": "Sat, 4 Oct, 10:00 pm – Sun, 5 Oct, 3:00 am",
-      "venue": "Hard Rock Cafe",
-      "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
-      "url": "https://www.eventbrite.com/e/uk-bhangra-bash-2025-live-in-singapore-tickets-1542273053219",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNRix0Ct7LFdN0HgAK9VpPeUDxmVDLNakKIFfwlK51yw&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
