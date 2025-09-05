@@ -1,10 +1,10 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-09-04T16:23:03.830764Z",
+  "generated_at": "2025-09-05T16:21:19.459210Z",
   "events": [
     {
       "title": "Singapore Night Festival 2025",
-      "start": "Sept 4",
+      "start": "Sept 5",
       "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
       "venue": "Bugis Street",
       "address": "261 Victoria St, Bugis Street",
@@ -15,23 +15,12 @@
     },
     {
       "title": "VOS Festival 2025 - Community Festival Chorus",
-      "start": "Sept 4",
+      "start": "Sept 5",
       "end": "30 Aug, 7:30 pm – 10 Sept, 10:00 pm",
       "venue": "Voices of Singapore Sky Studio (L3)",
       "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
       "url": "https://www.eventbrite.sg/e/vos-festival-2025-community-festival-chorus-registration-1349487606759",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZRi62lfYUdUYhS2Iq5lrRHpiosRc12zAiAIopeYnng&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Singapore Night Festival",
-      "start": "Sept 4",
-      "end": "25 Aug, 12:00 am – 6 Sept, 12:00 am",
-      "venue": "Bras Basah Complex",
-      "address": "231 Bain St, Bras Basah Complex",
-      "url": "https://eventseeker.com/venue/70718-bras-basah-complex-singapore",
-      "image": "https://www.google.com/maps/vt/data=02O_QAOrCVb7sp1B1OVlU3qe5hedfGXgRMQlVp0mIdvSjXVzTT-mNh8Uou2zd1ia5zkG2nQfZBa80iS6_8wUl9xU0a-gZmoq6y0v2KrntIWsty11GVE",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -47,14 +36,14 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "100% Bulletproof",
+      "title": "Singapore Night Festival",
       "start": "Sept 5",
-      "end": "Fri, 5 Sept",
-      "venue": "Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020250905/100-bulletproof/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeqiiAejmTfy9qHzG7NZMKS_7Y2W4pq9OVi897ZyXpDg&s=10",
-      "category": "music",
+      "end": "25 Aug, 12:00 am – 6 Sept, 12:00 am",
+      "venue": "Bras Basah Complex",
+      "address": "231 Bain St, Bras Basah Complex",
+      "url": "https://eventseeker.com/venue/70718-bras-basah-complex-singapore",
+      "image": "https://www.google.com/maps/vt/data=02O_QAOrCVb7sp1B1OVlU3qe5hedfGXgRMQlVp0mIdvSjXVzTT-mNh8Uou2zd1ia5zkG2nQfZBa80iS6_8wUl9xU0a-gZmoq6y0v2KrntIWsty11GVE",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -69,12 +58,23 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "SSO Concerts for Children: Young Spacefarer’s Guide to the Orchestra",
+      "title": "Bunker By Night 2025",
+      "start": "Sept 5",
+      "end": "Fri, 5 Sept, 7:00 pm – Sat, 6 Sept, 12:00 am",
+      "venue": "Singapore History Consultants",
+      "address": "2 Cox Terrace Singapore History Consultants, Singapore",
+      "url": "https://bit.ly/bunkerbynight25",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm0dKt5z6T29iG3jXgAPRXSwId2E3nQaaZ1S6Zieln0nrWJqFHVOsAxFdp6g&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "2025-Sep-06, Esplanade Concert Hall: Young Spacefarer's Guide to the Orchestra",
       "start": "Sept 6",
-      "end": "Sat, 6 Sept, 11:00 am – 2:00 pm",
+      "end": "Sat, 6 Sept, 11:00 am – 3:00 pm",
       "venue": "Esplanade - Theatres on the Bay, Singapore",
       "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
-      "url": "https://www.stubhub.com/_C-428707?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-21458%7Cev-158429624%7Ccy-6573&ps_ev=158429624",
+      "url": "https://bachtrack.com/concert-event/young-spacefarers-guide-to-the-orchestra-singapore-symphony-orchestra-esplanade-concert-hall-6-september-2025/421642",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRByuoquph55ehTaj8SxqG_WzzCCBrPLj7q9JbHkYRZUg&s=10",
       "category": "music",
       "source": "serpapi_google_events"
@@ -99,6 +99,17 @@
       "url": "https://thehoneycombers.com/singapore/event/singapore-food-festival-2025-food-truck-city-tours-downtown-east/",
       "image": "https://www.google.com/maps/vt/data=eBrTHHTP86nHhUF1aTTAML_sAE0kKt-IiWqqDG5U4oQtaDGBvSmJTJe110uIZklHV65o1odaCuYJlPF3xV2d0PDnO_2loxXV7kglzIDhFwAfQivwvV8",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "LA VIE EN BLEU Sunset Party feat. Fka Mash",
+      "start": "Sept 6",
+      "end": "Sat, 6 Sept, 5:00 pm – Sun, 7 Sept, 4:00 am",
+      "venue": "CÉ LA VI Singapore: Restaurant, SkyBar & Club Lounge",
+      "address": "1 Bayfront Avenue Marina Bay Sands, Hotel, Tower 3 CÉ LA VI Singapore: Restaurant, SkyBar & Club Lounge",
+      "url": "https://ra.co/events/2235893",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCdXg9gbVTXHAPZsRMfmLZ_256-mW7uD7r9eGs4EZOj01GMKHIA_aiMgABuw&s",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -269,10 +280,10 @@
     {
       "title": "DJ Isaac",
       "start": "Sept 27",
-      "end": "Sat, 27 Sept",
+      "end": "Sat, 27 Sept, 10:00 pm",
       "venue": "Zouk Singapore",
       "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020250927/dj-isaac/",
+      "url": "https://app.discotech.me/events/38016848-dj-isaac-at-zouk",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvqChztTH98vSzW2mUyc7cX42LsS8qm0Hj-_09RkPDPQ&s=10",
       "category": "music",
       "source": "serpapi_google_events"
@@ -285,17 +296,6 @@
       "address": "42 Waterloo St, Centre 42, 42, Singapore",
       "url": "https://www.eventbrite.com/e/1558747258009",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiUixxZwpEhChS8t_fLN2yfN9D5rvi3x3UyjOqfesAVg&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "UK Bhangra Bash 2025 - Live In Singapore",
-      "start": "Oct 4",
-      "end": "Sat, 4 Oct, 10:00 pm – Sun, 5 Oct, 3:00 am",
-      "venue": "Hard Rock Cafe",
-      "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
-      "url": "https://www.eventbrite.com/e/uk-bhangra-bash-2025-live-in-singapore-tickets-1542273053219",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNRix0Ct7LFdN0HgAK9VpPeUDxmVDLNakKIFfwlK51yw&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -352,17 +352,6 @@
       "url": "https://eventseeker.com/venue/866256-bugis-street-market-singapore",
       "image": "https://www.google.com/maps/vt/data=km-IHD7tYxy4MAbB4Qp6X6Fp7qpD_WSjyP9QpBzSkpqH9RYvmxXUR36JumMGl1K5V12lsGJ-xsRrGZio09agJcOnwY2pa-EzFo80ZOCfJnK1hEPcQdk",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Blue Live in Asia",
-      "start": "Nov 25",
-      "end": "Tue, 25 Nov, 8:00 – 10:00 pm",
-      "venue": "The Theatre at Mediacorp",
-      "address": "1 Stars Ave, The Theatre at Mediacorp",
-      "url": "https://www.livenation.sg/event/blue-live-in-asia-singapore-tickets-edp1612340",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMHhcxmTSWdBFaNGxTitNuSuPLfb-GmBNf0pIRKbgNIbU9eE_Bfc6phw_Pbw&s",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
