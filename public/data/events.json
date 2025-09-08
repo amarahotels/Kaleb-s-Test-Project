@@ -1,21 +1,21 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-09-06T16:19:38.471350Z",
+  "generated_at": "2025-09-08T00:58:58.405547Z",
   "events": [
     {
-      "title": "Singapore Night Festival 2025",
-      "start": "Sept 6",
-      "end": "22 Aug, 7:30 pm – 6 Sept, 11:00 pm",
-      "venue": "Bugis Street",
-      "address": "261 Victoria St, Bugis Street",
-      "url": "https://www.heritage.sg/sgnightfest",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAUnqYXQIq2xWL_jN7tk5imzGQ-JUWNxolBP9IO5JycXY6vX-q4g-LoowQQ&s=10",
-      "category": "general",
+      "title": "Singapore Junior Original Concert 2025",
+      "start": "Sept 8",
+      "end": "Sun, 7 Sept, 3:00 – 5:30 pm",
+      "venue": "461 Clementi Rd, SIM Campus, Singapore",
+      "address": "461 Clementi Rd, SIM Campus, Singapore",
+      "url": "https://www.eventbrite.sg/e/singapore-junior-original-concert-2025-tickets-1487942759849",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSogR9AKAsK3hdNljgWMhp6bmGJ1qjaM6tAhqsS1lu3HQ&s",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
       "title": "Voices of Singapore Festival 2025",
-      "start": "Sept 6",
+      "start": "Sept 8",
       "end": "Sat, 6 Sept, 10:30 am – Wed, 10 Sept, 9:30 pm",
       "venue": "Capitol Building",
       "address": "15 Stamford Rd, Capitol Building, Singapore",
@@ -25,19 +25,8 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Singapore Food Festival 2025: Food Truck City Tours @ Downtown East",
-      "start": "Sept 6",
-      "end": "Sat, 6 Sept, 11:30 am – Sun, 7 Sept, 10:00 pm",
-      "venue": "D'Marquee",
-      "address": "1 Pasir Ris Cl, D'Marquee",
-      "url": "https://thehoneycombers.com/singapore/event/singapore-food-festival-2025-food-truck-city-tours-downtown-east/",
-      "image": "https://www.google.com/maps/vt/data=eBrTHHTP86nHhUF1aTTAML_sAE0kKt-IiWqqDG5U4oQtaDGBvSmJTJe110uIZklHV65o1odaCuYJlPF3xV2d0PDnO_2loxXV7kglzIDhFwAfQivwvV8",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "VOS Festival 2025 - Community Festival Chorus",
-      "start": "Sept 6",
+      "start": "Sept 8",
       "end": "30 Aug, 7:30 pm – 10 Sept, 10:00 pm",
       "venue": "Voices of Singapore Sky Studio (L3)",
       "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
@@ -47,35 +36,13 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "LA VIE EN BLEU Sunset Party feat. Fka Mash",
-      "start": "Sept 6",
-      "end": "Sat, 6 Sept, 5:00 pm – Sun, 7 Sept, 4:00 am",
-      "venue": "CÉ LA VI Singapore: Restaurant, SkyBar & Club Lounge",
-      "address": "1 Bayfront Avenue Marina Bay Sands, Hotel, Tower 3 CÉ LA VI Singapore: Restaurant, SkyBar & Club Lounge",
-      "url": "https://ra.co/events/2235893",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCdXg9gbVTXHAPZsRMfmLZ_256-mW7uD7r9eGs4EZOj01GMKHIA_aiMgABuw&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Crossfade Presents DJ PUFFY",
-      "start": "Sept 6",
-      "end": "Sat, 6 Sept, 10:00 pm – Sun, 7 Sept, 6:00 am",
-      "venue": "Avenue Lounge",
-      "address": "10 Bayfront Avenue, Marina Bay Sands The Shoppes, #B1-67 Main entrance on, Bayfront Ave, Level 1 Avenue Lounge, behind Theatres Bus Stop, along",
-      "url": "https://taogroup.com/event/06-09-25-crossfade-presents-dj-puffy-avenue-singapore/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxkkk9kilUl3L6ut6yMvmtC4C8Jo_7Dpmiy26cUKsDKk_vaRq_6NwDFNp1uQ&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Singapore Junior Original Concert 2025",
-      "start": "Sept 7",
-      "end": "Sun, 7 Sept, 3:00 – 5:30 pm",
-      "venue": "461 Clementi Rd, SIM Campus, Singapore",
-      "address": "461 Clementi Rd, SIM Campus, Singapore",
-      "url": "https://www.eventbrite.sg/e/singapore-junior-original-concert-2025-tickets-1487942759849",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSogR9AKAsK3hdNljgWMhp6bmGJ1qjaM6tAhqsS1lu3HQ&s",
+      "title": "TGIW",
+      "start": "Sept 10",
+      "end": "Wed, 10 Sept",
+      "venue": "Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
+      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020250910/tgiw/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdc8-bngdZtGacWjE36E2bQ71hNbFI020bjtOb0DqoKg&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -124,6 +91,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "The Get Up Kids",
+      "start": "Sept 13",
+      "end": "Sat, 13 Sept, 7:00 pm – Sun, 14 Sept, 1:00 am",
+      "venue": "Foochow Building Event Hall",
+      "address": "21 Tyrwhitt Rd, #04-00 Foochow Building Event Hall, Singapore",
+      "url": "https://open.spotify.com/concert/7FrXAwGIn3k5XbdpLlJQr9",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtXO5bSHc0hpYuNSfIhzUcdAKK3deuS-sQ6KFSvakVRIYbNkHFz1GbsF41tw&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "One Love Asia Festival Singapore 2025",
       "start": "Sept 13",
       "end": "Sat, 13 Sept, 12:00 am – Sun, 14 Sept, 12:00 am",
@@ -131,7 +109,7 @@
       "address": "12A Bayfront Ave, Bayfront Event Space",
       "url": "https://my.bookmyshow.com/en/events/one-love-asia-festival-singapore-2025/SGOLAFEX",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2vhVC7J9zdN4Ge42581-EWaoebtGsZKk1nbCBuPQHVglRAn0Xpw_V70NBoA&s=10",
-      "category": "general",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -140,9 +118,20 @@
       "end": "Wed, 17 Sept, 11:00 am – 6:00 pm",
       "venue": "Stephen Riady Centre",
       "address": "2 College Ave W, Stephen Riady Centre, Singapore",
-      "url": "https://nuscollege.nus.edu.sg/venue/stephen-riady-centre-university-town/",
+      "url": "https://nuscollege.nus.edu.sg/event/impact-festival-2025/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLziek1uY_Oh9QYBhUAyp_s_fD_jhODMUcMb-dWTxhQ&s=10",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Thursday Night Hustle",
+      "start": "Sept 18",
+      "end": "Thu, 18 Sept",
+      "venue": "Capital Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
+      "url": "https://zoukgroup.com/singapore/capital/event/EVE109749000020250918/thursday-night-hustle/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQMjL7dpIYysPaoEUJ6KKTFTrH0LbpgMWfa7xWUKNPVw&s=10",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -154,17 +143,6 @@
       "url": "https://singaporefoodfestival.com/event/future-food-2025/",
       "image": "https://www.google.com/maps/vt/data=20YHrWTW8fylZf6vAXHk48oIcZWsjqMNcIXNFkK3uJ5VfvU2-45vDktx6Ve_Jmcm-dpRcLp0qb5HMt-HGDn2L0_XUbn2cfZd7uPiHb3kogDzrlOX4I8",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "B.I Concert 2025 (Singapore)",
-      "start": "Sept 20",
-      "end": "Sat, 20 Sept, 7:00 – 10:00 pm",
-      "venue": "Capitol Theatre",
-      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
-      "url": "https://ahboy.com/event/b-i-concert-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt9wMOjSPLVkxg6Vqo7OqVXBTFG-AEvIFHYSZz3WKbPw&s=10",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -181,11 +159,22 @@
     {
       "title": "SARVĀRPANAM 2025",
       "start": "Sept 21",
-      "end": "Sun, 21 Sept, 2:00 – 6:00 pm",
+      "end": "Sun, 21 Sept, 9:00 am – 1:00 pm",
       "venue": "Carnival Cinemas Singapore",
       "address": "Beach Rd, #03/00 Carnival Cinemas Singapore, GOLDEN MILE TOWER",
-      "url": "https://www.sarvafinearts.com/event-details-registration/sarvarpanam-2025-2",
+      "url": "https://www.sarvafinearts.com/event-details-registration/sarvarpanam-2025",
       "image": "https://www.google.com/maps/vt/data=7B7Kn-a_Ke6lFQgs9k04_spFix1l7HBlxlalwbMEXWPBurZcxDj9IbpZVTxHy0sd_rxz-OY0gyJcQaNADm_UUGNr15iSJparEfZBGjrjLdaP2JIahH0",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Gardens By The Bay Mid-Autumn Festival & Lantern Light-Up 2025 (FREE!)",
+      "start": "Sept 22",
+      "end": "22 Sept – 12 Oct",
+      "venue": "Gardens by the Bay",
+      "address": "18 Marina Gardens Dr, Gardens by the Bay",
+      "url": "https://www.sassymamasg.com/event/lanterns-light-mid-autumn-festival/",
+      "image": "https://www.google.com/maps/vt/data=1TQw4Yzik1Wxd_-xSfXr8POg-bSV23k3MxOW7MykHUKYvuXFes955oINxgVOHL_AiSB_D_CsgNWcWM4Ozd5COMfFTlc0zK0PMwv6Ae5QENqK5NfjmvA",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -217,8 +206,8 @@
       "end": "Fri, 26 Sept, 10:00 pm – Sat, 27 Sept, 3:00 am",
       "venue": "Hard Rock Cafe",
       "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
-      "url": "https://allevents.in/queenstown/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee/100001528162638589",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkSPqbWX3S9lwr2O24wBJb9vI_6CNO7jQT99eBqy90srx5imVXYB-RHEtvqw&s=10",
+      "url": "https://www.eventbrite.com/e/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee-tickets-1528162638589",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8TOIbOUymJzlqwzpZ1YpxWIf0uDRDKpwVSw5Hc4f89w&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -241,17 +230,6 @@
       "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
       "url": "https://app.discotech.me/events/38016848-dj-isaac-at-zouk",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvqChztTH98vSzW2mUyc7cX42LsS8qm0Hj-_09RkPDPQ&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Stardew Valley: Symphony of Seasons [G]",
-      "start": "Sept 28",
-      "end": "Sun, 28 Sept, 3:00 – 6:00 pm",
-      "venue": "Esplanade - Theatres on the Bay, Singapore",
-      "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
-      "url": "https://www.stubhub.com/stardew-valley-singapore-tickets-9-28-2025/event/157359689/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0i_9hLCfc1kllbv19J8fYyJnHKl_dfWhDDDXHmDtpnFC5aKwK7o6m8X-k7Q&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
