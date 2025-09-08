@@ -1,18 +1,7 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-09-08T00:58:58.405547Z",
+  "generated_at": "2025-09-08T16:21:14.950066Z",
   "events": [
-    {
-      "title": "Singapore Junior Original Concert 2025",
-      "start": "Sept 8",
-      "end": "Sun, 7 Sept, 3:00 – 5:30 pm",
-      "venue": "461 Clementi Rd, SIM Campus, Singapore",
-      "address": "461 Clementi Rd, SIM Campus, Singapore",
-      "url": "https://www.eventbrite.sg/e/singapore-junior-original-concert-2025-tickets-1487942759849",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSogR9AKAsK3hdNljgWMhp6bmGJ1qjaM6tAhqsS1lu3HQ&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
     {
       "title": "Voices of Singapore Festival 2025",
       "start": "Sept 8",
@@ -33,6 +22,28 @@
       "url": "https://www.eventbrite.sg/e/vos-festival-2025-community-festival-chorus-registration-1349487606759",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZRi62lfYUdUYhS2Iq5lrRHpiosRc12zAiAIopeYnng&s=10",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Digital Light Canvas by teamLab",
+      "start": "Sept 8",
+      "end": "5 Sept, 11:00 am – 30 Sept, 7:45 pm",
+      "venue": "Marina Bay Sands Singapore",
+      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
+      "url": "https://feverup.com/m/336316",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBPIH_Iwa_rPy1S84u4K0i4R8OkdWvaa0w6mOrHhI5g&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Industry Night : We Are Family",
+      "start": "Sept 10",
+      "end": "Wed, 10 Sept, 6:00 – 11:00 pm",
+      "venue": "HPL House",
+      "address": "50 Cuscaden Rd, HPL House, Singapore",
+      "url": "https://allevents.in/singapore/industry-night-we-are-family/200028795284749",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Iwhf77Rs1ryWxMfqNNbEVeSX4aYIwxjQ4XyS1-mWTQ&s=10",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -58,14 +69,14 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Pink Floyd’s The Wall – Live Tribute by Welcome To The Machine",
+      "title": "Beyond the Label Fest 2025",
       "start": "Sept 12",
-      "end": "Fri, 12 Sept, 8:00 – 11:00 pm",
-      "venue": "Singtel Waterfront Theatre",
-      "address": "8 Raffles Ave., Singtel Waterfront Theatre, Singapore",
-      "url": "https://bookmyshow.sg/en/events/wttmwall",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsd3np5rY8lkKlzPcWY2qMJ3CXuTh8RLPrQRrdrtK4vw4cO7aSfI0E_aq0DA&s=10",
-      "category": "music",
+      "end": "Fri, 12 Sept, 9:00 am – Sat, 13 Sept, 9:30 pm",
+      "venue": "Plaza Singapura",
+      "address": "68 Orchard Rd, Plaza Singapura",
+      "url": "https://www.eventbrite.sg/e/beyond-the-label-fest-2025-tickets-1550616659169",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZx3fMfmK6N_4cQoTD3IXgAzSwe5VadYPF70-ifdat3PInAPeIul5EOygrjQ&s=10",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -75,7 +86,7 @@
       "venue": "ATOMY LC @ Kovan Guan Yu 冠宇中心",
       "address": "Blk203 Hougang St 21, #03-69 ATOMY LC @ Kovan Guan Yu 冠宇中心",
       "url": "https://allevents.in/serangoon/atomy-singapore-product-carnival/200028703647508",
-      "image": "https://www.google.com/maps/vt/data=QkUhXtI0Enq_xCvqcT-MynI45s6Dh8G2t3VdYztGgp1WKLIN5K50Biu-9kLkp4_SGcFAsEqwzoXKOyX3mVT8nXkJ9KhoOQqF-BmJy4jIc4e3ptCywMo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTFlIOI-ja4sjUUVVKbNpUeBQuUlkWWr8b1zoSeigmNtCELAIAqjpPjnxTFg&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -113,12 +124,23 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Pink Floyd’s The Wall – Live Tribute by Welcome To The Machine",
+      "start": "Sept 13",
+      "end": "Sat, 13 Sept, 8:00 – 10:30 pm",
+      "venue": "Singtel Waterfront Theatre",
+      "address": "8 Raffles Ave., Singtel Waterfront Theatre, Singapore",
+      "url": "https://bookmyshow.sg/en/events/wttmwall",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsd3np5rY8lkKlzPcWY2qMJ3CXuTh8RLPrQRrdrtK4vw4cO7aSfI0E_aq0DA&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Impact Festival 2025",
       "start": "Sept 17",
       "end": "Wed, 17 Sept, 11:00 am – 6:00 pm",
       "venue": "Stephen Riady Centre",
       "address": "2 College Ave W, Stephen Riady Centre, Singapore",
-      "url": "https://nuscollege.nus.edu.sg/event/impact-festival-2025/",
+      "url": "https://nuscollege.nus.edu.sg/venue/stephen-riady-centre-university-town/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLziek1uY_Oh9QYBhUAyp_s_fD_jhODMUcMb-dWTxhQ&s=10",
       "category": "general",
       "source": "serpapi_google_events"
@@ -143,6 +165,17 @@
       "url": "https://singaporefoodfestival.com/event/future-food-2025/",
       "image": "https://www.google.com/maps/vt/data=20YHrWTW8fylZf6vAXHk48oIcZWsjqMNcIXNFkK3uJ5VfvU2-45vDktx6Ve_Jmcm-dpRcLp0qb5HMt-HGDn2L0_XUbn2cfZd7uPiHb3kogDzrlOX4I8",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "B.I TOUR: The Last Parade Tour",
+      "start": "Sept 20",
+      "end": "Sat, 20 Sept, 7:00 – 10:00 pm",
+      "venue": "Capitol Theatre",
+      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
+      "url": "https://ahboy.com/event/b-i-concert-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt9wMOjSPLVkxg6Vqo7OqVXBTFG-AEvIFHYSZz3WKbPw&s=10",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -206,8 +239,8 @@
       "end": "Fri, 26 Sept, 10:00 pm – Sat, 27 Sept, 3:00 am",
       "venue": "Hard Rock Cafe",
       "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
-      "url": "https://www.eventbrite.com/e/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee-tickets-1528162638589",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8TOIbOUymJzlqwzpZ1YpxWIf0uDRDKpwVSw5Hc4f89w&s",
+      "url": "https://allevents.in/queenstown/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee/100001528162638589",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkSPqbWX3S9lwr2O24wBJb9vI_6CNO7jQT99eBqy90srx5imVXYB-RHEtvqw&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
