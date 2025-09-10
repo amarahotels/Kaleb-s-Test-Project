@@ -1,10 +1,10 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-09-08T16:30:47.415679Z",
+  "generated_at": "2025-09-10T16:22:10.118367Z",
   "events": [
     {
       "title": "Voices of Singapore Festival 2025",
-      "start": "Sept 8",
+      "start": "Sept 10",
       "end": "Sat, 6 Sept, 10:30 am – Wed, 10 Sept, 9:30 pm",
       "venue": "Capitol Building",
       "address": "15 Stamford Rd, Capitol Building, Singapore",
@@ -15,23 +15,12 @@
     },
     {
       "title": "VOS Festival 2025 - Community Festival Chorus",
-      "start": "Sept 8",
+      "start": "Sept 10",
       "end": "30 Aug, 7:30 pm – 10 Sept, 10:00 pm",
       "venue": "Voices of Singapore Sky Studio (L3)",
       "address": "17 Stamford Rd, #03-06 Voices of Singapore Sky Studio (L3)",
       "url": "https://www.eventbrite.sg/e/vos-festival-2025-community-festival-chorus-registration-1349487606759",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZRi62lfYUdUYhS2Iq5lrRHpiosRc12zAiAIopeYnng&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Digital Light Canvas by teamLab",
-      "start": "Sept 8",
-      "end": "5 Sept, 11:00 am – 30 Sept, 7:45 pm",
-      "venue": "Marina Bay Sands Singapore",
-      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
-      "url": "https://feverup.com/m/336316",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBPIH_Iwa_rPy1S84u4K0i4R8OkdWvaa0w6mOrHhI5g&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -47,14 +36,14 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "TGIW",
+      "title": "Digital Light Canvas by teamLab",
       "start": "Sept 10",
-      "end": "Wed, 10 Sept",
-      "venue": "Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020250910/tgiw/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdc8-bngdZtGacWjE36E2bQ71hNbFI020bjtOb0DqoKg&s=10",
-      "category": "music",
+      "end": "6 Sept, 11:00 am – 30 Sept, 7:45 pm",
+      "venue": "Marina Bay Sands Singapore",
+      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
+      "url": "https://feverup.com/m/336316",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBPIH_Iwa_rPy1S84u4K0i4R8OkdWvaa0w6mOrHhI5g&s=10",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -124,6 +113,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Singapore Flamenco Festival VIII",
+      "start": "Sept 13",
+      "end": "Sat, 13 Sept, 8:00 – 9:30 pm",
+      "venue": "Esplanade Theatre Studio",
+      "address": "1 Esplanade Dr, Esplanade Theatre Studio",
+      "url": "https://www.sistic.com.sg/events/sff0925",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyACtwGk6qZ0PwG0cYW_bWTpNKeSxUBBqR_aAtdaX_vF1woUw7eNkwampPJg&s",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Pink Floyd’s The Wall – Live Tribute by Welcome To The Machine",
       "start": "Sept 13",
       "end": "Sat, 13 Sept, 8:00 – 10:30 pm",
@@ -140,7 +140,7 @@
       "end": "Wed, 17 Sept, 11:00 am – 6:00 pm",
       "venue": "Stephen Riady Centre",
       "address": "2 College Ave W, Stephen Riady Centre, Singapore",
-      "url": "https://nuscollege.nus.edu.sg/venue/stephen-riady-centre-university-town/",
+      "url": "https://nuscollege.nus.edu.sg/events/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLziek1uY_Oh9QYBhUAyp_s_fD_jhODMUcMb-dWTxhQ&s=10",
       "category": "general",
       "source": "serpapi_google_events"
@@ -168,17 +168,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "B.I TOUR: The Last Parade Tour",
-      "start": "Sept 20",
-      "end": "Sat, 20 Sept, 7:00 – 10:00 pm",
-      "venue": "Capitol Theatre",
-      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
-      "url": "https://ahboy.com/event/b-i-concert-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt9wMOjSPLVkxg6Vqo7OqVXBTFG-AEvIFHYSZz3WKbPw&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "Mayday Parade - 'Three Cheers For 20 Years'",
       "start": "Sept 21",
       "end": "Sun, 21 Sept, 7:00 – 10:00 pm",
@@ -192,10 +181,10 @@
     {
       "title": "SARVĀRPANAM 2025",
       "start": "Sept 21",
-      "end": "Sun, 21 Sept, 9:00 am – 1:00 pm",
+      "end": "Sun, 21 Sept, 2:00 – 6:00 pm",
       "venue": "Carnival Cinemas Singapore",
       "address": "Beach Rd, #03/00 Carnival Cinemas Singapore, GOLDEN MILE TOWER",
-      "url": "https://www.sarvafinearts.com/event-details-registration/sarvarpanam-2025",
+      "url": "https://www.sarvafinearts.com/event-details-registration/sarvarpanam-2025-2",
       "image": "https://www.google.com/maps/vt/data=7B7Kn-a_Ke6lFQgs9k04_spFix1l7HBlxlalwbMEXWPBurZcxDj9IbpZVTxHy0sd_rxz-OY0gyJcQaNADm_UUGNr15iSJparEfZBGjrjLdaP2JIahH0",
       "category": "general",
       "source": "serpapi_google_events"
@@ -223,9 +212,9 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Singapore Symphony Orchestra with Yo-Yo Ma",
+      "title": "Yo-Yo Ma / Dvořák Cello Concerto",
       "start": "Sept 25",
-      "end": "Thu, 25 Sept, 7:30 – 10:30 pm",
+      "end": "Thu, 25 Sept, 7:30 – 9:30 pm",
       "venue": "Esplanade - Theatres on the Bay, Singapore",
       "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
       "url": "https://www.stubhub.com/sso-singapore-symphony-orchestra-singapore-tickets-9-25-2025/event/158114955/",
@@ -239,8 +228,8 @@
       "end": "Fri, 26 Sept, 10:00 pm – Sat, 27 Sept, 3:00 am",
       "venue": "Hard Rock Cafe",
       "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
-      "url": "https://allevents.in/queenstown/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee/100001528162638589",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkSPqbWX3S9lwr2O24wBJb9vI_6CNO7jQT99eBqy90srx5imVXYB-RHEtvqw&s=10",
+      "url": "https://www.eventbrite.com/e/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee-tickets-1528162638589",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8TOIbOUymJzlqwzpZ1YpxWIf0uDRDKpwVSw5Hc4f89w&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -264,6 +253,17 @@
       "url": "https://app.discotech.me/events/38016848-dj-isaac-at-zouk",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvqChztTH98vSzW2mUyc7cX42LsS8qm0Hj-_09RkPDPQ&s=10",
       "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Plan Ahead: Lanterns, Mooncakes & Memories This Mid-Autumn Festival",
+      "start": "Sept 27",
+      "end": "27 Sept, 6:30 pm – 12 Oct, 10:30 pm",
+      "venue": "Lakeside Field",
+      "address": "Chinese Garden Rd, Lakeside Field",
+      "url": "https://dateideas.sg/event/plan-ahead-lanterns-mooncakes-memories-this-mid-autumn-festival/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1kqc9NouXHuFgiZTfhF7-ONexgFYjMTMh5nz0NnV9Jg&s=10",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -304,7 +304,7 @@
       "start": "Oct 11",
       "end": "Sat, 11 Oct, 10:00 am – 6:00 pm",
       "venue": "Singapore Polo Club",
-      "address": "80 Mount Pleasant Rd, Singapore Polo Club",
+      "address": "80 Mount Pleasant Rd, Singapore Polo Club, Singapore",
       "url": "https://www.singaporepoloclub.org/upcoming-event/outreach-event-with-carnival-games-stalls/",
       "image": "https://www.google.com/maps/vt/data=ob7ZuqwJmFH-bF_GcYHOpSghONg54FhVRVBaM09F_CiGTBGNvyKkTEvcUf_g_xd08mWaO2aVtp86zMFhmIl9HVQmhdV0V4oYg6WQVQAweRODpaMweZw",
       "category": "general",
@@ -340,17 +340,6 @@
       "address": "261 Victoria St, Bugis Street",
       "url": "https://eventseeker.com/venue/866256-bugis-street-market-singapore",
       "image": "https://www.google.com/maps/vt/data=km-IHD7tYxy4MAbB4Qp6X6Fp7qpD_WSjyP9QpBzSkpqH9RYvmxXUR36JumMGl1K5V12lsGJ-xsRrGZio09agJcOnwY2pa-EzFo80ZOCfJnK1hEPcQdk",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Twilight Flea & Feast 2025 (December)",
-      "start": "Dec 19",
-      "end": "Fri, 19 Dec – Sun, 21 Dec",
-      "venue": "Suntec Singapore Convention & Exhibition Centre",
-      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
-      "url": "https://ahboy.com/event/twilight-flea-feast/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKVh05dRw0EJye13aXBtwWxq3mw7vVZ6JmXNL-gEp-8w&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     }
