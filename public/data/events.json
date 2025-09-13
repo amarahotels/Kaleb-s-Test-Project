@@ -1,62 +1,7 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-09-12T16:18:51.216477Z",
+  "generated_at": "2025-09-13T16:18:37.365344Z",
   "events": [
-    {
-      "title": "Beyond the Label Fest 2025",
-      "start": "Sept 12",
-      "end": "Fri, 12 Sept, 9:00 am – Sat, 13 Sept, 9:30 pm",
-      "venue": "Plaza Singapura",
-      "address": "68 Orchard Rd, Plaza Singapura",
-      "url": "https://www.eventbrite.sg/e/beyond-the-label-fest-2025-tickets-1550616659169",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZx3fMfmK6N_4cQoTD3IXgAzSwe5VadYPF70-ifdat3PInAPeIul5EOygrjQ&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Tamil Youth Festival 2025 – Kalapam!",
-      "start": "Sept 12",
-      "end": "Fri, 12 Sept, 4:00 – 6:30 pm",
-      "venue": "Woodlands Regional Library",
-      "address": "900 S Woodlands Dr, #01-03 Woodlands Regional Library, Civic Centre",
-      "url": "https://www.eventbrite.sg/e/tamil-youth-festival-2025-kalapam-tickets-1590775625719",
-      "image": "https://www.google.com/maps/vt/data=vfP7oNbiV57mLUAkJ_mh1KUt_pZ5yOKxo-1SeMmpjeNxZHOQad1j2XBwvLe-IQWTd34PSDYY3e7mSNMmhZR-FPJqFUd4Q8W7aAv4gR8fBD957tc_TaQ",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Atomy Singapore Product Carnival",
-      "start": "Sept 12",
-      "end": "Fri, 12 Sept, 2:00 – 5:00 pm",
-      "venue": "ATOMY LC @ Kovan Guan Yu 冠宇中心",
-      "address": "Blk203 Hougang St 21, #03-69 ATOMY LC @ Kovan Guan Yu 冠宇中心",
-      "url": "https://allevents.in/serangoon/atomy-singapore-product-carnival/200028703647508",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTFlIOI-ja4sjUUVVKbNpUeBQuUlkWWr8b1zoSeigmNtCELAIAqjpPjnxTFg&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Hardwell",
-      "start": "Sept 12",
-      "end": "Fri, 12 Sept, 10:00 pm – Sat, 13 Sept, 6:00 am",
-      "venue": "MARQUEE Singapore",
-      "address": "10 Bayfront Ave, B1-67 MARQUEE Singapore, The Shoppes, Marina Bay Sands",
-      "url": "https://taogroup.com/event/12-09-25-hardwell-marquee-singapore-2/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRxheGtVAQBJmaQZ7fgZJzrzFadVzXonbJgi8vyHN_051XVKgCioV_xP_sBg&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Digital Light Canvas by teamLab",
-      "start": "Sept 12",
-      "end": "6 Sept, 11:00 am – 30 Sept, 7:45 pm",
-      "venue": "Marina Bay Sands Singapore",
-      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
-      "url": "https://feverup.com/m/336316",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBPIH_Iwa_rPy1S84u4K0i4R8OkdWvaa0w6mOrHhI5g&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
     {
       "title": "The Get Up Kids",
       "start": "Sept 13",
@@ -80,6 +25,28 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "ONE LOVE ASIA FESTIVAL 2025 SINGAPORE",
+      "start": "Sept 13",
+      "end": "Sat, 13 Sept, 4:30 pm – Sun, 14 Sept, 10:30 pm",
+      "venue": "Bayfront Event Space",
+      "address": "12A Bayfront Ave, Bayfront Event Space",
+      "url": "https://www.songkick.com/festivals/3736886-one-love-asia/id/42663615-one-love-asia-festival-2025?utm_medium=organic&utm_source=microformat",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrPxofKtjsy4SvxOv0XkXHj-RI5Trg4vn7SogC7JK2WA&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Beyond the Label Fest 2025",
+      "start": "Sept 13",
+      "end": "Fri, 12 Sept, 9:00 am – Sat, 13 Sept, 9:30 pm",
+      "venue": "Plaza Singapura",
+      "address": "68 Orchard Rd, Plaza Singapura",
+      "url": "https://www.eventbrite.sg/e/beyond-the-label-fest-2025-tickets-1550616659169",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZx3fMfmK6N_4cQoTD3IXgAzSwe5VadYPF70-ifdat3PInAPeIul5EOygrjQ&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Singapore Flamenco Festival VIII",
       "start": "Sept 13",
       "end": "Sat, 13 Sept, 8:00 – 9:30 pm",
@@ -99,6 +66,17 @@
       "url": "https://bookmyshow.sg/en/events/wttmwall",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsd3np5rY8lkKlzPcWY2qMJ3CXuTh8RLPrQRrdrtK4vw4cO7aSfI0E_aq0DA&s=10",
       "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Digital Light Canvas by teamLab",
+      "start": "Sept 13",
+      "end": "6 Sept, 11:00 am – 30 Sept, 7:45 pm",
+      "venue": "Marina Bay Sands Singapore",
+      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
+      "url": "https://feverup.com/m/336316",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBPIH_Iwa_rPy1S84u4K0i4R8OkdWvaa0w6mOrHhI5g&s=10",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -146,6 +124,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Sin City",
+      "start": "Sept 19",
+      "end": "Fri, 19 Sept",
+      "venue": "Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
+      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020250919/sin-city/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP8yH3gNWWDC6DKpjXO-ggs36fdtBqNnHPS3zFSiKu9w&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Mayday Parade - 'Three Cheers For 20 Years'",
       "start": "Sept 21",
       "end": "Sun, 21 Sept, 7:00 – 10:00 pm",
@@ -154,6 +143,17 @@
       "url": "https://www.eventbrite.sg/e/mayday-parade-three-cheers-for-20-years-singapore-2025-tickets-1117156056839",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0cZoEbTkdWulWfitvyRrX9Ad0CJvcJL_J-UUlzZyDdub9y2d-MbrO7yf0Hw&s=10",
       "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Singapore Flamenco Festival VIII: Punto Rojo",
+      "start": "Sept 21",
+      "end": "Sun, 21 Sept, 6:00 pm",
+      "venue": "Goodman Arts Centre",
+      "address": "90 Goodman Rd, Goodman Arts Centre",
+      "url": "https://pluralartmag.com/event/singapore-flamenco-festival-viii-punto-rojo/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzi9PVavRhKxGZqKBwxrf6jdTXBSZL1BcnUlZKxIVeWg&s=10",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -201,13 +201,24 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Thursday Night Hustle",
+      "start": "Sept 25",
+      "end": "Thu, 25 Sept",
+      "venue": "Capital Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
+      "url": "https://zoukgroup.com/singapore/capital/event/EVE109749000020250925/thursday-night-hustle/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGKKQkeOmwbheRfPzsTxjgiEtSE4hAh_dBmD5ejYnTlg&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "PAKKA LOCAL SINGAPORE Ch 2 ft Dj Gowtham and Keli Thee",
       "start": "Sept 26",
       "end": "Fri, 26 Sept, 10:00 pm – Sat, 27 Sept, 3:00 am",
       "venue": "Hard Rock Cafe",
       "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
-      "url": "https://www.eventbrite.com/e/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee-tickets-1528162638589",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8TOIbOUymJzlqwzpZ1YpxWIf0uDRDKpwVSw5Hc4f89w&s",
+      "url": "https://allevents.in/queenstown/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee/100001528162638589",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkSPqbWX3S9lwr2O24wBJb9vI_6CNO7jQT99eBqy90srx5imVXYB-RHEtvqw&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -219,6 +230,17 @@
       "address": "7 Holland Vlg Wy, #01-21 A Good PLACE @ One Holland Village",
       "url": "https://www.eventbrite.sg/e/active-ageing-festival-2025-tickets-1354395185459",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmeThLTH9MyQvMZxZGEtxuQCW9BfxEkNOcGLHfq1WfyA&s",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Agave Festival Singapore 2025",
+      "start": "Sept 27",
+      "end": "Sat, 27 Sept, 2:00 – 5:30 pm",
+      "venue": "Chimichanga VivoCity",
+      "address": "1 HarbourFront Walk, #01-157/158 Chimichanga VivoCity, VivoCity, Singapore",
+      "url": "https://www.eventbrite.sg/e/agave-festival-singapore-2025-tickets-1633368592429",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT1yMeAsfuCRCGWnK-qUt9KWKIYF-kSeWLi_SF83EgGQ&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -317,7 +339,7 @@
       "venue": "Suntec Singapore Convention & Exhibition Centre",
       "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
       "url": "https://www.suntecsingapore.com/visit-events/sarawak-mega-fair-2025-business-collaboration-opportunities-with-malaysian-state",
-      "image": "https://www.google.com/maps/vt/data=b5j4NiRIZm0xXfX9mpmexFoxF_t7zaJMmpqkVvwsgtiuiM2Q5Pt_1l1KUy6ggnxsbWDJ6vm_Adph1Vm_IV9X6dBZcrrMkK-J13uJ44DL5pZejARvyxQ",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG95yCY-nHc8qmR0roYQlV7H4er-YlUGUzQYlBQkcOk7qGKYeZITTBW-ZQA&s=10",
       "category": "general",
       "source": "serpapi_google_events"
     },
