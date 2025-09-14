@@ -1,76 +1,32 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-09-13T16:18:37.365344Z",
+  "generated_at": "2025-09-14T16:18:23.084461Z",
   "events": [
     {
-      "title": "The Get Up Kids",
-      "start": "Sept 13",
-      "end": "Sat, 13 Sept, 7:00 pm – Sun, 14 Sept, 1:00 am",
-      "venue": "Foochow Building Event Hall",
-      "address": "21 Tyrwhitt Rd, #04-00 Foochow Building Event Hall, Singapore",
-      "url": "https://open.spotify.com/concert/7FrXAwGIn3k5XbdpLlJQr9",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtXO5bSHc0hpYuNSfIhzUcdAKK3deuS-sQ6KFSvakVRIYbNkHFz1GbsF41tw&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "One Love Asia Festival Singapore 2025",
-      "start": "Sept 13",
-      "end": "Sat, 13 Sept, 12:00 am – Sun, 14 Sept, 12:00 am",
-      "venue": "Bayfront Event Space",
-      "address": "12A Bayfront Ave, Bayfront Event Space",
-      "url": "https://my.bookmyshow.com/en/events/one-love-asia-festival-singapore-2025/SGOLAFEX",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2vhVC7J9zdN4Ge42581-EWaoebtGsZKk1nbCBuPQHVglRAn0Xpw_V70NBoA&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "ONE LOVE ASIA FESTIVAL 2025 SINGAPORE",
-      "start": "Sept 13",
+      "start": "Sept 14",
       "end": "Sat, 13 Sept, 4:30 pm – Sun, 14 Sept, 10:30 pm",
       "venue": "Bayfront Event Space",
       "address": "12A Bayfront Ave, Bayfront Event Space",
       "url": "https://www.songkick.com/festivals/3736886-one-love-asia/id/42663615-one-love-asia-festival-2025?utm_medium=organic&utm_source=microformat",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrPxofKtjsy4SvxOv0XkXHj-RI5Trg4vn7SogC7JK2WA&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Beyond the Label Fest 2025",
-      "start": "Sept 13",
-      "end": "Fri, 12 Sept, 9:00 am – Sat, 13 Sept, 9:30 pm",
-      "venue": "Plaza Singapura",
-      "address": "68 Orchard Rd, Plaza Singapura",
-      "url": "https://www.eventbrite.sg/e/beyond-the-label-fest-2025-tickets-1550616659169",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZx3fMfmK6N_4cQoTD3IXgAzSwe5VadYPF70-ifdat3PInAPeIul5EOygrjQ&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Singapore Flamenco Festival VIII",
-      "start": "Sept 13",
-      "end": "Sat, 13 Sept, 8:00 – 9:30 pm",
-      "venue": "Esplanade Theatre Studio",
-      "address": "1 Esplanade Dr, Esplanade Theatre Studio",
-      "url": "https://www.sistic.com.sg/events/sff0925",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyACtwGk6qZ0PwG0cYW_bWTpNKeSxUBBqR_aAtdaX_vF1woUw7eNkwampPJg&s",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Pink Floyd’s The Wall – Live Tribute by Welcome To The Machine",
-      "start": "Sept 13",
-      "end": "Sat, 13 Sept, 8:00 – 10:30 pm",
-      "venue": "Singtel Waterfront Theatre",
-      "address": "8 Raffles Ave., Singtel Waterfront Theatre, Singapore",
-      "url": "https://bookmyshow.sg/en/events/wttmwall",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsd3np5rY8lkKlzPcWY2qMJ3CXuTh8RLPrQRrdrtK4vw4cO7aSfI0E_aq0DA&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
     {
+      "title": "Taste Japan Fair Vol.9 – Mid Autumn Festival",
+      "start": "Sept 14",
+      "end": "Fri, 12 Sept, 11:00 am – Sun, 14 Sept, 8:00 pm",
+      "venue": "Taste Orchard",
+      "address": "160 Orchard Rd, Taste Orchard",
+      "url": "https://www.eventbrite.sg/e/taste-japan-fair-vol9-mid-autumn-festival-tickets-1637779625949",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6rZmczseCuQec4fP5jTmwrDGLe2WMN27o_GFEGnrpxQ&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Digital Light Canvas by teamLab",
-      "start": "Sept 13",
+      "start": "Sept 14",
       "end": "6 Sept, 11:00 am – 30 Sept, 7:45 pm",
       "venue": "Marina Bay Sands Singapore",
       "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
@@ -135,6 +91,28 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Queen - Its a Kinda Magic",
+      "start": "Sept 20",
+      "end": "Sat, 20 Sept, 3:00 – 6:00 pm",
+      "venue": "Sands Theatre",
+      "address": "10 Bayfront Ave, B1-69/70 Sands Theatre, The Shoppes, Marina bay sands",
+      "url": "https://www.marinabaysands.com/entertainment/shows/queen-its-a-kinda-magic.html",
+      "image": "https://www.google.com/maps/vt/data=_x-6dYYbQB7-2CrhnkC8RcJV1mWz5N1a1-RkiViuHlUCXOck9ToYD6gigtJxOZsfSly1UIPjQiM18I8PG30paKOeyTaPM5RYMuy1LN0PCKYWaaaFvzw",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "B.I TOUR: The Last Parade Tour",
+      "start": "Sept 20",
+      "end": "Sat, 20 Sept, 7:00 – 10:00 pm",
+      "venue": "Capitol Theatre",
+      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
+      "url": "https://ahboy.com/event/b-i-concert-2025/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt9wMOjSPLVkxg6Vqo7OqVXBTFG-AEvIFHYSZz3WKbPw&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Mayday Parade - 'Three Cheers For 20 Years'",
       "start": "Sept 21",
       "end": "Sun, 21 Sept, 7:00 – 10:00 pm",
@@ -190,6 +168,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "TGIW",
+      "start": "Sept 24",
+      "end": "Wed, 24 Sept",
+      "venue": "Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
+      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020250924/tgiw/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSktsq-c3y64ISLFPRDOHMIR76n5MN3UqYt-_JMBQl0Pw&s=10",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Singapore Symphony Orchestra with Yo-Yo Ma",
       "start": "Sept 25",
       "end": "Thu, 25 Sept, 7:30 – 10:30 pm",
@@ -197,17 +186,6 @@
       "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
       "url": "https://www.stubhub.com/sso-singapore-symphony-orchestra-singapore-tickets-9-25-2025/event/158114955/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZzNzErVbITi3U2es68lcfc5Z8-9Kig-c8RPbSgK7tJw&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Thursday Night Hustle",
-      "start": "Sept 25",
-      "end": "Thu, 25 Sept",
-      "venue": "Capital Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
-      "url": "https://zoukgroup.com/singapore/capital/event/EVE109749000020250925/thursday-night-hustle/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGKKQkeOmwbheRfPzsTxjgiEtSE4hAh_dBmD5ejYnTlg&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -311,6 +289,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "UK Bhangra Bash 2025 - Live In Singapore",
+      "start": "Oct 4",
+      "end": "Sat, 4 Oct, 10:00 pm – Sun, 5 Oct, 3:00 am",
+      "venue": "Hard Rock Cafe",
+      "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
+      "url": "https://www.eventbrite.com/e/uk-bhangra-bash-2025-live-in-singapore-tickets-1542273053219",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNRix0Ct7LFdN0HgAK9VpPeUDxmVDLNakKIFfwlK51yw&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Mid Autumn Festival - Moon Cake Candles",
       "start": "Oct 5",
       "end": "Sun, 5 Oct, 3:00 – 6:00 pm",
@@ -363,6 +352,17 @@
       "url": "https://eventseeker.com/venue/866256-bugis-street-market-singapore",
       "image": "https://www.google.com/maps/vt/data=km-IHD7tYxy4MAbB4Qp6X6Fp7qpD_WSjyP9QpBzSkpqH9RYvmxXUR36JumMGl1K5V12lsGJ-xsRrGZio09agJcOnwY2pa-EzFo80ZOCfJnK1hEPcQdk",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Blue Live in Asia",
+      "start": "Nov 25",
+      "end": "Tue, 25 Nov, 8:00 – 10:00 pm",
+      "venue": "The Theatre at Mediacorp",
+      "address": "1 Stars Ave, The Theatre at Mediacorp",
+      "url": "https://www.livenation.sg/event/blue-live-in-asia-singapore-tickets-edp1612340",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMHhcxmTSWdBFaNGxTitNuSuPLfb-GmBNf0pIRKbgNIbU9eE_Bfc6phw_Pbw&s",
+      "category": "music",
       "source": "serpapi_google_events"
     }
   ]
