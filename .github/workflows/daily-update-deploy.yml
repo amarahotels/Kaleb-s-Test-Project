@@ -7,8 +7,8 @@ on:
   schedule:
     # 00:00 SGT daily (16:00 UTC) — events job will gate to odd days or weekends
     - cron: "0 16 * * *"
-    # 00:05 SGT every Monday (16:05 UTC) — weekly Places refresh
-    - cron: "5 16 * * 1"
+    # 00:05 SGT every Monday (Sunday 16:05 UTC) — weekly Places refresh in SGT
+    - cron: "5 16 * * 0"
   workflow_dispatch: {}
 
 permissions:
@@ -20,7 +20,8 @@ jobs:
   # --------------------------
   events-serpapi:
     runs-on: ubuntu-latest
-
+    outputs:
+      ran: ${{ steps.decide.outputs.run }}
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -75,22 +76,13 @@ jobs:
             echo "✅ No changes to events.json"
           fi
 
-      - name: Install Firebase CLI
-        if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
-        run: npm install -g firebase-tools
-
-      - name: Deploy to Firebase
-        if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
-        run: firebase deploy --project amara-concierge-88c12 --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
-
   # --------------------------
   # PLACES: weekly (every Monday 00:05 SGT)
   # --------------------------
   places-weekly:
-    # Only run this job when triggered by the Monday 00:05 SGT schedule line
-    if: github.event.schedule == '5 16 * * 1' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
-
+    outputs:
+      run_weekly: ${{ steps.weekly_decide.outputs.run }}
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -99,20 +91,43 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
+      # Decide inside the job (so the job always exists and 'deploy' can depend on it)
+      - name: Decide if weekly should run (Monday 00:05 SGT only, or manual dispatch/push)
+        id: weekly_decide
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ] || [ "$EVENT_NAME" = "push" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Trigger is $EVENT_NAME → allowing places-weekly."
+          elif [ "$EVENT_NAME" = "schedule" ] && [ "$SCHEDULE" = "5 16 * * 0" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Scheduled at Monday 00:05 SGT (Sunday 16:05 UTC) → running places-weekly."
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Not the Monday 00:05 SGT schedule → skipping places-weekly."
+          fi
+
       - name: Set up Python
+        if: steps.weekly_decide.outputs.run == 'true'
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
       - name: Install dependencies (Places)
+        if: steps.weekly_decide.outputs.run == 'true'
         run: pip install requests
 
       - name: Generate places.json
+        if: steps.weekly_decide.outputs.run == 'true'
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: python get_places.py
 
       - name: Commit & Push changes for places.json (if any)
+        if: steps.weekly_decide.outputs.run == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -126,11 +141,13 @@ jobs:
           fi
 
       - name: Generate featured_attractions.json (+ images)
+        if: steps.weekly_decide.outputs.run == 'true'
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: python get_featured_attractions.py
 
       - name: Commit & Push featured attractions (if any)
+        if: steps.weekly_decide.outputs.run == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -142,6 +159,20 @@ jobs:
           else
             echo "✅ No changes to featured_attractions.json"
           fi
+
+  # --------------------------
+  # SINGLE DEPLOY — runs once after both jobs finish
+  # --------------------------
+  deploy:
+    needs: [events-serpapi, places-weekly]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: Install Firebase CLI
         run: npm install -g firebase-tools

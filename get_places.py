@@ -23,7 +23,7 @@ if not API_KEY:
     )
 
 # --- Location & radius (meters) ---
-LAT, LNG = 1.2765, 103.8456     # Amara / Tanjong Pagar area
+LAT, LNG = 1.274907, 103.8456     # Amara / Tanjong Pagar area
 RADIUS_METERS = 800
 
 NEARBY_URL = "https://places.googleapis.com/v1/places:searchNearby"
