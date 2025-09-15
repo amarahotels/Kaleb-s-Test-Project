@@ -1,10 +1,10 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-09-14T16:18:23.084461Z",
+  "generated_at": "2025-09-15T01:10:53.353143Z",
   "events": [
     {
       "title": "ONE LOVE ASIA FESTIVAL 2025 SINGAPORE",
-      "start": "Sept 14",
+      "start": "Sept 15",
       "end": "Sat, 13 Sept, 4:30 pm – Sun, 14 Sept, 10:30 pm",
       "venue": "Bayfront Event Space",
       "address": "12A Bayfront Ave, Bayfront Event Space",
@@ -15,7 +15,7 @@
     },
     {
       "title": "Taste Japan Fair Vol.9 – Mid Autumn Festival",
-      "start": "Sept 14",
+      "start": "Sept 15",
       "end": "Fri, 12 Sept, 11:00 am – Sun, 14 Sept, 8:00 pm",
       "venue": "Taste Orchard",
       "address": "160 Orchard Rd, Taste Orchard",
@@ -26,7 +26,7 @@
     },
     {
       "title": "Digital Light Canvas by teamLab",
-      "start": "Sept 14",
+      "start": "Sept 15",
       "end": "6 Sept, 11:00 am – 30 Sept, 7:45 pm",
       "venue": "Marina Bay Sands Singapore",
       "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
@@ -97,7 +97,7 @@
       "venue": "Sands Theatre",
       "address": "10 Bayfront Ave, B1-69/70 Sands Theatre, The Shoppes, Marina bay sands",
       "url": "https://www.marinabaysands.com/entertainment/shows/queen-its-a-kinda-magic.html",
-      "image": "https://www.google.com/maps/vt/data=_x-6dYYbQB7-2CrhnkC8RcJV1mWz5N1a1-RkiViuHlUCXOck9ToYD6gigtJxOZsfSly1UIPjQiM18I8PG30paKOeyTaPM5RYMuy1LN0PCKYWaaaFvzw",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSA8MYuwWzV0ad9af8eYQ97CyAOd_pEbpUrrbHBHCrMA&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
