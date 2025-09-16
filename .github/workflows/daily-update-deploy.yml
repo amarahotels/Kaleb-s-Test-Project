@@ -187,8 +187,7 @@ jobs:
           npx --yes qrcode -o public/assets/logo/amara_qr.svg "https://amara-concierge-88c12.web.app"
           npx --yes qrcode -o public/assets/logo/amara_qr.png "https://amara-concierge-88c12.web.app"
           # Amara gold QR (brand-colored)
-          npx --yes qrcode -o public/assets/logo/amara_qr_gold.png --color dark=#b78a56 "https://amara-concierge-88c12.web.app"
-
+          npx --yes qrcode -o public/assets/logo/amara_qr_gold.png --color dark=#b78a56 light=#111111 "https://amara-concierge-88c12.web.app"
       # OPTIONAL: commit the QR files so they appear in GitHub/VS Code
       - name: Commit QR if changed
         run: |
