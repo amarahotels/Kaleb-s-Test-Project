@@ -174,6 +174,22 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
+      # Generate QR assets on the runner (no local setup needed)
+      - name: Setup Node (for QR generation)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate QR (SVG + PNG)
+        run: |
+          mkdir -p public/assets
+          # Standard black QR
+          npx --yes qrcode -o public/assets/amara_qr.svg "https://amara-concierge-88c12.web.app"
+          npx --yes qrcode -o public/assets/amara_qr.png "https://amara-concierge-88c12.web.app"
+
+          # Amara gold QR (brand-colored)
+          npx --yes qrcode -o public/assets/amara_qr_gold.png --color dark=#b78a56 "https://amara-concierge-88c12.web.app"
+
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
 
