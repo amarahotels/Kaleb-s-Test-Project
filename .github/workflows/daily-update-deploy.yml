@@ -182,13 +182,26 @@ jobs:
 
       - name: Generate QR (SVG + PNG)
         run: |
-          mkdir -p public/assets
+          mkdir -p public/assets/logo
           # Standard black QR
-          npx --yes qrcode -o public/assets/amara_qr.svg "https://amara-concierge-88c12.web.app"
-          npx --yes qrcode -o public/assets/amara_qr.png "https://amara-concierge-88c12.web.app"
-
+          npx --yes qrcode -o public/assets/logo/amara_qr.svg "https://amara-concierge-88c12.web.app"
+          npx --yes qrcode -o public/assets/logo/amara_qr.png "https://amara-concierge-88c12.web.app"
           # Amara gold QR (brand-colored)
-          npx --yes qrcode -o public/assets/amara_qr_gold.png --color dark=#b78a56 "https://amara-concierge-88c12.web.app"
+          npx --yes qrcode -o public/assets/logo/amara_qr_gold.png --color dark=#b78a56 "https://amara-concierge-88c12.web.app"
+
+      # OPTIONAL: commit the QR files so they appear in GitHub/VS Code
+      - name: Commit QR if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain public/assets/logo/amara_qr.svg public/assets/logo/amara_qr.png public/assets/logo/amara_qr_gold.png)" ]]; then
+            git add public/assets/logo/amara_qr.svg public/assets/logo/amara_qr.png public/assets/logo/amara_qr_gold.png
+            git commit -m "chore: add/update QR assets"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "✅ No QR changes to commit"
+          fi
 
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
