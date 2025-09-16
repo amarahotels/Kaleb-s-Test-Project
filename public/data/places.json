@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-09-16T01:33:16.066929+00:00",
+    "generated_at": "2025-09-16T01:47:35.524337+00:00",
     "origin": {
       "lat": 1.274907,
       "lng": 103.8456
@@ -8,13 +8,36 @@
   },
   "places": [
     {
+      "name": "Kahve",
+      "rating": 5,
+      "rating_count": 41,
+      "address": "70 Shenton Wy, #01-12, Singapore 079118",
+      "place_id": "ChIJz8KttbkZ2jERiefD6417ed0",
+      "maps_url": "https://maps.google.com/?cid=15958922604040152969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJz8KttbkZ2jERiefD6417ed0/photos/AciIO2dAUKz8_yeKwuzzPvaqup5jBRL8noFR_kpfEuQzA1pb-WQL4mrV5tL7SpqMZZ-lClZLhX9gIpk6OgpTHj6IpdvwdXRyMXvFeTRUwCNHKIWHu810unBNpdyvfAbup8ebbQEo_hKDnKAk4Fu_Cb6c2vkCUClq7O2ChMqn8b21sdGHwOy79vIt-3hl67Ze8hxogVV2ZABne-uBcCatSixHk5k7vSMvnQ-VUGrseT3dAYwuxPYc0qZXqhHGCUuiUG1BaOGbZ1yMg7GrZVM7rHhGSi5Gzfjo6dHTwjNJmP3ZaKU49w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "coffee_shop",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "cafe",
+      "lat": 1.2738577,
+      "lng": 103.8463259,
+      "distance_m": 142,
+      "is_hawker_centre": false
+    },
+    {
       "name": "bookstore bommoi",
       "rating": 5,
       "rating_count": 40,
       "address": "61A Neil Rd, Singapore 088893",
       "place_id": "ChIJceCk_YwZ2jERNN-SUn5SBzE",
       "maps_url": "https://maps.google.com/?cid=3532883135200157492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJceCk_YwZ2jERNN-SUn5SBzE/photos/AciIO2f56cI7aoFQbAeD-JM-6NAaW_9Mh5OPshLH70g_XyWAycmlSzRAT0U_AH7UY_Bxnq0cxXMoN1BTxpfpp8cmT53O5vyUqh3mfjmpcNlStA4mWpNMPL2xha4unehfaLIz_zvVvYbNxSz-YwuNdWraSUeuQkIbSxyyqY-LhhN72WbD5gi8gCucHsXad5f3AnM464CUzS9HR4dNJg2dD24qxDZImcvdZfu1P5_mPXO1n_xt89TJB50pztZgqBGpt0kWga4mz0rzg6AcRds_7kB3DxxaZcE9Ouikkrn-H7nKTcAu7g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJceCk_YwZ2jERNN-SUn5SBzE/photos/AciIO2e2w1tSjSpmxAeoQQm_HNeuNUsNYwMKFMkPbKOmemJHjs6ExccIDh_wM1V5mfGKFpc_2uo2KLPh161erw7Wy19vwD9Si0sFsEIUmOnouDOmfVo57SQmyQ7bk4BP3b2eGHMqlkEclUjo0A4ha5vP0kUOpECDZp63_rp69rF_4hkJtzN6yGN_YF7hnSeJ6Z0MFfbC8XlT9FNrYe5U2Lbhh70rm2iA3xRYseZ6rfD8-O1e1PjmFMVqHk-4g-oGtD4Ho-lUtA8Tcj0SOlmmjhpHx3DOaJUNZqQ2Lun4xK32FcTKjg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -34,7 +57,7 @@
       "address": "#02-10 Queensway Shopping Centre, Singapore 149053",
       "place_id": "ChIJq1nAaDAb2jERXIF4-zPlNBs",
       "maps_url": "https://maps.google.com/?cid=1960443749238079836&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJq1nAaDAb2jERXIF4-zPlNBs/photos/AciIO2e8i-ct856fp2QIy0H9xFHRaWbSLKj6qK-r9PgdWORrcJhx_7bStZ2curh1qW2PONLPvrBDeRnDTWwsJOl78s0NtLj12BmJQ2iwsm-76-P1PMIzMJRCs1DO_FTFizFowLdxoU6eMw6sQWPEhJ3KaQBRF5U9fM8BC7LrAY4uGZqW43tHQORZTmfKqSDgAdiqlt-uNtkamVQJszDmHK2-f8fkcrriR1SLlIn5qKY6-372yNvGbG9313EtcmL7bHZkGZ1VM3PrqyNmaFpj-C1dD-cQk3100KiYSO7ddNgoafRk5w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJq1nAaDAb2jERXIF4-zPlNBs/photos/AciIO2ffbvVEhV6PbmSGSRw3YngLpYyBOQaKkczcnatZcpBDgmIumfG4haHbjUw3aLxYm1MNDz43Tzv5KIhO1dLa8bW6DrJsBT8oR01bYYlsaOKHAbz8NCVX0j6yCA9l1Vrgi4P6KcngENpiOk0FtyLOPMpKbeV_Tz3Igpduo5i2D3pTEqocfrzll2RZPW3Jq3vWGznC-BZcFzJdSKy9vFc_woc2PgZH9gw3x7wT9pZtW-ugZ7tWRtKGkYcAzgAMU8fBo14y4EqX_EIpHGTJA5Gv3gWParsLkRUVnz1h4Ty5NbY-_Q/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -54,7 +77,7 @@
       "address": "7500A Beach Rd, B1-324 The Plaza, Singapore 199591",
       "place_id": "ChIJG-ptz3MZ2jERkap7kAmY3Y0",
       "maps_url": "https://maps.google.com/?cid=10222493896047045265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJG-ptz3MZ2jERkap7kAmY3Y0/photos/AciIO2dn7TiHa_jW63ATag3JVNPCz4EZrvg9VJWZ5aAhSbtJfhtoMTTJpw7z9nImDyBuegaHnb-oJ0QUisfc-c0hPCvMzzRq-soed5eepMqs4lzFl-rF7BWKofH2Vk0bR0k52m0MrxXg1ef1Xtgvf6x4dz7THtPGhh_Vu26-uXC8P-G3Yxe1TlyuT19ohHS3gLsyVe0-E9iNPlvYj1bjNZD_i0Ad29_skkJec0uaKM-Yc67eo7coWda8pReoh1kFLE1U61GIgbYsRUnrr4MCAZiQaQ31B5z-JIUzMweb5L4_555nUQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJG-ptz3MZ2jERkap7kAmY3Y0/photos/AciIO2ffISWwhE2tnudBJMGOLrjGOJBQEz6z2sf9Pw-lKvL0PDPfuMl6FuleUTpAUxiewBVRdcyH7aOwl5VIoxpOeDgCcpzXOmy0wDOnchTwhhihgZAm9XSdDol746pUyBU7L-ZJhGsiwPz_fjo-rGtA78tEDg0C1MMi0QiZkDIyT9s2K7eWS8H-Yd_uTJIYTWcYW2UejGQL0d_WrtfECS3V3XFpFsgwWMHWOuZOvYqzEGYxFRycmE23czsZniXq4snPv-awON_J5qz9zp5R6w2Yo_iOPXnUnoTnuhu00TXFkuBBjQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -74,7 +97,7 @@
       "address": "39 Craig Rd, Singapore 089677",
       "place_id": "ChIJP1YIH-YZ2jERVGC2jU63gFQ",
       "maps_url": "https://maps.google.com/?cid=6089068244217782356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJP1YIH-YZ2jERVGC2jU63gFQ/photos/AciIO2cIg6LzmBzAsBskVPnNp0YmQCo5W8MMWb5NqR9q5Y77KHyziuPl1fTPaxczqS0FYIdSHndfEIVIty464vXUJYI_PAuqBKwWkidvFlg7bQdcht5GqsDXADr1My9J2V4SOOXk_ZKw3pd2NuTySx-he1fFWNFtzmpOf4u1urAxpx3-U4nUUQRrNRZ687IJgDkJkwgRBZTll96R4_C1mirYDUPshqZXUTZL91ha-286NUpHt0lqeyuqxuS0MixAv4dkI-jfx7Aq8F7jpwh56maZlspS7TDHZMOBtZ38vccMYYVOEQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJP1YIH-YZ2jERVGC2jU63gFQ/photos/AciIO2ewnSfMl4dwzuHJhmuSTNMjpagWxbSJKVkn_gQxMsMgD29tJvVU6JSowlCxoDiwwp2NEbEtRmWWfVOEvY6nCUbhkFMghMuT0O-eti4Hj1zR2DU5_8e9mr-JHWbi3PnB9FjImo3AKcBL5Hg-wo3EKG005yBlw2nC3Vt4UcGLrskeuj1v_tobWHQA9yFfGZkIrHpkW-x56Gng2Oz9T-vOQi8V6urKJk5Y-FpU6DdIRDqO0EHVT2YhplfWcTa63j6Mw7xg3WoEQyV4ymfjWlDVIlpyfmX1hs0nBaUOca7lX1PjNg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "french_restaurant",
         "breakfast_restaurant",
@@ -96,7 +119,7 @@
       "address": "21 Tg Pagar Rd, #01-01/02 Next to the Fairfield Methodist Church, Singapore 088444",
       "place_id": "ChIJJ8s24l8Z2jERmHd_s9Vxa1s",
       "maps_url": "https://maps.google.com/?cid=6587484042612930456&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJJ8s24l8Z2jERmHd_s9Vxa1s/photos/AciIO2flFtdGzj-g5DpDS3XZZFX47razpalWpuIkeRXCoNtZqQ5PJDNLnZcKFJBXAO7pWMTyutqajPz53k7OOtnIN-I9DKMAn3cVtB0HmX21955ELWzxU4RIdMSgjVpuSAMjFWE3o9jF9kZ0z-P0sXr9Qna-VK6S1T_yKBjfdprcEJgWNwYr6cao6dvpZRlZ2rE54rNros2JzgwdS0ogMLfvv9S9HMtw2GX5T37iL0NE77RG7qDXw5ynWvNWWFOBgjD0XlR5auHzk6bnSgD50d6UTih4X6dHQr1sLfmOSJlYI9ipbQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJJ8s24l8Z2jERmHd_s9Vxa1s/photos/AciIO2e3SoHxWuUUV4XdEn48UucNVZPdELx_J1cT_S9CcCJjXpXH-UUtxNr5_nbR3f_dS-RM1X8lAbCKkr4M_4xI6MjsJA6fxm_VSwncidPyQoz0Rs2Ily7yGABbI0rbIfZUf2H8mea9j2YFIQRTvwbRI_oMJHYkjjcuglPA4R1a2Nd7_0X61pdTm_UYy1-7KxCA0hYfAb0CRQmfZOr1HkTQjIwQnWpgpb9oO7ijMcxnNh_hcBz49ylaNC1k3V3SvUToHx6RAgMD8yeaafheGKkjrhnav3OVVYZbJXYb8v2JuwxT-g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "fine_dining_restaurant",
         "restaurant",
@@ -117,7 +140,7 @@
       "address": "70 Shenton Wy, #01-05 Eon Shenton, Singapore 079118",
       "place_id": "ChIJ4cbzy7YZ2jERgQxTW1kM1JY",
       "maps_url": "https://maps.google.com/?cid=10868325378675641473&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ4cbzy7YZ2jERgQxTW1kM1JY/photos/AciIO2eaA50pPeoTHQF6byATBqO38Kuyto-1PEMyUYtT9VV1x44Cdr_BiMILKTuExNJCAqp6BBGtgU8ecc3GhERatc-Q9NIiJVQn7qJEvvQwqkQ6CfQum4SlDEdeDsG23AH25Y-3JYOyXnFX-1Z2M0s4PRG93SXRMczG3thGnAebmIT1sYJI-INGsaCPUggEPzn9muEskw4r42x1-UkXzKe4cgY7YzqQtXE5eQ-X7TngV5_ZiAHaT1fmEuqWNtlPNwSiAP688G3xH0OPJJo1IilH5x1ZTRVCuuzSAw9RbRPb40emtA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ4cbzy7YZ2jERgQxTW1kM1JY/photos/AciIO2d8JxSnyGso6roAUWKn4ueeOFC1s6s6KtQM6VlWsCrsIpF10D7r3-_cPvFZHLR0WMLVHPaCJtxDJj-jjaXvQVz-r1jTlwDl7vpocAU9wK5s01brlxd2DAW745ql5D8-Uizso6afdhr1HMGSUfa98sBZpmTZ2NkTwDLBMz-AyVhgC4utB2tI0Dr7E5jHAzXo2Z3ruNblmCq0fQ4epqfvFiJUXkRwHYh3PNRKhRvx3ojxUPeZ91PXejPXMbl2hJz0IfJDtz1GSLUErwyPl4ii7G-McBMY3XExjlW4X6X4e9KRsA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "coffee_shop",
         "cafe",
@@ -140,13 +163,13 @@
       "address": "182 Cecil St, #01-K1 Frasers Tower, Singapore 069547",
       "place_id": "ChIJ14Rm3hIZ2jERNhft6GHSK2o",
       "maps_url": "https://maps.google.com/?cid=7650439709980432182&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ14Rm3hIZ2jERNhft6GHSK2o/photos/AciIO2cR9QqfvNSK4hQt-nL-HsVMb6J78j8McHitg_c_cKEwQu2OgZEonhhZb8Gp0dVePcD9OGr7Seqns53OSFfOBveGzXWZ_gFYizeZilSbHchTYJKxM7ONm7Kg4w8zkYlqfqNL0iNvf6mNu9pGYQBXl3VKXbf2_ePt_WeEZAG29BPz5UnXKbx3sXyVqYDaMlSoLoY-Qu9vPcGbZAIKtSZOY5W6lm6IzT3_zcMSYJEpBt4Ga3KFxLF9tH5tTBk9zqhsVaVU0zHk5gIPbkkbPS2lPMjEXJvxxwGzGj0C8LmbFOKD5A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ14Rm3hIZ2jERNhft6GHSK2o/photos/AciIO2dkKrVvD66nxSQGXWVkeIAnzWf3_FAgEMrVifTAD4-H8M6vC2gAuf0EbBVDAZ5xQmI-wCiuA5-TXA9sq0qjT6Chwkccqq2XZNJ0GsD5J_zm_Jn5DNrmJKffc9s2figY8QDe6UIOtQraTJL9U9B09GLj0X6wGhlDJ17g2oF3FqRTj8b77PqpfZB1Z_t26zhvObio9DOkXqqYCqiJaslIZMz2E6QrnBhXQEa_klD-rcXwR_uMA_UFK3QefQRe3pBWxmoDsV7z156C45WKhY3V-A52saSM-ttkRKJDxa19iCKvgw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
-        "food",
         "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -163,7 +186,7 @@
       "address": "35 Selegie Rd, #01-31 Parklane Shopping Mall, Singapore 188307",
       "place_id": "ChIJVVI8irwZ2jERj2MNGgCKz2o",
       "maps_url": "https://maps.google.com/?cid=7696522021241185167&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJVVI8irwZ2jERj2MNGgCKz2o/photos/AciIO2cfJevl4tQ5MrSJDDdWEtUshg9zfKaITVeet463mmI1WBWbKWBpdHLo9wnjVGKZ2wzk6TvYyPAVRh6Kq4isfHGPvsW8b3tzdyB66otetDWHyl69AgKMsHs8gFtezyDB-lI4zXvrjLLxGCx43-cwboxS5U1FDhzSPOL9VOrnvdn0Q1jIu6I4kWbHDwLaInlgzQxq3W0-0DmZwNhnYUyoz2IaCMqfiBfFN9oRLY1eNoS7_HBLt0EREEMySLvtJhVxNIypiEPSixLrlTL0T5CobQjrQg4ngu2Co9XZzf-INPCH_Uwm-BP-fMbCpGL30sFK4mLzVg46V3WGwpJwZMEm7vl2c03bCM1Zc8rpzktou85fgnuMJSLO8eel0pBiyCDkYnDDW2E51Ho5AtMOE02J8LrgUsbijmRhN50HwgtcTAjiEYq9/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJVVI8irwZ2jERj2MNGgCKz2o/photos/AciIO2ddV9Hy_yfe1E5xGft2RvFyQvz9e_-BkW2LvIkKEONRJKoV7CXAvTSquoeXcSOZGdLLv8ZlzFaToaYgm-ThkvcnbSxwlN9D4PhphcYPeYyIYb7-GF_XDRSeAmHcMj5Utwl2LhcwSWiviGMoVTzkl1OgpQtdmRMyGvwb-0xrA4zPI_iDg-fZA91RReHNBH6qvzYLgJbxhVo2wUDhICAvbxW4-e_9rKAjvDxmosPDXtrM42YHZ0JH6FJXWX06NYwV2MbqsPVq1DdKkN3zYhuYsKY0oYjSPX3loXgV1iDAwGLeprxlzStwJzpIKJzgRWClDYYf3LqWoBMP9yeJ3CTEmkAT7NZ75AiOyxY831kziH--9x0sJvmlPAeu-XnyZm8wh1o-9PZiLNGTrTD--vO3m5o0ax2zEGbo-Cz9Ik6Ya2F8WXRK/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -183,17 +206,17 @@
       "address": "18 Raffles Quay, #76A beside DBS atm, Singapore 048582",
       "place_id": "ChIJfZuIyREZ2jERpeWZXzyiO3o",
       "maps_url": "https://maps.google.com/?cid=8807811876438795685&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJfZuIyREZ2jERpeWZXzyiO3o/photos/AciIO2eZwOrcq7-td4dNgolC7rADETv7Pg0ZKUqZdUhqHH_Wzk9PN4ng94hsngV8RO6UFw0xXadleww7XpZnTGVM7cNehoZAh2Dac-XW5SQH_3o_FrcWNeLbFX26Gu6s84wQTSh0xWhyUfgzD8wHBTdvXP284uiNNUcoO0aky6jOX7yQLFVS5Tz1ark-Z_Mhhpa-uNy5IwE42psONokLxgUHqOw_WDlyXOqD_S1oUI32F5H_Upr6E5upe1_Sue429ofYhNZ09yYnObQpSRhi3Ito8JQn2SbHkaGISN6uu9hJCv8l_w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJfZuIyREZ2jERpeWZXzyiO3o/photos/AciIO2fVh-N39j5pjfGQvj77IgaATWwgs0P4gWArq1ENp2UjY9azjRYP1sv8t0lV3zIcXbLQUhiq8EOKJmrPHSFz-p2Nixvq-stAFg7sJN3T2wZlcSrjzrG9gYEGKUdHYj_R0nxzUxLQIwJzfwfdvOea8nFBM-bAPXCZJlDuCAttqHrIAJ9bRC08obPVpkanxa26qdf3KdbAV0z4-RB5lz_v1g4l-Z0gFjS9T6-dqEjtCWVk5GIx2fuZP_miLyBNN0ISpkyiPRd4Qk-qqYPN8qGVi_3VGqX30OMllyiUFbvT48KrBQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "dessert_shop",
+        "confectionery",
         "vegan_restaurant",
         "vegetarian_restaurant",
-        "confectionery",
         "food_store",
-        "store",
         "restaurant",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "primary_type": "dessert_shop",
@@ -209,7 +232,7 @@
       "address": "55 Keong Saik Rd., #01-01, Singapore 089158",
       "place_id": "ChIJucM3dIQZ2jERdlUq_5uBx5E",
       "maps_url": "https://maps.google.com/?cid=10504507162865849718&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJucM3dIQZ2jERdlUq_5uBx5E/photos/AciIO2e7KyBSTytZksMSVcAdpqOtig0w7rkslNEBBUvvRbuuchrk7MRzYeGFmnCjuijHJiMGuV_PzAOeO-8gc85tCIAJnucdkXp1dGY65oo8aT83_4WmWPD1LEZZy53xySQvvNib20tghSjEe8RYqhn3pr7_XdVU9z-vQlDtoOwMrXFTutnsjCwY4H5tcoq3is12GLL_RilZ0nWfW66noxxwx45Ih1f7NzsD2VOH9CmkKszHK7_LtARPHA1--oNXQ4MjTbPAzeGZzSj58Rc4IAuSYO5vDaR5vNHWL1hxGCreKxFBcg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJucM3dIQZ2jERdlUq_5uBx5E/photos/AciIO2fmcYLoJd38wMBvCWvlaxxcEPdm4Hs5maJB5mDto7wZE2ibAsxQfPWOngScRSNu4UFFj5VIagjTp9NArFXfBjezhh_O0iiIT3OghDW33yBKc3p3D7If8SwjFzO0f0eBmvXGoKddqS_7j4ATYgCmQJCF5frQJnclcDzFOBo2dPbrt2zlEosdTMv076-LB16oY3zgNVv8odza_m-foYAZOs07ZQWGLH5qrBWa6wTlM9ALm0wDOn25qXvFDhmJfKb9kc96S2is3RxSGu6fXng--zFljUQuJBpOm_0rU19JzmUoBg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -229,7 +252,7 @@
       "address": "19 Keong Saik Rd., Singapore 089126",
       "place_id": "ChIJMZAZxL4Z2jER3pBMsc9DeNs",
       "maps_url": "https://maps.google.com/?cid=15814464650823373022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJMZAZxL4Z2jER3pBMsc9DeNs/photos/AciIO2cTcoAlrAHkED-EOUNAh0nbJ6nacYbn1rBNzF8Yk18aYAmuNO6EliWk_E1Oa12vX7rBxa-vglZjc5gaNDPN61TeU2Bvjnc87wqkab3OGzasPD9KW__87-ISPIzzeAWq-onl5i8LP2pd2cxsiX_TZxCwTxLv_icrNRdH7tldosq5hQknmTSWsqqP4VEPTFH9yErjCjt_a53XddmbepjV7JO0JUFgUQnofNEpp2MmVA160bgpWwVAD5Yhwrk-okcZ4nxw2ZcKOTdxX4nRh1pUYgLGuOUAzdCAOwCghA1JKld31w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJMZAZxL4Z2jER3pBMsc9DeNs/photos/AciIO2dauLrfJkdQGKSs5e5VEPEvJMWfuBAtcb8-SGQaNZUCOAbQ1MEFLzhQiKNEK88TkAcIWg_52Apgm0AnpPYeXwagYBfvHgGigkSSZrGgUQWUuZYdks8spJAQ2zMeqe0aEOmSFZk-J0IVgmUH-iIcGhRiYA2iTOWYXd2jhUrHXSp7N-fM1MMlcHgwLDcBR6M0DiunK7DHXBxx-edpM2H8O5Yo6wq9WlXSDbHHX04yiUH5LElf99lKTuOycorf9nFvBhAc3Gd3ocFyR5O-5kbZc22nHuk39Yv2gDIZi9FXtmtnvA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -248,7 +271,7 @@
       "address": "233A New Bridge Rd, Singapore 059441",
       "place_id": "ChIJv8V36IgZ2jERLTtreqA-3ws",
       "maps_url": "https://maps.google.com/?cid=855471313193220909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJv8V36IgZ2jERLTtreqA-3ws/photos/AciIO2fkHQtWF7lLbpkpw-2V03YNYfLUul6XKJ2x57s9EwMArhcHprqZ1WTIIIxYtfrUk-zuWiyvAc9kp8taYWi8-7da_MqovQuhADIiVZwebBuIwCVTwiVRltYOpSELCz8rbEcCDH_SIQQMIc2hftHDTzdPSIp7-7tfOkVQDIsp3hS0MDEkyd5XP3K-DiBgD4vYnL0yzjShKqooz2BRKgug5q98VZwmUrtI--DrUJ4rm3HeYWJL1MczcLmZjMyK2E_X2lXFLnu2qsw6BZoHOOlzg9l0ymaYgNRPO0P3-8LjgRzDImD8Fp7BE5FqtZ4TXK3jKdGnpI-CLEh5qJqYea3H25RSkOZNJutnhzKAE8EBO_ZxLmlj4mTXSYJUlKU0RwuyLxZ6_XgoEyc5aDmajrq5EbifITlAl3KT9RB5bJvBXForug/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJv8V36IgZ2jERLTtreqA-3ws/photos/AciIO2ecMwbupI5-N-IUllSFWlyGxZDExlwxtMqeT7Vfh2Z1ykT2mEMRvriLqZX2mmAmHaxTJmq8WIrsZT8cesCK0JM7IHgpMHhS_fh1okEHsgWG9NKLPJUlwhA3kBRELUZwm5Wo2LCRFr6S4NC6L3jOTDYFEcFDTlte4F_0KaNtFrCR5nxq_-gl129rxCbfRXCtihdWEMzs2UGu41fBPi-XVV6itSwadPWRtr_jwvg4XdffcCqQ-ngE-CdZOpHRHOsUUld9ulTJ7M295VzOSJmbrvOgtiB2Z3dGRnCJi8Q1rtnmRACd0BnDId17aHqXPyly3Woy008IKtTyjmyvF4asoveQ2r_hl5K2VHA2kT65ET5YXOVCwkU-1dpA1KmgkgqdiO078_ej6SMpDnGpCiRaGbv-XZ95Vyo4r-6wljOhc1xZsA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -268,7 +291,7 @@
       "address": "231 Bain St, #03-07/#03-11/#02-15, Complex 180231",
       "place_id": "ChIJPaWdBKUZ2jERfsJ-QrLhwQI",
       "maps_url": "https://maps.google.com/?cid=198688014317044350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJPaWdBKUZ2jERfsJ-QrLhwQI/photos/AciIO2frxX230QHVroXb4Y_UdveUK_ES_gKS3AE35sx3mh9f4Pmqak49oE_16JKCOBfKKS7yOw7dbhiSIhToiHM6TTNYuU2OedGQ2eyycqSg5Wwnx1uJwf9leud0LFUvUlRLor_oGpZ5S-NxJLoZr468Qwuy3zln20bNXhbM_YIpyV6otxXtpLdbsfSVsRr6DqbFxxD-mGY6Md7f9-4JfF04Y3WnWfEbL75NBX64a0RvSqOyVoIJLcgiGxPBM_QXVPng79iDV86_6cGqZ-UCfhC-ub8QTT5p3NGN_wivmdhyn40mfAcpEsueWK06R5qmKE1gL41GDvDCLyTR8VYEM5792L-lGWIUpO-Bkp3RbB6KkrDEhQNngWgButqwryP-Rv4te3Sp5bVIVNoj4ycWG2n3Yg6GVlyoqH4-wJlGX71yPOIWs_34/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJPaWdBKUZ2jERfsJ-QrLhwQI/photos/AciIO2czt-WdTCHrNXhrVWo3lPtFKTGEFAe6AneWreTusxz4OnDRuVLElNGNVB4v-u5iLU7KAKU4I8xAboHFYK64eLwusCfywv5IvCwGb9zQNXIYDhm56LjKrFMwCTKo9G72aEo1hL8MY3xxVBVdz4KKd53F0JWF4yaCaBqFTsMNfLpwY6Mr645lsk-3iIrk9tXCZUKYhVZmKHsfFrDr-krsjfAZXFta_khIOCPxc8myppJGKnvuu1i-p_o75xJnOa4ysfjsJgi9YIvJ6C9zqrg_k8dhu7UzdjRuFLaj1mqFfm1mLhuThEhL22A2qN_VAu9vmzPl-i6RjM3cPUFtk57Wsu1KqVWkuIDCQrmnx76Qhse7Ow-NlZdb6LQoc__xowPusim_SKG1puWhGEJo3QVQYvnpSRqT2XTv6RH0dsHsY_0Y60Ac/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -288,7 +311,7 @@
       "address": "1 Rochor Canal Rd, #06-22 Sim Lim Square, Singapore 188504",
       "place_id": "ChIJdwzNbLgZ2jERH406RnPoO50",
       "maps_url": "https://maps.google.com/?cid=11329904869377740063&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJdwzNbLgZ2jERH406RnPoO50/photos/AciIO2c_2mxBUqAZeBEWfEefyS2NdRRaqGfwaSVrxuzs64y4GkSjyaR0HgS9yiEhCni1K2ctV7pC0uc247kJmV9QJJWyMu_Gi4n41ooQxGxdnF4OTmHjZ9xHnKparGGE1K8XcdOzpwJLIf1tFwSLE22-A5keh6Fzc8FcTEFUTMwxNyrCcq4SA-qeQklovB2EnIU1MCI6cdryr6zb1cnl7zF2xE959saGwE51j4iRTKCjK6t2nZDdh9U3qDiPpjww0ehQiWgpSUQGU02LzyMPwH9swA_PrfR68YR7rcx4AfSN3o5q0g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJdwzNbLgZ2jERH406RnPoO50/photos/AciIO2dlPM0nbVDEAoPGPv__Iw_TiIo95-YzcD5RUtf4s-M8beyWKlOLdgZc0s8rC_0SU6k8ux6aFzWi1e37zCTZNhVNNdDNxU0upjyIiL3-iXFB3JPVcE3H_nsEfRaXWgjun3ilehwf8dkdFhlxMYG_CUQdy9Ny1vlB1qJ4IxFcPKVht4OIHXFs3DpVqVfWdGLHUylZR1qr3myw7KbxmTqTIMOcpBPn61T0_cKhESqM0J3QAUscqWFj-dn5H9_0RN8Qvxm7VUfGYWglWJDeTC1JAqbFQVVherqY_5ZvXEiz4shVrg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -302,13 +325,55 @@
       "is_hawker_centre": false
     },
     {
+      "name": "Convivial Champagne Bar",
+      "rating": 4.9,
+      "rating_count": 48,
+      "address": "11 N Canal Rd, #01-01 The Offshore, Singapore 048824",
+      "place_id": "ChIJy82tu74Z2jERVwPYVMUKO-E",
+      "maps_url": "https://maps.google.com/?cid=16229577524807992151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJy82tu74Z2jERVwPYVMUKO-E/photos/AciIO2cMR0tPzXRLy8as7hfSh0uOl2nVaNMVDWtJEJ8MCDibL0w71ST4puF-PLTnCWQctEY5BzngeN1dxgR9Ky4mostUfuteSvZUBx-1yolyEUdNrkWYo_HN35I-OjU4rfCE3ww94S25Qx_XDWy4Jo6_8Ygk5Frq0FfEEGhupVGAJosl14T-VTdL6VI-ro0W-KES3uVo3MCoqOPqnVbYBwAtFJWZcfO75VZ8oCh7wbop1sQ8lh6TLqHuW8abPE8iM1X7t4FlyGYJKvlcL-3WqXYn84dni2ZndOnM-juwXwvdz9pO0g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "wine_bar",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "wine_bar",
+      "lat": 1.2861380999999998,
+      "lng": 103.8488148,
+      "distance_m": 1299,
+      "is_hawker_centre": false
+    },
+    {
+      "name": "Madame Claude, Cocktail bar & Social Club",
+      "rating": 4.9,
+      "rating_count": 29,
+      "address": "8 Ann Siang Hill, #2nd Floor, Singapore 069788",
+      "place_id": "ChIJiaTsKQAZ2jERDWRahA_fOKs",
+      "maps_url": "https://maps.google.com/?cid=12337856436919493645&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJiaTsKQAZ2jERDWRahA_fOKs/photos/AciIO2f5UGeY681v_G2aLg-jbAX0ynLYw28LHrbjp2LHcXCCe3P-NrtTttAvQMcq6tCt3GX_w5cyKEd3LQL0ZDmHtJWmAybp7DWLL1MNoSIJuftBtAv-ayYqxkrz3PI4UKxD1N8eVeSFIWzV5ZmXL2pDd8rbEX6LA9F968sSUovY6Tzl1LtvT976MgDdvtN42iZF1rBn0UL7xfz8Yi9ntcTGRl-gCnLLp21-O1JW5WEFuVUjgZqvW0CLafIB2OgGl7iu3OGLu6ICJAb0YmZilUo-Rz38ie3DyXBCInSAnw9FtHYMwA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "wine_bar",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "bar",
+      "lat": 1.2813695,
+      "lng": 103.8454053,
+      "distance_m": 719,
+      "is_hawker_centre": false
+    },
+    {
       "name": "Casper.sg",
       "rating": 4.9,
       "rating_count": 27,
       "address": "59 Duxton Rd, #01-01, Singapore 089523",
       "place_id": "ChIJB4nyirsZ2jERHk3EkbkZZMk",
       "maps_url": "https://maps.google.com/?cid=14511752184099786014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJB4nyirsZ2jERHk3EkbkZZMk/photos/AciIO2e11cZ-HbqBV_6SN3yWy1mxqBUpWk78XKqjFZ4Go1Ykj3tgTtpOZ1YNU9egXROtbWfdiwOkmmsjM8XvkDOj5_tvsPMXFw9fsFxHKJPX21JAAG4kqJWUSEMMAsUSxUjEXZjJpKvWGMrshWiZHaG-5MlrtKo7XJLovozx-pRUvPSwZJVtECwbe7vBJkGvqKqsOm7MaxR5A9HB-fF5TTCDeExvad1RBVdU1CQ3_eEMtzxtaIpWDK2ZSiHeo9Ey34I8yjqBhwx2KV1L0dGzC7PyTJ-ztS2BI-eNsserItWB_Pmq4w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJB4nyirsZ2jERHk3EkbkZZMk/photos/AciIO2deDDjt38emh8JakPYM39HAwc_Wh4GKKZk-Y5W-x-DI71cEjnTY5CMPLouzJbs8xzuwCmcUj33MZNGCAYnDZteyPMFdwPcpJQ2K5xGGgoGUGPMAHeIHYyZEyPaBQQwNvhUInmWkBT1jTdqWJz6lhKPHS4Z8yEh-0Ss0WDxpkZDMKZsr3dtnDmj1fdSurnJbtIh9yeMT4gJogPt72_2n9A0KHJeqfX5YNSUUGiIV8CrS8aG88Z7XteTuQ0loXDzAzjLqD3J6qTrK2oIxOBqfpFGaRakreptv5MFLL-nqgrseBw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "pub",
@@ -330,7 +395,7 @@
       "address": "46 Tg Pagar Rd, Singapore 088467 44 Tg Pagar Rd, Singapore 088465, Singapore 088467",
       "place_id": "ChIJNb1VpEUZ2jERVpHQnctuQ7g",
       "maps_url": "https://maps.google.com/?cid=13277577947223462230&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJNb1VpEUZ2jERVpHQnctuQ7g/photos/AciIO2cL-ctMY2lvy0c1fVvZ-dIw838HGzhrKSEWT8Yu0lo68EKF1g0dQWeC3rKLqZxmVpYR4HSOC5WjxeshO6LeeCRmkBtfujY5CFIKGrRCV-VUVtY4Occjjvhp_mncjI5SJ6U6MG0PgYK6GgKDX3DJ02kjJxuUIku6S_yIgsMAG03RDMqK6kWfmAMwFtsQ4TT42I7TOn6MiW2XnN3oMVFKhzTtDk2XJhG8EgKbg_q2UEvfbmp7ylHHsLshEtcyhR5LnNQARYxBIjTgvbI0z5z7przy-o5JnClqOzLF1OTydk9xudV2DWDho8m-luNwbAtXkuLuM0fltRXNlMTZYbelEh1Jsca_2LUpwAiQSb1Wu7-rSeGmbi147QLo6vouZg62g92_GJt_pqtJ6Uc7SMeVDL1NA6BfofhCccu6XvsubT-0Lw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJNb1VpEUZ2jERVpHQnctuQ7g/photos/AciIO2fUVjQDBrD8rtP6KiCNy0BCltma9UMEbEwoXThyjK01-CUZGz3RN3GnIxvFqt2FOhjyQb5sfeYkUvR03DxGgaU8f3EFy17sWpguOPYRoaOdYeadq5L7DJDypGzJIr4Pg4X9T2pRYgX0em2IwO-gCkOvLpxypYbgTUOPgyg3wO1tYmx-CselwuTyyDb3aZwIEVXuGMboOogA2EudmZSZ-VVW7T9cB7DBEaqwVa4FNtqVbq_TyQoRfPvhk60FPuY4UPA3emO4R-rv2i_7yUbsM-hqQTTP5t3Szvw_uCAkFiy5xtH7c5jTv7EPDcPWFNh0TcXxzj3Ji4hIAGm9oqvj7DVy49i4TXV7w6tbx_XGB0VRZAGt89093M87XSkGokmkThN_DP_Dp42DszigKb7ue_9w-A1JHZPkJoxp6xJU1LshYA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "korean_restaurant",
         "restaurant",
@@ -345,13 +410,33 @@
       "is_hawker_centre": false
     },
     {
+      "name": "Ya Ge - 雅阁 (Orchid Hotel SG)",
+      "rating": 4.8,
+      "rating_count": 1109,
+      "address": "1 Tras Link, Level 3 Orchid Hotel Singapore, Singapore 078867",
+      "place_id": "ChIJF_bXmB4Z2jERLgKPEgkb3Tk",
+      "maps_url": "https://maps.google.com/?cid=4169518555794965038&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJF_bXmB4Z2jERLgKPEgkb3Tk/photos/AciIO2dxA4zS8ggogNgX4lMy1JRX2tusujNC-OFAANCx3fLTRSqOqqmX86X494x3_Yudik7n_Q-8CFJ47IM7LAdNtAQdBW9J1_nByr7-ULAMYqHXGyIRX2sKiQXqGRgDgAwQ-iTrD8tcR5dhpII6aQVP9EXQ9R5BJWisjc4lORMNYEVvchn_vyss_mrq3OrV8esRqiXO0bhOWU7CQUAkLvLQNpGR70eJhtFNRc7bSprn5ydLJNDB65or6ESF4s_IcxCi6RIOTzG1YFHvCpfeeGK9tpqjrhzm9twGBDOwn46NUfV40Q/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "restaurant",
+      "lat": 1.2768788,
+      "lng": 103.8438187,
+      "distance_m": 295,
+      "is_hawker_centre": false
+    },
+    {
       "name": "Myung Ga II Tanjong Pagar",
       "rating": 4.8,
       "rating_count": 902,
       "address": "28 Tg Pagar Rd, Singapore 088451",
       "place_id": "ChIJOWm_mgsZ2jEReyz3xCGLGpk",
       "maps_url": "https://maps.google.com/?cid=11032283214352166011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJOWm_mgsZ2jEReyz3xCGLGpk/photos/AciIO2cFA1TKDfmQpbTRKIGBEkYrjHx1OrZR0K3bYX8xeRcb-HIMe7Fsq01F2EON_vLdHlYBFGbNsfgLcMNTGVKaI5eaXqdJpKJ0Fe95SGvT8DQ_Zy0rpT_G6jlnREQcg1L97vKF_200fOeSxw4b3AkfiRd3Gc2V5B6vNsWu55UU5eC0uZK3P9JjADajw_ZSWYKRAkdwsS4NWICSXIXv7v3dWz2_Y5xdNJsuVGmLw-5hzMpp6a8AuXdw2t2nzSV7f9Y7VC74VHXfbDH5FGOCk-RyRism6GiLp9o-myUkGr9bXxwzUg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJOWm_mgsZ2jEReyz3xCGLGpk/photos/AciIO2fFm4QQuYaOppMR1dO79OIUa5bRBZ6xC4PJ1h5FAfpgo2slgFLQunNHow3ge5J5w42Y5ae51gPTN2mQS0rzSVBx5PqWaN0kgtQcUeQbM1AZwDel_VmNSmJYjHHZaBcw2_IWRyMUy8nPsF4amVX1WUVpP707yO_S8Mf9VYX0lUgRQVko6rSOtFZDMNgqiR5n3IC-RN2KZ_ZlKlpzKmoPF9MXHK9Fa1XE6qaFR6c5m_xM3i8wowbhAkU5h1H6-qgeq7IoB7_v70UvLkX8dn3-I65csZG1VPBV3TgjsfK90Yk-Yw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "korean_restaurant",
         "restaurant",
@@ -372,7 +457,7 @@
       "address": "315 Outram Rd, #09-03 Tan Boon Liat Building, Singapore 169074",
       "place_id": "ChIJPYK8kXcZ2jERb7s6fCcrmhs",
       "maps_url": "https://maps.google.com/?cid=1988949634025438063&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJPYK8kXcZ2jERb7s6fCcrmhs/photos/AciIO2dGelFME9gaC14uBdVxzdDkRGDwOYZ1xznTMccQUlpGn_-7o12iAVJSMK1kgAhhu-KsHEx_2o9Fmwg9ys6PORQPyt_OULT4eXMVeCqTMSEMjH904pH2s1X6l-sYO3nAuuVtEawiIUSNM6RhLFlxBmWMP0Cwaww1_aUi6h4ZcuC8XeLnHU9Zo1rv4lTW0CJ51H3Zko53vu2w0ZFO9lezuuyJiWV87kiNNxEMAYS0x2xFKHB1Z-Mjhfw3kT0qaSnrb9LOxK410gXp7BA-DjgUUXy0a3hWwcOOG8MnglVB-PgubfIwb7GYShQKB1oNvOg1yi4hNHg900hJuOMA9rcpkii8BG6IttltDXYMuyLk7CECdokdarG-TOGo0D48EjTp5_0TonOi1dvZdBcEI2GKQam6aSPbcjwNJZjtInbH4kzfoZ7R/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJPYK8kXcZ2jERb7s6fCcrmhs/photos/AciIO2eN-ztYYpsQmRnf8vhCBUjFt9BfxFfN8WtXBeFJR2yUwQvjpNjpOoJyIM6RQwQjbnYtRQFyClgPXGx44PlAnmAaxq_9kVz9yMVa_cpfc0RFF4-HVfXMMogVrCEuE_FGOtiQmH9JpzmAlFCsoXpMQhCAKGG7_mORv63x_7nDhmfZV68mcw92_uNyke1DeCTlJ5PTUmp-1FO5I2N33FY8ZJv8GqTGpMUmrO3-h2wTsqB4n8hssIKDngw-1_9eKNG8fxenJuku2MBPDKExAb7vZWSNje0BmkIYfg_myzquG_ORp9zyAQqv_FM13l2kGZl4p7cu8zLEprJ811VxV1vujjRpeeL4VnEP2p4i4vXE_YWvaPsWz2BrID-OY2TOdoSI9l1-aD85sHMjYLUx38Xz5ZtnP0J2y5Vy73ikYrrLyYR9v1YE/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -392,7 +477,7 @@
       "address": "231 Bain St, #04-19, Singapore 180231",
       "place_id": "ChIJnxVbHaUZ2jERmDFHBv-GElc",
       "maps_url": "https://maps.google.com/?cid=6274225660760633752&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJnxVbHaUZ2jERmDFHBv-GElc/photos/AciIO2cVDr_76wtphBYhrsxDQt3hEOaKwSiBpXXe7-Av9FLEgguwjKKxVeeghnAscIbHbPlI5E6cYwtCOKOd1g3z5Sffc7IIV02FyiMbamdTHGmEjoyOZuDiKCl8XjQStOfRtGw8yh0LvBr-EPSfVUEwJHompjd1O1MaYVte7woiQa4pGWaQi-mQju_Buaj5rP5iZtzc3Kzaa9rU6h8YMuko_op3Ty7X0DZKNILa9ZmJAASV2MMv8ywXdDZBXFbcGZ8GQhv6ALx3IWdFzPQuI-CpCCsQ4au-uJaU-OpJcnBqL-pdaA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJnxVbHaUZ2jERmDFHBv-GElc/photos/AciIO2e9GtO-quPgBu1-o3Nzfn3adIQ15yWXKwwTeEpT6yVlxth0U8ynBTC6YCKF6Dt8dH0DH1PAwYYgDC4Z4uTA5SC7nDranG7Z4Qh_BGBIKJK-Q2qo2CYDb2CSK_iT3NGgSJwExWsnbBSEFz6aoG_VaeAf_Tf-NluzYVfZDk3ttSC_SK7Jnao3X9Et0JiLt2XRoEIaCpwZxpTxq1xJy3qqlmmH8tbFf2qST3Vbhmg6sFknHhy1PdZ2V26ydx9CFcCjEEqSi5Zj8W_IFhWyZ7-nr_bdUWHRPTajjHu0WraF1OD4kw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -412,7 +497,7 @@
       "address": "11 Neil Rd, Singapore 088809",
       "place_id": "ChIJM-RS84wZ2jERcDJIlxUriho",
       "maps_url": "https://maps.google.com/?cid=1912388363504595568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJM-RS84wZ2jERcDJIlxUriho/photos/AciIO2c6Lgqss4Ir-F_rw2AjVnsuHrvbbBkvd7kJb0bgToGwLY7-JONzoRDVMQPa5zXm4ZDUtzcaddLryba5ui7f7g0a00RuwfURDtYYcGERTGYDdb0DnL6BsrOjdE6BdJqG10l2DFE35thIwdKB6JlBXaU3IW8qnwP7FuyuYEs0JiRODQ_3hKQKKGjH-el7Jwbm9CgCqk8wbJdvwrhAHdxK-WXo1EetXV0hU1flPx71r_b5mxO6KP9N5eEWe-gAiOo0MGG3WklxTCCTHqaH44Jqg-9_IEkdDdNdSeoQBikypupAis3gN477kL2d1Srs7Wvo2MlCuNjetLA17iRTq9bs-WtA3S1yOddQwkeprJW42xxoqdZDpUcIpYPstXApZ4s34A1ZIiRyuqMBRP7JGoFgxEfz-Iz8mU5xe9FHzV1Fzwk/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJM-RS84wZ2jERcDJIlxUriho/photos/AciIO2f3dIWvmclmVDy4o5f0TGyuwl_N2Fycpj-uodMkwEPXwCztdc9_h114RfpISjNIAD8_ooc16CpZDFplquAs0nGmIzzR1YQUJ0i7U7OQcTuAHtKnEoGUrAk2jcGRGAvJi2C6rwzxoMcfoTCaSuHXoSbh6aMBsaoJTixhhUcuNl00-wTFqhEL1e7SJw7DeT2taMqn11ceFhrrNBLUw4x12FVYOaCeAfaKkSi_o8t_7CLNLfJbhzEFRiVYddvrfM3AEtkpekXOdXPp22eqsfVUvFAfjgMKbxcD7rcJwIMVWrKgPUlg7d-1UuRWrlf5me8NKCWfi1QaG_S4TUxEp8TmXHkGGkTZlp4Aw3ViVABJ1nA7a6QsSwV_X958zkdenPYed8AjdNcEYflVjxlnlexY12r3QrEz5eCA3YuqpPUSBt4/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -432,7 +517,7 @@
       "address": "120 Tg Pagar Rd, #02-01, Singapore 088532",
       "place_id": "ChIJGZwBdnIZ2jER70pdXxDZSKk",
       "maps_url": "https://maps.google.com/?cid=12198238255075642095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJGZwBdnIZ2jER70pdXxDZSKk/photos/AciIO2eIi-SUBOQULTr6412lA21D4tCXt0yFnCShB6qpMF1SJED4JmgDWKqOlpHJ0NCyRYdSEFunbG5Q3JT7JJdCsr_J8mG3NzSn50yO1dYpiwecP5jmrS8_oz4fjbsIzYFkAKfSFpxVHPq2-ZMpRp_3UPJRwhbB73lDGn0jU0mvyamVEX_60f9PPSxspEZZcpvg79Sf9HsPvOwz_q6wwAwjQpormHVh9Jp_mNxy9DuMfHpmsCRwCnh0-3DsGKdXpqC1a2Zwr3DISr-z_v_upTVvcxWHuLxCT-RIjF7UsaJDzvK0Kg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJGZwBdnIZ2jER70pdXxDZSKk/photos/AciIO2fSDb59yleyiqBXCsu9vmZOohhj2A-tYdAv4gYFkdwCQt78634J5gHyAkMFIET7jx_EWHU4uUWtWBtfdYBZwBw2ybUneqPRw9wOs8ffXWSeELKgHCTj-c4KHW7qfQ4duB-MEeJMPLOvIrWrvZ6Kpe2xc2YIub3_tNh61rfy1ak0MVO9UIC8FgXBgpWGwHFyFJXSVqFDFtBk3qy4esTRI-ACu58N1bJrzPuLSVmW_cJrfuUtG-AO1CnUkN0EyLOVizjYGosG969MLTGvvRBOX5sdP6r7uIVL04zORr0NUlsp9g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "bar",
@@ -453,7 +538,7 @@
       "address": "39 Duxton Hill, Singapore 089617",
       "place_id": "ChIJs0uStf8Z2jER2lDsYwq_dRk",
       "maps_url": "https://maps.google.com/?cid=1834582474570354906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJs0uStf8Z2jER2lDsYwq_dRk/photos/AciIO2fAGLvZXSx3vqRKyNQBjReVYCpWA0WQ32yplzl6Wyj0_wq-lTaUoj5w-Qwk9fg1ait5DwS0vhirx4IhNj6_j-nLfq4JPYYG0QF4SSgZ2UDc_4C_dSmSGQJU-LN8vk1FFDOfsZ2HIwERqe69TIkTSq2CjaYZ-6CMf5ihJHUkhF1lq1dreB1IXs1GUNA7iBzhttZPghXQRd_vn7D4O13exMpcAdb7mTYzu7ih0XZ-DZzgbImCl3_92cYtuEPinceLA6l4TIUiy-xg8mBHiMBr_eJDmixfirHS2Dj3jT3MUE7U4A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJs0uStf8Z2jER2lDsYwq_dRk/photos/AciIO2dAd55deH8Yj-xuDWfg3bC2kzCtWa3YRnuNl30UAAtD1UyYwbkw657Nmuy7pTxB8n4X7Y6DR0OphiH8ivteVt25mBQ3UptZRfpsTHYqlcws8J7xwJTuZ3IyTTwS1RD_gl0Zz0OBFOc7jQvUcbErzCgnCke8MUyJeZ3-seiItUShoiQxvO07xL24KYFe0xIv_0IING5GURrOz_8WtXU-SPCLwF10NdoDZgbdkuO9eLhRQKAppIVZAZ4O1nB71JjKWlJ0MxnBvRmGEsMIcAtHjnmSkwpPp1n3XwLXSmsvDLo5XQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "italian_restaurant",
         "mediterranean_restaurant",
@@ -475,7 +560,7 @@
       "address": "101 Duxton Rd, Singapore 089964",
       "place_id": "ChIJddAjwyQZ2jER_1O7DKDZhBM",
       "maps_url": "https://maps.google.com/?cid=1406488265078035455&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJddAjwyQZ2jER_1O7DKDZhBM/photos/AciIO2dvIkVUSGkCvHUeOTApHOfEfouLqvKCz5dG66BjgDmBK_WvMpYaUfo4t8Qd4GBAz8QH41gHKW6halwQIw51irbo82MyQOUsvkxBoE_-d-1b4dnEJUjmAwdc9T2UOxIC4-xKAsAiBj6aDIQSeElO5j7i0IJ4dA526TV865sgw6Lru_9Pn-nm3tONfFYg6a25Hl4ycyW2SJj0ndaCq0LktBpRsD3EOuq_UMjUZpcLuglFjX6tuf1zu9eQ1DOICuA7cX9qexWXrR4kEo8XhdI0QW7Oiea6KBHVC4BmxREPV1KWMg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJddAjwyQZ2jER_1O7DKDZhBM/photos/AciIO2dgUuZttqjotOh2dfq2ydKf-zhDwffhIlWJ2NG5cRjPLvuCYKvBTky-gvpxbIR1R6fyNCnbP4BS7dw6hg2woMtlD0CbEpQoapOKUm2OOBvQjqfNCBca4NopTYfymIWrlB_aHaikMk5z8Ziv8gCiSc-aYd9AmyDJQew15Ehn509ADxONU_TMsp8kE-9OeMIQC5cgUSmVW-nX9mbZ7CEGO440SZZRjjxeevODjDqhJ0DTr9y9fR2nBpOWBSEYR1FgLn1u0mzBcEM_R6pBbRJDQ3Ab4WN1onlLhak2225VJy0MEA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -495,7 +580,7 @@
       "address": "12 Teck Lim Rd, Singapore 088390",
       "place_id": "ChIJDyDiFuEZ2jERBuobsH0BAZE",
       "maps_url": "https://maps.google.com/?cid=10448634249813420550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJDyDiFuEZ2jERBuobsH0BAZE/photos/AciIO2ceSxF7O1Dw5QqoQVVjIOpa_389isQT1frniaB9hHkEIxNN5fmcxDQIeEXxTl2YRrkKJNXDz55BazDZn27vyz7NVLIfPl8XEhwvBXtIIqTLaWlMEtaK92jTYGSikjK-OjT3sOca6mGORmeV9FWz_fL7IyC7QhJw6eQn4h9nHKr0IlAXHcKrbnVKh5x6DwNdrfZaSwtkyOkIEcQ8dvCtAV90UUveKawenqRj4wZED4mEev6vNn8UAErPqLoTND4pZoISWN6ViRnKIq2lhUvbJEJWuMqVfimrbP3vBzCTb320sDNYJSCEtKIpQCbzvuI-avjtz9_Gzb5tNOHYQYmmtPY9xMIAwlS3elYQ6kkksAajJd7XTMtj9wsMXUZUmSESgHXCZB0RKa04xES6kLRmhC80OcyZhFsFKRLXCS5-aXqgGZe1a5ApiF4lD2ALyxv3/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJDyDiFuEZ2jERBuobsH0BAZE/photos/AciIO2cux-Nuxm-iTpOELzySC3RjmizSbpZgpFyltd_cJRi3hmUOnlfWvOeOrKMjfswvuN03mJBqeObkrOQCsyUo40_lmeL52U8od_BwE--Ik-fF0VUs17I1lS7A5ARs0KtyqBtRstiZ4leQSboUkb9fZrL7LpmJKzFmO3hnPTxGQOtCTqUuV6wXFQks3SLzXXcTlSWTUOe3ZYt0B6tXIFmMYeM-TOj9O9lnB9ImUpA5iD3cMsrcZypAhzDiY8bH-nv0m7zsUqd0HBr-mMemC7iCraR_QidPROUflRJcEw2B69Mxdxo3KlrPWvtaym8OJsSoH9ugAE3Ys9Pyn_RYTP1N95LNEH8ebFavAXxVzHnv1tdoc2uHoJDOCDnTH-xmtBZUN8qOEsFOqA3vYsWlCa8CzcY5fQ3VaJhBHiX8C99Oik7wLNB9yh7dG3MVfmrqXxd8/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "mediterranean_restaurant",
@@ -517,7 +602,7 @@
       "address": "18 Teck Lim Rd, #02-01, Singapore 088390",
       "place_id": "ChIJp-2nbjAZ2jERoFlLKG02p8I",
       "maps_url": "https://maps.google.com/?cid=14026239406924061088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJp-2nbjAZ2jERoFlLKG02p8I/photos/AciIO2d5henvMzKjmbapqYrWpIExWgvueiESm2Hgf2M4wg3_lnsQNtrSLGMMK5lYFrLVPNXNE4k2kozwLtdvDpuLaxA6ca4_rRKstznzHDak3oIOJc1a7AQIPankifrf9y89y2uz4heOMFAdJKnQkidwpdGSGQpxj_9eq4wYeQ1qp3K4qHSlZCeMYsWj76d1_mMS_o8UidXFyyE2dKtBlclHSZ8bB6zMznRUwRInaZpEo9y1nkd3mpSzft2n4NHoMGev1Q6L_yjLt00lsbuT2ys8SuFCPIMi6BToLi6VW9bhouCuhA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJp-2nbjAZ2jERoFlLKG02p8I/photos/AciIO2dzlfWTEfWmEpbqcQ4L9idS7SGBWPpJbMv31eKN573IxMJeI4JYcn8MeL5jNTpIcmZnZ6wBeGd_RYzJUweZbDf0rojVJaz9fJ8ljJQ-nMVMq3UvQyLNfrhI7-p9jjxkK-sfF8jR5P5cnBLx3SUz_hCZ8ep7lsaFJsgl5Nu12aDJeVPdnteqX--kTYyUfQ5PIqHBwbs3EUQE4OAjEzhuPp7UH_BFq8DKcPps_Zhh6uepuB4qYDpNp-wsN1K9r3KypCUdY3yMYLITdqnZpCajsDyVqI72G_1FO8d4lWXex7Utcg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -536,13 +621,13 @@
       "address": "57 Duxton Rd, Singapore 089521",
       "place_id": "ChIJxYl4q34Z2jERCmHVCw-E2X0",
       "maps_url": "https://maps.google.com/?cid=9068424524845113610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJxYl4q34Z2jERCmHVCw-E2X0/photos/AciIO2fCtPhgsXoJPG6B9ldoLxZfPy3okYhu5TvjICaejAOlOtPcobsiBN8eft-9-RG3KRALKQ5RK5ZdKZq2cwqfPycjbu9UnIIHncYAcRe9R_hoMz5WrEyAxv5Rfh_zLzVftaAjlT6L-9N2F1Gx8DaBMZOpkftE313X985WVNtd0zHJPWQDTi-ehVAhOHIHYw6xXyaRO_nkKyIEEc9_iD5ReSTo2nBcsb21VzTgi0gU9IrkaPSDE_XRUyzU0Sm3uJ6gyQC3uJo3tSMy-_r4-_A5e9rCmtcjPP_nrVEgEm-wjDeqZTIfr_qmVMzWyxR0GLJyM-PnFkDHh5KSjVo3kmMZknEaVBURaq3eed-BfC6TtH_pNvOKV4beisd7zKQXa9OW7SCXZpE_9PDIqS4a4rlMm1cbmbau7poD6eLZAcdQOqlaqA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJxYl4q34Z2jERCmHVCw-E2X0/photos/AciIO2f97Aih9xYMcRtt_HfyWHwfn9zwqIk0ALNnvKY-a6rQFZxCadWDo9H7Q-EM1Vr_a4-A_7cVv9Im-lHFLxhGecCPbf3ANzwrS9a3kwsy1B4-el3tnJsHn95nwsHidhPCZglQ5sKRrgkSj1A_fK3X-xRcAWpINF7NsIlWlNunyeCp5GU-l36FiLp_SfijFYBqGIF6umWxEWKWH9co3mY4z02fi-YlTgxamOFWQnteto7TaAmUVQNZPQgkm0lRGL3Tsd7ZTjiffdvhWtgIdJHVe-pu8NkdcPbqVJsBUeoZgESIPmWFsn56jhNbdbvKayVQ8XAdIIY8MjGHFu9A7nyz4Oj5mrKkpEsNgvFWTggUxMgGKJW8eMFW_L7_rg2vguaE0wYCUpegYZkJz9TS3QMPRPR23qEqYRiXhPwIAWfxpd8muw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "cafe",
         "bar",
-        "food",
         "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -559,7 +644,7 @@
       "address": "7 Erskine Rd, Singapore 069320",
       "place_id": "ChIJKyWPU_QZ2jERjAHHj9KCql0",
       "maps_url": "https://maps.google.com/?cid=6749350832435036556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJKyWPU_QZ2jERjAHHj9KCql0/photos/AciIO2dTWvP_z486MVe3lHI-EZVHe9X0XWI9fMm9psRO76rQM8ZAFgym97mez3g-45xwDZorLKHgvpzLmE0S28oDhwcUAJLGNyb7bz8141R6rFRZxgOKP1n1fC_uRy5UFszTqf38urzUkhHZwYy7dT8D4RvePXatFLlUosZmtOZqI-4s4MAnAWAiQnIbnL-XOdcBFIO7TyedMiSI0zYeBerAkO1sFSRsfUkZ8Awd0Z4nTnWvKsifFgtCyR-q4SsS5dUPatpPlphZb2y3U5xURfDC4qaQdpQtJ_upKwFnE3kF_jQd9A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJKyWPU_QZ2jERjAHHj9KCql0/photos/AciIO2fgfS5_SzONKRpHiDt_MglbFUXnyiUYCthHso006YyB26CzX-JciAlMEiN4IDMIo1iDcdXgZL2UAPJRlQE_ZCiqyNCMQ3Kp9rGZVfKOP3lF-Rpnghau36-FUxTzzrNnSuUZSYbMIZPeauml8kjVl0Dp7662HSaXLNyhtzpoxwb2y6ZTpVGZZd_7kOG6fGBk01aQUOYNW39wXUu4PQPSg8y0kTwC3Cz9PIHDAng13xR0YoJQaSnunp0mbupZ7O8fBxZPCvDnqP09Mj8g4a7V7VZErCIl1Eue4HDkMn5nxnUhpQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "wine_bar",
@@ -581,7 +666,7 @@
       "address": "Blk 1 Tanjong Pagar Plz, #02-04/05 4A, Singapore 082001",
       "place_id": "ChIJ_____2oZ2jERpXLgXEie7lI",
       "maps_url": "https://maps.google.com/?cid=5975887789200274085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ_____2oZ2jERpXLgXEie7lI/photos/AciIO2dWPeMZH34xfXy9iNqhWKKBzG3Erv5D6nNZW19EpEfh9_-B9CMhoJbtZxUQl48E3_D-mkRvjUR1luhfBBSBk7NbneUSiPW7x-DYAWHd_vjpOsAas_LlhqbrkZ1u4kYGHEEDcqrEaFmfH_1vG2HLnMIOG1ZMNNLcYFRxBV0Icf_MB2JK5qpRZZT9BfxjBCe7TDMVFdSAW79jG-n1p8s0XECyjdSTgo5gkVPUg3WRbiW21Ly9xOeAplvCtDuJT2DN3bm804CA5nbTEVzuTKz9KZaxwypQcvYmWG0z8T0w13Z5v4gHURo0bAZQZ79J09dysl3oo7wUgN-72mBSwe2tAiY6nAV7LQO3aILMnH8gsqIhFjvLMNrvLqoHzWWGOVw7RoDggYeQBUpImOvw5I4gwgRXH-iqfbuAjgVFR0klhtVofMyq/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ_____2oZ2jERpXLgXEie7lI/photos/AciIO2eHUFTga0MnNdcdAioneW_GqBsjL-mw0f_FLo5mQwlrizpsUpH0D-hNKGwnCG-uMLAjLXji3UZpbRH_wXlN6ZY6dkSIX6vXPXqu-sfafhMg8GMT6T2pTojHqZ9B6lVnRmnr2nrx5sniriXFgpp2eJHO8fDlFOh7Tfcx2XNrm5x3raySua5wngc1pYPjQUcb8Fhi2To0ir3KWdJKcv9joow9-SLWRhLaQXMhU1HD5wy5p9eRn-zaKuBiP-6z5n6n5Ovs061eipdMgXtCjoBMZbp2YpXiXW7D2_5-SwV_CTCvkoF-48oPABCU-qovTEEeOQnaiwkiC7KYoO0ZBelXMm0wYtB1uX0gr6xhKeQCvpM8Zwkm00VAxmi3aABt4xcgTOwVParAujozOM4s1OMvpssdNejXZAZ7UiIbJfj_AD69tR31/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -601,7 +686,7 @@
       "address": "114 Neil Rd, Singapore 088852",
       "place_id": "ChIJIRAVD5kZ2jERSSQBjlvJ9aM",
       "maps_url": "https://maps.google.com/?cid=11814570592538010697&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJIRAVD5kZ2jERSSQBjlvJ9aM/photos/AciIO2cFBqhqr59e_D1e_qEksPkQi8b6hLaT4tKxYkk654-FRP9-x5j50foNvlUaEyVvfH5tBSqaXtnBrprux8NjSlIzxuuBKXX0PxNcxwnQhsxW8xST4HZoMM_Pb5ULUg8p93cLZQjTqvkIMu9N9GAgdA4V_eSMXWo9fXcQOTXfmg5Ha9Kjb7crC9YEMZtwnvkrJfZSkLMCPoSwmEWBW-JcqyOgdUuFo2kFN9yUxcU__h6Wp8MZHU0-ZZS-4IotKzmAi0XIWcGl_YNv2mRwBt8lad80bT_X842Yt6BAv5bs_YdCcYSd8FaY9B5CO9_xDY5vRf8-hhCcUKgcknjmV1VkDbGbkBEi3a3TgHNSm7JLy4-eGB83BcPTdMWsZap6-2qzfH8UvZ8A5iqOpLqutELBiKTE_g1mjBxtiwpQDwbmUEClhp2x/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJIRAVD5kZ2jERSSQBjlvJ9aM/photos/AciIO2eBEyoVeHCvPUDhqS2ROovswrrK9ZRhkkQEIwMa-iF2y4LZ9ee6ZZSEBWfNE1VSlxN41eNilWkfoBaZGKnMLRjo9Bi5GQShNug7mxkdb21y9p0XO27dQuFd3cGzERpha2fRPxUlEE2-CBk_nOELeQTc9kqKOEJb6T8WG4ddc_AGDboufaHXWCCscxw0ZTfiIzClIiLI6X_qjtNdT2T6TNwxaVlyJQkfJ0y652TZR06-61kSUImCi8Qps-OcOosc9qRp4jzgY7a8N3YZEAZoguQF2Vw2SwaMUANx5wfIgv5BKf5L2mFFtE6lkVXgA26B4bNSOQnPmHWy_rtC1CNJTerLluiUfCIMFIXRt3HfcGIkZGONksbl1nMyMNGtc0s9sS5zJBBP1AAAnFb6SxIuyi6ZhuuYOlP4lPMLsDhRTBH946zB/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -621,7 +706,7 @@
       "address": "2 Teck Lim Rd, Singapore 088380",
       "place_id": "ChIJgUhApNsZ2jERO_Coa3gWIac",
       "maps_url": "https://maps.google.com/?cid=12042931585023537211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJgUhApNsZ2jERO_Coa3gWIac/photos/AciIO2dEt8Ol-6-RLDzFrYyhJMkbIaZpsowvTXBeLHFGk23nApZEUCufGsGkaDEdJNscieJHgGz42b1_MK3RQB0aRuxLpnVvW6tQ1rUnLZ6G4CHzxainvtBAvttRRgxA-UGfx1Tl0vjHD7HfaLtkH8JXkP5hzv4yW5avKQqFVmvKd0mJsQLU70_218cn1ujE7YHBEa6Px29UEpqfF-aG-HYEhpvr8cbKTDCnSRrtA0WoP1JgB-OhjIpFgaqqSjM1t3LZ0qpNnNjNVKfC9ujcq-bT_sfwYstVsBblSzTo9qM3H1jRz-IWSUnGTC_GEK5f2jbeczdYDWTGRbU_mbPaQtF2Wv-H-joG2aF4641-twL67aYA15gK-ECVtYDlSIKo7dC4hO3slZc89rR5wTK_uBUwa30RhvcHGe-TdSyeG067Gj-sufHg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJgUhApNsZ2jERO_Coa3gWIac/photos/AciIO2dcc4e2bYXAYRRRWrO45JtPTfPC0nc75YH_ZrhGHPKs6j6elilRIVkvyHysXZUzUbD0YH3c3g0S_I7CpkSolk95mgGJPoKkB0_knaycHxrDOFNHm9O1a-GmNkkU4_S0FD4y0OFqrOwG7Y4RxAhDbv_v5nCDeguUp1FNTvzXArwomcxT-OiPbIWyy4GrOJ-pSopwt-jfTvJhqMLA2_5UO3XtWOj-RUWRDK_RYTDDzKj1DXbpPfC_xuC-7_CG0qV7i_TiBJEmQ6tP5IUJSU2D7VO8iZhcBMAykScqnPPLFDpuc50ST1fcR3GOSHt_UOz0vy9OqywXY7PsnB6ky2BLCZbR9DTnvGrecygRukK8FGbxaQw7WXNVGjUeh6uzrzAuZ0cDR3QMuofgg9oDFcOk9eO2teQrVefwjsN7sT5ezxM6cTCe/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -641,7 +726,7 @@
       "address": "69 Tras St, Singapore 079008",
       "place_id": "ChIJG4TWKgwZ2jER1WItjoiCVkU",
       "maps_url": "https://maps.google.com/?cid=4996324359626646229&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJG4TWKgwZ2jER1WItjoiCVkU/photos/AciIO2dzVd-WVrsnjofmRdjVyi0YIujThAzrScWtiHhg1nYgCwhyYGT5HFtQvo7nbzfHN3nDP8Tk3nthIGplJ6dHwp9M5d4O7OaKmQc9H_cDQE7kaImZmZpTV_vHchgYTtUme7esvDFMZTN-HJffENme3inohrZn6dEFN8PZ-wT7fgQfkZnccA56-r6Zun6KmhQKltaeS_kmzivbQVsm5D_9Dg1nQS-EC1Cu2DE4CZGvEm3l2_hBO5M3rKbUeYB4dhLVyfgQcD_4X-Cmm-wtc32J0hMJCm5WpJct96WuiF5y58fasw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJG4TWKgwZ2jER1WItjoiCVkU/photos/AciIO2eM0e93u56NNDRe4xlBAlKhlXvwowgLTpeDQ4qSCGX-lX7FCwfJWahrgP3_kmryCVEBdB2qdfiI4fRwb82xnWvRdquKL3Yi4sMsjEruoYBvGfSlyMjTyy6KOo5HpCbv_HFfbcpLriieqTymPYyDDIc8oBaXbcvn1xNYoEf36zB1WUk_YQstXv-JAlH-pE6y5wScKs5ITm5lll-ZxA7pUMwyHgdyzj-9yf5zG0Wf2v5f8olEfqwImCCWYF_ncOyKG5g6KFf5JIflqC3KV25OcEbvfGr9LVxA5jDsa_bBmaMhHg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "wine_bar",
         "bar",
@@ -663,7 +748,7 @@
       "address": "33 Erskine Rd, #01-08 Opp Maxwell Foodcentre/MRT Exit 2, Singapore 069333",
       "place_id": "ChIJ915J7q8Z2jERfZsIFbjHJJw",
       "maps_url": "https://maps.google.com/?cid=11251337362519137149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ915J7q8Z2jERfZsIFbjHJJw/photos/AciIO2dWJ4obI6kA1H6ZezMZOZizUGE4DQzG9FaGOa4eGHiiHap1ZXcG6l0OH-xNnoYh1PGETjMWJfxDmkltyx5l91IaPkWBALSCxxPs25rmv9uHOMI-3f4QejytVJRXGWFVLH3tuHC0vY9WsG65Ib3T9L8kge7_AL7dTj458Do9m4QsEF6WcXnhAmkNi1bZVK7j7s1UxHKXt4YooNmru27vVMbM5KtUhrNS19TkHdi2ZpvTgEh3kRagyrFFrX_tGTJtuZm0S_QRqvWlG1i_d6gwLpEjJU8jjxo8a8uxqxR6CMHHNIiD01O_pzvXV9AcqG3t7PcHbeQII7doXnC5iquW-QpLTmpL4bvb1vDoKfnc_FNVU_gfeDGhPe33uP8VCxwLPxCLoYmQWJzlNZOSyfuRfPszJxWGo6MX-wAOyJqMCs5OkfoBasJaSJC9sXit7ilA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ915J7q8Z2jERfZsIFbjHJJw/photos/AciIO2djOxALzj5p8KvdV3LhlyEK6hKVWHKELsZT90kzV8KFwYlSgvZ3bAp6j5SZBhHTtsU1TQAuQ3nB8sVcmO4qBp9vD-XtlghkW5wBkXR_T6IISl8JXc43fMDwbgrPT4n1F-_g2Dj0FVKDh8D0ejRGVhZyRi3Ic2abWbvZ2DfA4rTQSJP2-Ss1Tgyjv7OQJvRWNobyCXwYrYxk0bd1l-ZsQn4CbXdvk2ou2LYgyoaZNv18I097l4GNZ2LBVUFKb8ez-NPhfGae-DV1g88tmajyeHIh1F9cM1-nsawcO0AKRezPbv8vN1gU8hOPFKZdTVOBbTmhbxo1quYdvKsMcn8zX4hrFHK2zstW-WTDNw8EfY3IRzsq8ftlOJa0Kl9AMyKztVYD8bMHMTDGxd0KdIlUHxGC6_auh1fvVS8aOXbMzMq8NiHzAZPvUCDYEApXiCFy/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -683,7 +768,7 @@
       "address": "1 Tanjong Pagar Plz, #02-06, Singapore 082001",
       "place_id": "ChIJYU1nZjQZ2jER17lQGBJuXDw",
       "maps_url": "https://maps.google.com/?cid=4349472364129466839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJYU1nZjQZ2jER17lQGBJuXDw/photos/AciIO2dlq-FFTzYgDJK5jKj6fa6ZET7eDGkbrgKbXcTY_pTqDclrLNw-x44jiM9FL06GrkIdKxwhYd_kKCKekN5HcAyCNQjo2gSDpBwsPJuxGLD4jqaYArT9dHF_OulBvWF925HnJ1-bE7OmwUVLgfIq178pv2U9vBYa8SUO40F3bjuaADgE3-_eS0EReRcG_L7OWt7FdmGYsTB4uuPX44fu3_GNIZIPk9CCIVfp1wXuTDkqYFdqMGMudP3PV-yL94cSJ1w_DII45K86e0Rve4YE468PwPOZoZdDMSLTypX9V9M/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJYU1nZjQZ2jER17lQGBJuXDw/photos/AciIO2dSa2B-qkdQdAjazwtSuVUnPXRTxkNPjcrcoID0q78oWnt8a6Ds0rBaFZ013nRrPOYAZhHmr1MIwb1qNW0EaaBeCRH5rJMLaejIAxf2H580tIGhvXa5YFrXRrIaq1isUdc_IIkYoKcLd5iWdvjlZ3InPU8I_Id6w1kD-dSIudQBNG5seOcsdcUSYVDctGqtkCE9eFzvRwSDvhtXB-7vEUXQ3VT5KMgAl3cWsdZdbnUiYvpdP2ZZSzuLclSpnvrPcTe_nY3kPkaKafgw6ECM7vQ7o5FtnCBMkIMPGY8FK2E/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "food",
@@ -703,7 +788,7 @@
       "address": "252 N Bridge Rd, #03-22/23, Singapore 179103",
       "place_id": "ChIJmwuTElwZ2jER0S-9XMeURRs",
       "maps_url": "https://maps.google.com/?cid=1965140396392394705&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJmwuTElwZ2jER0S-9XMeURRs/photos/AciIO2eGcOWaH9eUZyr-B36I-mx4nGj_SeTche0dvxC2mbk7Asp5LHuzweUmvAP8BxGHAHDF4AV49Bk4cvNitYjr_p3hNKb1N35BxAN4Vtffusd-tt6FW-B8DeUoKXI2JbSmiPAh6mIl8at9sWpn9IrXg3Cpf8VFvscNl03kAmAfmjLm6QNh9zkSsSx7Ow81_ZNwCg59SuBH15DOCdiGnjUAR_NiGcm4kuzga5d_bU_eLESWkMxtDnarAA6ax0THpAKGTFJIJRYR7uU5qIBZIJecLE4Q2XHDZ5eCGD7xt5gQ70aESqYWPEmreb2_nBrZKLZpbZeimU9pNzHD-dK4hSwpWdxXnDyK6wzm8yIBQZsuA42gesO7x4vsMvXdXrdB5Xbb4EMEgoRsEIOi4pqw8DERLbbBe6M4ZREZUBqkOTPgTeNuNXb31lgOmuakTq2TbI4z/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJmwuTElwZ2jER0S-9XMeURRs/photos/AciIO2fusAMSfAdqLDW7eWLbIG7bWxZfvNG88GQN3VyDGAMuQwnZXVwjzS6pJty8TtKoZIjIyM_SF5sU3SzKz9fAIqhDCJrktdSnqbpjABrJKb6Mn-LPM-TUO_BJBXCYlj8-hXVRrkioQPGddL3yiTohoYAVryPgqdRHbG6n4LXqyhAP-AEAVfzPFUOEOGcC6ETksPl_M0FFcGJkZs88KWum_HBq2OGrWhuRWd-iAkq3FSpWghSlB-FuQeYjvnArokJxteaCVaqvA-qnLXBqaiN4DGK-_udl69lwMrNhq8G2Ctn6hw7HYnGm58xLvS4V5AjVSZvRzNkcU9Pn622YNn0MWKpbB1bf3rcACxEKMCClTRFuBnT7VtMIm9ah3whGxNmzXUB73K4xW_FG-APEWGlA2yGThM9ai6tZpiHnpal2QjeM2QqF38MfCN_tb1kZ1eQg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -723,13 +808,13 @@
       "address": "6 Tanjong Pagar Plz, #02-03, Singapore 081006",
       "place_id": "ChIJ90cudQAZ2jERMAIbdNhXsqY",
       "maps_url": "https://maps.google.com/?cid=12011759743323013680&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ90cudQAZ2jERMAIbdNhXsqY/photos/AciIO2cBVAP-Gdbno3qN0e6dsdbP3er9veVRV4gvNEI866wUin4Bm2Q5tDBxqPUqVFUfXpm3n7ImmOP6l9HE5DY__TFQRV57clXtsESchdeXgDQbtz6FAiiZtleRwb3vMN7gWTr8PVNbjBB8AqmUJyl9zzLKX9lRzldNIBPFg_YOQg2ciMckCjYGjKs-ipILhS77xnT2uRYQf2do7fF-UY4zN0kA7NaFJwl21BUS2DA3tk2wYVlmctDVQH36N5uoNo4qTTmctsiqyxmxIOBm6le8e-YoM_RH9pT2XaPp09qfPNbaCFSDL2HrdRAbOciXm6lPkiznUtJ4GYXOc7PpT9RzjupAFJ_67gFOQJ5ynoURxLrUS7ciyHDQTdv3bKwC5TqAP9xcKyN-PySHEG9bu3Mhxf2D-YmzzaZNSSIcn4aYwfU92dc/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ90cudQAZ2jERMAIbdNhXsqY/photos/AciIO2fNoTp6Wvh1HjedJsOv_t0D5gZulSahSwgxBz1yCll81IUiETE37Qa0PBPsC_EkZA-4Dce3077fSO900j13NwH0gVhMJ9giqk-aJUgPubftp1vthMV1YS1PvBqvzJ_vHpB7WRT_JsBSrolq9pL85Aou7Z6Kq8CaXlMjTcABCFggGlJnM6X9xa6xHmMowp0S5Tblt6lQwiEF1_TTOS4rNt-aDCbjan5J5IlQXr8_vOaEUvD3Tss0KaXHfWWibbE5eHE1P4Nufnp8rvZm8ld7-9gtlESOgj9SwAKAG5coS6FmGFyZ3KjmTZ3JSAliy9MU4kXcP7zgvjNrOn3-SDv1pPZlrQnjUkYRcAnoZPNRV9yVS7-lQ79WPCoa6F6io3BFweZaCRZjpxiOKiHdgk2uFEWmX6jFtzSibvt5gTbST5VGAa0/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
-        "food",
         "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -746,7 +831,7 @@
       "address": "1 Teck Lim Rd, level 4, Singapore 088379",
       "place_id": "ChIJBZmshWAZ2jERzZy8rgqlxvk",
       "maps_url": "https://maps.google.com/?cid=17998254426132618445&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJBZmshWAZ2jERzZy8rgqlxvk/photos/AciIO2caKJ92LhHHsIeOYlmii5OiFa0hiiuVfpho-gT2OAysfYQiK7YOz5-Zg1Cyoj6mZastPF2yEMVIj_4gsxHKW0xiqzDb9KixiuNcVEiawEg4CRPVHkiS7HgMv4Dj4iJV3LW3HCOq0IXenoGCDnbeMdPA--8HEmfKZqE2RJDDDPNXI7uFYfJWXz6jZfmn4sV5ws8gKvmNZ_yKX-UGnqI8JoTD7RaY3JrUPymmGwob7mugke3BuaKuA5ruXVlul9yaU4O4v6XcL7eghiBCWa5Hf3BvKwmyIukKh24gVl8MfzHmlA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJBZmshWAZ2jERzZy8rgqlxvk/photos/AciIO2eKkIBqUb6TTu4Xw-_quFxs8WiYwNaTt8Lo967AH0to3xqtcxiUJ1WDAlgpsmOyltKL8FeMgafeAZwX6qGbN8_1dmiw2KOZ3qNfL_L2Txb9MVtfem1bGjIQ1a0ezAf5F7kK67-qxBbt7yIxVpP4J-ENmqhfCkKNpJ3yc7jne3lyBbTs_DCifNbfBZqyxnxoNdH-VO2kb0fFj3OYQvE1OQF0PcpQuLQWlszxctBuh9QFiWAMR5lmx1Vwszb74SeCTcxUPyMkwL2wBSd3R8mkwddKW-Tm-ocp_NfQkvcr5eNGNQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -766,7 +851,7 @@
       "address": "391 Orchard Rd, #04-20 / 20A / 20B / 20C, Singapore 238872",
       "place_id": "ChIJO5l-8ZEZ2jER1ZCG2A5mPj8",
       "maps_url": "https://maps.google.com/?cid=4557192086893793493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJO5l-8ZEZ2jER1ZCG2A5mPj8/photos/AciIO2ext4sqZRzmzWZBJyCdlFblEkkp03yoLP1T5faSTG1JWk2bwJoMXrEgeM5yjlTFoUUFo5oeqXgi8HmPCamvhbt5NGvOsMpjMlOTbig4_nW652HFLegnqhDSQMWQuVToEY1c94EamdvT0lIcFgpI_XlrlK1oykwWsmXfFhfS_Ek-MROq-BmgPhfbwxkn2OaL1ApuH7tCtCT8Is7QHwWDQgXDCQy_6KvZ-81v8S1p9VOpnWaY0xdpgctPoayrRQmz2JmDdCUIo5wxeKIeyuo6lEsfwdTLseaNc7RNHO6Au1ErifM-Vh6_bf7XZweDvguPOSM4fCp72e-9szEfY_JYJuP-7HQQe16lOdUfusp38UVGrki0tdcDfgjtraaqMiQGnuxxLoVa113dD-ryK1s5DXxt2DvrvIk6xyS7UH9YWIyIxw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJO5l-8ZEZ2jER1ZCG2A5mPj8/photos/AciIO2emj1ZF4GCp4Y-87YQ80tburu6gDW9qjkqd6Sfq0L2Bk6w4D7gRDwA1Wb90obw0RxBXK6TKdXCIwytMCGT89lrK0B8m106o4B5tGoTiP-pNzLUzsDpVyTSdPlQe7RBOw2-QEHgodaZBAskppIf8b0cZ7klcr04PAzRvxWW_I0we5z-qb-y9aX2doPqiIcTKzogqS62InO_LU8u9YkNbH9U8SbJePLHJmDc5ltyDzz1DYw3CztV-1LDPeRFETqZskCZMRs8owJDLQJ2_MpG63RDWG3e3bNBI3fLrl9qBcpobI84xju1PsMIoBhOrUyEttGy-4QqqdxPpyIkrI6CVaIiLkYeikM-c-JUk7sNSS_LC1zd168RDT_Hqp6b9qfQn4f477w-FT6UkMPhXz-U5x9FxDhr1iekFXd5A_aYcWXC6Lg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -786,19 +871,19 @@
       "address": "202 Telok Ayer St, Singapore 068639",
       "place_id": "ChIJ83SVew0Z2jERsfl0iOB4Pco",
       "maps_url": "https://maps.google.com/?cid=14572936874998167985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ83SVew0Z2jERsfl0iOB4Pco/photos/AciIO2c4tJHpSXsPqgx1myXU3z-7yywWaJVVRHWZu1VribC4k_R5OPP4nYi67Uj46tFyMMWmKw9hhNJZFABUjXe4WB7IT2JEInzhAG8k4zsuQHEuFR7Ryir4DxTNQWjlgqM0mG2mQYvRq_ray-ksqrRqKmqEQ4MFe12hOHXRlWVtFA0aeL9fkS8WbHcJ23lNJOT_8-Mk1jm0KavHejFVOmXyIH3thWiGcm6z4tnjo-XiCZ9gp3DAZ-82JqT8z5OOu4nAOvoizddjALQ35CqxKjAPVCtMvaGrMKN2WADX43yMsnCBUg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ83SVew0Z2jERsfl0iOB4Pco/photos/AciIO2eaiyR_Z3SrJ7f9IcMX6Obd3C-snxVVLO7-vAGCO-ndR2u4BFE4VFQBe6P0AusnyrXys4dm7Zo-BWULsHBY8TzsAM8y0RWw5m8e7Auhi4MzvEgOvzdZKKdv49l-zA2tLbBgx-dvKhLQBcvAwxZnzNgyF1IOCzWIbVs2x0EVfqnRoVO1i8EZVzoZdJKc2R5w_1hc9nODJmtmFTPISNHUwASg700aOPNc3j9-RNm64G99McObvoVQZ8ut4bqoMkZW7YZ_w-jKNlrlfkFBpCJpFfWTkaL0XDS4ayOnILILT-cVAg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "brunch_restaurant",
-        "liquor_store",
         "wine_bar",
         "wedding_venue",
+        "liquor_store",
         "cafe",
-        "bar",
         "event_venue",
+        "bar",
+        "store",
         "food",
         "point_of_interest",
-        "store",
         "establishment"
       ],
       "primary_type": "restaurant",
@@ -814,7 +899,7 @@
       "address": "204 Telok Ayer St, Singapore 068640",
       "place_id": "ChIJqRiu0v8Z2jERvOTymJC_loY",
       "maps_url": "https://maps.google.com/?cid=9698149475351192764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJqRiu0v8Z2jERvOTymJC_loY/photos/AciIO2fcphRuuaKtVpBqJB6gHdy_Bn-JayMFlDmKmg9YKg1JQLI8xTtfxnPX-2qfrIdT5S0_31OzXkWLyg9w08g-1upxvld6Hl-lhdpVTP3fMwqTDV4lBWJlRvLLIddr8cBruhBRbLehSOD1guQSHcRUA-7kPaKDv68WmuMupK1kF4Dk7pAsUaqkIVP4r5nZIWcJ1NMHrF_ygqCy14l9PALfV8in847SMWpxqT08PHEmUXARzoSu_TYF3Mz13FSymLDa7nOEyIZe2DbOhz3OrNTiGwPk-bi0Y1Nbquede9na94sRXF_PjFmqzX21BWrNryf1ljejbMfW8Cm8F4pwKKlCm9QbL14Tw9yxwMpvaaJzj-dmAXdtMnDbcLn0SjWFew06AkLYRCIWmR6V5vKhd8XHvoSsryypRX1pYShyDaBKWRVYgJHU6xwoHIcDO9jWxA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJqRiu0v8Z2jERvOTymJC_loY/photos/AciIO2enNFO1ynA0dqbntRBhooUWmxRYUOTzTcDJS4mBPDkG31dSDS3tByt9qMx-YttKhTUzY_BaGV3wRqnQjO_--LOFnlj_Scxy4twjSdiZLdnL7n6u6yFYE_E5qy-fNV_7FiPvT00FBlseUqDc28HzjogQ1r7LVy-vH7XIedwM-gUG2UyrFQtILDLyL11zkvqNLrp8NHNpg1z8WNjyF3Qc2a0xcExe_ui-WqrnlvvHwizPRjKNrqYfeRUpP3e8j6keFvii23nVPHBE-eUf1AERuVQu2J-nXSglEjUKeK1Qc4Kk_eVsikKY9HbZ00ke8ytKH2f-s2uJlMHUfkSofwykcfsdd5iIlUShyo-gp5BrHkfUkFO5LPa8lyPkl6OOQ6nxCjmeVcsTnj7vAS3n_f9-z10uB3szqoxc999rziuVyoaZYCal2x7-c9MXgb147g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "french_restaurant",
         "restaurant",
@@ -835,7 +920,7 @@
       "address": "4 Everton Park, #01-40, Singapore 080004",
       "place_id": "ChIJE7ZtOWwZ2jERFcasWYmljJQ",
       "maps_url": "https://maps.google.com/?cid=10704112423686424085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJE7ZtOWwZ2jERFcasWYmljJQ/photos/AciIO2flGha0WqntWRjdjPrK7sWQVd-_Ke7NnKSrZLxMvXQ-td3MbVxktPj32wg09oa3tDgGNdc3eSqipzOVleCUe6Jawg-Yf8L-gY3w2VQUZtJQ3GOgHYMjLRdhfYAIanJC2ApHjvcH_Hkmg1XW6gQ6uG7ftEAd-fcT40oUbNoevHVfwzLR6EZhyAntUMicJP3VvSDfGc3V9k1UAeaB6bwuW9f1VtlX4SPDk96D2AhhbA8YwfRuuNxUDyyNQIHa2qVGHvRwLnTTgacwSMOIAIP3yytcW9UTy5M5dKzjLmIGwdF1Wg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJE7ZtOWwZ2jERFcasWYmljJQ/photos/AciIO2fYP2t2CDpwFn5xzDzrcdKnal3F9JNlPv9ZKXAfuZ78WOb-XOXyrQDDNjULI9LkIsk4GXaL8E8Vio1Tv8vJzNSK9jM_gZ-PweR_c8xR42PpTMu9GVhxEfO9gYGVrIm7a-UoDJ9wcexUqComGkfQJaf9mO9SzWAFOJ6VXXOjFFGW-0T7pBROG1RRlvWEgqFhQ8K9U9CAuSwTYJ0BEPwpvnT78kf6_ejjDcLvkBQzNAmoHlyijdiBOTFWZ45VDWOM07IPCXvjDsrwalEXpHHGGHf0a9TcgmWJaPtu6h-3Azgs9g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "coffee_shop",
         "cafe",
@@ -858,7 +943,7 @@
       "address": "165 Tg Pagar Rd, Amara Hotel, Singapore 088539",
       "place_id": "ChIJ36AdBg0Z2jERvFl0QFoqZ0E",
       "maps_url": "https://maps.google.com/?cid=4712782102183303612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ36AdBg0Z2jERvFl0QFoqZ0E/photos/AciIO2fpSgtsj64RjiUC-m9audWiRwfRcyxg5AuE9xYX9s0-5DyJkupbo84AtYeCFmAyz4gJ-2eLoA4cQVoFb-cx_9Hd_9NWzm4u-fZmhNLdDKTNL00D4dztMkwTRvD-sjg3mrHLubLEcf7gRRSeHinZE2F7nLDQe8Th8rTsOPagpEg4GkL6aWhM92sn8IGhQFw2iiWcMMrvO4tbskBiNyGP9dDCICuA-uEPyrHxqdfRaF2XXDg7dF-XaCgEPrrWGKc1PlrpdymmQkQAXL0f7OlPLwTkL8GS5scHr8g9K0mima6wiw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ36AdBg0Z2jERvFl0QFoqZ0E/photos/AciIO2dTc5EY5hyCFN8_EocuiWR6ffmUB9CR_y9GJSycBsQNl3vQDK5wn0D5vP3Q_2WHbI-v5uhqd_Y_NV5So0dT-tg_fcLvkUEEUnYEkZN4npX0B1-7qprR_LNzseC9G2ykv0EbePJcuSZDkJV8jWbafLMvyxeFUmpRo8aMF0tsNw8kUH1DLKTr-QuCrdtaodBBS21wOIUum9bsnsYFj6hkVYHeaoRj4CrVQYK4sbuus1u_gOukaIIj6tPlsPifUauv6YLAq_4Xh23nowN2NGr3ci7Qe5BPGPGl4Fdbo3yREnj78g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -877,19 +962,19 @@
       "address": "39 Kreta Ayer Rd, Singapore 089002",
       "place_id": "ChIJr5kAGm0Z2jERTGZ7zgo1KDs",
       "maps_url": "https://maps.google.com/?cid=4262715367836313164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJr5kAGm0Z2jERTGZ7zgo1KDs/photos/AciIO2foGkN5lTK6jXOOdB8KofQbpqbH2doiuU8J1eKCm-YsngCpeXYE4sjhwGjnXuOvyN0dD6QegWk5qaashIrEzPqWszJ8Ynb6fNn_poCV8YhkkerbecNLKwFu69PsVSvA6Sf0DwXR3id0fEvEZ38yJRmrO63LT8iIPRxquxLLJNApJBpcy1-wDwP6VQ4hhuwjymEM8xYZ9BsVIp6G57ZdP_7qqasmxOunGkS--RH35FRXwg-g3FF8-s0w5Xc4a2oAE_8MORHyqfoJ52tJiS8rMaLuZvSOv5k-2BaTCiCZwHHKUA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJr5kAGm0Z2jERTGZ7zgo1KDs/photos/AciIO2fEqi_Us1JFaIlI05n8Jm7YwXA_q-wBnz-suXLG_lf1btkEEwByON_2TtOPbjYQKJD_eoc-W2x2spIuRxird0T90OSkXYuQAxjriS8cneEFuVOj0vOLULJxUW1_kOtNV4MttnktlEjzjJd1fHcZ2wYuvBLB9zmrEDMbqEapl-foPSR_i-0QZx2RxEmvOTUDacmGPhFnIuymvkqJnYf-AqNX6rvba79rkzeUL6va7Q8pXGz6qmkKCiGLCTQa95ZbJaMEBNJHfuRHMkxb17AHq18fmYPoXfRFDD-K1oTq-g9YYQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "french_restaurant",
         "wine_bar",
         "dessert_shop",
-        "bar",
         "confectionery",
+        "wholesaler",
         "bakery",
         "food_store",
+        "bar",
+        "store",
         "restaurant",
         "food",
-        "store",
-        "wholesaler",
         "point_of_interest",
         "establishment"
       ],
@@ -906,7 +991,7 @@
       "address": "Guoco Tower, 5 Wallich St, #01-17/18, Singapore 078883",
       "place_id": "ChIJMcW1b5QZ2jERcj4VNvBUdoQ",
       "maps_url": "https://maps.google.com/?cid=9544909850934591090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJMcW1b5QZ2jERcj4VNvBUdoQ/photos/AciIO2cnjMiZ6xZluaXGf_2ZBKAcGqI56M1zxHqySEttuZQvjFnp5f2d6Vza3W1kaEpS97Trqic3G7IeWJXA-D87awPyuaAaa89WSlwsY2T6fGak4TjurKmHvTdHLXkr_FL3S48XvTHyTlu9d2-nvVLr_G5MUM66QuF5UvUqqjxbPcsBo9TOCmgPMhKidsl3MEbQafRzLk8M_kEmQ0PBIuI3VGdT1czfdX4PBRX_gnU_LY0b8kfhfGg8yAx42aNWPu1WHLJX4abWE44tf_G9zXY7ft5DH89Ip9Wa7I34GwwsOH34LA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJMcW1b5QZ2jERcj4VNvBUdoQ/photos/AciIO2fQQY8wHsMYpPfmOlCFcEoJ0FuziGyCeyY849O8fDI26m10hgzSzx5RiTEchB434PiW3Iy26q2Mgl045ZIQR4x15i7OmQcHVdxV08H4zl8xKJkN6vZm0Df9CjQrYHLaArx3FQygJ6D5mIDBIcTU14lLrx7ZCIXS5qyJdJqejkcIcuKyuSQINdX4DUlyqaZQVHv2qTOZmNluuXWM_8BeUEOfsW3qBuOpZOMznWcgxKljbW-FGgI7D7rJINHXLf9zSAb9lwYzTKO2f2Ta-e2gh6H__kTpDVq_cn5QMMsi_YCeRA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -920,13 +1005,34 @@
       "is_hawker_centre": false
     },
     {
+      "name": "Native",
+      "rating": 4.7,
+      "rating_count": 851,
+      "address": "52A Amoy St, Singapore 069878",
+      "place_id": "ChIJeZtTZA0Z2jERd2U9vPqi2Ds",
+      "maps_url": "https://maps.google.com/?cid=4312375840990913911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJeZtTZA0Z2jERd2U9vPqi2Ds/photos/AciIO2en-MbCzYS2YdfxkKIr0JqnP3ZUN8zA1mcYo-XvPvm-7TMfVpP22MVXqqH9FhlLUpNijWD0DA-BUnDR5xQLu0kBZYZEmF35I8CYMMrJVxdBFoYa-mKRZdLbFvf73ugCKJB3efy5r3bkXbgMiCQ8aa4pQeUAuodYdbOXrzREuI0Pb8ydd0knz7qEH6K8BLzo7evU3MWNRP02oABGGlbNSCF1huGm79nqdNTl3vE6vDbr7MZzx3JhbIVio6WLs6nNjPBBPIlgnChjoEwAhOLNOLWb4YDWO_wRgjGRWhkjgwcJ9w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "bar",
+      "lat": 1.2801255999999999,
+      "lng": 103.84686289999999,
+      "distance_m": 597,
+      "is_hawker_centre": false
+    },
+    {
       "name": "Griglia Open Fire Italian Kitchen - Craig Road",
       "rating": 4.7,
       "rating_count": 830,
       "address": "37 Craig Rd, #01-01, Singapore 089675",
       "place_id": "ChIJy910uegZ2jEROEQA2F_pKzg",
       "maps_url": "https://maps.google.com/?cid=4047585287977583672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJy910uegZ2jEROEQA2F_pKzg/photos/AciIO2ecaFJZhxwNaeD7vVP9LsY27mpt3XdMoPstuaMRr1lTYqXigKiPrq5s68_7sobbGqjZBsQDEZU38sHpaKE0MX7WgNTp-K5wLjDzc2G6ssg6XBc9JVJMtaAd0sAI5LqxQjhwCufla_N1gfaM3qR1ZDOB5sJg82qcRA3LNJYMb94o9nBvgww0hAW3fKsMcXdZdlj4cFkCP8yMNetCB1ro1aEOrDH87YNl2UPQ7UmljVgexQwo6vuC5OjthT1u2qp-GfT9tPg9CPyPzrgBwW-kVXAuz8-MtX7qstr3K6sbqNs/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJy910uegZ2jEROEQA2F_pKzg/photos/AciIO2cH7HZXhXNPKEf18ugG270kNsTTrO4pYZSO3FUTAAfgukj1k4pTL-78CPPx9x0TEVPMqIvFNnw_YQ4YlnX_u6kKz1OJXHIhK2TOG9hus_KVTWK1Xj4MDXuScffuxHKwMBPBVLX0XlSCEE-YzCzi51vcu3ysiQxr6xJR297TYlKdSLbDIPnLWYL1nxbd1VryFGI6r1E6OTGogNIGNHZPhnpx3RoJi9FuJRXNfxbKXm6XBN11DayAe0CdacbLMUmEWfs7z3ZsEULH0fhKXm1F40FabhuGuj6i7pybGb1p2Mk/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "italian_restaurant",
         "restaurant",
@@ -947,11 +1053,11 @@
       "address": "20 Craig Rd, Singapore 089692",
       "place_id": "ChIJ63aALm0Z2jERphNXNlGRGRk",
       "maps_url": "https://maps.google.com/?cid=1808636503356019622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ63aALm0Z2jERphNXNlGRGRk/photos/AciIO2dEVu6UvnTP7ukOnToXyMPP858nnU-lj3ihTU8eCO9ZwioGviMX3XZZ3m4a1WuD26IPqy_hMe2KeE-NbvA5IMtMei9UaJ6EMXFBwJHGwJqgOZgNNRdSO__yHSwvOM3yHtlI_-O8bwBv2dKEwuBOR-BskyYU_P4so5Ughu9i3SbtPetnMHWHfVDonoCFY82J378Wf_FAt14JCTPt_gcbS9NZYPwvBAUIoyiPl9_sqLwJMpA09ZofY0fyZOHvCTrL8458PHlvSYultGfA1S86dLBj5SLjZexB8r3GT2vNwWdcbg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ63aALm0Z2jERphNXNlGRGRk/photos/AciIO2cL-z9MwR89jhVVfHCXCq24b7WLjMVg9TN9AsrDWDoZf3CP5UTy1piyYzKYRvHi99ilXPHHwze4JOAuYGGhkzxzeuusCsPJSa1JKIyRP8dXdRC_7ZdCsDVCppg5tsAGCj3tdfdpQuuz-NbV-AbvnsGyrEO6tBGCa2fON_k0DgcKsljYMlHIlwvy7qBXD9x_MpZ1YQsHDnQZhp0w96eNkN4_C32rZaelGy53P9wtgoBJJ50uATZFxpq3Z9Ed25bv9ovRpCK85ElxG12FW1M8kTqGwdii4xyn3mJjXyG357uugg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
-        "bar",
         "japanese_restaurant",
+        "bar",
         "food",
         "point_of_interest",
         "establishment"
@@ -969,7 +1075,7 @@
       "address": "25 Bukit Pasoh Rd, Singapore 089839",
       "place_id": "ChIJs0UsFaUZ2jERbJL9-P0oPiM",
       "maps_url": "https://maps.google.com/?cid=2539512311152743020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJs0UsFaUZ2jERbJL9-P0oPiM/photos/AciIO2c1Qpcvqn0UBfHhqzf89enH5DJmQoFXPpKEEse-toMh3g7Ob3DN03IfOSAbJ_WnrzD70iBUo47talBXvND6yOm9BOxdRtx2YBKcXKDOJj5qUcDPtABOXpXx3qF3o4wZ_SlMJnPPra_B5e0StY4UNRmBMZByJz9jZ5oQoHLnzUjDx7w1_ml07UVy7MVkpnbDqEsxvmUAsLFzs-Jy2xCvPjNgydAvo8vVNj0DLd4NfJujS_zsqW_ZBFQXBVio-L3PFxjdqpB4IWLlIOFYlUNSyk3OoY6DW-AOLm3W8fmKdlPDvheRJCn17oBZ0vokQ-0n2PEtHUGFt2-yhUbWZldBJhQaSoUS9-IcOQYedamihVWfrgDTYh08rMFcgypTENeSaTqTIdKEkS4F4275dA1TehJ8ORsUYGlmY2zMsucA4m-pWg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJs0UsFaUZ2jERbJL9-P0oPiM/photos/AciIO2f5_eh5VDm2Blkpc7rtVOwWbU233eae6kF8d1M7q-r-UUt-TdKeriNqMAhOflhadGM1Fk8BcQQqKmimo9dXoX6ogcbHbm_ZAQZIyojYOy1U-qsFiKqlLADl9JXwHX9YKXAolqcPVIKVjcZLjyEblwOL7lLfoI3mIvhVpYwudYx6NZdWG4y-izpDHrntll_z06Ff9kFNQ9cuTBYxS37Bw-g-aUlDWgBrMRC4YwAoyFz6MPgf12_VsOr5wr-AIFetaxQBdanE77wmgC5ntUU_UslvJAdSSqzdSY-CYSuYBNaXq5eq6f8W6E1EoKbxqUWDNDz44r8EO4I-zBOkrNzffu6lSddEpFA-GyU_Ja7iedJDp1MJvgmkZjkNsFINZUB7adZFhB_J5CMltNdH07FhWduqJDkOkUazFFGNiypTKKiSPg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -983,38 +1089,19 @@
       "is_hawker_centre": false
     },
     {
-      "name": "Taylor Adam",
-      "rating": 4.7,
-      "rating_count": 386,
-      "address": "1 Raffles Pl, #01-03, Singapore 048616",
-      "place_id": "ChIJmSwesA4Z2jER_rstFi_9yl0",
-      "maps_url": "https://maps.google.com/?cid=6758492569500236798&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJmSwesA4Z2jER_rstFi_9yl0/photos/AciIO2ep9Mo_0Mk-Opy3dE7XvEGVDLE46Sy67tgqgplIglJ43OXfMIpU31-7dOoyIcApVZHTKV8Xc-lWqFjhG9rPFAZ5hqTJslrR1_YhE7HW-xG2OSIYQB9xpU1S2xna_j9wkilg_7hZHl0KDZHHTYiTV_iZ73pRLUuicuO9c66ypcnU1IaSDcyfa6CTse5jDS0jKB6R0meecWK83u_xg8tg2NzLrtYHZiAMsicA22RWhDPiEDQiRJADj9vy73fN_t9jmzIGmb4Ww9OvMNp9GJQ8P3XNTxKI8QPw4qAQ9-ypBFwUtw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "bar",
-      "lat": 1.2842719,
-      "lng": 103.85110139999999,
-      "distance_m": 1208,
-      "is_hawker_centre": false
-    },
-    {
       "name": "Praelum Wine Bistro",
       "rating": 4.7,
       "rating_count": 375,
       "address": "4 Duxton Hill, Singapore 089590",
       "place_id": "ChIJ0bgRZG0Z2jERyA0OoV6P3Uk",
       "maps_url": "https://maps.google.com/?cid=5322567971213544904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ0bgRZG0Z2jERyA0OoV6P3Uk/photos/AciIO2dL4vJvNVKshh01ntPWDGTIwEYQSLeuGEJTXasUJSpDnfXpnD1ypMcyJ-dq7thyDw2-cyP376MzU_xq52MqXhDTaCunqopsFEq5G3ga-QJ2YAJyObIelDm84673go02ADVN_-02bTg86cfXjKnq-T7MRQE__6YBOyeCOfaKGSbOP0huynnwYX0B4QMTDfuY-dnj4GwLxO41o527hb9vjR6DStfHL6q0p3ipc0rW7KZlf291i75wwi7ZGQdFDTKJkncfp_x-HLGwNM2bt-Dnw_H9ft0ZWKliVYaGM_x_Sxr2Ag/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ0bgRZG0Z2jERyA0OoV6P3Uk/photos/AciIO2f6UqMhdjscG85wuGtTUfw2g_o2WPHfA3SKVDa37KIYWopT9F5x90N73qfjRV1etkUXyqaqcgerg3YVZDugzqlgxJPglV3pVbxZa2kPyravr85EXJM_6eKDrYKHu7B44eUAyN3_jVls7aQ2W2JDSSG3oR6J08uMooL3fClQaAafQUQnvWySKrBQM4FLdMng_zxjiQC1KnWJNuhN9JXuqdUsqFvVP9uasw_POeXigU4JSaF7fTcqFkayOiwbUY7TzaUFHwGDRBWQO68ImhfMHmjSHISdGpl3J-5gNapY1ZTIsQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "liquor_store",
         "food",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "primary_type": "restaurant",
@@ -1030,7 +1117,7 @@
       "address": "20 Duxton Rd, Singapore 089486",
       "place_id": "ChIJzREvXm0Z2jER7tyytx5xIvA",
       "maps_url": "https://maps.google.com/?cid=17303517095055777006&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJzREvXm0Z2jER7tyytx5xIvA/photos/AciIO2ccshn74JExpA_BSPW2_Dc6AGEWnmmJovga5GUBz1qptLKP9yll4mhDzGkIWDLndWbqe4tNjD53dWsIH9MykR9yeH2SIX_-3qtyEpVXHo6Aq_Lei0XADy78tkokoNkySRwrliZbShvDwHZj_r9ahZ_E6oUZCffWW0mfNToflj9ZIvjYoNSgrQwiphFw-3dryeFalJL92eBYaU9wHBFJqhymH-hyOtWYRpehuOzB9excoR4BPshqkDvienmBuyMB9FCyY_KORv8N6i39azoFqctcgR2t90jogencQnSNrnvPUWpMHdqbX1ioj-3Lv0__wswaEiTiwLBCzKI8gk7YtZ8RsQOpQk2Llp3acKcvv5MNdAC3H-joGM1Q4CCkVs_cZ9TXojJHeraBtnMZCjXHaNBvxMtNTS7JniAgpMdhghw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJzREvXm0Z2jER7tyytx5xIvA/photos/AciIO2fet4ByPHhraENCznjp15Hjul6-Es4EVKxnO24TkW6PagLvzBFbuweqKyF6iP9_5DxqpY7WgK83z2a5XcvjndHoyfnnar0E_fn3a8Jx0XbTEbC5bTX5KdLBmwlo8_GnmuI5ppMavJKAui4glyWy1YSJ8pz31y3xi7u-MffrX1c3C7weHOMTtifWCqcBc9u4Oi3kED3i5uMyQKdMxDhkBGIWR738Qdr7f8Aj7ecAse8XhlRX34LfycmKytRtmLKHI7BgzLueqiD9mDyO_I-r82hibBIi2xBRXXEczmJwWdEy-FTt89fZnOOLWA8JXrHFn3dklMQGuOC2391vmMexu_mv77nS5C6Q5WuHVfjSS7ImasNCLIiF1Lo4w2eOU2bETzbM99P4DT0s7w1U0R77wt5q_Kl3IpVYa0CyySvILmk/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -1044,13 +1131,36 @@
       "is_hawker_centre": false
     },
     {
+      "name": "Grey Area Coffee Roasters",
+      "rating": 4.7,
+      "rating_count": 229,
+      "address": "13 Kampong Bahru Rd, Singapore 169345",
+      "place_id": "ChIJr0cncbAZ2jERhb3HXXivsDo",
+      "maps_url": "https://maps.google.com/?cid=4229072981605203333&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJr0cncbAZ2jERhb3HXXivsDo/photos/AciIO2deiOO0m_ESyVmiH02azznR6bVc33LDnAkxwyfndv8Wd6WJBEbdlfiQzqCG8ABvYq7V_pHKZ-ZgKQvjuQAP0bgBfrBzI3XnFZxJuaTvDNzE6Bwd5RyA78pLtKwbVOKS5GB6V-tZDgYVAeU5nbdjKOY4DmnZ881Svml1FPckw9vnSuGuxyw6uzKZlsMAUcxE04gfRbZzahSQcQi8SA9fmzWfbLQbi84yhdpWoI6eLRxLrz8uZInjEBdFNmvxSeMXq6zOYRH6iqT_cuGcYHWAj1isfgsKVi0q8xJcjwPuAoaMh50QsXjH55Jp1cz3whJ2DmSa7gMgDylN_NUdFrRd0cqz6oiGvWqb1XMXLJ6FWLpXB0CT6fm549E-kDLdDLC3XHZvvrPxXy1HfcueCrUiot0J29fr4DLhaakl8CdcDRRLZLQD/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "coffee_shop",
+      "lat": 1.2772185,
+      "lng": 103.8367328,
+      "distance_m": 1019,
+      "is_hawker_centre": false
+    },
+    {
       "name": "abseil",
       "rating": 4.7,
       "rating_count": 186,
       "address": "70 Shenton Wy, #01-14 Eon Shenton, Singapore 079118",
       "place_id": "ChIJq_jViKgZ2jERwQQng21r1co",
       "maps_url": "https://maps.google.com/?cid=14615706283796792513&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJq_jViKgZ2jERwQQng21r1co/photos/AciIO2fAueum5kqS8lwaWaJ1d85kC95xgm947gMowjARqHx-hELe467wxhQ-6Y42btSb9iSP4FwEDUtVcSmE7WV6rrSmDbWiCTK4thx0lfmx3BMu7UA3KS4Nsqt2bdUZXy_Xe7wZiGO8-WfQY-EWdGVt-pVaS-mTU7srMpa4zcvuDhZ1h7bbFfNUu7UIw2wx1c9GWfOsIJ-mEZPG0IReA3lXJhDqpz8mKF29uIZCeulIVZN6xTjhVB9xglmgfD2E7gNOnLk9Q_EqBJxDoCujrYWbM8kunLtwmGq2OQNghW1ow06rxxKt5DXTzmZ9lvZcmVIMTINr1h6lO-upWa55KcfUnUtBfeGJ3y6_S_x5qjuAccNN0j31r5wB-LuS8-iJQfl_Cs5FBusjAWeYOIPh8Zbiad9lYOVkTFJ3MmY_xXX0-UyqPQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJq_jViKgZ2jERwQQng21r1co/photos/AciIO2cCbGFpulF0mUVjyKLKKFIZJsEiJKwYF4ht4Kec_Ak_cozRUipTiXqklTcQFO10GVGDJOT-Aj1gEP75L9sgxVxr6HwfwnNayEI-f8way-QXv-4K5XNgxTHRYTyeBigVHijI05lo2oT_rrQD3hd_7-UlJo0tKFObNpWJsGBDJRUSUUtJuBSAWkfv6WHgcnkryyd6UpqD4ZkhDszh5Fm0AngJAkuICh3-lcuZEXg2PFmt5uwkW9rSOh3CLsOIvfswmAx8uooCupshoBIN5UxMa4nrQFH7HkMQyJaqQ36pE83LXK2aw6t8zWMURCs87pydb97_iFeyCK9Q4xHcQCOMQjSjgtKmlNAFC8FkCN3ZysbbTQ3DSzrxjG1qLI8ni9n6ULFN60LJQB1uXjjuzJwbT7eTtnF_8AHNq5gon6ojuwOAow/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "coffee_shop",
         "cafe",
@@ -1073,7 +1183,7 @@
       "address": "75 Duxton Rd, Singapore 089534",
       "place_id": "ChIJk04hRdgZ2jER-20uIYTmdYc",
       "maps_url": "https://maps.google.com/?cid=9760961222562180603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJk04hRdgZ2jER-20uIYTmdYc/photos/AciIO2e5bCXoomtzrMMICygt07BoMPlrYyZrlIP0ql48NPwE_0t7flboNZpE6GjUI75nzAVf-QQ_HOS6oG2cTl8UXBAyb_ALz04ONfC0Fku76tZwn7zMK0w9XpnNACj78Oe7sDx7uey0Qy7KljCQW1HKM66dvypRGcxTvciugFc-X3rCz5UZUmZ_MPsqeG1kA4YesvqntsUcf5a4ScxBxSLyo7HPAH5Lm845wapEqx7fl9TCeZRcIOn4e4oUXhQFOIaYs9C94qyCwLYEsh1Y51fLNsI44MSOVCQ3UeqzerQp0Cm0nQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJk04hRdgZ2jER-20uIYTmdYc/photos/AciIO2eTQGggT5OR445kMsQuuH15Gf25CShv-0uprbZgvYmKYnGtEM7f2RPkIHPiOL62hLTLrxx-z5cJPhuzcCw898JGnWS1nkyu1jUTBiKXCRQsgR_ALMAkQSMnH2Xtc6s5ppjZDyItCYt-HhZ44qvFLOWB4Y-svwXQoJTKz5RCfOsNEPzQNsoA-Fu62REL5HTwtHxrILDSXs_GwvwPUyERzZ7FAZXm88UBFVxG5Qkz_JgytzQLGTWhVNDhHsi40XwWl6uKkhQGs02Irmt92qNief3l3KapKwAelp4OVjpaYZgJMA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -1092,7 +1202,7 @@
       "address": "3 Neil Rd, #01-01, Singapore 088805",
       "place_id": "ChIJ43oEGRwZ2jERPNdexSLp2Io",
       "maps_url": "https://maps.google.com/?cid=10005002907753043772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ43oEGRwZ2jERPNdexSLp2Io/photos/AciIO2c68-4V1xUaa6DAgquFQY8CYXCOqIsQNiDz9XzQvRcoD842CKcqSGsXVP8l9uDsuR9C-JRlwVEkhnPxBknNBa2-MWhOsPoxATqxJMxz0eXr8KBcIcHJglyNUpV7IwRVJqBN3QJ36KiLGuWkSLtwBf7_4AMSNWpGbSsyVYObXMOofVn2PLbGxJzdQtNQvS2pkIdNpo6TmagDiQUwmiWUZHZr3bNj2Md_oiYG80xmRauGmNnZGJsLrMzngBUhbNeTWNxzPkUULBZvz0yTOE7h85E1deW9PTFLoRHEg96S6agiIQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ43oEGRwZ2jERPNdexSLp2Io/photos/AciIO2fLaOVX0G7OafGELRSom6UMa6iHbutCzrs8RXblsRzg4DJz-mmypNeB2rTVlVOVuvHv_9-iikDHbuwSXWH-774XhR83KP0i8zNbBDzXZ9485zZ71xlwJ6_ZOoOp4KXQL0gezcRoG3_rH2SoSYD-mcCtnPD0ncd3U_CdGczfqCC2wISPmZU6DNnc9avcH6-JHwL6xUFnQDu8bKnXSr9XxbdAG1mhWgQufb4NCQ0kSpBbOF_GUw-tdrwchhlPSFRg4rmNnmcPEwhgwV8HV31E_L6NfW6Tp-kB8A_HyibJCZeUhg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "bar",
@@ -1114,15 +1224,15 @@
       "address": "1 Shenton Wy, #01-04 One Shenton Way, Singapore 068803",
       "place_id": "ChIJ73Ug9w4Z2jERZqE4Zxx9BGE",
       "maps_url": "https://maps.google.com/?cid=6990850082530173286&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ73Ug9w4Z2jERZqE4Zxx9BGE/photos/AciIO2c6UMOac6BQh8doYf_DejXrv-U92Ym4S77V6p5zU8pJADWy5qgAak24D_7Fx6mIrT-SV0FbvQcestU-fXwy967r87KBSoFc-1HcXmkCyjUfHQ3Qho9SZP77HBxvqI4rNmJIOR3CMCWTQ6w3P1vOqMfKfE-nPIk_EZRzTrS1xz7QCgRskjo9CUkNhpQjGggCLViDFdEzWUQ2EQt9Ae-_GkyiytsfEDEnxiZ4ulPNhyw4ltXvQQb3Fq9adFnVdozpXvZEJzaXwMwbIgYrTSHLs7m_jPgOaHGBvph9GI8VHS1yVQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ73Ug9w4Z2jERZqE4Zxx9BGE/photos/AciIO2dUJJxbBclV6Wo7cgkeKA_OMz-kbfs-fEo0BzFdE9mD1-pHHI8nyUrpy-6-xGEbazLKntu7eX_zrF-pTMgDrL4hpXOsYLT_tsMurO5zGLBxNtJdqOL8IUPG05ePNIqgeH0iGebNeNRDuNeX7iaxa1TzK-NQtK2rp38Z2b4Hdp6peN144PD-Lcu0kzAg8pzSPf5fsIkBGztjXl_e5dNskGxkrNrv6Jyhzog2dJ4RFfdaGPTiLkY70sd6MpIKTzhn21AMIQLKeV80hp1CSEiZyQHYTdwuAHLYCldvX2xJy5DuqQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
-        "liquor_store",
         "wine_bar",
+        "liquor_store",
         "bar",
-        "wholesaler",
         "food",
-        "point_of_interest",
         "store",
+        "wholesaler",
+        "point_of_interest",
         "establishment"
       ],
       "primary_type": "wholesaler",
@@ -1138,7 +1248,7 @@
       "address": "55A Neil Rd, #2-00, Singapore 088892",
       "place_id": "ChIJAUfy32sZ2jERBgYah675Jj8",
       "maps_url": "https://maps.google.com/?cid=4550599001490720262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJAUfy32sZ2jERBgYah675Jj8/photos/AciIO2eOl_D6hRSoqD7fz6g761zJ5okGVzCsgyTEReq9kF_EeNbRBOJFRWUT2kVX6wXiGzdWeggYbl5hjsHhnkx4amdPht34dVGDGSEvW57empgqXjMYUtbY8-xlrOikUOUiIgoYl-FF9tH0eOcWC_gk2m36LGbUavn65Zy--Nz2sYILGB4VjrRjSuOHryGtkSizbEBmxr2fz3GrvncaEUwMDCSmhIiOuIC8jDYtmjP5OdldJsSFraSr2EUmj9S4eOUw-Am1mVTyFx8g2k3LMpEN5Te3dHrjQ6hKVvG2sQAAiSw5-A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJAUfy32sZ2jERBgYah675Jj8/photos/AciIO2fgfmncdxBuxSXNo5Xbvj4FBVTXRHdfnTorEQdH_mshA4Jtok5_Zw0YHH0gsBJSAZd8AWm3YQUMtvVOMu7_UXsrHC02TR48pOFd6d9Vsxr_i-zS3a9OgxUFJ8YPrpEdTdjTl5BaN62vk9zTppNoEps85lUX799AI7Fi7kC9IWlAW-5OymhtVAunDGCKSofQV3uu96aulPITjUMxBXl_Y1-ea055DeBqkQHKRO0C2X3JfZNmNzpDfOycSFrTPKGrom-we30tGvbxY-P08xoDto9mHhowtmfq5we8reE84nM0Rw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "restaurant",
@@ -1159,7 +1269,7 @@
       "address": "45 Duxton Rd, Singapore 089509",
       "place_id": "ChIJWUmp4lIZ2jERMQB4toerqp4",
       "maps_url": "https://maps.google.com/?cid=11433139203403677745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJWUmp4lIZ2jERMQB4toerqp4/photos/AciIO2fH56GVTO7P9LnYWIG6VO7qO8IL94YTS4ZV-2_yWHfz78irQTzB3sexVkCvUARyXGoIP_KjNiupDR2X97vWhfsSiAaNbRMjkWBR6SnOh6ZC7IwwVpBUEDgY0gs27VcYY_9g5kVIolU_UIhZpMnS0G532khLOtV3kKKrx4w32SjY81JYeANF_bQvfhXqLVTc149JT7Wf1ALLrmvkeWv_KECRfjJpVuJaWWZi1pxEoxUhfcDHT7f13bTpSBzwTFs-aqZ9iQOSLVmRBuSKsHfhCv1vjVYncEZgVcGPOiCURzqEUQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJWUmp4lIZ2jERMQB4toerqp4/photos/AciIO2c3s4pCwUK3mxdYqxvC13yAk3Nl1ThBkgcHiMvewrGB-fr5l8LNI_ImYevLM9EgUlWqOA7_J1Z2UnCCmdMdIROWfWFtuZKyt1gWtlnjC8TRWkO8EGLGYohQBMGhDzb95773jKYv2c2djgoIgkMERgD9VG76DP7bHBAeeRCne2Hl_4waHMCAWrzd0matcMqCNglQncjLMDchmmTUTuPiQvXvlDpVLhJK2banpQHoZtLNdnF6m824qEkJJyXfIIZbSwMgo0_x2VuoB0Cp1osLrMPM0_1bmwCMNVoJyI8z-YoxGw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -1178,19 +1288,19 @@
       "address": "100 Peck Seah St, #01-01 Oasia Hotel Downtown, Singapore 079333",
       "place_id": "ChIJ4TWEs2wZ2jERlHnfsC0JPQU",
       "maps_url": "https://maps.google.com/?cid=377468035614603668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ4TWEs2wZ2jERlHnfsC0JPQU/photos/AciIO2dUcBTWiA9ClciMg8gsgi9_hRTK9djA2yntgI3b8gMTivrRxXz23mj-C94VrG9YLFADJ9pyeI7UtyLkLvQeYTZSO7Ndwnenm2xS4RIFWau7pHZm-sdLDTKq95-EzlFyLXkk43jv7dyvWJDIQWenF8uiZlq2lBEpYRzxAdU08tf-OKTwlmSfPJ6La6DEL7sFjQRDhs8YVBrgz090EnG0QjSN2eFICV6gpAZyBySFpP3QoaGydeicRM4-E-Rh-0m_9IdxwM9mCbNGvIv6WbG54wRUbiR3ciCQzovXyUMJi21-rg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ4TWEs2wZ2jERlHnfsC0JPQU/photos/AciIO2cGsY4fr46tWVrPTg39XXmZxmPCda5T2OBQuSrLv__-MGqfpRxYtvQj2B7Uj0SH568CfDggA8DwaK0cTBN39T3GShrcHciHxrhkO7_ksJUQ-k_JHY4hijsf9a5j6lSp_iPx6WjBVh_ekcal2gnQcG9rggrQLPtqDLFAYuB7PrODXfB0dL5-U__NBx3Hve4v7osKNODyV7krz5SOIlnRTeB3cM8o5g_eu9Km6HlzgqDXMkrrYTRTrnACEKm1NNZl9_0EerTMfvfRQ82eYBZreLYAeJ5O2ZT7u-9cSlmt4MrsAg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "brunch_restaurant",
-        "cafe",
         "bakery",
+        "cafe",
         "dessert_restaurant",
         "wholesaler",
-        "event_venue",
         "food_store",
+        "event_venue",
+        "store",
         "food",
         "point_of_interest",
-        "store",
         "establishment"
       ],
       "primary_type": "restaurant",
@@ -1206,7 +1316,7 @@
       "address": "165 Tg Pagar Rd, #01-00, Singapore 088539",
       "place_id": "ChIJKZoOX2sZ2jERhJqFXCG1oAw",
       "maps_url": "https://maps.google.com/?cid=909926279619648132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJKZoOX2sZ2jERhJqFXCG1oAw/photos/AciIO2eNYbK7N9j1eP-JmhghBRpUZW_AKlKZdMflM5Sl7p6ng7rjDPpwjzteLgY1WxB-79Vteqg-hZWKrupD5Hk5GJzsBrQSnDHq1N-eLAAFk-ndm4Nes17JkCOs-0gjI9lE_PcTWw3R_CWYLAMXRbOtbYQ_Scn23jo9fiIunb0mmiYrWsOgo1uHNQFCi-Fw_QecgHk1Vi_i6-hvFQVFm9-rSR-uM2XypBMXMnLFZMKZslvK3mpRo7joTLAMcEs7J_u6mq92NGmI9ConnAzkdckSfnz4rlEw0iFa9d9TcWOeEnbMOg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJKZoOX2sZ2jERhJqFXCG1oAw/photos/AciIO2eSaHEm3azbNUADMOQcNnjkZy-aY_2Sh15z6SPU_qIlsFock6az9_rBe9Ra9BsnPBG-qBzvYQexGL7ALTPAaSUH0t54IMysRpnMeREM-Oh1iRzzFMyaego85JK4h0QINmfWBzAJG7CcFMeZLVkZRna_msKVRDuNSBUG26E7ZapgSK2G-splx97BBWYnhGW80RvcQ0Q3Mu_6J4OT4D3JpT2wuzJGVuGtPGZz0MKhqvgqvoFpPgF2m0Y9P3dmgo838wNcpfXR95zB4QZyb4Vu3BpyeIGg1kVxfQp_rtsfBBqxcg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "steak_house",
         "bar_and_grill",
@@ -1230,7 +1340,7 @@
       "address": "34 Tras St, Singapore 079026",
       "place_id": "ChIJs3dAVM4Z2jERjUXegbnZMOI",
       "maps_url": "https://maps.google.com/?cid=16298766442224829837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJs3dAVM4Z2jERjUXegbnZMOI/photos/AciIO2eIKTyiuXPCfxkJ0xnzGWnmpCFL_V9k7BKumvcdO5F9x6pyL8WKBi03b1kXhtWzE4EohuXLVmTEP5ZBJAlhsvvmwZ3XCqw2WVqOfmTTWPeqkChI5dpyF2kI__L6xXSSl49ijAtw718vrjLYX7SiocCJLNQKfouWEEIUJr2bK1a5oDnOstIvw9cVZTWlyfkv5_aKMEKNgmdjFwCrHAUmt2QX18nEEOWQ_55wQB7H_R8aqKP-e8agRUtztsXSYfSy4aFY90mXr-awatv7NrO194nySqYX6mD6Dr10sTl-0AJefQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJs3dAVM4Z2jERjUXegbnZMOI/photos/AciIO2fR8Rb8Ac09ZNspD2yOdo_7yVNZTnwlNuSoEqV4TkptJQ1o8LMDOkjR34OqiC7CzLdS7EAXDwaynV7Ey07Pgjs67n7OnatXGV9xCQnp7AUZ0a6oOWtO4cSO7wVt16xfzvJJ8aeTg46o8lCKVL6KhPFTErhhWKgIpLJ_Eoyzi6h_YbA_DoZomwFjvs3BlO-rvj6lDt1TX15OD9HWmI-LE89xqbluvkDD_s3zmr-h8EnP7ANTCgis6cC5s2_8ubhFnX7xS7eN37dovigCpYQw0vF-e3yIgtlK0PNOyAaarJCa8Q/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -1250,16 +1360,16 @@
       "address": "34 Sago St, #01-01, Singapore 059026",
       "place_id": "ChIJKVfMiTQZ2jERk7IpVMwaF4c",
       "maps_url": "https://maps.google.com/?cid=9734278584472285843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJKVfMiTQZ2jERk7IpVMwaF4c/photos/AciIO2e43HDdBmijBYeBcpfQpmnlGtKo_fxsfnT6zdy4E5ZKmegOZtoLFiz65TWm-0zbnI0DALUFfiRH_TbURliuyma3tvnqMI0mL944P6RsAr6gzlJ4pbW6cA1GLNjXowDV1xjrckHvHVAp5hsyHnIya2oOxG69AZ3cYPtPG6x-A2tWexvQidN64AHT-a1rh22XR1TmgloijEKP36PMGYqgUpHHOqNk4zNlLAuppGk3SB3mRMpNFvVX_eRtW075bdPeiyIRO5-nBX2pY7UPPdOUD_QHYBjtT6fGhgNrKG6xNROm2A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJKVfMiTQZ2jERk7IpVMwaF4c/photos/AciIO2c4X9PvB1DUk2HcnpvWqC7G8FoNxGxSuW5e0BX6wVvtEb8_TLbhPdeSToLFTH5A56n-a1fGtbXNaNpkAWQQeMgBaJZlZ1pzAUPlJAiD18kIOBdiLvEnwPpC5LKP-OLMl9qqxJfD2rGJwzZljO2ktFh75Ohjb8o24q9CksP5wCX8e6N_55Teriod1W1O8D4zj4drl0wL64sneUmUr03BtmMq5JEjls4wcR4IIhjEzLnhmg_in09Je1zyNNbtL_d1HFkwbfrb3KoLarvcgCIOoB_Kwtv54IMwDYv6d0s7wAOU-Q/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "acai_shop",
         "brazilian_restaurant",
         "food_store",
+        "store",
         "restaurant",
         "food",
         "point_of_interest",
-        "store",
         "establishment"
       ],
       "primary_type": "cafe",
@@ -1275,7 +1385,7 @@
       "address": "118 Telok Ayer St, Singapore 068587",
       "place_id": "ChIJ-6zr_AoZ2jERoSRdI6lsE0s",
       "maps_url": "https://maps.google.com/?cid=5409787051100677281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ-6zr_AoZ2jERoSRdI6lsE0s/photos/AciIO2fZNHH3fP_xtdr5dHDZed_JoL8rsyYgCkQCeaNVaRKV9TD-8x4ucU5Np3M-LWrZJwdM_06j5oKB2F6_WXTgzZGkaDy1qNpmGDykxGMG0z4VATFBqounKDs9AuEGWcPgvrxoEfopZ893W-k7TWvssxfkLnMOV8Y9CgBwzllSL5VgWZRvX4TCkJkP1vUefIHxv5YK357LDh10zblwG5wt-qhRpnwkH1kuKaJq6bHT1t3l4tf52DbjSUTJSglp6n1LPwKhMvVGIuYBpQRdXRBZXLAG747JHygymlGR_VqmHNZ_aw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ-6zr_AoZ2jERoSRdI6lsE0s/photos/AciIO2fYWywM4rSrNFjB7I2WUVZfIr72_0QJshlIaeyJoKGJVlypxj773Nm6vjC0nTmLBDDl-A3lz2I8So4396M5iy9DPTqsqljQO8U2DIUZ3RA78v9PBuInCBPKLFisM3XxN9kJhOTsZ9zSh3wG1JoTdCPlk-MSBPLrbn7PDy9qzJyaWbYesAeR27qWD7RW4UQHCyHuYq9v-VGdc3SWV-Oow9nTHE0ih3cEmtpnKs6CMRMpspU5DOG0aBWpJY9B_O_xMZs546e2qFOuA9QbAowmNCsv-5AxaqRJFVWqcvVuTILQ-w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -1294,7 +1404,7 @@
       "address": "37 Duxton Hill, Singapore 089615",
       "place_id": "ChIJocq8M6kZ2jER1vfKalVGgqE",
       "maps_url": "https://maps.google.com/?cid=11637941719756634070&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJocq8M6kZ2jER1vfKalVGgqE/photos/AciIO2dNJSiFRYBPGGaVNmn1IktIXD3An718RAjBlpXg0Ru2kCY4z9L5kZPNKvPnvOs6JrqGKMCIhvtmX3nrHFu-6khAqRmi7-YESc2_UKFqE2o6rakg1LldEWzP3YTCDcQw9kWXjcXF6crorVMmUk5ie_qAxwCnkt8PVDNESJ-UafvuOvhesdOMbaYGl3Yu42orsD1bTJC8uLNsLdo2Wec4qyYXk8YycIW06oUZJVI6ndENPZVhxG0qH-Kagu6seMKW0Gv5z3CyR0AXd90qo0nBDV3VFBw7LjYLxIdWK1zcqYVAlA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJocq8M6kZ2jER1vfKalVGgqE/photos/AciIO2f0XRt0GgJbGDMKokFowUTzg-d3ksfQyfpvR3E20HIG8H-ZwmCELNkHSMcV6IzeiAOgzXHu0KG_3iJ02ZQF0om2cb6rRyU_OYBz0ub9lQAjweAE3wPXp5Lv0J8U99Ve_WvSyqz6C_s7Lp3O0jba6FqRnNciGC5Ki-rBvSIASTOGxwubnKUYqz0G70oot-PsIJaTpjlIZWOW0yCTYEYxBQLqf9rMXSD5NfIxMhi9DIcE42cVjmcNA5KmCwCC7O3ijRstedtAWbeSlL2hFkktVTkTKijWI_rLAZzSDX4GJq3ppQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -1313,7 +1423,7 @@
       "address": "16A Duxton Hill, #03-01, Singapore 089970",
       "place_id": "ChIJFxIrALcZ2jERf6kfJgXc_2s",
       "maps_url": "https://maps.google.com/?cid=7782180595792062847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJFxIrALcZ2jERf6kfJgXc_2s/photos/AciIO2cSYXeCFT5Fuhh8gzmwpSoFVezdISgLOxPT-KdANdp0bhjKTnY0QHoaNhi6AQiDwb4qC-xKk7Hanh_csxDAYjGBMZ6JO8WfJh0J91_j-1DIP8XU6TQoOCtmuGEM_UW6NRBN0ppzdbmW-i1o_CXHtno3eeBK3jXfUsPmK49Wmkl5sse6XiiglWtjlpHzKpwjyWL7a5ZVmaNmOPCFXvz-2zHqE9XmOIOEqVTYFNzSDb3P-V7poHVzgffzccon6Ehli7bWyR2XzVK_O1cNIcRoU_UkRZhr8MOyXgB3qVy9viEpkQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJFxIrALcZ2jERf6kfJgXc_2s/photos/AciIO2cjXpU3AXTjrwHb9-J0swI6p5tHyJ3jHuhXOwlky2rejQsjWcugQFs8rh_LvC6uz_fKcUFNxeTukaOxD9CAzImG5pqqqyaINZzBVJl8p8q0bwR0G7UBnpFZ2DSf1mBa_mApKsfYvdaVZJ1ZRxZd2-8ZDgt69HvVumV4T_Sc-NMVN3Q8r-gfBzzzIonokGxHGgS4M1lV3OE3lK3s-NIS7RdyumdrvqsSsKOSjeneZkmZj4vDINwWhsvs15f6eCURsfbVfi6hDqO7fbLKPd8TpZKDY82xLpcjfS0oynBWv5ZTbQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "italian_restaurant",
         "restaurant",
@@ -1334,7 +1444,7 @@
       "address": "64 Tras St, Singapore 079003",
       "place_id": "ChIJp2UFL20Z2jERJC_y2icO1kg",
       "maps_url": "https://maps.google.com/?cid=5248397980086710052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJp2UFL20Z2jERJC_y2icO1kg/photos/AciIO2eJKcdlx1HpVvFJszTJAJLsXCrezwx8gf4fdtmRLwid9_4mknMWZC06Yr7PE0RxAH08Q14oJmoTbE8zBEZdmwj7lbahF5bFFhyYnzwDaqEHGOjeKOiauOYUUS4aU6CySMlmAMXlOyyzzWtF8fnByWZBPebgn1GINC-estbcoJI5mTgyLC_FMed5E65EKXgDzUAltmcvRxA1ObPJX1z8Z23cbW5hE_xqk4AdQccqIWurnb8kDgQ2UCMoQI3V_Ht5StDHEvNK3JHwMGJyAYuJu8g5vwqcNrRodHvl2IdPHpgw4g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJp2UFL20Z2jERJC_y2icO1kg/photos/AciIO2fAEP8GKOjOsR_UJBEKibu2ca3P_JHFXwsz8jfvLoODPQZvUsF_oB64P9Cs1AC4ScUHLsOWIT8MqDAz1F8Stqwgp1nDa8mFX7npAMiSmAXy8DHLNMCry-AE9LAH8TDUK5BXbGSMeg8bxXVlEipe8xCfmOltOfonTJcz4xmrIAzz2CSW-6yKDlcY8UIdm07Q_dj1O1BMtM9eb6_WwJbmyG0rIOjz54x68Jth6LyT0Rpg_ND6mmGNM4ssKGnSs0Qeec0tjrHklavU0uPVjiGUqm0e7BS61yYb3nJKlyyjS6LTYw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "french_restaurant",
         "restaurant",
@@ -1355,7 +1465,7 @@
       "address": "69 Amoy St, Singapore 069888",
       "place_id": "ChIJqXgcpzQZ2jERW4dfMXSZ2FE",
       "maps_url": "https://maps.google.com/?cid=5897632436365264731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJqXgcpzQZ2jERW4dfMXSZ2FE/photos/AciIO2fsTnBVUNaTNtOUqvRA9tu9dlPZRfqqtdWtHu-iZeUNPjbByzB_VLk_Ebgmzq2mSYdBDrImj_WdMysAbeN63NKDwEnrQWTduFsnaImpSDUa0U8oSHp0lv_pWYHIfTCzl1QbRfgMW5rEB86HYHBk7IV0CGw1t0X_uudSnY4CU83ViGhcUrNNOCxWbSLpbsQK2a8hKj-6YV4r12129JDnZbpEzRw5KVHX7M0RN-QINELZC9b55UsWL8fxKe-PlVIcHCziEdG37BCfD5_ppUDC-rLI9f_iTSGi7rFF4KSlf3cOvA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJqXgcpzQZ2jERW4dfMXSZ2FE/photos/AciIO2ehpS7tMEurcI69GNKX4OMLc5QT5erFdrgsZugPvpA_enyeD9ToAcppEpWBYesMkAqru8KwOwWmFAPEIep2_nb1pNDEkcIaK0q-ACqaGRy4bfpZ6HyMqySu_NfoBYJHd8chn0CYMu69evmzdWSTcQ6vKvxVo6i9mJtDt-2fbjMKd-jUtNcoQ9SA_DNo3OdUy2WlwQx4b0r__0sQ-q2UPmRtFa7Y_wgZFVM4dlZLn7-XB4-cB3r69sO28MY2yCHWSitDf5PUa7SxkpBcS4ZnB_7GjLt2jISvCzHeu4cov8BSdg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "coffee_shop",
@@ -1380,7 +1490,7 @@
       "address": "18-20 Bukit Pasoh Rd, Singapore 089834",
       "place_id": "ChIJbfyg5TgZ2jERe8mNgbZbxlI",
       "maps_url": "https://maps.google.com/?cid=5964555595914529147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJbfyg5TgZ2jERe8mNgbZbxlI/photos/AciIO2cglzuTyMBR0-NDv_ZUlvj_KIzJqLClS2aujUIhm8z5tcuMCzGOFpwMdSMX9J8nKp3oFyhXBXn8cq8MPVsOs19kUTvpkuGz7tyIX-Cl08GGUBgaMPWGTGmoRbuwHDbiFurBKCENmIckDoAIf7hhNCZt5yskscLfaA2RPncg49ZwLDY0-1h2qP0GrSyNPxRutKeX5Orq8MqnFCwerIFjOIrBP0H7Ga0KavEpIzsSBaRSZt5srOGkTqV18aHCgAW7p70Qj8Cik_9lCugbvxBIrI0kRkUSnDMJFN0zLVTPj3CTzQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJbfyg5TgZ2jERe8mNgbZbxlI/photos/AciIO2fT8lDWVnrZFNV8zPSWOQA-_h8vTTyn3v4H7IXP4H7-uj4C_P4YPps_CvJI_3r1x95XBxCtmg4EgNyeOHbAVbOcfnRW1-bteNQGpsd0lK-wNYlTUhbMppaQnzQMhfwd3kZ3EaUqUz_YqJfwued1ltyvKWAQoRNHB49SCV0Gx6r49gleIFGkq1P0W6TkL_Qan_4pcVQ4uTK5bas_juUlYkWWjPRjRjdTFdqRFOIupqvC3NcDTOS7hmg6HSzGs8e7wTPAjhdkpWv4eeU_-Q9xtH0avEjee9qq18H9l1VQP5d5Og/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -1399,7 +1509,7 @@
       "address": "〒079027, Tras St, 100号, itadakimasu by PARCO, #03-K1",
       "place_id": "ChIJoZV8MIgZ2jERKGjKtfovGp4",
       "maps_url": "https://maps.google.com/?cid=11392470961225361448&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJoZV8MIgZ2jERKGjKtfovGp4/photos/AciIO2cGz3LFlGbf1Exv-vSWS5TwWocSfMMhQXrmuxKu7CCnM943_zDsoWDLdJLHxQIzVYqZNVOQAevSwg7X3mp_lqLNYk0JIWaLD3ILjZ0qylgIlw4yiE5Pfe9RGGPB9H-IAQM-Nuzercyq6ybytsG32Q5m_jSQFqSmEXb8TKAowYuyHOgHuDRrMj_F8etE0RL7oWc3-oLfSHbmeKAQTIXJPMR_kHS79Gup_x4uzGVjl6sWfXxD_D6kZz6v5QqongohrwIUMs-DxEgjnptyF-d_y06k2kyz_vqD8Eiei2iM1sqE38TzoNUva9bKiyCGiQE6REA-bx5-gSf8gok8lEqp2Sk_9SW4hF8gscaVuw8gbhA3NdNdpOiddYlMJMxAfLHwjW3QomybAlfDWvKx06qGNReteW1Z0pg3FBf8WaBe35FJ7E_s/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJoZV8MIgZ2jERKGjKtfovGp4/photos/AciIO2eFGTTY0d7CLfopV0ngKT_9u-3yVeepVwv--ZuifExflht1MFvpKFt7MI0TF8XdTPNNVpej4hChqG-IBjel6IxbhDAnV_JPfSIauZ4BAwKAiV53BVNpcmWIH89XfmVdDJOPI0M0nIRszJmVTuA8a6Pz0t9ga3Alaez411oqAxofW8mi0Z8epPkbH9JpAmijGB5DtrtXhOSGU4rfZK5cX4hnYEVuhK3aFqpykAWWh9hCgvRX5XNXp4QwDdnqFTssq9LErwGb7LL3gPHQE8lELeXSXFXmhd_zqp7Ampg01cvWGCgVyYSiKKMVmJSBDgzUD8BO1Czjad8Od3CfH5hiDTxtVGqD649_drlySTPy3_2AyHobFgpz8hQN9k-f5AB0oRUZWpR3IzC50azpXVfODqJe3IOhroCFDaixOv17LK2KMmsI/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "japanese_restaurant",
         "restaurant",
@@ -1420,7 +1530,7 @@
       "address": "1 Tanjong Pagar Plz, #02-25, Singapore 082001",
       "place_id": "ChIJtwgHgJMZ2jERCExG-EjFa6M",
       "maps_url": "https://maps.google.com/?cid=11775722567883967496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJtwgHgJMZ2jERCExG-EjFa6M/photos/AciIO2ctuV2qb18oC20Gs6myMi5Lf-Xb6CUovysmbFaEeKuYkzd8d-OA-24LjthAmxhrPook6XVJJb0pzkQnSImGGoW12fCaHWThIpJCZ_FxWq0Tu-PMsad8_CdGlsIJIkLcdGmxQ4CVV4i8bFzQHDSExNG-lxLYmwIJedNTNTeN5MYWSBTkHGYB_lNhGY_EoC-IEtIkl1Zn4QWzu4W4kIMXh_y6muE1vRVqezMo5zfXw2JK7KGZpv-OKi3olw-ikSY7Ck-jeJgcmx6XJJ62lh3GB9wcLYYFEoeFMrhC794fhWGm4Gg-dDiwJqmJjS1-OModIo-urIagM1HLJcj7qMx79W29rKshsPSXpamX-kCA4ubJgU99Lgl-5zatwuKVZCLlNm2P6sR_sQiqPVVuNIi-Sy384Ng4oyd0j1koyASpers/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJtwgHgJMZ2jERCExG-EjFa6M/photos/AciIO2eMFOcATap0R_4XJypZ3rvK9xyFymzixis4HrEiNYKy45LUpD29SXOnAKKTsozCf3QO49mWTvz1aw9LE_O53C8RzVJdRTJkPMFpH6vEEUSMCaae0b_RMq1AxlXDJaKvRYUsGaMb9ESCC36XmDticBZNd3d7yYgvxYRrScIVafeZ5BcbuTz_tpY8Wi8XSKmohMoAzU2iAACWXE5kfX2ZnP14dx2knZRfBY4XnBWJKltIiqbU6Rk_0oeg5zgqi-4t6kv4QqJTelY0aPa-b_qTQzGqgu9S6n-FI3bNqhyKNyX1LzKi8lBfVnA9-ihaSaHb67smmXY06moSuHd7-TAbFxRGFU9cy1XQl784JuQewtuIT9ijHV9UglzZVscWPdlfKzJ4DSN_R7pz00OJW5ZcjFGb_-ovC75IxnIFchwk-fg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "food_store",
         "store",
@@ -1441,7 +1551,7 @@
       "address": "43 Tg Pagar Rd, #01-02, Singapore 088464",
       "place_id": "ChIJaVQGuSAZ2jERXksUhoJT-IM",
       "maps_url": "https://maps.google.com/?cid=9509442433253133150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJaVQGuSAZ2jERXksUhoJT-IM/photos/AciIO2c6TNDfjz8PAlOwBgw00WZbY4WBdl6nQfBKwVrv9BSQSVu-RaVzTHDj-qrFaVNF3-8WlZbwKMB4C2nyL8QKTvfH8FEXVq2ARENcvRgJnAmPdwz-pIpZ6p5zikKZGS2Ge_p6CWyOnN2R1cXqXQ_i1neAT8KKYzxvyOo_7uWrgs8EYIp3kcs4d9ranYXzItA83yNREqGHlIL8nv1zPbN9lDHgN5whHNzKkioqLiIqwpMR6kJcPKBoYVkHQUGzzkAlnZE0GsBxW7BBBuCk5wyeoTA_WnWnm3bL74zjzxtZ83aNcKvCgop8NKgpLklzQa5CihQNgI_brmsLhMWfCpvP7hL_OlbpRq5ZuQyHmRCcJavMkAEEELrTbTV2wRHvKDSU-ZE64i8hlfvy6ujrvSgiEEDU-F9SlS3xEodYwxfsV6wqW53M/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJaVQGuSAZ2jERXksUhoJT-IM/photos/AciIO2clsnmj3r8RAC0kUKU1dIQ_JiFtAZkpy1ZAABw42_XgDmFTjMmK5RwvlKSX8t57_UuzRBoWqbGzfJz4UeDi2CqXT4SZBwcYbSDdtQ8QZMdi9zgWbOVEwzJtT3ZaQ5DGNXAPczzglunKLRERn_eW-b1Jj7nnFrbaLUtFRxV_Ki19dhAJKyuVzD6EyQEe5uGn5Zocqtx7kJ0bGQGAtddANj7htpBOioYV4FNzXzbZHN0aveEhKmd4UQVKtH67OZ93NHSpxjfkxaZ4dMhN3XKS8OjcAaw-OcF8fiFUU2nYAu8Uao-BsOHM2HSo-3GRdVWZ_biGHx_5nIY-hamZXdftogxZlX_QqQr42R9SNPIQWVIHoePbmq4IOQIvCU_xIFSmMzGV-8i107OKwbn6YsTNGFOcuf-e88b-UQKRIzIV5mssTGFW/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -1460,7 +1570,7 @@
       "address": "1 Keong Saik Rd., #02-01, Singapore 089109",
       "place_id": "ChIJM3UlUrcZ2jER0b1e-GPP9DQ",
       "maps_url": "https://maps.google.com/?cid=3815902812565323217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJM3UlUrcZ2jER0b1e-GPP9DQ/photos/AciIO2cSXfggnIDdHj0b3VRDgDH2Z1Peo7yJQW2Xw7jz4Y2dnrw831ERMYdkSF6y0di2WleBszvApgkBsCws98Yx4t6wclgzz87ofw9aYSltMlBs-qcb37-J41QsriRvykjV8aJ_pgPIlyrK6CzBjFIy7Apj5et8ATi5XfEl9XV3OFpiReEW2tJoK-LxyTt26RxEKtEYJeoLCZyDsjkqqedmH_Rb7XRch-xjOtroK7e7dUejTdHwqXpZWh-KbD9vaCxEqS_UQC_GDX-HjYNfRjSB6e_4AxrYnrkYgu0Cv8djYvzUlg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJM3UlUrcZ2jER0b1e-GPP9DQ/photos/AciIO2ce_F69oneihMuLuHMcBpXCXOHCrqT7DEUr2-uZ8fh_t5zGJw4UTxkkUlR3YhFKke1rYXlz8vIypSfK04zVlklUvEK8-mTol_FBOWlskuH1fDMvmY7IgE3iYpBJGRbuofcsZr4XWsbBl5XDpW7ciQze57X1fwFQKdpyIQEHoaPcDOUsrln0Ljqm5uxmkVyFWhpRs5rZqh-yGOUkc5zI09GIQ537fnyV8AvPxuQ1Ru9MAKEklwPbwDrqfgEfJ1Q3_DhSfEfspVeXUByAR9eVnqmzbrA19gyhWCzehrixCIQeaQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -1479,18 +1589,18 @@
       "address": "32 Maxwell Rd, #01-08 Maxwell Chambers, Singapore 069115",
       "place_id": "ChIJVeLWOYAZ2jERi-GzITIx05U",
       "maps_url": "https://maps.google.com/?cid=10796026823120773515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJVeLWOYAZ2jERi-GzITIx05U/photos/AciIO2cYZBYuUiZzUkLXvPwAxyXv967tj5KtNpzZwMOw4NvXjSxtClfrUAic2R4Ne7l2W_XJ7wZBGtzhpOJaWuT6BM5jFuAcduOekTipa1ohlPHf0WhJo1M7G16czu06ZyiPEcgxkgaF7gJqHM8bKMfy98ydM1CI0IvoxHEyFAYTbwaif9bIDsfuJzgUrS9dqtv_pKaw_XDe5JGaRuD_mKf4buEShTBrw3bqTNvQKZhJb9mQU-k-Fgxwmwm3-VlQNX5cmidaFYh5l1eyxB0vhjgDVVQ1-yJOmh7vLKU3Ibtxj8p7tw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJVeLWOYAZ2jERi-GzITIx05U/photos/AciIO2dol00hVk37MFCKhWAf9YUFo09S9xTMmTFf0aBDvzFuPibP4fjWTno24pGoyVNpeGWKrqLfvpzqT2iwpJRBn_2zQ_V_zagCvooY0rUi50m8Bkv4hhJTvsAmOJKk_LTeHN53sAfQspbyBilXHSon7Wm33B9GnCHEIRMPbnUUyWiHrTLG_T9_pjGKO1SSqCSeJD7Lai5SeYtNNQFxVmp7k9TCZfp1TjnWK6shbYsLbbM4DOthrW9EC9QPmFM-xh4ncaYUPDz4CQP-XYEYQjLWUaLRbE9Mxf6r05SMd9r2QoFs9w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
-        "liquor_store",
         "pub",
         "cafe",
-        "japanese_restaurant",
+        "liquor_store",
         "bar",
+        "japanese_restaurant",
         "food_store",
         "food",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "primary_type": "restaurant",
@@ -1506,7 +1616,7 @@
       "address": "35 Selegie Rd, B1-22 Park Lane Shopping Mall, Singapore 188307",
       "place_id": "ChIJS1xHirwZ2jERLascp1D17Hk",
       "maps_url": "https://maps.google.com/?cid=8785666699842857773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJS1xHirwZ2jERLascp1D17Hk/photos/AciIO2cN3VuupJP_Ge7QOJouGfM5Ty5aaZvRJMVrXcFnC7SPVm5o3ZTVrlhYj6fhpLTtrJ5guI0hgy_qVBKXpGR_UuITcerN5YR4lt7-Bzjmt9GWeqTTu8jmBwv6hZO96WFAsOY6POMe3UWOXfquOEM-OY98notBVFU82Y-DNUk9KF7YnQJrL2RhD8rwNCI8-ZMOGTy_7U8WzAvk67r7hvGaAdfVErMKCg4hs5_bXzs6ChO0VsmZH_bb30Vr4X_yh4_gsngfe7nqs2y_-9T8BSgdYb6zP0Zwy91x7XrOpu-XeAMY0uOSWvY72uCuBEf_yncN2DHfMtb8zKepERvg6vY5TIuxSp0vd0CfR3Kv52xqO1BEtLism2ICZRlobzH2gQv_upjxqQx2pquqb_ADDai3eaZ0Rde776IPTW56P96W-FlnF2oVEUrWu8nNV_AKDQjg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJS1xHirwZ2jERLascp1D17Hk/photos/AciIO2flR2wQVrdhc3qBCnkSd1ulNhARuu0dOjzQ6wiKtqsY5sXDsqi9yEaVnT0xjY5dRw7Q5flWsjG76H7ccSk8viVmPF-Slx0DpjodQcT74hFJt9V7j2B5PPYO9lVpgMiTy_-f6FCButxYuca_pdnFCjCcRNXO9iMV0Suoshm5akiTIIx84nkAWbNJ3B3_NxCONYyL5KdiG7x1WUxURT327RSpNPUcsAAV2X086egRFj7ip-3rtWdFoBSpIvJ3Y4HzUNY9SuFa4Ioq-znsedJhfsxQdg9W1qrICoAaK9wDZg10XImCEY26KoAxirKf_hBEtPbbZwG6H0VYnKWGbi8M6uQRTt7BACGK9MognWOwxwIQAQKsbuNy_YTExYkfSAUfeIQ2q5HnUVRPMjL52CyhpSnton7OzF50YjJV56ACr-9gan1JZd6ZCaAak5s0b49K/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -1526,7 +1636,7 @@
       "address": "6 Tanjong Pagar Plz, #02-24, Singapore 081006",
       "place_id": "ChIJn8xU5GwZ2jERUzzATUjYngo",
       "maps_url": "https://maps.google.com/?cid=765286791753251923&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJn8xU5GwZ2jERUzzATUjYngo/photos/AciIO2dnAM8MYGvvrB6mCu9Zok1qE7xtrv3J0YHKdLcX9pCc4dILuXITp7G0DG48j4GSwWyf-gq1WvElETTRb4_TPgNnVRG7DMpeyo27Q8_uiZYrgiFqGpeIT0cV2REjuOSIxc6S5bIqmZjtGYrI2BV9qTbKvBUpL7QRWlUCf_E3LogMoQkvyco3S6bbsjqTslI2gY5wcPutoAQjfhDayvZZKHtAwMtgjafzpItW4jsPH5gSOubPgxi1SRkhmyrhW2yz_R2gQyBKlxx2Q-mHACsyJMJV7WObsqRKNWB9gfyrBa_KaEAvpRy1WpMBPkTBiOG4OaG5rMjh4KAudFt-XR0c18GZuoqpWNaum6Efz3g4ppZ6Q3xaaYRBxc__8EuyF0S2ThuQpA7uc0X3_X_qa8Nc37GYo4fpeW6PED7SiTDynDjmWlKI/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJn8xU5GwZ2jERUzzATUjYngo/photos/AciIO2eCjhH5Qw1ByOMX0lhU3ENwwiYYbiMftRrzrP3kJxvHRAtV8veX_KMTb1vqzVJzavjgCiQQd-7zcVW5EQqYk9BfaGxQ_nLNO0MDpPJZDMi41W6C0u8nV8pJywUTDk-fYQPA20QXLObp9EUs0G4nnEpo-7ur5uHjF7Tr3S-rgUQY72-mu0gjTi6p2eBVyF6ZQNQIv0hFfAhcS-60M7GGpHCK8LdWRTJKNh_M6hCMo7vkJCaSJ9cP-cXOkGzObUkgBfVGJMek8dDfTyoxgQjswr18XCViPgijl8r0zLhFCNhS5NlG4chapZSttOMZlZATJjYarQKtKAQes6hrud0IeWzNB5zoBAs8CjZX1VbcD1ItiMlLWgAAN6M86syFtoum9hjkdYo1wdrEca2fsKg-Vd3X8OpzYcoOz4nOM2yUHtbZgS9c/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -1546,7 +1656,7 @@
       "address": "83 Neil Rd, #01-07, Singapore 089813",
       "place_id": "ChIJf76G_BAZ2jERD6hpVuDp9sE",
       "maps_url": "https://maps.google.com/?cid=13976615643322624015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJf76G_BAZ2jERD6hpVuDp9sE/photos/AciIO2e1_Gej_Prrt6O1oXH2j1OxepAXla91nsqt76qTubJWBhbvJXHhfTWgJKdWusPEHviLchnjEbVwK99PEMh-RFymfXB-uVT3BopfbiiYuudDOs6Vt_HEArBC0FRwrwAjqdt4HIUfXDKtnP4jxNM3a16a2SR2Ujht9NrzvaLIGFBPHYiEBxKIChaBQ3VufGSHFb5fCUZEBC3POD2V4S5ZezMJJRXpXUYFO8g3729SpwFMZE9Fwd_48R9rcXuc2I7DAjSTSIapjZnKk7qmBsosb8D7bpaKF8l-kq8qvG54WKkDCQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJf76G_BAZ2jERD6hpVuDp9sE/photos/AciIO2c488g2xmBgk4e7n-_LCvGou-GwFvgubABVnPtgEFlGMEf1f7Ypfpk8zSJ464kuNwGA0woJI-7rKaLzBHdN3ZP-zHoURzL5rnu6eU2hbMS-VFlkc21F0Wqpps0DOwgJkdjcR9ILKFpJgODn1iRzLxqVLoEILR_L9tlwgwigvuNOoZuF9_sHHymqhEeoXk_7ufLs_7eaNmQqbmGNKT5FmyVb7nTPc9DqMG0xHPOLEOCUx--RuHTJlg4h4f4gCzlcjH7fSitieqRrZxEzR3pXEEAOEdHNz-MppOd1w28coKf2rQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "wine_bar",
         "bar",
@@ -1567,7 +1677,7 @@
       "address": "Bedok North Ave 2, #01-23 Block 416, Singapore 460416",
       "place_id": "ChIJ_____7Ii2jERhn5QSeCITGI",
       "maps_url": "https://maps.google.com/?cid=7083186810831011462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ_____7Ii2jERhn5QSeCITGI/photos/AciIO2fqYd8AcxqPscr_-SE-72jTREkwl4Vboa2YnXUvi-hu9tHvbYZrYiLdqvesuZF4db_n9HLFQ6neRAGYpRS5YhG1Vgsp7PUqhbxfluKEI_O7MapztNZCT-oqzh5rmMw3FtOMzMAJB36t9UnwStteGkRqtjmUCGr5Hv-qZ1HXdbcoF7virWEmlBfxUzkpPwhykKYnP2WvGY-2wp6HEfKKkL5sdry6Hw5RKDbh64A4DpR_Qh2HoRFf8wPFRPA6iQ-OANxWVASAgycP__kskgUSaS8Sk3t942P6Wsh4XI7Qs27ZqYKea9VcN0w384het86YVIsSZk6Y_qT5KTgGH1e_aCf5SkcNmNuO4gIVjKmgyFboi1SZJ3G8BiwYDBYWZaXkOmEq_zR7b5RCqW1pjJyluhY8g8yeYgKRGoG1E0tT9AaeqJAJ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ_____7Ii2jERhn5QSeCITGI/photos/AciIO2cNcnuvB3YWA9j5Jph_ESvMi_iC5ggmeZywOz96luRflksre8m3ni9GO-rVOaDw03-GlipeyatyfbrsVrJjbrK3QAyJE_6q8nTNdvaKc1ffrDeam7Oo9pOxAn1cSie5QAl4h-H5f0Od8ZdPenpwdRCo_m2FVEUNCe7I1W-P9jjpOMfMPdHvK2ABmtKKkNluLKC8p10oll-E-OOhb8VboZPc-HnI7N7IekEEKLn72HgTNrJ2HbSBV4MFpIOpmLyoBgYPT-HTEln9y08WaoZxDCvrZMtSEojtId5iKmOz5QJ3MbPx8m8u74oKTTZDPnQGO9kxl8xKlO6iSqNq_idjKMQYdu01HpenJTTQ_n1i4_jqLA8EvFN_We1X_92d1QLTROyD6C5-MLAh7fx8EEWDarwrBGqt3sOPDrrCE-qZyB9Sqymv/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -1587,7 +1697,7 @@
       "address": "61 Tg Pagar Rd, Singapore 088482",
       "place_id": "ChIJK4AcWaIZ2jER3XQHNTDQrvk",
       "maps_url": "https://maps.google.com/?cid=17991546466858398941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJK4AcWaIZ2jER3XQHNTDQrvk/photos/AciIO2dfFCnpTYqiIfuBNqcWXLPfxF-kQ3pnyFt22NaOvLU2paXVfCjbs0HCRIHVZ5eGcyuyiSf-zHyVmORnp3cIDIAXmJuf4rTh-qgpdEMCZ4jiOTG60vifVMS8co2aBJsCJeqQeZLCFPne7w9-J2gCOdUgWwgYFNFqTDtDknfQ0oZIVhWrg6L9BYiL7iltTQ1tEjI6Gjs8ChYY6yxGVm8YYxtdsAOHHWlozWIh0asTCAxNYijwdsOIZqXmTIHvqKXVwNt8QvPw4m2N_ne7S6XhtBlm9iKa4p14a3InQt-kNmWzuA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJK4AcWaIZ2jER3XQHNTDQrvk/photos/AciIO2fI6TxtHq4oUIfWACrxiN1lDLKYQ7-OVVAXvsaXHItnybJjE5ugi2_u_s20Izz32SxbZeCtZi6K9d65MpkfhaSBH7i0HJAleyUGf8J85TefWjXgSei03oom8S7YnEjNKtsH2Dewooe2ftdJ4w-kJfvilqJBH_oaDst6ZS9ArCq23GohduY7GFmAg_SzPZa54IsXN5KgkE6muKXu0jGHc3cDBiZhP4zcyGbwEZDvBuP8YrUKMJPLNe7f5Q0G4vHPFGHW3kGDDAduM6qkF7II145dL6h_SNoAXbUKAWiV37Wb6g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "steak_house",
         "bar",
@@ -1603,38 +1713,13 @@
       "is_hawker_centre": false
     },
     {
-      "name": "Lucha Loco - Mexican Cocina Y Mezcaleria",
-      "rating": 4.5,
-      "rating_count": 2775,
-      "address": "15 Duxton Hill, Singapore 089598",
-      "place_id": "ChIJPYPWbW0Z2jEReQs9n82N3UY",
-      "maps_url": "https://maps.google.com/?cid=5106393466787400569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJPYPWbW0Z2jEReQs9n82N3UY/photos/AciIO2cUCxKY2uPeSYKN4QKvnCmXI16XHszudQN-7Hd9XSvYB3fM9SommdqY-3RUzIlmxliF1S-ZSwXXI6g7TrOtXWB0xxDhUZBEUbYrHPaoZ0PK9LY2cVaMgrho1x-zBC9NPSJn2HGnXnprVTWkpPGTMjx_A13LGa9bsiICDOZj7ZX7gvcklPKVgpJr6N-0kcrlxZvYozRKUFzz6tau8HSO6JKn7fjicdEhj8uDQ1eDxaFzgfGPW7sWb2-QvszcbHY1Lh2SPAWedBXCENa-YTMxnm5wT4DzNgsS_K9QSXuBa-eyeA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "mexican_restaurant",
-        "meal_delivery",
-        "meal_takeaway",
-        "bar",
-        "food_delivery",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "mexican_restaurant",
-      "lat": 1.278802,
-      "lng": 103.8427282,
-      "distance_m": 538,
-      "is_hawker_centre": false
-    },
-    {
       "name": "POPULAR Bookstore",
       "rating": 4.5,
       "rating_count": 1889,
       "address": "231 Bain St, #04-23/33, Singapore 180231",
       "place_id": "ChIJPaWdBKUZ2jERqnh83N0_oPg",
       "maps_url": "https://maps.google.com/?cid=17915389539799300266&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJPaWdBKUZ2jERqnh83N0_oPg/photos/AciIO2c2f6B-dDmP1XmvkvNfkGsNZ2kr9sEYLYjXTHGR0KtgdmGVlr1gSR4YMfCO--C5sUmoPhT_1-LzoTCfgh-v4vhyiHquZdJRX62CyYszqKwy-N2zb7kRvz4Kf8eui9t2SqtPD2hVRiChmYzcpXWIfCdtl7MgWMsT0igLLn3bIsjLE_HnJ57MxyCjeL6hYQ6TxlYHZEQuC4MfiyCFhR0C_jM16rzPdNf3M7FeFC84TYeyiKHprq--KGj05PP2wvVgOgrYiy67Wz1Yjp8afOid7DdzSz9tpAVZz73VbRVRFcstmApsvNWt1dXRvzvkhF9-ZbXmCXmA08-ZIbZaJAiFMp2kbOzNoDJWbqWM7-WI1Zeon7DLpLr5WMFiGSm8jXFl9x49e7gWZZGhrEouxgctKThnSZeoVmPEaeNljvpxDAGn60To/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJPaWdBKUZ2jERqnh83N0_oPg/photos/AciIO2dRatWCUkRxs6DczdCKO7v368ZQNPEj5DADm0G43md0FKPilrYU9yofotztzGHZaj0Kt1209WPhUktbztsnFTUl9zjiisaBIrx64nPAso1WS--Ojj-7Yel-d50p9kGMMUmeLi2Q7vRTORQbr6b37rRJkzK-CMJjsYiJpCx6tD4adyLAS9zRFi4WK8pcqVvqyeSZeTXca5vZRew0UgvUnqK4BEfMaC68OqWb4FW9Ococ79XRD3FWQkWAo2DptfAwkYx7ojmsVJiM79RZTmtvhsZ3eI7Qq9FOYPASte_haZ8enUeXiMtpe_Lj6PZNoViuVLVyk1NJxDHVNe6h9JT2b0AyfRMSRXd3E3fMHNzTQOtEloOg1uDcz9rZGRsJ0px60fu12EORaU3q_SWKOUgiEkDNDbJpb6rxNLUdUOVVias1XLs6/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -1654,16 +1739,16 @@
       "address": "16 Enggor St, #01-12 Icon Village Altez, Singapore 079717",
       "place_id": "ChIJpZh7TmsZ2jERUtSFj2K7Db0",
       "maps_url": "https://maps.google.com/?cid=13622750479854720082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJpZh7TmsZ2jERUtSFj2K7Db0/photos/AciIO2eMzcZqqpSnI4JzmStQUwAig0j2a8zCC8nPR0XK8otxYFJu_sCEndsCTdxeS4tN8Ija6MzbMoSiQxUa7B9yMe1A1UG_spq89ax459A37_wCHXZbzq7CqTRqsWBlUhL-XBEcUgxAgizeMFxeWPLrHk706mcuCng_Cz5GWfl1H8Gf53JW9BkvkE3GmxZceJEWTXNvHXOn75y9sHwPiFHqjFUuEtPFS6qPJ7tVsugs-KdCEx8mwdxRmCj5LH6ZUm_bwqIwlTdRowZgvk84qY9FXpoBdTThenFAKk7UJrffrVgyTEkpGWfLko6gvo2-2XHb3XQFWM7bHlCK-ZnLYHmerRjZCKIhGkmsb1vM-BhN6QrSoGQ8pGKwuUB_qj7mQTsZHBAsmJrNjWX1bJpA7c2sDLNtLcXxjjyXof6KnEj8w6_mog/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJpZh7TmsZ2jERUtSFj2K7Db0/photos/AciIO2cRr4rUrINQ8vjU6TN94f9cOcVqkFbY9uoVfP-SZlLov4xpQ9JflqQAQ_badxszrYgarGKeDYH170YoQ5HmgYNi_SJf6vue-wK-dMm10TNXZZ_s6mpE8jKCKL-Bbzadh7azz-ecZXFzT5G6SQaMV4ugvhjVceSEJg3bXuSsJN4A2QILVqxoKJ1ZgXKkfU3zWDweALBkgP2bRJmQXIaBcyG7ZM6-JJ4GLtKt4i3Wpdxrjj_OlThi3V5ALSFtsPryqmcGjWXYEi6qmo71MjeqUIsmcpA_Aj_A-wUfLz3iSUIdWhKbF0iMTF5rlYuTqrsq_SYGyeqonjp-engyK7WAdqSzLJmtUKrthhncN4lRVNMhVZlZ_7KPTrMBtMPlX9imfMXOzy1BlXMM7so1ZsosDs45fO6ruz3C4P6wshdy6SFKTw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "bagel_shop",
         "bakery",
         "food_store",
-        "store",
         "restaurant",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "primary_type": "cafe",
@@ -1679,13 +1764,13 @@
       "address": "32 Maxwell Rd, #01-07 Maxwell Chambers, Singapore 069115",
       "place_id": "ChIJM323rE0Z2jERWMg9G23kIBg",
       "maps_url": "https://maps.google.com/?cid=1738640613424613464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJM323rE0Z2jERWMg9G23kIBg/photos/AciIO2eWau5o_TuJ1isQjd0P-_Hj2FHogiPU-dgRm4gflZAUscRTn1f95NhELerD1TdKrL8JZwZmXFvy2C07BRw4Sn08lJ_GDZSYcqPcjPaATJVJ2uYhJoiSz4Ppu8uHeLALxNoxJRuZWb2nfDwAihyQwg5AyVNe63PQf2-0nZzcI1uXyzBPx0zSxA1bdhF3PtiDr3BCVjqhzbSrwUfaFYvPCq0WQxc_gXg_2D4luuJu0sHJ8329Du49S7Q7EwiY1lSzuiseoW2l9q2FeWCJpgK3Kj-a5UIJJ6XhdU0DPowvgOt6A8UeSOCMqq__hf2aAge5pIHZUtgR2n4NSrWVphZPEJZNQdYcSpYUlPdV-m87HGKAF_ENCTBeaK2miE8xlSTPULXwV-MsZ3u8RDOET76D-rEE_67iuGfjhsqGTKdajALsMQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJM323rE0Z2jERWMg9G23kIBg/photos/AciIO2dl0ojGQNvO-CxXQftl6cXUEUw_bNR-ufDZAk9dAf4XUV-qeHVP2XGB0aELG-MaVFwRTP36Qv56lnG9HfmjeVkO4eaLOC2TbQvFlHAA7KnPLh8uBSSe4FeueHg1lc9TDtp0CWRMknAiHabIrFMxBRL16ynMD_PgbSgmVVdFkHryISbTcrcK93yt-oC5Pnmb1mzTVLQvnj5pZRZN9FvMFFAZzDZhBcDo2HuNsOl_8cZlsWHgWzLHSljrCxhxA479rQn-fSy6fk_qEYCrPXe3k3Clb_IrmSqNx9jvlFw6w5Uk4zelWXDej93gZQ_u0Fj5blFyrJqaW0KPo5R4TzQB4HShT9ttxcF-ZJam5QNR1WxerCd-rw-ZLjdGWuCA9i3yhZ_UCVF7axZ1VWxTInjZznkpgF1ECuiovTTEIyW4qpje-w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
+        "bakery",
         "dessert_shop",
         "confectionery",
         "wholesaler",
-        "bakery",
         "food_store",
         "store",
         "restaurant",
@@ -1706,7 +1791,7 @@
       "address": "12 Gopeng St, #01-05/11 Icon Village, Singapore 078877",
       "place_id": "ChIJ6fBlRHsZ2jERuDtMge1ovMQ",
       "maps_url": "https://maps.google.com/?cid=14176321096341273528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ6fBlRHsZ2jERuDtMge1ovMQ/photos/AciIO2cgwzyx4_tbhu2OzCqlndLuNSZE_nGAAgjWEUgy3FhyftkNFah0DUQmJ1jOzlV1Rc6pDA2P2byiZKHx99hLjiOT0rVgfNjCOAI2HStgVV5MoOG17dmi__jvy8enlqLKkfbgUJYzpu_0JZC2j4JAdbSnyLilcoGQRR0zoxc-7vcTxl8ChAepwdSwu9Bxg5mhAGtYidkXWq1m1qj7joKHIzUPLlSFqYKUQQ8XPvN1uBA20_F2I-ySIuFKN8OdCZs-eOLdX3K0RGiQtQ4W8GGLfpPkZv24LMLIRlyKB-4XUDRPow/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ6fBlRHsZ2jERuDtMge1ovMQ/photos/AciIO2ckdyvhZAF-9EEgvKjcG1I72K73uwxWq50R57Zgoi-_ajDZGVKAKfKF5SPj8Wk3wzGwgWGdbL7S0KL0MhU_6wkG6eO2YPid2qkghDWv32h0DqPr9vgXl8sbXRL5QH91W6iH2tgpWWLGmDQ-Suiar-uDbZphmDI8dH2xcOPGjoWPZxLtwM0VKtLv1EnGAlLLMN_j5H3-90hMz0IrX7DKvneumYsKBM5HmyVZnEcA7AroR44kiVoTJLeLh6wYVO-PE3LnSXDXOGrJD22dvG6emLwlDQmQaBY_RzGTRzP-IR1Pjg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -1726,7 +1811,7 @@
       "address": "1 Tras Link, #01-18 Orchid Hotel Singapore, Singapore 078867",
       "place_id": "ChIJYWuy22wZ2jER0SsGm6Lbbq8",
       "maps_url": "https://maps.google.com/?cid=12641282695507618769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJYWuy22wZ2jER0SsGm6Lbbq8/photos/AciIO2ehKh_JaGSi3eAShuT6IkSL3YaTxyRY1qdnLfKOp3BUqYByD1QT4Mwb2-RDJi9l6RgsGnywkQSy9GUhnLxNb-zL4cOoTI61Kp2nSF02bI_p1NcFkaKJmBKg7wN-IFCJgrh3vzXzI3uU7GQ9SxdHfVdBsc-UfgKEJGFFbmPQiKJKknr4PwRNpJZyA2oDw4Qo8Bh5LP7scrTM6g2zsyly_Ld1yzQnnP_LQ9u3ofJDLJYVieLTWojLzpJnYy2GWAU0asdBojTDL_J-Ty-UeT-M59qiG3Nlpybrs1uLNA8tDrPHsNOpEfzfqvr9QTLeIbQ4-KFDL0I4ZiwKTLvXlUFwxNH-H8_PCoTN3jKisHWNBHpdtstob7b403OWVsMXyyhVntDVoEW9finciqE5-tw_a7xIilH86SrGf6cNyYnMVMQWzF0W/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJYWuy22wZ2jER0SsGm6Lbbq8/photos/AciIO2e31j4Mi8Di4t2UrbaK3K7oYD7wTUghM3S_c5XsZ8OO94HlVB9bwJPZLRJ3WzV72IYsTJp1s4eO-SOi82OW0QOAIH1pKQTm_wCaFRz5vu8hIvA1JHHUbS2O-KdaidfZFOl_y778Zb-6oxDthX9-Bmd-hmnN_SpGDNvE9krxtmrPqC6_fRwdB0ALJrM7Tp_8pR1oHQR73QVTLjvBLQbWJGk3l6hbkadbS-Sw5PHZ1uqqV9uaXcbPfNg6OYoA83CFSwwHdYb1br7aOvbAGRxsz2fFlBnW_GpOIRprNtQnGd-rzunrWmil7jg_m5mgKw5BqXW7n32Q4bvODnoba1fHmAkyYQi6nrscer_2DlzQFlQvZxSwION_HjLChgFVOpKsjRdyRgPeryc50-3lYNg21JmC5sKhwBg52WXy2cZibLcVDu3_/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "japanese_restaurant",
         "restaurant",
@@ -1747,7 +1832,7 @@
       "address": "29 Club St, Singapore 069414",
       "place_id": "ChIJVZ7D5gwZ2jERXWvwVjpU5DA",
       "maps_url": "https://maps.google.com/?cid=3523033418054003549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJVZ7D5gwZ2jERXWvwVjpU5DA/photos/AciIO2clCEEInUl31LIitTTIU-OvsQdSnDYb-efW4NaVnvFAJiZ_bA6r-0C0wYX4T8oRR5U34GrLZRBeRic4EoyrKYT56QIbdqn0ZCbA528Humaosvw_ycsYtjghCLh3S-HYr3CwnH_xzfWwX-wat4Gx1j5zx5ZTWDQM-kBzdo5lrIJFS-WcQYDfRl-qjB8Dgypp8b1lfcP2QcCMONKCn0dOld8tuzt0LKjny13MbGovVE6U6ySus6uOqX-wJ15oPkF8k-KI2D6A7wtg_JAvGAGqjiHRtJypRoC4mkqe4j1Sjhesqg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJVZ7D5gwZ2jERXWvwVjpU5DA/photos/AciIO2dWOVb3qE9P2QryY7Sg8NUEYUJ8qPt6xgfA_DibfSzYhxNRTy8QJfn9qaiR9CK8hLPeKOFNmlztZai1f4rikcopCX78aTIWi55VARB3QPQvRSCVc1ZoVQi9mwS5chwY5rwbhNWHjafWXQpfk5dAtvGnAFwoqfBCXErH99KciYIK4h3wQpFoDhfcaGZjjz9HyF3Mv-NszYPnHKQsNeOHnVhdVwBKp0gBzXb76OYcprJSU-SumoRQ6K3MdwnlAQxs9jYwwRW_xff___LNpXwXsqNZIXZy7BVWUTJVVa8zD6WJsQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "wine_bar",
@@ -1769,7 +1854,7 @@
       "address": "20 Bukit Pasoh Rd, #2nd Floor, Singapore 089834",
       "place_id": "ChIJsw3kjW0Z2jERT4MiHoOfQTI",
       "maps_url": "https://maps.google.com/?cid=3621350960877699919&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJsw3kjW0Z2jERT4MiHoOfQTI/photos/AciIO2dv7Oso_bzUsuQJzrImzKxnJNp8HaurU0uqmgz6eNKXcRgGQPM36rkChXdljMz2yOFunWEtPffF2pt1MwsGliCErEHUWvJwTLyizxm3MuliAubhF6GC5OUrkZEmNBBUqeNmCL38fbN6Xuv5hDvZqfXeLB6RBYiPtCrau14Phw4-U_sjk57m5KnvvSZ8Y9UU0XFPnAu1xk6rOz1aqLao0qEj3iXTdF2IFRsWXJjqBLIqSQcj7X_SIkGsOZq2NPN9e5N1jDdMY38A-pcXik85KA4erG43MDrYjdnwKtTmILy9sw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJsw3kjW0Z2jERT4MiHoOfQTI/photos/AciIO2cBK6vWO3g_QXDC6jDbrm2_IbXhddmEMnkncGtr4QIpydlw_IDGgM5FYfrJs-9R-AgNmRI3elqfmVqlz8HY0wP5aibC1XotIGDMEnasH2oRLLBMf7SNyCzs6DiqNTGIOjy69p6zERmw_n5i2vqQgq6LUsK1xV5G6xGKvK2KNzKNcy3cPKoPgHN4FkpqD9ZI6l_jIdaGpyXNFwJ0DlDFej9nWZ8SZfY0VRKB-u1vfaFBtvcNaRIYycYHP5-lWL6AnfUwKynz5qGcGj4qZrQCsgx2xtnkJKr0rqUk0UrCECF2Sw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -1788,7 +1873,7 @@
       "address": "33 Tg Pagar Rd, #01-02, Singapore 088456",
       "place_id": "ChIJvT8y8V8Z2jERMp-HfDjJQZw",
       "maps_url": "https://maps.google.com/?cid=11259501787847565106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJvT8y8V8Z2jERMp-HfDjJQZw/photos/AciIO2d2eE4cx-t15ts6hFY--XSNs75O5AKCfk5gG5zDHVP7eqxcuv2LptRmqKr9jipB-GsrU_3xa3_pLQsNLPyDB4bIB5i1VApmnxnPwnus8BBq10C_lM5Ma_LJ0mBy3ye1DnwiEH7v28vU2upGiHIaN63LtKrUWEByvrDF3Bg7MZaUaRvlYsZbYOujRfI45Ztz9aoT4Aue7CsmTmPzgt-VgWYDMqL8ARAcPMEhScCt9_ohkRKmoZAYzy-WDk_dR7Wvk8MB2wX2QZl1poJ6BSfHluKiJnkAE96fX1iqMKYQzmMPNw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJvT8y8V8Z2jERMp-HfDjJQZw/photos/AciIO2dYT-eV4WO6PcJa1bgIGoGGoetbX8c96sWTXw2_C-ICR8uWK5whDJKrjRlmDxK4o6QSg7mGrMwtMbE0PqD2IIb8uvpZ281VHeU7q44tkx-4uvtp5T24Vdo5iEViGq3xQJoJf_mT6H0NHNOpiOCp0IwMjW4ZVg4hQVUktJDLmCOhjgf11pQSKuf81JfpwN5sUp1fIhytVyD9SCRQ090iRdNS1FgEd7vipCYS50NJFDiBTs2tLcMRg5iHDldaSVDyo30Z79AlGTC4ympo03bMuoejtm9rit-cSpyFdDq99D39dA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -1807,7 +1892,7 @@
       "address": "70 Anson Rd, #27-01 Hub Synergy Point, Singapore 079905",
       "place_id": "ChIJ-6eVAvgZ2jERXmewPCfIXSU",
       "maps_url": "https://maps.google.com/?cid=2692528223084898142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ-6eVAvgZ2jERXmewPCfIXSU/photos/AciIO2epJFgO7HAJZCTEGroFTmJb7pHldezaKf3mxnuiAYn5FHuvBQeaz5tK_pIOZwSq6KCzDqsKCJhiWkxy0GyTIboLFey8suVbYjcKHvvF49jL5naOlFyRXKS4j2rS_uGAo8sQn1PcMybnVSpbKMB1Y6KYUyu3Jx0Wy1TXdIA8bTFwqcoTjTXABnD3swvjMYrrMh_gcet1jxRtFko-SPLe57AOpzwQa_zLrVdPwf8EMqUn-Gl1P73jbfp86t7oRv2ENenLZx_omby9AYYxw2OKyWjNnUphMJF3YpxaNNTd4cgYuA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ-6eVAvgZ2jERXmewPCfIXSU/photos/AciIO2cQWjHSkFXX4qvN_zlx9r2wMy7pMAtkCaY8YQTV9heFstAcdTT8CsDcqxJBjZgZpPrOXTHk0iSVlAMlT876vFQ1zI09KOHxGtIwe8uVleHPHMzpQjYDHFoHSdH1Rkoefeh-BYXA_2kHe0029Rgfgv09e8kZDpwJMI9HW2VIZx5Oi7EcsOSQcEkYuZ1NTPOj6xweAg6q0MOJejgQoGVA9Fn3iPIYS-NjNPDT83mmpMjiCjoLs99G6RJZa7wTetHWY-4mJqsCWZ073VM0o7rt4qvoqWxVKD841_W9dOT7YnKqkQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "night_club",
@@ -1829,7 +1914,7 @@
       "address": "83 Neil Rd, 01, #01-02-03, Singapore 089813",
       "place_id": "ChIJKSpsMwIZ2jERw1lMXfDw1bY",
       "maps_url": "https://maps.google.com/?cid=13174701200090356163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJKSpsMwIZ2jERw1lMXfDw1bY/photos/AciIO2euK44xR3e4Pv64w9g66yoyzgXtcuCOzsY2qVvIV_WezI-T3lkZBNdlPto07ho4_d1puPt7SG5V69Du0Xa5DgjSD6VPmm_iBHalXn6fGQidxagQLsf6cnK7py64iNWXEKg9g86iyQ_fGQAPnbLgwRLUIHJO_hMXkVV9nNDLU_N9T0y1HBvzXOJq6OYqileMC6bl5KJeqzCEhuahqiiT6tR65sd6LiTVKX85DlZq7joo1j-I66DFfSN9MOZ6EpHha0KALnKNvvivzrqTjBb0IxBUrtKtnbCBbEPTv4M79RP2TjvHBHlsaXapfcsW3BePe-CC_i0ZLKmmFvkDgNx-8byqzfLRD8ivkh3Xq_2CFWwxMedvuamC9rVExIvCKMx6gJzeWZ3olFEVvBd7I_FX2eWNFAzQdF80T-qPrt3j0Cg_kg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJKSpsMwIZ2jERw1lMXfDw1bY/photos/AciIO2fgkexJHk9ZLkm3XZzIbxCZbuEJ84vglhRN-B5hEnRO1OGiqyU7Xslc4GnZUaP5BEJYG0WNGtG56Drm1x3oab9LBB6uEZjo-tbdUTRu3BZz63X5_vN5f4LPK-jAypTGFjQD42eZYhFyCZg4ZuMIt7CkcPU9p88OpJWWFGYi4r0BwQevI5nZQAQ5hTJZ-CEpVWGnISrk_cPqyi90KBAh0Q0gkD0iZsxjo5BhGd5WW0SXHHun-ZJUX3-6qq--u1vjEwDUGiLtVAmSjxNDkSl1Y6hstUAwVlI-YTw2GWQQkp9N9wOFdUznju_tuPGHfsHIT6IIfI6daAIkRyp42yNrnKCdHAjF2PSiw59ew7iXc_yDckoq-fpk8SY8BucWbMj6Et8E4xoa7c6Br-vrcjvpJhvuJXXcYuiMDajWL48W0zEImg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "mediterranean_restaurant",
         "bar",
@@ -1851,7 +1936,7 @@
       "address": "20 Keong Saik Rd., Singapore 089127",
       "place_id": "ChIJ8d3NKGkZ2jER97pVba6D80Y",
       "maps_url": "https://maps.google.com/?cid=5112574787177528055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ8d3NKGkZ2jER97pVba6D80Y/photos/AciIO2cpMl58PwdGtV2hIqTezWbya336CIaHJquvNxCC-NJWAmCqDsarihICqyrTPCHMblhrcIwxxlp43zTnFxTKc_3rXdMgu6az4FjGlbrWmSXT8uFdGLqbVo-9RvMcqqEKg9xAW9eAWm0-9HDWqJbODgB5ASSW-AnHy7EwS8_Q1gW9h-0C0464VB9dRNOcK2WbfdPYyCWDzAJ2q2GaLUuMp5ms0E3XoXE0ubzuDdiJ6GvIySRd1oQrNpTvOEtd7KCIuv8_no5hlPrFRPAAFd6WMWMwFfDmeqngO1BSER2xuCclPw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ8d3NKGkZ2jER97pVba6D80Y/photos/AciIO2eUteoPNrCdvDytDfNGIyPoD6sUDwLDiURU3Z_R_FQoGZQy55YQVKgJX1gTtD7I1LmJurZ8DnFOdFIj0k5ewnEjadu23U_V69CRiFwnyqWj4uts-Yo8z8ygrRhCrHrLxpQ2bV3dxX-LXTWorFfJkEXIabZLx2H1nu9U0k-JSsn4HIDxMi2B5ikknTiZdAbx8cA1N7ZzAbc_4PWxZj2lsgMU7vWXDLpk3aSNu-Aw8aE3697qmUCafEjvTXNxU-M1o3jjRWzYllW-t0UqHOAWD03INAKz-J2_55brN5oj2zunLQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food_store",
@@ -1873,7 +1958,7 @@
       "address": "123A Telok Ayer St, Singapore 068592",
       "place_id": "ChIJF0LHpg0Z2jERP0GSpLUlNX8",
       "maps_url": "https://maps.google.com/?cid=9166274078662869311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJF0LHpg0Z2jERP0GSpLUlNX8/photos/AciIO2dL5N4nadCafXJb25Mub9Ar0RwTw4u-knWIZY37-BISI7Ko1R0U7HFHQK9vOWlSKLAKLudXN-zeCCkKkeJaj0qj7oGXhrH3YH_LdJsLSyFUd3vgGZ7aimakpw8tThZjCnmi7V7YU6kk5HaM6c6oT4MyTNY0oX9hEaTgkJfYNKgb-OSK3bTfoP1nv_ggXMXS1V9DQOjqAq9uX0MBs_MM7Wj38A_skr0KCX5_Bn-MXJ0ITuA5Tgs43Y9G-4QAoHCNz6AWYu6IA5fpfN6-i9vbt0eZGblOBJjah3bUTDLg2lbuq5S1ZocueZR1ikut7kcrgwNsvhZX-otiSiQH70ZaYyaBVsLef7P-6UFZJDP_LZZknrRl48nntxrYKW7mgKhQIYySprgw_JxqZlQVNGrnew3A37HGU8A1GBUVlidgLwUtZw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJF0LHpg0Z2jERP0GSpLUlNX8/photos/AciIO2fBnc9Sta9AWiNsbJt7ChjjBCg7K-6OWD9V0ZbToHyqAfz5qUfssCXCoxY_BH0NUIjmX4_3yooGJ4_Qtjxs6Z6HEXnzjOtGSS515lrc-pm55oJA8bZvYfgWKSfPzymH3Q8CpV53WMU2X8t1Qrmb_MJU-V3i07Tph968dp-FPsgT7ZxmUfNJUNi1fFPze3uquDuhA06kS5Pi_GDNG2qhplrPK663uBCNlMh7cKmsuFx8rBSEEPm-hioUl7SVU2bqqCk2Qz0bpwCr13E8CYzjgXncD9bVQnf_oGAM2NLZ22Jwto4Zdfhs0WnXLWGCpe1fnosjRErQlStnaRTtBPoERRrgjqJhRchgZNZbcLV2xoe0O1AwUTz-aOd2cPBbkO5CZQnwsuhhemA0J10eqkkFWutAo70hITKRYywmDVJfaCnmFg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "wine_bar",
         "mediterranean_restaurant",
@@ -1897,7 +1982,7 @@
       "address": "52 Tg Pagar Rd, Singapore 088473",
       "place_id": "ChIJQyvsC0oZ2jERuxBfoOVXb7k",
       "maps_url": "https://maps.google.com/?cid=13361995263181263035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJQyvsC0oZ2jERuxBfoOVXb7k/photos/AciIO2fGKdshPaY-hPfNTEdJEw_fHJxCiRDnFH5veFbUozaizY-8jhyL_HENa2u-z9UA5VMNsjNZDaQcgDkFhTSnM_WBv1DfwyLPIl4ZTw-v7mq-IvqvQE60OgUekK1GVBxfwA0X-RjNnXToNveMX6CNI1U3YdsZNaG9tZrHXNv1yUkpqSCPwROCzEMEdvnSI481UZDeqiMuNHHytFszyQVqU4iRPwLAesSKToAxFkiGfhc5IMZkumgMBbqNKxkmolDXoAIX8bgYcUiGqYozSGjSfLjXq8RyRcDEL4K-JFzxt2ovEg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJQyvsC0oZ2jERuxBfoOVXb7k/photos/AciIO2cbzvkWatGp0I_cshbhL9eNb5IbidkkPlXzAfHrTxsMJ1QfUqkFp-N4P7T4SZvqSmY3TK8KbCgHvCcVJv9S6Kjf-k1ALpGYLZ8kMeerXPhvccHqTMANMC-dc94U_PJGoT_1l7pyhWKERXgBp1xaf66eItZKm5ExWHqhHi2-S1ZycIPTPDbzfEkiw2yrvc1D96jkId6sGkXN4mOWVT4bEpRZNcLUXiN75F16vMEgA6SJtpE1QgSta4CYRA_JiAnMLGXI-UixmPTNyTGgJeMumGCKts4_NLg27s7kt5adMf1b-Q/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "ice_cream_shop",
@@ -1923,7 +2008,7 @@
       "address": "21 McCallum St, #01-01/02 The Clift, Singapore 069047",
       "place_id": "ChIJVx6HINQZ2jERM385ZcqF7pU",
       "maps_url": "https://maps.google.com/?cid=10803719660436553523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJVx6HINQZ2jERM385ZcqF7pU/photos/AciIO2dq04LtxfwhXSruzX86wODyvH2BEAH5hxNzyNtGBq81lSd1dg6h29SFMU4rSYStAXVuDTmlpa9LI1TRIvDUfZd-Uaa2MGLlkvB1MLJMFmB2XeqqRGmVYBi3k9fVscIyqeAjj1X1x_IEjjqGzqNUnIkmIwJJmCVxEyJ47JKHywN3y2RllGnh8l-2yMLI6Gcb10lZsBDW0kJgDPVrB8EMtzADC9DpgLfF5448n_YqhPKT3iUmSSeHFXRXura3aAfFpPjiO8gAvEab3vI9IfISLsJKSN0FCRfV5-EOSCn5LvueOQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJVx6HINQZ2jERM385ZcqF7pU/photos/AciIO2faHbuK3Huhkjz2YUCEEz1jWzJbIpmUkzhPDZyr5sNtoDtTb4AzL0cmvFv5xKC_MfXv6BvntUyDvP9A28RCJKdpgOAD8gBefEmXxbTDbwMJH6wkZGi15s0lqqGzzvEMbaYWjqK9DevUCfYAVn3ICSAKS56Y1w681And8loPjaXFtLnqeZmZM5o31XWKV800QrZSECzMxd2aKvbNv9y4OGK8Yz2DUTS8NDl-oSPGh1KQ3nx1ntU6uVVibf_R75obrPH97DaftJyYOxSUg8lan_Za1bJ3BKYeIzE-hpXaKBAjRQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "coffee_shop",
         "sandwich_shop",
@@ -1948,7 +2033,7 @@
       "address": "76a Duxton Rd, floor 2, Singapore 089535",
       "place_id": "ChIJ91qbH-oZ2jERk1af5_FAwXw",
       "maps_url": "https://maps.google.com/?cid=8989537738925495955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ91qbH-oZ2jERk1af5_FAwXw/photos/AciIO2f3q52C0d9gQ4K1CmJLzFp_63JVe04sivN3czm3vjYJQTW3Xllqh755EagRTH9bQ93vkB618LzFyI_kc4ddVCbaIOsOwJgZeM1Y028W3fRARYul6hAV4-TTdcgUXOCPT13-PsKKZR2rKfECOwhf8M9dpTYs_oWHCz9FOmGRbcRZfAQrNehgRsruXoF3qaMuEXnevWO8kpoDJN_dGRQKN4B2G6WYzAm-jBK0oBbKQzaVcESeY07ogoeYLXVSMigdEDi67-Ks_XWhXvl0v4EfIBhFdOkkXGhiLcXDbJ-ket1dmt0jowWrlekZblB47J93ur7dOWKALfvgGFLstVbx34Yled8Fky9wnFGlUTsT1b2GF8yw3TZCK6tUj9dTs1KgJyClg8bgmvfmEN9pIBNq9zUynwus7lZlDxUo1CvcoQGig1Pw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ91qbH-oZ2jERk1af5_FAwXw/photos/AciIO2dhksb--epQvAG380_JsNI4hW3YRIVayVtATXXlDj_xYqqOkg3m3_m0E0Pc-DTNe5Q-BAwyl17Kjs-G-cy149APC_lNld1d72AA0nKCoyZ-D17YOFv8KWHISMDrzxzlp2rDm6n0d4bjCk1MfbKsVmUIDMYt7ZbEWsteCEAcFO73iUHfeRuWFV2jxgQcwuObFlz_zO_92AZ7hPLRvC5SZSSvqHJw07bkQOdW2UdSfd9yfWC3qrB7WB9y65FhVdPBsqp8ZknOTqIlWflTK-VfM1sIcBdShY2HzWytkq1GlGhemIjEuW-NsLgQg01glH-XzhhVMfJW8rPpmXZ31kV9pWi8fYHN-_UbJE5imT_XTyfcUMrXNMK3Vx-Ok5TLtpp99jH8yOlXDI0qKxyXrHWbOBbAbmO2pxm546b0I7F-lEacuFim/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "food",
@@ -1968,7 +2053,7 @@
       "address": "1 Tras Link, #01-13 Orchid Hotel Singapore, Singapore 078867",
       "place_id": "ChIJXYNjvuYZ2jERnDIajH40k68",
       "maps_url": "https://maps.google.com/?cid=12651513496334906012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJXYNjvuYZ2jERnDIajH40k68/photos/AciIO2f0hFfuLvlBHdiN13cedCjDbXWzF1Evw2DQIbn9IngB9KgYo5ngDWKHS3CCO85Inyf3D7RtCZoiCWdeVgdzuGRC-Gw-TR57womG2WmNnudanrb6RYFIqEgDtd81IKnOm8Hrz1YJNsJhqpIM3Y5_2hcUQrvEdfg1FXfUA60pNg79DLTUdpw8m-3byjOsIhcRR1qglpFrvoyvA9K5rliKsBmCPLimJgjnzAkUGermKI42HCB_q6r8hxv0e56RBamnFbg1qzSdeD15uHyBv1r_UbCurbATwd36QCfMQCY55z6ozg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJXYNjvuYZ2jERnDIajH40k68/photos/AciIO2d2R6b57mqqOClGBY06vd9R1-lNfyz3Vd-kvzm0Y7Etj5Y8GeSL7aup4NoRwCzwKnagBBDKCQLDgcurAamV1zqhfOQ7HKWTas2JpE2jbOSXuyWvRso296Eer30QsRYKedfO_dZ2SN_WDi4RjpwTlNldKOgL8KRUnt9Ri_yb7N-xN7nlH0HAip8HPYkRWNWe6fdrWYN_9Pf8vyqJ5b3E8gkyerIKpvev0w71JGreQOuaNPeitn8sC-Et-Thbe-nAIFo8OEhOX77mXAXI2s0cxA2WH2vzkn6UofOdeLnOf11GzQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "japanese_restaurant",
         "restaurant",
@@ -1989,7 +2074,7 @@
       "address": "Far East Plaza #05-01, 14 Scotts Road (S)228213, Singapore 228213",
       "place_id": "ChIJjSLAppIZ2jER_9fMCyVBTRM",
       "maps_url": "https://maps.google.com/?cid=1390839487294920703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJjSLAppIZ2jER_9fMCyVBTRM/photos/AciIO2cS6Ncu4mzDHjQVmTORVvuMwdzWABm0bCCGBJwzi_O4ahYgYAbuf42SzrcJ5IkozTeWiJ49P8uVh1Ry0Dh3f_O3sqHU-FLawTKgyxLcrlbW6ZeK6fbZkgf5NxH0yXyJBxtzwUxLbKg2eCQrOZ-WIwXXprXBmhDexuklZQmEWgc_0SOLx23oQlfEswfnJfPhXhjFXMntPlm3KCPin5ue-sz8VHObpxHSPxDEc7Z3Oj-6s58rNpfpfBaTFN2T-VGUYSL64pTDuHuSrHXH3hVyWZ8jn01bgejvcmdD0lY-bab4KrOV5QEZQJeEerEBcdTGfv0WWasd_XKxpQM0t3GpYQLVLX2rcalPc6NFVvnE-NqHGa5da_Y2jd54VnbCSWJFvyyGxlLJ3Tr-NYfPJ8Tu1d93xaQUKrLd-77GHsaqRJ0UZSo/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJjSLAppIZ2jER_9fMCyVBTRM/photos/AciIO2fC7xfkt8AGnwBdw9Cj-a9YKNnzRdtdb3sxVbXvXqgrYoFOqYOf3agFcajIJ3sTFDI1YKi585bIHlCqPYe_-tOH43e2tIY5igHqQdKTq6pbrMMa-hmvUFntvrUcDdpoFQRLpoSS75Mp1byK6JnSnqq_EGNLyq5hNFlxc-O8EJmutt5rRlNUxkATiPo5ZE0EzdwyJb1UNies3aeDmys6nkb6ik-3oI9ena-hFuZ3ArfE9Cvr9541YommNjJ8wkxflpcVk5Z4CEaYOU_RXMI2cVCmt-JrCv9riBFknDJ9ir0BH5cgkf6lbNbjlQOBkp4Zh2D7a1v3O4wrDA-eSssK2zwLLwPTi6DpkWxHmkVVPJYDpFvRVb3-ysLGRChYJEV_pCkyrlXlKioVIIG-PwYTohkLOgBgA4xP6tzfNS8ephUytqA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -2009,13 +2094,13 @@
       "address": "6 Tanjong Pagar Plz, #02-14, Singapore 081006",
       "place_id": "ChIJhyLxImMZ2jERamevHSrDBVw",
       "maps_url": "https://maps.google.com/?cid=6630920612027000682&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJhyLxImMZ2jERamevHSrDBVw/photos/AciIO2dcHlBWQtG1uDoK_pyojy9dielKkXKrUSfk3VMaUx98U1mfcKaGyyHgfk4GbdWs5grjMfZDMd7GYQfhbz5NA61F7xl8qmtNO_6LEDgqE_I8nZyG4jhnxFSEebZXD9HHBanvZgh3_v7VVoM_I2n4QQrgYrNs8MsIeGXyKKoHiHdnSyUmgn5OGSJW5EvgHS5Yf6jE7q_ysRheKKosPaoEZ52oZ_GZAHi7DpwTzA_OTVEsWeZYjXA0Nai47eqJQAAR7ZmFrn3DpSG3lxt0JzK7MY_oBejjOzGkSWfVhbliJV9ETfyAKd4dNLLFtH3o7JTUouKSWh7jBLYlIXAzwnSxws6THFbPQ5hBaDL6BY5zEU7_OMHPYceOzR3pTE0KEpxi-kehhKfOUu-M3RZ6tNV0SPIAu1-CYlGfN-4oLI9OaiO5H1w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJhyLxImMZ2jERamevHSrDBVw/photos/AciIO2d4o6iK399GjuCHzaKqP8cqBzSggRQrWDrh2wfNdBctKLB70zTXSxnGC8F1agl6IhqnIbKxuNfMQG1s73u7RBW3PqeXwbO29RDxlgFYi6axVYyBaPHIYXCenKMg7fEypgv_IK0OIq4qsbFVs0jvP_D5HEjJf3kYcoJ_3xk5V65qQJf5YQP34xyhGp0J-zXnZnNvqjrVW3KjyS-Do5DXTi2hTNLVJuzmktHiycOqu2uhNCDy2JPi2KTAV3s2Wr8Mytw09t3YSDRnT_XjflkHHtuMFFXspwglct9EGPqGp3pYulm8Z5ROH9qq92YApyy22IE4rZHMAfthEIGeBZnrUeNC10CbKjHScDb6G3E-i6hJe7MNiNz0Vv_6vBQcFxab0ovztTbDGQPnfnNnFbICl89ZhFwuNFJWRVbg3x2jL5lS4rw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "coffee_shop",
         "cafe",
         "food_store",
-        "food",
         "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -2032,7 +2117,7 @@
       "address": "160 Robinson Rd, #01-01, Singapore 068914",
       "place_id": "ChIJdWdXy6gZ2jERqxDaaVMHkJc",
       "maps_url": "https://maps.google.com/?cid=10921237151213031595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJdWdXy6gZ2jERqxDaaVMHkJc/photos/AciIO2en0p_G9RYE-UdhWPKPzoyEi_S4d1_K-Cay6793o2UWXxJxT5nZzQlPzBq5Psy41_LG0bsX_BI684VsoPIkHrP5VXakjCWV0tyz9idv6-YYzNkFaHK2noRQXoqaBD2gfW9z0bRW5LArMv3suMde9RvDy2-ljm632oC_sKtHtyF0gP97viRrgmgQUMI8y_-BBlXn5GosS2d5FfXI5ivcJu8VbV-ncE1EDbqek38OYaYcJP4djOgPbbMjy8M3A0Oyot0ZaXb2IxjrDmfNjQr8c23gp_vE8e-zEfSKs9ECZmXsWg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJdWdXy6gZ2jERqxDaaVMHkJc/photos/AciIO2eSltOK3HmqFtIEgUpvaZAuvlrxCK_HTXH4DDA7S-lTSHU6mn9woDQitNvZUjX4NGm-d30dqVpRG9YX_uJbLtEgy1a_Po0CS48ASPxP4rtpFfYvF7NOPufdUKfEr1y0o8cWdpdIcvzP0kHXLVT4VprQKgMOXOnyQOwPJRw8dJdkaP8kYd2LfZEnEVcifkUovqqoM8NFLf3HR_Z6WWc-EX2AK8Y0t3VXjGpa-Pw5a_dm9glXbZfRSH_SKraPM7Gg9E4YylguT-YsqV_Ik0UPsSlkGe9rrWXLBtNj6kQNxEGL2w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "food",
@@ -2052,7 +2137,7 @@
       "address": "18 Raffles Quay, Singapore 048582",
       "place_id": "ChIJ5Y6l4Q0Z2jERYL0KDIjT6v0",
       "maps_url": "https://maps.google.com/?cid=18296669017417104736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ5Y6l4Q0Z2jERYL0KDIjT6v0/photos/AciIO2fIewZjbD1tBc7ebXvmTP5_1bXEf6D0-lT_rGbfjrzAOE4NIXBA0FDiGib-WbknGG_yrUe8d7izTkn49_blYyDN55IJXJKR5vfHjPadfxJZnvKwXxVl6lkfRdLEFUg8K222VPhP1j7Jvz7nMI1aQU6cEYOX84gpHmRRdLZ72jgIP5E3y6eaUeCXZxWLsvC26JpKPRH6FmurKANLZeVbJzvpJe1gCExazytnaXRfiHH5Xf7OMeggcyaS893yMV7PidN5BMzyOlqKYKnhRibwJ4XlvooBEuOgrhp2PvufscJ0UzMRytysmBvNAwesBBcrS8rraS7QqC4WW2t0-SRPrPZhmpBT5tmfXckyWQRYfYZ-bBpmE_7SYyOkrN9nSwbOs14C2gRDxRkxekuLRjtOZ6DVAkBJS8OrDmkxkd-i6oeh1A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ5Y6l4Q0Z2jERYL0KDIjT6v0/photos/AciIO2f0ka2sJKBdjZakepYcPBN5LidW0Dg5XP302VywE-PvRK0Px8YGVLIk5UpkE3MgIK_c4nVB4NDf88qgYasnLjEdGoTMTIIdrHl-ALVm7eFxetZfRNUrrFhWYNrV-evNnsD79EG_Xzc2cgW-U_jPkIMRz1xtmXy83wVXE5D-k4zEDBPLf3sHHkGSpybxVzjdnqWf6_SKf0Jyci_mTyS2ntG3EeuOtDYM-N22grvnbTUA0GNLxfbsg53QQPCgHn7wBvP2UntggPs97vtDs9Nr_gaZIRL-XvFb3WYrym6DtEZelD_OGAMq4I7SJ5mJBlT7UHBwcZB_TdVS6QJY1R8ym8kx3dBX6QsmaBdFKmPkeWGJzSXKKIHEVl5lLATpADNsXG9XDyOY2NmQj7urGSJChigyNZIPl8cTBoZLgUW_fna5cw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "tourist_attraction",
         "restaurant",
@@ -2073,7 +2158,7 @@
       "address": "1 Kadayanallur St, Singapore 069184",
       "place_id": "ChIJseQsTQ0Z2jERqpBTWF0Zf84",
       "maps_url": "https://maps.google.com/?cid=14879639582559932586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJseQsTQ0Z2jERqpBTWF0Zf84/photos/AciIO2chI0UXdwwSZloaxh8ka3WJREHNiMo2waV91evSZWFvntRLwkdVwwbgbqFEeQgOoTDf0Q946T-7t1SkRJW81hrllyTM1uqe5zVwO2JwlTss8l6TvBiZoiCk5dgxdVrK8IXl1rpAd0MeZCJY3Ncshq61gEoOcud9UOzGTuWB8vG7sM-bk8IwTKa3eyarWHbmbq0qsA3nf7c7BRvDGLy5KSsSNIgNeGjv5KhCGQLvsL7GK2hbFmGB3LbM-IxHkq6X193rtozYDRbrji7fElerFalPRnOLpGDwNr6VKP0Qfk3vI8gT3jJXqe1cufY9qzR_8_SaMqPBEl1Lc_efZyo0Z6UKuqymhXyAvxmJNZJlEBEXIfNkj0z4XlBv-_oItf_Wous5-0HpZdWOHfvyE2rxJ_IVsec2bxe7LA6uPiyMJeV0xA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJseQsTQ0Z2jERqpBTWF0Zf84/photos/AciIO2fQ-Ufvw0N8ZhhFhFEGcexP3zvMD47tMl-sOSe24qsL9c_bm57KeVCI-z6_Ok_AuWhYpqVLl9cY4syCIvBTj_W72sMPrvgCcro-AosQMIXgdkEtqV5Pu3zXzEt9znTuL7VzfypLYvhVdAzZKxF1MPqev5hs7LRskCg66WVjXvhxjK6l8-bwjvxBVHjXRcf3rloHE6sdzJd2FXN05tThH133DTxUPtJmOaCI1QWaeQxfZ2Su9FDVb_keAogfCmgkxQVHLGWu1ZO7D4zfMXHdoqNU80JEXkXvjEP21JzukPOb1WJAcrlPAw0GYX-Iobji6Cr9rlLx7bori629xlF_uT0sdk_K_UqhpvLAg8lp9_-a9B1f2KBE-uHFxv5Pu0LgTpII9CyJaXc1yExxzY-wAMc5IB2hA6lVMW3EHVV4lz13Fw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "tourist_attraction",
         "restaurant",
@@ -2094,7 +2179,7 @@
       "address": "Boon Tat St, Singapore",
       "place_id": "ChIJcxFXaw8Z2jERMXh3inxmsdA",
       "maps_url": "https://maps.google.com/?cid=15037913315851860017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJcxFXaw8Z2jERMXh3inxmsdA/photos/AciIO2e57dk77pVR1IyQeaDJmpxrrmFdPk1P9AhpDzDb-3ViEeUzDFJDC2FWALgPmR6uDlzQ1_nV4kwEhee7iVBnPnQzbkUJ-X94vLCf1-HCvkYhngJ_YSo8A_lwFP7IkIleD20twnkutrDzCoO5lndFTx4B1cyi8Lsn1uAdXlAqpgGe8pekOy9J8ljIak5JdWWfhcY8fFFknSXHzc5xsULS9iGVx_0ngIJ6vmvyNkLy7JgenYvWrjhf21YUKZ9fOz4r28OWMtVHzQ34XT9HZOgTjq1DiFW2D8OM2q5yal3ol7ZKNZTAiVeOWQ8XQBm-V--q9ZBHwt_V9wSZdyZXpRZxmNB63-UtJjxj8wo94XNZhFl89bSf-_qcvl8q2ZM7RzSj23IXKRSpGlrc0wVgkZgq0qTspAMGLjF8RTa-JeDbiH8/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJcxFXaw8Z2jERMXh3inxmsdA/photos/AciIO2fddmsEKP5tnuJmVwjIkQtlvO8KJLUfRDXVVgOOBAHf6fC0I6UZ8WuqlPYr-6eTNHCEnY2W3QQb0ISMWbLRs2g1r3S-qSKPVerBeMfBH0ebOm-ojujyfCS7ueD47St2Xpexcmz_aiHaQX5j6QjJm9m-Z6hAZWgFehaXasJ2OywdoNDt9Czd1X7cHTLIVpFo_pIFE09rNRZSqAFC3VmIWmMw_lBnbkxaMd8lbUqJFX_9QrNuPTvi703OqK0vvwSpKp0JGOOQnSRhT_4zclqd2U5EeaIMZLJUDHJOL28GxIjuU0A451-WkTN34lSl7xb_mz6ZXwuBC3FoWQdgrQRvBFNm_FRbZ-eUmoQTsmvBOTtfSlbbkKv0EiNvow46lphGjYtj3dcMpImqRAs1T7R_kqq-yUPCy1MPaPuJhlntDzk/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "food_court",
         "food",
@@ -2114,7 +2199,7 @@
       "address": "5 Wallich St, #01-16, Singapore 078883",
       "place_id": "ChIJAcojGBMZ2jERgPMPzf89eaw",
       "maps_url": "https://maps.google.com/?cid=12428032815571923840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJAcojGBMZ2jERgPMPzf89eaw/photos/AciIO2fLQ59CM89nolDzodNARJGxUrk7DlGb59u08lyJahuDwU6ro3JQkZPoyPbIp-C4nbx9sFme6uu3GDYLEQDb-WlYlNOjslIYJkl8sTH87LepDaAHmCSIXBwV2q-QD4pIi4W_mlLcaFwXpnbCiF_GC7gahXgE3UtmD2Xwl1Rg1la5sAL4aB75PDDQbsTw5yjNkkJ61w5BKh8EBGH-hOZlSyhNwMdpTViAL9PipBvRlX-2iJmhuD4rDYK0SW83_zTI51_4b7zQeBFYaYWornJV0plYsVFIiDLLCoXLEsMVHpqtfSaXUxtmIoUdbtDJiAI2vruBIIe3RAMJBwKRg5jMvjBazbKFzUO3-w7yRQdaUnTd1-VTz5bv4RM8-p0z9CcPz3nX4_hSgbb7tPjQVNAli4xxRrAW9IILaIsFxMRRYaj81m2I/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJAcojGBMZ2jERgPMPzf89eaw/photos/AciIO2dRbu6yMRe_n5Xk5FW5gTVeUq1f6C49pu3PLuiHXWqXH1Rp-wWObINYDne2uEOAolq3qqEE_0-Gg6taEYYo-XLKF09wXwGhTTQpb-uRLu-uw8tasJaTXaoZY-MTmJjpHDIHkNXLjxk3hhcuEQgNoNuTway3IjjiOyxQNr8P9iIOqrpixzmjyKbHds6QfRcDDDjvprDojIyILPxV8KQ8JkiwF7hQCQ87SgXMZ8VejhoE0EXnsNBkKm52mGnzM2yQHwge1rMkdHspIGml4e84S9-TLAEPUsFEjn1CDSXOdH1sLKgVYXpqUbnkA56mvh6gzbHQ6ZqavlOtHIOmmfgI35CW0fCZZ0aPuD92otKxYFbBg6UKfEviPYscJIROZ5Trx7D___IYYFixyX_EzldZ0CC7ryGQy-daIJDFHpgo5epN-nVG/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "spanish_restaurant",
         "restaurant",
@@ -2135,7 +2220,7 @@
       "address": "92 Tg Pagar Rd, Singapore 088513",
       "place_id": "ChIJ41qJ4-gZ2jERMAZkYnM0cP4",
       "maps_url": "https://maps.google.com/?cid=18334211753201894960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ41qJ4-gZ2jERMAZkYnM0cP4/photos/AciIO2eKYmUA-5MUTrb9vegTQDpGPiGMw2QZLEwTVlI7djVVbKnGSOUqB2CGy_7YckwPhMG2-eh-iP5lp1XN5vyeSxNsZdDV7iWvYOlnZ-TnhON2NwN5RIZfX7BSJiJBF8ERftnSuNKBr_5mrJYO9F-zLhmpM6bXSi5Ht6OJmU8PLFO54IxSlrIsOuFdcYIBuG8CLz9PUsydWZgg6QphXibT2pWhUepH_D0FQGd2_ngJdfIVLcgkIwUuxAwT8-8_mfR46CpVIJdv34l3uktxEQZA-EXm6oo78-FIcDqFHE_q91s/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ41qJ4-gZ2jERMAZkYnM0cP4/photos/AciIO2ecXrMwQXMTTSWLe5_rbwTlAe4hp46-g5aH91d6dIj2Obo4JBE7KI4Jp_acz_TcNO62ps71N8KPPqOtvj90jlKPOCYvNoDUwgHWJsHnOwqqyQSxaBxI3hehLW3p0rYSwcE4kfKi3pkxbUaL6MiwiIOUWYx4gz129k22W6Cw8Az0IRwMe9tq9W_TeVq43K2arm4mQ0EmR0xbk5OILGmn5DmZfKJBLS22tgehJGeP6_PTYZzTinBrPMNrIc9drScRlOfJKuPgwmL7sL7E8nUzfO7-rh9S8LVRqcCOmA07umo/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "food",
@@ -2149,50 +2234,25 @@
       "is_hawker_centre": false
     },
     {
-      "name": "PIPES by HATTENDO",
-      "rating": 4.4,
-      "rating_count": 596,
-      "address": "331 New Bridge Rd, #01-02 Dorsett Residences, Singapore 088764",
-      "place_id": "ChIJjYEF44MZ2jERPtwio9nr5H8",
-      "maps_url": "https://maps.google.com/?cid=9215750057484278846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJjYEF44MZ2jERPtwio9nr5H8/photos/AciIO2cG20VLFLkhwjBFqMsGQ5b1s524tggHEGlpF6dbdZ9a1cdSdJOTqt2gsHhXx5HPJ-NRQVdc5drcT_Pb0BCopXPDDzkxqKev-PytUbTE8r9vdX8ysl8XMAVKkM1kFXs6tjvMXCUKQhG67pDjBtz6J8GUWKYfmMW6lnEECYdX35x5n5gSXgPGGX_NOu_S0Jg4CzN0qG4y82GNXqJxslff1Mpd7DkmVl7Q2JLK40ZNsJzA2y4itA7YUW--ueqVbbgf8eh5h0B-ugznzWi2BoBsOw369PLJrb50CD05wEnXhYlnow/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
-        "sandwich_shop",
-        "confectionery",
-        "food_store",
-        "store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "cafe",
-      "lat": 1.2800958000000002,
-      "lng": 103.8404534,
-      "distance_m": 813,
-      "is_hawker_centre": false
-    },
-    {
       "name": "Takagi Coffee 100 AM",
       "rating": 4.4,
       "rating_count": 573,
       "address": "100 Tras St, #01-14B, Singapore 079027",
       "place_id": "ChIJa6K-lQ4Z2jERxP5Wo9czkQA",
       "maps_url": "https://maps.google.com/?cid=40870872874417860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJa6K-lQ4Z2jERxP5Wo9czkQA/photos/AciIO2drPV14Pb2xTzOBHJkUESvZDq1WJTOknfMY1hgenn055NfGOhBsWTs0Yzl8YbPjty8F2RvgFBDHhxBdZL22AnFqi9fQiB0Ox5kmY7KyyrQG8_jWN3z_G506ltDcaRllpJu8s6YCSgmSvL0x8BB6LswyKeSqPjAR4WYzN0SKQXxSESHkIOAPHREXfLi6IcUDAnp0z3O1U_0-Adq-hf3rSlByV--W_e2pBOzddrynYOphLg0HSHdH-sKCdL4_n6kpjkQtVpf_MxYbo-Y5mzpBFYItg-qQHKsEHSR8QctYe6EymQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJa6K-lQ4Z2jERxP5Wo9czkQA/photos/AciIO2dsCrpnlHuiUDpStHqDVG_9pBqKGVBG5jIy4_hrx6Mxgf0uVVfsZ4oifW30P_aMd2M05GCLgsKwrZ0swoWrO2BHhFQjkJZb8dqO0Ipvsz8zsclJKeBI3iMGqR37mGVl70o1jlTWmHcAqnxvnQNwLyvnAkp5tBuNdx3U-CqABC5_bxpdi96gAbZfD_CMiXROGt9kGW-sNm-DG0YfCIYGLtU3HxeJ22c-jej4s4e0QWce-oiIHIqt80v1RGnd_6N7BDUCFDZ--ghg5YzBb4wMLCourSFawK0ys9kWLQT3SJMzUQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "sandwich_shop",
+        "breakfast_restaurant",
         "dessert_shop",
         "confectionery",
-        "breakfast_restaurant",
         "japanese_restaurant",
         "food_store",
-        "store",
         "restaurant",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "primary_type": "cafe",
@@ -2208,7 +2268,7 @@
       "address": "61 Neil Rd, Singapore 088895",
       "place_id": "ChIJgU3MUqAX2jER8ytjKoY12Tw",
       "maps_url": "https://maps.google.com/?cid=4384594562574920691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJgU3MUqAX2jER8ytjKoY12Tw/photos/AciIO2cWipeQaDA039Xz0mdSWeAGG5nndGWi9CXkHsnRsW--jx7CMhewvnOtpVYYVRzZwYlUHSqxPwL35fjJEuzXFSfmGi8oYe3DhGZfdZurfECwCaXYa7E-QthMkg1OezOeC1FPx3AgLOq5oJ5H6T0rkltYZaru2RQr1x5f4nJc-tk4cMsqRDHCXoW44hIUXMvB9D3S7lwKKS9oy50SVHx3JG1j0wauDwZtADt7Fpeng-bV5A7Lp27tlDbD7_E4aLWkQPJEabTJ7XMxv4IQiYJ1DdZb4AqY1j0dFGRa2d2hJhBUcA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJgU3MUqAX2jER8ytjKoY12Tw/photos/AciIO2d5eoy_-R18a7LFJUrulwjIv3xeURgJcIxQX2wl77hbZuKmjZm3xEGBN-LveyozkdB0V7-m2xWq2cpFHySxs4bq6swFRZXBxGKFgsqGSlIDQqW6mXhGR-IXs2NYRNI7sLiKgeu5-uc0LDCDV9UHN-uzzAgTVYr-Vs6YtNA_NXrNgZ9tlaksEweYEJiUnEkKUTuDe4aqlUQHo32dYl3v17Od9V1Q_FTrcbIrEjzohn5CZwY-XT6N6NEeI9SEauSwxWXT4XYh5kTOC_L0Qpadrsnsa9cL6FPEgw-ThB53mz3ZtQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "food",
@@ -2228,22 +2288,22 @@
       "address": "1557 Keppel Rd, #01-04, Singapore 089066",
       "place_id": "ChIJHYmZEBQZ2jERjY5Dp58BGhU",
       "maps_url": "https://maps.google.com/?cid=1520529609408614029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJHYmZEBQZ2jERjY5Dp58BGhU/photos/AciIO2fCoDrdG7dXV7-pNp0M1xOWxFPmGBdJHj5UX4mQEvbXQJn1QZGJTlsmoRHB-HKkNabqiVLxhIKPcl39b_Eytr-abfgD5S2w58T3__y1LSWHQrk97xJa1vMAR7yqD97Lmw7ZL7AulGVaKR1yoj3DMTtibS1ycxpvMCMEsp93c30W47qeIIMCjQfurd0zZ20fBO-_QGPbKnmauj60JO3e6k5pjTV3UR9Bz7U483uV3GArIMwICyyWX_0R1ywKdIaIGJOr3SY8mUVEHLAHXP1yJy6UXd4WWzndA0VwDRVPZ48tgw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJHYmZEBQZ2jERjY5Dp58BGhU/photos/AciIO2fmsRCuYaW2eXUH37_Ra-3uqTzE4WxaUneZynP7pgUTIrjWn1IdT0zSYNvYncS07Df40pb1ivxdhHGceCgrygKln5CJCmqmbtZxMCKCbbogGIxxXhkmHRMYgfbhHek5GCQRzJh9Wf4N6YPsR7_TyZn_aq3fTk6lP6gWaLe9ACyWTVUGeG212nI4mM-KF_mJ9hcwwqLUG0Yb6aqNtv0-xVSv94c54Sm7bvWMU0hnk5pHjnQGVd7zDNSMWN6HgTwl9VxBKbObqavX09MLdr_RIDAIKv0ygiVlqT11JqOGoW-L7w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "brunch_restaurant",
-        "liquor_store",
-        "wine_bar",
         "coffee_shop",
-        "breakfast_restaurant",
         "vegan_restaurant",
         "vegetarian_restaurant",
-        "bar",
+        "wine_bar",
+        "liquor_store",
+        "breakfast_restaurant",
         "food_store",
+        "bar",
+        "store",
         "restaurant",
         "food",
         "point_of_interest",
-        "store",
         "establishment"
       ],
       "primary_type": "cafe",
@@ -2259,7 +2319,7 @@
       "address": "100 Peck Seah St, #01-02 Oasia Hotel Downtown, Singapore 079333",
       "place_id": "ChIJP2hIsGwZ2jERMllXdFqQiDE",
       "maps_url": "https://maps.google.com/?cid=3569261422864455986&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJP2hIsGwZ2jERMllXdFqQiDE/photos/AciIO2dif5-4q2HydVFFUEIDK82D9mqiKlE0Z45HAujWZN3i7m_rWKEr8HdPmqsiPBAoBE-Ky70GfFXCQVOI4qfqZn4QD8KNhUoe1YExdWlkXmihxY_wJofNqvhY1zkGL8RkMBlQ2bOI2X4FxZQK1mUDj_FLvJku40KtlFk6sQaIlXCLZbwBPofyVMMERi7t-5yCifxWTp4OFe53D0vs9GhOSw4vlZqDmWG4n96zU198JYcwcymWQ6IdjD9jW0umd7_56-BnNtrHRfTCqClFUGownnIFDoVnK_asQMTbiOz2VbaMSQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJP2hIsGwZ2jERMllXdFqQiDE/photos/AciIO2eTDUwNq3TskT-dbsgwinP7FDYy2BBFfzJh-PJLC-0i0Bj9E_KDv4JkUtFKUNXHe_u8-mI21EyWyPIwbsexNqc5DSyGgdZRxv3Jzbogq382fqe0-O_7U8cq7-o0lBz-CsO9otlBoPwQ-hqaAPpml1_-ZD_feBD1vcQynTnMlkCQJwSTcAGb6T3bXNCAvtiu9FFr_LwP953femNXiwoH0eUEBJHFQEbwyVN9Qgsii5y-o66TrWJjosGbFcTPSPsxuluCUEVL-cA6_cqc70mrXn1xFscjxDvpZkzbNi44b-PxdA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "pub",
         "bar",
@@ -2274,48 +2334,20 @@
       "is_hawker_centre": false
     },
     {
-      "name": "The Coffee Code Singapore",
-      "rating": 4.4,
-      "rating_count": 374,
-      "address": "37 Neil Rd, Singapore 088822",
-      "place_id": "ChIJNS3LCyYZ2jERlMO-qEa7ohQ",
-      "maps_url": "https://maps.google.com/?cid=1486956739138864020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJNS3LCyYZ2jERlMO-qEa7ohQ/photos/AciIO2eI5tZM2BEj_RQQ-EZ-X0dMggVolV-L2Br5kuvESscGgoozT_QpzX_hLtNeWHU9w4QVEITBxU722se9XrS7n_SrS4kEwxjiAETitXhSKt2ip7-F7cAOdOs2StTRfnMmJIZFIlJzNdNWw1AvoKXf2YScP31J4iClyWcThuUfcYKaLuiWcPcRlBKwVQfyGpGj8HFGQmzpY5yLvdlzW2vKC3nq0oATdPpPyPMRvVW-9YQ-b7fHD6KsLGlkogsFHFtJq8EPWiAdU4pS9TeS1vEUR1UBLcy6x8Uu3A1Fi38wJRFAhKq07Ez40z1j2IqyvZoBUeLHDyxvil_JEj3_Uty3qkZmINWXF5gqgreYqbZjQ1H30ZbdqwVnLt2MSXr2pc3rSjyVStqbC_XhW5HOCblUsDpC_lYqSax1av4hARC13iVRemEyjTvc3BtJfj6oXVJg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
-      "types": [
-        "cafe",
-        "ice_cream_shop",
-        "dessert_shop",
-        "confectionery",
-        "brunch_restaurant",
-        "coffee_shop",
-        "food_store",
-        "store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "primary_type": "cafe",
-      "lat": 1.2798490999999999,
-      "lng": 103.8429474,
-      "distance_m": 624,
-      "is_hawker_centre": false
-    },
-    {
       "name": "LQV Le Quinze Vins Singapore",
       "rating": 4.4,
       "rating_count": 196,
       "address": "29 Boon Tat St, G/F, Singapore 069624",
       "place_id": "ChIJ-_KFuw0Z2jER8Gfvx4qYZT0",
       "maps_url": "https://maps.google.com/?cid=4424109930788644848&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ-_KFuw0Z2jER8Gfvx4qYZT0/photos/AciIO2eBkxS-CMhjOTcY6TvzbNSEI-I1WBHUKGEsZM0k9tijpIMyoRgcIrODNju_oTrpa1UJbt0obfybHaaWyCfcYj84I-_uNPes6oYN3aXGrTiv4sEUdW7ZH6dM2tVCwbo7QUk19dPo2Xki1KwPQbV05iuycgyYf8f9WQfEWeOig7I_HczlaKO3j3Xs1_TvnYEkHfYBFbTl69kKqDXKCx30WIaTYxjzIy7S_1-Yq3wLLZnGgOnvinrLl_YOKMR1QtCvhgzDH-hLlJzhEMmd3v5nG-kf47M8rJ4FTCTE6KmpNcczLQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ-_KFuw0Z2jER8Gfvx4qYZT0/photos/AciIO2fF2jZabzaD4yemhK4aG5YVL1XJMpPzqbZUjFRalvWN-BTm9fBdpgW76KgFAblrV3JLdSChXAAZGWxnlfqvZGMavAzPZcHbpenEzdhDr4wYEIaKVgQ42v-0Zuy3SnJp7VkrtVPRq3lJMcmapjdaKhGc9OyReRigyIwYogtb9-aghj9gxdUT7RB28tcD-dGjDFpb2tcXQkDEX7JYx3d2phFoCY3Bl_EMJorf3NF3oi3V3sZjxb-21Ii1Avsn2vg9fk67NGmYCnjwuRNkBpR5Duj6vijwH0ighUXAykj7ytoh0w/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "wine_bar",
         "liquor_store",
         "bar",
         "food",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "primary_type": "wine_bar",
@@ -2331,7 +2363,7 @@
       "address": "18 Raffles Quay, Singapore 048582",
       "place_id": "ChIJIeF8jScZ2jER7X2lXYff5Jw",
       "maps_url": "https://maps.google.com/?cid=11305406737091493357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJIeF8jScZ2jER7X2lXYff5Jw/photos/AciIO2c46HJ9yyEhchHIp8NT9x7GTQAbUv_gGj4bIUz84eduQ_TYkJQCUvxNNwHn-q6_rg-POwwOBifPLg6tyIriU2-PMjN6A9HqodEsmiuSvqcrxfr-N3K1g6DEkCLJ7Mz3Al4a8AV8xiZkXTgDhsEAeMth7SU0DA5OR2L596QdmY8rMXsdpArG8X3ThsplUIcIaTOyaW06ZQDhoca1yW15NTfhtaAOnjm7A7iMy5m_2eQ4dQd0aOR4VwvICbwVWAGIFUWJsaZIT5-9qo7IR0guyv3lgYb1jYH-3QGpjfQk_m_a4t43A3c20dOiH961vgYzwp1cMMR6baFDvW1tmxC-yTbxHazlVGSf-pGEZCC4ZFyuFZ8b-FPrUweQZ4y1LiJ4eHO90U6h-M7Nxi2_bEY6SwUDhSLldNWeqi-lvaLvHfY/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJIeF8jScZ2jER7X2lXYff5Jw/photos/AciIO2ewY1Ck6au0MxJcenTs5Xu6MtB3WdThJDtz1z7IkhNvDdG32-F7V7twtmOOuSZcE9_M04iFeJ6fZkQ0wAUVQH48OIs5doGJRiQhISJ9Jy-Tx5bhC4Gyj21EcfNYFgigYZjVWnPxXrs1gHHBT5j2Yw4oREhnDbS3hMth4A3CbLD9sYZ45jjnmo-hBjB1Hc_KhXhQKr3W5M7xe6yXD1ZbGZ79cB77bn8hPjN-m78minSTE-FZ9_z7AcGC51rDELHzFirhrqvLKIS8b9yI-J-KrUmjkDcXTg7Ez_7zMjjRzIWhb9Om1OvuNK59sYhlNodA_0ZYVH541Q4c93x-dCmBuPO3ZSgGrN5KHmZItC3TdZ4_gYX7L5A9uN1eOtwG2Dmhb_NEzNU1sy0-krJMWZai26p6kReLHS_f-BuNzkEk4us/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "store",
         "point_of_interest",
@@ -2350,7 +2382,7 @@
       "address": "7 Maxwell Rd, Singapore 069111",
       "place_id": "ChIJ1ZbzmxIZ2jERLxbskKJNx8Q",
       "maps_url": "https://maps.google.com/?cid=14179387312410727983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ1ZbzmxIZ2jERLxbskKJNx8Q/photos/AciIO2d1qduMxiKvDpz6Tz2J5bMGcKsR4ZQBXrWi05exOhDtDcWtpqFSwHfECx8EG8LQggAlaPxJ6jL4ejI8h5A5fSvYffZPAJtEiYJZehuexR6nGYMFptRZG-n0uow6mVk23T4p4idiFQrcAtEm19vSoKyv3PHVDOvHQ8Z7N2Sn0sMSONgQPN0hhjLQ2SwN8HOLjvhnTKIUhwBS7a0xfkMxxmhaagXr9VijfRGhF7ubzlRwqpmlBG6CNvMpZAbNl-cx7Cc9CekAovZl9DZwYnfUx0svjlVljhDQK8ggp7ENas0jzbyboHuhxjDVFVEzTq9c5_eBNP3VQVAO74x7TbspcjgnzhnE_kGXncSRYNW9F5w9CylDF9cLhFH2bDtJY2r1Bqm7SRbRY2hHgBusuT6J-v3eAbznJ2jhmpvZMEOFhQjjBEr5/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ1ZbzmxIZ2jERLxbskKJNx8Q/photos/AciIO2dmbRDT4ZfPgiaBvcb1BcFCrE6-pPcg1zPWZGbXyYeWju7d9Six6NnkBZDfL3rTjGXok_d7Ph5kQe8ly0OTz3S90cZYBCijNtkDo4cs_elaL8UNr1_VfT0MbtNdBgsjaprw0KqvrXSNKUo4UUObdnCmDV16LVWQHeULE7E35apeW9OHbeyZlAzu-1DDER38oOL7p45t3pVQrDvWqtiPYtbwI0XMFbQPe0c_cWPFawjmoDNi53tfQABBQOKsy9byChUq_Dz7QD9cGlKmFGtA2mJDqbzxW1XncHyi1Elumf5XuR4jHln-zx7ItQitPTy076ZudilAnFLhJl1uT741UF1tYTsrcl1vJeF7ffZFgHnyVIoEOaj8pGo-iYoyfGPrJvk8KtrMgMol_SdOW4W5ZkWeDdQbrqtz55_s85c8ViqGa_aa/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -2370,15 +2402,15 @@
       "address": "146 Neil Rd, Singapore 088875",
       "place_id": "ChIJ40h2uW0Z2jERA_TAOvT0Uzs",
       "maps_url": "https://maps.google.com/?cid=4275029801099654147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJ40h2uW0Z2jERA_TAOvT0Uzs/photos/AciIO2cvhR9pSjHmvvVu11MKdg8uSK2WM-zXv-i_zavVyXn_Y3RwHi3wmfNUqdTdIyFcMxAtgUXQ-moSXEVCFeIKlIm262-tEg_LKs1LyY50d7eqRGcOc9H6nANiUq_k-GemzXkhUYnn7bK2tClBpDECrvu1n9HMwT9XUTnyY_UxpxxUAqip9Z4t05JuTsaziCAdBvRj5blxdaVInPGS7JOePG5a6a3TTQkE1vj6VD894laATrxW1PEfA-VUWOou7JWFLIEK2I__Y5BYTbTD3uyi5uzKSVRO47dgXIX5fXCiQyxypSqnvLLcOPdkpCoaptSjSdgPquj50k7UrSM1hzAIsOr-NLQHpUZ8XfUjM0a07ziwzlDO9I5K3FiLzYlydYhFLbohOlCxv6QSCcNrbRvO9fUbQ-FSUFJCiNvtZPS6zUZzcmI/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJ40h2uW0Z2jERA_TAOvT0Uzs/photos/AciIO2dEb2hOgF3G8KGMSocIfaPmdZAnTtPAO7LdNQg0d6cb3SNvkZtDhc1GFNErYOEvzQafp9Vah-OQRMizk0FhUQ5LPvGkbExa2TlhvpnEiosjbMHvUZ1_qPZB2H8GZMslz3SVMHbptjxb6bsvn2JVGKyR1KkqFqYqdt3ZP7p0lFYdiaBBk-AKt-iHuFJ8T4mrpR08E524Cw7zWjaE5WAfxfsiSazfFE_xZACnO4-4NFwQJr--Fl2NrCAtRrSdD0HPlMXOC6qZxEXZvyNU6aR8imtB6w77FZvymdEfkISHwNgsjWMdAnqh_fAIYamRGJoil3OyO_j7QidOqpU84kUqo3mG1Me2oSK-e-PV4T0aQVpXiKloXNz4ZScmhG3om0rQfQkx_6hSqGpG1K0hEeYt2mo9z9XBxWB19z2CkuxsD0_ssTU/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "breakfast_restaurant",
         "coffee_shop",
         "food_store",
+        "store",
         "restaurant",
         "food",
-        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -2395,13 +2427,13 @@
       "address": "48 Peck Seah St, Singapore 079317",
       "place_id": "ChIJjZCj0hIZ2jERFf54vtrt17Y",
       "maps_url": "https://maps.google.com/?cid=13175260758649929237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJjZCj0hIZ2jERFf54vtrt17Y/photos/AciIO2fyWhoY4LwYHTPf2AA2cW9-Gez_dnmqMdALnAaC6D74v5lt6uXz3lQFJ7_nk4Sv89MQcNWN-6oSLKizTiykOFtdy1ZPTYHPEtZUwOippwnSsQj2M8UEoxU3d_Mkjvwya_mY5uB5i0kXPhoiTo5GLMJxZ6TOoyYoP-yl6h9JxleDFOMuqb76W1e-8lksShC7BXGG9ySqE0jIi8eQnKe8iydFgedr4zYmWqvsG15S1XOovX12kN6b33OEk9suj2OUbV6OAzcrtM-Nj9AcZGJOe8ZEcuZpS5Epq8v98AvQoNdvSA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJjZCj0hIZ2jERFf54vtrt17Y/photos/AciIO2e1CdVL-QPDMUZC13r-gpz7Aj93NfdjACHbOG3vG2wvgWr3dlIbwCFvkpDHCncdL49hF94pAeVlZ_Ds4kjsmL2K1j0BJhZx_rDKcP6eh1Nv-0Car9N3PdxdyD0VcYgrNKAnSOsQia1OnY8p-zBOkgS-QtzWEMMvCs4QDzGwypW08kUMNTb4Ekkmghjm0hShAQALhiSb9Cvs_ZEt1rxSR8H09m9k-yu1m9bW1rg__Cg0FQHcCroIy2fXCJJnq7-tWkMCLCRzDl7b23V7dm-YtuszQITo_eV98PV219Mt5ZvPdQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "middle_eastern_restaurant",
         "bar",
+        "event_venue",
         "restaurant",
         "food",
-        "event_venue",
         "point_of_interest",
         "establishment"
       ],
@@ -2418,7 +2450,7 @@
       "address": "81 Tras St, Singapore 079020",
       "place_id": "ChIJtzUeWEkZ2jERCRSqXj5-Vk4",
       "maps_url": "https://maps.google.com/?cid=5644837989296772105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJtzUeWEkZ2jERCRSqXj5-Vk4/photos/AciIO2e-hrdrvna4XCo0TAsr-TawqgFBDKbg9dBvgQb63ZDDl68eTd6Ls98n72UPttuEZ1WTsYyMabGTtbfw34f2pOHuaJmnfuZpBboBPev7kY9DZly7jL2D4QpkJH8AkVM_KsNY_L7MY1h8s-dr-OoX0PZH2Oj9kvtFZXvN7s4TEtORhFMZ49RVggmUGK2IiiGu5ub2Bhq72b_HTzNacqoWa1TZSHas5gqV8FuhjJT8okmqAJgJM2DRdiXIbGxp7E_qvso1RMU4YaGn5ChrglMPrZukVEe5FKAA24UHHEUiTuq21A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJtzUeWEkZ2jERCRSqXj5-Vk4/photos/AciIO2es_fizPWzPTaPo-tYI_uKbJDQu6Spg81JBBcMT0MkZnN0srz_B8DoZxTGS1BBI-VY2beD0EyqQ_H5CkuDsHdO4Ucy6GDtdO1S1_uLmgoiEmn3rLXhwViyQluVCnZIfMZ6xM2LMVI5valXvQT4LHFQ3IjzloKsROweSCq4BJwD3BXTiYuPG2ZrY7vUHyO35HJX2wkQBrSqrJS-Zfn0h-rQK0051TR9Td39CdYOboLb5FqQ6j7TWo9NvpEsAXKF8-AmBbv1W-oBuoVGIIkaA0AksE1u6_dNf9Xqb2AfKYQgH2g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "italian_restaurant",
         "restaurant",
@@ -2433,13 +2465,39 @@
       "is_hawker_centre": false
     },
     {
+      "name": "Common Man Coffee Roasters - Stanley Street",
+      "rating": 4.3,
+      "rating_count": 1023,
+      "address": "11, 12 Stanley St, Singapore 068730",
+      "place_id": "ChIJzeQ8gw0Z2jERhGLaINksUXI",
+      "maps_url": "https://maps.google.com/?cid=8237414504508056196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJzeQ8gw0Z2jERhGLaINksUXI/photos/AciIO2dZLJzGEOxQQZw4waBbq1ECroXuI48irMbQ42h9HTK79xxbGxM_ZkJdtN_CsUvf6rKGmu1-YILd5FvrTYY4fczeknmmT62ugBKHvhNxMK3QUctjdovOk5yae_DP94wxNyPX72QimWQiAes-HrIlPOZ3trAg9R-Rb9renSPYn5QkF-m3LR0Lquf82V3vhynq81so2dGi_PJ82Nx6YSNg-xeJpk-UbeU5RPu07aa9Fs4c6_jbjYDg8-o-7e_wWOw4VOQrs2pXIkE-hJpmaZ6ZO30zUsvrNj2a0qCDQw36gjU/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "cafe",
+        "brunch_restaurant",
+        "coffee_shop",
+        "breakfast_restaurant",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "cafe",
+      "lat": 1.2802902,
+      "lng": 103.84796949999999,
+      "distance_m": 654,
+      "is_hawker_centre": false
+    },
+    {
       "name": "Market Street Hawker Centre",
       "rating": 4.3,
       "rating_count": 533,
       "address": "86 Market St, Singapore 048947",
       "place_id": "ChIJJ4ldDwwZ2jER36nRVAyIXc8",
       "maps_url": "https://maps.google.com/?cid=14942248725229185503&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJJ4ldDwwZ2jER36nRVAyIXc8/photos/AciIO2edm9pWKR_U3J0Cq2XIUvqpBRPAQFCxoIew4Vnj2BebGipVkXEyqXibF8GDhra_vnxBes4S_HcmPndChrGWGPa-O1OqenUTZhkjH1Oua6wPNeIsgZoinGRN_bAQ2dYMmnCDvCKGShRpxDboaAloq6vRGE2MltOGgdjJvHTgzXnPMvWK2Hhg_RVpi1vZyBgjsIk4NTXNkncSwZLaI65gx33eAeOD-nado1WZvSRjbBbzKXrTUv9tdGvE41pNNhi4DOi9hSUCcgjnxtGBvjstpMEFSAjwlyE6z2xHeJ5mJSaUSKOeIrn-Ife9Na7wEsMj4JlY-Hkz8FxlxUWDUrWNXvuNE2mhC43UrdaLfjA_P0UxegSgPvmJ61VSsriVb4HIZBzeNxkJCwkaW15uxX17J1V5bAK27XT59IqKajj8_ZDcIwU/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJJ4ldDwwZ2jER36nRVAyIXc8/photos/AciIO2cM8NKUu9ci5rHnHZkAf61oo9sE4T0C7R_VQ5xTeqMMVEscn1TrHIpUfcGEqlyHKiz8Nv4EdUujMxOuspBJKmbI_T-GgULU8naycQoDhzCC1Id39zReaTY3M49ydsUDzpvOKdnkrl5w-gdpfp6adQwSMPgPTkMIQqf69oU1pwUPe7yF3K0pNH7iBrgKAdMGEd5kVVFGbg3e_dAATNkhaHCsfwPQNw-yBQx1cYGe4ke5sk9HYaz0z7fuKGBd6UkQ5kKnOwS8ZBF1v3V7Jgr6vqj_TeED5uKzsy0U6KCl2Bcz3RbSRnOA6oGLm-IBQl7ZJBYPfr5jWNnwusZEf7jXm3v3ZyaXLyBTuFmk-8fKelWuYehX4MABtgU3c4-jEUK1FiQZ0z86cmrPBY2VSpjzuiPgjxFpBARverJT0cYxvyMy0g8/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "food_court",
         "restaurant",
@@ -2460,7 +2518,7 @@
       "address": "62 Tras St, Singapore 079001",
       "place_id": "ChIJlQEbYh4Z2jERCmO7X7rN_c0",
       "maps_url": "https://maps.google.com/?cid=14843246147236750090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJlQEbYh4Z2jERCmO7X7rN_c0/photos/AciIO2d5vnb26yfIslB9s9bUwyi1BDDpn86VN2coES04sm7QX1_3xZgA60YbYJZE_bP4RDuiOzxDIMMqbw99QB7PhZKJJUrtNzo3XGHmASJyYML2BhM0e9J0bXuUQgi418YUVEpwks498KowH4xCU3s-dMHdEbpajd8gem4u7ZNlxiWcG2sHeNZaPoJ_7s02uNFJw0FtlJsCI1UYpbATk0h9X0PBbxC29z4XHpll8ccAwtv5fl1Bh4fdho_NO_63L_qIL5YV7Vzu9msBPg0vUkX5QBibtiqou35exj1Q0OqeAINFyA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJlQEbYh4Z2jERCmO7X7rN_c0/photos/AciIO2dXCxIRdND_iBepI9Cpz0WDdV9qOzpD9aTaPktwgK0tKVrPm_YYresY3P2uGvoeOMZGiUjLaj4RW1L1sEPLxOfQNmMXAJ8KgId31607xOP81d_63sWGr6hlbA18maAhBV3bM5Vjt_3m42aUn61u27MgubjKreME0hzOUERWIfDjC8xOxqsfIfbXtl_vqutzn3aTDF8ktXbXtBIVrmQAYlxDf3J0Ptt_ZDvCyHixePsDhEp9M5G0_z_Y3ei_vjuSuUlclMCdj9yVuCroVQhIVAj8q0JJlf3peAaSKqPYgI1EXw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "korean_restaurant",
         "japanese_restaurant",
@@ -2482,7 +2540,7 @@
       "address": "136 Neil Rd, #01-01, Singapore 088865",
       "place_id": "ChIJKeC0vJIZ2jERAsl1O-3x-00",
       "maps_url": "https://maps.google.com/?cid=5619350961281943810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJKeC0vJIZ2jERAsl1O-3x-00/photos/AciIO2f_Dnj2YP_3O8FOBoBeM2MwJU_1Xki-iaT65trUBrYoqrW4QIPDO6J4IXUjgbVxSltuZbWtkzaCFluah1_O0CNChrp7ZuIkfQLIhxf6w7MwZbeYuujiqWn1gWB2vOgwJLxY-RjXk0SQ_-4A7193zZX8bbJdpsmZEtHRkqYRvOwv7Tbd5ZVT3UIbEWnr5KUpu7NfgTgVL2VZOvJDil-S62_eTRY2aH9m9QpOdSPVOZxFHYngfE07dJTDjPCd2XmpRiqkNZCtgwxq7UwxqCjPwkwsoZcYZMVYxGlarmM_RTApaQmH3pxw158qm0U0CwHZ4el33jaONEsk93iFNEzrpzqDhqQuJbXEEVn5BlvvPQ347XGyDHiRVcv5tlmbRgATEe5wssAQVngrSvzYWormuTIavPiPKJMORMO3NWRifTvXUQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJKeC0vJIZ2jERAsl1O-3x-00/photos/AciIO2dMFafG49lKWwFbes6uc_vZltXlDrjd5p2T6NQR7N8DWZ-Kp4onhf5PuCDHNS5ghimcm7Q8fQ1yzCqojxolbkQFLawArEu63fzkevSuYtp_eyMamBShreoQzLzrzifCHniY09N-5J_oQFiPjCvaNLnqn4OhTsZkxN1Jil9vked8f3oXeKRaxFokxBX2YArL8x0G3tPi95A26A7MdsE44eA7iYOjsQA-5UqRx-kE-FhM7yB3RnMwQBMuhW2T6WBk7pHPILQtPjEX11baFJb52_R022AcovT4-5aNQqszqSdzJD_jOXtjsE1AvhUK9sg2-PEoI3fll6Id6_hJjILlCQwapkyOSC4w47xhaPQwqHUx5ZWqJj5kbbIEDKO1TN0fyruZSJJXotlsfc4HJLsazC75NF9T1CdNhS5aGoLWRvGEGQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "food_store",
@@ -2504,7 +2562,7 @@
       "address": "75 Duxton Rd, Singapore 089534",
       "place_id": "ChIJd_wYFG0Z2jERZD8XxH7x324",
       "maps_url": "https://maps.google.com/?cid=7989369790736580452&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJd_wYFG0Z2jERZD8XxH7x324/photos/AciIO2d-AWVHMAfUIb7yXhYhZZXlmKuzTdCjo0kVQHXh6lfy5hlJctwjxHEYnZu3cZlpLSsmp8w63UkGSR0s_TjhGAIW8mTgNGuVY3aC7RCy56jwmMGSzKIotpHcagmnuD4hI51lN0MxV_k-DE52Y_RPs2HcsQ0JNOfk5Sd0_0dvaYPs9U50VrU6eKKuSVIwRVfCnB1XC8m7rXin3kotK_xTYaiHUG62GG86g3WceHRWhC7QX_tzDNJfsCygWmn03yFaZ_mETyYa8Z8u6r9KTU0gR90xcXE6xeHC1dFcKihoFiq6SQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJd_wYFG0Z2jERZD8XxH7x324/photos/AciIO2ebHpMY3InQexPjmXi2APFC9A9m8VjpMx3pkO8AJvwDX5b3l26ku3i0mmbzaomd06ncHFyS0xAUpZYryXpbHZVjQ4eMhAbVus1z2ngWpuL0M4v7k4QMlsJJknucVPLlxqSo4cuRqQzcY7oFvZ0qEBHxoUXmaOUvOCrdb_lQe9RW6eHyBqEe6EJxzDMRtgYsPheWACodTV1Y2W5F4Xn_oA5U-6fDS7OWY9aaoaHxlr7ehHAoLuqOTbnZNyAHVNdGhkS-pdhMMPG1Rlz2qw6MEbe4Odb144TVNFtQtKi2xxhYdA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "food",
@@ -2524,7 +2582,7 @@
       "address": "21 Banda St, Singapore 050005",
       "place_id": "ChIJgftoQGYZ2jERYN5VifWB6Ms",
       "maps_url": "https://maps.google.com/?cid=14693136675867319904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJgftoQGYZ2jERYN5VifWB6Ms/photos/AciIO2datT5duU4wspXVlJm096A7drK4PR2Jwf4pH6n8cXUyYD8TDQuB0lvzqdS_OsijJ1GvkiphjJUC-6A3fXm5pnwrJXgGMPisTqYj525HyCx3C99QXFR9JMr-jeGxT6aPDBrW6imPZ8ZtpXMCYSfAHqW37Ld-Vuykr7bPSWG0C_-3_61pNpSOyOTHbB0FCuq14YNqJHy5ZaXMeiX8MYAGe3Rraf9tsgn-bCwh6vwBFx-UI8NQ4hP8T5lEMtmgNIBJhErQkpoIQKaFLiZa1NHDdz3nnqpsxKjukBygouJmp3Hq73orZ7vU5PR2DBtWhvMuIvQXFAIBB0SJCzK4p1rkAyEm7Xh7bvDmziMZ7u7Q3hPm1Jerb58ZZdBOkdRXLye_XApbJYz8zsoSvTj2o5BdwmGy_SPfvjE--mM3xiJFsRv6VcfWq1v1RJb1bU-njXD5/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJgftoQGYZ2jERYN5VifWB6Ms/photos/AciIO2eezGEpQ-BS2I8xk_j3HzvBrpI7Sei3BoedmTT7uHhXMmY3iUme5GHpRpw46jRZKFqhy3sNfYSXilvCCuBDJeeX1vuGmFDEP5LkE6_AsDcjkIC1lNX1a0oZnY6Qxvjz23J4UjceAuOYwAiPyBErklXXcmZjT9p37cFP5wF25Cz-HXURq5HYLJWHDjqDDMQ6y2xHkpiMc0Hdk5j5TGt_YyO1-S4hTm52F1BdHIrz0V-_DSNAxV6_yPXf19QkZ-Nyp1whKIr9rGiRRJ4iH_O761Bw_20vxOCZqb33SWqaWnt_zfuFdvQOiQ8ase9t8JmoSD0vy4KY4gYkt33Jug34OunQFTijZrsKs9CJa5vE6ck3BRH4NFy9ueHC74WkkrcBq3jYtD-V74tt3ezLByHwVTM5WwFHOollN7qzKrUAc85tOd6iyQ_y9NXPaVye_yCl/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "food_court",
         "restaurant",
@@ -2545,7 +2603,7 @@
       "address": "335 Smith St, Singapore 050335",
       "place_id": "ChIJAenlH3MZ2jERqjoWXlxEH6w",
       "maps_url": "https://maps.google.com/?cid=12402707062307830442&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJAenlH3MZ2jERqjoWXlxEH6w/photos/AciIO2eoS_TcOTei8s82-yveMZEIseaUnZGp7BbDwwKwjlCoNNE9sfzeWIyYYAYzGToIowbDaqBvcSD7GwAapA8JGlk-K6oejxywChftR3pt_bPmF29hlvvIxV_CPgg96HqbpuIqlh8z8-DeYEtyJTxIvztXsufxXbFCx3G2VPYxtvrMWjdASJLadDQ8PjTwx6TvgeWmRN-wc_zT0zohsA8y7bzWKocO4Gqj1DTbAjQ8UlWvsX9_x6fTBniLv-iT-kzcNbO4ayWTxGRRlLB1sWUzo9mrB5MXKpkALa_b2ZlkLJPCvg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJAenlH3MZ2jERqjoWXlxEH6w/photos/AciIO2c5poECMc3sQJbTi8OYIqfnVmNb__E92sWNpdkxO-lnPlUAAqoskinIsn7E94uVKFvRkyfQoN8_vNeqj5B6ou-hQ9c0mtQW7AHrMvPqUd0HaUWHNw8ZYzoEW8rzqvNUYy0fFfKfcG3IqiZU1zXtqvANIpqeFGF7C0HVGj7_e9A0Ofe3pAsqsHEGs-jiXXix12tEziu6moGl3mB9JkB38xzDlpmy8aneTgatqUdp7YXJtStkISeEL7fwq8DYjxmlelcyWtmwIKVBHyzmU2sBKau83DDD8im91ePT2TJ-h16ZSg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -2565,7 +2623,7 @@
       "address": "43 Tg Pagar Rd, #01-01, Singapore 088464",
       "place_id": "ChIJZ3NMXhcZ2jER9Y-Q_4EL1Oc",
       "maps_url": "https://maps.google.com/?cid=16704989570790363125&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJZ3NMXhcZ2jER9Y-Q_4EL1Oc/photos/AciIO2foUFpL7bBr3g2uVzYn1MSaslkU4tKio44WQ-xwaJT83Mb9ueiY45_6KOCPU2cQDKCx6V4NPTOV7cpwEF3-4iGKzItoyTzOXBTJpsClm7YIVHX6QOoqx2TCTmeJKSGrNlg8K6RtSrCyh4tOCYJb8MTTxPEI6ikus2eC_X46WO6eGYEKQiwQw1QCyVkCk_5JKj1kNfEcvJGMpUfDTaeY3JkZVqRyNfCVUNZuaXoWMirjeYdOVmlvUt1YKJCv3Ie1BP-KOlOsJMfjuGE6zF-iUv_lf78W0BLCrQFnljF5SaawHUxDpTda0W04OoXlXSEzBRva--4GnKSSZYwWv2a7euclETqqVk1qszfqO3A0nZCppJgQKOOubM8LZmkwwXVRtAci4XTVh2Wt1humrDfLHkhjnXyNGddSgRYVK5SLYaXGh2BG/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJZ3NMXhcZ2jER9Y-Q_4EL1Oc/photos/AciIO2ev85MYlGMncR1DpMP0Manmi8UnkoWp1wThRwvwPpITQls0BJljSOpOO-ZAfYE1dQ5V08CHxZY69Ql6HU11mb-NAbHb-Xt0fjiUUoW7XLBL2h6FCRX2DwIlb8GVgA6VRHqZsBdTwHuKoSxKQEVRs5xzQZWht49utB75f9Qz0ZNOJBSZP4h2Eu8A5-EMHCFpugGrO0AlD_y2m2nIVA_5wNyOwAm5Liduz38c_eEbSgbI_KGva4f-s1AcacqeRATGQpoZU08TWDjrfbJzxKM9AAd8SU0iT5R8XXWUbHnfo-0jnntfMIyMMs3cSnjrJobRHe2U_5ia98UsIgPdqyDQ-pNdda1uXIqTyBPaJMwJM_yubL16GXg_eW00Au3czHBgYaEMrmHX5FKv89iivd26vglfjrxG29iKQuEvHN_vqG1HMnYo/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
         "food",
@@ -2585,7 +2643,7 @@
       "address": "44 Bukit Pasoh Rd, Singapore 089857",
       "place_id": "ChIJueWnNgAZ2jERS_PuXrTIkxk",
       "maps_url": "https://maps.google.com/?cid=1843037349537051467&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJueWnNgAZ2jERS_PuXrTIkxk/photos/AciIO2ecT2bCi5Zr6xrnvCqy_aR9mimSdv3kDvHfVEaoJbCIJNs6xsLOWYOANI6_LgvVbNJdjjrsVIpgMGlMhRzB-kSBsLG6d-ZkGxkxSd-yU58RE3qoUUYqJdhNCk1B0CiX9vTSsjhZE-x50uoO5TjCx-R95-V9Y2aPE4w2zKwE0mAsAS0UcS7u_BB6g9ZFju7pkT18dY2tLUuM7sCVW7rAs9hvqJda-340hqQfw_9WaFFS4HnZxISGeXA_VSd5U9EO0KanP3Q5KCejwmU0FekRHwbx8vaTGQ9Y_MwKnsW4BR-R6A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJueWnNgAZ2jERS_PuXrTIkxk/photos/AciIO2fihFkJbn5lO63c4ISHSOJBgU13hLsryoDUavzHou6KmpP1onMQfz3UvePirIVGjVhcV0qzCiX2MojBrIk1i-com9v5_4ymxsYMkE2iye5bve5mlMOLjF_4Q62LZ1zW7QjaeIPVmoUBPI-5-SpXm3tQ_pJIwj6Cm39wEEovZw_XnarHcru3tiwwdI1rfvEWLpXMrMrkQ82Qi0LBIgrxd8rv_dF1YKGCl2vOMfmu14s9xgW8Iy0GR_RgB665nlG-o9dDjN2FQv7_lTfqTbuN9ZecbkvZMqFfncW9kYeuLshwOA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "wine_bar",
@@ -2607,7 +2665,7 @@
       "address": "809 French Rd, #02-38 Kitchener Complex, Singapore 200809",
       "place_id": "ChIJVVVVVboZ2jERl3fBxCy0tTo",
       "maps_url": "https://maps.google.com/?cid=4230485529357023127&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJVVVVVboZ2jERl3fBxCy0tTo/photos/AciIO2dCyuO1sf7yC3BrVkT2mowWt6N4rci93sMa2akJQn7NLESkW-egX_J_8TSxMW0ggpsyG8zFLqES-cZCtiv9IPumznTyKN-efQlqxWJUTtkhMawqF7DRi75DaGhRM_Jj7no49q-qVmxTdck5smSKOEWWzlt2MSWxs9f5ncup0u65SNle_eZTbIRXVSqh8otKBbEYHOzc_BTynebAnkXlXjCii8g9QCFZ4Ejp8Symq1EykLUzm9vkfXpKpTuL-WSuWBl7nAX3goLrHNoH83vWOM_ipqvzAxJ5pTIHUTlAI4FZupou6YY9hj6_Xxr8rN2UTJD0IVOJSql-1-vDiawvpITm6kCO1m_mX_bzTSnaCsYWD7YzDF8qVlnIeivdCjf9cGXqjBoxZFVhQwZfYykNbXxvFEYJZLODBm2AIZaCoZPcag/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJVVVVVboZ2jERl3fBxCy0tTo/photos/AciIO2eI_dHU_Wnu-VSNXOlY2GAUufHerRv3vfPbGEBs7jYR33DHOAhsycH3zBJs3PWIFEQIYWnTGzPtX9F7BFACvMDbqbDc0carKa7M_bl4hC4e0qW1ncVSFqAfm7YeJerrKI3vx9CDYOC8lD47ur4TS2CdCL5qcBRdbztH0TZDjYLCZHocNoN1AJj1sqWnrSEjdGD8fYnjRi1k3BD5shXIJd1iMBiXY02IzkPxXQhuQtTzWyav6TC5v8rAqNvvzA7Phsp1FbQ0eVXvy19Kv8HE1pqW49fdL81MXz1gHw03Pwes6ATlPpk42V8gqYusUAfeHKll3nmYF0jrK1tAPWva7IoOR_o7sxkgTIFOZdjABmvCa9xl7hew87J0pbCtq6xAgZocJC7kJ3LDT-AuolixJFnBHgd1nPWQZCtULtYRwtUPNQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -2627,7 +2685,7 @@
       "address": "32 New Market Rd, Singapore 050032",
       "place_id": "ChIJARv2j3QZ2jERquLdsXGisU4",
       "maps_url": "https://maps.google.com/?cid=5670492015035277994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJARv2j3QZ2jERquLdsXGisU4/photos/AciIO2cloeLfzKN31EuwQP_X8Y0-80_QVSNKlcAYU6Bj0o9WH_uz82U7rjMzDA2VgLbRRrIKz2bd2U0s-49ygbFNKZtHkmy_bqZBGfdGhn-i4dUkA5L2BqVXvhxFGjnuMjC5XgwYgaoLlNKIsDvC6JyzFeWRW-DZnTpZb3UdYdFeT-oXZNOTfxW2cK2O71qKPGi1a_6aORI9_PgUKU2ESdxQD2-d_mleyzflq-XaZmC2P7-weuTFeW8wfyeSy9a-005NuS0Hx0foVKs-Ze8b6nWX2AYVQsC7qIRFrpM2coriAFbNa5y4LihuENxFxvYfkmR3a2R7bQO9TKR5ksi8WXoFwAZOD93Do2c0eMVnCPLs9Wu_D3VmmBHy9A9jW9takR6mwTUuqKm6nPlum-RPc247zowOKMsMk7Gtcz_mhz6ZDZfCYZA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJARv2j3QZ2jERquLdsXGisU4/photos/AciIO2cwKOW8ghfzadAJjQ1xSOyKmMWE1Suk2jrlL4gL9WZtz1KK6akWnTFry43tJxhRhDPA7cScFsC0f6yVdM3OU3GzHEoKXZLDrTgfq0lyqTZPEDtWpArAgZdO7k8uhrW5LsZC5LreWBdLpBKeZ_JpRwYR_7fH6ZXfBxC2JUBapWhJh2oQBjctdY5O0Nh1mpiehHb3u3iXvTlTga2g5L502mLnXTAf3MTWOwrzDLQJq8mxEaqgga_JqSTMMeHFx7GJWH5XsFZLAL_2iDKinWkuSp_5FYVk3w_F21yRc1cR-LDO8Dw1T2vucVaT5yMpiN8Z7KWdAqshLVekGPuaaa9KcxInYgV_hPHSh3mg43LcaTsyoPsCfyd72aAYJEZBHpQ1nJnrEAFsvLgKuKV3AV1e3u3BbOdF-Z4VkjWI3yucH6RZCIw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -2647,13 +2705,13 @@
       "address": "65 Tras St, Singapore 079004",
       "place_id": "ChIJf_HCVR0Z2jEReXZb6jnLJ_4",
       "maps_url": "https://maps.google.com/?cid=18313829859330848377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJf_HCVR0Z2jEReXZb6jnLJ_4/photos/AciIO2eD2JVdThb-a_mDy2DraieiimnxGPgecRVwufjNvEyz2WLsKTPf2HGnxJoPBiFfnEGr90kD4pPqVErQcjVTh6R65CN_1BhFTNxFUUxdUhHNofgxnQ9MV5-JHscC2y20cL85UeFglsofwMUm4F6eSV_6rEAYD9wvhJ3z4MLrNPrJnWpM0GAN4ybLjNZOrQmqG2cJqSN2m3kN5G1PtjpvwnXXNyJBiYXMdhefFII9EgCZ7Wstec895uktFNp1jesxSbJztbKBa7KL3EoEgFVEXZWSA3rFK62hWjjdu1m3lN64Wg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJf_HCVR0Z2jEReXZb6jnLJ_4/photos/AciIO2eomxkU15skkhO_fTYTnQ7TEFZufGQCVnys4o8zl6iN9ER0EmtgxoK88rIFwhVHJU84gBdG6gqS4u-DVseVgFoIkQ2woZAzRHBwSrU6kHcrsJHyS47ejC-AYejxOkSFeCnS2qHFRaw3NDTEf2J8sluaSYbxde6vtAKEluCrP1pI__WmQMyZsnH-Km6uupcEEsd4QAJWeV0UjDlsZKmDEGl-_2qdQjMNsqUkxm29K2HZobir_BpiL7QYoV6VHGoCE3bvaKFukd6mrG-UsHwc4slCC_NF_mwN3_HxQZH6uJBe7g/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "cafe",
+        "coffee_shop",
         "dessert_shop",
         "confectionery",
         "dessert_restaurant",
-        "coffee_shop",
         "japanese_restaurant",
         "food_store",
         "store",
@@ -2675,7 +2733,7 @@
       "address": "8 Craig Rd, Singapore 089668",
       "place_id": "ChIJSQisHW0Z2jERnTmZYc63ARI",
       "maps_url": "https://maps.google.com/?cid=1297520264687991197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJSQisHW0Z2jERnTmZYc63ARI/photos/AciIO2emexdq6Pf1JjhzPSfZAxLdYVcKkpHuHswdLAsjJxCQN-7m_tNWNtsGjIavhEQwsCPShilhmFRNgMIN-rnMQQ_ly8wdTbn927_lsxbVU7NCtG9tv4uNEgVCj1y6t1JxLogEwsBfILSVEDshFA59VIOVbAyd7xVxLDVTe69lkfoLdGwt00VoP5RU2aCeafjVIj0jWUdIslem3dDm-uflCxPmb7S0Jmeq-OLc275GtjSQUYtsf5tkeRsk60IdroClmKfwtuVzHcrgt0DViAfqUryPP9yS6Vu5c--ejEW3i4qOFaHY_6lVecWh9ATuIBOhmAw4sXujl47oJqi-mAyb-NlsipgfPBge0rWMDEbOnK5vaF8tS3IlHKP0UanlzRharaDRIAAWQSLFoxHqk6OTfLj6refdTn8Fqh_g_5tVISMxHhOaUHNAOZHxVOY7tnt5/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJSQisHW0Z2jERnTmZYc63ARI/photos/AciIO2ecBBNtt6xJTA-PXppAd8_YydO6IOp3VEnqjp_V_I8-TAaPxzuVq9TJF5bc5Z9xfyrCC1IAhHtDCmtzQbDmChJiPk7EUxVdSUvBm2LFL8w-g3Y_irM6lLS8R2R9M1KjR176a3UMPBKmLJ5G-n18XqILrNQTQxE7Hr9bW1ikEymGObaIWYLoL1uwgSo1UNnbNtuCE0cuZxd3mWb-ZqBRXBK2fRY5BaL27O4RryFUw-270fxRU7HF8wvVCgOb6MVh5j-XqqOfcs64xmRfosEQou2zmCN4vkCOdj7pbxkbXbIx-cewiFPecjMQ37s2DoU-sVzsyB11-T3OeR9IbNYeJLl4BzthdAsK4fI5H2hCzGO21zrifFlUDTc9un0JYQCGFn0YAnCNJ1Q3BqNJMgUSfjKIb8TKfUX2KNlRuEFLCq4GhFfo8hrsQK1exeuvl08E/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "restaurant",
         "food",
@@ -2695,7 +2753,7 @@
       "address": "21 Tg Pagar Rd, #01-04/05, Singapore 088444",
       "place_id": "ChIJaU4Bi_IZ2jERLDiu3PxNcik",
       "maps_url": "https://maps.google.com/?cid=2986535251329562668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJaU4Bi_IZ2jERLDiu3PxNcik/photos/AciIO2f7UTfQNgSisGjoqOmBymjcX5w1jKygCv6CczeH67tJViR8DDm771NXiSRPWtaewdD0hGW67-WUQRoLnS1jvqirS0dFBpQI6iC8H3AiXI_feVPaIkPDHoAKHspCJCoZoydRrnVRdnaimd_f4vzfKumis-gHFwgkTb2Ep8ZD3fFH-Dnlymuy-3uGHSuRPQk8rRvO-HoT6q_dUrcCECWTfeEGZvhBRlAzZYcWtfNsdvjPlMSrOwChS4bAQW0kr1EiV4i_8zyDCt1Vcg0RJSl92dOCHREfNvxsWF7TRQcCnpOMZA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJaU4Bi_IZ2jERLDiu3PxNcik/photos/AciIO2dYJAh_K7KFzSFSJ8V9WJLGZa7H5gVpsOxK6tXG7pPjROw1cJaHyqtacIEh6Hj1rAjRadXRCfqVgEyJhfx0Slg2cCWrW_jF2Kt5mzIX3n2LMxUHAMjfSzAX0_JJv4Kj93KnKE7Y_40BWwfNBuUofd7P43A0BXqd6eZqfDBZ03VSZfmM4HkKRj-qtsgNXuLyxMKwpEIF39ao283vu0vknNNEhQ3PR7durRmsAw9on2Ss5y_mFXZfP7VXOFOuGPb5TlXEeihZQ2fCBvNrm-ynvkCERKZUiBpOyUb6hDHEpucLhw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -2714,7 +2772,7 @@
       "address": "46 Kim Yam Rd, #03-06 New Bahru, #03-06 Big Block, Singapore 239351",
       "place_id": "ChIJaZSN2AwZ2jERVWG6oBSTLw0",
       "maps_url": "https://maps.google.com/?cid=950139763203662165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJaZSN2AwZ2jERVWG6oBSTLw0/photos/AciIO2cWfSShXgJjgt4Lywi5QuKwAtUg9O2HBt6QeRojRQXaT-g5TRIbCzzC5bBbc71qvUL6Mqwjjek90inNFlSvMj_10iO8k25PxpJKIGdAThPt-tF5E9PJvf9R8Og39ppiIgtFCgULuC98kEFPd0A3n_Qm4VI6Det5d1Q6GaNwxAPzgf3gaLVcboaICesrMSur1AnhSnVosESQiCyDGWKPVe47_6FovLAM3I-N9490XDJr92wzb5HXsyiMnUEOIesiTdBjFofhXEbFPrMPyZrw0BQfoZMLiKXYblTzd71CAzOEwg/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJaZSN2AwZ2jERVWG6oBSTLw0/photos/AciIO2fd5VRllCwTFL9ipUOWDIQPJQP7M25c7x1Bd1spUrx_qHWkfMfToO_RonTpl_2yXZLPZB5_IA3fDArqLqDBQZtM1tEXO70YZ4BKsQAWXznv-Y9JYZbHUE5XldnVIh7vVc7nxu36cp1GCztnLnIwY05okwx3puCBwGsjN5C0ntk7tXWh6kM3t325MqlCIb_LcKXmq-UklVLdqCaywp3vDK8f0rzmG5vZiExTDbDNAhsTCTSMCoI9bfsyLHoJPg6aFCn6UUX7eIBxe24GI9efbLEytTgTleaFTuxVIIRNomM5rA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
         "store",
@@ -2734,11 +2792,11 @@
       "address": "231 Bain St, #01-07, Singapore 180231",
       "place_id": "ChIJPaWdBKUZ2jERYs9A_C70mJc",
       "maps_url": "https://maps.google.com/?cid=10923749378824916834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJPaWdBKUZ2jERYs9A_C70mJc/photos/AciIO2cvq7QNxvYXHfh8wT7m0QlKDyfpAoRGOFKvH0MWj6IXYtxMwmMeHO9hXAUg934yaYXOL_4vGWbxKsNyEaUZATWvTDNluSk6ZcTDAs7hvQdrYtxLKZ0U-rQM3znuxf4MBsZI0GE4jZON4sehzeo4vrEclMqW92piRqJWHkwfap4j55slYkcQSIid06bCLUqJCsZXlU8yfTpIiw78adVVvYRL_vR7IUqi1DPhF1QVG4cgVTW0YA_4gfjY6WyhJSSivaT0Or-NRLHJ_B_XXtq-6FW774lp2YJoBMtWJ2ldqJx8uA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJPaWdBKUZ2jERYs9A_C70mJc/photos/AciIO2cadCQjFk7BhGYrEi8SZ9AmEIqx9scwplI6ztfpqehACd8TLIX3jLVSmVgCvRV21dzZSAJvzCVS1qbsbxf19-btOy0TyRPsIQ4xgP7rQ-eUf8PQy4g_uzPrPQiTyUKY3usutcz_u28Niq2YiNNbETa1TxVe8zynv5htMTJMG23gCLgDTFER0xKpVLTs_X41mJGcOak54khpmOFKA5Vilc56wVb_Z7qUF8Vdic46HB7qA34p7sR15htScy0XJm3rpBHHZFtu60P-d-nU6emBvhhUOLsMYLypqHD9cXbIt9VFaQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "book_store",
-        "store",
         "wholesaler",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -2755,7 +2813,7 @@
       "address": "Stall 7 & 8, Boon Tat St, Singapore",
       "place_id": "ChIJrQ9bDhIZ2jERoKPZwEmqy-4",
       "maps_url": "https://maps.google.com/?cid=17207034035043935136&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJrQ9bDhIZ2jERoKPZwEmqy-4/photos/AciIO2eFjJJ9brccVu3WVZsNFRRKDU88wZv47ZmNCHGeJ3FjOod1ARCJPIw7zqch8bFQ4EFPwYQ1-NCjb82fHjagkDF_1Tl_qCXO44fHxwkmjP1wOB778Oprii2mm9CEZ11GLyW3Lrn237LC_NyjCiv3fIXnBm7isWtqqAOBDeR628YMhK149qfWv1fTnHDmEEybWblHG4ztuV3qdk53AJZYI4g7vptuEX80VJbZgyEHiXKBJeBIenWNydmZo708Ho9XYwdVrg0yvJ7wOfSWhFGVLLaFKv0XIPXtFPMp986fXSadt4ILms0pPRX78sOMGxVZ8kjk_TNJCsIioHYb5okUozbFgtH9adNfNmd9CORAO86Y81FNYEYxXLmn2ynyYRrfdf7c0dOewv6qzZfogMO-GuEXCIcWN2N4dhBPjDUnqJ5DkcLn/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJrQ9bDhIZ2jERoKPZwEmqy-4/photos/AciIO2c6jX5AKaPvcO3EcGfOL2mAcLlWLViN4IYYabkBfLgS2TT3MaRECqd-aXBggqsAhZ4dWTo339Vq5K17fqS1hza4MR9RiYNTz-ShMiPN6YwR-AFtC00QxSgjf8sl0-kMxKyalBGl5zvBrHyUw2OOnAhsavSF-qr6zWT9S6hbD2TmZfnX9KBXniZU9O1vsTewfS-A9-cBBRWS1OrBHSfi6f9qZWCmzYmanuaN-Wvz1EehpoCLsrm36moqN7owAD2zsgSIVmT5tq610rrBP1sw02WXXO35FVQMvs8xTkTY0OEdNEFSlfVybuvJF3PaBvPcLiQ36eRJKoVSzXMbW3pe9pZ5iT1Iy2nTHsjUsFnG7yQE6rPI0SrD1z7npZzwAiFAZQY_ce3_lvgYvuhO-gXOZrGi9oRpb8ho7E76EUAHRyyq3SVr/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "indonesian_restaurant",
         "restaurant",
@@ -2770,13 +2828,34 @@
       "is_hawker_centre": true
     },
     {
+      "name": "Kukoh 21 Food Centre",
+      "rating": 3.8,
+      "rating_count": 1114,
+      "address": "1 Jln Kukoh, Singapore 161001",
+      "place_id": "ChIJZ2R-6HUZ2jERxzdK1bDmws0",
+      "maps_url": "https://maps.google.com/?cid=14826666570424137671&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJZ2R-6HUZ2jERxzdK1bDmws0/photos/AciIO2f2zeeTyTux_0RoklsQqNQ-TziqRRA0kegpD6C3A-VSCKIy_XIWwT-knOkyYzdmbZM4S1FXo6ie6rXzaYuB-6yDABwAZT1OMZL55ek1lgstetX-5p7knhbLSSwJuVKjLEIw7v4xNB_X4cd26IYVsg1SO2yP7FuyiAhrsG5_CLAWgY5YbgIAWKu8rcNf9aSavtU2aZ9CGwfjQEckDCM9HTI0TCu-oqtOqOjPV1E7QHD70GHBlECjpKPmp8RJu75fbABIAwRhKXpGGAVxPDCLesz7mFIfPfudsUG31Gi1CVnmHqZME9rfx50E3rKmehdf-SpQHvHL5OKMZHCmcYHGlKEZv7KPldDvynQ_hVMLA02fElLK67ovPLWxoc1t_-s47Mzlr3iyC2W-sBpsjvBILb2lZaGbGEVO2uz81OD6aDs6LYjH/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "types": [
+        "food_court",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "primary_type": "restaurant",
+      "lat": 1.2882538,
+      "lng": 103.8398854,
+      "distance_m": 1614,
+      "is_hawker_centre": true
+    },
+    {
       "name": "Jungle Ballroom",
       "rating": 3.8,
       "rating_count": 249,
       "address": "16A Duxton Hill, 16A, Singapore 089970",
       "place_id": "ChIJteO25HQZ2jERkJIGUY1tcq4",
       "maps_url": "https://maps.google.com/?cid=12570229963661677200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJteO25HQZ2jERkJIGUY1tcq4/photos/AciIO2fSC2lABBiP1LLo4Crv4yiWXIvvdzJ2Y9hhrGyyuE-iilKLNOQHFj6c0FXMdu-lWTs0MYvASRlftUnEcnJk056xbFI1VguXBONd8EhqoDy_IZCQP9NH77DfCFce54p8c-RLk8KKMlNka2vUzDVMXFZi-JqAE8S8ALAcMOWtaxHKl-vCmfu_Q8H0dmRXUeCHlAIOUdHa-9kvPaaD5pZ47XEYnWsPVQsStMECumJQCF_uT3W6iWPGznzPVFyCXEn_EpQRzG38evCF1SYhudU6xjp0Q0t-yjwjo527n4B0S_4GYA/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJteO25HQZ2jERkJIGUY1tcq4/photos/AciIO2fxrvyDEbOFQRaoSDlc716xijzfuVWhugNmE8p2nqpZC8fGgrjnH-TVaqk8Xp1eaUu3RL0j2CUkDmsx8fph0vpjxC7FHde8pDrJG8twCmgJm7E7cPlLDLZ5pGIgEYf8PmgornscacEH2d_S-BtarBmYc5uUzaRrGIY4gAhf1lILOWtu65NgMqKZUeMTauqx8BHWk7lq5At2rol0oNhpq4HWKAh9YhjLvqdGtQXj0Jnwf-IiCza00oIgAq19Zq3G5F6JbvYMBiECvbvftPt3190VjbrNMUDC5C0XyOUmHW6mbQ/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "bar",
         "point_of_interest",
@@ -2795,14 +2874,14 @@
       "address": "7 Wallich St, Unit B1 - 09 Guoco Tower, Singapore 078884",
       "place_id": "ChIJG7LQ72AZ2jERSP0gwQgVs28",
       "maps_url": "https://maps.google.com/?cid=8048800086385294664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
-      "photo_url": "https://places.googleapis.com/v1/places/ChIJG7LQ72AZ2jERSP0gwQgVs28/photos/AciIO2e8XTL_sr_8IzwuZxWiwD8egNkIeR30EXM7N-4Xt3sPTm9khc44qG1KZWLKs693yfOZFYIuvOJ3abyy3XhcdfRwpkGOgM6VLUAzr4Emk-m78YbL5w9ojrAY8Pl1iLWdL4siVrColfNQaKC7QhPBH3l377MIgfyakr3dGOAt8_O9Dq2TS7EVHGD1j3zNevSSv0RzyJtMS5WW3VBmKySGgkNTSmIPdR5KBR9c4Tzqa8DquqTtjkXmRO0so4ASM3KP_Yr-FxXRoKxnSFbbirQNVMTLl__1_impW8MGK7ZhZvdCaw/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
+      "photo_url": "https://places.googleapis.com/v1/places/ChIJG7LQ72AZ2jERSP0gwQgVs28/photos/AciIO2cnPL6FxU2p5wEkqM_uZd-N4o-0VX9QaqoG-b3zU--xBlw-UXf5OwEyP6sM0nWMpBzo1JDvaiiFI_aJt4Nl7_bwJ_tWZnCbTxmNQUeSJnpBpQAfQf5f_11TtT3xyGmfmIezEtwtFIIi_3qc2uNGXPeuxDuu2g8NmajZ7ewzZbIw0dDWG87hmNj7A76j1XXH4GHfLX3fnx0TC0ZcwJkelqlsUQ-YsIAAHnU-_jQYc7E5uRmfOOXumIKwoFtOJqQhDjBNfWQkhx8gX-gNSpezhDintpi73g88-bc_nP3N9z8J_A/media?maxHeightPx=480&maxWidthPx=720&key=AIzaSyA3xxGkkgT_Qh4UsdHln5U1SjUTaKYs6RQ",
       "types": [
         "coffee_shop",
         "cafe",
-        "food_store",
-        "food",
-        "store",
         "wholesaler",
+        "food_store",
+        "store",
+        "food",
         "point_of_interest",
         "establishment"
       ],
