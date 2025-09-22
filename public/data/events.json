@@ -1,18 +1,7 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-09-22T02:21:31.271555Z",
+  "generated_at": "2025-09-22T16:23:17.005656Z",
   "events": [
-    {
-      "title": "Mayday Parade - 'Three Cheers For 20 Years'",
-      "start": "Sept 22",
-      "end": "Sun, 21 Sept, 7:00 – 10:00 pm",
-      "venue": "Pasir Panjang Power Station",
-      "address": "27 Pasir Panjang Rd, Pasir Panjang Power Station, Singapore",
-      "url": "https://www.eventbrite.sg/e/mayday-parade-three-cheers-for-20-years-singapore-2025-tickets-1117156056839",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0cZoEbTkdWulWfitvyRrX9Ad0CJvcJL_J-UUlzZyDdub9y2d-MbrO7yf0Hw&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
     {
       "title": "Gardens by the Bay Mid-Autumn Festival 2025",
       "start": "Sept 22",
@@ -36,17 +25,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Singapore Flamenco Festival VIII: Punto Rojo",
-      "start": "Sept 22",
-      "end": "Sun, 21 Sept, 6:00 pm",
-      "venue": "Goodman Arts Centre",
-      "address": "90 Goodman Rd, Goodman Arts Centre",
-      "url": "https://pluralartmag.com/event/singapore-flamenco-festival-viii-punto-rojo/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzi9PVavRhKxGZqKBwxrf6jdTXBSZL1BcnUlZKxIVeWg&s=10",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "The Jazz Room: A Journey to the Heart of New Orleans",
       "start": "Sept 22",
       "end": "18 Sept, 7:00 pm – 16 Oct, 9:30 pm",
@@ -55,6 +33,17 @@
       "url": "https://feverup.com/m/365027",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZgm__Xps4YFD68P6r61wVH13X6vRIOqHkxwvzPUG4A&s=10",
       "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Digital Light Canvas by teamLab",
+      "start": "Sept 22",
+      "end": "17 Sept, 11:00 am – 30 Sept, 7:45 pm",
+      "venue": "Marina Bay Sands Singapore",
+      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
+      "url": "https://feverup.com/m/336316",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBPIH_Iwa_rPy1S84u4K0i4R8OkdWvaa0w6mOrHhI5g&s=10",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -93,10 +82,10 @@
     {
       "title": "Thursday Night Hustle",
       "start": "Sept 25",
-      "end": "Thu, 25 Sept",
+      "end": "Thu, 25 Sept, 10:00 pm",
       "venue": "Capital Zouk Singapore",
       "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
-      "url": "https://zoukgroup.com/singapore/capital/event/EVE109749000020250925/thursday-night-hustle/",
+      "url": "https://app.discotech.me/events/38028117-thursday-night-hustle-at-capital",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGKKQkeOmwbheRfPzsTxjgiEtSE4hAh_dBmD5ejYnTlg&s=10",
       "category": "music",
       "source": "serpapi_google_events"
@@ -129,8 +118,19 @@
       "end": "Fri, 26 Sept, 10:00 pm – Sat, 27 Sept, 3:00 am",
       "venue": "Hard Rock Cafe",
       "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
-      "url": "https://www.eventbrite.com/e/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee-tickets-1528162638589",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8TOIbOUymJzlqwzpZ1YpxWIf0uDRDKpwVSw5Hc4f89w&s",
+      "url": "https://allevents.in/queenstown/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee/100001528162638589",
+      "image": "https://www.google.com/maps/vt/data=fX-LW-LAwI6qi0k5pmY_v6aVzY6nYmwgD_ajlKoW2cvY6q3aYOyHC-JR686YIUQIQc-lvA5D_7b31rq33gJUI9BfFsXBpVuvFymtP11DB49Q-IsSdTg",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "SHAUN",
+      "start": "Sept 27",
+      "end": "Sat, 27 Sept, 3:00 – 7:00 pm",
+      "venue": "3 Temasek Blvd, Suntec Plaza, Singapore",
+      "address": "3 Temasek Blvd, Suntec Plaza, Singapore",
+      "url": "https://open.spotify.com/concert/49Y77LCvHKVnt69J5QZ9gn",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ7ZS6ySoN28vEE1PtYbSM6UV-VvQ4Hi3WLwPgRh5zqEUvnGcBIUZxKK7rQQ&s=10",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -234,6 +234,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "SuiFest",
+      "start": "Oct 2",
+      "end": "Thu, 2 Oct, 10:00 am – 7:00 pm",
+      "venue": "Marina Bay Sands Singapore",
+      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
+      "url": "https://luma.com/SuiFest",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgL2reSwxXAiF0enpc9BpphFkVVDLgi_JMawoyJdPTw&s",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Avex Music Night 2025",
       "start": "Oct 2",
       "end": "Thu, 2 Oct, 7:00 – 10:00 pm",
@@ -242,17 +253,6 @@
       "url": "https://www.eventbrite.com/e/avex-music-night-2025-tickets-1699606210929",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoxJk3lYgLisYFCJ_Fr7s00zVVZfKyanPEHo6F6IsuvQ&s=10",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Don Diablo",
-      "start": "Oct 3",
-      "end": "Fri, 3 Oct, 9:00 pm – Sat, 4 Oct, 3:00 am",
-      "venue": "Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://open.spotify.com/concert/1RMANgHPZs0YffLZyeYcuH",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5B9WoI0LHUTxRdqWngCowS4YSGMXDr3ohus58QHD1Voc6G960vRTluHrt2w&s=10",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -311,6 +311,28 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "DIY Mooncake Candle Making Workshop",
+      "start": "Oct 5",
+      "end": "Sun, 5 Oct, 3:00 – 6:00 pm",
+      "venue": "UE Bizhub West",
+      "address": "450 Alexandra Rd, UE Bizhub West, Singapore",
+      "url": "https://www.eventbrite.com/e/mid-autumn-festival-moon-cake-candles-tickets-1629561455179",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNGMZwhwM1CyyRNohdUINHXbWKatyASUZAoS4sKQnbHg&s=10",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Jazz & Wine at The Intercontinental Singapore",
+      "start": "Oct 10",
+      "end": "Fri, 10 Oct, 8:00 – 10:29 pm",
+      "venue": "The Lobby Lounge",
+      "address": "InterContinental Singapore, 80 Middle Rd, The Lobby Lounge, Singapore",
+      "url": "https://www.eventbrite.sg/e/jazz-night-at-intercontinental-singapore-tickets-1010278890357",
+      "image": "https://www.google.com/maps/vt/data=nf8lFDK46Q5PfY3FqQ8AH7aH3JpksfQvuCHfUhGwOgxVq0EoyFraHUl_ubvMCxuo8MqhdINljqnf0ARtBQRzbRmRdPV-pmCjGe_2et4llCYO11bkyEA",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Singapore Polo Club Outreach Polo Tournament & Carnival",
       "start": "Oct 11",
       "end": "Sat, 11 Oct, 10:00 am – 6:00 pm",
@@ -363,17 +385,6 @@
       "url": "https://eventseeker.com/venue/866256-bugis-street-market-singapore",
       "image": "https://www.google.com/maps/vt/data=km-IHD7tYxy4MAbB4Qp6X6Fp7qpD_WSjyP9QpBzSkpqH9RYvmxXUR36JumMGl1K5V12lsGJ-xsRrGZio09agJcOnwY2pa-EzFo80ZOCfJnK1hEPcQdk",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "DJ AQEEL at Blu Jaz Clark Quay, Singapore",
-      "start": "Oct 25",
-      "end": "Sat, 25 Oct, 10:00 pm – Sun, 26 Oct, 3:00 am",
-      "venue": "Blu Jaz, Clarke Quay Central",
-      "address": "6 Eu Tong Sen St, #01-09 Blu Jaz, Clarke Quay Central, In Between Mookata & Tsui Wah",
-      "url": "https://allevents.in/singapore/bollywood-club-presents-dj-aqeel-at-blu-jaz-singapore-tickets/80002748110973",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWrI40E3EMbYWcWyKxCgNz8iAmyokV6uLJZbUJ6ZeklJhoW9DVLi_QtTMwew&s=10",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
