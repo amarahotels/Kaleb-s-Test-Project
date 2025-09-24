@@ -1,10 +1,10 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-09-22T16:23:17.005656Z",
+  "generated_at": "2025-09-24T16:23:49.290629Z",
   "events": [
     {
       "title": "Gardens by the Bay Mid-Autumn Festival 2025",
-      "start": "Sept 22",
+      "start": "Sept 24",
       "end": "22 Sept – 12 Oct",
       "venue": "Gardens by the Bay",
       "address": "18 Marina Gardens Dr, Gardens by the Bay",
@@ -15,57 +15,35 @@
     },
     {
       "title": "MID-AUTUMN FESTIVAL POP-UP",
-      "start": "Sept 22",
+      "start": "Sept 24",
       "end": "Mon, 22 Sept, 10:00 am – Sun, 28 Sept, 9:00 pm",
       "venue": "Compass One",
       "address": "1 Sengkang Square, Compass One, Singapore",
       "url": "https://allevents.in/paya-lebar/mid-autumn-festival-pop-up/200028833916020",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT05X5hJpnVUwce4AiOOLE3NguXOgt7e_TYuhWTFPfKdGDKbNqBq7JS8PLKng&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Y5PShyqhlTLvz2u9Mjle3WoTPN4qcH662NTW8b4ag3QcyVPk1O-PfXo&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
     {
       "title": "The Jazz Room: A Journey to the Heart of New Orleans",
-      "start": "Sept 22",
+      "start": "Sept 24",
       "end": "18 Sept, 7:00 pm – 16 Oct, 9:30 pm",
       "venue": "Zouk Singapore",
       "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
       "url": "https://feverup.com/m/365027",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZgm__Xps4YFD68P6r61wVH13X6vRIOqHkxwvzPUG4A&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0UY62gmd00lAqM3mQ_4JlggeIUbPRZh484Nx0ge0&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
     {
       "title": "Digital Light Canvas by teamLab",
-      "start": "Sept 22",
+      "start": "Sept 24",
       "end": "17 Sept, 11:00 am – 30 Sept, 7:45 pm",
       "venue": "Marina Bay Sands Singapore",
       "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
       "url": "https://feverup.com/m/336316",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBPIH_Iwa_rPy1S84u4K0i4R8OkdWvaa0w6mOrHhI5g&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfAulqLYvK0nNRMq_TN7QqYseEQ0esFQDKtME9pGc&s",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Jake Miller @ Hard Rock Cafe Singapore",
-      "start": "Sept 23",
-      "end": "Tue, 23 Sept, 7:00 pm – Wed, 24 Sept, 1:00 am",
-      "venue": "Hard Rock Cafe",
-      "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
-      "url": "https://open.spotify.com/concert/7FDKH5sRyp4urPPIZv3xyq",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZ2C9HMv7-23FszitB7Eh8ToOMsczRSgoFcH4YDta4uhqjbQm-P7savr_Hg&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "TGIW",
-      "start": "Sept 24",
-      "end": "Wed, 24 Sept",
-      "venue": "Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020250924/tgiw/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSktsq-c3y64ISLFPRDOHMIR76n5MN3UqYt-_JMBQl0Pw&s=10",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -75,7 +53,7 @@
       "venue": "Esplanade - Theatres on the Bay, Singapore",
       "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
       "url": "https://www.stubhub.com/sso-singapore-symphony-orchestra-singapore-tickets-9-24-2025/event/158114829/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZzNzErVbITi3U2es68lcfc5Z8-9Kig-c8RPbSgK7tJw&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQgTacDbUlVTRHRxBC4MUagDCU6to954O_unLO98M&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -86,7 +64,7 @@
       "venue": "Capital Zouk Singapore",
       "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
       "url": "https://app.discotech.me/events/38028117-thursday-night-hustle-at-capital",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGKKQkeOmwbheRfPzsTxjgiEtSE4hAh_dBmD5ejYnTlg&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRmOl3IXpUDcgQuA74SldDj0PIvbz6HYPguM9wWPs&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -97,7 +75,7 @@
       "venue": "The Star Vista",
       "address": "1 Vista Exchange Green, The Star Vista",
       "url": "https://www.livenation.sg/event/pete-davidson-singapore-tickets-edp1611840",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4jmf-F4MasbZISUTqxZjt7BNkvyTbmDUgs9bN685RLjuF-U-NCQQ281zFwA&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaqK7WkVMCbO4AoPzbwSrblpCM55YCPIc6WN2eLZt30Cp5YATKD6Ys7II&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -108,7 +86,18 @@
       "venue": "Victoria Concert Hall",
       "address": "11 Empress Pl, #01-02 Victoria Concert Hall",
       "url": "https://allevents.in/singapore/piano-recital-in-singapore/200028604094523",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQlmA0eMPdYsceYO1KrdUmcjLS7rkeg3C1E9hdlnaJQ&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEDNoUEkcSRO6m9Qf84Vd67EYkMdx_39DwlzPsd_bFT10QvJFfNy1MMYI&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Porter Robinson",
+      "start": "Sept 26",
+      "end": "Fri, 26 Sept, 10:00 pm – Sat, 27 Sept, 6:00 am",
+      "venue": "MARQUEE Singapore",
+      "address": "10 Bayfront Ave, B1-67 MARQUEE Singapore, The Shoppes, Marina Bay Sands",
+      "url": "https://open.spotify.com/concert/7le4mOFm4M3R7KrDezgw7r",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRH8ephugNYepylM9quXX4BYjh564i03VfFwhY3hu5xOEuL1hcwMiU2mU&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -130,7 +119,7 @@
       "venue": "3 Temasek Blvd, Suntec Plaza, Singapore",
       "address": "3 Temasek Blvd, Suntec Plaza, Singapore",
       "url": "https://open.spotify.com/concert/49Y77LCvHKVnt69J5QZ9gn",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ7ZS6ySoN28vEE1PtYbSM6UV-VvQ4Hi3WLwPgRh5zqEUvnGcBIUZxKK7rQQ&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNRadXo-QaTNrJNsMGHRyhOobKZojlA4buBcwralwXw22KRlrjKJ1avo4&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -141,7 +130,7 @@
       "venue": "Chimichanga VivoCity",
       "address": "1 HarbourFront Walk, #01-157/158 Chimichanga VivoCity, VivoCity, Singapore",
       "url": "https://www.eventbrite.sg/e/agave-festival-singapore-2025-tickets-1633368592429",
-      "image": "https://www.google.com/maps/vt/data=wDe1lGJ0yUG1Q2KkHcLdqrhaejx0WbQ-JZyuqfJnRgb04JgDkTQv8Nc9lRA8lt1Bhd_WUfq9NvguwnFlY6GJvWrBhBUW8A-mn8P81T_vgS-KgKW-j5c",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9nLia2jYyrvwrCclo8nudNWcSEOexp4qT1Sfu9mA2dxNF1ODj4osdjuo&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -152,7 +141,7 @@
       "venue": "Lakeside Field",
       "address": "Chinese Garden Rd, Lakeside Field",
       "url": "https://dateideas.sg/event/plan-ahead-lanterns-mooncakes-memories-this-mid-autumn-festival/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1kqc9NouXHuFgiZTfhF7-ONexgFYjMTMh5nz0NnV9Jg&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcfE7XtBluCVeVRctYfSzvQ2HysOthyPUUw2CK2JqnmQN2wUifazlhEiY&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -163,7 +152,7 @@
       "venue": "Singapore Khalsa Association",
       "address": "2 Tessensohn Rd, Singapore Khalsa Association, Singapore",
       "url": "https://www.eventbrite.sg/e/dandiya-utsav-2025-singapore-tickets-1554677314699",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo2gsv8A52YPlAJkuNH6YjkLgfaLDvLjN__5uYRDoMOA&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2INNH9jJ_kBvVjZFWS3AiwAdPJDx2p_QioMs4o8e398fvnCq0htb6TiU&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -174,7 +163,7 @@
       "venue": "Asia Green",
       "address": "7 Tampines Grande, Asia Green, Singapore",
       "url": "https://allevents.in/tampines/atomy-singapore-product-carnival/200028711276302",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTFlIOI-ja4sjUUVVKbNpUeBQuUlkWWr8b1zoSeigmNtCELAIAqjpPjnxTFg&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT-QFTnIMH0qxevoZnw_qVHiZrGfdKvY4NHiAXNY5tjn5w5511mTZ4DrI&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -185,7 +174,7 @@
       "venue": "Zouk Singapore",
       "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
       "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020250927/dj-isaac/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvqChztTH98vSzW2mUyc7cX42LsS8qm0Hj-_09RkPDPQ&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBsd5KE7W_eCn1zZ_52WO0PmGOZ_wOoJDGjEwQAWE&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -196,18 +185,7 @@
       "venue": "Capital Zouk Singapore",
       "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
       "url": "https://app.discotech.me/events/38028121-total-recall-at-capital",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5y33XFmaiNNmAb56dTYIHTjDQYCjCr2sMNx5z3aZ2-A&s=10",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Stardew Valley: Symphony of Seasons [G]",
-      "start": "Sept 28",
-      "end": "Sun, 28 Sept, 3:00 – 6:00 pm",
-      "venue": "Esplanade - Theatres on the Bay, Singapore",
-      "address": "1 Esplanade Dr, Esplanade - Theatres on the Bay, Singapore",
-      "url": "https://www.stubhub.com/stardew-valley-singapore-tickets-9-28-2025/event/156294979/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0i_9hLCfc1kllbv19J8fYyJnHKl_dfWhDDDXHmDtpnFC5aKwK7o6m8X-k7Q&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9QPZfHYyPDVtQmQMoDDkNfSvcStDbTLVoGQyfE28&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -218,7 +196,7 @@
       "venue": "Singapore Indoor Stadium",
       "address": "2 Stadium Walk, Singapore Indoor Stadium",
       "url": "https://www.stubhub.com/yes-933-hits-fest-singapore-tickets-9-28-2025/event/159185090/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi8zein7NRGaNBEXSJT3GtJh1AKXgLfVdWO65b4mYbyg&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWPs89Ms8qXn6D8xcTq4esfJQP1I3WaSqyMkF15BlSaz07lKV0mLIHs5c&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -229,7 +207,7 @@
       "venue": "Braddell MRT Station (NS18)",
       "address": "377 Lor 1 Toa Payoh, Braddell MRT Station (NS18), Singapore",
       "url": "https://www.eventbrite.sg/e/mid-autumn-festival-in-toa-payoh-temples-cultural-beliefs-and-traditions-tickets-1689681335359",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3S3z6VEoYoHVRgny_cVnxYDVY5zqNKK_uzFEb8A4sMg&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOqStaDzmNxZ2H3RbZZes6pbL28H7Myt1wbGAoWDryGQ-VNqHO_jMQ6qw&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -240,7 +218,7 @@
       "venue": "Marina Bay Sands Singapore",
       "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
       "url": "https://luma.com/SuiFest",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgL2reSwxXAiF0enpc9BpphFkVVDLgi_JMawoyJdPTw&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjw5MfC_HqOGIC9hTIXV6USW0weM9KtU0JFEDBbmY&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -251,8 +229,19 @@
       "venue": "3 Temasek Blvd, Suntec Plaza, Singapore",
       "address": "3 Temasek Blvd, Suntec Plaza, Singapore",
       "url": "https://www.eventbrite.com/e/avex-music-night-2025-tickets-1699606210929",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoxJk3lYgLisYFCJ_Fr7s00zVVZfKyanPEHo6F6IsuvQ&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1FnhR9RkkEFp3CXedmNxBDZE3enD2nTUBKdoNYMlPZ4fw6IQagFbPfZY&s",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Don Diablo",
+      "start": "Oct 3",
+      "end": "Fri, 3 Oct, 9:00 pm – Sat, 4 Oct, 1:00 am",
+      "venue": "Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
+      "url": "https://open.spotify.com/concert/1RMANgHPZs0YffLZyeYcuH",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQktZvUyYYyUfWrT_DBAFdSa8KwoJQHfgiptm_X4iQsobAEZo2TZcWVWKk&s",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -262,7 +251,7 @@
       "venue": "Centre 42",
       "address": "42 Waterloo St, Centre 42, 42, Singapore",
       "url": "https://www.eventbrite.com/e/1558747258009",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiUixxZwpEhChS8t_fLN2yfN9D5rvi3x3UyjOqfesAVg&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf92SEm2Zxvep5ykNbqDa4zz50KS8GOV4FJszs_ZH8vPNbDDu2dmQ3DSY&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -273,7 +262,7 @@
       "venue": "Hard Rock Cafe",
       "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe, Hpl House",
       "url": "https://www.eventbrite.com/e/uk-bhangra-bash-2025-live-in-singapore-tickets-1542273053219",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNRix0Ct7LFdN0HgAK9VpPeUDxmVDLNakKIFfwlK51yw&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQba9VL393HQvbQ9VYluT8Zm-JNp4Kx1abeZLSf2GfDJ3a3irKc-dLukKQ&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -284,7 +273,7 @@
       "venue": "81 Clemenceau Ave, Singapore",
       "address": "81 Clemenceau Ave, Singapore",
       "url": "https://www.wonderlingoedu.com/events/mid-autumn-festival-carnival",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Rys1OISZ8TlsV79-QhepsW67Re6efiAVcDelAiv28ZVVMyNPKiu2n61m2g&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy5QJ7T4lhWtBu2yeOTdRDN-QzArukVN41IdgZ9CAKQotCHQjOk776eek&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -295,7 +284,7 @@
       "venue": "Zouk Singapore",
       "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
       "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020251004/wukong/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpwG4bMkGR3t_yXFNhEd-PQQ-v4hp6BPgyLMLzvsOF2g&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRgOH4swutiY0mL0Ata9NqOH3WCpCiUfatksrWYTk&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -306,7 +295,7 @@
       "venue": "Singapore Chinese Cultural Centre",
       "address": "1 Straits Blvd, Singapore Chinese Cultural Centre",
       "url": "https://ahboy.com/event/mid-autumn-family-fun-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYDOgZtLlc-P_vuuPhgfFLXCVxvpR1EzMuBLV4Wz9ATA&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMLCQqy2OkKe_cs1fFhUTFbgUXibD6b4GIdLOAnpk&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -317,7 +306,7 @@
       "venue": "UE Bizhub West",
       "address": "450 Alexandra Rd, UE Bizhub West, Singapore",
       "url": "https://www.eventbrite.com/e/mid-autumn-festival-moon-cake-candles-tickets-1629561455179",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNGMZwhwM1CyyRNohdUINHXbWKatyASUZAoS4sKQnbHg&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScVOGYUBXKsB56KsOUPSioc1KXOnalKzAodmZdXwSTnYnkslALIKl81s0&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -339,7 +328,7 @@
       "venue": "Singapore Polo Club",
       "address": "80 Mount Pleasant Rd, Singapore Polo Club, Singapore",
       "url": "https://www.singaporepoloclub.org/upcoming-event/outreach-event-with-carnival-games-stalls/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFfmvsiR0zeDwTfJwMpnQ8V9ZVzMHTAQnnwvMoHnhlXPJsLK36yjvVELl2XQ&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52KsKbeBPtXHCSee7z0bGmYpeXe1dTLuCb2aGhX8DzWpTOJ_6eCME8sE&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -350,7 +339,7 @@
       "venue": "Suntec Singapore Convention & Exhibition Centre",
       "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
       "url": "https://www.suntecsingapore.com/visit-events/sarawak-mega-fair-2025-business-collaboration-opportunities-with-malaysian-state",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG95yCY-nHc8qmR0roYQlV7H4er-YlUGUzQYlBQkcOk7qGKYeZITTBW-ZQA&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzy2O-nVWNpIUckF6k70zw3mHf22wI6mr68YK27CUBErUb--gVDGd_UNU&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -361,7 +350,7 @@
       "venue": "Suntec Singapore Convention & Exhibition Centre",
       "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
       "url": "https://www.rogers-asia.com/events/food-japan-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYCigrmcFNkEJGLet-07sYhJaQBmQUKbA8GgKRgr5odKeG&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwPK7R-uvBwL_2ewNFqmCTF8ocbEAqmvut64OcNic&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -372,7 +361,7 @@
       "venue": "MARQUEE Singapore",
       "address": "10 Bayfront Ave, B1-67 MARQUEE Singapore, The Shoppes, Marina Bay Sands",
       "url": "https://taogroup.com/event/17-10-25-space-92-marquee-singapore/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAajKUNNe8z8cyqpBwyd32zGuGeFMrCUcH-oKPmWNQ_poZwniijvZiElTZ-g&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCMxOvFaiI6EzkrPNvLwwgkupWbS_lW91pXkHPVitogZjP69xD6AUU4U0&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -394,7 +383,7 @@
       "venue": "Capitol Theatre",
       "address": "17 Stamford Rd, Capitol Theatre, Singapore",
       "url": "https://open.spotify.com/concert/2PdYP8RaCxYINZ2WWKa10c",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNTF4hN8JoQ9PKRorBP63zmwvSVWn_KEhfXQ9aG0H10PXztS9vKsvrumCzPw&s=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPeeEtsNh9WM0CoK8H_zl9cYfoocJtR82zWh3bbtzD4X8B2FdDmWqLjS8&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
