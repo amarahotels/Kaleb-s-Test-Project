@@ -1,95 +1,7 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-09-26T16:22:30.374986Z",
+  "generated_at": "2025-09-27T16:19:57.097223Z",
   "events": [
-    {
-      "title": "Pete Davidson",
-      "start": "Sept 26",
-      "end": "Fri, 26 Sept, 7:30 – 10:30 pm",
-      "venue": "The Star Vista",
-      "address": "1 Vista Exchange Green, The Star Vista",
-      "url": "https://www.livenation.sg/event/pete-davidson-singapore-tickets-edp1611840",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaqK7WkVMCbO4AoPzbwSrblpCM55YCPIc6WN2eLZt30Cp5YATKD6Ys7II&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Piano Recital in Singapore",
-      "start": "Sept 26",
-      "end": "Fri, 26 Sept, 8:00 pm",
-      "venue": "Victoria Concert Hall",
-      "address": "11 Empress Pl, #01-02 Victoria Concert Hall",
-      "url": "https://allevents.in/singapore/piano-recital-in-singapore/200028604094523",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEDNoUEkcSRO6m9Qf84Vd67EYkMdx_39DwlzPsd_bFT10QvJFfNy1MMYI&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Porter Robinson @ Marquee Singapore",
-      "start": "Sept 26",
-      "end": "Fri, 26 Sept, 10:00 pm – Sat, 27 Sept, 6:00 am",
-      "venue": "MARQUEE Singapore",
-      "address": "10 Bayfront Ave, B1-67 MARQUEE Singapore, The Shoppes, Marina Bay Sands",
-      "url": "https://open.spotify.com/concert/7le4mOFm4M3R7KrDezgw7r",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRH8ephugNYepylM9quXX4BYjh564i03VfFwhY3hu5xOEuL1hcwMiU2mU&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Gardens by the Bay Mid-Autumn Festival 2025",
-      "start": "Sept 26",
-      "end": "22 Sept – 12 Oct",
-      "venue": "Gardens by the Bay",
-      "address": "18 Marina Gardens Dr, Gardens by the Bay",
-      "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/mid-autumn-festival-2025.html",
-      "image": "https://www.google.com/maps/vt/data=1TQw4Yzik1Wxd_-xSfXr8POg-bSV23k3MxOW7MykHUKYvuXFes955oINxgVOHL_AiSB_D_CsgNWcWM4Ozd5COMfFTlc0zK0PMwv6Ae5QENqK5NfjmvA",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "MID-AUTUMN FESTIVAL POP-UP",
-      "start": "Sept 26",
-      "end": "Mon, 22 Sept, 10:00 am – Sun, 28 Sept, 9:00 pm",
-      "venue": "Compass One",
-      "address": "1 Sengkang Square, Compass One, Singapore",
-      "url": "https://allevents.in/paya-lebar/mid-autumn-festival-pop-up/200028833916020",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Y5PShyqhlTLvz2u9Mjle3WoTPN4qcH662NTW8b4ag3QcyVPk1O-PfXo&s",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "The Jazz Room: A Journey to the Heart of New Orleans",
-      "start": "Sept 26",
-      "end": "18 Sept, 7:00 pm – 16 Oct, 9:30 pm",
-      "venue": "Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://feverup.com/m/365027",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0UY62gmd00lAqM3mQ_4JlggeIUbPRZh484Nx0ge0&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "PAKKA LOCAL SINGAPORE Ch 2 ft Dj Gowtham and Keli Thee",
-      "start": "Sept 26",
-      "end": "Fri, 26 Sept, 10:00 pm – Sat, 27 Sept, 3:00 am",
-      "venue": "Hard Rock Cafe Singapore",
-      "address": "50 Cuscaden Rd, #02-01 Hard Rock Cafe Singapore, Hpl House",
-      "url": "https://www.eventbrite.com/e/pakka-local-singapore-ch-2-ft-dj-gowtham-and-keli-thee-tickets-1528162638589",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxUCeEdYkYvPc9Mcy6F3846uyVM7oStRqMPGEOplvsae6NENaosA1atr0&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Digital Light Canvas by teamLab",
-      "start": "Sept 26",
-      "end": "17 Sept, 11:00 am – 30 Sept, 7:45 pm",
-      "venue": "Marina Bay Sands Singapore",
-      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
-      "url": "https://feverup.com/m/336316",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfAulqLYvK0nNRMq_TN7QqYseEQ0esFQDKtME9pGc&s",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
     {
       "title": "SHAUN",
       "start": "Sept 27",
@@ -102,13 +14,46 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Agave Festival Singapore 2025",
+      "title": "YUURI ASIA TOUR 2025 in Singapore",
       "start": "Sept 27",
-      "end": "Sat, 27 Sept, 2:00 – 5:30 pm",
-      "venue": "Chimichanga VivoCity",
-      "address": "1 HarbourFront Walk, #01-157/158 Chimichanga VivoCity, VivoCity, Singapore",
-      "url": "https://www.eventbrite.sg/e/agave-festival-singapore-2025-tickets-1633368592429",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9nLia2jYyrvwrCclo8nudNWcSEOexp4qT1Sfu9mA2dxNF1ODj4osdjuo&s",
+      "end": "Sat, 27 Sept, 8:00 – 10:00 pm",
+      "venue": "The Star Vista",
+      "address": "1 Vista Exchange Green, The Star Vista",
+      "url": "https://www.stubhub.com/yuuri-singapore-tickets-9-27-2025/event/159079038/",
+      "image": "https://www.google.com/maps/vt/data=6KfJSyu02U5jtXQ_xMBjIotkfiJdxykkvoBtw468z8xI2kj1VMscP9tlyLkEzKOxJdTIZf-naxdZTMmaX-XQmHwplMkwvMMYN89YSZD_IGfj4LhBjR8",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "JAM OFF 2025",
+      "start": "Sept 27",
+      "end": "Sat, 27 Sept, 12:00 am – Sun, 28 Sept, 12:00 am",
+      "venue": "Universal Studios Singapore",
+      "address": "8 Sentosa Gateway, Universal Studios Singapore",
+      "url": "https://www.trip.com/events/jam-off-2025-20250911/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFtHdgKgFm5UGuVDXqtDGYYbZUD0b6ji7ZxBXQoIyJ_P9BDOsquIWLqew&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Gardens by the Bay Mid-Autumn Festival 2025",
+      "start": "Sept 27",
+      "end": "22 Sept – 12 Oct",
+      "venue": "Gardens by the Bay",
+      "address": "18 Marina Gardens Dr, Gardens by the Bay",
+      "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/mid-autumn-festival-2025.html",
+      "image": "https://www.google.com/maps/vt/data=1TQw4Yzik1Wxd_-xSfXr8POg-bSV23k3MxOW7MykHUKYvuXFes955oINxgVOHL_AiSB_D_CsgNWcWM4Ozd5COMfFTlc0zK0PMwv6Ae5QENqK5NfjmvA",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "MID-AUTUMN FESTIVAL POP-UP",
+      "start": "Sept 27",
+      "end": "Mon, 22 Sept, 10:00 am – Sun, 28 Sept, 9:00 pm",
+      "venue": "Compass One",
+      "address": "1 Sengkang Square, Compass One, Singapore",
+      "url": "https://allevents.in/paya-lebar/mid-autumn-festival-pop-up/200028833916020",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Y5PShyqhlTLvz2u9Mjle3WoTPN4qcH662NTW8b4ag3QcyVPk1O-PfXo&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -135,36 +80,14 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Atomy Singapore Product Carnival",
+      "title": "Digital Light Canvas by teamLab",
       "start": "Sept 27",
-      "end": "Sat, 27 Sept, 12:00 – 3:00 pm",
-      "venue": "Asia Green",
-      "address": "7 Tampines Grande, Asia Green, Singapore",
-      "url": "https://allevents.in/tampines/atomy-singapore-product-carnival/200028711276302",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT-QFTnIMH0qxevoZnw_qVHiZrGfdKvY4NHiAXNY5tjn5w5511mTZ4DrI&s",
+      "end": "17 Sept, 11:00 am – 30 Sept, 7:45 pm",
+      "venue": "Marina Bay Sands Singapore",
+      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
+      "url": "https://feverup.com/m/336316",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfAulqLYvK0nNRMq_TN7QqYseEQ0esFQDKtME9pGc&s",
       "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "DJ Isaac",
-      "start": "Sept 27",
-      "end": "Sat, 27 Sept, 10:00 pm",
-      "venue": "Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://app.discotech.me/events/38016848-dj-isaac-at-zouk",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBsd5KE7W_eCn1zZ_52WO0PmGOZ_wOoJDGjEwQAWE&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Total Recall",
-      "start": "Sept 27",
-      "end": "Sat, 27 Sept, 10:00 pm",
-      "venue": "Capital Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
-      "url": "https://app.discotech.me/events/38028121-total-recall-at-capital",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9QPZfHYyPDVtQmQMoDDkNfSvcStDbTLVoGQyfE28&s",
-      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -190,6 +113,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Jurong West End",
+      "start": "Sept 28",
+      "end": "Sun, 28 Sept, 5:00 – 7:00 pm",
+      "venue": "SOTA Concert Hall",
+      "address": "1 Zubir Said Dr, SOTA Concert Hall",
+      "url": "https://bandfusion.sg/event/jurong-west-end/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAangCF2gqXbbEtx23V16LMVytuhy0l-8eoKHYyxJ_F3r3R9JSftup-VY&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Mid Autumn Festival in Toa Payoh Temples - Cultural Beliefs and Traditions",
       "start": "Sept 28",
       "end": "Sun, 28 Sept, 9:30 – 11:00 am",
@@ -201,13 +135,35 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "CRYPTOZONIC SG @TOKEN2049",
+      "title": "The Complete Chamber Music of Maurice Ravel (Part I)",
+      "start": "Sept 30",
+      "end": "Tue, 30 Sept, 7:30 – 9:30 pm",
+      "venue": "Yong Siew Toh Conservatory of Music",
+      "address": "3 Conservatory Dr, Yong Siew Toh Conservatory of Music",
+      "url": "https://www.eventbrite.sg/e/the-complete-chamber-music-of-maurice-ravel-part-i-tickets-1545944765409",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSegwJ5CdU54tgco-ZPXq7vpia6J4zJU8XIM2CoGoSPlXnpBeq1ieA5oWs&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Celebrate Mid-Autumn Festival in Style",
+      "start": "Sept 30",
+      "end": "Tue, 30 Sept, 6:00 – 8:30 pm",
+      "venue": "Corney & Barrow Singapore",
+      "address": "70 Anson Rd, #07-01 Corney & Barrow Singapore, Hub Synergy Point",
+      "url": "https://www.eventbrite.com/e/celebrate-mid-autumn-festival-in-style-tickets-1706417904889",
+      "image": "https://www.google.com/maps/vt/data=I9WOX4xi_1ng-7ECTugiNFzcfJh1Rj3BIHlSsTEZvy2ILcIjSSKZrSH1nfDOoPg60WDMu-gwqugeRcSa9t0Di15phBpPuTD0lCqmocMjexmISqdZKwY",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "TGIW",
       "start": "Oct 1",
-      "end": "Wed, 1 Oct, 10:00 pm – Thu, 2 Oct, 3:00 am",
+      "end": "Wed, 1 Oct",
       "venue": "Zouk Singapore",
       "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://luma.com/x0cnwvg6",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVP92ifx2xnblAPpQFBxdTO3OBg6yq9lHp496UwTs&s",
+      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020251001/tgiw/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRliu2EWNmN8HThOC6u6UhGgG397Ctj2xTVsehOz08&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -219,17 +175,6 @@
       "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
       "url": "https://luma.com/SuiFest",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjw5MfC_HqOGIC9hTIXV6USW0weM9KtU0JFEDBbmY&s",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Avex Music Night 2025",
-      "start": "Oct 2",
-      "end": "Thu, 2 Oct, 7:00 – 10:00 pm",
-      "venue": "3 Temasek Blvd, Suntec Plaza, Singapore",
-      "address": "3 Temasek Blvd, Suntec Plaza, Singapore",
-      "url": "https://www.eventbrite.com/e/avex-music-night-2025-tickets-1699606210929",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1FnhR9RkkEFp3CXedmNxBDZE3enD2nTUBKdoNYMlPZ4fw6IQagFbPfZY&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -283,7 +228,7 @@
       "end": "Sat, 4 Oct, 10:00 pm",
       "venue": "Zouk Singapore",
       "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://app.discotech.me/events/38026506-wukong-at-zouk",
+      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020251004/wukong/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRgOH4swutiY0mL0Ata9NqOH3WCpCiUfatksrWYTk&s",
       "category": "music",
       "source": "serpapi_google_events"
@@ -300,13 +245,35 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Jazz & Wine at The Intercontinental Singapore",
+      "title": "The Jazz Room: A Journey to the Heart of New Orleans",
+      "start": "Oct 9",
+      "end": "9 Oct, 9:30 pm – 16 Oct, 9:30 pm",
+      "venue": "Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
+      "url": "https://feverup.com/m/365027",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0UY62gmd00lAqM3mQ_4JlggeIUbPRZh484Nx0ge0&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Carnival",
+      "start": "Oct 9",
+      "end": "Thu, 9 Oct, 6:00 – 9:00 pm",
+      "venue": "School of the Arts, Singapore",
+      "address": "1 Zubir Said Dr, School of the Arts, Singapore",
+      "url": "https://www.eventbrite.com/e/1202779077599",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa87iH-5CkmedT_xOUB4d8gmx4_11ndYCTUk6ACyn_tnDXBjI5NfOZAl8&s",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Chill Sessions",
       "start": "Oct 10",
-      "end": "Fri, 10 Oct, 8:00 – 10:29 pm",
-      "venue": "The Lobby Lounge",
-      "address": "InterContinental Singapore, 80 Middle Rd, The Lobby Lounge, Singapore",
-      "url": "https://www.eventbrite.sg/e/jazz-night-at-intercontinental-singapore-tickets-1010278890357",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNJlsl4os_YcdLx-nQNqIKoQ9vOIB-Zk8m9koEyG4Y9oNbrNKauqF5eHI&s",
+      "end": "Fri, 10 Oct, 6:30 – 10:00 pm",
+      "venue": "RASA Space",
+      "address": "9 Raffles Place #02-01, Tower, #1 RASA Space, Republic Plaza",
+      "url": "https://www.sistic.com.sg/events/lite_chillsessions3",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXICnqXhLZ-rZe9synv9jH38axdVMQeH8t-Xyjg8Un4YdvfT-4fhYFgoY&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -328,7 +295,7 @@
       "venue": "Suntec Singapore Convention & Exhibition Centre",
       "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
       "url": "https://www.suntecsingapore.com/visit-events/sarawak-mega-fair-2025-business-collaboration-opportunities-with-malaysian-state",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzy2O-nVWNpIUckF6k70zw3mHf22wI6mr68YK27CUBErUb--gVDGd_UNU&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEZQHRUXVjjk1kJSfjV2hi5NathwSZAoPMrIKNYQfdEuskGNSnBWVzYeg&s",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -341,6 +308,17 @@
       "url": "https://www.rogers-asia.com/events/food-japan-2025/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwPK7R-uvBwL_2ewNFqmCTF8ocbEAqmvut64OcNic&s",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Jazz & Wine at The Intercontinental Singapore",
+      "start": "Oct 17",
+      "end": "Fri, 17 Oct, 8:00 – 10:29 pm",
+      "venue": "The Lobby Lounge",
+      "address": "InterContinental Singapore, 80 Middle Rd, The Lobby Lounge, Singapore",
+      "url": "https://www.eventbrite.sg/e/jazz-night-at-intercontinental-singapore-tickets-1010278890357",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNJlsl4os_YcdLx-nQNqIKoQ9vOIB-Zk8m9koEyG4Y9oNbrNKauqF5eHI&s",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -366,13 +344,46 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "DJ AQEEL at Blu Jaz Clark Quay, Singapore",
+      "title": "TGIW",
+      "start": "Oct 22",
+      "end": "Wed, 22 Oct, 10:00 pm",
+      "venue": "Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
+      "url": "https://app.discotech.me/events/38045418-tgiw-at-zouk",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXOkb9dH9fwosphAr91oyI7ksh5bKl2NNq2WJaxf8&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Bollywood Club - DJ AQEEL LIVE at Blu Jaz, Singapore",
       "start": "Oct 25",
       "end": "Sat, 25 Oct, 10:00 pm – Sun, 26 Oct, 3:00 am",
       "venue": "Blu Jaz, Clarke Quay Central",
       "address": "6 Eu Tong Sen St, #01-09 Blu Jaz, Clarke Quay Central, In Between Mookata & Tsui Wah",
-      "url": "https://allevents.in/singapore/bollywood-club-presents-dj-aqeel-at-blu-jaz-singapore-tickets/80002748110973",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOzCbgitMWYwt5KIaas8wYKs4dzZP76GjH4ezlis6BwsN7BZAMP8gTM48&s",
+      "url": "https://www.eventbrite.com.au/e/bollywood-club-dj-aqeel-live-at-blu-jaz-singapore-tickets-1709535529789",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvGSlpzD8JBfr9ZpuPqo1aXMpPXm94uN3YlkJKb2hiMgnfTiYzs2O4Nec&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Music Talk Show • Musicpath Release",
+      "start": "Oct 28",
+      "end": "Tue, 28 Oct, 7:00 – 11:00 pm",
+      "venue": "Mortar & Pestle",
+      "address": "269 South Bridge Rd, #04-01 Mortar & Pestle",
+      "url": "https://www.sgculturepass.gov.sg/events/566859?lang=en",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUmu5k1PI0wYmNBPxH8ewD4a5o6S2qid7r5LAm8rxvdnUo4IpM87qok-I&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Thursday Night Hustle",
+      "start": "Oct 30",
+      "end": "Thu, 30 Oct, 10:00 pm",
+      "venue": "Capital Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
+      "url": "https://zoukgroup.com/singapore/capital/event/EVE109749000020251030/thursday-night-hustle/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRmOl3IXpUDcgQuA74SldDj0PIvbz6HYPguM9wWPs&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
