@@ -1,6 +1,6 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-10-02T06:04:29.013486Z",
+  "generated_at": "2025-10-02T06:11:36.765873Z",
   "events": [
     {
       "title": "SuiFest",
@@ -108,7 +108,7 @@
       "venue": "Zouk Singapore",
       "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
       "url": "https://open.spotify.com/concert/1RMANgHPZs0YffLZyeYcuH",
-      "image": "https://image-cdn-ak.spotifycdn.com/image/ab67618600001016b7527b339503873bb4a642e9",
+      "image": "https://image-cdn-fa.spotifycdn.com/image/ab67618600001016b7527b339503873bb4a642e9",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -372,7 +372,7 @@
       "venue": "Spectrum by Phil Studio",
       "address": "1 Selegie Rd, B1-05 Spectrum by Phil Studio, GR.iD (GR.iD, Singapore",
       "url": "https://www.philstudio-events.com/event-details-registration/crescent-jam-band-live",
-      "image": "https://static.wixstatic.com/media/19f97b_082627ba8b7e4d739e697cadbd579c54~mv2.png/v1/fill/w_1179,h_1470,al_c/19f97b_082627ba8b7e4d739e697cadbd579c54~mv2.png",
+      "image": "https://static.wixstatic.com/media/19f97b_41ea27edbbf544ecba17e9c13aede8be%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/19f97b_41ea27edbbf544ecba17e9c13aede8be%7Emv2.jpg",
       "category": "music",
       "source": "serpapi_google_events"
     },
