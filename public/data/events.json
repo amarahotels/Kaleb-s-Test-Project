@@ -1,11 +1,11 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-10-02T03:53:54.236128Z",
+  "generated_at": "2025-10-02T05:50:45.143349Z",
   "events": [
     {
       "title": "SuiFest",
       "start": "Oct 2",
-      "end": "Thu, 2 Oct, 10:00 am – 7:00 pm",
+      "end": "Wed, 1 Oct, 8:00 am – Thu, 2 Oct, 7:00 pm",
       "venue": "Marina Bay Sands Singapore",
       "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
       "url": "https://luma.com/SuiFest",
@@ -42,7 +42,7 @@
       "venue": "Zouk Singapore",
       "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
       "url": "https://luma.com/x0cnwvg6",
-      "image": "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=419/api/event-one?calendar_avatar=https%3A%2F%2Fimages.lumacdn.com%2Fcalendars%2F7w%2Fdc051429-dcbd-4106-905d-ccc43400e72f.png&amp;calendar_name=9%20CAT%20Group%20Calendar&amp;color0=%23130507&amp;color1=%236d221c&amp;color2=%23d0e0de&amp;color3=%23a640c8&amp;host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Favatars%2Fln%2F3b1af148-9225-473d-993e-5bf1e21dd817&amp;host_name=9%20CAT%20Group&amp;img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2Frv%2F4892d9d5-3e3a-485a-be89-bfe09680f003.png&amp;name=MEXC%20Presents%20CryptoZonic%20at%20TOKEN2049",
+      "image": "https://www.google.com/maps/vt/data=JQZVtKbByu-pIuSi6vd1VnjznT87UkP0dz9X5jRpbPQPDdvu-fzmSq1yv-zeMC7j0zIOwPQo3m-6Bst3PFrfyLwJ2k9SCoaIUvMwnL1GzpkrCO0Yl0k",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -58,18 +58,18 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Gardens by the Bay Mid-Autumn Festival 2025",
+      "title": "Mid-Autumn Festival 2025",
       "start": "Oct 2",
       "end": "22 Sept – 12 Oct",
       "venue": "Gardens by the Bay",
       "address": "18 Marina Gardens Dr, Gardens by the Bay",
       "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/mid-autumn-festival-2025.html",
-      "image": "https://www.google.com/maps/vt/data=1TQw4Yzik1Wxd_-xSfXr8POg-bSV23k3MxOW7MykHUKYvuXFes955oINxgVOHL_AiSB_D_CsgNWcWM4Ozd5COMfFTlc0zK0PMwv6Ae5QENqK5NfjmvA",
+      "image": "https://www.gardensbythebay.com.sg/content/dam/gbb-2021/image/things-to-do/events/mid-autumn-festival-2025/2025-MAF-AKKG-KV.jpg",
       "category": "general",
       "source": "serpapi_google_events"
     },
     {
-      "title": "Jardins de la Baie : Entrée de l'observatoire Supertree",
+      "title": "Gardens by The Bay",
       "start": "Oct 2",
       "end": "27 Sept, 6:00 pm – 12 Oct, 6:00 pm",
       "venue": "Gardens by the Bay",
@@ -86,7 +86,7 @@
       "venue": "SkyPark Observation Deck",
       "address": "10 Bayfront Avenue, Hotel, Tower 3 SkyPark Observation Deck, Level 56, Marina Bay Sands",
       "url": "https://open.spotify.com/concert/1aWXktuBmUNDIjv5FLbEv5",
-      "image": "https://image-cdn-fa.spotifycdn.com/image/ab67618600001016124f05749913dcdf50284079",
+      "image": "https://image-cdn-ak.spotifycdn.com/image/ab67618600001016124f05749913dcdf50284079",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -130,7 +130,7 @@
       "venue": "Marina Bay Sands Singapore",
       "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
       "url": "https://open.spotify.com/concert/4kwU2Xc7b0rGVaWMANNKmx",
-      "image": "https://image-cdn-fa.spotifycdn.com/image/ab676186000010164c37d9d71c466abfa36a847e",
+      "image": "https://image-cdn-ak.spotifycdn.com/image/ab676186000010164c37d9d71c466abfa36a847e",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -344,17 +344,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "TGIW",
-      "start": "Oct 22",
-      "end": "Wed, 22 Oct",
-      "venue": "Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020251022/tgiw/",
-      "image": "https://venueeventartist.com/imateq/event/200785/1097486/2159248/1200SC0/2159251.png",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "Loco Concert 2025 (Singapore)",
       "start": "Oct 24",
       "end": "Fri, 24 Oct, 7:30 – 9:30 pm",
@@ -383,7 +372,7 @@
       "venue": "Spectrum by Phil Studio",
       "address": "1 Selegie Rd, B1-05 Spectrum by Phil Studio, GR.iD (GR.iD, Singapore",
       "url": "https://www.philstudio-events.com/event-details-registration/crescent-jam-band-live",
-      "image": "https://static.wixstatic.com/media/19f97b_082627ba8b7e4d739e697cadbd579c54~mv2.png/v1/fill/w_1179,h_1470,al_c/19f97b_082627ba8b7e4d739e697cadbd579c54~mv2.png",
+      "image": "https://static.wixstatic.com/media/19f97b_41ea27edbbf544ecba17e9c13aede8be%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/19f97b_41ea27edbbf544ecba17e9c13aede8be%7Emv2.jpg",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -428,6 +417,17 @@
       "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
       "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020251029/tgiw/",
       "image": "https://venueeventartist.com/imateq/event/200785/1097486/2159252/1200SC0/2159255.png",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Thursday Night Hustle",
+      "start": "Oct 30",
+      "end": "Thu, 30 Oct, 10:00 pm",
+      "venue": "Capital Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
+      "url": "https://zoukgroup.com/singapore/capital/event/EVE109749000020251030/thursday-night-hustle/",
+      "image": "https://venueeventartist.com/imateq/event/200785/1097490/2159183/1200SC0/2159185.jpeg",
       "category": "music",
       "source": "serpapi_google_events"
     },
