@@ -19,6 +19,8 @@ jobs:
   # EVENTS: alternate days + weekends (SerpAPI)
   # --------------------------
   events-serpapi:
+    # Run for push/workflow_dispatch OR the daily cron. Skip the weekly cron.
+    if: github.event_name != 'schedule' || github.event.schedule == '0 16 * * *'
     runs-on: ubuntu-latest
     outputs:
       ran: ${{ steps.decide.outputs.run }}
@@ -186,6 +188,7 @@ jobs:
           # Standard black QR
           npx --yes qrcode -o public/assets/logo/amara_qr.svg "https://amara-concierge-88c12.web.app"
           npx --yes qrcode -o public/assets/logo/amara_qr.png "https://amara-concierge-88c12.web.app"
+
       # OPTIONAL: commit the QR files so they appear in GitHub/VS Code
       - name: Commit QR if changed
         run: |

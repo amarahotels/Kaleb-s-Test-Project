@@ -5,7 +5,7 @@ import requests
 from pathlib import Path
 from datetime import datetime, timedelta
 from dateutil import parser
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin, parse_qsl, urlencode, urlunparse
 
 # ---------------- Config ----------------
 API_KEY = os.getenv("SERPAPI_KEY")
@@ -224,6 +224,147 @@ def _date_field(date_obj, key):
         return date_obj
     return None
 
+# ---------- Hi-res image helpers ----------
+BAD_THUMB_HOSTS = {
+    "encrypted-tbn0.gstatic.com",
+    "encrypted-tbn1.gstatic.com",
+    "encrypted-tbn2.gstatic.com",
+    "encrypted-tbn3.gstatic.com",
+}
+
+GOOGLE_CONTENT_HOSTS = {
+    "lh3.googleusercontent.com",
+    "lh4.googleusercontent.com",
+    "lh5.googleusercontent.com",
+    "lh6.googleusercontent.com",
+}
+
+def is_low_res_proxy(url: str) -> bool:
+    if not url:
+        return True
+    host = (urlparse(url).hostname or "").lower()
+    if host in BAD_THUMB_HOSTS:
+        return True
+    # very small size hints in URL
+    if any(x in url for x in ["=s120", "=s160", "=w120", "=w160", "w120-h", "w160-h"]):
+        return True
+    return False
+
+SIZE_TOKEN_RE = re.compile(r"(?:[?&])(s|w|h)=\d+", re.I)
+WH_RE = re.compile(r"=w(\d+)-h(\d+)(-[^?&]*)?$", re.I)
+
+def upgrade_googleusercontent(url: str, target=1200) -> str:
+    """Rewrite common googleusercontent sizing tokens to request a higher resolution."""
+    if not url:
+        return url
+    u = urlparse(url)
+    host = (u.hostname or "").lower()
+    if host not in GOOGLE_CONTENT_HOSTS:
+        return url
+
+    # Case 1: w###-h### at the end → rewrite both to target
+    m = WH_RE.search(u.path)
+    if m:
+        new_tail = f"=w{target}-h{target}"
+        path = WH_RE.sub(new_tail, u.path)
+        return urlunparse((u.scheme, u.netloc, path, u.params, u.query, u.fragment))
+
+    # Case 2: s=### or w/h in query → bump to target
+    if u.query:
+        q = dict(parse_qsl(u.query))
+        changed = False
+        for k in ("s", "w", "h"):
+            if k in q:
+                q[k] = str(target)
+                changed = True
+        if changed:
+            return urlunparse((u.scheme, u.netloc, u.path, u.params, urlencode(q), u.fragment))
+
+    # Case 3: No size tokens → append one
+    if u.query:
+        new_q = u.query + f"&s={target}"
+    else:
+        new_q = f"s={target}"
+    return urlunparse((u.scheme, u.netloc, u.path, u.params, new_q, u.fragment))
+
+OG_IMG_RE = re.compile(
+    r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+    re.I,
+)
+TW_IMG_RE = re.compile(
+    r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']',
+    re.I,
+)
+
+def fetch_og_image(page_url: str, timeout=12) -> str | None:
+    if not page_url:
+        return None
+    try:
+        r = requests.get(
+            page_url,
+            timeout=timeout,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; AmaraConciergeBot/1.0)"},
+        )
+        r.raise_for_status()
+        html = r.text
+    except requests.RequestException:
+        return None
+
+    m = OG_IMG_RE.search(html) or TW_IMG_RE.search(html)
+    if not m:
+        return None
+    img = m.group(1).strip()
+    return urljoin(page_url, img)
+
+# simple counters to see effectiveness in logs
+IMG_STATS = {"upgraded": 0, "og": 0, "kept": 0, "lowres_fallback": 0}
+
+def best_image_for(raw) -> str | None:
+    """
+    Choose the best possible image:
+      1) use 'image' if it's not an obvious low-res proxy (upgrade googleusercontent if possible)
+      2) else try 'thumbnail' with same checks
+      3) else fetch og:image from event page
+      4) else return whatever is left (low-res fallback)
+    """
+    # 1) image
+    img = _first_string_url(raw.get("image"))
+    if img:
+        host = (urlparse(img).hostname or "").lower()
+        if host in GOOGLE_CONTENT_HOSTS:
+            upgraded = upgrade_googleusercontent(img, target=1200)
+            if upgraded != img:
+                IMG_STATS["upgraded"] += 1
+                img = upgraded
+        if not is_low_res_proxy(img):
+            IMG_STATS["kept"] += 1
+            return img
+
+    # 2) thumbnail
+    thumb = _first_string_url(raw.get("thumbnail"))
+    if thumb:
+        host = (urlparse(thumb).hostname or "").lower()
+        if host in GOOGLE_CONTENT_HOSTS:
+            upgraded = upgrade_googleusercontent(thumb, target=1200)
+            if upgraded != thumb:
+                IMG_STATS["upgraded"] += 1
+                thumb = upgraded
+        if not is_low_res_proxy(thumb):
+            IMG_STATS["kept"] += 1
+            return thumb
+
+    # 3) fall back to event page og:image
+    ticket = _extract_ticket_url(raw)
+    og = fetch_og_image(ticket) if ticket else None
+    if og:
+        IMG_STATS["og"] += 1
+        return og
+
+    # 4) last resort: return whatever we had (may be low-res)
+    if img or thumb:
+        IMG_STATS["lowres_fallback"] += 1
+    return img or thumb
+
 def normalize_event(raw, category_tag):
     d = raw.get("date", {}) or {}
     start_str = _date_field(d, "start_date")
@@ -232,7 +373,7 @@ def normalize_event(raw, category_tag):
     venue_name = _extract_venue(raw)
     address    = _extract_address(raw)
     ticket     = _extract_ticket_url(raw)
-    image      = _extract_image(raw)
+    image      = best_image_for(raw)   # << USE HI-RES PIPELINE
 
     return {
         "title": raw.get("title"),
@@ -412,6 +553,7 @@ def main():
     print("-" * 56)
     print(f"Used { _calls_made } call(s). Buckets hit: {used}")
     print(f"Per-domain counts: {host_counts}")
+    print(f"Image stats: {IMG_STATS}")
     print(f"✅ Saved {len(all_events)} events to {OUT_PATH}")
 
 if __name__ == "__main__":
