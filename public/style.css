@@ -514,3 +514,20 @@ summary::-webkit-details-marker{ display:none; }
 
 /* In-page anchors won’t hide under the fixed header */
 #places, #events { scroll-margin-top: var(--header-h); }
+
+/* Event posters/logos: show the whole image, no crop */
+#eventList .thumb-wrap { 
+  background:#fff;                 /* clean frame behind transparent PNGs */
+}
+
+#eventList .thumb{
+  height: 220px;                   /* keep card heights consistent */
+  width: 100%;
+  object-fit: contain;             /* <-- key change: no cropping */
+  aspect-ratio: auto;              /* let poster dictate its own ratio */
+  padding: 6px;                    /* small breathing room for logos */
+  background:#fff;                 /* optional; matches wrap above */
+}
+
+/* Optional: remove the dark bottom vignette on event cards */
+#eventList .thumb-wrap::after{ display:none; }
