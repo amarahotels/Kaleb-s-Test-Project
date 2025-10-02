@@ -492,15 +492,18 @@ summary::-webkit-details-marker{ display:none; }
 }
 #placeList .thumb-wrap{ background:#f2eee8; } /* default look */
 
-/* (B) EVENTS: show full posters/logos (no crop) */
-#eventList .thumb-wrap{ background:#fff; }   /* clean white frame behind PNGs */
+/* Event thumbnails: fill, minimal crop */
+#eventList .thumb-wrap{
+  background:#f2eee8;          /* subtle backdrop */
+  border:1px solid var(--border);
+}
 
 #eventList .thumb{
-  height:220px;                /* keep card heights consistent */
   width:100%;
-  object-fit:contain;          /* key: no cropping */
-  aspect-ratio:auto;           /* poster controls its own ratio */
-  padding:6px;                 /* breathing room for logos */
-  background:#fff;
+  height:220px;                /* keep cards consistent */
+  object-fit:cover;            /* <-- fills, crops edges */
+  object-position:50% 35%;     /* bias a bit upward (helps posters with titles) */
+  padding:0;                   /* remove inner gap */
 }
-#eventList .thumb-wrap::after{ display:none; } /* remove vignette for posters */
+
+#eventList .thumb-wrap::after{ display:none; }
