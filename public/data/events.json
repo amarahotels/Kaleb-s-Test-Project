@@ -1,73 +1,7 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-10-02T16:23:09.981899Z",
+  "generated_at": "2025-10-03T16:22:28.378750Z",
   "events": [
-    {
-      "title": "SuiFest",
-      "start": "Oct 2",
-      "end": "Wed, 1 Oct, 8:00 am – Thu, 2 Oct, 7:00 pm",
-      "venue": "Marina Bay Sands Singapore",
-      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
-      "url": "https://luma.com/SuiFest",
-      "image": "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=419/api/event-one?calendar_avatar=https%3A%2F%2Fimages.lumacdn.com%2Fcalendars%2Fzr%2F3e598af8-9933-420f-9610-3c763451b40a&amp;calendar_name=Sui&amp;color0=%23eef4f4&amp;color1=%23030507&amp;color2=%2384ce60&amp;color3=%23e86468&amp;host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Favatars%2Fb2%2F81089714-b2a6-4aa4-933c-21a7670957bd&amp;host_name=Sui&amp;img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2Fo7%2Fc84f1aef-200e-4a6f-b859-c948b675a923.png&amp;name=SuiFest",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Live at Cool Cats",
-      "start": "Oct 2",
-      "end": "Thu, 2 Oct, 8:00 – 10:30 pm",
-      "venue": "Cool Cats",
-      "address": "32 Beach Rd, Cool Cats",
-      "url": "https://www.eventbrite.sg/e/live-at-cool-cats-tickets-1673674839499",
-      "image": "https://cdn.evbuc.com/images/1137650543/2892624299781/1/logo.20250928-012128",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Checkmate Carnival with Birb",
-      "start": "Oct 2",
-      "end": "Thu, 2 Oct, 11:00 am – 4:00 pm",
-      "venue": "Capitol Theatre",
-      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
-      "url": "https://luma.com/checkmatecarnivalwithbirb",
-      "image": "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=419/api/event-one?calendar_avatar=https%3A%2F%2Fimages.lumacdn.com%2Fcalendars%2Fh7%2F26c9cc4c-a274-4919-9500-db36f5aa2b7b&amp;calendar_name=Animoca%20Brands%20Portfolio&amp;color0=%23f2e9dd&amp;color1=%234da4a9&amp;color2=%2320485a&amp;color3=%23f0a346&amp;host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Favatars%2F6t%2Fc6bc6063-f244-4644-b29d-90360681713a&amp;host_name=Anichess&amp;img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2Fe8%2F80495567-aa03-4f34-b7e2-d3306f555903.png&amp;name=Checkmate%20Carnival%20with%20Birb",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Plan Ahead: Lanterns, Mooncakes & Memories This Mid-Autumn Festival",
-      "start": "Oct 2",
-      "end": "27 Sept, 6:30 pm – 12 Oct, 10:30 pm",
-      "venue": "Lakeside Field",
-      "address": "Chinese Garden Rd, Lakeside Field",
-      "url": "https://dateideas.sg/event/plan-ahead-lanterns-mooncakes-memories-this-mid-autumn-festival/",
-      "image": "https://dateideas.sg/wp-content/uploads/2025/09/image7.png",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Mid-Autumn Festival 2025",
-      "start": "Oct 2",
-      "end": "22 Sept – 12 Oct",
-      "venue": "Gardens by the Bay",
-      "address": "18 Marina Gardens Dr, Gardens by the Bay",
-      "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/mid-autumn-festival-2025.html",
-      "image": "https://www.gardensbythebay.com.sg/content/dam/gbb-2021/image/things-to-do/events/mid-autumn-festival-2025/2025-MAF-AKKG-KV.jpg",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Gardens by The Bay",
-      "start": "Oct 2",
-      "end": "27 Sept, 6:00 pm – 12 Oct, 6:00 pm",
-      "venue": "Gardens by the Bay",
-      "address": "18 Marina Gardens Dr, Gardens by the Bay",
-      "url": "https://www.timeout.com/singapore/things-to-do/gardens-by-the-bays-mid-autumn-festival",
-      "image": "https://media.timeout.com/images/106321566/image.jpg",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
     {
       "title": "Samm (BE)",
       "start": "Oct 3",
@@ -75,7 +9,7 @@
       "venue": "SkyPark Observation Deck",
       "address": "10 Bayfront Avenue, Hotel, Tower 3 SkyPark Observation Deck, Level 56, Marina Bay Sands",
       "url": "https://open.spotify.com/concert/1aWXktuBmUNDIjv5FLbEv5",
-      "image": "https://image-cdn-fa.spotifycdn.com/image/ab67618600001016124f05749913dcdf50284079",
+      "image": "https://image-cdn-ak.spotifycdn.com/image/ab67618600001016124f05749913dcdf50284079",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -102,6 +36,39 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Plan Ahead: Lanterns, Mooncakes & Memories This Mid-Autumn Festival",
+      "start": "Oct 3",
+      "end": "27 Sept, 6:30 pm – 12 Oct, 10:30 pm",
+      "venue": "Lakeside Field",
+      "address": "Chinese Garden Rd, Lakeside Field",
+      "url": "https://dateideas.sg/event/plan-ahead-lanterns-mooncakes-memories-this-mid-autumn-festival/",
+      "image": "https://dateideas.sg/wp-content/uploads/2025/09/image7.png",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Mid-Autumn Festival 2025",
+      "start": "Oct 3",
+      "end": "22 Sept – 12 Oct",
+      "venue": "Gardens by the Bay",
+      "address": "18 Marina Gardens Dr, Gardens by the Bay",
+      "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/mid-autumn-festival-2025.html",
+      "image": "https://www.gardensbythebay.com.sg/content/dam/gbb-2021/image/things-to-do/events/mid-autumn-festival-2025/2025-MAF-AKKG-KV.jpg",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Gardens by The Bay",
+      "start": "Oct 3",
+      "end": "27 Sept, 6:00 pm – 12 Oct, 6:00 pm",
+      "venue": "Gardens by the Bay",
+      "address": "18 Marina Gardens Dr, Gardens by the Bay",
+      "url": "https://www.timeout.com/singapore/things-to-do/gardens-by-the-bays-mid-autumn-festival",
+      "image": "https://media.timeout.com/images/106321566/image.jpg",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "ENHYPEN",
       "start": "Oct 4",
       "end": "Sat, 4 Oct, 5:00 – 8:00 pm",
@@ -119,7 +86,7 @@
       "venue": "Marina Bay Sands Singapore",
       "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
       "url": "https://open.spotify.com/concert/4kwU2Xc7b0rGVaWMANNKmx",
-      "image": "https://image-cdn-ak.spotifycdn.com/image/ab676186000010164c37d9d71c466abfa36a847e",
+      "image": "https://image-cdn-fa.spotifycdn.com/image/ab676186000010164c37d9d71c466abfa36a847e",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -240,7 +207,7 @@
       "venue": "RASA Space",
       "address": "9 Raffles Place #02-01, Tower, #1 RASA Space, Republic Plaza",
       "url": "https://www.eventbrite.sg/e/chill-sessions-3-originals-only-friday-10-oct-rasa-raffles-place-tickets-1700260096719",
-      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1124108473%2F274415598294%2F1%2Foriginal.20250915-092835?w=1000&amp;auto=format%2Ccompress&amp;q=75&amp;sharp=10&amp;rect=0%2C28%2C1200%2C600&amp;s=e100d7e8ade4dd0bc8407426d4c1d7e5",
+      "image": "https://cdn.evbuc.com/images/1143301343/274415598294/1/logo.20251003-030322",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -264,6 +231,17 @@
       "url": "https://www.singaporepoloclub.org/upcoming-event/outreach-event-with-carnival-games-stalls/",
       "image": "https://www.singaporepoloclub.org/wp-content/uploads/2025/04/outreachthumbnail.png",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Thai Take Over Vol 1 Feat. LOOKWA, ROXYJUNE, HIGHNESS AND DJ MYA",
+      "start": "Oct 11",
+      "end": "Sat, 11 Oct, 10:00 pm – Sun, 12 Oct, 4:00 am",
+      "venue": "Minami",
+      "address": "20 Upper Circular Road, #B1, #01/06 Minami, The Riverwalk",
+      "url": "https://www.eventbrite.sg/e/thai-take-over-vol-1-feat-lookwa-roxyjune-highness-and-dj-mya-tickets-1736184296969",
+      "image": "https://cdn.evbuc.com/images/1133536123/2918151024741/1/logo.20250924-031131",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -428,6 +406,17 @@
       "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
       "url": "https://zoukgroup.com/singapore/capital/event/EVE109749000020251030/thursday-night-hustle/",
       "image": "https://venueeventartist.com/imateq/event/200785/1097490/2159183/1200SC0/2159185.jpeg",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Blue Live in Asia",
+      "start": "Nov 25",
+      "end": "Tue, 25 Nov, 7:00 – 10:00 pm",
+      "venue": "The Theatre at Mediacorp",
+      "address": "1 Stars Ave, The Theatre at Mediacorp",
+      "url": "https://www.livenation.sg/event/blue-live-in-asia-singapore-tickets-edp1612340",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOFbwtzxxBn8_o3fD414AWs5_kP-2ygNeUvbWgYyv5m8_u7xfSSdsKDKg&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
