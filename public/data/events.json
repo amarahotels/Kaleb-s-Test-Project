@@ -1,117 +1,7 @@
 {
   "source": "serpapi_google_events",
-  "generated_at": "2025-10-02T06:04:29.013486Z",
+  "generated_at": "2025-10-04T16:20:39.929823Z",
   "events": [
-    {
-      "title": "SuiFest",
-      "start": "Oct 2",
-      "end": "Wed, 1 Oct, 8:00 am – Thu, 2 Oct, 7:00 pm",
-      "venue": "Marina Bay Sands Singapore",
-      "address": "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore",
-      "url": "https://luma.com/SuiFest",
-      "image": "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=419/api/event-one?calendar_avatar=https%3A%2F%2Fimages.lumacdn.com%2Fcalendars%2Fzr%2F3e598af8-9933-420f-9610-3c763451b40a&amp;calendar_name=Sui&amp;color0=%23eef4f4&amp;color1=%23030507&amp;color2=%2384ce60&amp;color3=%23e86468&amp;host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Favatars%2Fb2%2F81089714-b2a6-4aa4-933c-21a7670957bd&amp;host_name=Sui&amp;img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2Fo7%2Fc84f1aef-200e-4a6f-b859-c948b675a923.png&amp;name=SuiFest",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Live at Cool Cats",
-      "start": "Oct 2",
-      "end": "Thu, 2 Oct, 8:00 – 9:00 pm",
-      "venue": "Cool Cats",
-      "address": "32 Beach Rd, Cool Cats",
-      "url": "https://www.eventbrite.sg/e/live-at-cool-cats-tickets-1673674839499",
-      "image": "https://cdn.evbuc.com/images/1137650543/2892624299781/1/logo.20250928-012128",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Checkmate Carnival with Birb",
-      "start": "Oct 2",
-      "end": "Thu, 2 Oct, 11:00 am – 4:00 pm",
-      "venue": "Capitol Theatre",
-      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
-      "url": "https://luma.com/checkmatecarnivalwithbirb",
-      "image": "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=419/api/event-one?calendar_avatar=https%3A%2F%2Fimages.lumacdn.com%2Fcalendars%2Fh7%2F26c9cc4c-a274-4919-9500-db36f5aa2b7b&amp;calendar_name=Animoca%20Brands%20Portfolio&amp;color0=%23f2e9dd&amp;color1=%234da4a9&amp;color2=%2320485a&amp;color3=%23f0a346&amp;host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Favatars%2F6t%2Fc6bc6063-f244-4644-b29d-90360681713a&amp;host_name=Anichess&amp;img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2Fe8%2F80495567-aa03-4f34-b7e2-d3306f555903.png&amp;name=Checkmate%20Carnival%20with%20Birb",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "CRYPTOZONIC SG @TOKEN2049",
-      "start": "Oct 2",
-      "end": "Wed, 1 Oct, 10:00 pm – Thu, 2 Oct, 3:00 am",
-      "venue": "Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://luma.com/x0cnwvg6",
-      "image": "https://www.google.com/maps/vt/data=JQZVtKbByu-pIuSi6vd1VnjznT87UkP0dz9X5jRpbPQPDdvu-fzmSq1yv-zeMC7j0zIOwPQo3m-6Bst3PFrfyLwJ2k9SCoaIUvMwnL1GzpkrCO0Yl0k",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Plan Ahead: Lanterns, Mooncakes & Memories This Mid-Autumn Festival",
-      "start": "Oct 2",
-      "end": "27 Sept, 6:30 pm – 12 Oct, 10:30 pm",
-      "venue": "Lakeside Field",
-      "address": "Chinese Garden Rd, Lakeside Field",
-      "url": "https://dateideas.sg/event/plan-ahead-lanterns-mooncakes-memories-this-mid-autumn-festival/",
-      "image": "https://dateideas.sg/wp-content/uploads/2025/09/image7.png",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Mid-Autumn Festival 2025",
-      "start": "Oct 2",
-      "end": "22 Sept – 12 Oct",
-      "venue": "Gardens by the Bay",
-      "address": "18 Marina Gardens Dr, Gardens by the Bay",
-      "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/mid-autumn-festival-2025.html",
-      "image": "https://www.gardensbythebay.com.sg/content/dam/gbb-2021/image/things-to-do/events/mid-autumn-festival-2025/2025-MAF-AKKG-KV.jpg",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Gardens by The Bay",
-      "start": "Oct 2",
-      "end": "27 Sept, 6:00 pm – 12 Oct, 6:00 pm",
-      "venue": "Gardens by the Bay",
-      "address": "18 Marina Gardens Dr, Gardens by the Bay",
-      "url": "https://www.timeout.com/singapore/things-to-do/gardens-by-the-bays-mid-autumn-festival",
-      "image": "https://media.timeout.com/images/106321566/image.jpg",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Samm (BE)",
-      "start": "Oct 3",
-      "end": "Fri, 3 Oct, 7:00 – 11:00 pm",
-      "venue": "SkyPark Observation Deck",
-      "address": "10 Bayfront Avenue, Hotel, Tower 3 SkyPark Observation Deck, Level 56, Marina Bay Sands",
-      "url": "https://open.spotify.com/concert/1aWXktuBmUNDIjv5FLbEv5",
-      "image": "https://image-cdn-ak.spotifycdn.com/image/ab67618600001016124f05749913dcdf50284079",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "RaveDAO Singapore: ENL1GHT",
-      "start": "Oct 3",
-      "end": "Fri, 3 Oct, 9:00 pm – Sat, 4 Oct, 12:00 am",
-      "venue": "Pasir Panjang Power Station",
-      "address": "27 Pasir Panjang Rd, Pasir Panjang Power Station, Singapore",
-      "url": "https://www.eventbrite.com/e/1584406284849",
-      "image": "https://cdn.evbuc.com/images/1129044133/977498201953/1/logo.20250919-072648",
-      "category": "general",
-      "source": "serpapi_google_events"
-    },
-    {
-      "title": "Don Diablo",
-      "start": "Oct 3",
-      "end": "Fri, 3 Oct, 9:00 pm – Sat, 4 Oct, 1:00 am",
-      "venue": "Zouk Singapore",
-      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
-      "url": "https://open.spotify.com/concert/1RMANgHPZs0YffLZyeYcuH",
-      "image": "https://image-cdn-ak.spotifycdn.com/image/ab67618600001016b7527b339503873bb4a642e9",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
     {
       "title": "ENHYPEN",
       "start": "Oct 4",
@@ -135,17 +25,6 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "BABYMETAL Concert 2025 (Singapore)",
-      "start": "Oct 4",
-      "end": "Sat, 4 Oct",
-      "venue": "Marina Bay Street Circuit Pit Building",
-      "address": "Marina Bay, Marina Bay Street Circuit Pit Building",
-      "url": "https://ahboy.com/event/babymetal-concert-2025/",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgRRjN9-PUE7A4XJ6hvJ1QZ55oSlDz97gmnoa5hPU&s",
-      "category": "music",
-      "source": "serpapi_google_events"
-    },
-    {
       "title": "Mid-Autumn Family Fun 2025 (Singapore)",
       "start": "Oct 4",
       "end": "Sat, 4 Oct – Sun, 5 Oct",
@@ -157,24 +36,35 @@
       "source": "serpapi_google_events"
     },
     {
-      "title": "Mid-Autumn Festival Carnival",
+      "title": "NHG Healthiverse",
       "start": "Oct 4",
-      "end": "Sat, 4 Oct, 5:00 – 9:00 am",
-      "venue": "81 Clemenceau Ave, Singapore",
-      "address": "81 Clemenceau Ave, Singapore",
-      "url": "https://www.wonderlingoedu.com/events/mid-autumn-festival-carnival",
-      "image": "https://static.wixstatic.com/media/11da01_9411e3472d3440b6a986071c58022b46~mv2.jpeg/v1/fill/w_980,h_552,al_c,q_85/11da01_9411e3472d3440b6a986071c58022b46~mv2.jpeg",
+      "end": "Sat, 4 Oct, 9:00 am – Sun, 5 Oct, 5:30 pm",
+      "venue": "Singapore Sports Hub",
+      "address": "1 Stadium Dr, #02-01 Singapore Sports Hub, National Stadium",
+      "url": "https://www.eventbrite.sg/e/nhg-healthiverse-tickets-1661008504149",
+      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1113199793%2F269474922977%2F1%2Foriginal.20250903-165029?w=1000&amp;auto=format%2Ccompress&amp;q=75&amp;sharp=10&amp;rect=45%2C0%2C5210%2C2605&amp;s=202c90fb400cda6805c052dbd32fdbe9",
       "category": "general",
       "source": "serpapi_google_events"
     },
     {
-      "title": "The Art & Science of Medicine Festival 2025",
+      "title": "Livia Mid Autumn Celebration",
       "start": "Oct 4",
-      "end": "Sat, 4 Oct, 10:00 am – 8:00 pm",
-      "venue": "Central Plaza",
-      "address": "1 Tampines Walk, Central Plaza, Singapore",
-      "url": "https://www.ntu.edu.sg/medicine/news-events/events/detail/2025/10/04/default-calendar/the-art---science-of-medicine-festival-2025",
-      "image": "https://www.ntu.edu.sg/images/default-source/default-album/ntu-thehive-775x465.jpg",
+      "end": "Sat, 4 Oct, 4:30 – 7:30 pm",
+      "venue": "Grand Hyatt Singapore",
+      "address": "10 Scotts Rd, Grand Hyatt Singapore, Singapore",
+      "url": "https://allevents.in/singapore/livia-mid-autumn-celebration/200028803644803",
+      "image": "https://cdn-az.allevents.in/events3/banners/5408165bdd4cdd57e5754bc63a931990da3137e4819a688076ac9cc444ffc667-rimg-w1080-h703-dc5a357b-gmir?v=1759250086",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "香港聯校校友會中秋晚宴 2025 Hong Kong Joint-U Alumni Mid-Autumn Festival Dinner 2025",
+      "start": "Oct 4",
+      "end": "Sat, 4 Oct, 5:30 – 10:00 pm",
+      "venue": "Fu Lin Men Grandeur",
+      "address": "Kitchener Rd, #03-05 Fu Lin Men Grandeur, Novotel Singapore on Kitchener, 181",
+      "url": "https://www.eventbrite.com/e/1468425763989",
+      "image": "https://www.google.com/maps/vt/data=aUPbk8H99yiu-t4rE5obXNsT85ybDMFARkAwC4qebpejhwn7wh-mznVnyOhRfzoOmTpqL6ust0AfMweRsqeMn9NmPirCUuGhtJ_LVShUYP_dqiUDQx8",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -209,6 +99,39 @@
       "url": "https://app.discotech.me/events/38026506-wukong-at-zouk",
       "image": "https://images.discotech.me/events/38026506/50a176b3-fca7-47b1-be60-78cd45e91ad5.png",
       "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Plan Ahead: Lanterns, Mooncakes & Memories This Mid-Autumn Festival",
+      "start": "Oct 4",
+      "end": "27 Sept, 6:30 pm – 12 Oct, 10:30 pm",
+      "venue": "Lakeside Field",
+      "address": "Chinese Garden Rd, Lakeside Field",
+      "url": "https://dateideas.sg/event/plan-ahead-lanterns-mooncakes-memories-this-mid-autumn-festival/",
+      "image": "https://dateideas.sg/wp-content/uploads/2025/09/image7.png",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Mid-Autumn Festival 2025",
+      "start": "Oct 4",
+      "end": "22 Sept – 12 Oct",
+      "venue": "Gardens by the Bay",
+      "address": "18 Marina Gardens Dr, Gardens by the Bay",
+      "url": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/mid-autumn-festival-2025.html",
+      "image": "https://www.gardensbythebay.com.sg/content/dam/gbb-2021/image/things-to-do/events/mid-autumn-festival-2025/2025-MAF-AKKG-KV.jpg",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Gardens by The Bay",
+      "start": "Oct 4",
+      "end": "27 Sept, 6:00 pm – 12 Oct, 6:00 pm",
+      "venue": "Gardens by the Bay",
+      "address": "18 Marina Gardens Dr, Gardens by the Bay",
+      "url": "https://www.timeout.com/singapore/things-to-do/gardens-by-the-bays-mid-autumn-festival",
+      "image": "https://media.timeout.com/images/106321566/image.jpg",
+      "category": "general",
       "source": "serpapi_google_events"
     },
     {
@@ -251,7 +174,7 @@
       "venue": "RASA Space",
       "address": "9 Raffles Place #02-01, Tower, #1 RASA Space, Republic Plaza",
       "url": "https://www.eventbrite.sg/e/chill-sessions-3-originals-only-friday-10-oct-rasa-raffles-place-tickets-1700260096719",
-      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1124108473%2F274415598294%2F1%2Foriginal.20250915-092835?w=1000&amp;auto=format%2Ccompress&amp;q=75&amp;sharp=10&amp;rect=0%2C28%2C1200%2C600&amp;s=e100d7e8ade4dd0bc8407426d4c1d7e5",
+      "image": "https://cdn.evbuc.com/images/1143301343/274415598294/1/logo.20251003-030322",
       "category": "music",
       "source": "serpapi_google_events"
     },
@@ -311,6 +234,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Celebfest October 2025 — Suntec Singapore",
+      "start": "Oct 17",
+      "end": "Fri, 17 Oct, 12:00 pm – Sun, 19 Oct, 10:00 pm",
+      "venue": "Suntec Singapore Convention & Exhibition Centre",
+      "address": "1 Raffles Blvd, Suntec Singapore Convention & Exhibition Centre",
+      "url": "https://www.suntecsingapore.com/visit-events/celebfest-2025-oct",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ7Lhgkd3Tk0afZR19w7WO59hHfchLAIYFAabtCEo&s",
+      "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Jazz & Wine at The Intercontinental Singapore",
       "start": "Oct 17",
       "end": "Fri, 17 Oct, 8:00 – 10:29 pm",
@@ -333,6 +267,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "KEY",
+      "start": "Oct 18",
+      "end": "Sat, 18 Oct, 7:00 – 11:00 pm",
+      "venue": "Capitol Theatre",
+      "address": "17 Stamford Rd, Capitol Theatre, Singapore",
+      "url": "https://open.spotify.com/concert/0mi3k0fr3Ci1GxiMcoRbkF",
+      "image": "https://image-cdn-ak.spotifycdn.com/image/ab67618600001016f138498d0a5d06c679f0cc87",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Kizomba & Semba Weekender Singapore",
       "start": "Oct 21",
       "end": "Tue, 21 Oct, 12:00 am – Thu, 23 Oct, 12:00 am",
@@ -341,6 +286,28 @@
       "url": "https://eventseeker.com/venue/866256-bugis-street-market-singapore",
       "image": "https://www.google.com/maps/vt/data=km-IHD7tYxy4MAbB4Qp6X6Fp7qpD_WSjyP9QpBzSkpqH9RYvmxXUR36JumMGl1K5V12lsGJ-xsRrGZio09agJcOnwY2pa-EzFo80ZOCfJnK1hEPcQdk",
       "category": "general",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "TGIW",
+      "start": "Oct 22",
+      "end": "Wed, 22 Oct",
+      "venue": "Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Zouk Singapore",
+      "url": "https://zoukgroup.com/singapore/zouk/event/EVE109748600020251022/tgiw/",
+      "image": "https://venueeventartist.com/imateq/event/200785/1097486/2159248/1200SC0/2159251.png",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Thursday Night Hustle",
+      "start": "Oct 23",
+      "end": "Thu, 23 Oct, 10:00 pm",
+      "venue": "Capital Zouk Singapore",
+      "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
+      "url": "https://app.discotech.me/events/38045368-thursday-night-hustle-at-capital",
+      "image": "https://images.discotech.me/events/38045368/80d12132-228e-4f31-ad6b-b1c0e524ef9e.jpeg",
+      "category": "music",
       "source": "serpapi_google_events"
     },
     {
@@ -377,6 +344,17 @@
       "source": "serpapi_google_events"
     },
     {
+      "title": "Jam Hsiao",
+      "start": "Oct 25",
+      "end": "Sat, 25 Oct, 8:00 – 11:00 pm",
+      "venue": "Singapore Indoor Stadium",
+      "address": "2 Stadium Walk, Singapore Indoor Stadium",
+      "url": "https://www.livenation.sg/event/jam-hsiao-wild-mild-world-tour-in-singapore-2025-singapore-tickets-edp1610969",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqrJO42CxDrgHuj5O66-ljKmmf5_wM1itlM7-suj7t2ZRpzsJre7MGsbs&s",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
       "title": "Bollywood Club Presents DJ AQEEL at Blu Jaz, Singapore",
       "start": "Oct 25",
       "end": "Sat, 25 Oct, 10:00 pm – Sun, 26 Oct, 3:00 am",
@@ -405,7 +383,7 @@
       "venue": "839 Woodlands Street 82, Block 839 HDB Woodlands, Singapore",
       "address": "839 Woodlands Street 82, Block 839 HDB Woodlands, Singapore",
       "url": "https://allevents.in/woodlands/flea-market/200028954884639",
-      "image": "https://cdn-az.allevents.in/events10/banners/155949ce49aad3cc1a67532c0d56c969b8997026314b240b350224c71515d82a-rimg-w1200-h518-dcffffff-gmir?v=1758922599",
+      "image": "https://cdn-az.allevents.in/events10/banners/155949ce49aad3cc1a67532c0d56c969b8997026314b240b350224c71515d82a-rimg-w1200-h518-dcffffff-gmir?v=1759592570",
       "category": "general",
       "source": "serpapi_google_events"
     },
@@ -428,6 +406,17 @@
       "address": "3C River Valley Road 01-05 to #02-06, Capital Zouk Singapore",
       "url": "https://zoukgroup.com/singapore/capital/event/EVE109749000020251030/thursday-night-hustle/",
       "image": "https://venueeventartist.com/imateq/event/200785/1097490/2159183/1200SC0/2159185.jpeg",
+      "category": "music",
+      "source": "serpapi_google_events"
+    },
+    {
+      "title": "Blue Live in Asia",
+      "start": "Nov 25",
+      "end": "Tue, 25 Nov, 8:00 – 10:00 pm",
+      "venue": "The Theatre at Mediacorp",
+      "address": "1 Stars Ave, The Theatre at Mediacorp",
+      "url": "https://www.livenation.sg/event/blue-live-in-asia-singapore-tickets-edp1612340",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOFbwtzxxBn8_o3fD414AWs5_kP-2ygNeUvbWgYyv5m8_u7xfSSdsKDKg&s",
       "category": "music",
       "source": "serpapi_google_events"
     },
