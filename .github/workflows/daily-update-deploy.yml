@@ -1,210 +1,210 @@
-name: Update Places, Update Events, and Deploy
+# name: Update Places, Update Events, and Deploy
 
-on:
-  push:
-    branches:
-      - main
-  schedule:
-    # 00:00 SGT daily (16:00 UTC) — events job will gate to odd days or weekends
-    - cron: "0 16 * * *"
-    # 00:05 SGT every Monday (Sunday 16:05 UTC) — weekly Places refresh in SGT
-    - cron: "5 16 * * 0"
-  workflow_dispatch: {}
+# on:
+#   push:
+#     branches:
+#       - main
+#   schedule:
+#     # 00:00 SGT daily (16:00 UTC) — events job will gate to odd days or weekends
+#     - cron: "0 16 * * *"
+#     # 00:05 SGT every Monday (Sunday 16:05 UTC) — weekly Places refresh in SGT
+#     - cron: "5 16 * * 0"
+#   workflow_dispatch: {}
 
-permissions:
-  contents: write
+# permissions:
+#   contents: write
 
-jobs:
-  # --------------------------
-  # EVENTS: alternate days + weekends (SerpAPI)
-  # --------------------------
-  events-serpapi:
-    # Run for push/workflow_dispatch OR the daily cron. Skip the weekly cron.
-    if: github.event_name != 'schedule' || github.event.schedule == '0 16 * * *'
-    runs-on: ubuntu-latest
-    outputs:
-      ran: ${{ steps.decide.outputs.run }}
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          persist-credentials: true
-          fetch-depth: 0
+# jobs:
+#   # --------------------------
+#   # EVENTS: alternate days + weekends (SerpAPI)
+#   # --------------------------
+#   events-serpapi:
+#     # Run for push/workflow_dispatch OR the daily cron. Skip the weekly cron.
+#     if: github.event_name != 'schedule' || github.event.schedule == '0 16 * * *'
+#     runs-on: ubuntu-latest
+#     outputs:
+#       ran: ${{ steps.decide.outputs.run }}
+#     steps:
+#       - name: Checkout Repo
+#         uses: actions/checkout@v4
+#         with:
+#           ref: main
+#           persist-credentials: true
+#           fetch-depth: 0
 
-      - name: Decide if we should run today (odd DOM OR weekend, in Singapore time)
-        id: decide
-        shell: bash
-        run: |
-          export TZ=Asia/Singapore
-          dom=$(date +%d)         # 01..31 (zero-padded)
-          dow=$(date +%u)         # 1=Mon .. 7=Sun
-          is_odd=$((10#$dom % 2))
-          if [ "$dow" -ge 6 ] || [ "$is_odd" -eq 1 ]; then
-            echo "run=true"  >> "$GITHUB_OUTPUT"
-            echo "Will run: weekend or odd day-of-month."
-          else
-            echo "run=false" >> "$GITHUB_OUTPUT"
-            echo "Skipping: even weekday."
-          fi
+#       - name: Decide if we should run today (odd DOM OR weekend, in Singapore time)
+#         id: decide
+#         shell: bash
+#         run: |
+#           export TZ=Asia/Singapore
+#           dom=$(date +%d)         # 01..31 (zero-padded)
+#           dow=$(date +%u)         # 1=Mon .. 7=Sun
+#           is_odd=$((10#$dom % 2))
+#           if [ "$dow" -ge 6 ] || [ "$is_odd" -eq 1 ]; then
+#             echo "run=true"  >> "$GITHUB_OUTPUT"
+#             echo "Will run: weekend or odd day-of-month."
+#           else
+#             echo "run=false" >> "$GITHUB_OUTPUT"
+#             echo "Skipping: even weekday."
+#           fi
 
-      - name: Set up Python
-        if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
+#       - name: Set up Python
+#         if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
+#         uses: actions/setup-python@v4
+#         with:
+#           python-version: '3.10'
 
-      - name: Install dependencies (Events)
-        if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
-        run: pip install requests python-dateutil
+#       - name: Install dependencies (Events)
+#         if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
+#         run: pip install requests python-dateutil
 
-      - name: Fetch events from SerpAPI
-        if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
-        env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-        run: python get_serpapi_events.py
+#       - name: Fetch events from SerpAPI
+#         if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
+#         env:
+#           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+#         run: python get_serpapi_events.py
 
-      - name: Commit & Push changes for events.json (if any)
-        if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain public/data/events.json)" ]]; then
-            git add public/data/events.json
-            git commit -m "chore: update events.json from SerpAPI ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
-            git pull --rebase origin main
-            git push origin main
-          else
-            echo "✅ No changes to events.json"
-          fi
+#       - name: Commit & Push changes for events.json (if any)
+#         if: steps.decide.outputs.run == 'true' || github.event_name != 'schedule'
+#         run: |
+#           git config user.name  "github-actions[bot]"
+#           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#           if [[ -n "$(git status --porcelain public/data/events.json)" ]]; then
+#             git add public/data/events.json
+#             git commit -m "chore: update events.json from SerpAPI ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+#             git pull --rebase origin main
+#             git push origin main
+#           else
+#             echo "✅ No changes to events.json"
+#           fi
 
-  # --------------------------
-  # PLACES: weekly (every Monday 00:05 SGT)
-  # --------------------------
-  places-weekly:
-    runs-on: ubuntu-latest
-    outputs:
-      run_weekly: ${{ steps.weekly_decide.outputs.run }}
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          persist-credentials: true
-          fetch-depth: 0
+#   # --------------------------
+#   # PLACES: weekly (every Monday 00:05 SGT)
+#   # --------------------------
+#   places-weekly:
+#     runs-on: ubuntu-latest
+#     outputs:
+#       run_weekly: ${{ steps.weekly_decide.outputs.run }}
+#     steps:
+#       - name: Checkout Repo
+#         uses: actions/checkout@v4
+#         with:
+#           ref: main
+#           persist-credentials: true
+#           fetch-depth: 0
 
-      # Decide inside the job (so the job always exists and 'deploy' can depend on it)
-      - name: Decide if weekly should run (Monday 00:05 SGT only, or manual dispatch/push)
-        id: weekly_decide
-        shell: bash
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-          SCHEDULE: ${{ github.event.schedule }}
-        run: |
-          if [ "$EVENT_NAME" = "workflow_dispatch" ] || [ "$EVENT_NAME" = "push" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-            echo "Trigger is $EVENT_NAME → allowing places-weekly."
-          elif [ "$EVENT_NAME" = "schedule" ] && [ "$SCHEDULE" = "5 16 * * 0" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-            echo "Scheduled at Monday 00:05 SGT (Sunday 16:05 UTC) → running places-weekly."
-          else
-            echo "run=false" >> "$GITHUB_OUTPUT"
-            echo "Not the Monday 00:05 SGT schedule → skipping places-weekly."
-          fi
+#       # Decide inside the job (so the job always exists and 'deploy' can depend on it)
+#       - name: Decide if weekly should run (Monday 00:05 SGT only, or manual dispatch/push)
+#         id: weekly_decide
+#         shell: bash
+#         env:
+#           EVENT_NAME: ${{ github.event_name }}
+#           SCHEDULE: ${{ github.event.schedule }}
+#         run: |
+#           if [ "$EVENT_NAME" = "workflow_dispatch" ] || [ "$EVENT_NAME" = "push" ]; then
+#             echo "run=true" >> "$GITHUB_OUTPUT"
+#             echo "Trigger is $EVENT_NAME → allowing places-weekly."
+#           elif [ "$EVENT_NAME" = "schedule" ] && [ "$SCHEDULE" = "5 16 * * 0" ]; then
+#             echo "run=true" >> "$GITHUB_OUTPUT"
+#             echo "Scheduled at Monday 00:05 SGT (Sunday 16:05 UTC) → running places-weekly."
+#           else
+#             echo "run=false" >> "$GITHUB_OUTPUT"
+#             echo "Not the Monday 00:05 SGT schedule → skipping places-weekly."
+#           fi
 
-      - name: Set up Python
-        if: steps.weekly_decide.outputs.run == 'true'
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
+#       - name: Set up Python
+#         if: steps.weekly_decide.outputs.run == 'true'
+#         uses: actions/setup-python@v4
+#         with:
+#           python-version: '3.10'
 
-      - name: Install dependencies (Places)
-        if: steps.weekly_decide.outputs.run == 'true'
-        run: pip install requests
+#       - name: Install dependencies (Places)
+#         if: steps.weekly_decide.outputs.run == 'true'
+#         run: pip install requests
 
-      - name: Generate places.json
-        if: steps.weekly_decide.outputs.run == 'true'
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: python get_places.py
+#       - name: Generate places.json
+#         if: steps.weekly_decide.outputs.run == 'true'
+#         env:
+#           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+#         run: python get_places.py
 
-      - name: Commit & Push changes for places.json (if any)
-        if: steps.weekly_decide.outputs.run == 'true'
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain public/data/places.json)" ]]; then
-            git add public/data/places.json
-            git commit -m "Auto-update places.json ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
-            git pull --rebase origin main
-            git push origin main
-          else
-            echo "✅ No changes to places.json"
-          fi
+#       - name: Commit & Push changes for places.json (if any)
+#         if: steps.weekly_decide.outputs.run == 'true'
+#         run: |
+#           git config user.name  "github-actions[bot]"
+#           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#           if [[ -n "$(git status --porcelain public/data/places.json)" ]]; then
+#             git add public/data/places.json
+#             git commit -m "Auto-update places.json ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+#             git pull --rebase origin main
+#             git push origin main
+#           else
+#             echo "✅ No changes to places.json"
+#           fi
 
-      - name: Generate featured_attractions.json (+ images)
-        if: steps.weekly_decide.outputs.run == 'true'
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: python get_featured_attractions.py
+#       - name: Generate featured_attractions.json (+ images)
+#         if: steps.weekly_decide.outputs.run == 'true'
+#         env:
+#           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+#         run: python get_featured_attractions.py
 
-      - name: Commit & Push featured attractions (if any)
-        if: steps.weekly_decide.outputs.run == 'true'
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain public/data/featured_attractions.json)" ]]; then
-            git add public/data/featured_attractions.json
-            git commit -m "Auto-update featured_attractions.json ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
-            git pull --rebase origin main
-            git push origin main
-          else
-            echo "✅ No changes to featured_attractions.json"
-          fi
+#       - name: Commit & Push featured attractions (if any)
+#         if: steps.weekly_decide.outputs.run == 'true'
+#         run: |
+#           git config user.name  "github-actions[bot]"
+#           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#           if [[ -n "$(git status --porcelain public/data/featured_attractions.json)" ]]; then
+#             git add public/data/featured_attractions.json
+#             git commit -m "Auto-update featured_attractions.json ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+#             git pull --rebase origin main
+#             git push origin main
+#           else
+#             echo "✅ No changes to featured_attractions.json"
+#           fi
 
-  # --------------------------
-  # SINGLE DEPLOY — runs once after both jobs finish
-  # --------------------------
-  deploy:
-    needs: [events-serpapi, places-weekly]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          persist-credentials: true
-          fetch-depth: 0
+#   # --------------------------
+#   # SINGLE DEPLOY — runs once after both jobs finish
+#   # --------------------------
+#   deploy:
+#     needs: [events-serpapi, places-weekly]
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout Repo
+#         uses: actions/checkout@v4
+#         with:
+#           ref: main
+#           persist-credentials: true
+#           fetch-depth: 0
 
-      # Generate QR assets on the runner (no local setup needed)
-      - name: Setup Node (for QR generation)
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+#       # Generate QR assets on the runner (no local setup needed)
+#       - name: Setup Node (for QR generation)
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: 20
 
-      - name: Generate QR (SVG + PNG)
-        run: |
-          mkdir -p public/assets/logo
-          # Standard black QR
-          npx --yes qrcode -o public/assets/logo/amara_qr.svg "https://amara-concierge-88c12.web.app"
-          npx --yes qrcode -o public/assets/logo/amara_qr.png "https://amara-concierge-88c12.web.app"
+#       - name: Generate QR (SVG + PNG)
+#         run: |
+#           mkdir -p public/assets/logo
+#           # Standard black QR
+#           npx --yes qrcode -o public/assets/logo/amara_qr.svg "https://amara-concierge-88c12.web.app"
+#           npx --yes qrcode -o public/assets/logo/amara_qr.png "https://amara-concierge-88c12.web.app"
 
-      # OPTIONAL: commit the QR files so they appear in GitHub/VS Code
-      - name: Commit QR if changed
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain public/assets/logo/amara_qr.svg public/assets/logo/amara_qr.png public/assets/logo/amara_qr_gold.png)" ]]; then
-            git add public/assets/logo/amara_qr.svg public/assets/logo/amara_qr.png public/assets/logo/amara_qr_gold.png
-            git commit -m "chore: add/update QR assets"
-            git pull --rebase origin main
-            git push origin main
-          else
-            echo "✅ No QR changes to commit"
-          fi
+#       # OPTIONAL: commit the QR files so they appear in GitHub/VS Code
+#       - name: Commit QR if changed
+#         run: |
+#           git config user.name  "github-actions[bot]"
+#           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#           if [[ -n "$(git status --porcelain public/assets/logo/amara_qr.svg public/assets/logo/amara_qr.png public/assets/logo/amara_qr_gold.png)" ]]; then
+#             git add public/assets/logo/amara_qr.svg public/assets/logo/amara_qr.png public/assets/logo/amara_qr_gold.png
+#             git commit -m "chore: add/update QR assets"
+#             git pull --rebase origin main
+#             git push origin main
+#           else
+#             echo "✅ No QR changes to commit"
+#           fi
 
-      - name: Install Firebase CLI
-        run: npm install -g firebase-tools
+#       - name: Install Firebase CLI
+#         run: npm install -g firebase-tools
 
-      - name: Deploy to Firebase
-        run: firebase deploy --project amara-concierge-88c12 --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
+#       - name: Deploy to Firebase
+#         run: firebase deploy --project amara-concierge-88c12 --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
